@@ -1,0 +1,412 @@
+{
+  "id": "sentences",
+  "type": "sentences",
+  "traditional": "句子",
+  "simplified": "句子",
+  "pinyin": "jù zi",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "sentence-1",
+      "english": "I drink water.",
+      "tokens": [
+        "i",
+        "drink",
+        "water"
+      ],
+      "audio": {
+        "female": "audio/female/12542269cf686601.mp3",
+        "male": "audio/male/12542269cf686601.mp3"
+      }
+    },
+    {
+      "id": "sentence-2",
+      "english": "You drink tea.",
+      "tokens": [
+        "you",
+        "drink",
+        "tea"
+      ],
+      "audio": {
+        "female": "audio/female/6493a07382f7de8d.mp3",
+        "male": "audio/male/6493a07382f7de8d.mp3"
+      }
+    },
+    {
+      "id": "sentence-3",
+      "english": "He drinks coffee.",
+      "tokens": [
+        "he",
+        "drink",
+        "coffee"
+      ],
+      "audio": {
+        "female": "audio/female/f7b135de1341f73a.mp3",
+        "male": "audio/male/f7b135de1341f73a.mp3"
+      }
+    },
+    {
+      "id": "sentence-4",
+      "english": "She eats rice.",
+      "tokens": [
+        "she",
+        "eat",
+        "rice"
+      ],
+      "audio": {
+        "female": "audio/female/85f1c7d6d5a64506.mp3",
+        "male": "audio/male/85f1c7d6d5a64506.mp3"
+      }
+    },
+    {
+      "id": "sentence-5",
+      "english": "I like cats.",
+      "tokens": [
+        "i",
+        "like",
+        "cat"
+      ],
+      "audio": {
+        "female": "audio/female/b6c540c72fe52201.mp3",
+        "male": "audio/male/b6c540c72fe52201.mp3"
+      }
+    },
+    {
+      "id": "sentence-6",
+      "english": "You like dogs.",
+      "tokens": [
+        "you",
+        "like",
+        "dog"
+      ],
+      "audio": {
+        "female": "audio/female/92ec89921056403d.mp3",
+        "male": "audio/male/92ec89921056403d.mp3"
+      }
+    },
+    {
+      "id": "sentence-7",
+      "english": "He has a duck.",
+      "tokens": [
+        "he",
+        "have",
+        "duck"
+      ],
+      "audio": {
+        "female": "audio/female/9a00e629997039b9.mp3",
+        "male": "audio/male/9a00e629997039b9.mp3"
+      }
+    },
+    {
+      "id": "sentence-8",
+      "english": "She wants water.",
+      "tokens": [
+        "she",
+        "want",
+        "water"
+      ],
+      "audio": {
+        "female": "audio/female/a295e1c6623df3f1.mp3",
+        "male": "audio/male/a295e1c6623df3f1.mp3"
+      }
+    },
+    {
+      "id": "sentence-9",
+      "english": "I am at home.",
+      "tokens": [
+        "i",
+        "at",
+        "home"
+      ],
+      "audio": {
+        "female": "audio/female/586d4ff4cd1563eb.mp3",
+        "male": "audio/male/586d4ff4cd1563eb.mp3"
+      }
+    },
+    {
+      "id": "sentence-10",
+      "english": "You are at home.",
+      "tokens": [
+        "you",
+        "at",
+        "home"
+      ],
+      "audio": {
+        "female": "audio/female/6eeda59c9cd76aa4.mp3",
+        "male": "audio/male/6eeda59c9cd76aa4.mp3"
+      }
+    },
+    {
+      "id": "sentence-11",
+      "english": "I do not drink coffee.",
+      "tokens": [
+        "i",
+        "not",
+        "drink",
+        "coffee"
+      ],
+      "audio": {
+        "female": "audio/female/6234fb29bbfd1a50.mp3",
+        "male": "audio/male/6234fb29bbfd1a50.mp3"
+      }
+    },
+    {
+      "id": "sentence-12",
+      "english": "She does not eat rice.",
+      "tokens": [
+        "she",
+        "not",
+        "eat",
+        "rice"
+      ],
+      "audio": {
+        "female": "audio/female/1075584e2cc2c2f9.mp3",
+        "male": "audio/male/1075584e2cc2c2f9.mp3"
+      }
+    },
+    {
+      "id": "sentence-13",
+      "english": "He also drinks tea.",
+      "tokens": [
+        "he",
+        "also",
+        "drink",
+        "tea"
+      ],
+      "audio": {
+        "female": "audio/female/2f774ffb925ba6fb.mp3",
+        "male": "audio/male/2f774ffb925ba6fb.mp3"
+      }
+    },
+    {
+      "id": "sentence-14",
+      "english": "I also like cats.",
+      "tokens": [
+        "i",
+        "also",
+        "like",
+        "cat"
+      ],
+      "audio": {
+        "female": "audio/female/742f3d2238bc074b.mp3",
+        "male": "audio/male/742f3d2238bc074b.mp3"
+      }
+    },
+    {
+      "id": "sentence-15",
+      "english": "You want hot coffee.",
+      "tokens": [
+        "you",
+        "want",
+        "hot-coffee"
+      ],
+      "audio": {
+        "female": "audio/female/d5840fb0f85d76b6.mp3",
+        "male": "audio/male/d5840fb0f85d76b6.mp3"
+      }
+    },
+    {
+      "id": "sentence-16",
+      "english": "She drinks cold water.",
+      "tokens": [
+        "she",
+        "drink",
+        "cold-water"
+      ],
+      "audio": {
+        "female": "audio/female/b54df855baecb6a1.mp3",
+        "male": "audio/male/b54df855baecb6a1.mp3"
+      }
+    },
+    {
+      "id": "sentence-17",
+      "english": "He drinks hot tea.",
+      "tokens": [
+        "he",
+        "drink",
+        "hot-tea"
+      ],
+      "audio": {
+        "female": "audio/female/053624b443ad2555.mp3",
+        "male": "audio/male/053624b443ad2555.mp3"
+      }
+    },
+    {
+      "id": "sentence-18",
+      "english": "I have three ducks.",
+      "tokens": [
+        "i",
+        "have",
+        "three-ducks"
+      ],
+      "audio": {
+        "female": "audio/female/9668bdb4cd22b2f7.mp3",
+        "male": "audio/male/9668bdb4cd22b2f7.mp3"
+      }
+    },
+    {
+      "id": "sentence-19",
+      "english": "You have two cats.",
+      "tokens": [
+        "you",
+        "have",
+        "two-cats"
+      ],
+      "audio": {
+        "female": "audio/female/9bfa509086eea6db.mp3",
+        "male": "audio/male/9bfa509086eea6db.mp3"
+      }
+    },
+    {
+      "id": "sentence-20",
+      "english": "She has one dog.",
+      "tokens": [
+        "she",
+        "have",
+        "one-dog"
+      ],
+      "audio": {
+        "female": "audio/female/9a830b4d68205c7a.mp3",
+        "male": "audio/male/9a830b4d68205c7a.mp3"
+      }
+    },
+    {
+      "id": "sentence-21",
+      "english": "I like the long tail.",
+      "tokens": [
+        "i",
+        "like",
+        "long-tail"
+      ],
+      "audio": {
+        "female": "audio/female/df2c85edc3cd0684.mp3",
+        "male": "audio/male/df2c85edc3cd0684.mp3"
+      }
+    },
+    {
+      "id": "sentence-22",
+      "english": "He looks at the big cat.",
+      "tokens": [
+        "he",
+        "see",
+        "big-cat"
+      ],
+      "audio": {
+        "female": "audio/female/b825712c7e1549a4.mp3",
+        "male": "audio/male/b825712c7e1549a4.mp3"
+      }
+    },
+    {
+      "id": "sentence-23",
+      "english": "She likes the small dog.",
+      "tokens": [
+        "she",
+        "like",
+        "small-dog"
+      ],
+      "audio": {
+        "female": "audio/female/49334f87dca48617.mp3",
+        "male": "audio/male/49334f87dca48617.mp3"
+      }
+    },
+    {
+      "id": "sentence-24",
+      "english": "I want hot water.",
+      "tokens": [
+        "i",
+        "want",
+        "hot-water"
+      ],
+      "audio": {
+        "female": "audio/female/8448ad163ace7737.mp3",
+        "male": "audio/male/8448ad163ace7737.mp3"
+      }
+    },
+    {
+      "id": "sentence-25",
+      "english": "He wants cold tea.",
+      "tokens": [
+        "he",
+        "want",
+        "cold-tea"
+      ],
+      "audio": {
+        "female": "audio/female/b3f3b23ac9423786.mp3",
+        "male": "audio/male/b3f3b23ac9423786.mp3"
+      }
+    },
+    {
+      "id": "sentence-26",
+      "english": "She drinks hot coffee.",
+      "tokens": [
+        "she",
+        "drink",
+        "hot-coffee"
+      ],
+      "audio": {
+        "female": "audio/female/83063de51a7d5bc3.mp3",
+        "male": "audio/male/83063de51a7d5bc3.mp3"
+      }
+    },
+    {
+      "id": "sentence-27",
+      "english": "I do not like coffee.",
+      "tokens": [
+        "i",
+        "not",
+        "like",
+        "coffee"
+      ],
+      "audio": {
+        "female": "audio/female/b8aea732b10cc45d.mp3",
+        "male": "audio/male/b8aea732b10cc45d.mp3"
+      }
+    },
+    {
+      "id": "sentence-28",
+      "english": "Eleven is not twelve.",
+      "tokens": [
+        "n11",
+        "not",
+        "is",
+        "n12"
+      ],
+      "audio": {
+        "female": "audio/female/e46788676b953433.mp3",
+        "male": "audio/male/e46788676b953433.mp3"
+      }
+    },
+    {
+      "id": "sentence-29",
+      "english": "One hundred is not two hundred.",
+      "tokens": [
+        "n100",
+        "not",
+        "is",
+        "n200"
+      ],
+      "audio": {
+        "female": "audio/female/5a68fec83ffe5ae5.mp3",
+        "male": "audio/male/5a68fec83ffe5ae5.mp3"
+      }
+    },
+    {
+      "id": "sentence-30",
+      "english": "Three is not four.",
+      "tokens": [
+        "n3",
+        "not",
+        "is",
+        "n4"
+      ],
+      "audio": {
+        "female": "audio/female/9c4df88d24a13fa5.mp3",
+        "male": "audio/male/9c4df88d24a13fa5.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/ea3a456491382f60.mp3",
+    "male": "audio/male/ea3a456491382f60.mp3"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "id": "everyday",
+  "traditional": "日常",
+  "simplified": "日常",
+  "pinyin": "rì cháng",
+  "type": "pairs",
+  "pairs": [
+    {
+      "id": "i",
+      "traditional": "我",
+      "simplified": "我",
+      "pinyin": "wǒ",
+      "english": "I",
+      "audio": {
+        "female": "audio/female/b70bb4acc0484cf0.mp3",
+        "male": "audio/male/b70bb4acc0484cf0.mp3"
+      }
+    },
+    {
+      "id": "you",
+      "traditional": "你",
+      "simplified": "你",
+      "pinyin": "nǐ",
+      "english": "you",
+      "audio": {
+        "female": "audio/female/a0c7716669b5ded0.mp3",
+        "male": "audio/male/a0c7716669b5ded0.mp3"
+      }
+    },
+    {
+      "id": "he",
+      "traditional": "他",
+      "simplified": "他",
+      "pinyin": "tā",
+      "english": "he",
+      "audio": {
+        "female": "audio/female/8b7b91e0001c6971.mp3",
+        "male": "audio/male/8b7b91e0001c6971.mp3"
+      }
+    },
+    {
+      "id": "she",
+      "traditional": "她",
+      "simplified": "她",
+      "pinyin": "tā",
+      "english": "she",
+      "audio": {
+        "female": "audio/female/2ab425e0c6b932cb.mp3",
+        "male": "audio/male/2ab425e0c6b932cb.mp3"
+      }
+    },
+    {
+      "id": "drink",
+      "traditional": "喝",
+      "simplified": "喝",
+      "pinyin": "hē",
+      "english": "drink",
+      "audio": {
+        "female": "audio/female/193632bffe7bd105.mp3",
+        "male": "audio/male/193632bffe7bd105.mp3"
+      }
+    },
+    {
+      "id": "eat",
+      "traditional": "吃",
+      "simplified": "吃",
+      "pinyin": "chī",
+      "english": "eat",
+      "audio": {
+        "female": "audio/female/c814805bc6d0365a.mp3",
+        "male": "audio/male/c814805bc6d0365a.mp3"
+      }
+    },
+    {
+      "id": "see",
+      "traditional": "看",
+      "simplified": "看",
+      "pinyin": "kàn",
+      "english": "look at",
+      "audio": {
+        "female": "audio/female/61f43315f98a4b16.mp3",
+        "male": "audio/male/61f43315f98a4b16.mp3"
+      }
+    },
+    {
+      "id": "have",
+      "traditional": "有",
+      "simplified": "有",
+      "pinyin": "yǒu",
+      "english": "have",
+      "audio": {
+        "female": "audio/female/90ce0f66f09488f2.mp3",
+        "male": "audio/male/90ce0f66f09488f2.mp3"
+      }
+    },
+    {
+      "id": "want",
+      "traditional": "要",
+      "simplified": "要",
+      "pinyin": "yào",
+      "english": "want",
+      "audio": {
+        "female": "audio/female/975f35218ed8782e.mp3",
+        "male": "audio/male/975f35218ed8782e.mp3"
+      }
+    },
+    {
+      "id": "at",
+      "traditional": "在",
+      "simplified": "在",
+      "pinyin": "zài",
+      "english": "at",
+      "audio": {
+        "female": "audio/female/12404a0b63817240.mp3",
+        "male": "audio/male/12404a0b63817240.mp3"
+      }
+    },
+    {
+      "id": "home",
+      "traditional": "家",
+      "simplified": "家",
+      "pinyin": "jiā",
+      "english": "home",
+      "audio": {
+        "female": "audio/female/c8ae97be80f3867c.mp3",
+        "male": "audio/male/c8ae97be80f3867c.mp3"
+      }
+    },
+    {
+      "id": "is",
+      "traditional": "是",
+      "simplified": "是",
+      "pinyin": "shì",
+      "english": "am / is / are",
+      "audio": {
+        "female": "audio/female/b5141d3d19e9a048.mp3",
+        "male": "audio/male/b5141d3d19e9a048.mp3"
+      }
+    },
+    {
+      "id": "not",
+      "traditional": "不",
+      "simplified": "不",
+      "pinyin": "bù",
+      "english": "not",
+      "audio": {
+        "female": "audio/female/b02dfe2160c687c2.mp3",
+        "male": "audio/male/b02dfe2160c687c2.mp3"
+      }
+    },
+    {
+      "id": "also",
+      "traditional": "也",
+      "simplified": "也",
+      "pinyin": "yě",
+      "english": "also",
+      "audio": {
+        "female": "audio/female/658605835bfc7ff8.mp3",
+        "male": "audio/male/658605835bfc7ff8.mp3"
+      }
+    },
+    {
+      "id": "like",
+      "traditional": "喜歡",
+      "simplified": "喜欢",
+      "pinyin": "xǐ huān",
+      "english": "like",
+      "audio": {
+        "female": "audio/female/707f15beb6728796.mp3",
+        "male": "audio/male/707f15beb6728796.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/f648d6712cf804d1.mp3",
+    "male": "audio/male/f648d6712cf804d1.mp3"
+  }
+}

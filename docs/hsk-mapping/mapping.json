@@ -1,0 +1,3730 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "title": "First coins",
+      "village": "Settlement: base correct-answer multiplier",
+      "new_entries": 10,
+      "card_count": 10
+    },
+    {
+      "level": 2,
+      "title": "Counting purchases",
+      "village": "Stall: quantity purchases and number-match multiplier",
+      "new_entries": 2,
+      "card_count": 10
+    },
+    {
+      "level": 3,
+      "title": "Bigger earnings",
+      "village": "Counting house: number rewards and first prestige milestone",
+      "new_entries": 8,
+      "card_count": 11
+    },
+    {
+      "level": 4,
+      "title": "First residents",
+      "village": "Home: village-wide correct-answer multiplier",
+      "new_entries": 13,
+      "card_count": 13
+    },
+    {
+      "level": 5,
+      "title": "Welcome home",
+      "village": "Housing plots: location-puzzle reward multiplier",
+      "new_entries": 11,
+      "card_count": 14
+    },
+    {
+      "level": 6,
+      "title": "Tea stall",
+      "village": "Tea stall: word-hit reward multiplier",
+      "new_entries": 12,
+      "card_count": 12
+    },
+    {
+      "level": 7,
+      "title": "Village kitchen",
+      "village": "Kitchen: matching-board completion multiplier",
+      "new_entries": 12,
+      "card_count": 12
+    },
+    {
+      "level": 8,
+      "title": "Family homes",
+      "village": "Courtyards: housing and kitchen multiplier synergy",
+      "new_entries": 13,
+      "card_count": 13
+    },
+    {
+      "level": 9,
+      "title": "Furnishing homes",
+      "village": "Furnishings: improve courtyard multiplier tiers",
+      "new_entries": 15,
+      "card_count": 15
+    },
+    {
+      "level": 10,
+      "title": "Village calendar",
+      "village": "Clock: repeatable objectives multiply earned coins",
+      "new_entries": 14,
+      "card_count": 15
+    },
+    {
+      "level": 11,
+      "title": "Daily life",
+      "village": "Schedules: objective completion multiplier",
+      "new_entries": 13,
+      "card_count": 13
+    },
+    {
+      "level": 12,
+      "title": "Village school",
+      "village": "School: familiar-vocabulary review multiplier",
+      "new_entries": 15,
+      "card_count": 16
+    },
+    {
+      "level": 13,
+      "title": "Visitors",
+      "village": "Welcome pavilion: visitor-request multiplier",
+      "new_entries": 13,
+      "card_count": 13
+    },
+    {
+      "level": 14,
+      "title": "Weather and wellbeing",
+      "village": "Clinic and shelter: matching-set reward multiplier",
+      "new_entries": 12,
+      "card_count": 12
+    },
+    {
+      "level": 15,
+      "title": "Larger market",
+      "village": "Market: commercial building multiplier tiers",
+      "new_entries": 14,
+      "card_count": 15
+    },
+    {
+      "level": 16,
+      "title": "Food street",
+      "village": "Restaurants: specialize word, match, or sentence earnings",
+      "new_entries": 11,
+      "card_count": 11
+    },
+    {
+      "level": 17,
+      "title": "Growing households",
+      "village": "Residential district: household-set multiplier synergy",
+      "new_entries": 12,
+      "card_count": 12
+    },
+    {
+      "level": 18,
+      "title": "Roads and connections",
+      "village": "Roads: multiply linked buildings' contributions",
+      "new_entries": 14,
+      "card_count": 14
+    },
+    {
+      "level": 19,
+      "title": "Guests and travel",
+      "village": "Guest rooms and transport: travel-request multiplier",
+      "new_entries": 12,
+      "card_count": 12
+    },
+    {
+      "level": 20,
+      "title": "Lively square",
+      "village": "Festival square: set-completion payout multiplier",
+      "new_entries": 15,
+      "card_count": 15
+    },
+    {
+      "level": 21,
+      "title": "Recreation",
+      "village": "Recreation spaces: additional active-play multiplier branch",
+      "new_entries": 11,
+      "card_count": 12
+    },
+    {
+      "level": 22,
+      "title": "Connected town",
+      "village": "Communications: visitor and review reward multipliers",
+      "new_entries": 12,
+      "card_count": 12
+    },
+    {
+      "level": 23,
+      "title": "Skilled residents",
+      "village": "Community office: sentence and correction reward multiplier",
+      "new_entries": 17,
+      "card_count": 17
+    },
+    {
+      "level": 24,
+      "title": "Town coordination",
+      "village": "Town hall: advanced sentence multiplier and final district",
+      "new_entries": 15,
+      "card_count": 15
+    },
+    {
+      "level": 25,
+      "title": "Requests and reasons",
+      "village": "Council: sentence-linking reward multiplier",
+      "new_entries": 4,
+      "card_count": 4
+    }
+  ],
+  "vocabulary": [
+    {
+      "Chinese": "零",
+      "Pinyin": "líng",
+      "English": "zero",
+      "HSK": 1,
+      "Game level": 1,
+      "Village use": "Settlement: base correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "一",
+      "Pinyin": "yī",
+      "English": "one",
+      "HSK": 1,
+      "Game level": 1,
+      "Village use": "Settlement: base correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "二",
+      "Pinyin": "èr",
+      "English": "two",
+      "HSK": 1,
+      "Game level": 1,
+      "Village use": "Settlement: base correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "三",
+      "Pinyin": "sān",
+      "English": "three",
+      "HSK": 1,
+      "Game level": 1,
+      "Village use": "Settlement: base correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "四",
+      "Pinyin": "sì",
+      "English": "four",
+      "HSK": 1,
+      "Game level": 1,
+      "Village use": "Settlement: base correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "五",
+      "Pinyin": "wǔ",
+      "English": "five",
+      "HSK": 1,
+      "Game level": 1,
+      "Village use": "Settlement: base correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "六",
+      "Pinyin": "liù",
+      "English": "six",
+      "HSK": 1,
+      "Game level": 1,
+      "Village use": "Settlement: base correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "七",
+      "Pinyin": "qī",
+      "English": "seven",
+      "HSK": 1,
+      "Game level": 1,
+      "Village use": "Settlement: base correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "八",
+      "Pinyin": "bā",
+      "English": "eight",
+      "HSK": 1,
+      "Game level": 1,
+      "Village use": "Settlement: base correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "九",
+      "Pinyin": "jiǔ",
+      "English": "nine",
+      "HSK": 1,
+      "Game level": 1,
+      "Village use": "Settlement: base correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "十",
+      "Pinyin": "shí",
+      "English": "ten",
+      "HSK": 1,
+      "Game level": 2,
+      "Village use": "Stall: quantity purchases and number-match multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "两",
+      "Pinyin": "liǎng",
+      "English": "two (quantities)",
+      "HSK": 2,
+      "Game level": 2,
+      "Village use": "Stall: quantity purchases and number-match multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "百",
+      "Pinyin": "bǎi",
+      "English": "hundred",
+      "HSK": 2,
+      "Game level": 3,
+      "Village use": "Counting house: number rewards and first prestige milestone",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "千",
+      "Pinyin": "qiān",
+      "English": "thousand",
+      "HSK": 2,
+      "Game level": 3,
+      "Village use": "Counting house: number rewards and first prestige milestone",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "钱",
+      "Pinyin": "qián",
+      "English": "money",
+      "HSK": 1,
+      "Game level": 3,
+      "Village use": "Counting house: number rewards and first prestige milestone",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "块",
+      "Pinyin": "kuài",
+      "English": "yuan (colloquial)",
+      "HSK": 1,
+      "Game level": 3,
+      "Village use": "Counting house: number rewards and first prestige milestone",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "元",
+      "Pinyin": "yuán",
+      "English": "yuan",
+      "HSK": 2,
+      "Game level": 3,
+      "Village use": "Counting house: number rewards and first prestige milestone",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "多少",
+      "Pinyin": "duōshao",
+      "English": "how much / how many",
+      "HSK": 1,
+      "Game level": 3,
+      "Village use": "Counting house: number rewards and first prestige milestone",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "多",
+      "Pinyin": "duō",
+      "English": "many / much",
+      "HSK": 1,
+      "Game level": 3,
+      "Village use": "Counting house: number rewards and first prestige milestone",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "少",
+      "Pinyin": "shǎo",
+      "English": "few / little",
+      "HSK": 1,
+      "Game level": 3,
+      "Village use": "Counting house: number rewards and first prestige milestone",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "我",
+      "Pinyin": "wǒ",
+      "English": "I / me",
+      "HSK": 1,
+      "Game level": 4,
+      "Village use": "Home: village-wide correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "你",
+      "Pinyin": "nǐ",
+      "English": "you",
+      "HSK": 1,
+      "Game level": 4,
+      "Village use": "Home: village-wide correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "他",
+      "Pinyin": "tā",
+      "English": "he / him",
+      "HSK": 1,
+      "Game level": 4,
+      "Village use": "Home: village-wide correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "她",
+      "Pinyin": "tā",
+      "English": "she / her",
+      "HSK": 1,
+      "Game level": 4,
+      "Village use": "Home: village-wide correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "我们",
+      "Pinyin": "wǒmen",
+      "English": "we / us",
+      "HSK": 1,
+      "Game level": 4,
+      "Village use": "Home: village-wide correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "人",
+      "Pinyin": "rén",
+      "English": "person",
+      "HSK": 1,
+      "Game level": 4,
+      "Village use": "Home: village-wide correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "名字",
+      "Pinyin": "míngzi",
+      "English": "name",
+      "HSK": 1,
+      "Game level": 4,
+      "Village use": "Home: village-wide correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "叫",
+      "Pinyin": "jiào",
+      "English": "be called / call",
+      "HSK": 1,
+      "Game level": 4,
+      "Village use": "Home: village-wide correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "是",
+      "Pinyin": "shì",
+      "English": "be",
+      "HSK": 1,
+      "Game level": 4,
+      "Village use": "Home: village-wide correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "的",
+      "Pinyin": "de",
+      "English": "possessive / modifying particle",
+      "HSK": 1,
+      "Game level": 4,
+      "Village use": "Home: village-wide correct-answer multiplier",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "吗",
+      "Pinyin": "ma",
+      "English": "yes-no question particle",
+      "HSK": 1,
+      "Game level": 4,
+      "Village use": "Home: village-wide correct-answer multiplier",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "谁",
+      "Pinyin": "shéi",
+      "English": "who",
+      "HSK": 1,
+      "Game level": 4,
+      "Village use": "Home: village-wide correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "姓",
+      "Pinyin": "xìng",
+      "English": "surname / be surnamed",
+      "HSK": 2,
+      "Game level": 4,
+      "Village use": "Home: village-wide correct-answer multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "家",
+      "Pinyin": "jiā",
+      "English": "home / family",
+      "HSK": 1,
+      "Game level": 5,
+      "Village use": "Housing plots: location-puzzle reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "住",
+      "Pinyin": "zhù",
+      "English": "live / stay",
+      "HSK": 1,
+      "Game level": 5,
+      "Village use": "Housing plots: location-puzzle reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "来",
+      "Pinyin": "lái",
+      "English": "come",
+      "HSK": 1,
+      "Game level": 5,
+      "Village use": "Housing plots: location-puzzle reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "去",
+      "Pinyin": "qù",
+      "English": "go",
+      "HSK": 1,
+      "Game level": 5,
+      "Village use": "Housing plots: location-puzzle reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "回",
+      "Pinyin": "huí",
+      "English": "return",
+      "HSK": 1,
+      "Game level": 5,
+      "Village use": "Housing plots: location-puzzle reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "这（这儿）",
+      "Pinyin": "zhè (zhèr)",
+      "English": "this / here",
+      "HSK": 1,
+      "Game level": 5,
+      "Village use": "Housing plots: location-puzzle reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "那（那儿）",
+      "Pinyin": "nà (nàr)",
+      "English": "that / there",
+      "HSK": 1,
+      "Game level": 5,
+      "Village use": "Housing plots: location-puzzle reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "哪（哪儿）",
+      "Pinyin": "nǎ (nǎr)",
+      "English": "which / where",
+      "HSK": 1,
+      "Game level": 5,
+      "Village use": "Housing plots: location-puzzle reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "在",
+      "Pinyin": "zài",
+      "English": "at / in",
+      "HSK": 1,
+      "Game level": 5,
+      "Village use": "Housing plots: location-puzzle reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "有",
+      "Pinyin": "yǒu",
+      "English": "have / there is",
+      "HSK": 1,
+      "Game level": 5,
+      "Village use": "Housing plots: location-puzzle reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "没",
+      "Pinyin": "méi",
+      "English": "not / did not (negation of 有 or past actions)",
+      "HSK": 1,
+      "Game level": 5,
+      "Village use": "Housing plots: location-puzzle reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "水",
+      "Pinyin": "shuǐ",
+      "English": "water",
+      "HSK": 1,
+      "Game level": 6,
+      "Village use": "Tea stall: word-hit reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "茶",
+      "Pinyin": "chá",
+      "English": "tea",
+      "HSK": 1,
+      "Game level": 6,
+      "Village use": "Tea stall: word-hit reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "喝",
+      "Pinyin": "hē",
+      "English": "drink",
+      "HSK": 1,
+      "Game level": 6,
+      "Village use": "Tea stall: word-hit reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "杯子",
+      "Pinyin": "bēizi",
+      "English": "cup",
+      "HSK": 1,
+      "Game level": 6,
+      "Village use": "Tea stall: word-hit reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "个",
+      "Pinyin": "gè",
+      "English": "general classifier",
+      "HSK": 1,
+      "Game level": 6,
+      "Village use": "Tea stall: word-hit reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "要",
+      "Pinyin": "yào",
+      "English": "want / need",
+      "HSK": 2,
+      "Game level": 6,
+      "Village use": "Tea stall: word-hit reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "想",
+      "Pinyin": "xiǎng",
+      "English": "want / think",
+      "HSK": 1,
+      "Game level": 6,
+      "Village use": "Tea stall: word-hit reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "好",
+      "Pinyin": "hǎo",
+      "English": "good",
+      "HSK": 1,
+      "Game level": 6,
+      "Village use": "Tea stall: word-hit reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "不",
+      "Pinyin": "bù",
+      "English": "not",
+      "HSK": 1,
+      "Game level": 6,
+      "Village use": "Tea stall: word-hit reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "很",
+      "Pinyin": "hěn",
+      "English": "very / adjective linking adverb",
+      "HSK": 1,
+      "Game level": 6,
+      "Village use": "Tea stall: word-hit reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "请",
+      "Pinyin": "qǐng",
+      "English": "please / invite",
+      "HSK": 1,
+      "Game level": 6,
+      "Village use": "Tea stall: word-hit reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "谢谢",
+      "Pinyin": "xièxie",
+      "English": "thank you",
+      "HSK": 1,
+      "Game level": 6,
+      "Village use": "Tea stall: word-hit reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "吃",
+      "Pinyin": "chī",
+      "English": "eat",
+      "HSK": 1,
+      "Game level": 7,
+      "Village use": "Kitchen: matching-board completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "米饭",
+      "Pinyin": "mǐfàn",
+      "English": "cooked rice",
+      "HSK": 1,
+      "Game level": 7,
+      "Village use": "Kitchen: matching-board completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "菜",
+      "Pinyin": "cài",
+      "English": "vegetables / dish",
+      "HSK": 1,
+      "Game level": 7,
+      "Village use": "Kitchen: matching-board completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "水果",
+      "Pinyin": "shuǐguǒ",
+      "English": "fruit",
+      "HSK": 1,
+      "Game level": 7,
+      "Village use": "Kitchen: matching-board completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "苹果",
+      "Pinyin": "píngguǒ",
+      "English": "apple",
+      "HSK": 1,
+      "Game level": 7,
+      "Village use": "Kitchen: matching-board completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "买",
+      "Pinyin": "mǎi",
+      "English": "buy",
+      "HSK": 1,
+      "Game level": 7,
+      "Village use": "Kitchen: matching-board completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "商店",
+      "Pinyin": "shāngdiàn",
+      "English": "shop",
+      "HSK": 1,
+      "Game level": 7,
+      "Village use": "Kitchen: matching-board completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "东西",
+      "Pinyin": "dōngxi",
+      "English": "things",
+      "HSK": 1,
+      "Game level": 7,
+      "Village use": "Kitchen: matching-board completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "大",
+      "Pinyin": "dà",
+      "English": "big",
+      "HSK": 1,
+      "Game level": 7,
+      "Village use": "Kitchen: matching-board completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "小",
+      "Pinyin": "xiǎo",
+      "English": "small",
+      "HSK": 1,
+      "Game level": 7,
+      "Village use": "Kitchen: matching-board completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "些",
+      "Pinyin": "xiē",
+      "English": "some",
+      "HSK": 1,
+      "Game level": 7,
+      "Village use": "Kitchen: matching-board completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "公斤",
+      "Pinyin": "gōngjīn",
+      "English": "kilogram",
+      "HSK": 2,
+      "Game level": 7,
+      "Village use": "Kitchen: matching-board completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "爸爸",
+      "Pinyin": "bàba",
+      "English": "dad",
+      "HSK": 1,
+      "Game level": 8,
+      "Village use": "Courtyards: housing and kitchen multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "妈妈",
+      "Pinyin": "māma",
+      "English": "mom",
+      "HSK": 1,
+      "Game level": 8,
+      "Village use": "Courtyards: housing and kitchen multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "儿子",
+      "Pinyin": "érzi",
+      "English": "son",
+      "HSK": 1,
+      "Game level": 8,
+      "Village use": "Courtyards: housing and kitchen multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "女儿",
+      "Pinyin": "nǚ'ér",
+      "English": "daughter",
+      "HSK": 1,
+      "Game level": 8,
+      "Village use": "Courtyards: housing and kitchen multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "朋友",
+      "Pinyin": "péngyou",
+      "English": "friend",
+      "HSK": 1,
+      "Game level": 8,
+      "Village use": "Courtyards: housing and kitchen multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "爱",
+      "Pinyin": "ài",
+      "English": "love",
+      "HSK": 1,
+      "Game level": 8,
+      "Village use": "Courtyards: housing and kitchen multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "喜欢",
+      "Pinyin": "xǐhuan",
+      "English": "like",
+      "HSK": 1,
+      "Game level": 8,
+      "Village use": "Courtyards: housing and kitchen multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "认识",
+      "Pinyin": "rènshi",
+      "English": "know someone / recognize",
+      "HSK": 1,
+      "Game level": 8,
+      "Village use": "Courtyards: housing and kitchen multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "和",
+      "Pinyin": "hé",
+      "English": "and / with",
+      "HSK": 1,
+      "Game level": 8,
+      "Village use": "Courtyards: housing and kitchen multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "都",
+      "Pinyin": "dōu",
+      "English": "all / both",
+      "HSK": 1,
+      "Game level": 8,
+      "Village use": "Courtyards: housing and kitchen multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "也",
+      "Pinyin": "yě",
+      "English": "also",
+      "HSK": 2,
+      "Game level": 8,
+      "Village use": "Courtyards: housing and kitchen multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "它",
+      "Pinyin": "tā",
+      "English": "it",
+      "HSK": 2,
+      "Game level": 8,
+      "Village use": "Courtyards: housing and kitchen multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "岁",
+      "Pinyin": "suì",
+      "English": "years old",
+      "HSK": 1,
+      "Game level": 8,
+      "Village use": "Courtyards: housing and kitchen multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "桌子",
+      "Pinyin": "zhuōzi",
+      "English": "table",
+      "HSK": 1,
+      "Game level": 9,
+      "Village use": "Furnishings: improve courtyard multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "椅子",
+      "Pinyin": "yǐzi",
+      "English": "chair",
+      "HSK": 1,
+      "Game level": 9,
+      "Village use": "Furnishings: improve courtyard multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "衣服",
+      "Pinyin": "yīfu",
+      "English": "clothes",
+      "HSK": 1,
+      "Game level": 9,
+      "Village use": "Furnishings: improve courtyard multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "本",
+      "Pinyin": "běn",
+      "English": "classifier for books",
+      "HSK": 1,
+      "Game level": 9,
+      "Village use": "Furnishings: improve courtyard multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "书",
+      "Pinyin": "shū",
+      "English": "book",
+      "HSK": 1,
+      "Game level": 9,
+      "Village use": "Furnishings: improve courtyard multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "上",
+      "Pinyin": "shàng",
+      "English": "on / above",
+      "HSK": 1,
+      "Game level": 9,
+      "Village use": "Furnishings: improve courtyard multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "下",
+      "Pinyin": "xià",
+      "English": "under / below",
+      "HSK": 1,
+      "Game level": 9,
+      "Village use": "Furnishings: improve courtyard multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "里",
+      "Pinyin": "lǐ",
+      "English": "inside",
+      "HSK": 1,
+      "Game level": 9,
+      "Village use": "Furnishings: improve courtyard multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "前面",
+      "Pinyin": "qiánmiàn",
+      "English": "in front",
+      "HSK": 1,
+      "Game level": 9,
+      "Village use": "Furnishings: improve courtyard multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "后面",
+      "Pinyin": "hòumiàn",
+      "English": "behind",
+      "HSK": 1,
+      "Game level": 9,
+      "Village use": "Furnishings: improve courtyard multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "坐",
+      "Pinyin": "zuò",
+      "English": "sit",
+      "HSK": 1,
+      "Game level": 9,
+      "Village use": "Furnishings: improve courtyard multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "开",
+      "Pinyin": "kāi",
+      "English": "open / operate",
+      "HSK": 1,
+      "Game level": 9,
+      "Village use": "Furnishings: improve courtyard multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "门",
+      "Pinyin": "mén",
+      "English": "door",
+      "HSK": 2,
+      "Game level": 9,
+      "Village use": "Furnishings: improve courtyard multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "穿",
+      "Pinyin": "chuān",
+      "English": "wear",
+      "HSK": 2,
+      "Game level": 9,
+      "Village use": "Furnishings: improve courtyard multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "张",
+      "Pinyin": "zhāng",
+      "English": "classifier for flat objects",
+      "HSK": 2,
+      "Game level": 9,
+      "Village use": "Furnishings: improve courtyard multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "今天",
+      "Pinyin": "jīntiān",
+      "English": "today",
+      "HSK": 1,
+      "Game level": 10,
+      "Village use": "Clock: repeatable objectives multiply earned coins",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "明天",
+      "Pinyin": "míngtiān",
+      "English": "tomorrow",
+      "HSK": 1,
+      "Game level": 10,
+      "Village use": "Clock: repeatable objectives multiply earned coins",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "昨天",
+      "Pinyin": "zuótiān",
+      "English": "yesterday",
+      "HSK": 1,
+      "Game level": 10,
+      "Village use": "Clock: repeatable objectives multiply earned coins",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "现在",
+      "Pinyin": "xiànzài",
+      "English": "now",
+      "HSK": 1,
+      "Game level": 10,
+      "Village use": "Clock: repeatable objectives multiply earned coins",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "时候",
+      "Pinyin": "shíhou",
+      "English": "time / moment",
+      "HSK": 1,
+      "Game level": 10,
+      "Village use": "Clock: repeatable objectives multiply earned coins",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "年",
+      "Pinyin": "nián",
+      "English": "year",
+      "HSK": 1,
+      "Game level": 10,
+      "Village use": "Clock: repeatable objectives multiply earned coins",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "月",
+      "Pinyin": "yuè",
+      "English": "month",
+      "HSK": 1,
+      "Game level": 10,
+      "Village use": "Clock: repeatable objectives multiply earned coins",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "日",
+      "Pinyin": "rì",
+      "English": "day / date",
+      "HSK": 1,
+      "Game level": 10,
+      "Village use": "Clock: repeatable objectives multiply earned coins",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "号",
+      "Pinyin": "hào",
+      "English": "date number / number",
+      "HSK": 2,
+      "Game level": 10,
+      "Village use": "Clock: repeatable objectives multiply earned coins",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "星期",
+      "Pinyin": "xīngqī",
+      "English": "week",
+      "HSK": 1,
+      "Game level": 10,
+      "Village use": "Clock: repeatable objectives multiply earned coins",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "点",
+      "Pinyin": "diǎn",
+      "English": "o'clock / point",
+      "HSK": 1,
+      "Game level": 10,
+      "Village use": "Clock: repeatable objectives multiply earned coins",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "分钟",
+      "Pinyin": "fēnzhōng",
+      "English": "minute",
+      "HSK": 1,
+      "Game level": 10,
+      "Village use": "Clock: repeatable objectives multiply earned coins",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "几",
+      "Pinyin": "jǐ",
+      "English": "how many / a few",
+      "HSK": 1,
+      "Game level": 10,
+      "Village use": "Clock: repeatable objectives multiply earned coins",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "去年",
+      "Pinyin": "qùnián",
+      "English": "last year",
+      "HSK": 2,
+      "Game level": 10,
+      "Village use": "Clock: repeatable objectives multiply earned coins",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "上午",
+      "Pinyin": "shàngwǔ",
+      "English": "morning",
+      "HSK": 1,
+      "Game level": 11,
+      "Village use": "Schedules: objective completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "中午",
+      "Pinyin": "zhōngwǔ",
+      "English": "noon",
+      "HSK": 1,
+      "Game level": 11,
+      "Village use": "Schedules: objective completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "下午",
+      "Pinyin": "xiàwǔ",
+      "English": "afternoon",
+      "HSK": 1,
+      "Game level": 11,
+      "Village use": "Schedules: objective completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "晚上",
+      "Pinyin": "wǎnshang",
+      "English": "evening",
+      "HSK": 2,
+      "Game level": 11,
+      "Village use": "Schedules: objective completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "早上",
+      "Pinyin": "zǎoshang",
+      "English": "early morning",
+      "HSK": 2,
+      "Game level": 11,
+      "Village use": "Schedules: objective completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "工作",
+      "Pinyin": "gōngzuò",
+      "English": "work",
+      "HSK": 1,
+      "Game level": 11,
+      "Village use": "Schedules: objective completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "做",
+      "Pinyin": "zuò",
+      "English": "do / make",
+      "HSK": 1,
+      "Game level": 11,
+      "Village use": "Schedules: objective completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "睡觉",
+      "Pinyin": "shuìjiào",
+      "English": "sleep",
+      "HSK": 1,
+      "Game level": 11,
+      "Village use": "Schedules: objective completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "起床",
+      "Pinyin": "qǐchuáng",
+      "English": "get up",
+      "HSK": 2,
+      "Game level": 11,
+      "Village use": "Schedules: objective completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "休息",
+      "Pinyin": "xiūxi",
+      "English": "rest",
+      "HSK": 2,
+      "Game level": 11,
+      "Village use": "Schedules: objective completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "忙",
+      "Pinyin": "máng",
+      "English": "busy",
+      "HSK": 2,
+      "Game level": 11,
+      "Village use": "Schedules: objective completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "累",
+      "Pinyin": "lèi",
+      "English": "tired",
+      "HSK": 2,
+      "Game level": 11,
+      "Village use": "Schedules: objective completion multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "了",
+      "Pinyin": "le",
+      "English": "completion / changed-state particle",
+      "HSK": 1,
+      "Game level": 11,
+      "Village use": "Schedules: objective completion multiplier",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "学校",
+      "Pinyin": "xuéxiào",
+      "English": "school",
+      "HSK": 1,
+      "Game level": 12,
+      "Village use": "School: familiar-vocabulary review multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "老师",
+      "Pinyin": "lǎoshī",
+      "English": "teacher",
+      "HSK": 1,
+      "Game level": 12,
+      "Village use": "School: familiar-vocabulary review multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "学生",
+      "Pinyin": "xuésheng",
+      "English": "student",
+      "HSK": 1,
+      "Game level": 12,
+      "Village use": "School: familiar-vocabulary review multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "同学",
+      "Pinyin": "tóngxué",
+      "English": "classmate",
+      "HSK": 1,
+      "Game level": 12,
+      "Village use": "School: familiar-vocabulary review multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "学习",
+      "Pinyin": "xuéxí",
+      "English": "study / learn",
+      "HSK": 1,
+      "Game level": 12,
+      "Village use": "School: familiar-vocabulary review multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "汉语",
+      "Pinyin": "Hànyǔ",
+      "English": "Chinese language",
+      "HSK": 1,
+      "Game level": 12,
+      "Village use": "School: familiar-vocabulary review multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "字",
+      "Pinyin": "zì",
+      "English": "written character",
+      "HSK": 1,
+      "Game level": 12,
+      "Village use": "School: familiar-vocabulary review multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "读",
+      "Pinyin": "dú",
+      "English": "read",
+      "HSK": 1,
+      "Game level": 12,
+      "Village use": "School: familiar-vocabulary review multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "写",
+      "Pinyin": "xiě",
+      "English": "write",
+      "HSK": 1,
+      "Game level": 12,
+      "Village use": "School: familiar-vocabulary review multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "听",
+      "Pinyin": "tīng",
+      "English": "listen",
+      "HSK": 1,
+      "Game level": 12,
+      "Village use": "School: familiar-vocabulary review multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "说话",
+      "Pinyin": "shuōhuà",
+      "English": "speak / talk",
+      "HSK": 1,
+      "Game level": 12,
+      "Village use": "School: familiar-vocabulary review multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "会",
+      "Pinyin": "huì",
+      "English": "know how to / can",
+      "HSK": 1,
+      "Game level": 12,
+      "Village use": "School: familiar-vocabulary review multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "能",
+      "Pinyin": "néng",
+      "English": "be able to",
+      "HSK": 1,
+      "Game level": 12,
+      "Village use": "School: familiar-vocabulary review multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "看",
+      "Pinyin": "kàn",
+      "English": "look / watch / read",
+      "HSK": 1,
+      "Game level": 12,
+      "Village use": "School: familiar-vocabulary review multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "看见",
+      "Pinyin": "kànjiàn",
+      "English": "see (successfully perceive)",
+      "HSK": 1,
+      "Game level": 12,
+      "Village use": "School: familiar-vocabulary review multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "先生",
+      "Pinyin": "xiānsheng",
+      "English": "Mr. / gentleman",
+      "HSK": 1,
+      "Game level": 13,
+      "Village use": "Welcome pavilion: visitor-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "小姐",
+      "Pinyin": "xiǎojiě",
+      "English": "Miss / young lady",
+      "HSK": 1,
+      "Game level": 13,
+      "Village use": "Welcome pavilion: visitor-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "您",
+      "Pinyin": "nín",
+      "English": "you (polite)",
+      "HSK": 2,
+      "Game level": 13,
+      "Village use": "Welcome pavilion: visitor-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "再见",
+      "Pinyin": "zàijiàn",
+      "English": "goodbye",
+      "HSK": 1,
+      "Game level": 13,
+      "Village use": "Welcome pavilion: visitor-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "不客气",
+      "Pinyin": "bú kèqi",
+      "English": "you're welcome",
+      "HSK": 1,
+      "Game level": 13,
+      "Village use": "Welcome pavilion: visitor-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "对不起",
+      "Pinyin": "duìbuqǐ",
+      "English": "sorry",
+      "HSK": 1,
+      "Game level": 13,
+      "Village use": "Welcome pavilion: visitor-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "没关系",
+      "Pinyin": "méi guānxi",
+      "English": "it's okay",
+      "HSK": 1,
+      "Game level": 13,
+      "Village use": "Welcome pavilion: visitor-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "怎么",
+      "Pinyin": "zěnme",
+      "English": "how",
+      "HSK": 1,
+      "Game level": 13,
+      "Village use": "Welcome pavilion: visitor-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "怎么样",
+      "Pinyin": "zěnmeyàng",
+      "English": "how is it / how about",
+      "HSK": 1,
+      "Game level": 13,
+      "Village use": "Welcome pavilion: visitor-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "什么",
+      "Pinyin": "shénme",
+      "English": "what",
+      "HSK": 1,
+      "Game level": 13,
+      "Village use": "Welcome pavilion: visitor-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "呢",
+      "Pinyin": "ne",
+      "English": "follow-up question particle",
+      "HSK": 1,
+      "Game level": 13,
+      "Village use": "Welcome pavilion: visitor-request multiplier",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "欢迎",
+      "Pinyin": "huānyíng",
+      "English": "welcome",
+      "HSK": 2,
+      "Game level": 13,
+      "Village use": "Welcome pavilion: visitor-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "吧",
+      "Pinyin": "ba",
+      "English": "suggestion particle",
+      "HSK": 2,
+      "Game level": 13,
+      "Village use": "Welcome pavilion: visitor-request multiplier",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "天气",
+      "Pinyin": "tiānqì",
+      "English": "weather",
+      "HSK": 1,
+      "Game level": 14,
+      "Village use": "Clinic and shelter: matching-set reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "冷",
+      "Pinyin": "lěng",
+      "English": "cold",
+      "HSK": 1,
+      "Game level": 14,
+      "Village use": "Clinic and shelter: matching-set reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "热",
+      "Pinyin": "rè",
+      "English": "hot",
+      "HSK": 1,
+      "Game level": 14,
+      "Village use": "Clinic and shelter: matching-set reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "下雨",
+      "Pinyin": "xià yǔ",
+      "English": "rain",
+      "HSK": 1,
+      "Game level": 14,
+      "Village use": "Clinic and shelter: matching-set reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "晴",
+      "Pinyin": "qíng",
+      "English": "clear / sunny",
+      "HSK": 2,
+      "Game level": 14,
+      "Village use": "Clinic and shelter: matching-set reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "阴",
+      "Pinyin": "yīn",
+      "English": "overcast",
+      "HSK": 2,
+      "Game level": 14,
+      "Village use": "Clinic and shelter: matching-set reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "雪",
+      "Pinyin": "xuě",
+      "English": "snow",
+      "HSK": 2,
+      "Game level": 14,
+      "Village use": "Clinic and shelter: matching-set reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "身体",
+      "Pinyin": "shēntǐ",
+      "English": "body / health",
+      "HSK": 2,
+      "Game level": 14,
+      "Village use": "Clinic and shelter: matching-set reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "生病",
+      "Pinyin": "shēngbìng",
+      "English": "become ill",
+      "HSK": 2,
+      "Game level": 14,
+      "Village use": "Clinic and shelter: matching-set reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "医生",
+      "Pinyin": "yīshēng",
+      "English": "doctor",
+      "HSK": 1,
+      "Game level": 14,
+      "Village use": "Clinic and shelter: matching-set reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "医院",
+      "Pinyin": "yīyuàn",
+      "English": "hospital",
+      "HSK": 1,
+      "Game level": 14,
+      "Village use": "Clinic and shelter: matching-set reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "药",
+      "Pinyin": "yào",
+      "English": "medicine",
+      "HSK": 2,
+      "Game level": 14,
+      "Village use": "Clinic and shelter: matching-set reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "卖",
+      "Pinyin": "mài",
+      "English": "sell",
+      "HSK": 2,
+      "Game level": 15,
+      "Village use": "Market: commercial building multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "贵",
+      "Pinyin": "guì",
+      "English": "expensive",
+      "HSK": 2,
+      "Game level": 15,
+      "Village use": "Market: commercial building multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "便宜",
+      "Pinyin": "piányi",
+      "English": "inexpensive",
+      "HSK": 2,
+      "Game level": 15,
+      "Village use": "Market: commercial building multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "给",
+      "Pinyin": "gěi",
+      "English": "give / to / for",
+      "HSK": 2,
+      "Game level": 15,
+      "Village use": "Market: commercial building multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "找",
+      "Pinyin": "zhǎo",
+      "English": "look for / give change",
+      "HSK": 2,
+      "Game level": 15,
+      "Village use": "Market: commercial building multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "件",
+      "Pinyin": "jiàn",
+      "English": "classifier for clothing / items",
+      "HSK": 2,
+      "Game level": 15,
+      "Village use": "Market: commercial building multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "每",
+      "Pinyin": "měi",
+      "English": "every",
+      "HSK": 2,
+      "Game level": 15,
+      "Village use": "Market: commercial building multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "次",
+      "Pinyin": "cì",
+      "English": "occurrence / time",
+      "HSK": 2,
+      "Game level": 15,
+      "Village use": "Market: commercial building multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "新",
+      "Pinyin": "xīn",
+      "English": "new",
+      "HSK": 2,
+      "Game level": 15,
+      "Village use": "Market: commercial building multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "长",
+      "Pinyin": "cháng",
+      "English": "long",
+      "HSK": 2,
+      "Game level": 15,
+      "Village use": "Market: commercial building multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "高",
+      "Pinyin": "gāo",
+      "English": "tall / high",
+      "HSK": 2,
+      "Game level": 15,
+      "Village use": "Market: commercial building multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "最",
+      "Pinyin": "zuì",
+      "English": "most",
+      "HSK": 2,
+      "Game level": 15,
+      "Village use": "Market: commercial building multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "比",
+      "Pinyin": "bǐ",
+      "English": "comparison marker",
+      "HSK": 2,
+      "Game level": 15,
+      "Village use": "Market: commercial building multiplier tiers",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "第一",
+      "Pinyin": "dì-yī",
+      "English": "first",
+      "HSK": 2,
+      "Game level": 15,
+      "Village use": "Market: commercial building multiplier tiers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "饭馆",
+      "Pinyin": "fànguǎn",
+      "English": "restaurant",
+      "HSK": 1,
+      "Game level": 16,
+      "Village use": "Restaurants: specialize word, match, or sentence earnings",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "服务员",
+      "Pinyin": "fúwùyuán",
+      "English": "server / attendant",
+      "HSK": 2,
+      "Game level": 16,
+      "Village use": "Restaurants: specialize word, match, or sentence earnings",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "好吃",
+      "Pinyin": "hǎochī",
+      "English": "delicious",
+      "HSK": 2,
+      "Game level": 16,
+      "Village use": "Restaurants: specialize word, match, or sentence earnings",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "鸡蛋",
+      "Pinyin": "jīdàn",
+      "English": "egg",
+      "HSK": 2,
+      "Game level": 16,
+      "Village use": "Restaurants: specialize word, match, or sentence earnings",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "牛奶",
+      "Pinyin": "niúnǎi",
+      "English": "milk",
+      "HSK": 2,
+      "Game level": 16,
+      "Village use": "Restaurants: specialize word, match, or sentence earnings",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "鱼",
+      "Pinyin": "yú",
+      "English": "fish",
+      "HSK": 2,
+      "Game level": 16,
+      "Village use": "Restaurants: specialize word, match, or sentence earnings",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "羊肉",
+      "Pinyin": "yángròu",
+      "English": "lamb / mutton",
+      "HSK": 2,
+      "Game level": 16,
+      "Village use": "Restaurants: specialize word, match, or sentence earnings",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "西瓜",
+      "Pinyin": "xīguā",
+      "English": "watermelon",
+      "HSK": 2,
+      "Game level": 16,
+      "Village use": "Restaurants: specialize word, match, or sentence earnings",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "咖啡",
+      "Pinyin": "kāfēi",
+      "English": "coffee",
+      "HSK": 2,
+      "Game level": 16,
+      "Village use": "Restaurants: specialize word, match, or sentence earnings",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "送",
+      "Pinyin": "sòng",
+      "English": "deliver / give a gift",
+      "HSK": 2,
+      "Game level": 16,
+      "Village use": "Restaurants: specialize word, match, or sentence earnings",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "还",
+      "Pinyin": "hái",
+      "English": "still / also",
+      "HSK": 2,
+      "Game level": 16,
+      "Village use": "Restaurants: specialize word, match, or sentence earnings",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "哥哥",
+      "Pinyin": "gēge",
+      "English": "older brother",
+      "HSK": 2,
+      "Game level": 17,
+      "Village use": "Residential district: household-set multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "姐姐",
+      "Pinyin": "jiějie",
+      "English": "older sister",
+      "HSK": 2,
+      "Game level": 17,
+      "Village use": "Residential district: household-set multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "弟弟",
+      "Pinyin": "dìdi",
+      "English": "younger brother",
+      "HSK": 2,
+      "Game level": 17,
+      "Village use": "Residential district: household-set multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "妹妹",
+      "Pinyin": "mèimei",
+      "English": "younger sister",
+      "HSK": 2,
+      "Game level": 17,
+      "Village use": "Residential district: household-set multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "孩子",
+      "Pinyin": "háizi",
+      "English": "child",
+      "HSK": 2,
+      "Game level": 17,
+      "Village use": "Residential district: household-set multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "丈夫",
+      "Pinyin": "zhàngfu",
+      "English": "husband",
+      "HSK": 2,
+      "Game level": 17,
+      "Village use": "Residential district: household-set multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "妻子",
+      "Pinyin": "qīzi",
+      "English": "wife",
+      "HSK": 2,
+      "Game level": 17,
+      "Village use": "Residential district: household-set multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "男人",
+      "Pinyin": "nánrén",
+      "English": "man",
+      "HSK": 2,
+      "Game level": 17,
+      "Village use": "Residential district: household-set multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "女人",
+      "Pinyin": "nǚrén",
+      "English": "woman",
+      "HSK": 2,
+      "Game level": 17,
+      "Village use": "Residential district: household-set multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "大家",
+      "Pinyin": "dàjiā",
+      "English": "everyone",
+      "HSK": 2,
+      "Game level": 17,
+      "Village use": "Residential district: household-set multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "一起",
+      "Pinyin": "yìqǐ",
+      "English": "together",
+      "HSK": 2,
+      "Game level": 17,
+      "Village use": "Residential district: household-set multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "帮助",
+      "Pinyin": "bāngzhù",
+      "English": "help",
+      "HSK": 2,
+      "Game level": 17,
+      "Village use": "Residential district: household-set multiplier synergy",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "路",
+      "Pinyin": "lù",
+      "English": "road",
+      "HSK": 2,
+      "Game level": 18,
+      "Village use": "Roads: multiply linked buildings' contributions",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "走",
+      "Pinyin": "zǒu",
+      "English": "walk / go",
+      "HSK": 2,
+      "Game level": 18,
+      "Village use": "Roads: multiply linked buildings' contributions",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "进",
+      "Pinyin": "jìn",
+      "English": "enter",
+      "HSK": 2,
+      "Game level": 18,
+      "Village use": "Roads: multiply linked buildings' contributions",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "出",
+      "Pinyin": "chū",
+      "English": "exit",
+      "HSK": 2,
+      "Game level": 18,
+      "Village use": "Roads: multiply linked buildings' contributions",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "到",
+      "Pinyin": "dào",
+      "English": "arrive / to",
+      "HSK": 2,
+      "Game level": 18,
+      "Village use": "Roads: multiply linked buildings' contributions",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "从",
+      "Pinyin": "cóng",
+      "English": "from",
+      "HSK": 2,
+      "Game level": 18,
+      "Village use": "Roads: multiply linked buildings' contributions",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "向",
+      "Pinyin": "xiàng",
+      "English": "toward",
+      "HSK": 2,
+      "Game level": 18,
+      "Village use": "Roads: multiply linked buildings' contributions",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "离",
+      "Pinyin": "lí",
+      "English": "distance from",
+      "HSK": 2,
+      "Game level": 18,
+      "Village use": "Roads: multiply linked buildings' contributions",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "近",
+      "Pinyin": "jìn",
+      "English": "near",
+      "HSK": 2,
+      "Game level": 18,
+      "Village use": "Roads: multiply linked buildings' contributions",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "远",
+      "Pinyin": "yuǎn",
+      "English": "far",
+      "HSK": 2,
+      "Game level": 18,
+      "Village use": "Roads: multiply linked buildings' contributions",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "左边",
+      "Pinyin": "zuǒbian",
+      "English": "left side",
+      "HSK": 2,
+      "Game level": 18,
+      "Village use": "Roads: multiply linked buildings' contributions",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "右边",
+      "Pinyin": "yòubian",
+      "English": "right side",
+      "HSK": 2,
+      "Game level": 18,
+      "Village use": "Roads: multiply linked buildings' contributions",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "旁边",
+      "Pinyin": "pángbiān",
+      "English": "beside",
+      "HSK": 2,
+      "Game level": 18,
+      "Village use": "Roads: multiply linked buildings' contributions",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "外",
+      "Pinyin": "wài",
+      "English": "outside",
+      "HSK": 2,
+      "Game level": 18,
+      "Village use": "Roads: multiply linked buildings' contributions",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "出租车",
+      "Pinyin": "chūzūchē",
+      "English": "taxi",
+      "HSK": 1,
+      "Game level": 19,
+      "Village use": "Guest rooms and transport: travel-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "公共汽车",
+      "Pinyin": "gōnggòngqìchē",
+      "English": "bus",
+      "HSK": 2,
+      "Game level": 19,
+      "Village use": "Guest rooms and transport: travel-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "飞机",
+      "Pinyin": "fēijī",
+      "English": "airplane",
+      "HSK": 1,
+      "Game level": 19,
+      "Village use": "Guest rooms and transport: travel-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "火车站",
+      "Pinyin": "huǒchēzhàn",
+      "English": "train station",
+      "HSK": 1,
+      "Game level": 19,
+      "Village use": "Guest rooms and transport: travel-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "机场",
+      "Pinyin": "jīchǎng",
+      "English": "airport",
+      "HSK": 2,
+      "Game level": 19,
+      "Village use": "Guest rooms and transport: travel-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "票",
+      "Pinyin": "piào",
+      "English": "ticket",
+      "HSK": 2,
+      "Game level": 19,
+      "Village use": "Guest rooms and transport: travel-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "旅游",
+      "Pinyin": "lǚyóu",
+      "English": "travel / tourism",
+      "HSK": 2,
+      "Game level": 19,
+      "Village use": "Guest rooms and transport: travel-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "房间",
+      "Pinyin": "fángjiān",
+      "English": "room",
+      "HSK": 2,
+      "Game level": 19,
+      "Village use": "Guest rooms and transport: travel-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "中国",
+      "Pinyin": "Zhōngguó",
+      "English": "China",
+      "HSK": 1,
+      "Game level": 19,
+      "Village use": "Guest rooms and transport: travel-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "北京",
+      "Pinyin": "Běijīng",
+      "English": "Beijing",
+      "HSK": 1,
+      "Game level": 19,
+      "Village use": "Guest rooms and transport: travel-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "船",
+      "Pinyin": "chuán",
+      "English": "boat",
+      "HSK": 2,
+      "Game level": 19,
+      "Village use": "Guest rooms and transport: travel-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "自行车",
+      "Pinyin": "zìxíngchē",
+      "English": "bicycle",
+      "HSK": 2,
+      "Game level": 19,
+      "Village use": "Guest rooms and transport: travel-request multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "高兴",
+      "Pinyin": "gāoxìng",
+      "English": "happy / pleased",
+      "HSK": 1,
+      "Game level": 20,
+      "Village use": "Festival square: set-completion payout multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "快乐",
+      "Pinyin": "kuàilè",
+      "English": "happy / joyful",
+      "HSK": 2,
+      "Game level": 20,
+      "Village use": "Festival square: set-completion payout multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "笑",
+      "Pinyin": "xiào",
+      "English": "smile / laugh",
+      "HSK": 2,
+      "Game level": 20,
+      "Village use": "Festival square: set-completion payout multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "漂亮",
+      "Pinyin": "piàoliang",
+      "English": "beautiful",
+      "HSK": 1,
+      "Game level": 20,
+      "Village use": "Festival square: set-completion payout multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "颜色",
+      "Pinyin": "yánsè",
+      "English": "color",
+      "HSK": 2,
+      "Game level": 20,
+      "Village use": "Festival square: set-completion payout multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "红",
+      "Pinyin": "hóng",
+      "English": "red",
+      "HSK": 2,
+      "Game level": 20,
+      "Village use": "Festival square: set-completion payout multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "白",
+      "Pinyin": "bái",
+      "English": "white",
+      "HSK": 2,
+      "Game level": 20,
+      "Village use": "Festival square: set-completion payout multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "黑",
+      "Pinyin": "hēi",
+      "English": "black",
+      "HSK": 2,
+      "Game level": 20,
+      "Village use": "Festival square: set-completion payout multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "唱歌",
+      "Pinyin": "chànggē",
+      "English": "sing",
+      "HSK": 2,
+      "Game level": 20,
+      "Village use": "Festival square: set-completion payout multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "跳舞",
+      "Pinyin": "tiàowǔ",
+      "English": "dance",
+      "HSK": 2,
+      "Game level": 20,
+      "Village use": "Festival square: set-completion payout multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "玩",
+      "Pinyin": "wán",
+      "English": "play",
+      "HSK": 2,
+      "Game level": 20,
+      "Village use": "Festival square: set-completion payout multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "生日",
+      "Pinyin": "shēngrì",
+      "English": "birthday",
+      "HSK": 2,
+      "Game level": 20,
+      "Village use": "Festival square: set-completion payout multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "太",
+      "Pinyin": "tài",
+      "English": "too / extremely",
+      "HSK": 1,
+      "Game level": 20,
+      "Village use": "Festival square: set-completion payout multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "非常",
+      "Pinyin": "fēicháng",
+      "English": "very / extremely",
+      "HSK": 2,
+      "Game level": 20,
+      "Village use": "Festival square: set-completion payout multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "真",
+      "Pinyin": "zhēn",
+      "English": "really",
+      "HSK": 2,
+      "Game level": 20,
+      "Village use": "Festival square: set-completion payout multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "运动",
+      "Pinyin": "yùndòng",
+      "English": "exercise / sports",
+      "HSK": 2,
+      "Game level": 21,
+      "Village use": "Recreation spaces: additional active-play multiplier branch",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "跑步",
+      "Pinyin": "pǎobù",
+      "English": "run / jog",
+      "HSK": 2,
+      "Game level": 21,
+      "Village use": "Recreation spaces: additional active-play multiplier branch",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "游泳",
+      "Pinyin": "yóuyǒng",
+      "English": "swim",
+      "HSK": 2,
+      "Game level": 21,
+      "Village use": "Recreation spaces: additional active-play multiplier branch",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "打篮球",
+      "Pinyin": "dǎ lánqiú",
+      "English": "play basketball",
+      "HSK": 2,
+      "Game level": 21,
+      "Village use": "Recreation spaces: additional active-play multiplier branch",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "踢足球",
+      "Pinyin": "tī zúqiú",
+      "English": "play football / soccer",
+      "HSK": 2,
+      "Game level": 21,
+      "Village use": "Recreation spaces: additional active-play multiplier branch",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "快",
+      "Pinyin": "kuài",
+      "English": "fast",
+      "HSK": 2,
+      "Game level": 21,
+      "Village use": "Recreation spaces: additional active-play multiplier branch",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "慢",
+      "Pinyin": "màn",
+      "English": "slow",
+      "HSK": 2,
+      "Game level": 21,
+      "Village use": "Recreation spaces: additional active-play multiplier branch",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "眼睛",
+      "Pinyin": "yǎnjing",
+      "English": "eyes",
+      "HSK": 2,
+      "Game level": 21,
+      "Village use": "Recreation spaces: additional active-play multiplier branch",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "洗",
+      "Pinyin": "xǐ",
+      "English": "wash",
+      "HSK": 2,
+      "Game level": 21,
+      "Village use": "Recreation spaces: additional active-play multiplier branch",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "猫",
+      "Pinyin": "māo",
+      "English": "cat",
+      "HSK": 1,
+      "Game level": 21,
+      "Village use": "Recreation spaces: additional active-play multiplier branch",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "狗",
+      "Pinyin": "gǒu",
+      "English": "dog",
+      "HSK": 1,
+      "Game level": 21,
+      "Village use": "Recreation spaces: additional active-play multiplier branch",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "电脑",
+      "Pinyin": "diànnǎo",
+      "English": "computer",
+      "HSK": 1,
+      "Game level": 22,
+      "Village use": "Communications: visitor and review reward multipliers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "电视",
+      "Pinyin": "diànshì",
+      "English": "television",
+      "HSK": 1,
+      "Game level": 22,
+      "Village use": "Communications: visitor and review reward multipliers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "电影",
+      "Pinyin": "diànyǐng",
+      "English": "movie",
+      "HSK": 1,
+      "Game level": 22,
+      "Village use": "Communications: visitor and review reward multipliers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "手机",
+      "Pinyin": "shǒujī",
+      "English": "mobile phone",
+      "HSK": 2,
+      "Game level": 22,
+      "Village use": "Communications: visitor and review reward multipliers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "打电话",
+      "Pinyin": "dǎ diànhuà",
+      "English": "make a phone call",
+      "HSK": 1,
+      "Game level": 22,
+      "Village use": "Communications: visitor and review reward multipliers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "喂",
+      "Pinyin": "wèi",
+      "English": "hello (on the phone)",
+      "HSK": 1,
+      "Game level": 22,
+      "Village use": "Communications: visitor and review reward multipliers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "报纸",
+      "Pinyin": "bàozhǐ",
+      "English": "newspaper",
+      "HSK": 2,
+      "Game level": 22,
+      "Village use": "Communications: visitor and review reward multipliers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "公司",
+      "Pinyin": "gōngsī",
+      "English": "company",
+      "HSK": 2,
+      "Game level": 22,
+      "Village use": "Communications: visitor and review reward multipliers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "上班",
+      "Pinyin": "shàngbān",
+      "English": "go to work / be on duty",
+      "HSK": 2,
+      "Game level": 22,
+      "Village use": "Communications: visitor and review reward multipliers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "时间",
+      "Pinyin": "shíjiān",
+      "English": "time",
+      "HSK": 2,
+      "Game level": 22,
+      "Village use": "Communications: visitor and review reward multipliers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "小时",
+      "Pinyin": "xiǎoshí",
+      "English": "hour",
+      "HSK": 2,
+      "Game level": 22,
+      "Village use": "Communications: visitor and review reward multipliers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "手表",
+      "Pinyin": "shǒubiǎo",
+      "English": "wristwatch",
+      "HSK": 2,
+      "Game level": 22,
+      "Village use": "Communications: visitor and review reward multipliers",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "教室",
+      "Pinyin": "jiàoshì",
+      "English": "classroom",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "课",
+      "Pinyin": "kè",
+      "English": "lesson / class",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "考试",
+      "Pinyin": "kǎoshì",
+      "English": "exam",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "题",
+      "Pinyin": "tí",
+      "English": "question / problem",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "问题",
+      "Pinyin": "wèntí",
+      "English": "question / issue",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "问",
+      "Pinyin": "wèn",
+      "English": "ask",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "回答",
+      "Pinyin": "huídá",
+      "English": "answer",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "懂",
+      "Pinyin": "dǒng",
+      "English": "understand",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "知道",
+      "Pinyin": "zhīdào",
+      "English": "know",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "告诉",
+      "Pinyin": "gàosu",
+      "English": "tell",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "介绍",
+      "Pinyin": "jièshào",
+      "English": "introduce",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "意思",
+      "Pinyin": "yìsi",
+      "English": "meaning",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "觉得",
+      "Pinyin": "juéde",
+      "English": "think / feel",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "对",
+      "Pinyin": "duì",
+      "English": "correct / toward",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "错",
+      "Pinyin": "cuò",
+      "English": "incorrect",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "事情",
+      "Pinyin": "shìqing",
+      "English": "matter / affair",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "得",
+      "Pinyin": "de",
+      "English": "degree-complement particle",
+      "HSK": 2,
+      "Game level": 23,
+      "Village use": "Community office: sentence and correction reward multiplier",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "开始",
+      "Pinyin": "kāishǐ",
+      "English": "begin",
+      "HSK": 2,
+      "Game level": 24,
+      "Village use": "Town hall: advanced sentence multiplier and final district",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "准备",
+      "Pinyin": "zhǔnbèi",
+      "English": "prepare",
+      "HSK": 2,
+      "Game level": 24,
+      "Village use": "Town hall: advanced sentence multiplier and final district",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "完",
+      "Pinyin": "wán",
+      "English": "finish",
+      "HSK": 2,
+      "Game level": 24,
+      "Village use": "Town hall: advanced sentence multiplier and final district",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "已经",
+      "Pinyin": "yǐjīng",
+      "English": "already",
+      "HSK": 2,
+      "Game level": 24,
+      "Village use": "Town hall: advanced sentence multiplier and final district",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "正在",
+      "Pinyin": "zhèngzài",
+      "English": "currently doing",
+      "HSK": 2,
+      "Game level": 24,
+      "Village use": "Town hall: advanced sentence multiplier and final district",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "着",
+      "Pinyin": "zhe",
+      "English": "ongoing-state particle",
+      "HSK": 2,
+      "Game level": 24,
+      "Village use": "Town hall: advanced sentence multiplier and final district",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "过",
+      "Pinyin": "guo",
+      "English": "experience particle",
+      "HSK": 2,
+      "Game level": 24,
+      "Village use": "Town hall: advanced sentence multiplier and final district",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "再",
+      "Pinyin": "zài",
+      "English": "again",
+      "HSK": 2,
+      "Game level": 24,
+      "Village use": "Town hall: advanced sentence multiplier and final district",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "就",
+      "Pinyin": "jiù",
+      "English": "then / just",
+      "HSK": 2,
+      "Game level": 24,
+      "Village use": "Town hall: advanced sentence multiplier and final district",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "可以",
+      "Pinyin": "kěyǐ",
+      "English": "can / may",
+      "HSK": 2,
+      "Game level": 24,
+      "Village use": "Town hall: advanced sentence multiplier and final district",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "可能",
+      "Pinyin": "kěnéng",
+      "English": "possible / might",
+      "HSK": 2,
+      "Game level": 24,
+      "Village use": "Town hall: advanced sentence multiplier and final district",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "让",
+      "Pinyin": "ràng",
+      "English": "let / allow",
+      "HSK": 2,
+      "Game level": 24,
+      "Village use": "Town hall: advanced sentence multiplier and final district",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "别",
+      "Pinyin": "bié",
+      "English": "don't",
+      "HSK": 2,
+      "Game level": 24,
+      "Village use": "Town hall: advanced sentence multiplier and final district",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "希望",
+      "Pinyin": "xīwàng",
+      "English": "hope",
+      "HSK": 2,
+      "Game level": 24,
+      "Village use": "Town hall: advanced sentence multiplier and final district",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "等",
+      "Pinyin": "děng",
+      "English": "wait",
+      "HSK": 2,
+      "Game level": 24,
+      "Village use": "Town hall: advanced sentence multiplier and final district",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    },
+    {
+      "Chinese": "因为",
+      "Pinyin": "yīnwèi",
+      "English": "because",
+      "HSK": 2,
+      "Game level": 25,
+      "Village use": "Council: sentence-linking reward multiplier",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "所以",
+      "Pinyin": "suǒyǐ",
+      "English": "therefore",
+      "HSK": 2,
+      "Game level": 25,
+      "Village use": "Council: sentence-linking reward multiplier",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "但是",
+      "Pinyin": "dànshì",
+      "English": "but",
+      "HSK": 2,
+      "Game level": 25,
+      "Village use": "Council: sentence-linking reward multiplier",
+      "Practice": "Context/order + matching"
+    },
+    {
+      "Chinese": "为什么",
+      "Pinyin": "wèi shénme",
+      "English": "why",
+      "HSK": 2,
+      "Game level": 25,
+      "Village use": "Council: sentence-linking reward multiplier",
+      "Practice": "Target/weapon + matching; reuse in sentences"
+    }
+  ],
+  "grammar": [
+    {
+      "ID": "G01",
+      "Teaching band": "Foundation",
+      "Pattern": "Subject + verb + object",
+      "After level": 6,
+      "Sentence stage": "S06.1",
+      "Chinese example": "我 / 喝 / 水",
+      "English": "I drink water.",
+      "Game/village interaction": "Order a drink for the tea stall."
+    },
+    {
+      "ID": "G02",
+      "Teaching band": "Foundation",
+      "Pattern": "是 identifies a noun",
+      "After level": 6,
+      "Sentence stage": "S06.1",
+      "Chinese example": "这 / 是 / 茶",
+      "English": "This is tea.",
+      "Game/village interaction": "Label a stall delivery."
+    },
+    {
+      "ID": "G03",
+      "Teaching band": "Foundation",
+      "Pattern": "不 negates a verb or 是",
+      "After level": 6,
+      "Sentence stage": "S06.2",
+      "Chinese example": "我 / 不 / 喝 / 茶",
+      "English": "I do not drink tea.",
+      "Game/village interaction": "Choose a visitor's requested drink."
+    },
+    {
+      "ID": "G04",
+      "Teaching band": "Foundation",
+      "Pattern": "吗 forms a yes/no question",
+      "After level": 6,
+      "Sentence stage": "S06.2",
+      "Chinese example": "你 / 喝 / 茶 / 吗",
+      "English": "Do you drink tea?",
+      "Game/village interaction": "Complete a visitor request."
+    },
+    {
+      "ID": "G05",
+      "Teaching band": "Foundation",
+      "Pattern": "Question word stays in its answer position",
+      "After level": 13,
+      "Sentence stage": "S13.1",
+      "Chinese example": "你 / 喝 / 什么",
+      "English": "What do you drink?",
+      "Game/village interaction": "Find the missing order item."
+    },
+    {
+      "ID": "G06",
+      "Teaching band": "Foundation",
+      "Pattern": "谁 asks identity",
+      "After level": 4,
+      "Sentence stage": "S04.1",
+      "Chinese example": "他 / 是 / 谁",
+      "English": "Who is he?",
+      "Game/village interaction": "Identify a resident in a portrait scene."
+    },
+    {
+      "ID": "G07",
+      "Teaching band": "Foundation",
+      "Pattern": "的 marks possession",
+      "After level": 6,
+      "Sentence stage": "S06.3",
+      "Chinese example": "我 / 的 / 杯子",
+      "English": "My cup.",
+      "Game/village interaction": "Attach the right object to its owner."
+    },
+    {
+      "ID": "G08",
+      "Teaching band": "Foundation",
+      "Pattern": "的 can be omitted with close family",
+      "After level": 8,
+      "Sentence stage": "S08.1",
+      "Chinese example": "我 / 妈妈",
+      "English": "My mom.",
+      "Game/village interaction": "Recognize both natural ownership forms."
+    },
+    {
+      "ID": "G09",
+      "Teaching band": "Foundation",
+      "Pattern": "Adjectival predicate with 很, without 是",
+      "After level": 14,
+      "Sentence stage": "S14.1",
+      "Chinese example": "水 / 很 / 热",
+      "English": "The water is hot.",
+      "Game/village interaction": "Choose the matching kettle state."
+    },
+    {
+      "ID": "G10",
+      "Teaching band": "Foundation",
+      "Pattern": "没有 negates possession/existence",
+      "After level": 5,
+      "Sentence stage": "S05.1",
+      "Chinese example": "我 / 没 / 有 / 钱",
+      "English": "I do not have money.",
+      "Game/village interaction": "Read the stall purchase condition."
+    },
+    {
+      "ID": "G11",
+      "Teaching band": "Foundation",
+      "Pattern": "有 expresses existence",
+      "After level": 9,
+      "Sentence stage": "S09.1",
+      "Chinese example": "家 / 里 / 有 / 人",
+      "English": "There is someone at home.",
+      "Game/village interaction": "Place residents in the correct home."
+    },
+    {
+      "ID": "G12",
+      "Teaching band": "Foundation",
+      "Pattern": "在 expresses location",
+      "After level": 5,
+      "Sentence stage": "S05.1",
+      "Chinese example": "他 / 在 / 家",
+      "English": "He is at home.",
+      "Game/village interaction": "Find a resident on the village map."
+    },
+    {
+      "ID": "G13",
+      "Teaching band": "Foundation",
+      "Pattern": "Place + position word",
+      "After level": 9,
+      "Sentence stage": "S09.1",
+      "Chinese example": "桌子 / 上",
+      "English": "On the table.",
+      "Game/village interaction": "Place a delivery on a highlighted surface."
+    },
+    {
+      "ID": "G14",
+      "Teaching band": "Foundation",
+      "Pattern": "哪里/哪儿 asks location",
+      "After level": 5,
+      "Sentence stage": "S05.2",
+      "Chinese example": "你 / 在 / 哪儿",
+      "English": "Where are you?",
+      "Game/village interaction": "Find the visitor's destination."
+    },
+    {
+      "ID": "G15",
+      "Teaching band": "Foundation",
+      "Pattern": "Number + classifier + noun",
+      "After level": 7,
+      "Sentence stage": "S07.1",
+      "Chinese example": "三 / 个 / 苹果",
+      "English": "Three apples.",
+      "Game/village interaction": "Pack a kitchen order."
+    },
+    {
+      "ID": "G16",
+      "Teaching band": "Foundation",
+      "Pattern": "两 versus 二 before classifiers",
+      "After level": 6,
+      "Sentence stage": "S06.3",
+      "Chinese example": "两 / 个 / 人",
+      "English": "Two people.",
+      "Game/village interaction": "Fill a home with the requested residents."
+    },
+    {
+      "ID": "G17",
+      "Teaching band": "Foundation",
+      "Pattern": "Demonstrative + classifier + noun",
+      "After level": 6,
+      "Sentence stage": "S06.4",
+      "Chinese example": "这 / 个 / 杯子",
+      "English": "This cup.",
+      "Game/village interaction": "Choose a specific cup, not every cup."
+    },
+    {
+      "ID": "G18",
+      "Teaching band": "Foundation",
+      "Pattern": "哪 + classifier + noun",
+      "After level": 9,
+      "Sentence stage": "S09.2",
+      "Chinese example": "哪 / 本 / 书",
+      "English": "Which book?",
+      "Game/village interaction": "Select the school's requested book."
+    },
+    {
+      "ID": "G19",
+      "Teaching band": "Foundation",
+      "Pattern": "几 versus 多少 in quantity questions",
+      "After level": 10,
+      "Sentence stage": "S10.1",
+      "Chinese example": "几 / 个 / 人",
+      "English": "How many people?",
+      "Game/village interaction": "Complete a housing count; contrast with 多少钱."
+    },
+    {
+      "ID": "G20",
+      "Teaching band": "Foundation",
+      "Pattern": "Time normally precedes the verb",
+      "After level": 11,
+      "Sentence stage": "S11.1",
+      "Chinese example": "我 / 今天 / 工作",
+      "English": "I work today.",
+      "Game/village interaction": "Order a resident's schedule."
+    },
+    {
+      "ID": "G21",
+      "Teaching band": "Foundation",
+      "Pattern": "Calendar order: year, month, day",
+      "After level": 10,
+      "Sentence stage": "S10.1",
+      "Chinese example": "三 / 月 / 一 / 日",
+      "English": "March first.",
+      "Game/village interaction": "Assemble a festival date; include year in separate rounds."
+    },
+    {
+      "ID": "G22",
+      "Teaching band": "Foundation",
+      "Pattern": "Clock time: number + 点",
+      "After level": 10,
+      "Sentence stage": "S10.2",
+      "Chinese example": "三 / 点",
+      "English": "Three o'clock.",
+      "Game/village interaction": "Set a work-start time."
+    },
+    {
+      "ID": "G23",
+      "Teaching band": "Foundation",
+      "Pattern": "Age with 岁; normally no 是",
+      "After level": 8,
+      "Sentence stage": "S08.1",
+      "Chinese example": "我 / 十 / 岁",
+      "English": "I am ten years old.",
+      "Game/village interaction": "Complete a resident's profile."
+    },
+    {
+      "ID": "G24",
+      "Teaching band": "Foundation",
+      "Pattern": "和 joins nouns",
+      "After level": 8,
+      "Sentence stage": "S08.2",
+      "Chinese example": "爸爸 / 和 / 妈妈",
+      "English": "Dad and mom.",
+      "Game/village interaction": "Assign a household together."
+    },
+    {
+      "ID": "G25",
+      "Teaching band": "Foundation",
+      "Pattern": "都 goes before the predicate",
+      "After level": 8,
+      "Sentence stage": "S08.2",
+      "Chinese example": "我们 / 都 / 喝 / 茶",
+      "English": "We all drink tea.",
+      "Game/village interaction": "Serve a group with one shared request."
+    },
+    {
+      "ID": "G26",
+      "Teaching band": "Foundation",
+      "Pattern": "也 goes before the predicate",
+      "After level": 8,
+      "Sentence stage": "S08.3",
+      "Chinese example": "我 / 也 / 喝 / 茶",
+      "English": "I drink tea too.",
+      "Game/village interaction": "Add another resident to an order."
+    },
+    {
+      "ID": "G27",
+      "Teaching band": "Foundation",
+      "Pattern": "呢 asks a follow-up",
+      "After level": 13,
+      "Sentence stage": "S13.1",
+      "Chinese example": "你 / 呢",
+      "English": "What about you?",
+      "Game/village interaction": "Complete a second resident's dialogue turn."
+    },
+    {
+      "ID": "G28",
+      "Teaching band": "Foundation",
+      "Pattern": "想 + verb expresses a wish",
+      "After level": 7,
+      "Sentence stage": "S07.1",
+      "Chinese example": "我 / 想 / 买 / 茶",
+      "English": "I want to buy tea.",
+      "Game/village interaction": "Order a visitor's purchase request."
+    },
+    {
+      "ID": "G29",
+      "Teaching band": "Foundation",
+      "Pattern": "会 expresses learned ability",
+      "After level": 12,
+      "Sentence stage": "S12.1",
+      "Chinese example": "我 / 会 / 写 / 字",
+      "English": "I can write characters.",
+      "Game/village interaction": "Assign a resident to a suitable school task."
+    },
+    {
+      "ID": "G30",
+      "Teaching band": "Foundation",
+      "Pattern": "能 expresses ability/circumstances",
+      "After level": 12,
+      "Sentence stage": "S12.1",
+      "Chinese example": "我 / 能 / 来",
+      "English": "I can come.",
+      "Game/village interaction": "Choose an available helper from a scene."
+    },
+    {
+      "ID": "G31",
+      "Teaching band": "Foundation",
+      "Pattern": "请 introduces a polite request",
+      "After level": 9,
+      "Sentence stage": "S09.2",
+      "Chinese example": "请 / 坐",
+      "English": "Please sit.",
+      "Game/village interaction": "Seat a guest in the pavilion."
+    },
+    {
+      "ID": "G32",
+      "Teaching band": "Foundation",
+      "Pattern": "了 marks a completed event",
+      "After level": 11,
+      "Sentence stage": "S11.1",
+      "Chinese example": "我 / 买 / 了 / 茶",
+      "English": "I bought tea.",
+      "Game/village interaction": "Match a finished purchase to its sentence."
+    },
+    {
+      "ID": "G33",
+      "Teaching band": "Foundation",
+      "Pattern": "Sentence-final 了 signals a changed situation",
+      "After level": 14,
+      "Sentence stage": "S14.1",
+      "Chinese example": "下雨 / 了",
+      "English": "It has started raining.",
+      "Game/village interaction": "Recognize the new weather state."
+    },
+    {
+      "ID": "G34",
+      "Teaching band": "Foundation",
+      "Pattern": "没 negates a past action; omit completion 了",
+      "After level": 7,
+      "Sentence stage": "S07.2",
+      "Chinese example": "我 / 没 / 买 / 茶",
+      "English": "I did not buy tea.",
+      "Game/village interaction": "Distinguish an unfilled order from a completed one."
+    },
+    {
+      "ID": "G35",
+      "Teaching band": "Foundation",
+      "Pattern": "太...了 expresses a strong degree",
+      "After level": 20,
+      "Sentence stage": "S20.1",
+      "Chinese example": "太 / 热 / 了",
+      "English": "It is too hot!",
+      "Game/village interaction": "Adjust the tea-stall scene."
+    },
+    {
+      "ID": "G36",
+      "Teaching band": "Foundation",
+      "Pattern": "怎么样 asks for an assessment",
+      "After level": 13,
+      "Sentence stage": "S13.2",
+      "Chinese example": "茶 / 怎么样",
+      "English": "How is the tea?",
+      "Game/village interaction": "Select the matching customer response."
+    },
+    {
+      "ID": "G37",
+      "Teaching band": "Foundation",
+      "Pattern": "怎么 asks how an action is done",
+      "After level": 13,
+      "Sentence stage": "S13.2",
+      "Chinese example": "怎么 / 去 / 学校",
+      "English": "How do I get to school?",
+      "Game/village interaction": "Choose the correct route scene."
+    },
+    {
+      "ID": "G38",
+      "Teaching band": "Foundation",
+      "Pattern": "Verb sequence for a purpose",
+      "After level": 7,
+      "Sentence stage": "S07.2",
+      "Chinese example": "我 / 去 / 买 / 茶",
+      "English": "I am going to buy tea.",
+      "Game/village interaction": "Match a trip to its purpose."
+    },
+    {
+      "ID": "G39",
+      "Teaching band": "Expansion",
+      "Pattern": "A-not-A question",
+      "After level": 6,
+      "Sentence stage": "S06.4",
+      "Chinese example": "你 / 来 / 不 / 来",
+      "English": "Are you coming?",
+      "Game/village interaction": "Accept either affirmative or negative visitor reply."
+    },
+    {
+      "ID": "G40",
+      "Teaching band": "Expansion",
+      "Pattern": "正在 / 在 + verb marks an ongoing action",
+      "After level": 24,
+      "Sentence stage": "S24.1",
+      "Chinese example": "他 / 正在 / 工作",
+      "English": "He is working.",
+      "Game/village interaction": "Match an animated resident, not a finished task."
+    },
+    {
+      "ID": "G41",
+      "Teaching band": "Expansion",
+      "Pattern": "着 marks an ongoing state",
+      "After level": 24,
+      "Sentence stage": "S24.1",
+      "Chinese example": "门 / 开 / 着",
+      "English": "The door is open.",
+      "Game/village interaction": "Choose the open-door scene; contrast with 开了."
+    },
+    {
+      "ID": "G42",
+      "Teaching band": "Expansion",
+      "Pattern": "过 marks experience",
+      "After level": 24,
+      "Sentence stage": "S24.2",
+      "Chinese example": "我 / 去 / 过 / 北京",
+      "English": "I have been to Beijing.",
+      "Game/village interaction": "Identify a visitor's travel history."
+    },
+    {
+      "ID": "G43",
+      "Teaching band": "Expansion",
+      "Pattern": "没...过 negates experience",
+      "After level": 24,
+      "Sentence stage": "S24.2",
+      "Chinese example": "没 / 去 / 过 / 北京",
+      "English": "Have not been to Beijing.",
+      "Game/village interaction": "Complete a travel-history reply with implied subject."
+    },
+    {
+      "ID": "G44",
+      "Teaching band": "Expansion",
+      "Pattern": "已经 + verb + 了",
+      "After level": 24,
+      "Sentence stage": "S24.3",
+      "Chinese example": "已经 / 吃 / 了",
+      "English": "Have already eaten.",
+      "Game/village interaction": "Check a completed kitchen request."
+    },
+    {
+      "ID": "G45",
+      "Teaching band": "Expansion",
+      "Pattern": "还 expresses continuation",
+      "After level": 16,
+      "Sentence stage": "S16.1",
+      "Chinese example": "他 / 还 / 在 / 工作",
+      "English": "He is still working.",
+      "Game/village interaction": "Compare current and finished work scenes."
+    },
+    {
+      "ID": "G46",
+      "Teaching band": "Expansion",
+      "Pattern": "再 expresses a future repetition",
+      "After level": 24,
+      "Sentence stage": "S24.3",
+      "Chinese example": "再 / 来",
+      "English": "Come again.",
+      "Game/village interaction": "Prepare a repeat visitor request."
+    },
+    {
+      "ID": "G47",
+      "Teaching band": "Expansion",
+      "Pattern": "吧 softens a suggestion",
+      "After level": 13,
+      "Sentence stage": "S13.3",
+      "Chinese example": "我们 / 去 / 吧",
+      "English": "Let's go.",
+      "Game/village interaction": "Send a visiting group on its route."
+    },
+    {
+      "ID": "G48",
+      "Teaching band": "Expansion",
+      "Pattern": "别 + verb prohibits an action",
+      "After level": 24,
+      "Sentence stage": "S24.4",
+      "Chinese example": "别 / 进 / 来",
+      "English": "Do not come in.",
+      "Game/village interaction": "Read a temporary room instruction."
+    },
+    {
+      "ID": "G49",
+      "Teaching band": "Expansion",
+      "Pattern": "可以 expresses permission",
+      "After level": 24,
+      "Sentence stage": "S24.4",
+      "Chinese example": "可以 / 进 / 来",
+      "English": "You may come in.",
+      "Game/village interaction": "Choose a permitted action at the guesthouse."
+    },
+    {
+      "ID": "G50",
+      "Teaching band": "Expansion",
+      "Pattern": "可能 expresses possibility",
+      "After level": 24,
+      "Sentence stage": "S24.5",
+      "Chinese example": "明天 / 可能 / 下雨",
+      "English": "It might rain tomorrow.",
+      "Game/village interaction": "Prepare shelter for a possible weather event."
+    },
+    {
+      "ID": "G51",
+      "Teaching band": "Expansion",
+      "Pattern": "要 expresses intention/future",
+      "After level": 12,
+      "Sentence stage": "S12.2",
+      "Chinese example": "我 / 要 / 去 / 学校",
+      "English": "I am going to school.",
+      "Game/village interaction": "Assign a destination from an intention."
+    },
+    {
+      "ID": "G52",
+      "Teaching band": "Expansion",
+      "Pattern": "给 introduces a recipient",
+      "After level": 15,
+      "Sentence stage": "S15.1",
+      "Chinese example": "给 / 我 / 茶",
+      "English": "Give me tea.",
+      "Game/village interaction": "Deliver to the named recipient."
+    },
+    {
+      "ID": "G53",
+      "Teaching band": "Expansion",
+      "Pattern": "让 + person + verb",
+      "After level": 24,
+      "Sentence stage": "S24.5",
+      "Chinese example": "让 / 他 / 来",
+      "English": "Let him come.",
+      "Game/village interaction": "Assign a helper through a short instruction."
+    },
+    {
+      "ID": "G54",
+      "Teaching band": "Expansion",
+      "Pattern": "Verb + 得 + degree description",
+      "After level": 23,
+      "Sentence stage": "S23.1",
+      "Chinese example": "他 / 跑 / 得 / 快",
+      "English": "He runs fast.",
+      "Game/village interaction": "Compare runners in a recreation scene; 跑 is a taught component of 跑步."
+    },
+    {
+      "ID": "G55",
+      "Teaching band": "Expansion",
+      "Pattern": "Verb + result complement",
+      "After level": 24,
+      "Sentence stage": "S24.6",
+      "Chinese example": "我 / 吃 / 完 / 了",
+      "English": "I have finished eating.",
+      "Game/village interaction": "Recognize finished work; later use 看见 and 听懂."
+    },
+    {
+      "ID": "G56",
+      "Teaching band": "Expansion",
+      "Pattern": "Motion verb + 来 / 去",
+      "After level": 18,
+      "Sentence stage": "S18.1",
+      "Chinese example": "进 / 来",
+      "English": "Come in.",
+      "Game/village interaction": "Choose movement toward the speaker; contrast with 进去."
+    },
+    {
+      "ID": "G57",
+      "Teaching band": "Expansion",
+      "Pattern": "从...到... expresses a route",
+      "After level": 18,
+      "Sentence stage": "S18.1",
+      "Chinese example": "从 / 家 / 到 / 学校",
+      "English": "From home to school.",
+      "Game/village interaction": "Connect two map locations."
+    },
+    {
+      "ID": "G58",
+      "Teaching band": "Expansion",
+      "Pattern": "向 introduces a direction",
+      "After level": 18,
+      "Sentence stage": "S18.2",
+      "Chinese example": "向 / 左边 / 走",
+      "English": "Walk toward the left.",
+      "Game/village interaction": "Guide a visitor without translating direction labels."
+    },
+    {
+      "ID": "G59",
+      "Teaching band": "Expansion",
+      "Pattern": "离 expresses distance",
+      "After level": 18,
+      "Sentence stage": "S18.2",
+      "Chinese example": "学校 / 离 / 家 / 近",
+      "English": "The school is near home.",
+      "Game/village interaction": "Pick the matching map layout."
+    },
+    {
+      "ID": "G60",
+      "Teaching band": "Expansion",
+      "Pattern": "比 compares two things",
+      "After level": 15,
+      "Sentence stage": "S15.1",
+      "Chinese example": "我 / 比 / 他 / 高",
+      "English": "I am taller than him.",
+      "Game/village interaction": "Match the correct resident-height scene."
+    },
+    {
+      "ID": "G61",
+      "Teaching band": "Expansion",
+      "Pattern": "最 marks a superlative",
+      "After level": 15,
+      "Sentence stage": "S15.2",
+      "Chinese example": "这 / 个 / 最 / 贵",
+      "English": "This one is the most expensive.",
+      "Game/village interaction": "Select a stall's highest-priced item."
+    },
+    {
+      "ID": "G62",
+      "Teaching band": "Expansion",
+      "Pattern": "每 + time / classifier",
+      "After level": 15,
+      "Sentence stage": "S15.2",
+      "Chinese example": "每 / 天 / 工作",
+      "English": "Work every day.",
+      "Game/village interaction": "Set a repeated schedule; 天 is a separately taught time component."
+    },
+    {
+      "ID": "G63",
+      "Teaching band": "Expansion",
+      "Pattern": "Duration follows an action",
+      "After level": 22,
+      "Sentence stage": "S22.1",
+      "Chinese example": "工作 / 三 / 个 / 小时",
+      "English": "Work for three hours.",
+      "Game/village interaction": "Fill a schedule duration, contrasting 点 with 小时."
+    },
+    {
+      "ID": "G64",
+      "Teaching band": "Expansion",
+      "Pattern": "第 + number forms an ordinal",
+      "After level": 15,
+      "Sentence stage": "S15.3",
+      "Chinese example": "第 / 三 / 个 / 人",
+      "English": "The third person.",
+      "Game/village interaction": "Select a position in a queue; 第 is taught from 第一."
+    },
+    {
+      "ID": "G65",
+      "Teaching band": "Expansion",
+      "Pattern": "因为...所以... links cause and result",
+      "After level": 25,
+      "Sentence stage": "S25.1",
+      "Chinese example": "因为下雨 / 所以我在家",
+      "English": "Because it is raining, I am at home.",
+      "Game/village interaction": "Assemble each clause first, then link the two familiar chunks."
+    },
+    {
+      "ID": "G66",
+      "Teaching band": "Expansion",
+      "Pattern": "但是 introduces contrast",
+      "After level": 25,
+      "Sentence stage": "S25.1",
+      "Chinese example": "我想去 / 但是没有钱",
+      "English": "I want to go, but I have no money.",
+      "Game/village interaction": "Pair an intention with the contrasting constraint."
+    },
+    {
+      "ID": "G67",
+      "Teaching band": "Expansion",
+      "Pattern": "为什么 asks for a reason",
+      "After level": 25,
+      "Sentence stage": "S25.2",
+      "Chinese example": "为什么 / 不 / 来",
+      "English": "Why aren't you coming?",
+      "Game/village interaction": "Match a reason to a visitor's situation."
+    },
+    {
+      "ID": "G68",
+      "Teaching band": "Expansion",
+      "Pattern": "就 connects a condition/time to a result",
+      "After level": 24,
+      "Sentence stage": "S24.6",
+      "Chinese example": "他来 / 我就去",
+      "English": "When he comes, I will go.",
+      "Game/village interaction": "Sequence two resident actions using prebuilt clauses."
+    },
+    {
+      "ID": "G69",
+      "Teaching band": "Expansion",
+      "Pattern": "Adjective + 的 + noun",
+      "After level": 20,
+      "Sentence stage": "S20.1",
+      "Chinese example": "漂亮 / 的 / 衣服",
+      "English": "Beautiful clothes.",
+      "Game/village interaction": "Choose the outfit described by the phrase."
+    },
+    {
+      "ID": "G70",
+      "Teaching band": "Expansion",
+      "Pattern": "对 + person + adjective",
+      "After level": 23,
+      "Sentence stage": "S23.1",
+      "Chinese example": "他 / 对 / 我 / 好",
+      "English": "He is kind to me.",
+      "Game/village interaction": "Match a helpful interaction; distinguish 对 meaning correct."
+    },
+    {
+      "ID": "G71",
+      "Teaching band": "Expansion",
+      "Pattern": "Verb reduplication softens a brief action",
+      "After level": 12,
+      "Sentence stage": "S12.2",
+      "Chinese example": "看 / 看",
+      "English": "Take a look.",
+      "Game/village interaction": "Inspect a stall item; introduce as a phrase, not two new words."
+    },
+    {
+      "ID": "G72",
+      "Teaching band": "Expansion",
+      "Pattern": "A small amount with 一点儿 (edition extension)",
+      "After level": 26,
+      "Sentence stage": "S26.1",
+      "Chinese example": "喝 / 一点儿 / 水",
+      "English": "Drink a little water.",
+      "Game/village interaction": "Choose a small portion; optional edition-bridge stage."
+    },
+    {
+      "ID": "G73",
+      "Teaching band": "Expansion",
+      "Pattern": "有点儿 + adjective (grammar extension)",
+      "After level": 27,
+      "Sentence stage": "S27.1",
+      "Chinese example": "有点儿 / 冷",
+      "English": "A little cold.",
+      "Game/village interaction": "Compare mild discomfort with 一点儿 quantities; optional extension."
+    },
+    {
+      "ID": "G74",
+      "Teaching band": "Expansion",
+      "Pattern": "虽然...但是... (edition extension)",
+      "After level": 27,
+      "Sentence stage": "S27.1",
+      "Chinese example": "虽然下雨 / 但是我想去",
+      "English": "Although it is raining, I want to go.",
+      "Game/village interaction": "Link two previously practised clauses in an optional bridge stage."
+    },
+    {
+      "ID": "G75",
+      "Teaching band": "Expansion",
+      "Pattern": "要...了 announces an imminent event",
+      "After level": 14,
+      "Sentence stage": "S14.2",
+      "Chinese example": "要 / 下雨 / 了",
+      "English": "It is about to rain.",
+      "Game/village interaction": "Distinguish approaching weather from current rain."
+    },
+    {
+      "ID": "G76",
+      "Teaching band": "Expansion",
+      "Pattern": "是...的 focuses a past event's circumstance",
+      "After level": 24,
+      "Sentence stage": "S24.7",
+      "Chinese example": "我是昨天来的",
+      "English": "It was yesterday that I came.",
+      "Game/village interaction": "Two-step visitor puzzle: assemble 昨天来, then frame the event; chunked target."
+    }
+  ],
+  "extensions": [
+    {
+      "Level": 2,
+      "Chinese": "十一、十二、十五、二十、二十一、三十、五十、九十九",
+      "English": "11, 12, 15, 20, 21, 30, 50, 99",
+      "Status": "8 compositional practice cards; not 8 HSK headwords",
+      "Additional new cards": 8
+    },
+    {
+      "Level": 3,
+      "Chinese": "万、亿、兆",
+      "English": "ten thousand; hundred million; trillion (game convention)",
+      "Status": "3 game economy additions",
+      "Additional new cards": 3
+    },
+    {
+      "Level": 5,
+      "Chinese": "这儿、那儿、哪儿",
+      "English": "here; there; where",
+      "Status": "3 separately practised variants already grouped in source entries",
+      "Additional new cards": 3
+    },
+    {
+      "Level": 10,
+      "Chinese": "天",
+      "English": "day",
+      "Status": "1 separately taught component for 每天",
+      "Additional new cards": 1
+    },
+    {
+      "Level": 12,
+      "Chinese": "说",
+      "English": "say / speak",
+      "Status": "1 component/edition bridge from 说话",
+      "Additional new cards": 1
+    },
+    {
+      "Level": 15,
+      "Chinese": "第",
+      "English": "ordinal prefix",
+      "Status": "1 component of 第一; do not assume it is already mastered",
+      "Additional new cards": 1
+    },
+    {
+      "Level": 21,
+      "Chinese": "跑",
+      "English": "run",
+      "Status": "1 component of 跑步 used with 得",
+      "Additional new cards": 1
+    },
+    {
+      "Level": 26,
+      "Chinese": "饭店、没有、一点儿、男、女、往、日、零",
+      "English": "restaurant/hotel; not have; a little; male; female; toward; day; zero",
+      "Status": "Optional edition bridge A: 6 new forms, 2 review entries",
+      "Additional new cards": 6
+    },
+    {
+      "Level": 27,
+      "Chinese": "宾馆、面条、铅笔、虽然、一下、回答",
+      "English": "hotel; noodles; pencil; although; briefly; answer",
+      "Status": "Optional edition bridge B: 5 new forms, 1 review entry",
+      "Additional new cards": 5
+    },
+    {
+      "Level": 27,
+      "Chinese": "有点儿",
+      "English": "a little (usually an undesirable condition)",
+      "Status": "1 optional grammar extension",
+      "Additional new cards": 1
+    }
+  ],
+  "audit": {
+    "baseline": "Pinned classic HSK 1–2 transcription; earlier official classic edition",
+    "hsk1": 150,
+    "hsk2_additional": 150,
+    "unique_entries": 300,
+    "unmapped": [],
+    "duplicate_assignments": [],
+    "max_new_cards_per_core_level": 17,
+    "grammar_patterns": 76,
+    "sentence_stages": 44,
+    "source_sha256": {
+      "hsk_1.csv": "c7b6cdaaec8b122804af2fd410422dc4faa99a34f7f291c560e6964627efcbc5",
+      "hsk_2.csv": "4f8604dfaf1cb17e6f974a20bbaac201e26c66b988d68a8ec281ddaa20796dd2"
+    }
+  }
+}

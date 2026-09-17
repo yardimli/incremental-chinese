@@ -1,0 +1,133 @@
+{
+  "id": "numbers-3",
+  "traditional": "三位數",
+  "simplified": "三位数",
+  "pinyin": "sān wèi shù",
+  "type": "pairs",
+  "pairs": [
+    {
+      "id": "n100",
+      "traditional": "一百",
+      "simplified": "一百",
+      "pinyin": "yì bǎi",
+      "english": "one hundred",
+      "number": 100,
+      "audio": {
+        "female": "audio/female/38d302ad2b36640f.mp3",
+        "male": "audio/male/38d302ad2b36640f.mp3"
+      }
+    },
+    {
+      "id": "n101",
+      "traditional": "一百零一",
+      "simplified": "一百零一",
+      "pinyin": "yì bǎi líng yī",
+      "english": "one hundred and one",
+      "number": 101,
+      "audio": {
+        "female": "audio/female/bf935975c1deaa88.mp3",
+        "male": "audio/male/bf935975c1deaa88.mp3"
+      }
+    },
+    {
+      "id": "n110",
+      "traditional": "一百一十",
+      "simplified": "一百一十",
+      "pinyin": "yì bǎi yī shí",
+      "english": "one hundred and ten",
+      "number": 110,
+      "audio": {
+        "female": "audio/female/baafb5784052fe56.mp3",
+        "male": "audio/male/baafb5784052fe56.mp3"
+      }
+    },
+    {
+      "id": "n125",
+      "traditional": "一百二十五",
+      "simplified": "一百二十五",
+      "pinyin": "yì bǎi èr shí wǔ",
+      "english": "one hundred and twenty-five",
+      "number": 125,
+      "audio": {
+        "female": "audio/female/7864aa816f7c4efd.mp3",
+        "male": "audio/male/7864aa816f7c4efd.mp3"
+      }
+    },
+    {
+      "id": "n200",
+      "traditional": "二百",
+      "simplified": "二百",
+      "pinyin": "èr bǎi",
+      "english": "two hundred",
+      "number": 200,
+      "audio": {
+        "female": "audio/female/bb7fc3a46dd821d2.mp3",
+        "male": "audio/male/bb7fc3a46dd821d2.mp3"
+      }
+    },
+    {
+      "id": "n256",
+      "traditional": "二百五十六",
+      "simplified": "二百五十六",
+      "pinyin": "èr bǎi wǔ shí liù",
+      "english": "two hundred and fifty-six",
+      "number": 256,
+      "audio": {
+        "female": "audio/female/1ff52d662f5a59c3.mp3",
+        "male": "audio/male/1ff52d662f5a59c3.mp3"
+      }
+    },
+    {
+      "id": "n300",
+      "traditional": "三百",
+      "simplified": "三百",
+      "pinyin": "sān bǎi",
+      "english": "three hundred",
+      "number": 300,
+      "audio": {
+        "female": "audio/female/e6a5e7b74720e53d.mp3",
+        "male": "audio/male/e6a5e7b74720e53d.mp3"
+      }
+    },
+    {
+      "id": "n450",
+      "traditional": "四百五十",
+      "simplified": "四百五十",
+      "pinyin": "sì bǎi wǔ shí",
+      "english": "four hundred and fifty",
+      "number": 450,
+      "audio": {
+        "female": "audio/female/db1d983e7ac8a4fa.mp3",
+        "male": "audio/male/db1d983e7ac8a4fa.mp3"
+      }
+    },
+    {
+      "id": "n680",
+      "traditional": "六百八十",
+      "simplified": "六百八十",
+      "pinyin": "liù bǎi bā shí",
+      "english": "six hundred and eighty",
+      "number": 680,
+      "audio": {
+        "female": "audio/female/6b795c245be6c8e3.mp3",
+        "male": "audio/male/6b795c245be6c8e3.mp3"
+      }
+    },
+    {
+      "id": "n999",
+      "traditional": "九百九十九",
+      "simplified": "九百九十九",
+      "pinyin": "jiǔ bǎi jiǔ shí jiǔ",
+      "english": "nine hundred and ninety-nine",
+      "number": 999,
+      "audio": {
+        "female": "audio/female/93cc55613f1e7272.mp3",
+        "male": "audio/male/93cc55613f1e7272.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/a0710709c1c78d33.mp3",
+    "male": "audio/male/a0710709c1c78d33.mp3"
+  }
+}

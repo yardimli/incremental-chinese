@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "sets": [
+    "numbers-1.json",
+    "numbers-2.json",
+    "numbers-3.json",
+    "everyday.json",
+    "things.json",
+    "phrases.json",
+    "sentences.json"
+  ],
+  "rules": {
+    "correctPerChoiceCount": 2,
+    "choiceCounts": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "matchBoardSize": 5,
+    "cardRevealEveryMatches": 2,
+    "sentenceChoices": 10
+  }
+}

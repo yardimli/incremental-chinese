@@ -1,0 +1,520 @@
+{
+  "voices": {
+    "female": "zh-TW-HsiaoChenNeural",
+    "male": "zh-TW-YunJheNeural"
+  },
+  "clips": {
+    "日常": {
+      "female": "audio/female/f648d6712cf804d1.mp3",
+      "male": "audio/male/f648d6712cf804d1.mp3"
+    },
+    "我": {
+      "female": "audio/female/b70bb4acc0484cf0.mp3",
+      "male": "audio/male/b70bb4acc0484cf0.mp3"
+    },
+    "你": {
+      "female": "audio/female/a0c7716669b5ded0.mp3",
+      "male": "audio/male/a0c7716669b5ded0.mp3"
+    },
+    "他": {
+      "female": "audio/female/8b7b91e0001c6971.mp3",
+      "male": "audio/male/8b7b91e0001c6971.mp3"
+    },
+    "她": {
+      "female": "audio/female/2ab425e0c6b932cb.mp3",
+      "male": "audio/male/2ab425e0c6b932cb.mp3"
+    },
+    "喝": {
+      "female": "audio/female/193632bffe7bd105.mp3",
+      "male": "audio/male/193632bffe7bd105.mp3"
+    },
+    "吃": {
+      "female": "audio/female/c814805bc6d0365a.mp3",
+      "male": "audio/male/c814805bc6d0365a.mp3"
+    },
+    "看": {
+      "female": "audio/female/61f43315f98a4b16.mp3",
+      "male": "audio/male/61f43315f98a4b16.mp3"
+    },
+    "有": {
+      "female": "audio/female/90ce0f66f09488f2.mp3",
+      "male": "audio/male/90ce0f66f09488f2.mp3"
+    },
+    "要": {
+      "female": "audio/female/975f35218ed8782e.mp3",
+      "male": "audio/male/975f35218ed8782e.mp3"
+    },
+    "在": {
+      "female": "audio/female/12404a0b63817240.mp3",
+      "male": "audio/male/12404a0b63817240.mp3"
+    },
+    "家": {
+      "female": "audio/female/c8ae97be80f3867c.mp3",
+      "male": "audio/male/c8ae97be80f3867c.mp3"
+    },
+    "是": {
+      "female": "audio/female/b5141d3d19e9a048.mp3",
+      "male": "audio/male/b5141d3d19e9a048.mp3"
+    },
+    "不": {
+      "female": "audio/female/b02dfe2160c687c2.mp3",
+      "male": "audio/male/b02dfe2160c687c2.mp3"
+    },
+    "也": {
+      "female": "audio/female/658605835bfc7ff8.mp3",
+      "male": "audio/male/658605835bfc7ff8.mp3"
+    },
+    "喜歡": {
+      "female": "audio/female/707f15beb6728796.mp3",
+      "male": "audio/male/707f15beb6728796.mp3"
+    },
+    "數字": {
+      "female": "audio/female/365bd33d1106abd2.mp3",
+      "male": "audio/male/365bd33d1106abd2.mp3"
+    },
+    "零": {
+      "female": "audio/female/9489a4a6f3fbf136.mp3",
+      "male": "audio/male/9489a4a6f3fbf136.mp3"
+    },
+    "一": {
+      "female": "audio/female/51a75f4634dfa859.mp3",
+      "male": "audio/male/51a75f4634dfa859.mp3"
+    },
+    "二": {
+      "female": "audio/female/084b42f6e95e4e65.mp3",
+      "male": "audio/male/084b42f6e95e4e65.mp3"
+    },
+    "三": {
+      "female": "audio/female/a4c3313deb180960.mp3",
+      "male": "audio/male/a4c3313deb180960.mp3"
+    },
+    "四": {
+      "female": "audio/female/754a9d5828d502f1.mp3",
+      "male": "audio/male/754a9d5828d502f1.mp3"
+    },
+    "五": {
+      "female": "audio/female/c9b87f516a38ea36.mp3",
+      "male": "audio/male/c9b87f516a38ea36.mp3"
+    },
+    "六": {
+      "female": "audio/female/de07b5383874b2a3.mp3",
+      "male": "audio/male/de07b5383874b2a3.mp3"
+    },
+    "七": {
+      "female": "audio/female/1b0542878c67f6cd.mp3",
+      "male": "audio/male/1b0542878c67f6cd.mp3"
+    },
+    "八": {
+      "female": "audio/female/2c467d3673926b20.mp3",
+      "male": "audio/male/2c467d3673926b20.mp3"
+    },
+    "九": {
+      "female": "audio/female/df897da6e02ecd30.mp3",
+      "male": "audio/male/df897da6e02ecd30.mp3"
+    },
+    "十": {
+      "female": "audio/female/fc7edd399a5c4b93.mp3",
+      "male": "audio/male/fc7edd399a5c4b93.mp3"
+    },
+    "百": {
+      "female": "audio/female/089d8c4c00705fce.mp3",
+      "male": "audio/male/089d8c4c00705fce.mp3"
+    },
+    "千": {
+      "female": "audio/female/23d862decf4f14ab.mp3",
+      "male": "audio/male/23d862decf4f14ab.mp3"
+    },
+    "萬": {
+      "female": "audio/female/93203d1ae93964e0.mp3",
+      "male": "audio/male/93203d1ae93964e0.mp3"
+    },
+    "十萬": {
+      "female": "audio/female/044d274368f1057d.mp3",
+      "male": "audio/male/044d274368f1057d.mp3"
+    },
+    "一百萬": {
+      "female": "audio/female/bdea7ac95a2d34cd.mp3",
+      "male": "audio/male/bdea7ac95a2d34cd.mp3"
+    },
+    "一億": {
+      "female": "audio/female/2fe61aa767b723c2.mp3",
+      "male": "audio/male/2fe61aa767b723c2.mp3"
+    },
+    "一兆": {
+      "female": "audio/female/2476c102dc979d59.mp3",
+      "male": "audio/male/2476c102dc979d59.mp3"
+    },
+    "兩位數": {
+      "female": "audio/female/fe4fc62f68f792e2.mp3",
+      "male": "audio/male/fe4fc62f68f792e2.mp3"
+    },
+    "十一": {
+      "female": "audio/female/41cbc3e287cbeb55.mp3",
+      "male": "audio/male/41cbc3e287cbeb55.mp3"
+    },
+    "十二": {
+      "female": "audio/female/80b044f1afc988e1.mp3",
+      "male": "audio/male/80b044f1afc988e1.mp3"
+    },
+    "十五": {
+      "female": "audio/female/2f740e1769682233.mp3",
+      "male": "audio/male/2f740e1769682233.mp3"
+    },
+    "二十": {
+      "female": "audio/female/e5ec573b3977ce9d.mp3",
+      "male": "audio/male/e5ec573b3977ce9d.mp3"
+    },
+    "二十四": {
+      "female": "audio/female/c0661086447e6de6.mp3",
+      "male": "audio/male/c0661086447e6de6.mp3"
+    },
+    "三十": {
+      "female": "audio/female/a70676fba2a260e8.mp3",
+      "male": "audio/male/a70676fba2a260e8.mp3"
+    },
+    "四十八": {
+      "female": "audio/female/79c5544dd96fc4cd.mp3",
+      "male": "audio/male/79c5544dd96fc4cd.mp3"
+    },
+    "六十": {
+      "female": "audio/female/55138c1a1ab8119b.mp3",
+      "male": "audio/male/55138c1a1ab8119b.mp3"
+    },
+    "九十九": {
+      "female": "audio/female/185f23bea0a1fac2.mp3",
+      "male": "audio/male/185f23bea0a1fac2.mp3"
+    },
+    "三位數": {
+      "female": "audio/female/a0710709c1c78d33.mp3",
+      "male": "audio/male/a0710709c1c78d33.mp3"
+    },
+    "一百": {
+      "female": "audio/female/38d302ad2b36640f.mp3",
+      "male": "audio/male/38d302ad2b36640f.mp3"
+    },
+    "一百零一": {
+      "female": "audio/female/bf935975c1deaa88.mp3",
+      "male": "audio/male/bf935975c1deaa88.mp3"
+    },
+    "一百一十": {
+      "female": "audio/female/baafb5784052fe56.mp3",
+      "male": "audio/male/baafb5784052fe56.mp3"
+    },
+    "一百二十五": {
+      "female": "audio/female/7864aa816f7c4efd.mp3",
+      "male": "audio/male/7864aa816f7c4efd.mp3"
+    },
+    "二百": {
+      "female": "audio/female/bb7fc3a46dd821d2.mp3",
+      "male": "audio/male/bb7fc3a46dd821d2.mp3"
+    },
+    "二百五十六": {
+      "female": "audio/female/1ff52d662f5a59c3.mp3",
+      "male": "audio/male/1ff52d662f5a59c3.mp3"
+    },
+    "三百": {
+      "female": "audio/female/e6a5e7b74720e53d.mp3",
+      "male": "audio/male/e6a5e7b74720e53d.mp3"
+    },
+    "四百五十": {
+      "female": "audio/female/db1d983e7ac8a4fa.mp3",
+      "male": "audio/male/db1d983e7ac8a4fa.mp3"
+    },
+    "六百八十": {
+      "female": "audio/female/6b795c245be6c8e3.mp3",
+      "male": "audio/male/6b795c245be6c8e3.mp3"
+    },
+    "九百九十九": {
+      "female": "audio/female/93cc55613f1e7272.mp3",
+      "male": "audio/male/93cc55613f1e7272.mp3"
+    },
+    "短語": {
+      "female": "audio/female/ec9ede0cdf8aa6ff.mp3",
+      "male": "audio/male/ec9ede0cdf8aa6ff.mp3"
+    },
+    "長尾巴": {
+      "female": "audio/female/934ce6499d542c4b.mp3",
+      "male": "audio/male/934ce6499d542c4b.mp3"
+    },
+    "短尾巴": {
+      "female": "audio/female/dfe770ff2aa040e8.mp3",
+      "male": "audio/male/dfe770ff2aa040e8.mp3"
+    },
+    "熱咖啡": {
+      "female": "audio/female/935c4b6c571f4c76.mp3",
+      "male": "audio/male/935c4b6c571f4c76.mp3"
+    },
+    "冷咖啡": {
+      "female": "audio/female/b1819824134af5d2.mp3",
+      "male": "audio/male/b1819824134af5d2.mp3"
+    },
+    "熱茶": {
+      "female": "audio/female/4a4771dfbd597a8d.mp3",
+      "male": "audio/male/4a4771dfbd597a8d.mp3"
+    },
+    "冷茶": {
+      "female": "audio/female/6fa71bf17e9c67a2.mp3",
+      "male": "audio/male/6fa71bf17e9c67a2.mp3"
+    },
+    "熱水": {
+      "female": "audio/female/fb89294a9d2e4e4e.mp3",
+      "male": "audio/male/fb89294a9d2e4e4e.mp3"
+    },
+    "冷水": {
+      "female": "audio/female/0a1b6b290cde5862.mp3",
+      "male": "audio/male/0a1b6b290cde5862.mp3"
+    },
+    "三隻鴨子": {
+      "female": "audio/female/50fc669b74466c19.mp3",
+      "male": "audio/male/50fc669b74466c19.mp3"
+    },
+    "兩隻貓": {
+      "female": "audio/female/ecc40a1a535ce81f.mp3",
+      "male": "audio/male/ecc40a1a535ce81f.mp3"
+    },
+    "一隻狗": {
+      "female": "audio/female/9b9cabffb8fc0091.mp3",
+      "male": "audio/male/9b9cabffb8fc0091.mp3"
+    },
+    "大貓": {
+      "female": "audio/female/5d81a1865a91f94f.mp3",
+      "male": "audio/male/5d81a1865a91f94f.mp3"
+    },
+    "小狗": {
+      "female": "audio/female/291b0888f1c619c3.mp3",
+      "male": "audio/male/291b0888f1c619c3.mp3"
+    },
+    "大鴨子": {
+      "female": "audio/female/53fb206c3a3bac9e.mp3",
+      "male": "audio/male/53fb206c3a3bac9e.mp3"
+    },
+    "小貓": {
+      "female": "audio/female/7f5b7b018e77dfaf.mp3",
+      "male": "audio/male/7f5b7b018e77dfaf.mp3"
+    },
+    "句子": {
+      "female": "audio/female/ea3a456491382f60.mp3",
+      "male": "audio/male/ea3a456491382f60.mp3"
+    },
+    "我喝水": {
+      "female": "audio/female/12542269cf686601.mp3",
+      "male": "audio/male/12542269cf686601.mp3"
+    },
+    "你喝茶": {
+      "female": "audio/female/6493a07382f7de8d.mp3",
+      "male": "audio/male/6493a07382f7de8d.mp3"
+    },
+    "他喝咖啡": {
+      "female": "audio/female/f7b135de1341f73a.mp3",
+      "male": "audio/male/f7b135de1341f73a.mp3"
+    },
+    "她吃飯": {
+      "female": "audio/female/85f1c7d6d5a64506.mp3",
+      "male": "audio/male/85f1c7d6d5a64506.mp3"
+    },
+    "我喜歡貓": {
+      "female": "audio/female/b6c540c72fe52201.mp3",
+      "male": "audio/male/b6c540c72fe52201.mp3"
+    },
+    "你喜歡狗": {
+      "female": "audio/female/92ec89921056403d.mp3",
+      "male": "audio/male/92ec89921056403d.mp3"
+    },
+    "他有鴨子": {
+      "female": "audio/female/9a00e629997039b9.mp3",
+      "male": "audio/male/9a00e629997039b9.mp3"
+    },
+    "她要水": {
+      "female": "audio/female/a295e1c6623df3f1.mp3",
+      "male": "audio/male/a295e1c6623df3f1.mp3"
+    },
+    "我在家": {
+      "female": "audio/female/586d4ff4cd1563eb.mp3",
+      "male": "audio/male/586d4ff4cd1563eb.mp3"
+    },
+    "你在家": {
+      "female": "audio/female/6eeda59c9cd76aa4.mp3",
+      "male": "audio/male/6eeda59c9cd76aa4.mp3"
+    },
+    "我不喝咖啡": {
+      "female": "audio/female/6234fb29bbfd1a50.mp3",
+      "male": "audio/male/6234fb29bbfd1a50.mp3"
+    },
+    "她不吃飯": {
+      "female": "audio/female/1075584e2cc2c2f9.mp3",
+      "male": "audio/male/1075584e2cc2c2f9.mp3"
+    },
+    "他也喝茶": {
+      "female": "audio/female/2f774ffb925ba6fb.mp3",
+      "male": "audio/male/2f774ffb925ba6fb.mp3"
+    },
+    "我也喜歡貓": {
+      "female": "audio/female/742f3d2238bc074b.mp3",
+      "male": "audio/male/742f3d2238bc074b.mp3"
+    },
+    "你要熱咖啡": {
+      "female": "audio/female/d5840fb0f85d76b6.mp3",
+      "male": "audio/male/d5840fb0f85d76b6.mp3"
+    },
+    "她喝冷水": {
+      "female": "audio/female/b54df855baecb6a1.mp3",
+      "male": "audio/male/b54df855baecb6a1.mp3"
+    },
+    "他喝熱茶": {
+      "female": "audio/female/053624b443ad2555.mp3",
+      "male": "audio/male/053624b443ad2555.mp3"
+    },
+    "我有三隻鴨子": {
+      "female": "audio/female/9668bdb4cd22b2f7.mp3",
+      "male": "audio/male/9668bdb4cd22b2f7.mp3"
+    },
+    "你有兩隻貓": {
+      "female": "audio/female/9bfa509086eea6db.mp3",
+      "male": "audio/male/9bfa509086eea6db.mp3"
+    },
+    "她有一隻狗": {
+      "female": "audio/female/9a830b4d68205c7a.mp3",
+      "male": "audio/male/9a830b4d68205c7a.mp3"
+    },
+    "我喜歡長尾巴": {
+      "female": "audio/female/df2c85edc3cd0684.mp3",
+      "male": "audio/male/df2c85edc3cd0684.mp3"
+    },
+    "他看大貓": {
+      "female": "audio/female/b825712c7e1549a4.mp3",
+      "male": "audio/male/b825712c7e1549a4.mp3"
+    },
+    "她喜歡小狗": {
+      "female": "audio/female/49334f87dca48617.mp3",
+      "male": "audio/male/49334f87dca48617.mp3"
+    },
+    "我要熱水": {
+      "female": "audio/female/8448ad163ace7737.mp3",
+      "male": "audio/male/8448ad163ace7737.mp3"
+    },
+    "他要冷茶": {
+      "female": "audio/female/b3f3b23ac9423786.mp3",
+      "male": "audio/male/b3f3b23ac9423786.mp3"
+    },
+    "她喝熱咖啡": {
+      "female": "audio/female/83063de51a7d5bc3.mp3",
+      "male": "audio/male/83063de51a7d5bc3.mp3"
+    },
+    "我不喜歡咖啡": {
+      "female": "audio/female/b8aea732b10cc45d.mp3",
+      "male": "audio/male/b8aea732b10cc45d.mp3"
+    },
+    "十一不是十二": {
+      "female": "audio/female/e46788676b953433.mp3",
+      "male": "audio/male/e46788676b953433.mp3"
+    },
+    "一百不是二百": {
+      "female": "audio/female/5a68fec83ffe5ae5.mp3",
+      "male": "audio/male/5a68fec83ffe5ae5.mp3"
+    },
+    "三不是四": {
+      "female": "audio/female/9c4df88d24a13fa5.mp3",
+      "male": "audio/male/9c4df88d24a13fa5.mp3"
+    },
+    "生活": {
+      "female": "audio/female/15d208d1b4c98aae.mp3",
+      "male": "audio/male/15d208d1b4c98aae.mp3"
+    },
+    "水": {
+      "female": "audio/female/327b54d04f71f212.mp3",
+      "male": "audio/male/327b54d04f71f212.mp3"
+    },
+    "茶": {
+      "female": "audio/female/7e005ba311f86fa7.mp3",
+      "male": "audio/male/7e005ba311f86fa7.mp3"
+    },
+    "咖啡": {
+      "female": "audio/female/720ec669f15b87b1.mp3",
+      "male": "audio/male/720ec669f15b87b1.mp3"
+    },
+    "飯": {
+      "female": "audio/female/65a1fe6854ab52ff.mp3",
+      "male": "audio/male/65a1fe6854ab52ff.mp3"
+    },
+    "貓": {
+      "female": "audio/female/2c00cf9c8df4e2a1.mp3",
+      "male": "audio/male/2c00cf9c8df4e2a1.mp3"
+    },
+    "狗": {
+      "female": "audio/female/cecd675a4c3cb00d.mp3",
+      "male": "audio/male/cecd675a4c3cb00d.mp3"
+    },
+    "鴨子": {
+      "female": "audio/female/cfcb018d2623a78c.mp3",
+      "male": "audio/male/cfcb018d2623a78c.mp3"
+    },
+    "尾巴": {
+      "female": "audio/female/797d828e8c3167e9.mp3",
+      "male": "audio/male/797d828e8c3167e9.mp3"
+    },
+    "長": {
+      "female": "audio/female/63ba256fdb4a9064.mp3",
+      "male": "audio/male/63ba256fdb4a9064.mp3"
+    },
+    "短": {
+      "female": "audio/female/4ca8d4f77574e43a.mp3",
+      "male": "audio/male/4ca8d4f77574e43a.mp3"
+    },
+    "熱": {
+      "female": "audio/female/34ceaffd88498929.mp3",
+      "male": "audio/male/34ceaffd88498929.mp3"
+    },
+    "冷": {
+      "female": "audio/female/6e87e42fbc222f49.mp3",
+      "male": "audio/male/6e87e42fbc222f49.mp3"
+    },
+    "大": {
+      "female": "audio/female/7d4ca7f48effd602.mp3",
+      "male": "audio/male/7d4ca7f48effd602.mp3"
+    },
+    "小": {
+      "female": "audio/female/6a7339bb759788f3.mp3",
+      "male": "audio/male/6a7339bb759788f3.mp3"
+    },
+    "隻": {
+      "female": "audio/female/35935dea0246ff25.mp3",
+      "male": "audio/male/35935dea0246ff25.mp3"
+    },
+    "加倍": {
+      "female": "audio/female/18a43a8777980bb4.mp3",
+      "male": "audio/male/18a43a8777980bb4.mp3"
+    },
+    "力量": {
+      "female": "audio/female/16b7568de4799d09.mp3",
+      "male": "audio/male/16b7568de4799d09.mp3"
+    },
+    "成長": {
+      "female": "audio/female/aa6dcdf6888c8572.mp3",
+      "male": "audio/male/aa6dcdf6888c8572.mp3"
+    },
+    "積累": {
+      "female": "audio/female/eb31878082d08a0f.mp3",
+      "male": "audio/male/eb31878082d08a0f.mp3"
+    },
+    "休息": {
+      "female": "audio/female/fff33732fc978a09.mp3",
+      "male": "audio/male/fff33732fc978a09.mp3"
+    },
+    "時間": {
+      "female": "audio/female/bf6267da6077b6be.mp3",
+      "male": "audio/male/bf6267da6077b6be.mp3"
+    },
+    "收穫": {
+      "female": "audio/female/325c447e2f648a96.mp3",
+      "male": "audio/male/325c447e2f648a96.mp3"
+    },
+    "豐收": {
+      "female": "audio/female/b39780555acc3b94.mp3",
+      "male": "audio/male/b39780555acc3b94.mp3"
+    },
+    "再來": {
+      "female": "audio/female/5c03e3075ec8f929.mp3",
+      "male": "audio/male/5c03e3075ec8f929.mp3"
+    }
+  }
+}

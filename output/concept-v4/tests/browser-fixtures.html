@@ -1,0 +1,22 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Isolated browser fixtures</title><h1>Browser test fixtures</h1><p>Use localhost, not 127.0.0.1, to isolate test storage from the playable save.</p><div id="controls"></div><script type="module">
+import * as E from '../engine.mjs';
+const manifest=await fetch('../lessons/index.json').then(r=>r.json());
+const lessons=await Promise.all(manifest.sets.map(f=>fetch('../lessons/'+f).then(r=>r.json())));
+function tap(s){while(s.stage==='tap'||s.stage==='cardReward'){if(s.stage==='cardReward')E.continueCardReward(s);else E.answerTap(s,lessons,s.current.id,s.current.id)}}
+function match(s){while(s.stage==='match'||s.stage==='cardReward'){if(s.stage==='cardReward'){E.continueCardReward(s);continue}const id=E.matchBoard(s).find(id=>!s.matchFound.includes(id));E.matchPair(s,lessons,id,id)}}
+function complete(s){tap(s);match(s);E.claimSet(s,lessons)}
+if(location.hostname==='localhost')for(const name of ['Empty','Long card reward','Arena reward','Four choices','Match','Card reward','Set reward','Fifteen pairs','Sentences']){
+ const b=document.createElement('button');b.textContent=name;document.querySelector('#controls').append(b);
+ b.onclick=()=>{const s=E.freshState(lessons,Date.now(),1234);
+ if(name==='Long card reward'){s.stage='cardReward';s.pendingReward={ids:['scale1000000'],before:3,after:4,total:18,allDone:false,resume:'tap'}}
+ if(name==='Arena reward')while(s.stage==='tap')E.answerTap(s,lessons,s.current.id,s.current.id);
+ if(name==='Four choices'){while(s.difficulty<4){if(s.stage==='cardReward')E.continueCardReward(s);else E.answerTap(s,lessons,s.current.id,s.current.id)}if(s.stage==='cardReward')E.continueCardReward(s)}
+ if(['Match','Card reward','Set reward'].includes(name))tap(s);
+ if(name==='Card reward')for(const id of E.matchBoard(s).slice(0,2))E.matchPair(s,lessons,id,id);
+ if(name==='Set reward')match(s);
+ if(name==='Fifteen pairs'){for(let i=0;i<3;i++)complete(s);s.seen=lessons[3].pairs.map(w=>w.id);s.difficulty=4;E.newPrompt(s,lessons)}
+ if(name==='Sentences')for(let i=0;i<6;i++)complete(s);
+ localStorage.setItem(E.SAVE_KEY,JSON.stringify(s));location.href='../screens/home.html';
+ };
+}
+</script></html>

@@ -1,0 +1,76 @@
+G01|Foundation|Subject + verb + object|我 / 喝 / 水|I drink water.|Order a drink for the tea stall.
+G02|Foundation|是 identifies a noun|这 / 是 / 茶|This is tea.|Label a stall delivery.
+G03|Foundation|不 negates a verb or 是|我 / 不 / 喝 / 茶|I do not drink tea.|Choose a visitor's requested drink.
+G04|Foundation|吗 forms a yes/no question|你 / 喝 / 茶 / 吗|Do you drink tea?|Complete a visitor request.
+G05|Foundation|Question word stays in its answer position|你 / 喝 / 什么|What do you drink?|Find the missing order item.
+G06|Foundation|谁 asks identity|他 / 是 / 谁|Who is he?|Identify a resident in a portrait scene.
+G07|Foundation|的 marks possession|我 / 的 / 杯子|My cup.|Attach the right object to its owner.
+G08|Foundation|的 can be omitted with close family|我 / 妈妈|My mom.|Recognize both natural ownership forms.
+G09|Foundation|Adjectival predicate with 很, without 是|水 / 很 / 热|The water is hot.|Choose the matching kettle state.
+G10|Foundation|没有 negates possession/existence|我 / 没 / 有 / 钱|I do not have money.|Read the stall purchase condition.
+G11|Foundation|有 expresses existence|家 / 里 / 有 / 人|There is someone at home.|Place residents in the correct home.
+G12|Foundation|在 expresses location|他 / 在 / 家|He is at home.|Find a resident on the village map.
+G13|Foundation|Place + position word|桌子 / 上|On the table.|Place a delivery on a highlighted surface.
+G14|Foundation|哪里/哪儿 asks location|你 / 在 / 哪儿|Where are you?|Find the visitor's destination.
+G15|Foundation|Number + classifier + noun|三 / 个 / 苹果|Three apples.|Pack a kitchen order.
+G16|Foundation|两 versus 二 before classifiers|两 / 个 / 人|Two people.|Fill a home with the requested residents.
+G17|Foundation|Demonstrative + classifier + noun|这 / 个 / 杯子|This cup.|Choose a specific cup, not every cup.
+G18|Foundation|哪 + classifier + noun|哪 / 本 / 书|Which book?|Select the school's requested book.
+G19|Foundation|几 versus 多少 in quantity questions|几 / 个 / 人|How many people?|Complete a housing count; contrast with 多少钱.
+G20|Foundation|Time normally precedes the verb|我 / 今天 / 工作|I work today.|Order a resident's schedule.
+G21|Foundation|Calendar order: year, month, day|三 / 月 / 一 / 日|March first.|Assemble a festival date; include year in separate rounds.
+G22|Foundation|Clock time: number + 点|三 / 点|Three o'clock.|Set a work-start time.
+G23|Foundation|Age with 岁; normally no 是|我 / 十 / 岁|I am ten years old.|Complete a resident's profile.
+G24|Foundation|和 joins nouns|爸爸 / 和 / 妈妈|Dad and mom.|Assign a household together.
+G25|Foundation|都 goes before the predicate|我们 / 都 / 喝 / 茶|We all drink tea.|Serve a group with one shared request.
+G26|Foundation|也 goes before the predicate|我 / 也 / 喝 / 茶|I drink tea too.|Add another resident to an order.
+G27|Foundation|呢 asks a follow-up|你 / 呢|What about you?|Complete a second resident's dialogue turn.
+G28|Foundation|想 + verb expresses a wish|我 / 想 / 买 / 茶|I want to buy tea.|Order a visitor's purchase request.
+G29|Foundation|会 expresses learned ability|我 / 会 / 写 / 字|I can write characters.|Assign a resident to a suitable school task.
+G30|Foundation|能 expresses ability/circumstances|我 / 能 / 来|I can come.|Choose an available helper from a scene.
+G31|Foundation|请 introduces a polite request|请 / 坐|Please sit.|Seat a guest in the pavilion.
+G32|Foundation|了 marks a completed event|我 / 买 / 了 / 茶|I bought tea.|Match a finished purchase to its sentence.
+G33|Foundation|Sentence-final 了 signals a changed situation|下雨 / 了|It has started raining.|Recognize the new weather state.
+G34|Foundation|没 negates a past action; omit completion 了|我 / 没 / 买 / 茶|I did not buy tea.|Distinguish an unfilled order from a completed one.
+G35|Foundation|太...了 expresses a strong degree|太 / 热 / 了|It is too hot!|Adjust the tea-stall scene.
+G36|Foundation|怎么样 asks for an assessment|茶 / 怎么样|How is the tea?|Select the matching customer response.
+G37|Foundation|怎么 asks how an action is done|怎么 / 去 / 学校|How do I get to school?|Choose the correct route scene.
+G38|Foundation|Verb sequence for a purpose|我 / 去 / 买 / 茶|I am going to buy tea.|Match a trip to its purpose.
+G39|Expansion|A-not-A question|你 / 来 / 不 / 来|Are you coming?|Accept either affirmative or negative visitor reply.
+G40|Expansion|正在 / 在 + verb marks an ongoing action|他 / 正在 / 工作|He is working.|Match an animated resident, not a finished task.
+G41|Expansion|着 marks an ongoing state|门 / 开 / 着|The door is open.|Choose the open-door scene; contrast with 开了.
+G42|Expansion|过 marks experience|我 / 去 / 过 / 北京|I have been to Beijing.|Identify a visitor's travel history.
+G43|Expansion|没...过 negates experience|没 / 去 / 过 / 北京|Have not been to Beijing.|Complete a travel-history reply with implied subject.
+G44|Expansion|已经 + verb + 了|已经 / 吃 / 了|Have already eaten.|Check a completed kitchen request.
+G45|Expansion|还 expresses continuation|他 / 还 / 在 / 工作|He is still working.|Compare current and finished work scenes.
+G46|Expansion|再 expresses a future repetition|再 / 来|Come again.|Prepare a repeat visitor request.
+G47|Expansion|吧 softens a suggestion|我们 / 去 / 吧|Let's go.|Send a visiting group on its route.
+G48|Expansion|别 + verb prohibits an action|别 / 进 / 来|Do not come in.|Read a temporary room instruction.
+G49|Expansion|可以 expresses permission|可以 / 进 / 来|You may come in.|Choose a permitted action at the guesthouse.
+G50|Expansion|可能 expresses possibility|明天 / 可能 / 下雨|It might rain tomorrow.|Prepare shelter for a possible weather event.
+G51|Expansion|要 expresses intention/future|我 / 要 / 去 / 学校|I am going to school.|Assign a destination from an intention.
+G52|Expansion|给 introduces a recipient|给 / 我 / 茶|Give me tea.|Deliver to the named recipient.
+G53|Expansion|让 + person + verb|让 / 他 / 来|Let him come.|Assign a helper through a short instruction.
+G54|Expansion|Verb + 得 + degree description|他 / 跑 / 得 / 快|He runs fast.|Compare runners in a recreation scene; 跑 is a taught component of 跑步.
+G55|Expansion|Verb + result complement|我 / 吃 / 完 / 了|I have finished eating.|Recognize finished work; later use 看见 and 听懂.
+G56|Expansion|Motion verb + 来 / 去|进 / 来|Come in.|Choose movement toward the speaker; contrast with 进去.
+G57|Expansion|从...到... expresses a route|从 / 家 / 到 / 学校|From home to school.|Connect two map locations.
+G58|Expansion|向 introduces a direction|向 / 左边 / 走|Walk toward the left.|Guide a visitor without translating direction labels.
+G59|Expansion|离 expresses distance|学校 / 离 / 家 / 近|The school is near home.|Pick the matching map layout.
+G60|Expansion|比 compares two things|我 / 比 / 他 / 高|I am taller than him.|Match the correct resident-height scene.
+G61|Expansion|最 marks a superlative|这 / 个 / 最 / 贵|This one is the most expensive.|Select a stall's highest-priced item.
+G62|Expansion|每 + time / classifier|每 / 天 / 工作|Work every day.|Set a repeated schedule; 天 is a separately taught time component.
+G63|Expansion|Duration follows an action|工作 / 三 / 个 / 小时|Work for three hours.|Fill a schedule duration, contrasting 点 with 小时.
+G64|Expansion|第 + number forms an ordinal|第 / 三 / 个 / 人|The third person.|Select a position in a queue; 第 is taught from 第一.
+G65|Expansion|因为...所以... links cause and result|因为下雨 / 所以我在家|Because it is raining, I am at home.|Assemble each clause first, then link the two familiar chunks.
+G66|Expansion|但是 introduces contrast|我想去 / 但是没有钱|I want to go, but I have no money.|Pair an intention with the contrasting constraint.
+G67|Expansion|为什么 asks for a reason|为什么 / 不 / 来|Why aren't you coming?|Match a reason to a visitor's situation.
+G68|Expansion|就 connects a condition/time to a result|他来 / 我就去|When he comes, I will go.|Sequence two resident actions using prebuilt clauses.
+G69|Expansion|Adjective + 的 + noun|漂亮 / 的 / 衣服|Beautiful clothes.|Choose the outfit described by the phrase.
+G70|Expansion|对 + person + adjective|他 / 对 / 我 / 好|He is kind to me.|Match a helpful interaction; distinguish 对 meaning correct.
+G71|Expansion|Verb reduplication softens a brief action|看 / 看|Take a look.|Inspect a stall item; introduce as a phrase, not two new words.
+G72|Expansion|A small amount with 一点儿 (edition extension)|喝 / 一点儿 / 水|Drink a little water.|Choose a small portion; optional edition-bridge stage.
+G73|Expansion|有点儿 + adjective (grammar extension)|有点儿 / 冷|A little cold.|Compare mild discomfort with 一点儿 quantities; optional extension.
+G74|Expansion|虽然...但是... (edition extension)|虽然下雨 / 但是我想去|Although it is raining, I want to go.|Link two previously practised clauses in an optional bridge stage.
+G75|Expansion|要...了 announces an imminent event|要 / 下雨 / 了|It is about to rain.|Distinguish approaching weather from current rain.
+G76|Expansion|是...的 focuses a past event's circumstance|我是昨天来的|It was yesterday that I came.|Two-step visitor puzzle: assemble 昨天来, then frame the event; chunked target.

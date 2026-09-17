@@ -1,0 +1,237 @@
+{
+  "id": "numbers-1",
+  "traditional": "數字",
+  "simplified": "数字",
+  "pinyin": "shù zì",
+  "type": "pairs",
+  "pairs": [
+    {
+      "id": "n0",
+      "traditional": "零",
+      "simplified": "零",
+      "pinyin": "líng",
+      "english": "zero",
+      "number": 0,
+      "audio": {
+        "female": "audio/female/9489a4a6f3fbf136.mp3",
+        "male": "audio/male/9489a4a6f3fbf136.mp3"
+      }
+    },
+    {
+      "id": "n1",
+      "traditional": "一",
+      "simplified": "一",
+      "pinyin": "yī",
+      "english": "one",
+      "number": 1,
+      "audio": {
+        "female": "audio/female/51a75f4634dfa859.mp3",
+        "male": "audio/male/51a75f4634dfa859.mp3"
+      }
+    },
+    {
+      "id": "n2",
+      "traditional": "二",
+      "simplified": "二",
+      "pinyin": "èr",
+      "english": "two",
+      "number": 2,
+      "audio": {
+        "female": "audio/female/084b42f6e95e4e65.mp3",
+        "male": "audio/male/084b42f6e95e4e65.mp3"
+      }
+    },
+    {
+      "id": "n3",
+      "traditional": "三",
+      "simplified": "三",
+      "pinyin": "sān",
+      "english": "three",
+      "number": 3,
+      "audio": {
+        "female": "audio/female/a4c3313deb180960.mp3",
+        "male": "audio/male/a4c3313deb180960.mp3"
+      }
+    },
+    {
+      "id": "n4",
+      "traditional": "四",
+      "simplified": "四",
+      "pinyin": "sì",
+      "english": "four",
+      "number": 4,
+      "audio": {
+        "female": "audio/female/754a9d5828d502f1.mp3",
+        "male": "audio/male/754a9d5828d502f1.mp3"
+      }
+    },
+    {
+      "id": "n5",
+      "traditional": "五",
+      "simplified": "五",
+      "pinyin": "wǔ",
+      "english": "five",
+      "number": 5,
+      "audio": {
+        "female": "audio/female/c9b87f516a38ea36.mp3",
+        "male": "audio/male/c9b87f516a38ea36.mp3"
+      }
+    },
+    {
+      "id": "n6",
+      "traditional": "六",
+      "simplified": "六",
+      "pinyin": "liù",
+      "english": "six",
+      "number": 6,
+      "audio": {
+        "female": "audio/female/de07b5383874b2a3.mp3",
+        "male": "audio/male/de07b5383874b2a3.mp3"
+      }
+    },
+    {
+      "id": "n7",
+      "traditional": "七",
+      "simplified": "七",
+      "pinyin": "qī",
+      "english": "seven",
+      "number": 7,
+      "audio": {
+        "female": "audio/female/1b0542878c67f6cd.mp3",
+        "male": "audio/male/1b0542878c67f6cd.mp3"
+      }
+    },
+    {
+      "id": "n8",
+      "traditional": "八",
+      "simplified": "八",
+      "pinyin": "bā",
+      "english": "eight",
+      "number": 8,
+      "audio": {
+        "female": "audio/female/2c467d3673926b20.mp3",
+        "male": "audio/male/2c467d3673926b20.mp3"
+      }
+    },
+    {
+      "id": "n9",
+      "traditional": "九",
+      "simplified": "九",
+      "pinyin": "jiǔ",
+      "english": "nine",
+      "number": 9,
+      "audio": {
+        "female": "audio/female/df897da6e02ecd30.mp3",
+        "male": "audio/male/df897da6e02ecd30.mp3"
+      }
+    },
+    {
+      "id": "scale10",
+      "traditional": "十",
+      "simplified": "十",
+      "pinyin": "shí",
+      "english": "10",
+      "number": 10,
+      "financialTraditional": "拾",
+      "audio": {
+        "female": "audio/female/fc7edd399a5c4b93.mp3",
+        "male": "audio/male/fc7edd399a5c4b93.mp3"
+      }
+    },
+    {
+      "id": "scale100",
+      "traditional": "百",
+      "simplified": "百",
+      "pinyin": "bǎi",
+      "english": "100",
+      "number": 100,
+      "financialTraditional": "佰",
+      "audio": {
+        "female": "audio/female/089d8c4c00705fce.mp3",
+        "male": "audio/male/089d8c4c00705fce.mp3"
+      }
+    },
+    {
+      "id": "scale1000",
+      "traditional": "千",
+      "simplified": "千",
+      "pinyin": "qiān",
+      "english": "1,000",
+      "number": 1000,
+      "financialTraditional": "仟",
+      "audio": {
+        "female": "audio/female/23d862decf4f14ab.mp3",
+        "male": "audio/male/23d862decf4f14ab.mp3"
+      }
+    },
+    {
+      "id": "scale10000",
+      "traditional": "萬",
+      "simplified": "万",
+      "pinyin": "wàn",
+      "english": "10,000",
+      "number": 10000,
+      "financialTraditional": "萬",
+      "audio": {
+        "female": "audio/female/93203d1ae93964e0.mp3",
+        "male": "audio/male/93203d1ae93964e0.mp3"
+      }
+    },
+    {
+      "id": "scale100000",
+      "traditional": "十萬",
+      "simplified": "十万",
+      "pinyin": "shí wàn",
+      "english": "100,000",
+      "number": 100000,
+      "financialTraditional": "拾萬",
+      "audio": {
+        "female": "audio/female/044d274368f1057d.mp3",
+        "male": "audio/male/044d274368f1057d.mp3"
+      }
+    },
+    {
+      "id": "scale1000000",
+      "traditional": "一百萬",
+      "simplified": "一百万",
+      "pinyin": "yī bǎi wàn",
+      "english": "1,000,000",
+      "number": 1000000,
+      "financialTraditional": "壹佰萬",
+      "audio": {
+        "female": "audio/female/bdea7ac95a2d34cd.mp3",
+        "male": "audio/male/bdea7ac95a2d34cd.mp3"
+      }
+    },
+    {
+      "id": "scale100000000",
+      "traditional": "一億",
+      "simplified": "一亿",
+      "pinyin": "yī yì",
+      "english": "100,000,000",
+      "number": 100000000,
+      "financialTraditional": "壹億",
+      "audio": {
+        "female": "audio/female/2fe61aa767b723c2.mp3",
+        "male": "audio/male/2fe61aa767b723c2.mp3"
+      }
+    },
+    {
+      "id": "scale1000000000000",
+      "traditional": "一兆",
+      "simplified": "一兆",
+      "pinyin": "yī zhào",
+      "english": "1,000,000,000,000",
+      "number": 1000000000000,
+      "financialTraditional": "壹兆",
+      "audio": {
+        "female": "audio/female/2476c102dc979d59.mp3",
+        "male": "audio/male/2476c102dc979d59.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/365bd33d1106abd2.mp3",
+    "male": "audio/male/365bd33d1106abd2.mp3"
+  }
+}

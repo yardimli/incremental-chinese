@@ -1,0 +1,178 @@
+{
+  "id": "phrases",
+  "traditional": "短語",
+  "simplified": "短语",
+  "pinyin": "duǎn yǔ",
+  "type": "pairs",
+  "pairs": [
+    {
+      "id": "long-tail",
+      "traditional": "長尾巴",
+      "simplified": "长尾巴",
+      "pinyin": "cháng wěi ba",
+      "english": "long tail",
+      "audio": {
+        "female": "audio/female/934ce6499d542c4b.mp3",
+        "male": "audio/male/934ce6499d542c4b.mp3"
+      }
+    },
+    {
+      "id": "short-tail",
+      "traditional": "短尾巴",
+      "simplified": "短尾巴",
+      "pinyin": "duǎn wěi ba",
+      "english": "short tail",
+      "audio": {
+        "female": "audio/female/dfe770ff2aa040e8.mp3",
+        "male": "audio/male/dfe770ff2aa040e8.mp3"
+      }
+    },
+    {
+      "id": "hot-coffee",
+      "traditional": "熱咖啡",
+      "simplified": "热咖啡",
+      "pinyin": "rè kā fēi",
+      "english": "hot coffee",
+      "audio": {
+        "female": "audio/female/935c4b6c571f4c76.mp3",
+        "male": "audio/male/935c4b6c571f4c76.mp3"
+      }
+    },
+    {
+      "id": "cold-coffee",
+      "traditional": "冷咖啡",
+      "simplified": "冷咖啡",
+      "pinyin": "lěng kā fēi",
+      "english": "cold coffee",
+      "audio": {
+        "female": "audio/female/b1819824134af5d2.mp3",
+        "male": "audio/male/b1819824134af5d2.mp3"
+      }
+    },
+    {
+      "id": "hot-tea",
+      "traditional": "熱茶",
+      "simplified": "热茶",
+      "pinyin": "rè chá",
+      "english": "hot tea",
+      "audio": {
+        "female": "audio/female/4a4771dfbd597a8d.mp3",
+        "male": "audio/male/4a4771dfbd597a8d.mp3"
+      }
+    },
+    {
+      "id": "cold-tea",
+      "traditional": "冷茶",
+      "simplified": "冷茶",
+      "pinyin": "lěng chá",
+      "english": "cold tea",
+      "audio": {
+        "female": "audio/female/6fa71bf17e9c67a2.mp3",
+        "male": "audio/male/6fa71bf17e9c67a2.mp3"
+      }
+    },
+    {
+      "id": "hot-water",
+      "traditional": "熱水",
+      "simplified": "热水",
+      "pinyin": "rè shuǐ",
+      "english": "hot water",
+      "audio": {
+        "female": "audio/female/fb89294a9d2e4e4e.mp3",
+        "male": "audio/male/fb89294a9d2e4e4e.mp3"
+      }
+    },
+    {
+      "id": "cold-water",
+      "traditional": "冷水",
+      "simplified": "冷水",
+      "pinyin": "lěng shuǐ",
+      "english": "cold water",
+      "audio": {
+        "female": "audio/female/0a1b6b290cde5862.mp3",
+        "male": "audio/male/0a1b6b290cde5862.mp3"
+      }
+    },
+    {
+      "id": "three-ducks",
+      "traditional": "三隻鴨子",
+      "simplified": "三只鸭子",
+      "pinyin": "sān zhī yā zi",
+      "english": "three ducks",
+      "audio": {
+        "female": "audio/female/50fc669b74466c19.mp3",
+        "male": "audio/male/50fc669b74466c19.mp3"
+      }
+    },
+    {
+      "id": "two-cats",
+      "traditional": "兩隻貓",
+      "simplified": "两只猫",
+      "pinyin": "liǎng zhī māo",
+      "english": "two cats",
+      "audio": {
+        "female": "audio/female/ecc40a1a535ce81f.mp3",
+        "male": "audio/male/ecc40a1a535ce81f.mp3"
+      }
+    },
+    {
+      "id": "one-dog",
+      "traditional": "一隻狗",
+      "simplified": "一只狗",
+      "pinyin": "yì zhī gǒu",
+      "english": "one dog",
+      "audio": {
+        "female": "audio/female/9b9cabffb8fc0091.mp3",
+        "male": "audio/male/9b9cabffb8fc0091.mp3"
+      }
+    },
+    {
+      "id": "big-cat",
+      "traditional": "大貓",
+      "simplified": "大猫",
+      "pinyin": "dà māo",
+      "english": "big cat",
+      "audio": {
+        "female": "audio/female/5d81a1865a91f94f.mp3",
+        "male": "audio/male/5d81a1865a91f94f.mp3"
+      }
+    },
+    {
+      "id": "small-dog",
+      "traditional": "小狗",
+      "simplified": "小狗",
+      "pinyin": "xiǎo gǒu",
+      "english": "small dog",
+      "audio": {
+        "female": "audio/female/291b0888f1c619c3.mp3",
+        "male": "audio/male/291b0888f1c619c3.mp3"
+      }
+    },
+    {
+      "id": "big-duck",
+      "traditional": "大鴨子",
+      "simplified": "大鸭子",
+      "pinyin": "dà yā zi",
+      "english": "big duck",
+      "audio": {
+        "female": "audio/female/53fb206c3a3bac9e.mp3",
+        "male": "audio/male/53fb206c3a3bac9e.mp3"
+      }
+    },
+    {
+      "id": "small-cat",
+      "traditional": "小貓",
+      "simplified": "小猫",
+      "pinyin": "xiǎo māo",
+      "english": "small cat",
+      "audio": {
+        "female": "audio/female/7f5b7b018e77dfaf.mp3",
+        "male": "audio/male/7f5b7b018e77dfaf.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/ec9ede0cdf8aa6ff.mp3",
+    "male": "audio/male/ec9ede0cdf8aa6ff.mp3"
+  }
+}

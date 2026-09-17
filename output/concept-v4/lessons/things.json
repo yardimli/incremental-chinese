@@ -1,0 +1,178 @@
+{
+  "id": "things",
+  "traditional": "生活",
+  "simplified": "生活",
+  "pinyin": "shēng huó",
+  "type": "pairs",
+  "pairs": [
+    {
+      "id": "water",
+      "traditional": "水",
+      "simplified": "水",
+      "pinyin": "shuǐ",
+      "english": "water",
+      "audio": {
+        "female": "audio/female/327b54d04f71f212.mp3",
+        "male": "audio/male/327b54d04f71f212.mp3"
+      }
+    },
+    {
+      "id": "tea",
+      "traditional": "茶",
+      "simplified": "茶",
+      "pinyin": "chá",
+      "english": "tea",
+      "audio": {
+        "female": "audio/female/7e005ba311f86fa7.mp3",
+        "male": "audio/male/7e005ba311f86fa7.mp3"
+      }
+    },
+    {
+      "id": "coffee",
+      "traditional": "咖啡",
+      "simplified": "咖啡",
+      "pinyin": "kā fēi",
+      "english": "coffee",
+      "audio": {
+        "female": "audio/female/720ec669f15b87b1.mp3",
+        "male": "audio/male/720ec669f15b87b1.mp3"
+      }
+    },
+    {
+      "id": "rice",
+      "traditional": "飯",
+      "simplified": "饭",
+      "pinyin": "fàn",
+      "english": "rice",
+      "audio": {
+        "female": "audio/female/65a1fe6854ab52ff.mp3",
+        "male": "audio/male/65a1fe6854ab52ff.mp3"
+      }
+    },
+    {
+      "id": "cat",
+      "traditional": "貓",
+      "simplified": "猫",
+      "pinyin": "māo",
+      "english": "cat",
+      "audio": {
+        "female": "audio/female/2c00cf9c8df4e2a1.mp3",
+        "male": "audio/male/2c00cf9c8df4e2a1.mp3"
+      }
+    },
+    {
+      "id": "dog",
+      "traditional": "狗",
+      "simplified": "狗",
+      "pinyin": "gǒu",
+      "english": "dog",
+      "audio": {
+        "female": "audio/female/cecd675a4c3cb00d.mp3",
+        "male": "audio/male/cecd675a4c3cb00d.mp3"
+      }
+    },
+    {
+      "id": "duck",
+      "traditional": "鴨子",
+      "simplified": "鸭子",
+      "pinyin": "yā zi",
+      "english": "duck",
+      "audio": {
+        "female": "audio/female/cfcb018d2623a78c.mp3",
+        "male": "audio/male/cfcb018d2623a78c.mp3"
+      }
+    },
+    {
+      "id": "tail",
+      "traditional": "尾巴",
+      "simplified": "尾巴",
+      "pinyin": "wěi ba",
+      "english": "tail",
+      "audio": {
+        "female": "audio/female/797d828e8c3167e9.mp3",
+        "male": "audio/male/797d828e8c3167e9.mp3"
+      }
+    },
+    {
+      "id": "long",
+      "traditional": "長",
+      "simplified": "长",
+      "pinyin": "cháng",
+      "english": "long",
+      "audio": {
+        "female": "audio/female/63ba256fdb4a9064.mp3",
+        "male": "audio/male/63ba256fdb4a9064.mp3"
+      }
+    },
+    {
+      "id": "short",
+      "traditional": "短",
+      "simplified": "短",
+      "pinyin": "duǎn",
+      "english": "short",
+      "audio": {
+        "female": "audio/female/4ca8d4f77574e43a.mp3",
+        "male": "audio/male/4ca8d4f77574e43a.mp3"
+      }
+    },
+    {
+      "id": "hot",
+      "traditional": "熱",
+      "simplified": "热",
+      "pinyin": "rè",
+      "english": "hot",
+      "audio": {
+        "female": "audio/female/34ceaffd88498929.mp3",
+        "male": "audio/male/34ceaffd88498929.mp3"
+      }
+    },
+    {
+      "id": "cold",
+      "traditional": "冷",
+      "simplified": "冷",
+      "pinyin": "lěng",
+      "english": "cold",
+      "audio": {
+        "female": "audio/female/6e87e42fbc222f49.mp3",
+        "male": "audio/male/6e87e42fbc222f49.mp3"
+      }
+    },
+    {
+      "id": "big",
+      "traditional": "大",
+      "simplified": "大",
+      "pinyin": "dà",
+      "english": "big",
+      "audio": {
+        "female": "audio/female/7d4ca7f48effd602.mp3",
+        "male": "audio/male/7d4ca7f48effd602.mp3"
+      }
+    },
+    {
+      "id": "small",
+      "traditional": "小",
+      "simplified": "小",
+      "pinyin": "xiǎo",
+      "english": "small",
+      "audio": {
+        "female": "audio/female/6a7339bb759788f3.mp3",
+        "male": "audio/male/6a7339bb759788f3.mp3"
+      }
+    },
+    {
+      "id": "animal-measure",
+      "traditional": "隻",
+      "simplified": "只",
+      "pinyin": "zhī",
+      "english": "animal measure word",
+      "audio": {
+        "female": "audio/female/35935dea0246ff25.mp3",
+        "male": "audio/male/35935dea0246ff25.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/15d208d1b4c98aae.mp3",
+    "male": "audio/male/15d208d1b4c98aae.mp3"
+  }
+}

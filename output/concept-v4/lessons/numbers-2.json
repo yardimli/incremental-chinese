@@ -1,0 +1,133 @@
+{
+  "id": "numbers-2",
+  "traditional": "兩位數",
+  "simplified": "两位数",
+  "pinyin": "liǎng wèi shù",
+  "type": "pairs",
+  "pairs": [
+    {
+      "id": "n10",
+      "traditional": "十",
+      "simplified": "十",
+      "pinyin": "shí",
+      "english": "ten",
+      "number": 10,
+      "audio": {
+        "female": "audio/female/fc7edd399a5c4b93.mp3",
+        "male": "audio/male/fc7edd399a5c4b93.mp3"
+      }
+    },
+    {
+      "id": "n11",
+      "traditional": "十一",
+      "simplified": "十一",
+      "pinyin": "shí yī",
+      "english": "eleven",
+      "number": 11,
+      "audio": {
+        "female": "audio/female/41cbc3e287cbeb55.mp3",
+        "male": "audio/male/41cbc3e287cbeb55.mp3"
+      }
+    },
+    {
+      "id": "n12",
+      "traditional": "十二",
+      "simplified": "十二",
+      "pinyin": "shí èr",
+      "english": "twelve",
+      "number": 12,
+      "audio": {
+        "female": "audio/female/80b044f1afc988e1.mp3",
+        "male": "audio/male/80b044f1afc988e1.mp3"
+      }
+    },
+    {
+      "id": "n15",
+      "traditional": "十五",
+      "simplified": "十五",
+      "pinyin": "shí wǔ",
+      "english": "fifteen",
+      "number": 15,
+      "audio": {
+        "female": "audio/female/2f740e1769682233.mp3",
+        "male": "audio/male/2f740e1769682233.mp3"
+      }
+    },
+    {
+      "id": "n20",
+      "traditional": "二十",
+      "simplified": "二十",
+      "pinyin": "èr shí",
+      "english": "twenty",
+      "number": 20,
+      "audio": {
+        "female": "audio/female/e5ec573b3977ce9d.mp3",
+        "male": "audio/male/e5ec573b3977ce9d.mp3"
+      }
+    },
+    {
+      "id": "n24",
+      "traditional": "二十四",
+      "simplified": "二十四",
+      "pinyin": "èr shí sì",
+      "english": "twenty-four",
+      "number": 24,
+      "audio": {
+        "female": "audio/female/c0661086447e6de6.mp3",
+        "male": "audio/male/c0661086447e6de6.mp3"
+      }
+    },
+    {
+      "id": "n30",
+      "traditional": "三十",
+      "simplified": "三十",
+      "pinyin": "sān shí",
+      "english": "thirty",
+      "number": 30,
+      "audio": {
+        "female": "audio/female/a70676fba2a260e8.mp3",
+        "male": "audio/male/a70676fba2a260e8.mp3"
+      }
+    },
+    {
+      "id": "n48",
+      "traditional": "四十八",
+      "simplified": "四十八",
+      "pinyin": "sì shí bā",
+      "english": "forty-eight",
+      "number": 48,
+      "audio": {
+        "female": "audio/female/79c5544dd96fc4cd.mp3",
+        "male": "audio/male/79c5544dd96fc4cd.mp3"
+      }
+    },
+    {
+      "id": "n60",
+      "traditional": "六十",
+      "simplified": "六十",
+      "pinyin": "liù shí",
+      "english": "sixty",
+      "number": 60,
+      "audio": {
+        "female": "audio/female/55138c1a1ab8119b.mp3",
+        "male": "audio/male/55138c1a1ab8119b.mp3"
+      }
+    },
+    {
+      "id": "n99",
+      "traditional": "九十九",
+      "simplified": "九十九",
+      "pinyin": "jiǔ shí jiǔ",
+      "english": "ninety-nine",
+      "number": 99,
+      "audio": {
+        "female": "audio/female/185f23bea0a1fac2.mp3",
+        "male": "audio/male/185f23bea0a1fac2.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/fe4fc62f68f792e2.mp3",
+    "male": "audio/male/fe4fc62f68f792e2.mp3"
+  }
+}
