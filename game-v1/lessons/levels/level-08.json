@@ -1,0 +1,159 @@
+{
+  "id": "L08",
+  "level": 8,
+  "type": "pairs",
+  "title": "Family homes",
+  "traditional": "家人朋友",
+  "simplified": "家人朋友",
+  "pinyin": "jiā rén péng yǒu",
+  "pairs": [
+    {
+      "id": "L08-00",
+      "simplified": "爸爸",
+      "traditional": "爸爸",
+      "pinyin": "bà bà",
+      "english": "dad",
+      "audio": {
+        "female": "audio/female/d45ce71dd359d0e7.mp3",
+        "male": "audio/male/d45ce71dd359d0e7.mp3"
+      }
+    },
+    {
+      "id": "L08-01",
+      "simplified": "妈妈",
+      "traditional": "媽媽",
+      "pinyin": "mā mā",
+      "english": "mom",
+      "audio": {
+        "female": "audio/female/531af8532fc1a11b.mp3",
+        "male": "audio/male/531af8532fc1a11b.mp3"
+      }
+    },
+    {
+      "id": "L08-02",
+      "simplified": "儿子",
+      "traditional": "兒子",
+      "pinyin": "ér zi",
+      "english": "son",
+      "audio": {
+        "female": "audio/female/ce9f5c3644d35e1c.mp3",
+        "male": "audio/male/ce9f5c3644d35e1c.mp3"
+      }
+    },
+    {
+      "id": "L08-03",
+      "simplified": "女儿",
+      "traditional": "女兒",
+      "pinyin": "nǚ ér",
+      "english": "daughter",
+      "audio": {
+        "female": "audio/female/77086e3cdfe541bf.mp3",
+        "male": "audio/male/77086e3cdfe541bf.mp3"
+      }
+    },
+    {
+      "id": "L08-04",
+      "simplified": "朋友",
+      "traditional": "朋友",
+      "pinyin": "péng yǒu",
+      "english": "friend",
+      "audio": {
+        "female": "audio/female/677aad1a0ee44cd6.mp3",
+        "male": "audio/male/677aad1a0ee44cd6.mp3"
+      }
+    },
+    {
+      "id": "L08-05",
+      "simplified": "爱",
+      "traditional": "愛",
+      "pinyin": "ài",
+      "english": "love",
+      "audio": {
+        "female": "audio/female/9a6c458a3a56f292.mp3",
+        "male": "audio/male/9a6c458a3a56f292.mp3"
+      }
+    },
+    {
+      "id": "L08-06",
+      "simplified": "喜欢",
+      "traditional": "喜歡",
+      "pinyin": "xǐ huān",
+      "english": "like",
+      "audio": {
+        "female": "audio/female/707f15beb6728796.mp3",
+        "male": "audio/male/707f15beb6728796.mp3"
+      }
+    },
+    {
+      "id": "L08-07",
+      "simplified": "认识",
+      "traditional": "認識",
+      "pinyin": "rèn shí",
+      "english": "know someone / recognize",
+      "audio": {
+        "female": "audio/female/3a4ffbcaf543f212.mp3",
+        "male": "audio/male/3a4ffbcaf543f212.mp3"
+      }
+    },
+    {
+      "id": "L08-08",
+      "simplified": "和",
+      "traditional": "和",
+      "pinyin": "hé",
+      "english": "and / with",
+      "audio": {
+        "female": "audio/female/3d7114281f5b59d9.mp3",
+        "male": "audio/male/3d7114281f5b59d9.mp3"
+      }
+    },
+    {
+      "id": "L08-09",
+      "simplified": "都",
+      "traditional": "都",
+      "pinyin": "dōu",
+      "english": "all / both",
+      "audio": {
+        "female": "audio/female/7eabb36ba1ab565b.mp3",
+        "male": "audio/male/7eabb36ba1ab565b.mp3"
+      }
+    },
+    {
+      "id": "L08-10",
+      "simplified": "也",
+      "traditional": "也",
+      "pinyin": "yě",
+      "english": "also",
+      "audio": {
+        "female": "audio/female/658605835bfc7ff8.mp3",
+        "male": "audio/male/658605835bfc7ff8.mp3"
+      }
+    },
+    {
+      "id": "L08-11",
+      "simplified": "它",
+      "traditional": "它",
+      "pinyin": "tā",
+      "english": "it",
+      "audio": {
+        "female": "audio/female/7e9260e925f14bef.mp3",
+        "male": "audio/male/7e9260e925f14bef.mp3"
+      }
+    },
+    {
+      "id": "L08-12",
+      "simplified": "岁",
+      "traditional": "歲",
+      "pinyin": "suì",
+      "english": "years old",
+      "audio": {
+        "female": "audio/female/8501b987d4bd8e7d.mp3",
+        "male": "audio/male/8501b987d4bd8e7d.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/5ad94ba6d022cfca.mp3",
+    "male": "audio/male/5ad94ba6d022cfca.mp3"
+  },
+  "english": "Family & friends"
+}

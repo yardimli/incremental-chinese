@@ -1,0 +1,752 @@
+[
+  {
+    "id": "R01A",
+    "level": 1,
+    "previous": null,
+    "traditional": "一",
+    "simplified": "一",
+    "pinyin": "yī",
+    "path": "Trade",
+    "building": "P01A",
+    "cost": {
+      "knowledge": 2,
+      "insight": 0
+    },
+    "english": "one"
+  },
+  {
+    "id": "R01B",
+    "level": 1,
+    "previous": null,
+    "traditional": "二",
+    "simplified": "二",
+    "pinyin": "èr",
+    "path": "Community",
+    "building": "P01B",
+    "cost": {
+      "knowledge": 2,
+      "insight": 0
+    },
+    "english": "two"
+  },
+  {
+    "id": "R02A",
+    "level": 2,
+    "previous": "R01A",
+    "traditional": "十",
+    "simplified": "十",
+    "pinyin": "shí",
+    "path": "Trade",
+    "building": "P02A",
+    "cost": {
+      "knowledge": 3,
+      "insight": 0
+    },
+    "english": "ten"
+  },
+  {
+    "id": "R02B",
+    "level": 2,
+    "previous": "R01B",
+    "traditional": "兩",
+    "simplified": "两",
+    "pinyin": "liǎng",
+    "path": "Community",
+    "building": "P02B",
+    "cost": {
+      "knowledge": 3,
+      "insight": 0
+    },
+    "english": "two (quantities)"
+  },
+  {
+    "id": "R03A",
+    "level": 3,
+    "previous": "R02A",
+    "traditional": "錢",
+    "simplified": "钱",
+    "pinyin": "qián",
+    "path": "Trade",
+    "building": "P03A",
+    "cost": {
+      "knowledge": 3,
+      "insight": 0
+    },
+    "english": "money"
+  },
+  {
+    "id": "R03B",
+    "level": 3,
+    "previous": null,
+    "traditional": "千",
+    "simplified": "千",
+    "pinyin": "qiān",
+    "path": "Study",
+    "building": "P03B",
+    "cost": {
+      "knowledge": 3,
+      "insight": 0
+    },
+    "english": "thousand"
+  },
+  {
+    "id": "R04A",
+    "level": 4,
+    "previous": "R02B",
+    "traditional": "人",
+    "simplified": "人",
+    "pinyin": "rén",
+    "path": "Community",
+    "building": "P04A",
+    "cost": {
+      "knowledge": 4,
+      "insight": 0
+    },
+    "english": "person"
+  },
+  {
+    "id": "R04B",
+    "level": 4,
+    "previous": "R03B",
+    "traditional": "名字",
+    "simplified": "名字",
+    "pinyin": "míngzi",
+    "path": "Study",
+    "building": "P04B",
+    "cost": {
+      "knowledge": 4,
+      "insight": 0
+    },
+    "english": "name"
+  },
+  {
+    "id": "R05A",
+    "level": 5,
+    "previous": "R03A",
+    "traditional": "來",
+    "simplified": "来",
+    "pinyin": "lái",
+    "path": "Trade",
+    "building": "P05A",
+    "cost": {
+      "knowledge": 5,
+      "insight": 0
+    },
+    "english": "come"
+  },
+  {
+    "id": "R05B",
+    "level": 5,
+    "previous": "R04A",
+    "traditional": "家",
+    "simplified": "家",
+    "pinyin": "jiā",
+    "path": "Community",
+    "building": "P05B",
+    "cost": {
+      "knowledge": 5,
+      "insight": 0
+    },
+    "english": "home / family"
+  },
+  {
+    "id": "R06A",
+    "level": 6,
+    "previous": "R05A",
+    "traditional": "茶",
+    "simplified": "茶",
+    "pinyin": "chá",
+    "path": "Trade",
+    "building": "P06A",
+    "cost": {
+      "knowledge": 6,
+      "insight": 0
+    },
+    "english": "tea"
+  },
+  {
+    "id": "R06B",
+    "level": 6,
+    "previous": "R04B",
+    "traditional": "杯子",
+    "simplified": "杯子",
+    "pinyin": "bēizi",
+    "path": "Study",
+    "building": "P06B",
+    "cost": {
+      "knowledge": 6,
+      "insight": 0
+    },
+    "english": "cup"
+  },
+  {
+    "id": "R07A",
+    "level": 7,
+    "previous": "R05B",
+    "traditional": "米飯",
+    "simplified": "米饭",
+    "pinyin": "mǐfàn",
+    "path": "Community",
+    "building": "P07A",
+    "cost": {
+      "knowledge": 7,
+      "insight": 0
+    },
+    "english": "cooked rice"
+  },
+  {
+    "id": "R07B",
+    "level": 7,
+    "previous": "R06A",
+    "traditional": "水果",
+    "simplified": "水果",
+    "pinyin": "shuǐguǒ",
+    "path": "Trade",
+    "building": "P07B",
+    "cost": {
+      "knowledge": 7,
+      "insight": 0
+    },
+    "english": "fruit"
+  },
+  {
+    "id": "R08A",
+    "level": 8,
+    "previous": "R07A",
+    "traditional": "朋友",
+    "simplified": "朋友",
+    "pinyin": "péngyou",
+    "path": "Community",
+    "building": "P08A",
+    "cost": {
+      "knowledge": 9,
+      "insight": 1
+    },
+    "english": "friend"
+  },
+  {
+    "id": "R08B",
+    "level": 8,
+    "previous": "R06B",
+    "traditional": "我們",
+    "simplified": "我们",
+    "pinyin": "wǒmen",
+    "path": "Study",
+    "building": "P08B",
+    "cost": {
+      "knowledge": 9,
+      "insight": 1
+    },
+    "english": "we / us"
+  },
+  {
+    "id": "R09A",
+    "level": 9,
+    "previous": "R07B",
+    "traditional": "衣服",
+    "simplified": "衣服",
+    "pinyin": "yīfu",
+    "path": "Trade",
+    "building": "P09A",
+    "cost": {
+      "knowledge": 10,
+      "insight": 2
+    },
+    "english": "clothes"
+  },
+  {
+    "id": "R09B",
+    "level": 9,
+    "previous": "R08A",
+    "traditional": "椅子",
+    "simplified": "椅子",
+    "pinyin": "yǐzi",
+    "path": "Community",
+    "building": "P09B",
+    "cost": {
+      "knowledge": 10,
+      "insight": 2
+    },
+    "english": "chair"
+  },
+  {
+    "id": "R10A",
+    "level": 10,
+    "previous": "R08B",
+    "traditional": "今天",
+    "simplified": "今天",
+    "pinyin": "jīntiān",
+    "path": "Study",
+    "building": "P10A",
+    "cost": {
+      "knowledge": 12,
+      "insight": 2
+    },
+    "english": "today"
+  },
+  {
+    "id": "R10B",
+    "level": 10,
+    "previous": "R09A",
+    "traditional": "錢",
+    "simplified": "钱",
+    "pinyin": "qián",
+    "path": "Trade",
+    "building": "P10B",
+    "cost": {
+      "knowledge": 12,
+      "insight": 2
+    },
+    "english": "money"
+  },
+  {
+    "id": "R11A",
+    "level": 11,
+    "previous": "R09B",
+    "traditional": "休息",
+    "simplified": "休息",
+    "pinyin": "xiūxi",
+    "path": "Community",
+    "building": "P11A",
+    "cost": {
+      "knowledge": 15,
+      "insight": 2
+    },
+    "english": "rest"
+  },
+  {
+    "id": "R11B",
+    "level": 11,
+    "previous": "R10A",
+    "traditional": "工作",
+    "simplified": "工作",
+    "pinyin": "gōngzuò",
+    "path": "Study",
+    "building": "P11B",
+    "cost": {
+      "knowledge": 15,
+      "insight": 2
+    },
+    "english": "work"
+  },
+  {
+    "id": "R12A",
+    "level": 12,
+    "previous": "R11B",
+    "traditional": "學校",
+    "simplified": "学校",
+    "pinyin": "xuéxiào",
+    "path": "Study",
+    "building": "P12A",
+    "cost": {
+      "knowledge": 18,
+      "insight": 2
+    },
+    "english": "school"
+  },
+  {
+    "id": "R12B",
+    "level": 12,
+    "previous": "R10B",
+    "traditional": "書",
+    "simplified": "书",
+    "pinyin": "shū",
+    "path": "Trade",
+    "building": "P12B",
+    "cost": {
+      "knowledge": 18,
+      "insight": 2
+    },
+    "english": "book"
+  },
+  {
+    "id": "R13A",
+    "level": 13,
+    "previous": "R12B",
+    "traditional": "歡迎",
+    "simplified": "欢迎",
+    "pinyin": "huānyíng",
+    "path": "Trade",
+    "building": "P13A",
+    "cost": {
+      "knowledge": 22,
+      "insight": 3
+    },
+    "english": "welcome"
+  },
+  {
+    "id": "R13B",
+    "level": 13,
+    "previous": "R11A",
+    "traditional": "請坐",
+    "simplified": "请坐",
+    "pinyin": "qǐng zuò",
+    "path": "Community",
+    "building": "P13B",
+    "cost": {
+      "knowledge": 22,
+      "insight": 3
+    },
+    "english": "please sit down"
+  },
+  {
+    "id": "R14A",
+    "level": 14,
+    "previous": "R13B",
+    "traditional": "醫院",
+    "simplified": "医院",
+    "pinyin": "yīyuàn",
+    "path": "Community",
+    "building": "P14A",
+    "cost": {
+      "knowledge": 27,
+      "insight": 3
+    },
+    "english": "hospital"
+  },
+  {
+    "id": "R14B",
+    "level": 14,
+    "previous": "R12A",
+    "traditional": "天氣",
+    "simplified": "天气",
+    "pinyin": "tiānqì",
+    "path": "Study",
+    "building": "P14B",
+    "cost": {
+      "knowledge": 27,
+      "insight": 3
+    },
+    "english": "weather"
+  },
+  {
+    "id": "R15A",
+    "level": 15,
+    "previous": "R13A",
+    "traditional": "賣",
+    "simplified": "卖",
+    "pinyin": "mài",
+    "path": "Trade",
+    "building": "P15A",
+    "cost": {
+      "knowledge": 33,
+      "insight": 4
+    },
+    "english": "sell"
+  },
+  {
+    "id": "R15B",
+    "level": 15,
+    "previous": "R14B",
+    "traditional": "比",
+    "simplified": "比",
+    "pinyin": "bǐ",
+    "path": "Study",
+    "building": "P15B",
+    "cost": {
+      "knowledge": 33,
+      "insight": 4
+    },
+    "english": "comparison marker"
+  },
+  {
+    "id": "R16A",
+    "level": 16,
+    "previous": "R15A",
+    "traditional": "咖啡",
+    "simplified": "咖啡",
+    "pinyin": "kāfēi",
+    "path": "Trade",
+    "building": "P16A",
+    "cost": {
+      "knowledge": 40,
+      "insight": 4
+    },
+    "english": "coffee"
+  },
+  {
+    "id": "R16B",
+    "level": 16,
+    "previous": "R14A",
+    "traditional": "飯館",
+    "simplified": "饭馆",
+    "pinyin": "fànguǎn",
+    "path": "Community",
+    "building": "P16B",
+    "cost": {
+      "knowledge": 40,
+      "insight": 4
+    },
+    "english": "restaurant"
+  },
+  {
+    "id": "R17A",
+    "level": 17,
+    "previous": "R16B",
+    "traditional": "大家",
+    "simplified": "大家",
+    "pinyin": "dàjiā",
+    "path": "Community",
+    "building": "P17A",
+    "cost": {
+      "knowledge": 49,
+      "insight": 5
+    },
+    "english": "everyone"
+  },
+  {
+    "id": "R17B",
+    "level": 17,
+    "previous": "R15B",
+    "traditional": "幫助",
+    "simplified": "帮助",
+    "pinyin": "bāngzhù",
+    "path": "Study",
+    "building": "P17B",
+    "cost": {
+      "knowledge": 49,
+      "insight": 5
+    },
+    "english": "help"
+  },
+  {
+    "id": "R18A",
+    "level": 18,
+    "previous": "R16A",
+    "traditional": "路",
+    "simplified": "路",
+    "pinyin": "lù",
+    "path": "Trade",
+    "building": "P18A",
+    "cost": {
+      "knowledge": 59,
+      "insight": 6
+    },
+    "english": "road"
+  },
+  {
+    "id": "R18B",
+    "level": 18,
+    "previous": "R17B",
+    "traditional": "左邊",
+    "simplified": "左边",
+    "pinyin": "zuǒbian",
+    "path": "Study",
+    "building": "P18B",
+    "cost": {
+      "knowledge": 59,
+      "insight": 6
+    },
+    "english": "left side"
+  },
+  {
+    "id": "R19A",
+    "level": 19,
+    "previous": "R18A",
+    "traditional": "船",
+    "simplified": "船",
+    "pinyin": "chuán",
+    "path": "Trade",
+    "building": "P19A",
+    "cost": {
+      "knowledge": 72,
+      "insight": 7
+    },
+    "english": "boat"
+  },
+  {
+    "id": "R19B",
+    "level": 19,
+    "previous": "R17A",
+    "traditional": "房間",
+    "simplified": "房间",
+    "pinyin": "fángjiān",
+    "path": "Community",
+    "building": "P19B",
+    "cost": {
+      "knowledge": 72,
+      "insight": 7
+    },
+    "english": "room"
+  },
+  {
+    "id": "R20A",
+    "level": 20,
+    "previous": "R19B",
+    "traditional": "快樂",
+    "simplified": "快乐",
+    "pinyin": "kuàilè",
+    "path": "Community",
+    "building": "P20A",
+    "cost": {
+      "knowledge": 88,
+      "insight": 8
+    },
+    "english": "happy / joyful"
+  },
+  {
+    "id": "R20B",
+    "level": 20,
+    "previous": "R18B",
+    "traditional": "顏色",
+    "simplified": "颜色",
+    "pinyin": "yánsè",
+    "path": "Study",
+    "building": "P20B",
+    "cost": {
+      "knowledge": 88,
+      "insight": 8
+    },
+    "english": "color"
+  },
+  {
+    "id": "R21A",
+    "level": 21,
+    "previous": "R20A",
+    "traditional": "運動",
+    "simplified": "运动",
+    "pinyin": "yùndòng",
+    "path": "Community",
+    "building": "P21A",
+    "cost": {
+      "knowledge": 107,
+      "insight": 9
+    },
+    "english": "exercise / sports"
+  },
+  {
+    "id": "R21B",
+    "level": 21,
+    "previous": "R19A",
+    "traditional": "快",
+    "simplified": "快",
+    "pinyin": "kuài",
+    "path": "Trade",
+    "building": "P21B",
+    "cost": {
+      "knowledge": 107,
+      "insight": 9
+    },
+    "english": "fast"
+  },
+  {
+    "id": "R22A",
+    "level": 22,
+    "previous": "R21B",
+    "traditional": "手機",
+    "simplified": "手机",
+    "pinyin": "shǒujī",
+    "path": "Trade",
+    "building": "P22A",
+    "cost": {
+      "knowledge": 131,
+      "insight": 11
+    },
+    "english": "mobile phone"
+  },
+  {
+    "id": "R22B",
+    "level": 22,
+    "previous": "R20B",
+    "traditional": "報紙",
+    "simplified": "报纸",
+    "pinyin": "bàozhǐ",
+    "path": "Study",
+    "building": "P22B",
+    "cost": {
+      "knowledge": 131,
+      "insight": 11
+    },
+    "english": "newspaper"
+  },
+  {
+    "id": "R23A",
+    "level": 23,
+    "previous": "R22B",
+    "traditional": "教室",
+    "simplified": "教室",
+    "pinyin": "jiàoshì",
+    "path": "Study",
+    "building": "P23A",
+    "cost": {
+      "knowledge": 159,
+      "insight": 12
+    },
+    "english": "classroom"
+  },
+  {
+    "id": "R23B",
+    "level": 23,
+    "previous": "R21A",
+    "traditional": "回答",
+    "simplified": "回答",
+    "pinyin": "huídá",
+    "path": "Community",
+    "building": "P23B",
+    "cost": {
+      "knowledge": 159,
+      "insight": 12
+    },
+    "english": "answer"
+  },
+  {
+    "id": "R24A",
+    "level": 24,
+    "previous": "R23A",
+    "traditional": "準備",
+    "simplified": "准备",
+    "pinyin": "zhǔnbèi",
+    "path": "Study",
+    "building": "P24A",
+    "cost": {
+      "knowledge": 194,
+      "insight": 15
+    },
+    "english": "prepare"
+  },
+  {
+    "id": "R24B",
+    "level": 24,
+    "previous": "R22A",
+    "traditional": "開始",
+    "simplified": "开始",
+    "pinyin": "kāishǐ",
+    "path": "Trade",
+    "building": "P24B",
+    "cost": {
+      "knowledge": 194,
+      "insight": 15
+    },
+    "english": "begin"
+  },
+  {
+    "id": "R25A",
+    "level": 25,
+    "previous": "R24A",
+    "traditional": "因爲",
+    "simplified": "因为",
+    "pinyin": "yīnwèi",
+    "path": "Study",
+    "building": "P25A",
+    "cost": {
+      "knowledge": 237,
+      "insight": 17
+    },
+    "english": "because"
+  },
+  {
+    "id": "R25B",
+    "level": 25,
+    "previous": "R23B",
+    "traditional": "所以",
+    "simplified": "所以",
+    "pinyin": "suǒyǐ",
+    "path": "Community",
+    "building": "P25B",
+    "cost": {
+      "knowledge": 237,
+      "insight": 17
+    },
+    "english": "therefore"
+  }
+]

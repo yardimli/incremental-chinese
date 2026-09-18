@@ -1,0 +1,146 @@
+{
+  "id": "L02",
+  "level": 2,
+  "type": "pairs",
+  "title": "Counting purchases",
+  "traditional": "兩位數",
+  "simplified": "两位数",
+  "pinyin": "liǎng wèi shù",
+  "pairs": [
+    {
+      "id": "L02-00",
+      "simplified": "十",
+      "traditional": "十",
+      "pinyin": "shí",
+      "english": "ten",
+      "number": 10,
+      "audio": {
+        "female": "audio/female/fc7edd399a5c4b93.mp3",
+        "male": "audio/male/fc7edd399a5c4b93.mp3"
+      }
+    },
+    {
+      "id": "L02-01",
+      "simplified": "两",
+      "traditional": "兩",
+      "pinyin": "liǎng",
+      "english": "two (quantities)",
+      "audio": {
+        "female": "audio/female/ac63f6865782d914.mp3",
+        "male": "audio/male/ac63f6865782d914.mp3"
+      }
+    },
+    {
+      "id": "L02-02",
+      "simplified": "十一",
+      "traditional": "十一",
+      "pinyin": "shí yī",
+      "english": "eleven",
+      "number": 11,
+      "audio": {
+        "female": "audio/female/41cbc3e287cbeb55.mp3",
+        "male": "audio/male/41cbc3e287cbeb55.mp3"
+      }
+    },
+    {
+      "id": "L02-03",
+      "simplified": "十二",
+      "traditional": "十二",
+      "pinyin": "shí èr",
+      "english": "twelve",
+      "number": 12,
+      "audio": {
+        "female": "audio/female/80b044f1afc988e1.mp3",
+        "male": "audio/male/80b044f1afc988e1.mp3"
+      }
+    },
+    {
+      "id": "L02-04",
+      "simplified": "十五",
+      "traditional": "十五",
+      "pinyin": "shí wǔ",
+      "english": "fifteen",
+      "number": 15,
+      "audio": {
+        "female": "audio/female/2f740e1769682233.mp3",
+        "male": "audio/male/2f740e1769682233.mp3"
+      }
+    },
+    {
+      "id": "L02-05",
+      "simplified": "二十",
+      "traditional": "二十",
+      "pinyin": "èr shí",
+      "english": "twenty",
+      "number": 20,
+      "audio": {
+        "female": "audio/female/e5ec573b3977ce9d.mp3",
+        "male": "audio/male/e5ec573b3977ce9d.mp3"
+      }
+    },
+    {
+      "id": "L02-06",
+      "simplified": "二十一",
+      "traditional": "二十一",
+      "pinyin": "èr shí yī",
+      "english": "twenty-one",
+      "number": 21,
+      "audio": {
+        "female": "audio/female/ab2a21a25bae1123.mp3",
+        "male": "audio/male/ab2a21a25bae1123.mp3"
+      }
+    },
+    {
+      "id": "L02-07",
+      "simplified": "三十",
+      "traditional": "三十",
+      "pinyin": "sān shí",
+      "english": "thirty",
+      "number": 30,
+      "audio": {
+        "female": "audio/female/a70676fba2a260e8.mp3",
+        "male": "audio/male/a70676fba2a260e8.mp3"
+      }
+    },
+    {
+      "id": "L02-08",
+      "simplified": "五十",
+      "traditional": "五十",
+      "pinyin": "wǔ shí",
+      "english": "fifty",
+      "number": 50,
+      "audio": {
+        "female": "audio/female/7c848f5005f0ee86.mp3",
+        "male": "audio/male/7c848f5005f0ee86.mp3"
+      }
+    },
+    {
+      "id": "L02-09",
+      "simplified": "九十九",
+      "traditional": "九十九",
+      "pinyin": "jiǔ shí jiǔ",
+      "english": "ninety-nine",
+      "number": 99,
+      "audio": {
+        "female": "audio/female/185f23bea0a1fac2.mp3",
+        "male": "audio/male/185f23bea0a1fac2.mp3"
+      }
+    },
+    {
+      "id": "L02-ui-1",
+      "simplified": "位数",
+      "traditional": "位數",
+      "pinyin": "wèi shù",
+      "english": "digit count",
+      "audio": {
+        "female": "audio/female/72b95600a4be0621.mp3",
+        "male": "audio/male/72b95600a4be0621.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/fe4fc62f68f792e2.mp3",
+    "male": "audio/male/fe4fc62f68f792e2.mp3"
+  },
+  "english": "Double digits"
+}

@@ -1,0 +1,192 @@
+{
+  "id": "L13",
+  "level": 13,
+  "type": "pairs",
+  "title": "Visitors",
+  "traditional": "迎接客人",
+  "simplified": "迎接客人",
+  "pinyin": "yíng jiē kè rén",
+  "pairs": [
+    {
+      "id": "L13-00",
+      "simplified": "先生",
+      "traditional": "先生",
+      "pinyin": "xiān shēng",
+      "english": "Mr. / gentleman",
+      "audio": {
+        "female": "audio/female/cd98e43da31bb1b9.mp3",
+        "male": "audio/male/cd98e43da31bb1b9.mp3"
+      }
+    },
+    {
+      "id": "L13-01",
+      "simplified": "小姐",
+      "traditional": "小姐",
+      "pinyin": "xiǎo jiě",
+      "english": "Miss / young lady",
+      "audio": {
+        "female": "audio/female/84a5f7a062dd9a13.mp3",
+        "male": "audio/male/84a5f7a062dd9a13.mp3"
+      }
+    },
+    {
+      "id": "L13-02",
+      "simplified": "您",
+      "traditional": "您",
+      "pinyin": "nín",
+      "english": "you (polite)",
+      "audio": {
+        "female": "audio/female/9bbfbbc76f7ac5e0.mp3",
+        "male": "audio/male/9bbfbbc76f7ac5e0.mp3"
+      }
+    },
+    {
+      "id": "L13-03",
+      "simplified": "再见",
+      "traditional": "再見",
+      "pinyin": "zài jiàn",
+      "english": "goodbye",
+      "audio": {
+        "female": "audio/female/8fabc377c2de87b3.mp3",
+        "male": "audio/male/8fabc377c2de87b3.mp3"
+      }
+    },
+    {
+      "id": "L13-04",
+      "simplified": "不客气",
+      "traditional": "不客氣",
+      "pinyin": "bú kè qì",
+      "english": "you're welcome",
+      "audio": {
+        "female": "audio/female/5ebbc126b7b5a164.mp3",
+        "male": "audio/male/5ebbc126b7b5a164.mp3"
+      }
+    },
+    {
+      "id": "L13-05",
+      "simplified": "对不起",
+      "traditional": "對不起",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry",
+      "audio": {
+        "female": "audio/female/9faa900f0466ffcb.mp3",
+        "male": "audio/male/9faa900f0466ffcb.mp3"
+      }
+    },
+    {
+      "id": "L13-06",
+      "simplified": "没关系",
+      "traditional": "沒關係",
+      "pinyin": "méi guān xì",
+      "english": "it's okay",
+      "audio": {
+        "female": "audio/female/8796cf495b8dddfc.mp3",
+        "male": "audio/male/8796cf495b8dddfc.mp3"
+      }
+    },
+    {
+      "id": "L13-07",
+      "simplified": "怎么",
+      "traditional": "怎麼",
+      "pinyin": "zěn me",
+      "english": "how",
+      "audio": {
+        "female": "audio/female/b37cf1352dc6c3e9.mp3",
+        "male": "audio/male/b37cf1352dc6c3e9.mp3"
+      }
+    },
+    {
+      "id": "L13-08",
+      "simplified": "怎么样",
+      "traditional": "怎麼樣",
+      "pinyin": "zěn me yàng",
+      "english": "how is it / how about",
+      "audio": {
+        "female": "audio/female/6308550454b660b3.mp3",
+        "male": "audio/male/6308550454b660b3.mp3"
+      }
+    },
+    {
+      "id": "L13-09",
+      "simplified": "什么",
+      "traditional": "什麼",
+      "pinyin": "shén me",
+      "english": "what",
+      "audio": {
+        "female": "audio/female/a50e706ee5df6c6a.mp3",
+        "male": "audio/male/a50e706ee5df6c6a.mp3"
+      }
+    },
+    {
+      "id": "L13-10",
+      "simplified": "呢",
+      "traditional": "呢",
+      "pinyin": "ne",
+      "english": "follow-up question particle",
+      "audio": {
+        "female": "audio/female/02811cec0b734158.mp3",
+        "male": "audio/male/02811cec0b734158.mp3"
+      }
+    },
+    {
+      "id": "L13-11",
+      "simplified": "欢迎",
+      "traditional": "歡迎",
+      "pinyin": "huān yíng",
+      "english": "welcome",
+      "audio": {
+        "female": "audio/female/19df0afcfa52a1e2.mp3",
+        "male": "audio/male/19df0afcfa52a1e2.mp3"
+      }
+    },
+    {
+      "id": "L13-12",
+      "simplified": "吧",
+      "traditional": "吧",
+      "pinyin": "ba",
+      "english": "suggestion particle",
+      "audio": {
+        "female": "audio/female/bad8b6c7ae2ee84b.mp3",
+        "male": "audio/male/bad8b6c7ae2ee84b.mp3"
+      }
+    },
+    {
+      "id": "L13-ui-1",
+      "simplified": "迎接",
+      "traditional": "迎接",
+      "pinyin": "yíng jiē",
+      "english": "welcome",
+      "audio": {
+        "female": "audio/female/b27e1a9998e335c7.mp3",
+        "male": "audio/male/b27e1a9998e335c7.mp3"
+      }
+    },
+    {
+      "id": "L13-ui-2",
+      "simplified": "客人",
+      "traditional": "客人",
+      "pinyin": "kè rén",
+      "english": "guest",
+      "audio": {
+        "female": "audio/female/8dd49b2272ea8020.mp3",
+        "male": "audio/male/8dd49b2272ea8020.mp3"
+      }
+    },
+    {
+      "id": "L13-ui-3",
+      "simplified": "请坐",
+      "traditional": "請坐",
+      "pinyin": "qǐng zuò",
+      "english": "please sit down",
+      "audio": {
+        "female": "audio/female/49da7c9e4c59e9fe.mp3",
+        "male": "audio/male/49da7c9e4c59e9fe.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/789a9105617792b0.mp3",
+    "male": "audio/male/789a9105617792b0.mp3"
+  },
+  "english": "Welcoming guests"
+}

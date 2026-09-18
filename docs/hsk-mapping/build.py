@@ -1,5 +1,6 @@
 from pathlib import Path
 import csv, json, html, hashlib, collections
+from resource_economy import build_economy, ECONOMY_RULES, SYNERGIES, STRATEGIES, resource_gates as advancement_gates, ADVANCEMENT_RULES, RESOURCES, INFRASTRUCTURE
 
 ROOT=Path(__file__).parent
 source1=list(csv.DictReader((ROOT/'sources/hsk_1.csv').open(encoding='utf-8-sig')))
@@ -68,7 +69,7 @@ The earlier outline mixed classic editions. This audited baseline uses 饭馆, �
 
 Grammar has no single universally agreed count across teaching resources. The 76 rows below are our explicit teaching checklist, not a claim that the official exam publishes exactly 76 rules. “Foundation” and “Expansion” are teaching bands, not certified exam classifications. Examples and village assignments are newly authored. Optional edition-bridge patterns are labelled. Examples show one useful meaning at a time, not every dictionary sense.
 
-Village replaces Boosts. Coins come primarily from correct gameplay; buildings multiply word, matching, sentence, or set-award payouts. No extra currencies or material-production economy. Each vocabulary entry maps to its first introduction; its village role is thematic context, not an individual building to construct. Building titles beyond taught vocabulary use contextual art and are introduced separately before becoming puzzle requirements.
+Village replaces Boosts. Coins come primarily from correct gameplay; buildings multiply word, matching, sentence, or set-award payouts. Coins fund buildings; timber, stone and bricks supply construction; building-generated knowledge and insight fund research. Purchases and research are detailed below as a design proposal; the live game's Boosts menu has not been changed. Each vocabulary entry maps to its first introduction; its village role is thematic context, not an individual building to construct. Building titles beyond taught vocabulary use contextual art and are introduced separately before becoming puzzle requirements.
 '''
 rules='''Every word level has at most 20 newly introduced cards, counting number examples and component forms. Sentence stages are separate: at most two new patterns and 10 sentence cards per stage, drawn from a planned 30-sentence pool. The table gives a representative example per pattern; it does not yet author those full pools. Insert each S-stage after its listed prerequisite level; do not wait until the end to practise grammar.
 
@@ -78,18 +79,41 @@ First exposure: Chinese target/English weapon, gradually adding choices; then ma
 
 Phonology: practise four tones and neutral tone, third-tone changes, 一/不 tone changes, number reading, classifier pronunciation, and similar-sounding words. Reuse the male/female voice settings and speaking-card highlights. Use listening-only targets as optional variations; recognition games do not establish speaking or handwriting proficiency. Simplified/traditional and pinyin are display options for the same vocabulary, not extra set entries.
 
-Economy proposal: payout = base correct-answer coins × permanent prestige multiplier × applicable village multiplier. Combine upgrades within a building, then apply explicitly shown district synergies; avoid an undocumented multiplier for every individual word. Wrong/unanswered attempts do not award coins; timing never lowers the saved mastery record. Passive/offline coins remain a small secondary benefit consistent with the existing game.
+Economy specification: see Prices & choices, Projects, Research tree, and Strategy & limits. Path contributions add within W/M/S and named district synergies add within U; the resulting factors multiply gameplay earnings. Building copies use shared land and rising coin/material costs; research uses building-generated knowledge and insight, and next-level access requires both learning clears and village milestones. Individual projects remain choices. Passive/offline coins remain secondary.
 
 Campaign target: 8–16 weeks at roughly 10–20 minutes on most days; a tuning hypothesis, not a guaranteed learning outcome. First prestige after the number foundation and first meaningful village build, then approximately every 3–7 active days. Prestige resets coins, village buildings/upgrades, and active card collections. Keep permanent earnings bonuses, settings, and mastery/review history. Familiar sets rebuild through shorter review rounds; incorrect or overdue words get extra practice. No forced calendar gates. New frontier vocabulary stays at normal practice depth even when earnings multiply.
 
 Milestones: L1–3 settlement/counting house; L4–9 homes and food; L10–14 school and services; L15–19 districts and transport; L20–25 town and coordination. Modern vocabulary leads naturally to a modernizing riverside town. A new run rapidly rebuilds familiar districts before adding a new frontier district. Sets continue to give partial bonuses and a larger completion bonus; all village bonuses reset on prestige.
 '''
 
+economy_levels, projects, research = build_economy()
+gates=advancement_gates()
+label_extensions={'请坐':('qǐng zuò',9),'饭店':('fàndiàn',26),'一点儿':('yìdiǎnr',26),'宾馆':('bīnguǎn',27),'虽然':('suīrán',27)}
+for project in projects:
+    label=project['Chinese label']
+    if label in lookup:
+        assert lookup[label]<=project['Level']
+        project['Pinyin']=ref[label]['pinyin']
+    else:
+        sound,first_level=label_extensions[label]
+        assert first_level<=project['Level']
+        project['Pinyin']=sound
+
 levelrows=[]
 for level in levels:
     items=[r for r in vocabulary if r['Game level']==level['level']]
     stageids=list(dict.fromkeys(g['Sentence stage'] for g in grammar if g['After level']==level['level']))
+    if level['level']==3: stageids.insert(0,'S03.0 (six number phrases)')
+    if level['level']==1: stageids.insert(0,'V01 (three resource cards)')
+    if level['level']==8: stageids.insert(0,'V08 (two resource cards)')
     levelrows.append({'Level':level['level'],'Theme':level['title'],'HSK entries':level['new_entries'],'New cards incl. additions':level['card_count'],'Words + English':'; '.join(r['Chinese']+' — '+r['English'] for r in items),'Village':level['village'],'Sentence stages':', '.join(stageids) or 'Review familiar patterns'})
+for row in levelrows:
+    economy_level=economy_levels[row['Level']-1]
+    row['Purchase A']=economy_level['Option A — first copy']
+    row['Purchase B']=economy_level['Option B — first copy']
+    row['Purchase limit']='Repeated copies and both types allowed; shared land and resource costs apply'
+    gate=gates[row['Level']-1]
+    row['Advance requirement']=f"Strength {gate['Village strength required']}; research {gate['Research nodes required']}; {gate['Recent project requirement']}; {gate['Sentence milestone']}"
 extra_rows=[{'Level':x[0],'Chinese':x[1],'English':x[2],'Status':x[3],'Additional new cards':x[4]} for x in extensions]
 
 def mdtable(rows):
@@ -98,20 +122,23 @@ def mdtable(rows):
     return '\n'.join(out)
 md='# HSK 1–2 → game and village mapping\n\n'+intro+'\n## Level overview\n\n'+mdtable(levelrows)+'\n\n## Complete vocabulary: 300 entries\n\n'+mdtable(vocabulary)+'\n\n## Grammar and sentence interactions\n\n'+mdtable(grammar)+'\n\n## Extensions and edition bridges\n\n'+mdtable(extra_rows)+'\n\n## Play, progression, and prestige rules\n\n'+rules+'\n## Sources and audit\n\n'
 md+='\n'.join('- ['+name+']('+url+')' for name,url in sources)
-audit={'baseline':'Pinned classic HSK 1–2 transcription; earlier official classic edition','hsk1':150,'hsk2_additional':150,'unique_entries':len(vocabulary),'unmapped':[],'duplicate_assignments':[],'max_new_cards_per_core_level':max(x['card_count'] for x in levels),'grammar_patterns':len(grammar),'sentence_stages':len(set(g['Sentence stage'] for g in grammar)),'source_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/'sources').glob('*.csv')}}
+economy_md='# Village purchases, research, and strategy\n\n'+ADVANCEMENT_RULES+'\n## Advancement gates\n\n'+mdtable(gates)+'\n\n'+ECONOMY_RULES+'\n## Resources\n\n'+mdtable(RESOURCES)+'\n\n## Production infrastructure\n\n'+mdtable(INFRASTRUCTURE)+'\n## Price ladder and level choices\n\n'+mdtable(economy_levels)+'\n\n## Projects\n\n'+mdtable(projects)+'\n\n## Research tree\n\n'+mdtable(research)+'\n\n## District synergies\n\n'+mdtable(SYNERGIES)+'\n\n## Example strategies\n\n'+mdtable(STRATEGIES)
+(ROOT/'village-economy.md').write_text(economy_md,encoding='utf-8')
+md+='\n\n## Advancement gates\n\n'+ADVANCEMENT_RULES+'\n\n'+mdtable(gates)+'\n\n## Village economy\n\n'+ECONOMY_RULES+'\n\n'+mdtable(RESOURCES)+'\n\n'+mdtable(INFRASTRUCTURE)+'\n\n'+mdtable(economy_levels)+'\n\n'+mdtable(projects)+'\n\n'+mdtable(research)+'\n\n'+mdtable(SYNERGIES)+'\n\n'+mdtable(STRATEGIES)
+audit={'baseline':'Pinned classic HSK 1–2 transcription; earlier official classic edition','hsk1':150,'hsk2_additional':150,'unique_entries':len(vocabulary),'unmapped':[],'duplicate_assignments':[],'max_new_cards_per_core_level':max(x['card_count'] for x in levels),'grammar_patterns':len(grammar),'sentence_stages':len(set(g['Sentence stage'] for g in grammar)),'village_projects':len(projects),'research_nodes':len(research),'extra_economy_sentence_stages':1,'source_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/'sources').glob('*.csv')}}
 md+='\n\nAudit: '+json.dumps(audit,ensure_ascii=False,indent=2)+'\n'
 (ROOT/'hsk-game-mapping.md').write_text(md,encoding='utf-8')
-(ROOT/'mapping.json').write_text(json.dumps({'levels':levels,'vocabulary':vocabulary,'grammar':grammar,'extensions':extra_rows,'audit':audit},ensure_ascii=False,indent=2),encoding='utf-8')
+(ROOT/'mapping.json').write_text(json.dumps({'levels':levels,'vocabulary':vocabulary,'grammar':grammar,'extensions':extra_rows,'village_economy':{'resources':RESOURCES,'infrastructure':INFRASTRUCTURE,'resource_stages':[{'id':'V01','after_level':1,'new_cards':['木材','石料','知识']},{'id':'V08','after_level':8,'new_cards':['砖','心得']}],'advancement_gates':gates,'levels':economy_levels,'projects':projects,'research':research,'synergies':SYNERGIES,'strategies':STRATEGIES,'extra_sentence_stage':{'id':'S03.0','after_level':3,'cards':6,'pool_size':18,'examples':['一百','二千','十元','三块','一万','五百']}},'audit':audit},ensure_ascii=False,indent=2),encoding='utf-8')
 for name,rows in [('vocabulary',vocabulary),('grammar',grammar)]:
     with (ROOT/(name+'.csv')).open('w',encoding='utf-8-sig',newline='') as f:
         w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
 def htable(rows):
     fields=list(rows[0]);return '<div class="table-wrap"><table><thead><tr>'+''.join('<th>'+html.escape(f)+'</th>' for f in fields)+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+html.escape(str(r[f]))+'</td>' for f in fields)+'</tr>' for r in rows)+'</tbody></table></div>'
 def paragraphs(text):return ''.join('<p>'+html.escape(p)+'</p>' for p in text.strip().split('\n\n'))
-sections=[('levels','Levels',htable(levelrows)),('vocab','All 300 words',htable(vocabulary)),('grammar','76 grammar patterns',htable(grammar)),('extras','Edition bridges',htable(extra_rows)),('rules','Game rules',paragraphs(rules))]
+sections=[('levels','Levels',htable(levelrows)),('vocab','All 300 words',htable(vocabulary)),('grammar','76 grammar patterns',htable(grammar)),('extras','Edition bridges',htable(extra_rows)),('gates','Advancement gates',paragraphs(ADVANCEMENT_RULES)+htable(gates)),('economy','Prices & choices',htable(economy_levels)),('resources','Resources & production',htable(RESOURCES)+htable(INFRASTRUCTURE)),('projects','Projects',htable(projects)),('research','Research tree',htable(research)),('strategy','Strategy & limits',paragraphs(ECONOMY_RULES)+htable(SYNERGIES)+htable(STRATEGIES)),('rules','Game rules',paragraphs(rules))]
 page='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HSK → Village · Design mapping</title><style>
 *{box-sizing:border-box}body{margin:0;background:#f5f1e7;color:#183f35;font:16px/1.6 system-ui,sans-serif}main{max-width:1500px;margin:auto;padding:32px}h1{font-size:36px;line-height:1.15;margin:8px 0 16px}p{max-width:1050px}.badge{color:#776039;text-transform:uppercase;letter-spacing:.12em;font-size:12px}.toolbar{position:sticky;top:0;background:#f5f1e7f5;padding:14px 0;z-index:2;border-bottom:1px solid #d9cfb6}nav{display:flex;gap:8px;flex-wrap:wrap}button,input{font:inherit;padding:9px 14px;border:1px solid #b9bba8;border-radius:8px}button{cursor:pointer;background:#fffdf5;color:#183f35}button[aria-pressed=true]{background:#245747;color:white}input{margin-top:12px;width:min(100%,530px)}.table-wrap{overflow:auto;max-height:72vh;margin-top:20px;border:1px solid #d5cbb4;border-radius:10px}table{border-collapse:collapse;width:100%;background:#fffef8;font-size:14px}th{position:sticky;top:0;background:#e6eadb;text-align:left;white-space:nowrap}th,td{padding:12px 15px;border-bottom:1px solid #e3ddcc;vertical-align:top}td{min-width:100px}tbody tr:nth-child(even){background:#f8f7ed}tbody tr:hover{background:#fff2bf}#levels td:nth-child(5){min-width:430px}#vocab td:nth-child(1){font-size:19px;font-weight:650}#grammar td:nth-child(6){font-size:18px;min-width:180px}a{color:#286453}section[hidden],tr[hidden]{display:none}.summary{padding:16px;background:#e8eddd;border-radius:12px;font-weight:600}details{margin:18px 0}@media(max-width:650px){main{padding:18px}h1{font-size:28px}}@media print{.toolbar{display:none}section[hidden]{display:block}.table-wrap{max-height:none;overflow:visible}th{position:static}table{font-size:10px}td{min-width:0!important}}
-</style><main><div class="badge">Design proposal · Classic HSK scope · 17 September 2026</div><h1>Words become a village.</h1><p class="summary">300 vocabulary entries · 25 core word levels · 76 grammar patterns · No core level exceeds 20 new cards</p><details><summary>Scope, corrections, and counting rules</summary>'''+paragraphs(intro)+'''</details><div class="toolbar"><nav aria-label="Mapping views">'''+''.join('<button data-tab="'+id+'" aria-pressed="'+str(i==0).lower()+'">'+label+'</button>' for i,(id,label,_) in enumerate(sections))+'''</nav><input id="search" type="search" placeholder="Search Chinese, English, pattern, or village…" aria-label="Filter the current table"><span id="count" role="status"></span></div>'''+''.join('<section id="'+id+'" '+('hidden' if i else '')+'><h2>'+label+'</h2>'+content+'</section>' for i,(id,label,content) in enumerate(sections))+'<details><summary>Sources and coverage audit</summary><ul>'+''.join('<li><a href="'+url+'">'+name+'</a></li>' for name,url in sources)+'</ul><pre>'+html.escape(json.dumps(audit,indent=2))+'</pre></details>'+'''<script>
+</style><main><div class="badge">Design proposal · Classic HSK scope · 17 September 2026</div><h1>Words become a village.</h1><p class="summary">300 vocabulary entries · 25 core word levels · 76 grammar patterns · 54 repeatable projects + 54 research nodes + 5 resources · No core level exceeds 20 new cards</p><details><summary>Scope, corrections, and counting rules</summary>'''+paragraphs(intro)+'''</details><div class="toolbar"><nav aria-label="Mapping views">'''+''.join('<button data-tab="'+id+'" aria-pressed="'+str(i==0).lower()+'">'+label+'</button>' for i,(id,label,_) in enumerate(sections))+'''</nav><input id="search" type="search" placeholder="Search Chinese, English, pattern, or village…" aria-label="Filter the current table"><span id="count" role="status"></span></div>'''+''.join('<section id="'+id+'" '+('hidden' if i else '')+'><h2>'+label+'</h2>'+content+'</section>' for i,(id,label,content) in enumerate(sections))+'<details><summary>Sources and coverage audit</summary><ul>'+''.join('<li><a href="'+url+'">'+name+'</a></li>' for name,url in sources)+'</ul><pre>'+html.escape(json.dumps(audit,indent=2))+'</pre></details>'+'''<script>
 const search=document.querySelector('#search');function filter(){const rows=[...document.querySelectorAll('section:not([hidden]) tbody tr')],q=search.value.toLowerCase().trim();rows.forEach(r=>r.hidden=!r.textContent.toLowerCase().includes(q));document.querySelector('#count').textContent=rows.length?' '+rows.filter(r=>!r.hidden).length+' / '+rows.length+' rows':''}document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{document.querySelectorAll('section').forEach(s=>s.hidden=s.id!==b.dataset.tab);document.querySelectorAll('[data-tab]').forEach(x=>x.setAttribute('aria-pressed',x===b));filter()});search.oninput=filter;filter();</script></main></html>'''
 (ROOT/'index.html').write_text(page,encoding='utf-8')
 print(json.dumps(audit,indent=2))

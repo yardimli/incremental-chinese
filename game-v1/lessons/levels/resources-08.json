@@ -1,0 +1,38 @@
+{
+  "id": "V08",
+  "level": 8,
+  "type": "pairs",
+  "auxiliary": true,
+  "traditional": "建村心得",
+  "simplified": "建村心得",
+  "pinyin": "jiàn cūn xīn dé",
+  "pairs": [
+    {
+      "id": "V08-0",
+      "simplified": "砖",
+      "traditional": "磚",
+      "pinyin": "zhuān",
+      "english": "bricks",
+      "audio": {
+        "female": "audio/female/6521bf3fba31c602.mp3",
+        "male": "audio/male/6521bf3fba31c602.mp3"
+      }
+    },
+    {
+      "id": "V08-1",
+      "simplified": "心得",
+      "traditional": "心得",
+      "pinyin": "xīn dé",
+      "english": "insight",
+      "audio": {
+        "female": "audio/female/5dbc86969d82fd21.mp3",
+        "male": "audio/male/5dbc86969d82fd21.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/53fe68424dd37101.mp3",
+    "male": "audio/male/53fe68424dd37101.mp3"
+  },
+  "english": "Building know-how"
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chinese · Play</title><link rel="icon" href="assets/favicon.ico" sizes="any"><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;overscroll-behavior:none}
+body{background:#d8d7bd url("assets/jade-valley.png") center/cover fixed}
+/* Desktop keeps the iPhone 14 Pro preview; touch phones fill their viewport. */
+.phone{position:absolute;left:50%;top:50%;width:393px;height:852px;transform:translate(-50%,-50%) scale(var(--phone-scale,0));transform-origin:center;overflow:hidden;box-shadow:0 0 60px #12392d50;background:#eee6cf}
+iframe{display:block;width:100%;height:100%;border:0}
+.guide{position:fixed;bottom:20px;right:24px;padding:8px 14px;background:#fff3daee;border:1px solid #b9a268;border-radius:9px;color:#284d38;font:14px Georgia;text-decoration:none}
+@media(max-width:760px){.guide{display:none}}
+</style>
+</head>
+<body>
+<div class="phone"><iframe src="screens/home.html" title="Chinese game"></iframe></div>
+<a class="guide" href="document.html">Game guide</a>
+<script>
+const phone=document.querySelector('.phone');
+const phoneViewport=matchMedia('(pointer: coarse) and (max-width: 760px), (pointer: coarse) and (max-height: 500px)');
+function fitPhone(){
+ const viewport=window.visualViewport;
+ const width=Math.min(window.innerWidth,viewport?.width??window.innerWidth);
+ const height=Math.min(window.innerHeight,viewport?.height??window.innerHeight);
+ const scale=Math.min(1,width/393,height/852);
+ phone.style.width=(phoneViewport.matches?width/scale:393)+'px';
+ phone.style.height=(phoneViewport.matches?height/scale:852)+'px';
+ phone.style.setProperty('--phone-scale',scale);
+ phone.style.left=((viewport?.offsetLeft??0)+width/2)+'px';
+ phone.style.top=((viewport?.offsetTop??0)+height/2)+'px';
+}
+fitPhone();
+window.addEventListener('keydown',e=>{if(e.code==='Space'){e.preventDefault();if(!e.repeat)document.querySelector('iframe').contentWindow.postMessage('debug-space',location.origin)}});
+window.addEventListener('resize',fitPhone);
+phoneViewport.addEventListener('change',fitPhone);
+window.visualViewport?.addEventListener('resize',fitPhone);
+window.visualViewport?.addEventListener('scroll',fitPhone);
+</script>
+</body>
+</html>
+

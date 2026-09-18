@@ -1,0 +1,159 @@
+{
+  "id": "V01",
+  "level": 1,
+  "type": "pairs",
+  "auxiliary": true,
+  "traditional": "建村材料",
+  "simplified": "建村材料",
+  "pinyin": "jiàn cūn cái liào",
+  "pairs": [
+    {
+      "id": "V01-0",
+      "simplified": "木材",
+      "traditional": "木材",
+      "pinyin": "mù cái",
+      "english": "timber",
+      "audio": {
+        "female": "audio/female/30a9333b4fe5013b.mp3",
+        "male": "audio/male/30a9333b4fe5013b.mp3"
+      }
+    },
+    {
+      "id": "V01-1",
+      "simplified": "石料",
+      "traditional": "石料",
+      "pinyin": "shí liào",
+      "english": "stone",
+      "audio": {
+        "female": "audio/female/1c47406e3a93a452.mp3",
+        "male": "audio/male/1c47406e3a93a452.mp3"
+      }
+    },
+    {
+      "id": "V01-2",
+      "simplified": "知识",
+      "traditional": "知識",
+      "pinyin": "zhī shí",
+      "english": "knowledge",
+      "audio": {
+        "female": "audio/female/9e45429b1343e789.mp3",
+        "male": "audio/male/9e45429b1343e789.mp3"
+      }
+    },
+    {
+      "id": "V01-ui-1",
+      "simplified": "村落",
+      "traditional": "村落",
+      "pinyin": "cūn luò",
+      "english": "village settlement (formal)",
+      "audio": {
+        "female": "audio/female/37a31d22a8d39e05.mp3",
+        "male": "audio/male/37a31d22a8d39e05.mp3"
+      }
+    },
+    {
+      "id": "V01-ui-2",
+      "simplified": "研究",
+      "traditional": "研究",
+      "pinyin": "yán jiū",
+      "english": "research",
+      "audio": {
+        "female": "audio/female/4ff0f1dda80ff593.mp3",
+        "male": "audio/male/4ff0f1dda80ff593.mp3"
+      }
+    },
+    {
+      "id": "V01-ui-3",
+      "simplified": "再来",
+      "traditional": "再來",
+      "pinyin": "zài lái",
+      "english": "start again",
+      "audio": {
+        "female": "audio/female/5c03e3075ec8f929.mp3",
+        "male": "audio/male/5c03e3075ec8f929.mp3"
+      }
+    },
+    {
+      "id": "V01-ui-4",
+      "simplified": "完成",
+      "traditional": "完成",
+      "pinyin": "wán chéng",
+      "english": "complete",
+      "audio": {
+        "female": "audio/female/c0b3fbff51ccc40b.mp3",
+        "male": "audio/male/c0b3fbff51ccc40b.mp3"
+      }
+    },
+    {
+      "id": "V01-ui-5",
+      "simplified": "繁体",
+      "traditional": "繁體",
+      "pinyin": "fán tǐ",
+      "english": "traditional characters",
+      "audio": {
+        "female": "audio/female/e9bfe1ea9a08e37e.mp3",
+        "male": "audio/male/e9bfe1ea9a08e37e.mp3"
+      }
+    },
+    {
+      "id": "V01-ui-6",
+      "simplified": "简体",
+      "traditional": "簡體",
+      "pinyin": "jiǎn tǐ",
+      "english": "simplified characters",
+      "audio": {
+        "female": "audio/female/c547cfd04a4dedc5.mp3",
+        "male": "audio/male/c547cfd04a4dedc5.mp3"
+      }
+    },
+    {
+      "id": "V01-ui-7",
+      "simplified": "建",
+      "traditional": "建",
+      "pinyin": "jiàn",
+      "english": "build",
+      "audio": {
+        "female": "audio/female/bbfd39f3cc657767.mp3",
+        "male": "audio/male/bbfd39f3cc657767.mp3"
+      }
+    },
+    {
+      "id": "V01-ui-8",
+      "simplified": "村",
+      "traditional": "村",
+      "pinyin": "cūn",
+      "english": "village (everyday word)",
+      "audio": {
+        "female": "audio/female/32bd9701333184d5.mp3",
+        "male": "audio/male/32bd9701333184d5.mp3"
+      }
+    },
+    {
+      "id": "V01-ui-9",
+      "simplified": "材料",
+      "traditional": "材料",
+      "pinyin": "cái liào",
+      "english": "materials",
+      "audio": {
+        "female": "audio/female/e140c977bfb9051c.mp3",
+        "male": "audio/male/e140c977bfb9051c.mp3"
+      }
+    },
+    {
+      "id": "V01-ui-10",
+      "simplified": "资源",
+      "traditional": "資源",
+      "pinyin": "zī yuán",
+      "english": "resources",
+      "audio": {
+        "female": "audio/female/7880dd3efa828cd2.mp3",
+        "male": "audio/male/7880dd3efa828cd2.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/26ebcba681754490.mp3",
+    "male": "audio/male/26ebcba681754490.mp3"
+  },
+  "english": "Village supplies"
+}

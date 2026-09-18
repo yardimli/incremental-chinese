@@ -1,0 +1,52 @@
+[
+  {
+    "id": "timber",
+    "traditional": "木材",
+    "simplified": "木材",
+    "pinyin": "mù cái",
+    "cap": 200,
+    "level": 1,
+    "exchange": 3,
+    "english": "timber"
+  },
+  {
+    "id": "stone",
+    "traditional": "石料",
+    "simplified": "石料",
+    "pinyin": "shí liào",
+    "cap": 200,
+    "level": 1,
+    "exchange": 5,
+    "english": "stone"
+  },
+  {
+    "id": "bricks",
+    "traditional": "磚",
+    "simplified": "砖",
+    "pinyin": "zhuān",
+    "cap": 100,
+    "level": 8,
+    "exchange": 16,
+    "english": "bricks"
+  },
+  {
+    "id": "knowledge",
+    "traditional": "知識",
+    "simplified": "知识",
+    "pinyin": "zhī shi",
+    "cap": 100,
+    "level": 1,
+    "exchange": null,
+    "english": "knowledge"
+  },
+  {
+    "id": "insight",
+    "traditional": "心得",
+    "simplified": "心得",
+    "pinyin": "xīn dé",
+    "cap": 50,
+    "level": 8,
+    "exchange": null,
+    "english": "insight"
+  }
+]

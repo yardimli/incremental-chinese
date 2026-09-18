@@ -1,0 +1,214 @@
+{
+  "id": "L15",
+  "level": 15,
+  "type": "pairs",
+  "title": "Larger market",
+  "traditional": "市場買賣",
+  "simplified": "市场买卖",
+  "pinyin": "shì chǎng mǎi mài",
+  "pairs": [
+    {
+      "id": "L15-00",
+      "simplified": "卖",
+      "traditional": "賣",
+      "pinyin": "mài",
+      "english": "sell",
+      "audio": {
+        "female": "audio/female/70cb5bdfa310c409.mp3",
+        "male": "audio/male/70cb5bdfa310c409.mp3"
+      }
+    },
+    {
+      "id": "L15-01",
+      "simplified": "贵",
+      "traditional": "貴",
+      "pinyin": "guì",
+      "english": "expensive",
+      "audio": {
+        "female": "audio/female/4bcf9c9df8c017d2.mp3",
+        "male": "audio/male/4bcf9c9df8c017d2.mp3"
+      }
+    },
+    {
+      "id": "L15-02",
+      "simplified": "便宜",
+      "traditional": "便宜",
+      "pinyin": "pián yi",
+      "english": "inexpensive",
+      "audio": {
+        "female": "audio/female/303a288691f82c62.mp3",
+        "male": "audio/male/303a288691f82c62.mp3"
+      }
+    },
+    {
+      "id": "L15-03",
+      "simplified": "给",
+      "traditional": "給",
+      "pinyin": "gěi",
+      "english": "give / to / for",
+      "audio": {
+        "female": "audio/female/7a209f8a3ee05fe9.mp3",
+        "male": "audio/male/7a209f8a3ee05fe9.mp3"
+      }
+    },
+    {
+      "id": "L15-04",
+      "simplified": "找",
+      "traditional": "找",
+      "pinyin": "zhǎo",
+      "english": "look for / give change",
+      "audio": {
+        "female": "audio/female/c277be8a4b92ee42.mp3",
+        "male": "audio/male/c277be8a4b92ee42.mp3"
+      }
+    },
+    {
+      "id": "L15-05",
+      "simplified": "件",
+      "traditional": "件",
+      "pinyin": "jiàn",
+      "english": "classifier for clothing / items",
+      "audio": {
+        "female": "audio/female/7c00255577088ec9.mp3",
+        "male": "audio/male/7c00255577088ec9.mp3"
+      }
+    },
+    {
+      "id": "L15-06",
+      "simplified": "每",
+      "traditional": "每",
+      "pinyin": "měi",
+      "english": "every",
+      "audio": {
+        "female": "audio/female/d8b82d5765fa2fb4.mp3",
+        "male": "audio/male/d8b82d5765fa2fb4.mp3"
+      }
+    },
+    {
+      "id": "L15-07",
+      "simplified": "次",
+      "traditional": "次",
+      "pinyin": "cì",
+      "english": "occurrence / time",
+      "audio": {
+        "female": "audio/female/172fb7e67b9b09dd.mp3",
+        "male": "audio/male/172fb7e67b9b09dd.mp3"
+      }
+    },
+    {
+      "id": "L15-08",
+      "simplified": "新",
+      "traditional": "新",
+      "pinyin": "xīn",
+      "english": "new",
+      "audio": {
+        "female": "audio/female/3cc493bc5b3b9b51.mp3",
+        "male": "audio/male/3cc493bc5b3b9b51.mp3"
+      }
+    },
+    {
+      "id": "L15-09",
+      "simplified": "长",
+      "traditional": "長",
+      "pinyin": "zhǎng",
+      "english": "long",
+      "audio": {
+        "female": "audio/female/63ba256fdb4a9064.mp3",
+        "male": "audio/male/63ba256fdb4a9064.mp3"
+      }
+    },
+    {
+      "id": "L15-10",
+      "simplified": "高",
+      "traditional": "高",
+      "pinyin": "gāo",
+      "english": "tall / high",
+      "audio": {
+        "female": "audio/female/b1c27820fec23edb.mp3",
+        "male": "audio/male/b1c27820fec23edb.mp3"
+      }
+    },
+    {
+      "id": "L15-11",
+      "simplified": "最",
+      "traditional": "最",
+      "pinyin": "zuì",
+      "english": "most",
+      "audio": {
+        "female": "audio/female/150617a89b449d77.mp3",
+        "male": "audio/male/150617a89b449d77.mp3"
+      }
+    },
+    {
+      "id": "L15-12",
+      "simplified": "比",
+      "traditional": "比",
+      "pinyin": "bǐ",
+      "english": "comparison marker",
+      "audio": {
+        "female": "audio/female/ab158a8483c3b86e.mp3",
+        "male": "audio/male/ab158a8483c3b86e.mp3"
+      }
+    },
+    {
+      "id": "L15-13",
+      "simplified": "第一",
+      "traditional": "第一",
+      "pinyin": "dì yī",
+      "english": "first",
+      "audio": {
+        "female": "audio/female/437683aa83332684.mp3",
+        "male": "audio/male/437683aa83332684.mp3"
+      }
+    },
+    {
+      "id": "L15-14",
+      "simplified": "第",
+      "traditional": "第",
+      "pinyin": "dì",
+      "english": "ordinal prefix",
+      "audio": {
+        "female": "audio/female/af50a0fe2a50a3d1.mp3",
+        "male": "audio/male/af50a0fe2a50a3d1.mp3"
+      }
+    },
+    {
+      "id": "L15-ui-1",
+      "simplified": "市场",
+      "traditional": "市場",
+      "pinyin": "shì chǎng",
+      "english": "market",
+      "audio": {
+        "female": "audio/female/1265551c4b76fca6.mp3",
+        "male": "audio/male/1265551c4b76fca6.mp3"
+      }
+    },
+    {
+      "id": "L15-ui-2",
+      "simplified": "买卖",
+      "traditional": "買賣",
+      "pinyin": "mǎi mài",
+      "english": "trade",
+      "audio": {
+        "female": "audio/female/8a1d4794df6cbade.mp3",
+        "male": "audio/male/8a1d4794df6cbade.mp3"
+      }
+    },
+    {
+      "id": "L15-ui-3",
+      "simplified": "短句",
+      "traditional": "短句",
+      "pinyin": "duǎn jù",
+      "english": "short phrase",
+      "audio": {
+        "female": "audio/female/e32cd77ca89142b1.mp3",
+        "male": "audio/male/e32cd77ca89142b1.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/c09cb335da0b0983.mp3",
+    "male": "audio/male/c09cb335da0b0983.mp3"
+  },
+  "english": "Market trading"
+}

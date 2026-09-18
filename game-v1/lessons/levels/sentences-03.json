@@ -1,0 +1,376 @@
+{
+  "id": "S03",
+  "level": 3,
+  "type": "sentences",
+  "traditional": "數量組合",
+  "simplified": "数量组合",
+  "pinyin": "shù liàng zǔ hé",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "S03-1",
+      "tokens": [
+        "L01-01",
+        "L03-00"
+      ],
+      "english": "one hundred",
+      "audio": {
+        "female": "audio/female/38d302ad2b36640f.mp3",
+        "male": "audio/male/38d302ad2b36640f.mp3"
+      }
+    },
+    {
+      "id": "S03-2",
+      "tokens": [
+        "L01-01",
+        "L03-01"
+      ],
+      "english": "one thousand",
+      "audio": {
+        "female": "audio/female/2987ed96e3306eec.mp3",
+        "male": "audio/male/2987ed96e3306eec.mp3"
+      }
+    },
+    {
+      "id": "S03-3",
+      "tokens": [
+        "L01-01",
+        "L03-08"
+      ],
+      "english": "one ten thousand",
+      "audio": {
+        "female": "audio/female/f273afbfc4ed5dfd.mp3",
+        "male": "audio/male/f273afbfc4ed5dfd.mp3"
+      }
+    },
+    {
+      "id": "S03-4",
+      "tokens": [
+        "L01-01",
+        "L03-04"
+      ],
+      "english": "one yuan",
+      "audio": {
+        "female": "audio/female/d5a7c87a6a21c37c.mp3",
+        "male": "audio/male/d5a7c87a6a21c37c.mp3"
+      }
+    },
+    {
+      "id": "S03-5",
+      "tokens": [
+        "L01-01",
+        "L03-03"
+      ],
+      "english": "one yuan (colloquial)",
+      "audio": {
+        "female": "audio/female/516dcf0bf8d41c7f.mp3",
+        "male": "audio/male/516dcf0bf8d41c7f.mp3"
+      }
+    },
+    {
+      "id": "S03-6",
+      "tokens": [
+        "L01-02",
+        "L03-00"
+      ],
+      "english": "two hundred",
+      "audio": {
+        "female": "audio/female/bb7fc3a46dd821d2.mp3",
+        "male": "audio/male/bb7fc3a46dd821d2.mp3"
+      }
+    },
+    {
+      "id": "S03-7",
+      "tokens": [
+        "L01-02",
+        "L03-01"
+      ],
+      "english": "two thousand",
+      "audio": {
+        "female": "audio/female/97c523f569ece408.mp3",
+        "male": "audio/male/97c523f569ece408.mp3"
+      }
+    },
+    {
+      "id": "S03-8",
+      "tokens": [
+        "L01-02",
+        "L03-08"
+      ],
+      "english": "two ten thousand",
+      "audio": {
+        "female": "audio/female/62a8a6202cc0d59c.mp3",
+        "male": "audio/male/62a8a6202cc0d59c.mp3"
+      }
+    },
+    {
+      "id": "S03-9",
+      "tokens": [
+        "L01-02",
+        "L03-04"
+      ],
+      "english": "two yuan",
+      "audio": {
+        "female": "audio/female/6075ffa891608896.mp3",
+        "male": "audio/male/6075ffa891608896.mp3"
+      }
+    },
+    {
+      "id": "S03-10",
+      "tokens": [
+        "L01-02",
+        "L03-03"
+      ],
+      "english": "two yuan (colloquial)",
+      "audio": {
+        "female": "audio/female/2a0de9c53dff5cfc.mp3",
+        "male": "audio/male/2a0de9c53dff5cfc.mp3"
+      }
+    },
+    {
+      "id": "S03-11",
+      "tokens": [
+        "L01-03",
+        "L03-00"
+      ],
+      "english": "three hundred",
+      "audio": {
+        "female": "audio/female/e6a5e7b74720e53d.mp3",
+        "male": "audio/male/e6a5e7b74720e53d.mp3"
+      }
+    },
+    {
+      "id": "S03-12",
+      "tokens": [
+        "L01-03",
+        "L03-01"
+      ],
+      "english": "three thousand",
+      "audio": {
+        "female": "audio/female/5d171a1f5c04c452.mp3",
+        "male": "audio/male/5d171a1f5c04c452.mp3"
+      }
+    },
+    {
+      "id": "S03-13",
+      "tokens": [
+        "L01-03",
+        "L03-08"
+      ],
+      "english": "three ten thousand",
+      "audio": {
+        "female": "audio/female/7e9aff5fe1510ee5.mp3",
+        "male": "audio/male/7e9aff5fe1510ee5.mp3"
+      }
+    },
+    {
+      "id": "S03-14",
+      "tokens": [
+        "L01-03",
+        "L03-04"
+      ],
+      "english": "three yuan",
+      "audio": {
+        "female": "audio/female/90e2c7cc6cabf8dd.mp3",
+        "male": "audio/male/90e2c7cc6cabf8dd.mp3"
+      }
+    },
+    {
+      "id": "S03-15",
+      "tokens": [
+        "L01-03",
+        "L03-03"
+      ],
+      "english": "three yuan (colloquial)",
+      "audio": {
+        "female": "audio/female/519527b8969dabb4.mp3",
+        "male": "audio/male/519527b8969dabb4.mp3"
+      }
+    },
+    {
+      "id": "S03-16",
+      "tokens": [
+        "L01-04",
+        "L03-00"
+      ],
+      "english": "four hundred",
+      "audio": {
+        "female": "audio/female/fa425555f74a0545.mp3",
+        "male": "audio/male/fa425555f74a0545.mp3"
+      }
+    },
+    {
+      "id": "S03-17",
+      "tokens": [
+        "L01-04",
+        "L03-01"
+      ],
+      "english": "four thousand",
+      "audio": {
+        "female": "audio/female/e4bfc806808e23dd.mp3",
+        "male": "audio/male/e4bfc806808e23dd.mp3"
+      }
+    },
+    {
+      "id": "S03-18",
+      "tokens": [
+        "L01-04",
+        "L03-08"
+      ],
+      "english": "four ten thousand",
+      "audio": {
+        "female": "audio/female/0815e8b6c40e6362.mp3",
+        "male": "audio/male/0815e8b6c40e6362.mp3"
+      }
+    },
+    {
+      "id": "S03-19",
+      "tokens": [
+        "L01-04",
+        "L03-04"
+      ],
+      "english": "four yuan",
+      "audio": {
+        "female": "audio/female/27cd4c29d1aefba8.mp3",
+        "male": "audio/male/27cd4c29d1aefba8.mp3"
+      }
+    },
+    {
+      "id": "S03-20",
+      "tokens": [
+        "L01-04",
+        "L03-03"
+      ],
+      "english": "four yuan (colloquial)",
+      "audio": {
+        "female": "audio/female/c85fc5ffc3f9b3e6.mp3",
+        "male": "audio/male/c85fc5ffc3f9b3e6.mp3"
+      }
+    },
+    {
+      "id": "S03-21",
+      "tokens": [
+        "L01-05",
+        "L03-00"
+      ],
+      "english": "five hundred",
+      "audio": {
+        "female": "audio/female/a04846d365f8fe2d.mp3",
+        "male": "audio/male/a04846d365f8fe2d.mp3"
+      }
+    },
+    {
+      "id": "S03-22",
+      "tokens": [
+        "L01-05",
+        "L03-01"
+      ],
+      "english": "five thousand",
+      "audio": {
+        "female": "audio/female/948552446dc4bb80.mp3",
+        "male": "audio/male/948552446dc4bb80.mp3"
+      }
+    },
+    {
+      "id": "S03-23",
+      "tokens": [
+        "L01-05",
+        "L03-08"
+      ],
+      "english": "five ten thousand",
+      "audio": {
+        "female": "audio/female/791d29f834f87129.mp3",
+        "male": "audio/male/791d29f834f87129.mp3"
+      }
+    },
+    {
+      "id": "S03-24",
+      "tokens": [
+        "L01-05",
+        "L03-04"
+      ],
+      "english": "five yuan",
+      "audio": {
+        "female": "audio/female/7ea2dfc6099df99d.mp3",
+        "male": "audio/male/7ea2dfc6099df99d.mp3"
+      }
+    },
+    {
+      "id": "S03-25",
+      "tokens": [
+        "L01-05",
+        "L03-03"
+      ],
+      "english": "five yuan (colloquial)",
+      "audio": {
+        "female": "audio/female/cd103554e27d7854.mp3",
+        "male": "audio/male/cd103554e27d7854.mp3"
+      }
+    },
+    {
+      "id": "S03-26",
+      "tokens": [
+        "L01-06",
+        "L03-00"
+      ],
+      "english": "six hundred",
+      "audio": {
+        "female": "audio/female/21b6e693707378df.mp3",
+        "male": "audio/male/21b6e693707378df.mp3"
+      }
+    },
+    {
+      "id": "S03-27",
+      "tokens": [
+        "L01-06",
+        "L03-01"
+      ],
+      "english": "six thousand",
+      "audio": {
+        "female": "audio/female/fc56dd0db9c120f6.mp3",
+        "male": "audio/male/fc56dd0db9c120f6.mp3"
+      }
+    },
+    {
+      "id": "S03-28",
+      "tokens": [
+        "L01-06",
+        "L03-08"
+      ],
+      "english": "six ten thousand",
+      "audio": {
+        "female": "audio/female/03282304635534ef.mp3",
+        "male": "audio/male/03282304635534ef.mp3"
+      }
+    },
+    {
+      "id": "S03-29",
+      "tokens": [
+        "L01-06",
+        "L03-04"
+      ],
+      "english": "six yuan",
+      "audio": {
+        "female": "audio/female/547be9472cd5e90f.mp3",
+        "male": "audio/male/547be9472cd5e90f.mp3"
+      }
+    },
+    {
+      "id": "S03-30",
+      "tokens": [
+        "L01-06",
+        "L03-03"
+      ],
+      "english": "six yuan (colloquial)",
+      "audio": {
+        "female": "audio/female/d838e0d8247a1c7c.mp3",
+        "male": "audio/male/d838e0d8247a1c7c.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/1caa983cc1412a8d.mp3",
+    "male": "audio/male/1caa983cc1412a8d.mp3"
+  },
+  "english": "Number combinations"
+}

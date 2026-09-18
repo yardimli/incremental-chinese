@@ -1,0 +1,192 @@
+{
+  "version": 2,
+  "baseCoins": 10,
+  "growth": 1.6,
+  "copyGrowth": 1.18,
+  "copyDiminish": 0.7,
+  "offlineHours": 8,
+  "baseLand": 4,
+  "maxLevel": 25,
+  "settlementGrant": 250,
+  "memoryPairs": 6,
+  "memoryPairWeight": 2,
+  "memoryBoardWeight": 5,
+  "prestigeGain": 0.5,
+  "gates": [
+    {
+      "level": 1,
+      "strength": 1,
+      "research": 1,
+      "sentences": 0,
+      "recentFrom": 1
+    },
+    {
+      "level": 2,
+      "strength": 1,
+      "research": 1,
+      "sentences": 0,
+      "recentFrom": 1
+    },
+    {
+      "level": 3,
+      "strength": 2,
+      "research": 2,
+      "sentences": 1,
+      "recentFrom": 1
+    },
+    {
+      "level": 4,
+      "strength": 2,
+      "research": 2,
+      "sentences": 1,
+      "recentFrom": 1
+    },
+    {
+      "level": 5,
+      "strength": 3,
+      "research": 2,
+      "sentences": 1,
+      "recentFrom": 1
+    },
+    {
+      "level": 6,
+      "strength": 3,
+      "research": 3,
+      "sentences": 2,
+      "recentFrom": 2
+    },
+    {
+      "level": 7,
+      "strength": 4,
+      "research": 3,
+      "sentences": 2,
+      "recentFrom": 3
+    },
+    {
+      "level": 8,
+      "strength": 4,
+      "research": 3,
+      "sentences": 2,
+      "recentFrom": 4
+    },
+    {
+      "level": 9,
+      "strength": 5,
+      "research": 4,
+      "sentences": 3,
+      "recentFrom": 5
+    },
+    {
+      "level": 10,
+      "strength": 5,
+      "research": 4,
+      "sentences": 3,
+      "recentFrom": 6
+    },
+    {
+      "level": 11,
+      "strength": 6,
+      "research": 4,
+      "sentences": 3,
+      "recentFrom": 7
+    },
+    {
+      "level": 12,
+      "strength": 6,
+      "research": 5,
+      "sentences": 4,
+      "recentFrom": 8
+    },
+    {
+      "level": 13,
+      "strength": 7,
+      "research": 5,
+      "sentences": 4,
+      "recentFrom": 9
+    },
+    {
+      "level": 14,
+      "strength": 7,
+      "research": 5,
+      "sentences": 4,
+      "recentFrom": 10
+    },
+    {
+      "level": 15,
+      "strength": 8,
+      "research": 6,
+      "sentences": 5,
+      "recentFrom": 11
+    },
+    {
+      "level": 16,
+      "strength": 8,
+      "research": 6,
+      "sentences": 5,
+      "recentFrom": 12
+    },
+    {
+      "level": 17,
+      "strength": 9,
+      "research": 6,
+      "sentences": 5,
+      "recentFrom": 13
+    },
+    {
+      "level": 18,
+      "strength": 9,
+      "research": 7,
+      "sentences": 6,
+      "recentFrom": 14
+    },
+    {
+      "level": 19,
+      "strength": 10,
+      "research": 7,
+      "sentences": 6,
+      "recentFrom": 15
+    },
+    {
+      "level": 20,
+      "strength": 10,
+      "research": 7,
+      "sentences": 6,
+      "recentFrom": 16
+    },
+    {
+      "level": 21,
+      "strength": 11,
+      "research": 8,
+      "sentences": 7,
+      "recentFrom": 17
+    },
+    {
+      "level": 22,
+      "strength": 11,
+      "research": 8,
+      "sentences": 7,
+      "recentFrom": 18
+    },
+    {
+      "level": 23,
+      "strength": 12,
+      "research": 8,
+      "sentences": 7,
+      "recentFrom": 19
+    },
+    {
+      "level": 24,
+      "strength": 12,
+      "research": 9,
+      "sentences": 8,
+      "recentFrom": 20
+    },
+    {
+      "level": 25,
+      "strength": 13,
+      "research": 9,
+      "sentences": 8,
+      "recentFrom": 21
+    }
+  ]
+}

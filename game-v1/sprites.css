@@ -1,0 +1,14 @@
+.sprite{display:inline-block;flex:none;width:32px;height:32px;background-image:url("./assets/ui-sprites.svg");background-repeat:no-repeat;background-size:416px 32px;vertical-align:middle}
+.sprite-play{background-position:0px 0}
+.sprite-sets{background-position:-32px 0}
+.sprite-village{background-position:-64px 0}
+.sprite-tech{background-position:-96px 0}
+.sprite-timber{background-position:-128px 0}
+.sprite-stone{background-position:-160px 0}
+.sprite-bricks{background-position:-192px 0}
+.sprite-knowledge{background-position:-224px 0}
+.sprite-insight{background-position:-256px 0}
+.sprite-coins{background-position:-288px 0}
+.sprite-memory{background-position:-320px 0}
+.sprite-storage{background-position:-352px 0}
+.sprite-cardback{background-position:-384px 0}

@@ -1,0 +1,159 @@
+{
+  "id": "L04",
+  "level": 4,
+  "type": "pairs",
+  "title": "First residents",
+  "traditional": "你我他",
+  "simplified": "你我他",
+  "pinyin": "nǐ wǒ tā",
+  "pairs": [
+    {
+      "id": "L04-00",
+      "simplified": "我",
+      "traditional": "我",
+      "pinyin": "wǒ",
+      "english": "I / me",
+      "audio": {
+        "female": "audio/female/b70bb4acc0484cf0.mp3",
+        "male": "audio/male/b70bb4acc0484cf0.mp3"
+      }
+    },
+    {
+      "id": "L04-01",
+      "simplified": "你",
+      "traditional": "你",
+      "pinyin": "nǐ",
+      "english": "you",
+      "audio": {
+        "female": "audio/female/a0c7716669b5ded0.mp3",
+        "male": "audio/male/a0c7716669b5ded0.mp3"
+      }
+    },
+    {
+      "id": "L04-02",
+      "simplified": "他",
+      "traditional": "他",
+      "pinyin": "tā",
+      "english": "he / him",
+      "audio": {
+        "female": "audio/female/8b7b91e0001c6971.mp3",
+        "male": "audio/male/8b7b91e0001c6971.mp3"
+      }
+    },
+    {
+      "id": "L04-03",
+      "simplified": "她",
+      "traditional": "她",
+      "pinyin": "tā",
+      "english": "she / her",
+      "audio": {
+        "female": "audio/female/2ab425e0c6b932cb.mp3",
+        "male": "audio/male/2ab425e0c6b932cb.mp3"
+      }
+    },
+    {
+      "id": "L04-04",
+      "simplified": "我们",
+      "traditional": "我們",
+      "pinyin": "wǒ men",
+      "english": "we / us",
+      "audio": {
+        "female": "audio/female/a0c770029b2865c8.mp3",
+        "male": "audio/male/a0c770029b2865c8.mp3"
+      }
+    },
+    {
+      "id": "L04-05",
+      "simplified": "人",
+      "traditional": "人",
+      "pinyin": "rén",
+      "english": "person",
+      "audio": {
+        "female": "audio/female/50f5d65d57290f75.mp3",
+        "male": "audio/male/50f5d65d57290f75.mp3"
+      }
+    },
+    {
+      "id": "L04-06",
+      "simplified": "名字",
+      "traditional": "名字",
+      "pinyin": "míng zì",
+      "english": "name",
+      "audio": {
+        "female": "audio/female/6773310492a96fcf.mp3",
+        "male": "audio/male/6773310492a96fcf.mp3"
+      }
+    },
+    {
+      "id": "L04-07",
+      "simplified": "叫",
+      "traditional": "叫",
+      "pinyin": "jiào",
+      "english": "be called / call",
+      "audio": {
+        "female": "audio/female/b71852847d38252f.mp3",
+        "male": "audio/male/b71852847d38252f.mp3"
+      }
+    },
+    {
+      "id": "L04-08",
+      "simplified": "是",
+      "traditional": "是",
+      "pinyin": "shì",
+      "english": "be",
+      "audio": {
+        "female": "audio/female/b5141d3d19e9a048.mp3",
+        "male": "audio/male/b5141d3d19e9a048.mp3"
+      }
+    },
+    {
+      "id": "L04-09",
+      "simplified": "的",
+      "traditional": "的",
+      "pinyin": "de",
+      "english": "possessive / modifying particle",
+      "audio": {
+        "female": "audio/female/8af2350cfd65805b.mp3",
+        "male": "audio/male/8af2350cfd65805b.mp3"
+      }
+    },
+    {
+      "id": "L04-10",
+      "simplified": "吗",
+      "traditional": "嗎",
+      "pinyin": "ma",
+      "english": "yes-no question particle",
+      "audio": {
+        "female": "audio/female/fa474ee4a665e443.mp3",
+        "male": "audio/male/fa474ee4a665e443.mp3"
+      }
+    },
+    {
+      "id": "L04-11",
+      "simplified": "谁",
+      "traditional": "誰",
+      "pinyin": "shuí",
+      "english": "who",
+      "audio": {
+        "female": "audio/female/47c9a42683e927d5.mp3",
+        "male": "audio/male/47c9a42683e927d5.mp3"
+      }
+    },
+    {
+      "id": "L04-12",
+      "simplified": "姓",
+      "traditional": "姓",
+      "pinyin": "xìng",
+      "english": "surname / be surnamed",
+      "audio": {
+        "female": "audio/female/978d056de9ca8731.mp3",
+        "male": "audio/male/978d056de9ca8731.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/ae65bfc53dd91453.mp3",
+    "male": "audio/male/ae65bfc53dd91453.mp3"
+  },
+  "english": "You, me & others"
+}

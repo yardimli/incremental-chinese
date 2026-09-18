@@ -1,0 +1,147 @@
+{
+  "id": "L01",
+  "level": 1,
+  "type": "pairs",
+  "title": "First coins",
+  "traditional": "數字",
+  "simplified": "数字",
+  "pinyin": "shù zì",
+  "pairs": [
+    {
+      "id": "L01-00",
+      "simplified": "零",
+      "traditional": "零",
+      "pinyin": "líng",
+      "english": "zero",
+      "number": 0,
+      "audio": {
+        "female": "audio/female/9489a4a6f3fbf136.mp3",
+        "male": "audio/male/9489a4a6f3fbf136.mp3"
+      }
+    },
+    {
+      "id": "L01-01",
+      "simplified": "一",
+      "traditional": "一",
+      "pinyin": "yī",
+      "english": "one",
+      "number": 1,
+      "audio": {
+        "female": "audio/female/51a75f4634dfa859.mp3",
+        "male": "audio/male/51a75f4634dfa859.mp3"
+      }
+    },
+    {
+      "id": "L01-02",
+      "simplified": "二",
+      "traditional": "二",
+      "pinyin": "èr",
+      "english": "two",
+      "number": 2,
+      "audio": {
+        "female": "audio/female/084b42f6e95e4e65.mp3",
+        "male": "audio/male/084b42f6e95e4e65.mp3"
+      }
+    },
+    {
+      "id": "L01-03",
+      "simplified": "三",
+      "traditional": "三",
+      "pinyin": "sān",
+      "english": "three",
+      "number": 3,
+      "audio": {
+        "female": "audio/female/a4c3313deb180960.mp3",
+        "male": "audio/male/a4c3313deb180960.mp3"
+      }
+    },
+    {
+      "id": "L01-04",
+      "simplified": "四",
+      "traditional": "四",
+      "pinyin": "sì",
+      "english": "four",
+      "number": 4,
+      "audio": {
+        "female": "audio/female/754a9d5828d502f1.mp3",
+        "male": "audio/male/754a9d5828d502f1.mp3"
+      }
+    },
+    {
+      "id": "L01-05",
+      "simplified": "五",
+      "traditional": "五",
+      "pinyin": "wǔ",
+      "english": "five",
+      "number": 5,
+      "audio": {
+        "female": "audio/female/c9b87f516a38ea36.mp3",
+        "male": "audio/male/c9b87f516a38ea36.mp3"
+      }
+    },
+    {
+      "id": "L01-06",
+      "simplified": "六",
+      "traditional": "六",
+      "pinyin": "liù",
+      "english": "six",
+      "number": 6,
+      "audio": {
+        "female": "audio/female/de07b5383874b2a3.mp3",
+        "male": "audio/male/de07b5383874b2a3.mp3"
+      }
+    },
+    {
+      "id": "L01-07",
+      "simplified": "七",
+      "traditional": "七",
+      "pinyin": "qī",
+      "english": "seven",
+      "number": 7,
+      "audio": {
+        "female": "audio/female/1b0542878c67f6cd.mp3",
+        "male": "audio/male/1b0542878c67f6cd.mp3"
+      }
+    },
+    {
+      "id": "L01-08",
+      "simplified": "八",
+      "traditional": "八",
+      "pinyin": "bā",
+      "english": "eight",
+      "number": 8,
+      "audio": {
+        "female": "audio/female/2c467d3673926b20.mp3",
+        "male": "audio/male/2c467d3673926b20.mp3"
+      }
+    },
+    {
+      "id": "L01-09",
+      "simplified": "九",
+      "traditional": "九",
+      "pinyin": "jiǔ",
+      "english": "nine",
+      "number": 9,
+      "audio": {
+        "female": "audio/female/df897da6e02ecd30.mp3",
+        "male": "audio/male/df897da6e02ecd30.mp3"
+      }
+    },
+    {
+      "id": "L01-ui-1",
+      "simplified": "数字",
+      "traditional": "數字",
+      "pinyin": "shù zì",
+      "english": "numbers",
+      "audio": {
+        "female": "audio/female/365bd33d1106abd2.mp3",
+        "male": "audio/male/365bd33d1106abd2.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/365bd33d1106abd2.mp3",
+    "male": "audio/male/365bd33d1106abd2.mp3"
+  },
+  "english": "First numbers"
+}

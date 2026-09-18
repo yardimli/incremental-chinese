@@ -1,0 +1,27 @@
+1|Trade|一|Single coin stand|Counting marks|Community|二|Paired coin table|Pair counting
+2|Trade|十|Ten-coin counter|Batch counting|Community|两|Twin counting benches|Paired quantities
+3|Trade|钱|Counting house|Coin accounting|Study|千|Number-pattern desk|Place-value patterns
+4|Community|人|Resident courtyard|Household planning|Study|名字|Resident name board|Name records
+5|Trade|来|Roadside shopfront|Visitor flow|Community|家|Family housing plot|Shared housing
+6|Trade|茶|Tea stall|Tea service|Study|杯子|Order-writing desk|Drink-order patterns
+7|Community|米饭|Communal kitchen|Shared meals|Trade|水果|Fruit stall|Weighed sales
+8|Community|朋友|Friends' courtyard|Neighbour cooperation|Study|我们|Household story wall|Family sentence patterns
+9|Trade|衣服|Clothing stall|Display shelving|Community|椅子|Furnished meeting yard|Shared furnishings
+10|Study|今天|Calendar office|Dated records|Trade|钱|Price-and-date board|Scheduled trading
+11|Community|休息|Rest pavilion|Resident routines|Study|工作|Schedule board|Action timelines
+12|Study|学校|Village school|Teaching methods|Trade|书|Book stall|Book catalogues
+13|Trade|欢迎|Welcome pavilion|Guest reception|Community|请坐|Guest seating court|Shared hospitality
+14|Community|医院|Clinic|Community care|Study|天气|Weather observation desk|Weather descriptions
+15|Trade|卖|Market arcade|Price comparisons|Study|比|Comparison workshop|Comparative patterns
+16|Trade|咖啡|Coffee house|Expanded menus|Community|饭馆|Shared dining hall|Group service
+17|Community|大家|Neighbourhood hall|Household coordination|Study|帮助|Resident request office|Helpful instructions
+18|Trade|路|Market road|Trade connections|Study|左边|Direction board|Route descriptions
+19|Trade|船|Visitor landing|Passenger trade|Community|房间|Guest rooms|Shared lodging
+20|Community|快乐|Festival square|Community celebrations|Study|颜色|Festival story stage|Descriptive storytelling
+21|Community|运动|Recreation ground|Group recreation|Trade|快|Runner delivery post|Fast delivery routes
+22|Trade|手机|Communications shop|Remote ordering|Study|报纸|Town newspaper office|Written reports
+23|Study|教室|Teaching hall|Applied sentence practice|Community|回答|Advice centre|Community assistance
+24|Study|准备|Planning office|Coordinated instructions|Trade|开始|Town trading office|Coordinated commerce
+25|Study|因为|Council records room|Linked explanations|Community|所以|Assembly square|Shared decisions
+26|Trade|饭店|Restaurant renovation|Edition-bridge menus|Study|一点儿|Portion request desk|Quantity refinements
+27|Community|宾馆|Guesthouse renovation|Edition-bridge hospitality|Study|虽然|Story archive|Contrasting explanations

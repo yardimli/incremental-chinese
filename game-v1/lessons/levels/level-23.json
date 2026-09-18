@@ -1,0 +1,214 @@
+{
+  "id": "L23",
+  "level": 23,
+  "type": "pairs",
+  "title": "Skilled residents",
+  "traditional": "問與答",
+  "simplified": "问与答",
+  "pinyin": "wèn yǔ dá",
+  "pairs": [
+    {
+      "id": "L23-00",
+      "simplified": "教室",
+      "traditional": "教室",
+      "pinyin": "jiào shì",
+      "english": "classroom",
+      "audio": {
+        "female": "audio/female/df7a65bb1371b441.mp3",
+        "male": "audio/male/df7a65bb1371b441.mp3"
+      }
+    },
+    {
+      "id": "L23-01",
+      "simplified": "课",
+      "traditional": "課",
+      "pinyin": "kè",
+      "english": "lesson / class",
+      "audio": {
+        "female": "audio/female/31496f18e0118e25.mp3",
+        "male": "audio/male/31496f18e0118e25.mp3"
+      }
+    },
+    {
+      "id": "L23-02",
+      "simplified": "考试",
+      "traditional": "考試",
+      "pinyin": "kǎo shì",
+      "english": "exam",
+      "audio": {
+        "female": "audio/female/e2649d8da1d7a06f.mp3",
+        "male": "audio/male/e2649d8da1d7a06f.mp3"
+      }
+    },
+    {
+      "id": "L23-03",
+      "simplified": "题",
+      "traditional": "題",
+      "pinyin": "tí",
+      "english": "question / problem",
+      "audio": {
+        "female": "audio/female/feb074cc340e5dd6.mp3",
+        "male": "audio/male/feb074cc340e5dd6.mp3"
+      }
+    },
+    {
+      "id": "L23-04",
+      "simplified": "问题",
+      "traditional": "問題",
+      "pinyin": "wèn tí",
+      "english": "question / issue",
+      "audio": {
+        "female": "audio/female/498fc9621097ac4d.mp3",
+        "male": "audio/male/498fc9621097ac4d.mp3"
+      }
+    },
+    {
+      "id": "L23-05",
+      "simplified": "问",
+      "traditional": "問",
+      "pinyin": "wèn",
+      "english": "ask",
+      "audio": {
+        "female": "audio/female/d9feb7033585ebf0.mp3",
+        "male": "audio/male/d9feb7033585ebf0.mp3"
+      }
+    },
+    {
+      "id": "L23-06",
+      "simplified": "回答",
+      "traditional": "回答",
+      "pinyin": "huí dá",
+      "english": "answer",
+      "audio": {
+        "female": "audio/female/f3f512648742020f.mp3",
+        "male": "audio/male/f3f512648742020f.mp3"
+      }
+    },
+    {
+      "id": "L23-07",
+      "simplified": "懂",
+      "traditional": "懂",
+      "pinyin": "dǒng",
+      "english": "understand",
+      "audio": {
+        "female": "audio/female/e623ab488c8e0409.mp3",
+        "male": "audio/male/e623ab488c8e0409.mp3"
+      }
+    },
+    {
+      "id": "L23-08",
+      "simplified": "知道",
+      "traditional": "知道",
+      "pinyin": "zhī dào",
+      "english": "know",
+      "audio": {
+        "female": "audio/female/d7b6472b11240bd2.mp3",
+        "male": "audio/male/d7b6472b11240bd2.mp3"
+      }
+    },
+    {
+      "id": "L23-09",
+      "simplified": "告诉",
+      "traditional": "告訴",
+      "pinyin": "gào sù",
+      "english": "tell",
+      "audio": {
+        "female": "audio/female/df176c16395dc85a.mp3",
+        "male": "audio/male/df176c16395dc85a.mp3"
+      }
+    },
+    {
+      "id": "L23-10",
+      "simplified": "介绍",
+      "traditional": "介紹",
+      "pinyin": "jiè shào",
+      "english": "introduce",
+      "audio": {
+        "female": "audio/female/d3ee16c71edfeb46.mp3",
+        "male": "audio/male/d3ee16c71edfeb46.mp3"
+      }
+    },
+    {
+      "id": "L23-11",
+      "simplified": "意思",
+      "traditional": "意思",
+      "pinyin": "yì si",
+      "english": "meaning",
+      "audio": {
+        "female": "audio/female/65eb352d08bf12a0.mp3",
+        "male": "audio/male/65eb352d08bf12a0.mp3"
+      }
+    },
+    {
+      "id": "L23-12",
+      "simplified": "觉得",
+      "traditional": "覺得",
+      "pinyin": "jué de",
+      "english": "think / feel",
+      "audio": {
+        "female": "audio/female/9635b4452b4cafb1.mp3",
+        "male": "audio/male/9635b4452b4cafb1.mp3"
+      }
+    },
+    {
+      "id": "L23-13",
+      "simplified": "对",
+      "traditional": "對",
+      "pinyin": "duì",
+      "english": "correct / toward",
+      "audio": {
+        "female": "audio/female/a1fb540bcc5b85d9.mp3",
+        "male": "audio/male/a1fb540bcc5b85d9.mp3"
+      }
+    },
+    {
+      "id": "L23-14",
+      "simplified": "错",
+      "traditional": "錯",
+      "pinyin": "cuò",
+      "english": "incorrect",
+      "audio": {
+        "female": "audio/female/c06edf8c18f15c23.mp3",
+        "male": "audio/male/c06edf8c18f15c23.mp3"
+      }
+    },
+    {
+      "id": "L23-15",
+      "simplified": "事情",
+      "traditional": "事情",
+      "pinyin": "shì qíng",
+      "english": "matter / affair",
+      "audio": {
+        "female": "audio/female/e66d9fac19a76a4b.mp3",
+        "male": "audio/male/e66d9fac19a76a4b.mp3"
+      }
+    },
+    {
+      "id": "L23-16",
+      "simplified": "得",
+      "traditional": "得",
+      "pinyin": "dé",
+      "english": "degree-complement particle",
+      "audio": {
+        "female": "audio/female/71b1ed11149d6a5c.mp3",
+        "male": "audio/male/71b1ed11149d6a5c.mp3"
+      }
+    },
+    {
+      "id": "L23-ui-1",
+      "simplified": "答",
+      "traditional": "答",
+      "pinyin": "dá",
+      "english": "answer",
+      "audio": {
+        "female": "audio/female/10ec8c161aac40d5.mp3",
+        "male": "audio/male/10ec8c161aac40d5.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/e3ed7225fcb47865.mp3",
+    "male": "audio/male/e3ed7225fcb47865.mp3"
+  },
+  "english": "Questions & answers"
+}

@@ -1,0 +1,192 @@
+{
+  "id": "L18",
+  "level": 18,
+  "type": "pairs",
+  "title": "Roads and connections",
+  "traditional": "問路指路",
+  "simplified": "问路指路",
+  "pinyin": "wèn lù zhǐ lù",
+  "pairs": [
+    {
+      "id": "L18-00",
+      "simplified": "路",
+      "traditional": "路",
+      "pinyin": "lù",
+      "english": "road",
+      "audio": {
+        "female": "audio/female/09c7804e4ff80d4f.mp3",
+        "male": "audio/male/09c7804e4ff80d4f.mp3"
+      }
+    },
+    {
+      "id": "L18-01",
+      "simplified": "走",
+      "traditional": "走",
+      "pinyin": "zǒu",
+      "english": "walk / go",
+      "audio": {
+        "female": "audio/female/f66de6c4cd41cdff.mp3",
+        "male": "audio/male/f66de6c4cd41cdff.mp3"
+      }
+    },
+    {
+      "id": "L18-02",
+      "simplified": "进",
+      "traditional": "進",
+      "pinyin": "jìn",
+      "english": "enter",
+      "audio": {
+        "female": "audio/female/fbda90cd370b15d7.mp3",
+        "male": "audio/male/fbda90cd370b15d7.mp3"
+      }
+    },
+    {
+      "id": "L18-03",
+      "simplified": "出",
+      "traditional": "出",
+      "pinyin": "chū",
+      "english": "exit",
+      "audio": {
+        "female": "audio/female/4d5f7e15c8a569bf.mp3",
+        "male": "audio/male/4d5f7e15c8a569bf.mp3"
+      }
+    },
+    {
+      "id": "L18-04",
+      "simplified": "到",
+      "traditional": "到",
+      "pinyin": "dào",
+      "english": "arrive / to",
+      "audio": {
+        "female": "audio/female/b56f36b529dbcd62.mp3",
+        "male": "audio/male/b56f36b529dbcd62.mp3"
+      }
+    },
+    {
+      "id": "L18-05",
+      "simplified": "从",
+      "traditional": "從",
+      "pinyin": "cóng",
+      "english": "from",
+      "audio": {
+        "female": "audio/female/9721965216078310.mp3",
+        "male": "audio/male/9721965216078310.mp3"
+      }
+    },
+    {
+      "id": "L18-06",
+      "simplified": "向",
+      "traditional": "向",
+      "pinyin": "xiàng",
+      "english": "toward",
+      "audio": {
+        "female": "audio/female/a2f77db0e9b9ab53.mp3",
+        "male": "audio/male/a2f77db0e9b9ab53.mp3"
+      }
+    },
+    {
+      "id": "L18-07",
+      "simplified": "离",
+      "traditional": "離",
+      "pinyin": "lí",
+      "english": "distance from",
+      "audio": {
+        "female": "audio/female/baf5e9173d89d278.mp3",
+        "male": "audio/male/baf5e9173d89d278.mp3"
+      }
+    },
+    {
+      "id": "L18-08",
+      "simplified": "近",
+      "traditional": "近",
+      "pinyin": "jìn",
+      "english": "near",
+      "audio": {
+        "female": "audio/female/03aeb7c768b4cb8e.mp3",
+        "male": "audio/male/03aeb7c768b4cb8e.mp3"
+      }
+    },
+    {
+      "id": "L18-09",
+      "simplified": "远",
+      "traditional": "遠",
+      "pinyin": "yuǎn",
+      "english": "far",
+      "audio": {
+        "female": "audio/female/f6e33dd2abdadc5f.mp3",
+        "male": "audio/male/f6e33dd2abdadc5f.mp3"
+      }
+    },
+    {
+      "id": "L18-10",
+      "simplified": "左边",
+      "traditional": "左邊",
+      "pinyin": "zuǒ biān",
+      "english": "left side",
+      "audio": {
+        "female": "audio/female/139b201a99604c76.mp3",
+        "male": "audio/male/139b201a99604c76.mp3"
+      }
+    },
+    {
+      "id": "L18-11",
+      "simplified": "右边",
+      "traditional": "右邊",
+      "pinyin": "yòu biān",
+      "english": "right side",
+      "audio": {
+        "female": "audio/female/9f32670985841cfb.mp3",
+        "male": "audio/male/9f32670985841cfb.mp3"
+      }
+    },
+    {
+      "id": "L18-12",
+      "simplified": "旁边",
+      "traditional": "旁邊",
+      "pinyin": "páng biān",
+      "english": "beside",
+      "audio": {
+        "female": "audio/female/1dfcda820b82d111.mp3",
+        "male": "audio/male/1dfcda820b82d111.mp3"
+      }
+    },
+    {
+      "id": "L18-13",
+      "simplified": "外",
+      "traditional": "外",
+      "pinyin": "wài",
+      "english": "outside",
+      "audio": {
+        "female": "audio/female/0e826095b60ccf03.mp3",
+        "male": "audio/male/0e826095b60ccf03.mp3"
+      }
+    },
+    {
+      "id": "L18-ui-1",
+      "simplified": "指路",
+      "traditional": "指路",
+      "pinyin": "zhǐ lù",
+      "english": "give directions",
+      "audio": {
+        "female": "audio/female/114d8a3633e967e5.mp3",
+        "male": "audio/male/114d8a3633e967e5.mp3"
+      }
+    },
+    {
+      "id": "L18-ui-2",
+      "simplified": "出行",
+      "traditional": "出行",
+      "pinyin": "chū xíng",
+      "english": "go out",
+      "audio": {
+        "female": "audio/female/927fd4fbfce64728.mp3",
+        "male": "audio/male/927fd4fbfce64728.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/7a1e85acf616ae7a.mp3",
+    "male": "audio/male/7a1e85acf616ae7a.mp3"
+  },
+  "english": "Finding the way"
+}

@@ -1,0 +1,159 @@
+{
+  "id": "L17",
+  "level": 17,
+  "type": "pairs",
+  "title": "Growing households",
+  "traditional": "大家庭",
+  "simplified": "大家庭",
+  "pinyin": "dà jiā tíng",
+  "pairs": [
+    {
+      "id": "L17-00",
+      "simplified": "哥哥",
+      "traditional": "哥哥",
+      "pinyin": "gē gē",
+      "english": "older brother",
+      "audio": {
+        "female": "audio/female/6cf70b7c4fa3c4b4.mp3",
+        "male": "audio/male/6cf70b7c4fa3c4b4.mp3"
+      }
+    },
+    {
+      "id": "L17-01",
+      "simplified": "姐姐",
+      "traditional": "姐姐",
+      "pinyin": "jiě jiě",
+      "english": "older sister",
+      "audio": {
+        "female": "audio/female/d25622289ef32c86.mp3",
+        "male": "audio/male/d25622289ef32c86.mp3"
+      }
+    },
+    {
+      "id": "L17-02",
+      "simplified": "弟弟",
+      "traditional": "弟弟",
+      "pinyin": "dì di",
+      "english": "younger brother",
+      "audio": {
+        "female": "audio/female/cf0af76ceb03b3ad.mp3",
+        "male": "audio/male/cf0af76ceb03b3ad.mp3"
+      }
+    },
+    {
+      "id": "L17-03",
+      "simplified": "妹妹",
+      "traditional": "妹妹",
+      "pinyin": "mèi mèi",
+      "english": "younger sister",
+      "audio": {
+        "female": "audio/female/dd663fa55681eed7.mp3",
+        "male": "audio/male/dd663fa55681eed7.mp3"
+      }
+    },
+    {
+      "id": "L17-04",
+      "simplified": "孩子",
+      "traditional": "孩子",
+      "pinyin": "hái zi",
+      "english": "child",
+      "audio": {
+        "female": "audio/female/5f887419f463425a.mp3",
+        "male": "audio/male/5f887419f463425a.mp3"
+      }
+    },
+    {
+      "id": "L17-05",
+      "simplified": "丈夫",
+      "traditional": "丈夫",
+      "pinyin": "zhàng fū",
+      "english": "husband",
+      "audio": {
+        "female": "audio/female/142646ce3064eee6.mp3",
+        "male": "audio/male/142646ce3064eee6.mp3"
+      }
+    },
+    {
+      "id": "L17-06",
+      "simplified": "妻子",
+      "traditional": "妻子",
+      "pinyin": "qī zǐ",
+      "english": "wife",
+      "audio": {
+        "female": "audio/female/55c4fadb327e49a5.mp3",
+        "male": "audio/male/55c4fadb327e49a5.mp3"
+      }
+    },
+    {
+      "id": "L17-07",
+      "simplified": "男人",
+      "traditional": "男人",
+      "pinyin": "nán rén",
+      "english": "man",
+      "audio": {
+        "female": "audio/female/a68402d40477a82d.mp3",
+        "male": "audio/male/a68402d40477a82d.mp3"
+      }
+    },
+    {
+      "id": "L17-08",
+      "simplified": "女人",
+      "traditional": "女人",
+      "pinyin": "nǚ rén",
+      "english": "woman",
+      "audio": {
+        "female": "audio/female/7148666b21d61397.mp3",
+        "male": "audio/male/7148666b21d61397.mp3"
+      }
+    },
+    {
+      "id": "L17-09",
+      "simplified": "大家",
+      "traditional": "大家",
+      "pinyin": "dà jiā",
+      "english": "everyone",
+      "audio": {
+        "female": "audio/female/16b54b7ab3b5e984.mp3",
+        "male": "audio/male/16b54b7ab3b5e984.mp3"
+      }
+    },
+    {
+      "id": "L17-10",
+      "simplified": "一起",
+      "traditional": "一起",
+      "pinyin": "yì qǐ",
+      "english": "together",
+      "audio": {
+        "female": "audio/female/220ac6c5a3602b71.mp3",
+        "male": "audio/male/220ac6c5a3602b71.mp3"
+      }
+    },
+    {
+      "id": "L17-11",
+      "simplified": "帮助",
+      "traditional": "幫助",
+      "pinyin": "bāng zhù",
+      "english": "help",
+      "audio": {
+        "female": "audio/female/894288923689df77.mp3",
+        "male": "audio/male/894288923689df77.mp3"
+      }
+    },
+    {
+      "id": "L17-ui-1",
+      "simplified": "家庭",
+      "traditional": "家庭",
+      "pinyin": "jiā tíng",
+      "english": "family",
+      "audio": {
+        "female": "audio/female/a70a77c75b1dc74f.mp3",
+        "male": "audio/male/a70a77c75b1dc74f.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/b0b573f0c68b8e2b.mp3",
+    "male": "audio/male/b0b573f0c68b8e2b.mp3"
+  },
+  "english": "The extended family"
+}

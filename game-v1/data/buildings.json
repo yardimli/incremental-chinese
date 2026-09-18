@@ -1,0 +1,1320 @@
+[
+  {
+    "id": "I01",
+    "level": 1,
+    "traditional": "木材",
+    "simplified": "木材",
+    "pinyin": "mù cái",
+    "path": "Infrastructure",
+    "cost": {
+      "coins": 100,
+      "timber": 0,
+      "stone": 0,
+      "bricks": 0
+    },
+    "output": {
+      "timber": 12
+    },
+    "sentence": false,
+    "storage": false,
+    "english": "timber"
+  },
+  {
+    "id": "I02",
+    "level": 1,
+    "traditional": "石料",
+    "simplified": "石料",
+    "pinyin": "shí liào",
+    "path": "Infrastructure",
+    "cost": {
+      "coins": 120,
+      "timber": 0,
+      "stone": 0,
+      "bricks": 0
+    },
+    "output": {
+      "stone": 8
+    },
+    "sentence": false,
+    "storage": false,
+    "english": "stone"
+  },
+  {
+    "id": "I03",
+    "level": 1,
+    "traditional": "學習",
+    "simplified": "学习",
+    "pinyin": "xué xí",
+    "path": "Infrastructure",
+    "cost": {
+      "coins": 100,
+      "timber": 0,
+      "stone": 0,
+      "bricks": 0
+    },
+    "output": {
+      "knowledge": 3
+    },
+    "sentence": false,
+    "storage": false,
+    "english": "study / learn"
+  },
+  {
+    "id": "I04",
+    "level": 2,
+    "traditional": "家",
+    "simplified": "家",
+    "pinyin": "jiā",
+    "path": "Infrastructure",
+    "cost": {
+      "coins": 160,
+      "timber": 20,
+      "stone": 10,
+      "bricks": 0
+    },
+    "output": {},
+    "sentence": false,
+    "storage": true,
+    "english": "home / family"
+  },
+  {
+    "id": "I05",
+    "level": 8,
+    "traditional": "磚",
+    "simplified": "砖",
+    "pinyin": "zhuān",
+    "path": "Infrastructure",
+    "cost": {
+      "coins": 2144,
+      "timber": 30,
+      "stone": 30,
+      "bricks": 0
+    },
+    "output": {
+      "bricks": 2
+    },
+    "sentence": false,
+    "storage": false,
+    "english": "bricks"
+  },
+  {
+    "id": "I06",
+    "level": 8,
+    "traditional": "心得",
+    "simplified": "心得",
+    "pinyin": "xīn dé",
+    "path": "Infrastructure",
+    "cost": {
+      "coins": 2680,
+      "timber": 30,
+      "stone": 20,
+      "bricks": 0
+    },
+    "output": {
+      "insight": 1
+    },
+    "sentence": true,
+    "storage": false,
+    "english": "insight"
+  },
+  {
+    "id": "P01A",
+    "level": 1,
+    "traditional": "一",
+    "simplified": "一",
+    "pinyin": "yī",
+    "path": "Trade",
+    "cost": {
+      "coins": 600,
+      "timber": 8,
+      "stone": 4,
+      "bricks": 0
+    },
+    "research": "R01A",
+    "scope": "W",
+    "contribution": 0.3,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 0.1
+    },
+    "sentence": false,
+    "english": "one"
+  },
+  {
+    "id": "P01B",
+    "level": 1,
+    "traditional": "二",
+    "simplified": "二",
+    "pinyin": "èr",
+    "path": "Community",
+    "cost": {
+      "coins": 950,
+      "timber": 12,
+      "stone": 6,
+      "bricks": 0
+    },
+    "research": "R01B",
+    "scope": "M",
+    "contribution": 0.6,
+    "output": {
+      "knowledge": 0.04,
+      "insight": 0,
+      "coins": 0.1
+    },
+    "sentence": false,
+    "english": "two"
+  },
+  {
+    "id": "P02A",
+    "level": 2,
+    "traditional": "十",
+    "simplified": "十",
+    "pinyin": "shí",
+    "path": "Trade",
+    "cost": {
+      "coins": 960,
+      "timber": 10,
+      "stone": 5,
+      "bricks": 0
+    },
+    "research": "R02A",
+    "scope": "W",
+    "contribution": 0.3,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 0.16
+    },
+    "sentence": false,
+    "english": "ten"
+  },
+  {
+    "id": "P02B",
+    "level": 2,
+    "traditional": "兩",
+    "simplified": "两",
+    "pinyin": "liǎng",
+    "path": "Community",
+    "cost": {
+      "coins": 1520,
+      "timber": 14,
+      "stone": 7,
+      "bricks": 0
+    },
+    "research": "R02B",
+    "scope": "M",
+    "contribution": 0.6,
+    "output": {
+      "knowledge": 0.08,
+      "insight": 0,
+      "coins": 0.16
+    },
+    "sentence": false,
+    "english": "two (quantities)"
+  },
+  {
+    "id": "P03A",
+    "level": 3,
+    "traditional": "錢",
+    "simplified": "钱",
+    "pinyin": "qián",
+    "path": "Trade",
+    "cost": {
+      "coins": 1560,
+      "timber": 12,
+      "stone": 6,
+      "bricks": 0
+    },
+    "research": "R03A",
+    "scope": "W",
+    "contribution": 0.3,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 0.26
+    },
+    "sentence": false,
+    "english": "money"
+  },
+  {
+    "id": "P03B",
+    "level": 3,
+    "traditional": "千",
+    "simplified": "千",
+    "pinyin": "qiān",
+    "path": "Study",
+    "cost": {
+      "coins": 2470,
+      "timber": 16,
+      "stone": 8,
+      "bricks": 0
+    },
+    "research": "R03B",
+    "scope": "S",
+    "contribution": 0.75,
+    "output": {
+      "knowledge": 0.45,
+      "insight": 0,
+      "coins": 0.26
+    },
+    "sentence": true,
+    "english": "thousand"
+  },
+  {
+    "id": "P04A",
+    "level": 4,
+    "traditional": "人",
+    "simplified": "人",
+    "pinyin": "rén",
+    "path": "Community",
+    "cost": {
+      "coins": 2460,
+      "timber": 14,
+      "stone": 7,
+      "bricks": 0
+    },
+    "research": "R04A",
+    "scope": "M",
+    "contribution": 0.4,
+    "output": {
+      "knowledge": 0.16,
+      "insight": 0,
+      "coins": 0.41
+    },
+    "sentence": false,
+    "english": "person"
+  },
+  {
+    "id": "P04B",
+    "level": 4,
+    "traditional": "名字",
+    "simplified": "名字",
+    "pinyin": "míngzi",
+    "path": "Study",
+    "cost": {
+      "coins": 3895,
+      "timber": 19,
+      "stone": 10,
+      "bricks": 0
+    },
+    "research": "R04B",
+    "scope": "S",
+    "contribution": 0.75,
+    "output": {
+      "knowledge": 0.6,
+      "insight": 0,
+      "coins": 0.41
+    },
+    "sentence": true,
+    "english": "name"
+  },
+  {
+    "id": "P05A",
+    "level": 5,
+    "traditional": "來",
+    "simplified": "来",
+    "pinyin": "lái",
+    "path": "Trade",
+    "cost": {
+      "coins": 3960,
+      "timber": 16,
+      "stone": 8,
+      "bricks": 0
+    },
+    "research": "R05A",
+    "scope": "W",
+    "contribution": 0.3,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 0.66
+    },
+    "sentence": false,
+    "english": "come"
+  },
+  {
+    "id": "P05B",
+    "level": 5,
+    "traditional": "家",
+    "simplified": "家",
+    "pinyin": "jiā",
+    "path": "Community",
+    "cost": {
+      "coins": 6270,
+      "timber": 22,
+      "stone": 11,
+      "bricks": 0
+    },
+    "research": "R05B",
+    "scope": "M",
+    "contribution": 0.6,
+    "output": {
+      "knowledge": 0.2,
+      "insight": 0,
+      "coins": 0.66
+    },
+    "sentence": false,
+    "english": "home / family"
+  },
+  {
+    "id": "P06A",
+    "level": 6,
+    "traditional": "茶",
+    "simplified": "茶",
+    "pinyin": "chá",
+    "path": "Trade",
+    "cost": {
+      "coins": 6300,
+      "timber": 19,
+      "stone": 10,
+      "bricks": 0
+    },
+    "research": "R06A",
+    "scope": "W",
+    "contribution": 0.3,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 1.05
+    },
+    "sentence": false,
+    "english": "tea"
+  },
+  {
+    "id": "P06B",
+    "level": 6,
+    "traditional": "杯子",
+    "simplified": "杯子",
+    "pinyin": "bēizi",
+    "path": "Study",
+    "cost": {
+      "coins": 9975,
+      "timber": 26,
+      "stone": 13,
+      "bricks": 0
+    },
+    "research": "R06B",
+    "scope": "S",
+    "contribution": 0.75,
+    "output": {
+      "knowledge": 0.9,
+      "insight": 0,
+      "coins": 1.05
+    },
+    "sentence": true,
+    "english": "cup"
+  },
+  {
+    "id": "P07A",
+    "level": 7,
+    "traditional": "米飯",
+    "simplified": "米饭",
+    "pinyin": "mǐfàn",
+    "path": "Community",
+    "cost": {
+      "coins": 10080,
+      "timber": 22,
+      "stone": 11,
+      "bricks": 0
+    },
+    "research": "R07A",
+    "scope": "M",
+    "contribution": 0.4,
+    "output": {
+      "knowledge": 0.28,
+      "insight": 0,
+      "coins": 1.68
+    },
+    "sentence": false,
+    "english": "cooked rice"
+  },
+  {
+    "id": "P07B",
+    "level": 7,
+    "traditional": "水果",
+    "simplified": "水果",
+    "pinyin": "shuǐguǒ",
+    "path": "Trade",
+    "cost": {
+      "coins": 15960,
+      "timber": 31,
+      "stone": 16,
+      "bricks": 0
+    },
+    "research": "R07B",
+    "scope": "W",
+    "contribution": 0.45,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 1.68
+    },
+    "sentence": false,
+    "english": "fruit"
+  },
+  {
+    "id": "P08A",
+    "level": 8,
+    "traditional": "朋友",
+    "simplified": "朋友",
+    "pinyin": "péngyou",
+    "path": "Community",
+    "cost": {
+      "coins": 16080,
+      "timber": 26,
+      "stone": 13,
+      "bricks": 3
+    },
+    "research": "R08A",
+    "scope": "M",
+    "contribution": 0.4,
+    "output": {
+      "knowledge": 0.32,
+      "insight": 0,
+      "coins": 2.68
+    },
+    "sentence": false,
+    "english": "friend"
+  },
+  {
+    "id": "P08B",
+    "level": 8,
+    "traditional": "我們",
+    "simplified": "我们",
+    "pinyin": "wǒmen",
+    "path": "Study",
+    "cost": {
+      "coins": 25460,
+      "timber": 36,
+      "stone": 18,
+      "bricks": 5
+    },
+    "research": "R08B",
+    "scope": "S",
+    "contribution": 0.75,
+    "output": {
+      "knowledge": 1.2,
+      "insight": 0.03,
+      "coins": 2.68
+    },
+    "sentence": true,
+    "english": "we / us"
+  },
+  {
+    "id": "P09A",
+    "level": 9,
+    "traditional": "衣服",
+    "simplified": "衣服",
+    "pinyin": "yīfu",
+    "path": "Trade",
+    "cost": {
+      "coins": 25740,
+      "timber": 31,
+      "stone": 16,
+      "bricks": 4
+    },
+    "research": "R09A",
+    "scope": "W",
+    "contribution": 0.3,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 4.29
+    },
+    "sentence": false,
+    "english": "clothes"
+  },
+  {
+    "id": "P09B",
+    "level": 9,
+    "traditional": "椅子",
+    "simplified": "椅子",
+    "pinyin": "yǐzi",
+    "path": "Community",
+    "cost": {
+      "coins": 40755,
+      "timber": 43,
+      "stone": 22,
+      "bricks": 5
+    },
+    "research": "R09B",
+    "scope": "M",
+    "contribution": 0.6,
+    "output": {
+      "knowledge": 0.36,
+      "insight": 0,
+      "coins": 4.29
+    },
+    "sentence": false,
+    "english": "chair"
+  },
+  {
+    "id": "P10A",
+    "level": 10,
+    "traditional": "今天",
+    "simplified": "今天",
+    "pinyin": "jīntiān",
+    "path": "Study",
+    "cost": {
+      "coins": 41220,
+      "timber": 36,
+      "stone": 18,
+      "bricks": 5
+    },
+    "research": "R10A",
+    "scope": "S",
+    "contribution": 0.5,
+    "output": {
+      "knowledge": 1.5,
+      "insight": 0.09,
+      "coins": 6.87
+    },
+    "sentence": true,
+    "english": "today"
+  },
+  {
+    "id": "P10B",
+    "level": 10,
+    "traditional": "錢",
+    "simplified": "钱",
+    "pinyin": "qián",
+    "path": "Trade",
+    "cost": {
+      "coins": 65265,
+      "timber": 50,
+      "stone": 25,
+      "bricks": 6
+    },
+    "research": "R10B",
+    "scope": "W",
+    "contribution": 0.45,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 6.87
+    },
+    "sentence": false,
+    "english": "money"
+  },
+  {
+    "id": "P11A",
+    "level": 11,
+    "traditional": "休息",
+    "simplified": "休息",
+    "pinyin": "xiūxi",
+    "path": "Community",
+    "cost": {
+      "coins": 66000,
+      "timber": 42,
+      "stone": 21,
+      "bricks": 5
+    },
+    "research": "R11A",
+    "scope": "M",
+    "contribution": 0.4,
+    "output": {
+      "knowledge": 0.44,
+      "insight": 0,
+      "coins": 11.0
+    },
+    "sentence": false,
+    "english": "rest"
+  },
+  {
+    "id": "P11B",
+    "level": 11,
+    "traditional": "工作",
+    "simplified": "工作",
+    "pinyin": "gōngzuò",
+    "path": "Study",
+    "cost": {
+      "coins": 104500,
+      "timber": 59,
+      "stone": 30,
+      "bricks": 7
+    },
+    "research": "R11B",
+    "scope": "S",
+    "contribution": 0.75,
+    "output": {
+      "knowledge": 1.65,
+      "insight": 0.12,
+      "coins": 11.0
+    },
+    "sentence": true,
+    "english": "work"
+  },
+  {
+    "id": "P12A",
+    "level": 12,
+    "traditional": "學校",
+    "simplified": "学校",
+    "pinyin": "xuéxiào",
+    "path": "Study",
+    "cost": {
+      "coins": 105540,
+      "timber": 50,
+      "stone": 25,
+      "bricks": 6
+    },
+    "research": "R12A",
+    "scope": "S",
+    "contribution": 0.5,
+    "output": {
+      "knowledge": 1.8,
+      "insight": 0.15,
+      "coins": 17.59
+    },
+    "sentence": true,
+    "english": "school"
+  },
+  {
+    "id": "P12B",
+    "level": 12,
+    "traditional": "書",
+    "simplified": "书",
+    "pinyin": "shū",
+    "path": "Trade",
+    "cost": {
+      "coins": 167105,
+      "timber": 70,
+      "stone": 35,
+      "bricks": 9
+    },
+    "research": "R12B",
+    "scope": "W",
+    "contribution": 0.45,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 17.59
+    },
+    "sentence": false,
+    "english": "book"
+  },
+  {
+    "id": "P13A",
+    "level": 13,
+    "traditional": "歡迎",
+    "simplified": "欢迎",
+    "pinyin": "huānyíng",
+    "path": "Trade",
+    "cost": {
+      "coins": 168900,
+      "timber": 59,
+      "stone": 30,
+      "bricks": 7
+    },
+    "research": "R13A",
+    "scope": "W",
+    "contribution": 0.3,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 28.15
+    },
+    "sentence": false,
+    "english": "welcome"
+  },
+  {
+    "id": "P13B",
+    "level": 13,
+    "traditional": "請坐",
+    "simplified": "请坐",
+    "pinyin": "qǐng zuò",
+    "path": "Community",
+    "cost": {
+      "coins": 267425,
+      "timber": 82,
+      "stone": 41,
+      "bricks": 10
+    },
+    "research": "R13B",
+    "scope": "M",
+    "contribution": 0.6,
+    "output": {
+      "knowledge": 0.52,
+      "insight": 0,
+      "coins": 28.15
+    },
+    "sentence": false,
+    "english": "please sit down"
+  },
+  {
+    "id": "P14A",
+    "level": 14,
+    "traditional": "醫院",
+    "simplified": "医院",
+    "pinyin": "yīyuàn",
+    "path": "Community",
+    "cost": {
+      "coins": 270240,
+      "timber": 69,
+      "stone": 35,
+      "bricks": 9
+    },
+    "research": "R14A",
+    "scope": "M",
+    "contribution": 0.4,
+    "output": {
+      "knowledge": 0.56,
+      "insight": 0,
+      "coins": 45.04
+    },
+    "sentence": false,
+    "english": "hospital"
+  },
+  {
+    "id": "P14B",
+    "level": 14,
+    "traditional": "天氣",
+    "simplified": "天气",
+    "pinyin": "tiānqì",
+    "path": "Study",
+    "cost": {
+      "coins": 427880,
+      "timber": 97,
+      "stone": 49,
+      "bricks": 12
+    },
+    "research": "R14B",
+    "scope": "S",
+    "contribution": 0.75,
+    "output": {
+      "knowledge": 2.1,
+      "insight": 0.21,
+      "coins": 45.04
+    },
+    "sentence": true,
+    "english": "weather"
+  },
+  {
+    "id": "P15A",
+    "level": 15,
+    "traditional": "賣",
+    "simplified": "卖",
+    "pinyin": "mài",
+    "path": "Trade",
+    "cost": {
+      "coins": 432360,
+      "timber": 82,
+      "stone": 41,
+      "bricks": 10
+    },
+    "research": "R15A",
+    "scope": "W",
+    "contribution": 0.3,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 72.06
+    },
+    "sentence": false,
+    "english": "sell"
+  },
+  {
+    "id": "P15B",
+    "level": 15,
+    "traditional": "比",
+    "simplified": "比",
+    "pinyin": "bǐ",
+    "path": "Study",
+    "cost": {
+      "coins": 684570,
+      "timber": 114,
+      "stone": 57,
+      "bricks": 14
+    },
+    "research": "R15B",
+    "scope": "S",
+    "contribution": 0.75,
+    "output": {
+      "knowledge": 2.25,
+      "insight": 0.24,
+      "coins": 72.06
+    },
+    "sentence": true,
+    "english": "comparison marker"
+  },
+  {
+    "id": "P16A",
+    "level": 16,
+    "traditional": "咖啡",
+    "simplified": "咖啡",
+    "pinyin": "kāfēi",
+    "path": "Trade",
+    "cost": {
+      "coins": 691740,
+      "timber": 96,
+      "stone": 48,
+      "bricks": 12
+    },
+    "research": "R16A",
+    "scope": "W",
+    "contribution": 0.3,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 115.29
+    },
+    "sentence": false,
+    "english": "coffee"
+  },
+  {
+    "id": "P16B",
+    "level": 16,
+    "traditional": "飯館",
+    "simplified": "饭馆",
+    "pinyin": "fànguǎn",
+    "path": "Community",
+    "cost": {
+      "coins": 1095255,
+      "timber": 135,
+      "stone": 68,
+      "bricks": 16
+    },
+    "research": "R16B",
+    "scope": "M",
+    "contribution": 0.6,
+    "output": {
+      "knowledge": 0.64,
+      "insight": 0,
+      "coins": 115.29
+    },
+    "sentence": false,
+    "english": "restaurant"
+  },
+  {
+    "id": "P17A",
+    "level": 17,
+    "traditional": "大家",
+    "simplified": "大家",
+    "pinyin": "dàjiā",
+    "path": "Community",
+    "cost": {
+      "coins": 1106820,
+      "timber": 114,
+      "stone": 57,
+      "bricks": 14
+    },
+    "research": "R17A",
+    "scope": "M",
+    "contribution": 0.4,
+    "output": {
+      "knowledge": 0.68,
+      "insight": 0,
+      "coins": 184.47
+    },
+    "sentence": false,
+    "english": "everyone"
+  },
+  {
+    "id": "P17B",
+    "level": 17,
+    "traditional": "幫助",
+    "simplified": "帮助",
+    "pinyin": "bāngzhù",
+    "path": "Study",
+    "cost": {
+      "coins": 1752465,
+      "timber": 159,
+      "stone": 80,
+      "bricks": 19
+    },
+    "research": "R17B",
+    "scope": "S",
+    "contribution": 0.75,
+    "output": {
+      "knowledge": 2.55,
+      "insight": 0.3,
+      "coins": 184.47
+    },
+    "sentence": true,
+    "english": "help"
+  },
+  {
+    "id": "P18A",
+    "level": 18,
+    "traditional": "路",
+    "simplified": "路",
+    "pinyin": "lù",
+    "path": "Trade",
+    "cost": {
+      "coins": 1770900,
+      "timber": 134,
+      "stone": 67,
+      "bricks": 16
+    },
+    "research": "R18A",
+    "scope": "W",
+    "contribution": 0.3,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 295.15
+    },
+    "sentence": false,
+    "english": "road"
+  },
+  {
+    "id": "P18B",
+    "level": 18,
+    "traditional": "左邊",
+    "simplified": "左边",
+    "pinyin": "zuǒbian",
+    "path": "Study",
+    "cost": {
+      "coins": 2803925,
+      "timber": 187,
+      "stone": 94,
+      "bricks": 22
+    },
+    "research": "R18B",
+    "scope": "S",
+    "contribution": 0.75,
+    "output": {
+      "knowledge": 2.7,
+      "insight": 0.33,
+      "coins": 295.15
+    },
+    "sentence": true,
+    "english": "left side"
+  },
+  {
+    "id": "P19A",
+    "level": 19,
+    "traditional": "船",
+    "simplified": "船",
+    "pinyin": "chuán",
+    "path": "Trade",
+    "cost": {
+      "coins": 2833440,
+      "timber": 158,
+      "stone": 79,
+      "bricks": 19
+    },
+    "research": "R19A",
+    "scope": "W",
+    "contribution": 0.3,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 472.24
+    },
+    "sentence": false,
+    "english": "boat"
+  },
+  {
+    "id": "P19B",
+    "level": 19,
+    "traditional": "房間",
+    "simplified": "房间",
+    "pinyin": "fángjiān",
+    "path": "Community",
+    "cost": {
+      "coins": 4486280,
+      "timber": 221,
+      "stone": 111,
+      "bricks": 26
+    },
+    "research": "R19B",
+    "scope": "M",
+    "contribution": 0.6,
+    "output": {
+      "knowledge": 0.76,
+      "insight": 0,
+      "coins": 472.24
+    },
+    "sentence": false,
+    "english": "room"
+  },
+  {
+    "id": "P20A",
+    "level": 20,
+    "traditional": "快樂",
+    "simplified": "快乐",
+    "pinyin": "kuàilè",
+    "path": "Community",
+    "cost": {
+      "coins": 4533480,
+      "timber": 186,
+      "stone": 93,
+      "bricks": 22
+    },
+    "research": "R20A",
+    "scope": "M",
+    "contribution": 0.4,
+    "output": {
+      "knowledge": 0.8,
+      "insight": 0,
+      "coins": 755.58
+    },
+    "sentence": false,
+    "english": "happy / joyful"
+  },
+  {
+    "id": "P20B",
+    "level": 20,
+    "traditional": "顏色",
+    "simplified": "颜色",
+    "pinyin": "yánsè",
+    "path": "Study",
+    "cost": {
+      "coins": 7178010,
+      "timber": 261,
+      "stone": 131,
+      "bricks": 31
+    },
+    "research": "R20B",
+    "scope": "S",
+    "contribution": 0.75,
+    "output": {
+      "knowledge": 3.0,
+      "insight": 0.39,
+      "coins": 755.58
+    },
+    "sentence": true,
+    "english": "color"
+  },
+  {
+    "id": "P21A",
+    "level": 21,
+    "traditional": "運動",
+    "simplified": "运动",
+    "pinyin": "yùndòng",
+    "path": "Community",
+    "cost": {
+      "coins": 7253580,
+      "timber": 220,
+      "stone": 110,
+      "bricks": 26
+    },
+    "research": "R21A",
+    "scope": "M",
+    "contribution": 0.4,
+    "output": {
+      "knowledge": 0.84,
+      "insight": 0,
+      "coins": 1208.93
+    },
+    "sentence": false,
+    "english": "exercise / sports"
+  },
+  {
+    "id": "P21B",
+    "level": 21,
+    "traditional": "快",
+    "simplified": "快",
+    "pinyin": "kuài",
+    "path": "Trade",
+    "cost": {
+      "coins": 11484835,
+      "timber": 307,
+      "stone": 154,
+      "bricks": 37
+    },
+    "research": "R21B",
+    "scope": "W",
+    "contribution": 0.45,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 1208.93
+    },
+    "sentence": false,
+    "english": "fast"
+  },
+  {
+    "id": "P22A",
+    "level": 22,
+    "traditional": "手機",
+    "simplified": "手机",
+    "pinyin": "shǒujī",
+    "path": "Trade",
+    "cost": {
+      "coins": 11605680,
+      "timber": 259,
+      "stone": 130,
+      "bricks": 31
+    },
+    "research": "R22A",
+    "scope": "W",
+    "contribution": 0.3,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 1934.28
+    },
+    "sentence": false,
+    "english": "mobile phone"
+  },
+  {
+    "id": "P22B",
+    "level": 22,
+    "traditional": "報紙",
+    "simplified": "报纸",
+    "pinyin": "bàozhǐ",
+    "path": "Study",
+    "cost": {
+      "coins": 18375660,
+      "timber": 363,
+      "stone": 182,
+      "bricks": 43
+    },
+    "research": "R22B",
+    "scope": "S",
+    "contribution": 0.75,
+    "output": {
+      "knowledge": 3.3,
+      "insight": 0.45,
+      "coins": 1934.28
+    },
+    "sentence": true,
+    "english": "newspaper"
+  },
+  {
+    "id": "P23A",
+    "level": 23,
+    "traditional": "教室",
+    "simplified": "教室",
+    "pinyin": "jiàoshì",
+    "path": "Study",
+    "cost": {
+      "coins": 18569100,
+      "timber": 306,
+      "stone": 153,
+      "bricks": 36
+    },
+    "research": "R23A",
+    "scope": "S",
+    "contribution": 0.5,
+    "output": {
+      "knowledge": 3.45,
+      "insight": 0.48,
+      "coins": 3094.85
+    },
+    "sentence": true,
+    "english": "classroom"
+  },
+  {
+    "id": "P23B",
+    "level": 23,
+    "traditional": "回答",
+    "simplified": "回答",
+    "pinyin": "huídá",
+    "path": "Community",
+    "cost": {
+      "coins": 29401075,
+      "timber": 428,
+      "stone": 214,
+      "bricks": 51
+    },
+    "research": "R23B",
+    "scope": "M",
+    "contribution": 0.6,
+    "output": {
+      "knowledge": 0.92,
+      "insight": 0,
+      "coins": 3094.85
+    },
+    "sentence": false,
+    "english": "answer"
+  },
+  {
+    "id": "P24A",
+    "level": 24,
+    "traditional": "準備",
+    "simplified": "准备",
+    "pinyin": "zhǔnbèi",
+    "path": "Study",
+    "cost": {
+      "coins": 29710560,
+      "timber": 361,
+      "stone": 181,
+      "bricks": 43
+    },
+    "research": "R24A",
+    "scope": "S",
+    "contribution": 0.5,
+    "output": {
+      "knowledge": 3.6,
+      "insight": 0.51,
+      "coins": 4951.76
+    },
+    "sentence": true,
+    "english": "prepare"
+  },
+  {
+    "id": "P24B",
+    "level": 24,
+    "traditional": "開始",
+    "simplified": "开始",
+    "pinyin": "kāishǐ",
+    "path": "Trade",
+    "cost": {
+      "coins": 47041720,
+      "timber": 505,
+      "stone": 253,
+      "bricks": 60
+    },
+    "research": "R24B",
+    "scope": "W",
+    "contribution": 0.45,
+    "output": {
+      "knowledge": 0,
+      "insight": 0,
+      "coins": 4951.76
+    },
+    "sentence": false,
+    "english": "begin"
+  },
+  {
+    "id": "P25A",
+    "level": 25,
+    "traditional": "因爲",
+    "simplified": "因为",
+    "pinyin": "yīnwèi",
+    "path": "Study",
+    "cost": {
+      "coins": 47536920,
+      "timber": 425,
+      "stone": 213,
+      "bricks": 51
+    },
+    "research": "R25A",
+    "scope": "S",
+    "contribution": 0.5,
+    "output": {
+      "knowledge": 3.75,
+      "insight": 0.54,
+      "coins": 7922.82
+    },
+    "sentence": true,
+    "english": "because"
+  },
+  {
+    "id": "P25B",
+    "level": 25,
+    "traditional": "所以",
+    "simplified": "所以",
+    "pinyin": "suǒyǐ",
+    "path": "Community",
+    "cost": {
+      "coins": 75266790,
+      "timber": 595,
+      "stone": 298,
+      "bricks": 71
+    },
+    "research": "R25B",
+    "scope": "M",
+    "contribution": 0.6,
+    "output": {
+      "knowledge": 1.0,
+      "insight": 0,
+      "coins": 7922.82
+    },
+    "sentence": false,
+    "english": "therefore"
+  }
+]

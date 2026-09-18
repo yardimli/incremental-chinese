@@ -1,0 +1,159 @@
+{
+  "id": "L14",
+  "level": 14,
+  "type": "pairs",
+  "title": "Weather and wellbeing",
+  "traditional": "天氣健康",
+  "simplified": "天气健康",
+  "pinyin": "tiān qì jiàn kāng",
+  "pairs": [
+    {
+      "id": "L14-00",
+      "simplified": "天气",
+      "traditional": "天氣",
+      "pinyin": "tiān qì",
+      "english": "weather",
+      "audio": {
+        "female": "audio/female/bb7bfa3a214fdabe.mp3",
+        "male": "audio/male/bb7bfa3a214fdabe.mp3"
+      }
+    },
+    {
+      "id": "L14-01",
+      "simplified": "冷",
+      "traditional": "冷",
+      "pinyin": "lěng",
+      "english": "cold",
+      "audio": {
+        "female": "audio/female/6e87e42fbc222f49.mp3",
+        "male": "audio/male/6e87e42fbc222f49.mp3"
+      }
+    },
+    {
+      "id": "L14-02",
+      "simplified": "热",
+      "traditional": "熱",
+      "pinyin": "rè",
+      "english": "hot",
+      "audio": {
+        "female": "audio/female/34ceaffd88498929.mp3",
+        "male": "audio/male/34ceaffd88498929.mp3"
+      }
+    },
+    {
+      "id": "L14-03",
+      "simplified": "下雨",
+      "traditional": "下雨",
+      "pinyin": "xià yǔ",
+      "english": "rain",
+      "audio": {
+        "female": "audio/female/024b2708ed8e3ffc.mp3",
+        "male": "audio/male/024b2708ed8e3ffc.mp3"
+      }
+    },
+    {
+      "id": "L14-04",
+      "simplified": "晴",
+      "traditional": "晴",
+      "pinyin": "qíng",
+      "english": "clear / sunny",
+      "audio": {
+        "female": "audio/female/6379ede5c239d1fa.mp3",
+        "male": "audio/male/6379ede5c239d1fa.mp3"
+      }
+    },
+    {
+      "id": "L14-05",
+      "simplified": "阴",
+      "traditional": "陰",
+      "pinyin": "yīn",
+      "english": "overcast",
+      "audio": {
+        "female": "audio/female/e374bdf9308a1d22.mp3",
+        "male": "audio/male/e374bdf9308a1d22.mp3"
+      }
+    },
+    {
+      "id": "L14-06",
+      "simplified": "雪",
+      "traditional": "雪",
+      "pinyin": "xuě",
+      "english": "snow",
+      "audio": {
+        "female": "audio/female/53058fe2e03c00d9.mp3",
+        "male": "audio/male/53058fe2e03c00d9.mp3"
+      }
+    },
+    {
+      "id": "L14-07",
+      "simplified": "身体",
+      "traditional": "身體",
+      "pinyin": "shēn tǐ",
+      "english": "body / health",
+      "audio": {
+        "female": "audio/female/83912f573e35d895.mp3",
+        "male": "audio/male/83912f573e35d895.mp3"
+      }
+    },
+    {
+      "id": "L14-08",
+      "simplified": "生病",
+      "traditional": "生病",
+      "pinyin": "shēng bìng",
+      "english": "become ill",
+      "audio": {
+        "female": "audio/female/a37fff0c9f7322e2.mp3",
+        "male": "audio/male/a37fff0c9f7322e2.mp3"
+      }
+    },
+    {
+      "id": "L14-09",
+      "simplified": "医生",
+      "traditional": "醫生",
+      "pinyin": "yī shēng",
+      "english": "doctor",
+      "audio": {
+        "female": "audio/female/17440e5c570d1006.mp3",
+        "male": "audio/male/17440e5c570d1006.mp3"
+      }
+    },
+    {
+      "id": "L14-10",
+      "simplified": "医院",
+      "traditional": "醫院",
+      "pinyin": "yī yuàn",
+      "english": "hospital",
+      "audio": {
+        "female": "audio/female/046753b267f17d39.mp3",
+        "male": "audio/male/046753b267f17d39.mp3"
+      }
+    },
+    {
+      "id": "L14-11",
+      "simplified": "药",
+      "traditional": "藥",
+      "pinyin": "yào",
+      "english": "medicine",
+      "audio": {
+        "female": "audio/female/7abe99ef0b1bd926.mp3",
+        "male": "audio/male/7abe99ef0b1bd926.mp3"
+      }
+    },
+    {
+      "id": "L14-ui-1",
+      "simplified": "健康",
+      "traditional": "健康",
+      "pinyin": "jiàn kāng",
+      "english": "health",
+      "audio": {
+        "female": "audio/female/aa18b6dcd893d426.mp3",
+        "male": "audio/male/aa18b6dcd893d426.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/9a19a5df22c17d8b.mp3",
+    "male": "audio/male/9a19a5df22c17d8b.mp3"
+  },
+  "english": "Weather & wellbeing"
+}

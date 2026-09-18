@@ -1,0 +1,159 @@
+{
+  "id": "L19",
+  "level": 19,
+  "type": "pairs",
+  "title": "Guests and travel",
+  "traditional": "出門旅行",
+  "simplified": "出门旅行",
+  "pinyin": "chū mén lǚ xíng",
+  "pairs": [
+    {
+      "id": "L19-00",
+      "simplified": "出租车",
+      "traditional": "出租車",
+      "pinyin": "chū zū chē",
+      "english": "taxi",
+      "audio": {
+        "female": "audio/female/5fc70a8e64bb2de3.mp3",
+        "male": "audio/male/5fc70a8e64bb2de3.mp3"
+      }
+    },
+    {
+      "id": "L19-01",
+      "simplified": "公共汽车",
+      "traditional": "公共汽車",
+      "pinyin": "gōng gòng qì chē",
+      "english": "bus",
+      "audio": {
+        "female": "audio/female/e5b01266d76025a5.mp3",
+        "male": "audio/male/e5b01266d76025a5.mp3"
+      }
+    },
+    {
+      "id": "L19-02",
+      "simplified": "飞机",
+      "traditional": "飛機",
+      "pinyin": "fēi jī",
+      "english": "airplane",
+      "audio": {
+        "female": "audio/female/4ebe5e27bfb6de86.mp3",
+        "male": "audio/male/4ebe5e27bfb6de86.mp3"
+      }
+    },
+    {
+      "id": "L19-03",
+      "simplified": "火车站",
+      "traditional": "火車站",
+      "pinyin": "huǒ chē zhàn",
+      "english": "train station",
+      "audio": {
+        "female": "audio/female/c72d9e0ebd51aadd.mp3",
+        "male": "audio/male/c72d9e0ebd51aadd.mp3"
+      }
+    },
+    {
+      "id": "L19-04",
+      "simplified": "机场",
+      "traditional": "機場",
+      "pinyin": "jī chǎng",
+      "english": "airport",
+      "audio": {
+        "female": "audio/female/c334c23d022d8a7c.mp3",
+        "male": "audio/male/c334c23d022d8a7c.mp3"
+      }
+    },
+    {
+      "id": "L19-05",
+      "simplified": "票",
+      "traditional": "票",
+      "pinyin": "piào",
+      "english": "ticket",
+      "audio": {
+        "female": "audio/female/f7f6ebe84bfee267.mp3",
+        "male": "audio/male/f7f6ebe84bfee267.mp3"
+      }
+    },
+    {
+      "id": "L19-06",
+      "simplified": "旅游",
+      "traditional": "旅遊",
+      "pinyin": "lǚ yóu",
+      "english": "travel / tourism",
+      "audio": {
+        "female": "audio/female/890f69c8af027d15.mp3",
+        "male": "audio/male/890f69c8af027d15.mp3"
+      }
+    },
+    {
+      "id": "L19-07",
+      "simplified": "房间",
+      "traditional": "房間",
+      "pinyin": "fáng jiān",
+      "english": "room",
+      "audio": {
+        "female": "audio/female/f271bde809776da4.mp3",
+        "male": "audio/male/f271bde809776da4.mp3"
+      }
+    },
+    {
+      "id": "L19-08",
+      "simplified": "中国",
+      "traditional": "中國",
+      "pinyin": "zhōng guó",
+      "english": "China",
+      "audio": {
+        "female": "audio/female/75e69392284016e9.mp3",
+        "male": "audio/male/75e69392284016e9.mp3"
+      }
+    },
+    {
+      "id": "L19-09",
+      "simplified": "北京",
+      "traditional": "北京",
+      "pinyin": "běi jīng",
+      "english": "Beijing",
+      "audio": {
+        "female": "audio/female/68c77e155132565e.mp3",
+        "male": "audio/male/68c77e155132565e.mp3"
+      }
+    },
+    {
+      "id": "L19-10",
+      "simplified": "船",
+      "traditional": "船",
+      "pinyin": "chuán",
+      "english": "boat",
+      "audio": {
+        "female": "audio/female/15b7f7a95c1ccdcb.mp3",
+        "male": "audio/male/15b7f7a95c1ccdcb.mp3"
+      }
+    },
+    {
+      "id": "L19-11",
+      "simplified": "自行车",
+      "traditional": "自行車",
+      "pinyin": "zì xíng chē",
+      "english": "bicycle",
+      "audio": {
+        "female": "audio/female/adca152b6df32de4.mp3",
+        "male": "audio/male/adca152b6df32de4.mp3"
+      }
+    },
+    {
+      "id": "L19-ui-1",
+      "simplified": "旅行",
+      "traditional": "旅行",
+      "pinyin": "lǚ xíng",
+      "english": "travel",
+      "audio": {
+        "female": "audio/female/e751bca25e1fc515.mp3",
+        "male": "audio/male/e751bca25e1fc515.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/2bea7631cd08ebc7.mp3",
+    "male": "audio/male/2bea7631cd08ebc7.mp3"
+  },
+  "english": "Trips & travel"
+}
