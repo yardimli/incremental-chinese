@@ -12,11 +12,11 @@ Current `game-v1` interface, captured with example progress at 393 × 852 pixels
 
 | Battle | Memory |
 | --- | --- |
-| <img src="docs/screenshots/play.png" alt="Chinese target and English answer cards above the game navigation" width="250"> | <img src="docs/screenshots/memory.png" alt="Twelve-card Chinese–English memory board" width="250"> |
+| <img src="docs/screenshots/play.jpg" alt="Chinese target and English answer cards above the game navigation" width="250"> | <img src="docs/screenshots/memory.jpg" alt="Twelve-card Chinese–English memory board" width="250"> |
 
 | Village | Research |
 | --- | --- |
-| <img src="docs/screenshots/village.png" alt="Village resources, path filters and a repeatable building" width="250"> | <img src="docs/screenshots/tech.png" alt="Research plans with resource costs and help buttons" width="250"> |
+| <img src="docs/screenshots/village.jpg" alt="Village resources, path filters and a repeatable building" width="250"> | <img src="docs/screenshots/tech.jpg" alt="Research plans with resource costs and help buttons" width="250"> |
 
 ## Run locally
 
@@ -30,6 +30,18 @@ Open [the game](http://127.0.0.1:8765/game-v1/index.html). No build step is requ
 
 ## Folders
 
+Top-level folders:
+
+| Folder | Purpose |
+| --- | --- |
+| `game-v1/` | The current playable game. Start here for gameplay and UI changes. |
+| `docs/` | Design and reference material. `hsk-mapping/` contains vocabulary/grammar mappings, economy proposals and their generation scripts; `screenshots/` holds the JPG images used above. Earlier proposals may differ from the current game. |
+| `output/` | Earlier design iterations: `game-concepts/` and `game-concepts-v2/` contain initial concepts; `concept-v3/` and `concept-v4/` contain later prototypes. These are references, not the current game entry point. |
+| `.tools/` | Local development helpers and dependencies: speech generation environment, content libraries, UI-refactoring scripts, temporary backups and caches. These are not needed to run the game and may not all be tracked in Git. |
+| `.idea/` | Local JetBrains IDE project/workspace settings. Not part of the game. |
+
+Inside the playable game:
+
 | Folder | Contents |
 | --- | --- |
 | `game-v1/` | Current playable game; `index.html` contains the screens and reusable HTML templates. |
@@ -38,10 +50,8 @@ Open [the game](http://127.0.0.1:8765/game-v1/index.html). No build step is requ
 | `game-v1/ui/` | Screen updates, shared labels and help rendering. |
 | `game-v1/data/` | JSON definitions for buildings, research, resources, progression and UI vocabulary. |
 | `game-v1/lessons/` | Campaign manifest and individual language-level JSON files. |
-| `game-v1/assets/` / `audio/` | Backgrounds, sprite sheets, icons and bundled speech. |
-| `game-v1/scripts/` / `tests/` | Content/asset generation and automated checks. |
-| `docs/` | HSK mappings, earlier design documents and README screenshots. |
-| `output/` | Earlier visual concepts and prototypes. |
+| `game-v1/assets/` / `game-v1/audio/` | Backgrounds, sprite sheets, icons and bundled speech. |
+| `game-v1/scripts/` / `game-v1/tests/` | Content/asset generation and automated checks. |
 
 See the [game development README](game-v1/README.md) for implementation details and [current level requirements](game-v1/PROGRESSION.md) for the advancement table. Earlier design documents may differ from the playable version.
 
@@ -52,3 +62,4 @@ node --test game-v1/tests/*.test.mjs
 ```
 
 Browser checks use Playwright with Microsoft Edge and the local server running. This is a browser prototype; the economy and campaign pacing are still being tuned.
+
