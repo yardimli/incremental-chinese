@@ -20,7 +20,7 @@ async def main():
   for w in doc.get('pairs',[]):w['audio']=register(w['traditional'])
   for sentence in doc.get('sentences',[]):
    sentence['audio']=register(''.join(tokens[t]['traditional'] for t in sentence['tokens']))
- for text in ['加倍','力量','成長','積累','休息','時間','收穫','豐收','再來']:
+ for text in ['加倍','成長','積累','休息','時間','收穫','豐收','再來']:
   register(text)
  for name in ['resources','buildings','research']:
   for item in json.loads((ROOT/f'data/{name}.json').read_text(encoding='utf-8')):register(item['traditional'])

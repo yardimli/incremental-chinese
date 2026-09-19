@@ -1,0 +1,13 @@
+{
+  "name": "incremental-chinese-game",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,mjs,cjs,css,html}\"",
+    "format:check": "prettier --check \"**/*.{js,mjs,cjs,css,html}\"",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "prettier": "3.9.8"
+  }
+}

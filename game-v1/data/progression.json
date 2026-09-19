@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "baseCoins": 10,
   "growth": 1.6,
   "copyGrowth": 1.18,
@@ -15,178 +15,289 @@
   "gates": [
     {
       "level": 1,
-      "strength": 1,
+      "buildings": 2,
       "research": 1,
-      "sentences": 0,
-      "recentFrom": 1
+      "resources": {
+        "timber": 10,
+        "stone": 5,
+        "knowledge": 4
+      }
     },
     {
       "level": 2,
-      "strength": 1,
+      "buildings": 3,
       "research": 1,
-      "sentences": 0,
-      "recentFrom": 1
+      "resources": {
+        "timber": 20,
+        "stone": 10,
+        "knowledge": 6
+      }
     },
     {
       "level": 3,
-      "strength": 2,
+      "buildings": 3,
       "research": 2,
-      "sentences": 1,
-      "recentFrom": 1
+      "resources": {
+        "timber": 30,
+        "stone": 15,
+        "knowledge": 8
+      }
     },
     {
       "level": 4,
-      "strength": 2,
+      "buildings": 4,
       "research": 2,
-      "sentences": 1,
-      "recentFrom": 1
+      "resources": {
+        "timber": 40,
+        "stone": 20,
+        "knowledge": 10
+      }
     },
     {
       "level": 5,
-      "strength": 3,
+      "buildings": 4,
       "research": 2,
-      "sentences": 1,
-      "recentFrom": 1
+      "resources": {
+        "timber": 50,
+        "stone": 25,
+        "knowledge": 12
+      }
     },
     {
       "level": 6,
-      "strength": 3,
+      "buildings": 5,
       "research": 3,
-      "sentences": 2,
-      "recentFrom": 2
+      "resources": {
+        "timber": 60,
+        "stone": 30,
+        "knowledge": 14
+      }
     },
     {
       "level": 7,
-      "strength": 4,
+      "buildings": 5,
       "research": 3,
-      "sentences": 2,
-      "recentFrom": 3
+      "resources": {
+        "timber": 70,
+        "stone": 35,
+        "knowledge": 16
+      }
     },
     {
       "level": 8,
-      "strength": 4,
+      "buildings": 6,
       "research": 3,
-      "sentences": 2,
-      "recentFrom": 4
+      "resources": {
+        "timber": 80,
+        "stone": 40,
+        "knowledge": 18,
+        "bricks": 4,
+        "insight": 1
+      }
     },
     {
       "level": 9,
-      "strength": 5,
+      "buildings": 6,
       "research": 4,
-      "sentences": 3,
-      "recentFrom": 5
+      "resources": {
+        "timber": 90,
+        "stone": 45,
+        "knowledge": 20,
+        "bricks": 8,
+        "insight": 2
+      }
     },
     {
       "level": 10,
-      "strength": 5,
+      "buildings": 7,
       "research": 4,
-      "sentences": 3,
-      "recentFrom": 6
+      "resources": {
+        "timber": 100,
+        "stone": 50,
+        "knowledge": 22,
+        "bricks": 12,
+        "insight": 3
+      }
     },
     {
       "level": 11,
-      "strength": 6,
+      "buildings": 7,
       "research": 4,
-      "sentences": 3,
-      "recentFrom": 7
+      "resources": {
+        "timber": 110,
+        "stone": 55,
+        "knowledge": 24,
+        "bricks": 16,
+        "insight": 4
+      }
     },
     {
       "level": 12,
-      "strength": 6,
+      "buildings": 8,
       "research": 5,
-      "sentences": 4,
-      "recentFrom": 8
+      "resources": {
+        "timber": 120,
+        "stone": 60,
+        "knowledge": 26,
+        "bricks": 20,
+        "insight": 5
+      }
     },
     {
       "level": 13,
-      "strength": 7,
+      "buildings": 8,
       "research": 5,
-      "sentences": 4,
-      "recentFrom": 9
+      "resources": {
+        "timber": 130,
+        "stone": 65,
+        "knowledge": 28,
+        "bricks": 24,
+        "insight": 6
+      }
     },
     {
       "level": 14,
-      "strength": 7,
+      "buildings": 9,
       "research": 5,
-      "sentences": 4,
-      "recentFrom": 10
+      "resources": {
+        "timber": 140,
+        "stone": 70,
+        "knowledge": 30,
+        "bricks": 28,
+        "insight": 7
+      }
     },
     {
       "level": 15,
-      "strength": 8,
+      "buildings": 9,
       "research": 6,
-      "sentences": 5,
-      "recentFrom": 11
+      "resources": {
+        "timber": 150,
+        "stone": 75,
+        "knowledge": 32,
+        "bricks": 32,
+        "insight": 8
+      }
     },
     {
       "level": 16,
-      "strength": 8,
+      "buildings": 10,
       "research": 6,
-      "sentences": 5,
-      "recentFrom": 12
+      "resources": {
+        "timber": 160,
+        "stone": 80,
+        "knowledge": 34,
+        "bricks": 36,
+        "insight": 9
+      }
     },
     {
       "level": 17,
-      "strength": 9,
+      "buildings": 10,
       "research": 6,
-      "sentences": 5,
-      "recentFrom": 13
+      "resources": {
+        "timber": 170,
+        "stone": 85,
+        "knowledge": 36,
+        "bricks": 40,
+        "insight": 10
+      }
     },
     {
       "level": 18,
-      "strength": 9,
+      "buildings": 11,
       "research": 7,
-      "sentences": 6,
-      "recentFrom": 14
+      "resources": {
+        "timber": 180,
+        "stone": 90,
+        "knowledge": 38,
+        "bricks": 44,
+        "insight": 11
+      }
     },
     {
       "level": 19,
-      "strength": 10,
+      "buildings": 11,
       "research": 7,
-      "sentences": 6,
-      "recentFrom": 15
+      "resources": {
+        "timber": 190,
+        "stone": 95,
+        "knowledge": 40,
+        "bricks": 48,
+        "insight": 12
+      }
     },
     {
       "level": 20,
-      "strength": 10,
+      "buildings": 12,
       "research": 7,
-      "sentences": 6,
-      "recentFrom": 16
+      "resources": {
+        "timber": 200,
+        "stone": 100,
+        "knowledge": 42,
+        "bricks": 52,
+        "insight": 13
+      }
     },
     {
       "level": 21,
-      "strength": 11,
+      "buildings": 12,
       "research": 8,
-      "sentences": 7,
-      "recentFrom": 17
+      "resources": {
+        "timber": 210,
+        "stone": 105,
+        "knowledge": 44,
+        "bricks": 56,
+        "insight": 14
+      }
     },
     {
       "level": 22,
-      "strength": 11,
+      "buildings": 13,
       "research": 8,
-      "sentences": 7,
-      "recentFrom": 18
+      "resources": {
+        "timber": 220,
+        "stone": 110,
+        "knowledge": 46,
+        "bricks": 60,
+        "insight": 15
+      }
     },
     {
       "level": 23,
-      "strength": 12,
+      "buildings": 13,
       "research": 8,
-      "sentences": 7,
-      "recentFrom": 19
+      "resources": {
+        "timber": 230,
+        "stone": 115,
+        "knowledge": 48,
+        "bricks": 64,
+        "insight": 16
+      }
     },
     {
       "level": 24,
-      "strength": 12,
+      "buildings": 14,
       "research": 9,
-      "sentences": 8,
-      "recentFrom": 20
+      "resources": {
+        "timber": 240,
+        "stone": 120,
+        "knowledge": 50,
+        "bricks": 68,
+        "insight": 17
+      }
     },
     {
       "level": 25,
-      "strength": 13,
+      "buildings": 14,
       "research": 9,
-      "sentences": 8,
-      "recentFrom": 21
+      "resources": {
+        "timber": 250,
+        "stone": 125,
+        "knowledge": 52,
+        "bricks": 72,
+        "insight": 18
+      }
     }
   ]
 }

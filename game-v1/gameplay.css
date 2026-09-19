@@ -1,183 +1,1007 @@
 /* The game board always fits between the shared header and navigation. */
-.loading{text-align:center;padding:30px}
-.playfield{height:calc(100dvh - 180px);display:grid;grid-template-rows:minmax(190px,1fr) auto 20px;gap:12px;position:relative}
-.dictionary{min-height:0;padding:8px 2px;align-self:stretch}
-.dictionary-columns{column-count:2;column-gap:20px;column-rule:1px solid #75684d66;column-fill:balance;padding:8px 6px;color:#263b2c;background:#fff5dce6}
-.dictionary-entry{break-inside:avoid;margin:0 0 5px;padding:1px 3px;font:14px/1.45 Georgia,"Microsoft JhengHei",serif;overflow-wrap:anywhere}
-.dictionary-entry .hanzi{display:inline;font-size:17px;font-weight:800;color:#193f33;text-shadow:none}
-.dictionary-entry .pinyin{display:inline;font-size:12px;line-height:inherit;color:#4f5843;font-style:italic}
-.dictionary-entry .translation{display:inline;font-size:14px;color:#263b2c}
-.dictionary-entry.lit{animation:dictionary-flash .8s ease-out}
-@keyframes dictionary-flash{0%{background:transparent}20%,55%{background:#ffe46a}100%{background:transparent}}
-.tap-action{display:grid;gap:14px}
-.tap-action:not(.concealed) .prompt-card{animation:prompt-enter .2s ease-out}
-.tap-action:not(.concealed) .english-choices{animation:prompt-enter .2s .25s both}
-@keyframes prompt-enter{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
-.tap-action.concealed{visibility:hidden}
-.prompt-card{padding:16px 10px;min-height:100px;display:flex;flex-direction:column;align-items:center;justify-content:center}
-.prompt-card .hanzi{font-size:38px;line-height:1.25}
-.prompt-card .pinyin{font-size:15px}
-.english-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.english-choices.count-1{grid-template-columns:1fr}
-.english-choices .primary{margin:0;font-size:17px;line-height:1.15;min-height:54px;padding:9px 12px}
-.english-choices .primary:before,.english-choices .primary:after{display:none}
-.tap-feedback{text-align:center;color:#255c3b;font-weight:700;font-size:16px;min-height:20px}
-body[data-page="home"] .app{padding-top:86px}
-.reward #screen{display:flex;flex-direction:column;align-items:stretch;flex:1;min-height:0}
-.reward #screen>.primary{margin-top:auto}
-.reward-emblem{margin:18px auto 24px;padding:30px 18px;width:180px;height:160px;border:4px double #d2b66c;border-radius:50%;background:radial-gradient(circle at 30% 30%,#568b5c,#164c34);color:#fff2c5;box-shadow:0 5px 12px #173f3133;display:flex;flex-direction:column;justify-content:center}
-.reward-emblem .hanzi{font-size:35px;color:#fff0bb}.reward-emblem .pinyin{color:#e3d6a8}
-.match-tile{font-size:16px;overflow-wrap:anywhere;padding:5px 9px}
-.match-tile .hanzi{font-size:26px}.match-tile .pinyin{font-size:11px}
-.collection-heading{margin:18px 0 10px}.collection{margin-top:18px}
-.collection .hanzi{font-size:18px}.collection .pinyin{font-size:9px;line-height:1.2}
-.collection .card{height:82px;display:flex;flex-direction:column;justify-content:center}
-.sentence-mini{font-size:14px;overflow-wrap:anywhere}
-.upgrade-kind{font:9px system-ui;color:#89794f;display:block}
-body[data-page="boosts"] .boost{padding:6px 9px!important;margin:5px 0}
-body[data-page="boosts"] .boost .hanzi{font-size:18px}
-body[data-page="order"] .choices .hanzi{font-size:19px;line-height:1.1}
-body[data-page="order"] .choices .pinyin{font-size:9px;line-height:1.1}
-body[data-page="order"] .choices .card{min-height:53px;padding:5px}
-body[data-page="order"] .target .hanzi{font-size:19px}
-body[data-page="order"] .target .pinyin{font-size:10px}
-.slot-number{color:#d9d5a3}
-.offline-toast{position:fixed;top:76px;left:50%;transform:translateX(-50%);padding:8px 14px;z-index:30;background:#174d39;color:#fff0bf;border:1px solid #c3a35e;border-radius:10px;font-size:13px;white-space:nowrap;box-shadow:0 4px 12px #18392340}
-@media(max-height:760px){
- .playfield{height:calc(100dvh - 150px);grid-template-rows:minmax(150px,1fr) auto 16px;gap:8px}
- body[data-page="home"] .app{padding-top:72px}
- .prompt-card{min-height:78px;padding:8px}.prompt-card .hanzi{font-size:30px}
- .english-choices .primary{min-height:44px;font-size:14px;padding:7px 8px}
- .tap-action{gap:10px}.dictionary-entry{font-size:12px;line-height:1.3;margin-bottom:4px}.dictionary-entry .hanzi{font-size:15px}.dictionary-entry .translation{font-size:12px}.dictionary-entry .pinyin{font-size:11px}
- .reward-emblem{width:140px;height:120px;padding:18px;margin:10px auto 18px}
- .collection .card{height:68px}
- body[data-page="boosts"] .boost{padding:4px 8px!important}.upgrade-kind{font-size:8px}
+.loading {
+  text-align: center;
+  padding: 30px;
 }
-@media(prefers-reduced-motion:reduce){.dictionary-entry.lit{animation:none;background:#ffe46a}}
+.playfield {
+  height: calc(var(--game-height, 852px) - 180px);
+  display: grid;
+  grid-template-rows: minmax(190px, 1fr) auto 20px;
+  gap: 12px;
+  position: relative;
+}
+.dictionary {
+  min-height: 0;
+  padding: 8px 2px;
+  align-self: stretch;
+}
+.dictionary-columns {
+  column-count: 2;
+  column-gap: 20px;
+  column-rule: 1px solid #75684d66;
+  column-fill: balance;
+  padding: 8px 6px;
+  color: #263b2c;
+  background: #fff5dce6;
+}
+.dictionary-entry {
+  break-inside: avoid;
+  margin: 0 0 5px;
+  padding: 1px 3px;
+  font:
+    14px/1.45 Georgia,
+    'Microsoft JhengHei',
+    serif;
+  overflow-wrap: anywhere;
+}
+.dictionary-entry .hanzi {
+  display: inline;
+  font-size: 17px;
+  font-weight: 800;
+  color: #193f33;
+  text-shadow: none;
+}
+.dictionary-entry .pinyin {
+  display: inline;
+  font-size: 12px;
+  line-height: inherit;
+  color: #4f5843;
+  font-style: italic;
+}
+.dictionary-entry .translation {
+  display: inline;
+  font-size: 14px;
+  color: #263b2c;
+}
+.dictionary-entry.lit {
+  animation: dictionary-flash 0.8s ease-out;
+}
+@keyframes dictionary-flash {
+  0% {
+    background: transparent;
+  }
+  20%,
+  55% {
+    background: #ffe46a;
+  }
+  100% {
+    background: transparent;
+  }
+}
+.tap-action {
+  display: grid;
+  gap: 14px;
+}
+.tap-action:not(.concealed) .prompt-card {
+  animation: prompt-enter 0.2s ease-out;
+}
+.tap-action:not(.concealed) .english-choices {
+  animation: prompt-enter 0.2s 0.25s both;
+}
+@keyframes prompt-enter {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.tap-action.concealed {
+  visibility: hidden;
+}
+.prompt-card {
+  padding: 16px 10px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.prompt-card .hanzi {
+  font-size: 38px;
+  line-height: 1.25;
+}
+.prompt-card .pinyin {
+  font-size: 15px;
+}
+.english-choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.english-choices.count-1 {
+  grid-template-columns: 1fr;
+}
+.english-choices .primary {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.15;
+  min-height: 54px;
+  padding: 9px 12px;
+}
+.english-choices .primary:before,
+.english-choices .primary:after {
+  display: none;
+}
+.tap-feedback {
+  text-align: center;
+  color: #255c3b;
+  font-weight: 700;
+  font-size: 16px;
+  min-height: 20px;
+}
+#game-frame[data-page='home'] .app {
+  padding-top: 86px;
+}
+.reward #screen {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex: 1;
+  min-height: 0;
+}
+.reward #screen > .primary {
+  margin-top: auto;
+}
+.reward-emblem {
+  margin: 18px auto 24px;
+  padding: 30px 18px;
+  width: 180px;
+  height: 160px;
+  border: 4px double #d2b66c;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #568b5c, #164c34);
+  color: #fff2c5;
+  box-shadow: 0 5px 12px #173f3133;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.reward-emblem .hanzi {
+  font-size: 35px;
+  color: #fff0bb;
+}
+.reward-emblem .pinyin {
+  color: #e3d6a8;
+}
+.match-tile {
+  font-size: 16px;
+  overflow-wrap: anywhere;
+  padding: 5px 9px;
+}
+.match-tile .hanzi {
+  font-size: 26px;
+}
+.match-tile .pinyin {
+  font-size: 11px;
+}
+.collection-heading {
+  margin: 18px 0 10px;
+}
+.collection {
+  margin-top: 18px;
+}
+.collection .hanzi {
+  font-size: 18px;
+}
+.collection .pinyin {
+  font-size: 9px;
+  line-height: 1.2;
+}
+.collection .card {
+  height: 82px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sentence-mini {
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+.upgrade-kind {
+  font: 9px system-ui;
+  color: #89794f;
+  display: block;
+}
+#game-frame[data-page='boosts'] .boost {
+  padding: 6px 9px !important;
+  margin: 5px 0;
+}
+#game-frame[data-page='boosts'] .boost .hanzi {
+  font-size: 18px;
+}
+#game-frame[data-page='order'] .choices .hanzi {
+  font-size: 19px;
+  line-height: 1.1;
+}
+#game-frame[data-page='order'] .choices .pinyin {
+  font-size: 9px;
+  line-height: 1.1;
+}
+#game-frame[data-page='order'] .choices .card {
+  min-height: 53px;
+  padding: 5px;
+}
+#game-frame[data-page='order'] .target .hanzi {
+  font-size: 19px;
+}
+#game-frame[data-page='order'] .target .pinyin {
+  font-size: 10px;
+}
+.slot-number {
+  color: #d9d5a3;
+}
+.offline-toast {
+  position: fixed;
+  top: 76px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 14px;
+  z-index: 30;
+  background: #174d39;
+  color: #fff0bf;
+  border: 1px solid #c3a35e;
+  border-radius: 10px;
+  font-size: 13px;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px #18392340;
+}
+@container game (max-height:760px) {
+  .playfield {
+    height: calc(var(--game-height, 852px) - 150px);
+    grid-template-rows: minmax(150px, 1fr) auto 16px;
+    gap: 8px;
+  }
+  #game-frame[data-page='home'] .app {
+    padding-top: 72px;
+  }
+  .prompt-card {
+    min-height: 78px;
+    padding: 8px;
+  }
+  .prompt-card .hanzi {
+    font-size: 30px;
+  }
+  .english-choices .primary {
+    min-height: 44px;
+    font-size: 14px;
+    padding: 7px 8px;
+  }
+  .tap-action {
+    gap: 10px;
+  }
+  .dictionary-entry {
+    font-size: 12px;
+    line-height: 1.3;
+    margin-bottom: 4px;
+  }
+  .dictionary-entry .hanzi {
+    font-size: 15px;
+  }
+  .dictionary-entry .translation {
+    font-size: 12px;
+  }
+  .dictionary-entry .pinyin {
+    font-size: 11px;
+  }
+  .reward-emblem {
+    width: 140px;
+    height: 120px;
+    padding: 18px;
+    margin: 10px auto 18px;
+  }
+  .collection .card {
+    height: 68px;
+  }
+  #game-frame[data-page='boosts'] .boost {
+    padding: 4px 8px !important;
+  }
+  .upgrade-kind {
+    font-size: 8px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dictionary-entry.lit {
+    animation: none;
+    background: #ffe46a;
+  }
+}
 /* Visible choices replace native dropdowns. Only crowded content scrolls. */
-.selection-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
-.selection-grid.stack{grid-template-columns:1fr}
-.selection-button{min-height:44px;padding:9px 8px;border:1px solid #b1975e;border-radius:8px;background:linear-gradient(#fff8e8,#e7d5ae);box-shadow:inset 0 0 0 2px #fff9de,0 2px 0 #c1a873;color:#284d38;font:14px/1.3 Georgia,serif}
-.selection-button[aria-pressed="true"]{background:linear-gradient(#2a795b,#115039);border-color:#d0ad57;box-shadow:inset 0 0 0 2px #f1d58d40,0 2px 0 #0c3829;color:#fff4cd}
-.selection-button[aria-pressed="true"] .hanzi,.selection-button[aria-pressed="true"] .pinyin{color:#fff4cd;text-shadow:none}
-.set-picker{grid-template-columns:repeat(3,minmax(0,1fr));max-height:205px;overflow-y:auto;padding:3px 3px 5px;scrollbar-width:none}
-.set-picker::-webkit-scrollbar{display:none}
-.set-picker .hanzi{font-size:17px}.set-picker .pinyin{font-size:10px}
-.setting-group{border:0;padding:8px 0 16px;margin:0}
-.setting-group legend{font-size:14px;font-weight:700;padding:0}
-body[data-page="sets"] .app,body[data-page="settings"] .app{height:100dvh;min-height:0;overflow:hidden;display:flex;flex-direction:column}
-body[data-page="sets"] .set-picker{flex-shrink:0}
-body[data-page="sets"] .collection{min-height:0;overflow-y:auto;padding:3px 3px 7px;scrollbar-width:none}
-body[data-page="sets"] .collection::-webkit-scrollbar{display:none}
-body[data-page="sets"] .collection-heading,body[data-page="sets"] progress,body[data-page="sets"] .panel,body[data-page="sets"] .secondary{flex-shrink:0}
-.settings{max-height:100%;overflow-y:auto;scrollbar-width:none}
-.settings::-webkit-scrollbar{display:none}
+.selection-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.selection-grid.stack {
+  grid-template-columns: 1fr;
+}
+.selection-button {
+  min-height: 44px;
+  padding: 9px 8px;
+  border: 1px solid #b1975e;
+  border-radius: 8px;
+  background: linear-gradient(#fff8e8, #e7d5ae);
+  box-shadow:
+    inset 0 0 0 2px #fff9de,
+    0 2px 0 #c1a873;
+  color: #284d38;
+  font:
+    14px/1.3 Georgia,
+    serif;
+}
+.selection-button[aria-pressed='true'] {
+  background: linear-gradient(#2a795b, #115039);
+  border-color: #d0ad57;
+  box-shadow:
+    inset 0 0 0 2px #f1d58d40,
+    0 2px 0 #0c3829;
+  color: #fff4cd;
+}
+.selection-button[aria-pressed='true'] .hanzi,
+.selection-button[aria-pressed='true'] .pinyin {
+  color: #fff4cd;
+  text-shadow: none;
+}
+.set-picker {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-height: 205px;
+  overflow-y: auto;
+  padding: 3px 3px 5px;
+  scrollbar-width: none;
+}
+.set-picker::-webkit-scrollbar {
+  display: none;
+}
+.set-picker .hanzi {
+  font-size: 17px;
+}
+.set-picker .pinyin {
+  font-size: 10px;
+}
+.setting-group {
+  border: 0;
+  padding: 8px 0 16px;
+  margin: 0;
+}
+.setting-group legend {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0;
+}
+#game-frame[data-page='sets'] .app,
+#game-frame[data-page='settings'] .app {
+  height: var(--game-height, 852px);
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+#game-frame[data-page='sets'] .set-picker {
+  flex-shrink: 0;
+}
+#game-frame[data-page='sets'] .collection {
+  min-height: 0;
+  overflow-y: auto;
+  padding: 3px 3px 7px;
+  scrollbar-width: none;
+}
+#game-frame[data-page='sets'] .collection::-webkit-scrollbar {
+  display: none;
+}
+#game-frame[data-page='sets'] .collection-heading,
+#game-frame[data-page='sets'] progress,
+#game-frame[data-page='sets'] .panel,
+#game-frame[data-page='sets'] .secondary {
+  flex-shrink: 0;
+}
+.settings {
+  max-height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.settings::-webkit-scrollbar {
+  display: none;
+}
 /* Moving targets share the dictionary's space; there is no separate quiz panel. */
-.playfield.arena-field{display:block;isolation:isolate;overflow:hidden}
-.arena-field .dictionary{height:100%;padding-top:8px}
-.dictionary-entry.mastered,.dictionary-entry.mastered .hanzi,.dictionary-entry.mastered .pinyin,.dictionary-entry.mastered .translation{color:#7a7d72}
-.card-arena{position:absolute;inset:0;pointer-events:none;overflow:hidden}
-.arena-piece{position:absolute;width:30%;height:96px;padding:0;margin:0;border:0;background:none;color:#fff5d7;pointer-events:auto;touch-action:none;user-select:none;cursor:grab;z-index:2}
-.arena-piece.dragging{cursor:grabbing}
-.arena-face{height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;position:relative;border:2px solid #dbb45f;border-radius:15px;box-shadow:inset 0 0 0 3px #fff0b52b,0 5px 0 #163d30,0 12px 20px #213b3b45;animation:arena-enter .5s cubic-bezier(.2,.8,.3,1) var(--delay,0ms) both}
-.target-face{background:radial-gradient(circle,#fff0ba,#e5c77b);border-color:#a97732;box-shadow:inset 0 0 0 4px #fff6d075,0 5px 0 #9e7137,0 12px 20px #213b3b45}
-.target-face .hanzi{font-size:29px;line-height:1.2;z-index:1}.target-face .pinyin{font-size:12px;z-index:1;color:#665332}
-.target-ring{position:absolute;inset:8px;border:1px dashed #9d6c3860;border-radius:50%;pointer-events:none}
-.weapon-face{background:linear-gradient(140deg,#3a8d70,#124b3b);font:700 16px/1.2 Georgia,serif;padding:8px;overflow-wrap:anywhere}
-.arena-piece.dragging .arena-face{filter:brightness(1.12);box-shadow:0 14px 22px #123b3c66}
-.arena-piece:focus-visible{outline:3px solid #ffcd4a;outline-offset:5px;border-radius:15px}
-.arena-status{position:absolute;left:0;right:0;top:12%;text-align:center;font:bold 30px Georgia;color:#22603c;text-shadow:0 2px #fff5dc;z-index:1000}
-.miss .arena-status{color:#b04b32}
-.hit .target-face{animation:target-hit .65s .13s both}
-.miss .target-face{animation:target-miss .5s .13s both}
-.hit .weapon-face,.miss .weapon-face{animation:arena-leave .4s .35s both}
-.escaped .arena-face{animation:arena-leave .4s both}
-.arena-shot{position:absolute;width:13px;height:13px;background:#ffed9d;border-radius:50%;box-shadow:0 0 8px 4px #ffd975;z-index:999;animation:arena-shot .22s both}
-.miss .arena-shot{background:#e98966;box-shadow:0 0 8px 4px #d96a46}
-@keyframes arena-enter{from{opacity:0;transform:translateY(-180px) rotate(-9deg)}to{opacity:1;transform:translateY(0) rotate(0)}}
-@keyframes arena-leave{to{opacity:0;transform:translateY(150px) rotate(12deg)}}
-@keyframes target-hit{25%{transform:scale(1.16);filter:brightness(1.5);box-shadow:0 0 0 20px #ffda6544,0 0 45px #ffe296}100%{opacity:0;transform:scale(.65) rotate(-12deg)}}
-@keyframes target-miss{20%,60%{transform:translateX(-9px);filter:sepia(1) saturate(4)}40%,80%{transform:translateX(9px)}100%{opacity:0;transform:translateY(100px)}}
-@keyframes arena-shot{to{transform:translate(var(--dx),var(--dy));opacity:0}}
-@media(prefers-reduced-motion:reduce){.arena-face,.hit .target-face,.miss .target-face,.hit .weapon-face,.miss .weapon-face,.escaped .arena-face,.arena-shot{animation:none}.hit .target-face{background:#a9dc8e}.miss .target-face{background:#ecac97}.escaped .arena-face{opacity:0}}
+.playfield.arena-field {
+  display: block;
+  isolation: isolate;
+  overflow: hidden;
+}
+.arena-field .dictionary {
+  height: 100%;
+  padding-top: 8px;
+}
+.dictionary-entry.mastered,
+.dictionary-entry.mastered .hanzi,
+.dictionary-entry.mastered .pinyin,
+.dictionary-entry.mastered .translation {
+  color: #7a7d72;
+}
+.card-arena {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.arena-piece {
+  position: absolute;
+  width: 30%;
+  height: 96px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+  color: #fff5d7;
+  pointer-events: auto;
+  touch-action: none;
+  user-select: none;
+  cursor: grab;
+  z-index: 2;
+}
+.arena-piece.dragging {
+  cursor: grabbing;
+}
+.arena-face {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  border: 2px solid #dbb45f;
+  border-radius: 15px;
+  box-shadow:
+    inset 0 0 0 3px #fff0b52b,
+    0 5px 0 #163d30,
+    0 12px 20px #213b3b45;
+  animation: arena-enter 0.5s cubic-bezier(0.2, 0.8, 0.3, 1) var(--delay, 0ms) both;
+}
+.target-face {
+  background: radial-gradient(circle, #fff0ba, #e5c77b);
+  border-color: #a97732;
+  box-shadow:
+    inset 0 0 0 4px #fff6d075,
+    0 5px 0 #9e7137,
+    0 12px 20px #213b3b45;
+}
+.target-face .hanzi {
+  font-size: 29px;
+  line-height: 1.2;
+  z-index: 1;
+}
+.target-face .pinyin {
+  font-size: 12px;
+  z-index: 1;
+  color: #665332;
+}
+.target-ring {
+  position: absolute;
+  inset: 8px;
+  border: 1px dashed #9d6c3860;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.weapon-face {
+  background: linear-gradient(140deg, #3a8d70, #124b3b);
+  font:
+    700 16px/1.2 Georgia,
+    serif;
+  padding: 8px;
+  overflow-wrap: anywhere;
+}
+.arena-piece.dragging .arena-face {
+  filter: brightness(1.12);
+  box-shadow: 0 14px 22px #123b3c66;
+}
+.arena-piece:focus-visible {
+  outline: 3px solid #ffcd4a;
+  outline-offset: 5px;
+  border-radius: 15px;
+}
+.arena-status {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 12%;
+  text-align: center;
+  font: bold 30px Georgia;
+  color: #22603c;
+  text-shadow: 0 2px #fff5dc;
+  z-index: 1000;
+}
+.miss .arena-status {
+  color: #b04b32;
+}
+.hit .target-face {
+  animation: target-hit 0.65s 0.13s both;
+}
+.miss .target-face {
+  animation: target-miss 0.5s 0.13s both;
+}
+.hit .weapon-face,
+.miss .weapon-face {
+  animation: arena-leave 0.4s 0.35s both;
+}
+.escaped .arena-face {
+  animation: arena-leave 0.4s both;
+}
+.arena-shot {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background: #ffed9d;
+  border-radius: 50%;
+  box-shadow: 0 0 8px 4px #ffd975;
+  z-index: 999;
+  animation: arena-shot 0.22s both;
+}
+.miss .arena-shot {
+  background: #e98966;
+  box-shadow: 0 0 8px 4px #d96a46;
+}
+@keyframes arena-enter {
+  from {
+    opacity: 0;
+    transform: translateY(-180px) rotate(-9deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotate(0);
+  }
+}
+@keyframes arena-leave {
+  to {
+    opacity: 0;
+    transform: translateY(150px) rotate(12deg);
+  }
+}
+@keyframes target-hit {
+  25% {
+    transform: scale(1.16);
+    filter: brightness(1.5);
+    box-shadow:
+      0 0 0 20px #ffda6544,
+      0 0 45px #ffe296;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.65) rotate(-12deg);
+  }
+}
+@keyframes target-miss {
+  20%,
+  60% {
+    transform: translateX(-9px);
+    filter: sepia(1) saturate(4);
+  }
+  40%,
+  80% {
+    transform: translateX(9px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+}
+@keyframes arena-shot {
+  to {
+    transform: translate(var(--dx), var(--dy));
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .arena-face,
+  .hit .target-face,
+  .miss .target-face,
+  .hit .weapon-face,
+  .miss .weapon-face,
+  .escaped .arena-face,
+  .arena-shot {
+    animation: none;
+  }
+  .hit .target-face {
+    background: #a9dc8e;
+  }
+  .miss .target-face {
+    background: #ecac97;
+  }
+  .escaped .arena-face {
+    opacity: 0;
+  }
+}
 /* Cross-page reward reveal: fade the playfield, then pop the prize into view. */
-body.screen-leaving{opacity:0;transition:opacity .18s ease-out;pointer-events:none}
-body.reward{animation:reward-arrive .2s ease-out both}
-.reward .hero-card,.reward .reward-emblem{animation:reward-pop .48s .08s cubic-bezier(.18,.9,.32,1.3) both}
-@keyframes reward-arrive{from{opacity:0}to{opacity:1}}
-@keyframes reward-pop{from{opacity:0;transform:translateY(28px) scale(.55) rotate(-8deg)}to{opacity:1;transform:translateY(0) scale(1) rotate(0)}}
-@media(prefers-reduced-motion:reduce){body.screen-leaving{transition:none}body.reward,.reward .hero-card,.reward .reward-emblem{animation:none}}
+#game-frame.screen-leaving {
+  opacity: 0;
+  transition: opacity 0.18s ease-out;
+  pointer-events: none;
+}
+#game-frame.reward {
+  animation: reward-arrive 0.2s ease-out both;
+}
+.reward .hero-card,
+.reward .reward-emblem {
+  animation: reward-pop 0.48s 0.08s cubic-bezier(0.18, 0.9, 0.32, 1.3) both;
+}
+@keyframes reward-arrive {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes reward-pop {
+  from {
+    opacity: 0;
+    transform: translateY(28px) scale(0.55) rotate(-8deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #game-frame.screen-leaving {
+    transition: none;
+  }
+  #game-frame.reward,
+  .reward .hero-card,
+  .reward .reward-emblem {
+    animation: none;
+  }
+}
 /* Commas travel with the preceding group; only group boundaries may wrap. */
-.number-label{display:inline-block;max-width:100%;white-space:normal;overflow-wrap:normal;word-break:normal;line-height:1.25}
-.number-group{white-space:nowrap}
+.number-label {
+  display: inline-block;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: normal;
+  line-height: 1.25;
+}
+.number-group {
+  white-space: nowrap;
+}
 /* Use a Latin font with complete pinyin tone glyphs instead of serif fallback. */
-.pinyin,.dictionary-entry .pinyin{font-family:"Segoe UI","PingFang TC","Noto Sans",Arial,sans-serif;font-style:normal;font-synthesis:none;letter-spacing:normal}
+.pinyin,
+.dictionary-entry .pinyin {
+  font-family: 'Segoe UI', 'PingFang TC', 'Noto Sans', Arial, sans-serif;
+  font-style: normal;
+  font-synthesis: none;
+  letter-spacing: normal;
+}
 /* Persistent equipment and travelling targets replace answer panels in passes 2–4. */
-.battle-arena{position:absolute;inset:0;overflow:hidden;pointer-events:none}
-.battle-paths{position:absolute;left:0;right:0;border-top:1px dashed #b59a5a45;border-bottom:1px dashed #b59a5a45;background:linear-gradient(90deg,#d6b77222,transparent 18%,transparent 82%,#d6b77222)}
-.battle-target{position:absolute;width:90px;height:68px;z-index:3;pointer-events:none}
-.battle-target .target-face{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;border:2px solid #b79049;border-radius:15px;position:relative;animation:target-arrival .25s ease-out both}
-.battle-target .hanzi{font-size:24px}.battle-target .pinyin{font-size:11px}
-.battle-weapon{position:absolute;width:84px;height:76px;border:0;padding:0;background:none;pointer-events:auto;touch-action:none;user-select:none;z-index:5;cursor:pointer}
-.battle-weapon .weapon-face{display:flex;align-items:center;justify-content:center;height:100%;border:2px solid #d1ac58;border-radius:12px;font-size:14px;box-shadow:inset 0 0 0 2px #f2d88c33,0 4px #143d30,0 8px 12px #163d3033;animation:target-arrival .25s ease-out both}
-.battle-weapon:disabled{opacity:.42;filter:grayscale(.7)}
-.battle-weapon.fired .weapon-face{animation:weapon-recoil .25s ease-out}
-.battle-weapon.misfire .weapon-face{animation:weapon-miss .22s ease-out}
-.battle-target.destroyed .target-face{animation:target-hit .3s ease-out both}
-.battle-target.deflected .target-face{animation:weapon-miss .22s ease-out}
-.battle-target.departing .target-face{animation:arena-leave .22s both}
-.battle-status{position:absolute;bottom:3px;left:0;right:0;text-align:center;font:bold 22px Georgia;color:#245739;text-shadow:0 1px #fff7da}
-@keyframes target-arrival{from{opacity:0;transform:translateY(-18px) scale(.8)}to{opacity:1;transform:none}}
-@keyframes weapon-recoil{40%{transform:translateY(5px);filter:brightness(1.5)}100%{transform:none}}
-@keyframes weapon-miss{25%,75%{transform:translateX(-4px);filter:sepia(1)}50%{transform:translateX(4px)}100%{transform:none}}
-@media(prefers-reduced-motion:reduce){.battle-target .target-face,.battle-weapon .weapon-face{animation:none!important}}
-.battle-weapon{color:#fff4cd}
+.battle-arena {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.battle-paths {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 1px dashed #b59a5a45;
+  border-bottom: 1px dashed #b59a5a45;
+  background: linear-gradient(90deg, #d6b77222, transparent 18%, transparent 82%, #d6b77222);
+}
+.battle-target {
+  position: absolute;
+  width: 90px;
+  height: 68px;
+  z-index: 3;
+  pointer-events: none;
+}
+.battle-target .target-face {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #b79049;
+  border-radius: 15px;
+  position: relative;
+  animation: target-arrival 0.25s ease-out both;
+}
+.battle-target .hanzi {
+  font-size: 24px;
+}
+.battle-target .pinyin {
+  font-size: 11px;
+}
+.battle-weapon {
+  position: absolute;
+  width: 84px;
+  height: 76px;
+  border: 0;
+  padding: 0;
+  background: none;
+  pointer-events: auto;
+  touch-action: none;
+  user-select: none;
+  z-index: 5;
+  cursor: pointer;
+}
+.battle-weapon .weapon-face {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 2px solid #d1ac58;
+  border-radius: 12px;
+  font-size: 14px;
+  box-shadow:
+    inset 0 0 0 2px #f2d88c33,
+    0 4px #143d30,
+    0 8px 12px #163d3033;
+  animation: target-arrival 0.25s ease-out both;
+}
+.battle-weapon:disabled {
+  opacity: 0.42;
+  filter: grayscale(0.7);
+}
+.battle-weapon.fired .weapon-face {
+  animation: weapon-recoil 0.25s ease-out;
+}
+.battle-weapon.misfire .weapon-face {
+  animation: weapon-miss 0.22s ease-out;
+}
+.battle-target.destroyed .target-face {
+  animation: target-hit 0.3s ease-out both;
+}
+.battle-target.deflected .target-face {
+  animation: weapon-miss 0.22s ease-out;
+}
+.battle-target.departing .target-face {
+  animation: arena-leave 0.22s both;
+}
+.battle-status {
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font: bold 22px Georgia;
+  color: #245739;
+  text-shadow: 0 1px #fff7da;
+}
+@keyframes target-arrival {
+  from {
+    opacity: 0;
+    transform: translateY(-18px) scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes weapon-recoil {
+  40% {
+    transform: translateY(5px);
+    filter: brightness(1.5);
+  }
+  100% {
+    transform: none;
+  }
+}
+@keyframes weapon-miss {
+  25%,
+  75% {
+    transform: translateX(-4px);
+    filter: sepia(1);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+  100% {
+    transform: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .battle-target .target-face,
+  .battle-weapon .weapon-face {
+    animation: none !important;
+  }
+}
+.battle-weapon {
+  color: #fff4cd;
+}
 /* Equipment stays in one row for two, three, or four weapons. */
-.battle-weapons{position:absolute;left:8px;right:8px;bottom:28px;height:60px;display:grid;grid-template-columns:repeat(var(--weapon-count),minmax(0,1fr));gap:8px;pointer-events:none}
-.battle-weapons .battle-weapon{position:relative;grid-row:1;width:100%;height:100%;min-width:0;touch-action:manipulation}
-.battle-weapons .weapon-face{padding:4px;font-size:13px;line-height:1.15;min-width:0}
-.battle-weapon .number-label{font-size:11px;line-height:1.15}
+.battle-weapons {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: 28px;
+  height: 60px;
+  display: grid;
+  grid-template-columns: repeat(var(--weapon-count), minmax(0, 1fr));
+  gap: 8px;
+  pointer-events: none;
+}
+.battle-weapons .battle-weapon {
+  position: relative;
+  grid-row: 1;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  touch-action: manipulation;
+}
+.battle-weapons .weapon-face {
+  padding: 4px;
+  font-size: 13px;
+  line-height: 1.15;
+  min-width: 0;
+}
+.battle-weapon .number-label {
+  font-size: 11px;
+  line-height: 1.15;
+}
 /* Give travelling targets a compositor layer; only hits read their position. */
-.battle-target{will-change:transform;backface-visibility:hidden}
+.battle-target {
+  will-change: transform;
+  backface-visibility: hidden;
+}
 /* Drag a copy; source cards keep their slots and do not disturb the layout. */
-.match-tile,.battle-weapons .battle-weapon,.bonus-target,[data-bonus],[data-choice],[data-slot]{touch-action:none;user-select:none}
-.pair-drag-ghost{z-index:10000!important;pointer-events:none!important;opacity:.94!important;will-change:transform;animation:none!important;transition:none!important;grid-column:auto!important}
-.pair-drag-ghost *{animation:none!important;pointer-events:none!important}
-.pair-dragging{opacity:.45}
-.drop-ready{outline:3px solid #ffe18a;outline-offset:3px}
-.battle-target{touch-action:auto;user-select:none;-webkit-user-drag:none}
+.match-tile,
+.battle-weapons .battle-weapon,
+.bonus-target,
+[data-bonus],
+[data-choice],
+[data-slot] {
+  touch-action: none;
+  user-select: none;
+}
+.pair-drag-ghost {
+  z-index: 10000 !important;
+  pointer-events: none !important;
+  opacity: 0.94 !important;
+  will-change: transform;
+  animation: none !important;
+  transition: none !important;
+  grid-column: auto !important;
+}
+.pair-drag-ghost * {
+  animation: none !important;
+  pointer-events: none !important;
+}
+.pair-dragging {
+  opacity: 0.45;
+}
+.drop-ready {
+  outline: 3px solid #ffe18a;
+  outline-offset: 3px;
+}
+.battle-target {
+  touch-action: auto;
+  user-select: none;
+  -webkit-user-drag: none;
+}
 /* Size Chinese by character count and available card width, never by wrapping. */
-.card,.match-tile,.target-face,.reward-emblem,.selection-button{container-type:inline-size}
-.card .hanzi,.match-tile .hanzi,.target-face .hanzi,.reward-emblem .hanzi,.selection-button .hanzi{display:block;white-space:nowrap;line-height:1.25;font-size:min(var(--hanzi-max,30px),calc((100cqw - 8px) / var(--hanzi-count,1)))}
-.hero-card{--hanzi-max:76px}
-.match-tile{--hanzi-max:26px}
-.target-face{--hanzi-max:29px}
-.battle-target .target-face{--hanzi-max:24px}
-.reward-emblem{--hanzi-max:35px}
-.selection-button{--hanzi-max:17px}
-.collection .card{--hanzi-max:18px}
-body[data-page="order"] .card{--hanzi-max:19px}
-body.reward{height:100dvh;min-height:0;overflow:hidden}
-.reward .hero-card{height:clamp(140px,22dvh,188px);flex-shrink:0;padding:16px 12px;display:flex;flex-direction:column;align-items:stretch;justify-content:center;gap:10px}
-.reward .hero-card .pinyin{line-height:1.3;overflow-wrap:normal}
-.reward #screen>.primary{flex-shrink:0}
-@media(max-height:760px){.hero-card{--hanzi-max:60px}}
+.card,
+.match-tile,
+.target-face,
+.reward-emblem,
+.selection-button {
+  container-type: inline-size;
+}
+.card .hanzi,
+.match-tile .hanzi,
+.target-face .hanzi,
+.reward-emblem .hanzi,
+.selection-button .hanzi {
+  display: block;
+  white-space: nowrap;
+  line-height: 1.25;
+  font-size: min(var(--hanzi-max, 30px), calc((100cqw - 8px) / var(--hanzi-count, 1)));
+}
+.hero-card {
+  --hanzi-max: 76px;
+}
+.match-tile {
+  --hanzi-max: 26px;
+}
+.target-face {
+  --hanzi-max: 29px;
+}
+.battle-target .target-face {
+  --hanzi-max: 24px;
+}
+.reward-emblem {
+  --hanzi-max: 35px;
+}
+.selection-button {
+  --hanzi-max: 17px;
+}
+.collection .card {
+  --hanzi-max: 18px;
+}
+#game-frame[data-page='order'] .card {
+  --hanzi-max: 19px;
+}
+#game-frame.reward {
+  height: var(--game-height, 852px);
+  min-height: 0;
+  overflow: hidden;
+}
+.reward .hero-card {
+  height: clamp(140px, calc(var(--game-height, 852px) * 0.22), 188px);
+  flex-shrink: 0;
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 10px;
+}
+.reward .hero-card .pinyin {
+  line-height: 1.3;
+  overflow-wrap: normal;
+}
+.reward #screen > .primary {
+  flex-shrink: 0;
+}
+@container game (max-height:760px) {
+  .hero-card {
+    --hanzi-max: 60px;
+  }
+}
 
-.battle-target{pointer-events:auto;cursor:pointer}
-.settings .setting-group{margin-bottom:12px}
-.settings .selection-button{padding:10px}
+.battle-target {
+  pointer-events: auto;
+  cursor: pointer;
+}
+.settings .setting-group {
+  margin-bottom: 12px;
+}
+.settings .selection-button {
+  padding: 10px;
+}
 /* Speech glow never changes card geometry or target movement transforms. */
 .speech-playing:not(.target-piece):not(.battle-target),
 .speech-playing.target-piece .target-face,
-.speech-playing.battle-target .target-face{
- outline:3px solid #ffe16a;
- outline-offset:3px;
- box-shadow:0 0 0 6px #ffcb4755,0 0 22px 7px #ffda6199;
+.speech-playing.battle-target .target-face {
+  outline: 3px solid #ffe16a;
+  outline-offset: 3px;
+  box-shadow:
+    0 0 0 6px #ffcb4755,
+    0 0 22px 7px #ffda6199;
 }
 
-.pause-overlay{position:fixed;inset:0;z-index:2147483647;display:grid;place-items:center;padding:24px;background:#123e32b8;backdrop-filter:blur(5px)}
-.pause-overlay[hidden]{display:none}
-.pause-panel{width:100%;padding:26px 20px;border:3px solid #bf9748;border-radius:22px;background:#fff0c9;color:#19483b;text-align:center;box-shadow:0 8px 0 #8c6a30,0 20px 60px #082e3270}
-.pause-panel h2{font-size:34px;margin:0 0 14px}
-.pause-panel p{margin:0 0 24px}
-.pause-panel .primary{width:100%}
+.pause-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: #123e32b8;
+  backdrop-filter: blur(5px);
+}
+.pause-overlay[hidden] {
+  display: none;
+}
+.pause-panel {
+  width: 100%;
+  padding: 26px 20px;
+  border: 3px solid #bf9748;
+  border-radius: 22px;
+  background: #fff0c9;
+  color: #19483b;
+  text-align: center;
+  box-shadow:
+    0 8px 0 #8c6a30,
+    0 20px 60px #082e3270;
+}
+.pause-panel h2 {
+  font-size: 34px;
+  margin: 0 0 14px;
+}
+.pause-panel p {
+  margin: 0 0 24px;
+}
+.pause-panel .primary {
+  width: 100%;
+}

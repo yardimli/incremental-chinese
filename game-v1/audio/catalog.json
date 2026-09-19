@@ -104,6 +104,18 @@
       "female": "audio/female/7880dd3efa828cd2.mp3",
       "male": "audio/male/7880dd3efa828cd2.mp3"
     },
+    "關閉": {
+      "female": "audio/female/c7fdddf79eaa8c4f.mp3",
+      "male": "audio/male/c7fdddf79eaa8c4f.mp3"
+    },
+    "建築": {
+      "female": "audio/female/beba8d9549153af1.mp3",
+      "male": "audio/male/beba8d9549153af1.mp3"
+    },
+    "儲備": {
+      "female": "audio/female/0b28fff7d21574c3.mp3",
+      "male": "audio/male/0b28fff7d21574c3.mp3"
+    },
     "兩位數": {
       "female": "audio/female/fe4fc62f68f792e2.mp3",
       "male": "audio/male/fe4fc62f68f792e2.mp3"
@@ -2119,10 +2131,6 @@
     "加倍": {
       "female": "audio/female/18a43a8777980bb4.mp3",
       "male": "audio/male/18a43a8777980bb4.mp3"
-    },
-    "力量": {
-      "female": "audio/female/16b7568de4799d09.mp3",
-      "male": "audio/male/16b7568de4799d09.mp3"
     },
     "成長": {
       "female": "audio/female/aa6dcdf6888c8572.mp3",

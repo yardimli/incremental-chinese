@@ -1,2 +1,10 @@
 /docs/hsk-mapping/__pycache__
 /.tools/content-libs/
+/.tools/ui-refactor/
+/.tools/ui-backup/
+/.tools/npm-cache/
+/.tools/extract-templates.cjs
+/.tools/fix-listeners.cjs
+/.tools/clean-imports.cjs
+/.tools/templates.html
+/.tools/format.log

@@ -149,6 +149,39 @@
         "female": "audio/female/7880dd3efa828cd2.mp3",
         "male": "audio/male/7880dd3efa828cd2.mp3"
       }
+    },
+    {
+      "id": "V01-ui-11",
+      "simplified": "关闭",
+      "traditional": "關閉",
+      "pinyin": "guān bì",
+      "english": "close",
+      "audio": {
+        "female": "audio/female/c7fdddf79eaa8c4f.mp3",
+        "male": "audio/male/c7fdddf79eaa8c4f.mp3"
+      }
+    },
+    {
+      "id": "V01-ui-12",
+      "simplified": "建筑",
+      "traditional": "建築",
+      "pinyin": "jiàn zhú",
+      "english": "building",
+      "audio": {
+        "female": "audio/female/beba8d9549153af1.mp3",
+        "male": "audio/male/beba8d9549153af1.mp3"
+      }
+    },
+    {
+      "id": "V01-ui-13",
+      "simplified": "储备",
+      "traditional": "儲備",
+      "pinyin": "chǔ bèi",
+      "english": "stockpile",
+      "audio": {
+        "female": "audio/female/0b28fff7d21574c3.mp3",
+        "male": "audio/male/0b28fff7d21574c3.mp3"
+      }
     }
   ],
   "audio": {

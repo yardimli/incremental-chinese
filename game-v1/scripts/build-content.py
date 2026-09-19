@@ -69,7 +69,7 @@ for r in eco['research']:
  b=next(b for b in buildings if b.get('research')==r['ID'])
  research.append(dict(id=r['ID'],level=r['Level'],previous=r['Previous research ID'] or None,traditional=b['traditional'],simplified=b['simplified'],pinyin=b['pinyin'],path=r['Path'],building=b['id'],cost={'knowledge':r['Knowledge'],'insight':r['Insight']}))
 write('data/research.json',research)
-write('data/progression.json',dict(version=2,baseCoins=10,growth=1.6,copyGrowth=1.18,copyDiminish=.7,offlineHours=8,baseLand=4,maxLevel=25,settlementGrant=250,memoryPairs=6,memoryPairWeight=2,memoryBoardWeight=5,prestigeGain=.5,gates=[dict(level=n,strength=(n+1)//2,research=1+n//3,sentences=n//3,recentFrom=max(1,n-4)) for n in range(1,26)]))
+write('data/progression.json',dict(version=3,baseCoins=10,growth=1.6,copyGrowth=1.18,copyDiminish=.7,offlineHours=8,baseLand=4,maxLevel=25,settlementGrant=250,memoryPairs=6,memoryPairWeight=2,memoryBoardWeight=5,prestigeGain=.5,gates=[dict(level=n,buildings=2+n//2,research=1+n//3,resources=dict(timber=10*n,stone=5*n,knowledge=2+2*n,**(dict(bricks=4*(n-7),insight=n-7) if n>=8 else {}))) for n in range(1,26)]))
 print('Wrote',len(seq),'language stages,',len(buildings),'buildings and',len(research),'technologies.')
 
 # Keep UI translations in generated data, including after a content rebuild.

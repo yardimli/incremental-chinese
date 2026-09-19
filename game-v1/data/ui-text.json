@@ -1,0 +1,938 @@
+{
+  "Play": {
+    "traditional": "遊戲",
+    "simplified": "游戏",
+    "pinyin": "yóu xì"
+  },
+  "Match": {
+    "traditional": "配對",
+    "simplified": "配对",
+    "pinyin": "pèi duì"
+  },
+  "Card order": {
+    "traditional": "排列卡片",
+    "simplified": "排列卡片",
+    "pinyin": "pái liè kǎ piàn"
+  },
+  "Sets": {
+    "traditional": "卡冊",
+    "simplified": "卡册",
+    "pinyin": "kǎ cè"
+  },
+  "Village": {
+    "traditional": "村落",
+    "simplified": "村落",
+    "pinyin": "cūn luò"
+  },
+  "Tech": {
+    "traditional": "研究",
+    "simplified": "研究",
+    "pinyin": "yán jiū"
+  },
+  "Memory": {
+    "traditional": "記憶",
+    "simplified": "记忆",
+    "pinyin": "jì yì"
+  },
+  "Prestige": {
+    "traditional": "重生",
+    "simplified": "重生",
+    "pinyin": "chóng shēng"
+  },
+  "Settings": {
+    "traditional": "設定",
+    "simplified": "设置",
+    "pinyin": "shè dìng"
+  },
+  "Bonus": {
+    "traditional": "額外挑戰",
+    "simplified": "额外挑战",
+    "pinyin": "é wài tiǎo zhàn"
+  },
+  "All sounds": {
+    "traditional": "所有聲音",
+    "simplified": "所有声音",
+    "pinyin": "suǒ yǒu shēng yīn"
+  },
+  "Lesson sounds only": {
+    "traditional": "只播放題目",
+    "simplified": "只播放题目",
+    "pinyin": "zhǐ bō fàng tí mù"
+  },
+  "No sound": {
+    "traditional": "靜音",
+    "simplified": "静音",
+    "pinyin": "jìng yīn"
+  },
+  "Click for {0}": {
+    "traditional": "點擊切換：{0}",
+    "simplified": "点击切换：{0}",
+    "pinyin": "diǎn jī qiē huàn: {0}"
+  },
+  "Card reward": {
+    "traditional": "卡片獎勵",
+    "simplified": "卡片奖励",
+    "pinyin": "kǎ piàn jiǎng lì"
+  },
+  "+{0} card": {
+    "traditional": "+{0} 張卡片",
+    "simplified": "+{0} 张卡片",
+    "pinyin": "+{0} zhāng kǎ piàn"
+  },
+  "+{0} cards": {
+    "traditional": "+{0} 張卡片",
+    "simplified": "+{0} 张卡片",
+    "pinyin": "+{0} zhāng kǎ piàn"
+  },
+  "Also collected: {0}": {
+    "traditional": "也已收集：{0}",
+    "simplified": "也已收集：{0}",
+    "pinyin": "yě yǐ shōu jí: {0}"
+  },
+  "Continue": {
+    "traditional": "繼續",
+    "simplified": "继续",
+    "pinyin": "jì xù"
+  },
+  "All cards collected": {
+    "traditional": "卡片已全部收集",
+    "simplified": "卡片已全部收集",
+    "pinyin": "kǎ piàn yǐ quán bù shōu jí"
+  },
+  "Your set is growing": {
+    "traditional": "卡冊逐漸完整",
+    "simplified": "卡册逐渐完整",
+    "pinyin": "kǎ cè zhú jiàn wán zhěng"
+  },
+  "Try this set again": {
+    "traditional": "再挑戰一次",
+    "simplified": "再挑战一次",
+    "pinyin": "zài tiǎo zhàn yí cì"
+  },
+  "Correct answers · {0} / {1}": {
+    "traditional": "答對 · {0} / {1}",
+    "simplified": "答对 · {0} / {1}",
+    "pinyin": "dá duì · {0} / {1}"
+  },
+  "Reach 50% accuracy to complete this set.": {
+    "traditional": "答對一半即可完成本組。",
+    "simplified": "答对一半即可完成本组。",
+    "pinyin": "dá duì yí bàn jí kě wán chéng běn zǔ."
+  },
+  "Keep your coins and collected cards. Start a fresh attempt.": {
+    "traditional": "保留金幣和卡片，再試一次。",
+    "simplified": "保留金币和卡片，再试一次。",
+    "pinyin": "bǎo liú jīn bì hé kǎ piàn, zài shì yí cì."
+  },
+  "Play again": {
+    "traditional": "再玩一次",
+    "simplified": "再玩一次",
+    "pinyin": "zài wán yí cì"
+  },
+  "Set complete": {
+    "traditional": "卡冊完成",
+    "simplified": "卡册完成",
+    "pinyin": "kǎ cè wán chéng"
+  },
+  "Sentence set complete": {
+    "traditional": "句子組完成",
+    "simplified": "句子组完成",
+    "pinyin": "jù zi zǔ wán chéng"
+  },
+  "Collected": {
+    "traditional": "已收集",
+    "simplified": "已收集",
+    "pinyin": "yǐ shōu jí"
+  },
+  "New village plans available": {
+    "traditional": "新的村落藍圖已解鎖",
+    "simplified": "新的村落蓝图已解锁",
+    "pinyin": "xīn de cūn luò lán tú yǐ jiě suǒ"
+  },
+  "Claim set award": {
+    "traditional": "領取獎勵",
+    "simplified": "领取奖励",
+    "pinyin": "lǐng qǔ jiǎng lì"
+  },
+  "← Back": {
+    "traditional": "← 返回",
+    "simplified": "← 返回",
+    "pinyin": "fǎn huí"
+  },
+  "Memory cards": {
+    "traditional": "記憶卡片",
+    "simplified": "记忆卡片",
+    "pinyin": "jì yì kǎ piàn"
+  },
+  "Bonus puzzles": {
+    "traditional": "額外挑戰",
+    "simplified": "额外挑战",
+    "pinyin": "é wài tiǎo zhàn"
+  },
+  "Collected before · rebuild this journey": {
+    "traditional": "曾經收集 · 本輪重新收集",
+    "simplified": "曾经收集 · 本轮重新收集",
+    "pinyin": "céng jīng shōu jí · běn lún chóng xīn shōu jí"
+  },
+  "Collected this journey": {
+    "traditional": "本輪已收集",
+    "simplified": "本轮已收集",
+    "pinyin": "běn lún yǐ shōu jí"
+  },
+  "Collect a set to unlock.": {
+    "traditional": "完成一本卡冊即可解鎖。",
+    "simplified": "完成一本卡册即可解锁。",
+    "pinyin": "wán chéng yì běn kǎ cè jí kě jiě suǒ."
+  },
+  "Reset": {
+    "traditional": "重置",
+    "simplified": "重置",
+    "pinyin": "chóng zhì"
+  },
+  "Keep": {
+    "traditional": "保留",
+    "simplified": "保留",
+    "pinyin": "bǎo liú"
+  },
+  "Coins & resources": {
+    "traditional": "金幣和資源",
+    "simplified": "金币和资源",
+    "pinyin": "jīn bì hé zī yuán"
+  },
+  "Cards and sets": {
+    "traditional": "卡片和卡冊",
+    "simplified": "卡片和卡册",
+    "pinyin": "kǎ piàn hé kǎ cè"
+  },
+  "Village & research": {
+    "traditional": "村落和研究",
+    "simplified": "村落和研究",
+    "pinyin": "cūn luò hé yán jiū"
+  },
+  "Permanent multiplier": {
+    "traditional": "永久倍率",
+    "simplified": "永久倍率",
+    "pinyin": "yǒng jiǔ bèi lǜ"
+  },
+  "New sentence selection next run.": {
+    "traditional": "下一輪將出現不同句子。",
+    "simplified": "下一轮将出现不同句子。",
+    "pinyin": "xià yì lún jiāng chū xiàn bù tóng jù zi."
+  },
+  "Restart": {
+    "traditional": "重新開始",
+    "simplified": "重新开始",
+    "pinyin": "chóng xīn kāi shǐ"
+  },
+  "Cards & sound": {
+    "traditional": "卡片與聲音",
+    "simplified": "卡片与声音",
+    "pinyin": "kǎ piàn yǔ shēng yīn"
+  },
+  "English automatically hides when you first reach level 10, including after prestige.": {
+    "traditional": "首次到達第十級後，英文自動隱藏，重生後也不再顯示。",
+    "simplified": "首次到达第十级后，英文自动隐藏，重生后也不再显示。",
+    "pinyin": "shǒu cì dào dá dì shí jí hòu, yīng wén zì dòng yǐn cáng, chóng shēng hòu yě bú zài xiǎn shì."
+  },
+  "English translations · Tabs, buttons, Sets, Village, Tech & rewards": {
+    "traditional": "英文翻譯 · 選單、按鈕、卡冊、村落、研究與獎勵",
+    "simplified": "英文翻译 · 选单、按钮、卡册、村落、研究与奖励",
+    "pinyin": "yīng wén fān yì · xuǎn dān, àn niǔ, kǎ cè, cūn luò, yán jiū yǔ jiǎng lì"
+  },
+  "Always show": {
+    "traditional": "始終顯示",
+    "simplified": "始终显示",
+    "pinyin": "shǐ zhōng xiǎn shì"
+  },
+  "Until level 10": {
+    "traditional": "十級前顯示",
+    "simplified": "十级前显示",
+    "pinyin": "shí jí qián xiǎn shì"
+  },
+  "Never show": {
+    "traditional": "不顯示",
+    "simplified": "不显示",
+    "pinyin": "bù xiǎn shì"
+  },
+  "Script": {
+    "traditional": "字體",
+    "simplified": "字体",
+    "pinyin": "zì tǐ"
+  },
+  "Display": {
+    "traditional": "顯示方式",
+    "simplified": "显示方式",
+    "pinyin": "xiǎn shì fāng shì"
+  },
+  "Characters + pinyin": {
+    "traditional": "漢字與拼音",
+    "simplified": "汉字与拼音",
+    "pinyin": "hàn zì yǔ pīn yīn"
+  },
+  "Characters only": {
+    "traditional": "只顯示漢字",
+    "simplified": "只显示汉字",
+    "pinyin": "zhǐ xiǎn shì hàn zì"
+  },
+  "Pinyin only": {
+    "traditional": "只顯示拼音",
+    "simplified": "只显示拼音",
+    "pinyin": "zhǐ xiǎn shì pīn yīn"
+  },
+  "Voice": {
+    "traditional": "聲音",
+    "simplified": "声音",
+    "pinyin": "shēng yīn"
+  },
+  "Female": {
+    "traditional": "女聲",
+    "simplified": "女声",
+    "pinyin": "nǚ shēng"
+  },
+  "Male": {
+    "traditional": "男聲",
+    "simplified": "男声",
+    "pinyin": "nán shēng"
+  },
+  "Sound": {
+    "traditional": "音效設定",
+    "simplified": "音效设置",
+    "pinyin": "yīn xiào shè dìng"
+  },
+  "A village to grow": {
+    "traditional": "讓村落成長",
+    "simplified": "让村落成长",
+    "pinyin": "ràng cūn luò chéng zhǎng"
+  },
+  "Build your village": {
+    "traditional": "建設村落",
+    "simplified": "建设村落",
+    "pinyin": "jiàn shè cūn luò"
+  },
+  "Play memory · earn coins": {
+    "traditional": "玩記憶遊戲 · 賺金幣",
+    "simplified": "玩记忆游戏 · 赚金币",
+    "pinyin": "wán jì yì yóu xì · zhuàn jīn bì"
+  },
+  "Next journey": {
+    "traditional": "下一段旅程",
+    "simplified": "下一段旅程",
+    "pinyin": "xià yí duàn lǚ chéng"
+  },
+  "Prestige ×{0}": {
+    "traditional": "重生 ×{0}",
+    "simplified": "重生 ×{0}",
+    "pinyin": "chóng shēng ×{0}"
+  },
+  "Got it": {
+    "traditional": "知道了",
+    "simplified": "知道了",
+    "pinyin": "zhī dào le"
+  },
+  "Your journey": {
+    "traditional": "你的旅程",
+    "simplified": "你的旅程",
+    "pinyin": "nǐ de lǚ chéng"
+  },
+  "Your progress is saved. Continue when you are ready.": {
+    "traditional": "進度已儲存，準備好後即可繼續。",
+    "simplified": "进度已保存，准备好后即可继续。",
+    "pinyin": "jìn dù yǐ chǔ cún, zhǔn bèi hǎo hòu jí kě jì xù."
+  },
+  "Continue journey": {
+    "traditional": "繼續旅程",
+    "simplified": "继续旅程",
+    "pinyin": "jì xù lǚ chéng"
+  },
+  "Paused": {
+    "traditional": "已暫停",
+    "simplified": "已暂停",
+    "pinyin": "yǐ zàn tíng"
+  },
+  "Resume": {
+    "traditional": "繼續遊戲",
+    "simplified": "继续游戏",
+    "pinyin": "jì xù yóu xì"
+  },
+  "Take a break": {
+    "traditional": "休息一下",
+    "simplified": "休息一下",
+    "pinyin": "xiū xi yí xià"
+  },
+  "All journeys completed": {
+    "traditional": "所有旅程已完成",
+    "simplified": "所有旅程已完成",
+    "pinyin": "suǒ yǒu lǚ chéng yǐ wán chéng"
+  },
+  "Restart stronger": {
+    "traditional": "重生變得更強",
+    "simplified": "重生变得更强",
+    "pinyin": "chóng shēng biàn de gèng qiáng"
+  },
+  "Discover some pairs in Play first.": {
+    "traditional": "先在遊戲中發現一些詞語。",
+    "simplified": "先在游戏中发现一些词语。",
+    "pinyin": "xiān zài yóu xì zhōng fā xiàn yì xiē cí yǔ."
+  },
+  "You can stop at any time. Coins you earn are yours to keep.": {
+    "traditional": "隨時可以停止，已賺取的金幣會保留。",
+    "simplified": "随时可以停止，已赚取的金币会保留。",
+    "pinyin": "suí shí kě yǐ tíng zhǐ, yǐ zhuàn qǔ de jīn bì huì bǎo liú."
+  },
+  "You can stop at any time. Keep your earned coins.": {
+    "traditional": "隨時可以停止，保留已賺的金幣。",
+    "simplified": "随时可以停止，保留已赚的金币。",
+    "pinyin": "suí shí kě yǐ tíng zhǐ, bǎo liú yǐ zhuàn de jīn bì."
+  },
+  "Tap two cards or drag one onto its pair.": {
+    "traditional": "點選兩張卡片，或拖到配對卡片上。",
+    "simplified": "点选两张卡片，或拖到配对卡片上。",
+    "pinyin": "diǎn xuǎn liǎng zhāng kǎ piàn, huò tuō dào pèi duì kǎ piàn shàng."
+  },
+  "Chinese": {
+    "traditional": "中文",
+    "simplified": "中文",
+    "pinyin": "zhōng wén"
+  },
+  "English": {
+    "traditional": "英文",
+    "simplified": "英文",
+    "pinyin": "yīng wén"
+  },
+  "Tap or drag to place · Tap an answer to remove": {
+    "traditional": "點選或拖曳放入 · 點選答案移除",
+    "simplified": "点选或拖曳放入 · 点选答案移除",
+    "pinyin": "diǎn xuǎn huò tuō yè fàng rù · diǎn xuǎn dá àn yí chú"
+  },
+  "Check": {
+    "traditional": "確認",
+    "simplified": "确认",
+    "pinyin": "què rèn"
+  },
+  "{0} cards · +{1} / pair": {
+    "traditional": "{0} 張卡片 · 每對 +{1}",
+    "simplified": "{0} 张卡片 · 每对 +{1}",
+    "pinyin": "{0} zhāng kǎ piàn · měi duì +{1}"
+  },
+  "Continue Play to unlock a word set.": {
+    "traditional": "繼續遊戲以解鎖詞語卡冊。",
+    "simplified": "继续游戏以解锁词语卡册。",
+    "pinyin": "jì xù yóu xì yǐ jiě suǒ cí yǔ kǎ cè."
+  },
+  "Turn. Remember. Match.": {
+    "traditional": "翻開、記住、配對。",
+    "simplified": "翻开、记住、配对。",
+    "pinyin": "fān kāi, jì zhù, pèi duì."
+  },
+  "Chinese + English · six pairs · 3 × 4 cards": {
+    "traditional": "中英配對 · 六對 · 3 × 4 張卡片",
+    "simplified": "中英配对 · 六对 · 3 × 4 张卡片",
+    "pinyin": "zhōng yīng pèi duì · liù duì · 3 × 4 zhāng kǎ piàn"
+  },
+  "Back to Play": {
+    "traditional": "返回遊戲",
+    "simplified": "返回游戏",
+    "pinyin": "fǎn huí yóu xì"
+  },
+  "Set remembered!": {
+    "traditional": "記住這組了！",
+    "simplified": "记住这组了！",
+    "pinyin": "jì zhù zhè zǔ le!"
+  },
+  "{0} pairs": {
+    "traditional": "{0} 對",
+    "simplified": "{0} 对",
+    "pinyin": "{0} duì"
+  },
+  "Coins awarded as you matched.": {
+    "traditional": "配對時已發放金幣。",
+    "simplified": "配对时已发放金币。",
+    "pinyin": "pèi duì shí yǐ fā fàng jīn bì."
+  },
+  "Choose another set": {
+    "traditional": "選擇另一組",
+    "simplified": "选择另一组",
+    "pinyin": "xuǎn zé lìng yì zǔ"
+  },
+  "Board {0} / {1}": {
+    "traditional": "第 {0} / {1} 盤",
+    "simplified": "第 {0} / {1} 盘",
+    "pinyin": "dì {0} / {1} pán"
+  },
+  "Board cleared!": {
+    "traditional": "本盤完成！",
+    "simplified": "本盘完成！",
+    "pinyin": "běn pán wán chéng!"
+  },
+  "Remember those places.": {
+    "traditional": "記住這些位置。",
+    "simplified": "记住这些位置。",
+    "pinyin": "jì zhù zhè xiē wèi zhì."
+  },
+  "Find the Chinese–English pairs.": {
+    "traditional": "找出中英配對。",
+    "simplified": "找出中英配对。",
+    "pinyin": "zhǎo chū zhōng yīng pèi duì."
+  },
+  "Finish set": {
+    "traditional": "完成本組",
+    "simplified": "完成本组",
+    "pinyin": "wán chéng běn zǔ"
+  },
+  "Next board": {
+    "traditional": "下一盤",
+    "simplified": "下一盘",
+    "pinyin": "xià yì pán"
+  },
+  "+{0} coins": {
+    "traditional": "+{0} 金幣",
+    "simplified": "+{0} 金币",
+    "pinyin": "+{0} jīn bì"
+  },
+  "Miss": {
+    "traditional": "未命中",
+    "simplified": "未命中",
+    "pinyin": "wèi mìng zhòng"
+  },
+  "Try another pair.": {
+    "traditional": "試試另一對。",
+    "simplified": "试试另一对。",
+    "pinyin": "shì shi lìng yí duì."
+  },
+  "Try a different order.": {
+    "traditional": "試試不同順序。",
+    "simplified": "试试不同顺序。",
+    "pinyin": "shì shi bù tóng shùn xù."
+  },
+  "Try again": {
+    "traditional": "再試一次",
+    "simplified": "再试一次",
+    "pinyin": "zài shì yí cì"
+  },
+  "{0} buildings · ×{1} hits": {
+    "traditional": "{0} 棟建築 · 命中 ×{1}",
+    "simplified": "{0} 栋建筑 · 命中 ×{1}",
+    "pinyin": "{0} dòng jiàn zhú · mìng zhòng ×{1}"
+  },
+  "Buy materials with coins or sell them for half the buy price. Knowledge and insight come from buildings.": {
+    "traditional": "用金幣購買材料，或以半價賣出。知識和心得由建築產生。",
+    "simplified": "用金币购买材料，或以半价卖出。知识和心得由建筑产生。",
+    "pinyin": "yòng jīn bì gòu mǎi cái liào, huò yǐ bàn jià mài chū. zhī shi hé xīn dé yóu jiàn zhú chǎn shēng."
+  },
+  "Restore an earlier {0} building": {
+    "traditional": "恢復較早的{0}建築",
+    "simplified": "恢复较早的{0}建筑",
+    "pinyin": "huī fù jiào zǎo de {0} jiàn zhú"
+  },
+  "Remaining {0}": {
+    "traditional": "尚需 {0}",
+    "simplified": "尚需 {0}",
+    "pinyin": "shàng xū {0}"
+  },
+  "Storage expansion": {
+    "traditional": "擴建倉庫",
+    "simplified": "扩建仓库",
+    "pinyin": "kuò jiàn cāng kù"
+  },
+  "Pay in parts when the next storehouse costs more than you can hold. Payments are nonrefundable.": {
+    "traditional": "費用超過容量時可以分期付款，已付款項不予退還。",
+    "simplified": "费用超过容量时可以分期付款，已付款项不予退还。",
+    "pinyin": "fèi yòng chāo guò róng liàng shí kě yǐ fēn qī fù kuǎn, yǐ fù kuǎn xiàng bù yǔ tuì huán."
+  },
+  "{0} / {1} available plans · choose your path": {
+    "traditional": "{0} / {1} 項藍圖 · 選擇你的路線",
+    "simplified": "{0} / {1} 项蓝图 · 选择你的路线",
+    "pinyin": "{0} / {1} xiàng lán tú · xuǎn zé nǐ de lù xiàn"
+  },
+  "Infrastructure": {
+    "traditional": "基礎設施",
+    "simplified": "基础设施",
+    "pinyin": "jī chǔ shè shī"
+  },
+  "Trade": {
+    "traditional": "貿易",
+    "simplified": "贸易",
+    "pinyin": "mào yì"
+  },
+  "Community": {
+    "traditional": "社區",
+    "simplified": "社区",
+    "pinyin": "shè qū"
+  },
+  "Study": {
+    "traditional": "學習",
+    "simplified": "学习",
+    "pinyin": "xué xí"
+  },
+  "hits": {
+    "traditional": "命中",
+    "simplified": "命中",
+    "pinyin": "mìng zhòng"
+  },
+  "pairs": {
+    "traditional": "配對",
+    "simplified": "配对",
+    "pinyin": "pèi duì"
+  },
+  "sentences": {
+    "traditional": "句子",
+    "simplified": "句子",
+    "pinyin": "jù zi"
+  },
+  "/min": {
+    "traditional": "/分鐘",
+    "simplified": "/分钟",
+    "pinyin": "/fēn zhōng"
+  },
+  "/s": {
+    "traditional": "/秒",
+    "simplified": "/秒",
+    "pinyin": "/miǎo"
+  },
+  "Storage full — sell materials or expand storage before buying.": {
+    "traditional": "倉庫已滿，請先賣出材料或擴建倉庫。",
+    "simplified": "仓库已满，请先卖出材料或扩建仓库。",
+    "pinyin": "cāng kù yǐ mǎn, qǐng xiān mài chū cái liào huò kuò jiàn cāng kù."
+  },
+  "{0} storage spaces available": {
+    "traditional": "尚有 {0} 儲存空間",
+    "simplified": "尚有 {0} 存储空间",
+    "pinyin": "shàng yǒu {0} chǔ cún kōng jiān"
+  },
+  "Bought {0} · −{1} coins": {
+    "traditional": "買入 {0} · −{1} 金幣",
+    "simplified": "买入 {0} · −{1} 金币",
+    "pinyin": "mǎi rù {0} · −{1} jīn bì"
+  },
+  "Sold {0} · +{1} coins": {
+    "traditional": "賣出 {0} · +{1} 金幣",
+    "simplified": "卖出 {0} · +{1} 金币",
+    "pinyin": "mài chū {0} · +{1} jīn bì"
+  },
+  "Storage full": {
+    "traditional": "倉庫已滿",
+    "simplified": "仓库已满",
+    "pinyin": "cāng kù yǐ mǎn"
+  },
+  "Need {0} more coins": {
+    "traditional": "還需 {0} 金幣",
+    "simplified": "还需 {0} 金币",
+    "pinyin": "hái xū {0} jīn bì"
+  },
+  "Not enough materials": {
+    "traditional": "材料不足",
+    "simplified": "材料不足",
+    "pinyin": "cái liào bù zú"
+  },
+  "Not tradable": {
+    "traditional": "無法交易",
+    "simplified": "无法交易",
+    "pinyin": "wú fǎ jiāo yì"
+  },
+  "Invalid trade": {
+    "traditional": "無效交易",
+    "simplified": "无效交易",
+    "pinyin": "wú xiào jiāo yì"
+  },
+  "Need resources": {
+    "traditional": "需要資源",
+    "simplified": "需要资源",
+    "pinyin": "xū yào zī yuán"
+  },
+  "Complete": {
+    "traditional": "完成",
+    "simplified": "完成",
+    "pinyin": "wán chéng"
+  },
+  "Clear L{0}": {
+    "traditional": "完成第 {0} 級",
+    "simplified": "完成第 {0} 级",
+    "pinyin": "wán chéng dì {0} jí"
+  },
+  "Complete a sentence set": {
+    "traditional": "完成一組句子",
+    "simplified": "完成一组句子",
+    "pinyin": "wán chéng yì zǔ jù zi"
+  },
+  "Finish expansion": {
+    "traditional": "完成擴建",
+    "simplified": "完成扩建",
+    "pinyin": "wán chéng kuò jiàn"
+  },
+  "Earlier {0} building": {
+    "traditional": "較早的{0}建築",
+    "simplified": "较早的{0}建筑",
+    "pinyin": "jiào zǎo de {0} jiàn zhú"
+  },
+  "Research": {
+    "traditional": "研究",
+    "simplified": "研究",
+    "pinyin": "yán jiū"
+  },
+  "Sentence sets": {
+    "traditional": "句子組",
+    "simplified": "句子组",
+    "pinyin": "jù zi zǔ"
+  },
+  "Building from L{0}–{1}": {
+    "traditional": "第 {0}–{1} 級建築",
+    "simplified": "第 {0}–{1} 级建筑",
+    "pinyin": "dì {0}–{1} jí jiàn zhú"
+  },
+  "Complete · {0} / {1}": {
+    "traditional": "完成 · {0} / {1}",
+    "simplified": "完成 · {0} / {1}",
+    "pinyin": "wán chéng · {0} / {1}"
+  },
+  "Still needed · {0} / {1}": {
+    "traditional": "尚需 · {0} / {1}",
+    "simplified": "尚需 · {0} / {1}",
+    "pinyin": "shàng xū · {0} / {1}"
+  },
+  "Counted now: {0}": {
+    "traditional": "目前計入：{0}",
+    "simplified": "目前计入：{0}",
+    "pinyin": "mù qián jì rù: {0}"
+  },
+  "no qualifying buildings": {
+    "traditional": "沒有符合條件的建築",
+    "simplified": "没有符合条件的建筑",
+    "pinyin": "méi yǒu fú hé tiáo jiàn de jiàn zhú"
+  },
+  "While away: +{0}": {
+    "traditional": "離線收益：+{0}",
+    "simplified": "离线收益：+{0}",
+    "pinyin": "lí xiàn shōu yì: +{0}"
+  },
+  "Set complete · +{0} coins": {
+    "traditional": "卡冊完成 · +{0} 金幣",
+    "simplified": "卡册完成 · +{0} 金币",
+    "pinyin": "kǎ cè wán chéng · +{0} jīn bì"
+  },
+  "Set already completed": {
+    "traditional": "卡冊已完成",
+    "simplified": "卡册已完成",
+    "pinyin": "kǎ cè yǐ wán chéng"
+  },
+  "Debug: double-click to complete this set for 3× its set reward": {
+    "traditional": "除錯：按兩下完成本組，獲得三倍獎勵",
+    "simplified": "调试：按两下完成本组，获得三倍奖励",
+    "pinyin": "chú cuò: àn liǎng xià wán chéng běn zǔ, huò dé sān bèi jiǎng lì"
+  },
+  "Main navigation": {
+    "traditional": "主選單",
+    "simplified": "主选单",
+    "pinyin": "zhǔ xuǎn dān"
+  },
+  "Level accuracy": {
+    "traditional": "本級正確率",
+    "simplified": "本级正确率",
+    "pinyin": "běn jí zhèng què lǜ"
+  },
+  "{0}% correct": {
+    "traditional": "正確率 {0}%",
+    "simplified": "正确率 {0}%",
+    "pinyin": "zhèng què lǜ {0}%"
+  },
+  "No answers yet": {
+    "traditional": "尚未作答",
+    "simplified": "尚未作答",
+    "pinyin": "shàng wèi zuò dá"
+  },
+  "Discovered pairs": {
+    "traditional": "已發現的配對",
+    "simplified": "已发现的配对",
+    "pinyin": "yǐ fā xiàn de pèi duì"
+  },
+  "Card sets": {
+    "traditional": "卡冊",
+    "simplified": "卡册",
+    "pinyin": "kǎ cè"
+  },
+  "About {0}": {
+    "traditional": "關於{0}",
+    "simplified": "关于{0}",
+    "pinyin": "guān yú {0}"
+  },
+  "More ways to play": {
+    "traditional": "更多玩法",
+    "simplified": "更多玩法",
+    "pinyin": "gèng duō wán fǎ"
+  },
+  "Card arena": {
+    "traditional": "卡片競技場",
+    "simplified": "卡片竞技场",
+    "pinyin": "kǎ piàn jìng jì chǎng"
+  },
+  "Weapons": {
+    "traditional": "武器",
+    "simplified": "武器",
+    "pinyin": "wǔ qì"
+  },
+  "Move target": {
+    "traditional": "移動目標",
+    "simplified": "移动目标",
+    "pinyin": "yí dòng mù biāo"
+  },
+  "Answer position {0}": {
+    "traditional": "答案位置 {0}",
+    "simplified": "答案位置 {0}",
+    "pinyin": "dá àn wèi zhì {0}"
+  },
+  "Hidden card {0}": {
+    "traditional": "隱藏卡片 {0}",
+    "simplified": "隐藏卡片 {0}",
+    "pinyin": "yǐn cáng kǎ piàn {0}"
+  },
+  "This game needs JavaScript.": {
+    "traditional": "本遊戲需要啟用 JavaScript。",
+    "simplified": "本游戏需要启用 JavaScript。",
+    "pinyin": "běn yóu xì xū yào qǐ yòng JavaScript."
+  },
+  "Build": {
+    "traditional": "建造",
+    "simplified": "建造",
+    "pinyin": "jiàn zào"
+  },
+  "+{0} /s": {
+    "traditional": "+{0} /秒",
+    "simplified": "+{0} /秒",
+    "pinyin": "+{0} /miǎo"
+  },
+  "{0}+{1}/min": {
+    "traditional": "{0}+{1}/分鐘",
+    "simplified": "{0}+{1}/分钟",
+    "pinyin": "{0}+{1}/fēn zhōng"
+  },
+  "L{0} · {1}{2}": {
+    "traditional": "第{0}級 · {1}{2}",
+    "simplified": "第{0}级 · {1}{2}",
+    "pinyin": "dì {0} jí · {1}{2}",
+    "english": "Level {0} · {1}{2}"
+  },
+  "L{0} · {1} · {2}": {
+    "traditional": "第{0}級 · {1} · {2}",
+    "simplified": "第{0}级 · {1} · {2}",
+    "pinyin": "dì {0} jí · {1} · {2}",
+    "english": "Level {0} · {1} · {2}"
+  },
+  "Kiln input: −4 timber −4 stone/min": {
+    "traditional": "窯爐消耗：每分鐘 −4 木材 −4 石料",
+    "simplified": "窑炉消耗：每分钟 −4 木材 −4 石料",
+    "pinyin": "yáo lú xiāo hào: měi fēn zhōng −4 mù cái −4 shí liào"
+  },
+  "Research first: {0}": {
+    "traditional": "先研究：{0}",
+    "simplified": "先研究：{0}",
+    "pinyin": "xiān yán jiū: {0}"
+  },
+  "goal-research": {
+    "english": "Complete {0} research plans in this prestige run. Open Tech, choose an available plan and pay its knowledge and insight cost. These resources come from buildings, not the exchange. Start with the study hut for knowledge; later insight-producing buildings supply insight. Some plans require earlier research. Any path counts, and each plan counts once. You do not need to research every plan.",
+    "traditional": "本輪重生完成 {0} 項研究。在研究頁面選擇可用藍圖，支付知識和心得。這些資源由建築產生，不能在交換所購買。先建學習小屋獲得知識，後期建築可產生心得。部分藍圖需要先完成前置研究。所有路線都計入，每項只計一次，不必研究全部藍圖。",
+    "simplified": "本轮重生完成 {0} 项研究。在研究页面选择可用蓝图，支付知识和心得。这些资源由建筑产生，不能在交换所购买。先建学习小屋获得知识，后期建筑可产生心得。部分蓝图需要先完成前置研究。所有路线都计入，每项只计一次，不必研究全部蓝图。",
+    "pinyin": "běn lún chóng shēng wán chéng {0} xiàng yán jiū. zài yán jiū yè miàn xuǎn zé kě yòng lán tú, zhī fù zhī shi hé xīn dé. zhè xiē zī yuán yóu jiàn zhú chǎn shēng, bù néng zài jiāo huàn suǒ gòu mǎi. xiān jiàn xué xí xiǎo wū huò dé zhī shi, hòu qī jiàn zhú kě chǎn shēng xīn dé. bù fen lán tú xū yào xiān wán chéng qián zhì yán jiū. suǒ yǒu lù xiàn dōu jì rù, měi xiàng zhǐ jì yí cì, bú bì yán jiū quán bù lán tú."
+  },
+  "goal-sentences": {
+    "english": "Complete and claim the rewards for {0} sentence sets in this prestige run. Sentence sets appear during the main Play journey: arrange the Chinese cards to form each sentence and finish the set. A set must meet the 50% accuracy requirement to complete. Individual sentences, Memory and bonus puzzles do not count as completed sentence sets.",
+    "traditional": "本輪完成 {0} 組句子並領取獎勵。句子組會在主要旅程中出現：排列中文卡片組成句子，完成整組。正確率至少要達到百分之五十。單一句子、記憶遊戲和額外挑戰不計入已完成的句子組。",
+    "simplified": "本轮完成 {0} 组句子并领取奖励。句子组会在主要旅程中出现：排列中文卡片组成句子，完成整组。正确率至少要达到百分之五十。单一句子、记忆游戏和额外挑战不计入已完成的句子组。",
+    "pinyin": "běn lún wán chéng {0} zǔ jù zi bìng lǐng qǔ jiǎng lì. jù zi zǔ huì zài zhǔ yào lǚ chéng zhōng chū xiàn: pái liè zhōng wén kǎ piàn zǔ chéng jù zi, wán chéng zhěng zǔ. zhèng què lǜ zhì shǎo yào dá dào bǎi fēn zhī wǔ shí. dān yī jù zi, jì yì yóu xì hé é wài tiǎo zhàn bú jì rù yǐ wán chéng de jù zi zǔ."
+  },
+  "goal-no-sentences": {
+    "english": "No completed sentence sets are required at this stage, so this goal is already checked. Later stages require sentence sets from the main Play journey. Finish their card-order puzzles and claim the set reward; individual sentences, Memory and bonus puzzles do not count.",
+    "traditional": "本階段不需要完成句子組，所以已達成此目標。後續階段需要完成主要旅程中的句子組。完成排列卡片並領取獎勵才計入；單一句子、記憶遊戲和額外挑戰不計入。",
+    "simplified": "本阶段不需要完成句子组，所以已达成此目标。后续阶段需要完成主要旅程中的句子组。完成排列卡片并领取奖励才计入；单一句子、记忆游戏和额外挑战不计入。",
+    "pinyin": "běn jiē duàn bù xū yào wán chéng jù zi zǔ, suǒ yǐ yǐ dá chéng cǐ mù biāo. hòu xù jiē duàn xū yào wán chéng zhǔ yào lǚ chéng zhōng de jù zi zǔ. wán chéng pái liè kǎ piàn bìng lǐng qǔ jiǎng lì cái jì rù; dān yī jù zi, jì yì yóu xì hé é wài tiǎo zhàn bú jì rù."
+  },
+  "Traditional": {
+    "traditional": "繁體",
+    "simplified": "繁体",
+    "pinyin": "fán tǐ"
+  },
+  "Simplified": {
+    "traditional": "簡體",
+    "simplified": "简体",
+    "pinyin": "jiǎn tǐ"
+  },
+  "minute": {
+    "traditional": "分鐘",
+    "simplified": "分钟",
+    "pinyin": "fēn zhōng",
+    "english": "min"
+  },
+  "Blueprint path": {
+    "traditional": "藍圖路線",
+    "simplified": "蓝图路线",
+    "pinyin": "lán tú lù xiàn"
+  },
+  "Research this blueprint once to unlock its building. Construction is purchased separately in Village.": {
+    "traditional": "完成此項研究即可解鎖建築，再到村落購買建造。",
+    "simplified": "完成此项研究即可解锁建筑，再到村落购买建造。",
+    "pinyin": "wán chéng cǐ xiàng yán jiū jí kě jiě suǒ jiàn zhú, zài dào cūn luò gòu mǎi jiàn zào."
+  },
+  "Each purchase adds one building. Later copies cost more.": {
+    "traditional": "每次購買增加一棟建築，後續建造費用會提高。",
+    "simplified": "每次购买增加一栋建筑，后续建造费用会提高。",
+    "pinyin": "měi cì gòu mǎi zēng jiā yí dòng jiàn zhú, hòu xù jiàn zào fèi yòng huì tí gāo."
+  },
+  "This building increases resource storage capacity.": {
+    "traditional": "此建築增加資源儲存容量。",
+    "simplified": "此建筑增加资源存储容量。",
+    "pinyin": "cǐ jiàn zhú zēng jiā zī yuán chǔ cún róng liàng."
+  },
+  "Production shown is per copy, per minute.": {
+    "traditional": "顯示的產量是每棟建築每分鐘的產量。",
+    "simplified": "显示的产量是每栋建筑每分钟的产量。",
+    "pinyin": "xiǎn shì de chǎn liàng shì měi dòng jiàn zhú měi fēn zhōng de chǎn liàng."
+  },
+  "Reward multiplier: +{0}× {1}": {
+    "traditional": "獎勵倍率：+{0}× {1}",
+    "simplified": "奖励倍率：+{0}× {1}",
+    "pinyin": "jiǎng lì bèi lǜ: +{0}× {1}"
+  },
+  "Buildings owned": {
+    "traditional": "建築數量",
+    "simplified": "建筑数量",
+    "pinyin": "jiàn zhú shù liàng"
+  },
+  "Stockpile: {0}": {
+    "traditional": "儲備：{0}",
+    "simplified": "储备：{0}",
+    "pinyin": "chǔ bèi: {0}"
+  },
+  "+1 building per purchase": {
+    "traditional": "每次購買 +1 棟建築",
+    "simplified": "每次购买 +1 栋建筑",
+    "pinyin": "měi cì gòu mǎi +1 dòng jiàn zhú"
+  },
+  "timber": {
+    "traditional": "木材",
+    "simplified": "木材",
+    "pinyin": "mù cái"
+  },
+  "stone": {
+    "traditional": "石料",
+    "simplified": "石料",
+    "pinyin": "shí liào"
+  },
+  "bricks": {
+    "traditional": "磚",
+    "simplified": "砖",
+    "pinyin": "zhuān"
+  },
+  "knowledge": {
+    "traditional": "知識",
+    "simplified": "知识",
+    "pinyin": "zhī shi"
+  },
+  "insight": {
+    "traditional": "心得",
+    "simplified": "心得",
+    "pinyin": "xīn dé"
+  },
+  "Build, research and stockpile resources for your next journey.": {
+    "traditional": "建造、研究並儲備資源，開啟下一段旅程。",
+    "simplified": "建造、研究并储备资源，开启下一段旅程。",
+    "pinyin": "jiàn zào, yán jiū bìng chǔ bèi zī yuán, kāi qǐ xià yí duàn lǚ chéng."
+  }
+}

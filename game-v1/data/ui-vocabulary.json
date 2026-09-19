@@ -69,6 +69,27 @@
       "traditional": "資源",
       "pinyin": "zī yuán",
       "english": "resources"
+    },
+    {
+      "id": "V01-ui-11",
+      "simplified": "关闭",
+      "traditional": "關閉",
+      "pinyin": "guān bì",
+      "english": "close"
+    },
+    {
+      "id": "V01-ui-12",
+      "simplified": "建筑",
+      "traditional": "建築",
+      "pinyin": "jiàn zhú",
+      "english": "building"
+    },
+    {
+      "id": "V01-ui-13",
+      "simplified": "储备",
+      "traditional": "儲備",
+      "pinyin": "chǔ bèi",
+      "english": "stockpile"
     }
   ],
   "L01": [

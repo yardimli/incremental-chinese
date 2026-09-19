@@ -1,13 +1,82 @@
-import {state,screen,textCard,transact} from '../shared.js';
-import {catalogue,ensureVillage} from '../systems/village.mjs';
-import {research,researchLock} from '../systems/technology.mjs';
-import {resourceBar,price,sprite,refreshEconomyUI} from './village.js';
-let filter='All',pending=false;
-export function refreshTechUI(){document.querySelectorAll('[data-tech]').forEach(b=>{const node=catalogue().research.find(r=>r.id===b.dataset.tech),lock=researchLock(state,node);b.disabled=!!lock;b.textContent=lock||'Research'})}
-export function drawTechnology(){
- const v=ensureVillage(state);
- screen.innerHTML='<section class="village-scene">'+sprite('tech')+'<div><strong>研究 <small>yán jiū</small></strong><p>'+v.research.length+' / '+catalogue().research.length+' plans · choose your path</p></div></section>'+resourceBar()+'<div class="path-filter">'+['All','Trade','Community','Study'].map(p=>'<button data-path="'+p+'" aria-pressed="'+(p===filter)+'">'+p+'</button>').join('')+'</div><div class="village-scroll" id="tech-list">'+catalogue().research.filter(r=>filter==='All'||r.path===filter).map(r=>'<section class="shop-row '+(v.research.includes(r.id)?'researched':'')+'">'+sprite('tech')+'<div class="shop-copy">'+textCard(r)+'<small>L'+r.level+' · '+r.path+' · '+r.id+'</small><div class="price">'+price(r.cost)+'</div><small>'+(r.previous?r.previous+' → ':'')+r.id+' → '+r.building+'</small></div><button class="buy" data-tech="'+r.id+'">Research</button></section>').join('')+'</div>';
- screen.querySelectorAll('[data-path]').forEach(b=>b.onclick=()=>{filter=b.dataset.path;drawTechnology()});
- screen.querySelectorAll('[data-tech]').forEach(b=>b.onclick=async()=>{if(pending)return;pending=true;try{const top=screen.querySelector('#tech-list').scrollTop;await transact(s=>research(s,b.dataset.tech));drawTechnology();screen.querySelector('#tech-list').scrollTop=top}finally{pending=false}});
- refreshEconomyUI();refreshTechUI();
+import { compactLabel, bindShopHelp } from './shop-details.js';
+import { ui, reasonText } from './interface-text.js';
+import { view, render, joinParts } from '../ui/templates.js';
+import { state, screen, textCard, transact } from '../shared.js';
+import { catalogue, ensureVillage, frontier } from '../systems/village.mjs';
+import { research, researchLock } from '../systems/technology.mjs';
+import { resourceBar, price, sprite, refreshEconomyUI } from './village.js';
+import { buttonLabel, actionLabel } from './button-labels.js';
+let filter = 'Trade',
+  pending = false;
+export function refreshTechUI() {
+  document.querySelectorAll('[data-tech]').forEach((b) => {
+    const node = catalogue().research.find((r) => r.id === b.dataset.tech),
+      lock = researchLock(state, node);
+    b.disabled = !!lock;
+    render(b, actionLabel('research', lock, state));
+    b.title = reasonText(lock);
+  });
+}
+export function drawTechnology() {
+  const v = ensureVillage(state);
+  render(
+    screen,
+    view('tpl-drawTechnology-80', [
+      null,
+      v.research.length,
+      catalogue().research.filter((r) => r.level <= frontier(state)).length,
+      resourceBar(),
+      joinParts(
+        ['Trade', 'Community', 'Study'].map((p) =>
+          view('tpl-technology-78', [p, p === filter, buttonLabel(p, state)]),
+        ),
+        '',
+      ),
+      joinParts(
+        catalogue()
+          .research.filter((r) => r.level <= frontier(state) && r.path === filter)
+          .map((r) =>
+            view('tpl-technology-79', [
+              v.research.includes(r.id) ? 'researched' : '',
+              sprite('tech'),
+              textCard(r),
+              compactLabel('L{0} · {1}{2}', r.level, ui(r.path), ''),
+              ui(r.path),
+              r.id,
+              price(r.cost),
+              r.previous ? r.previous + ' → ' : '',
+              r.id,
+              r.building,
+              r.id,
+            ]),
+          ),
+        '',
+      ),
+    ]),
+  );
+  screen.querySelectorAll('[data-path]').forEach(
+    (b) =>
+      (b.onclick = () => {
+        filter = b.dataset.path;
+        drawTechnology();
+      }),
+  );
+  screen.querySelectorAll('[data-tech]').forEach(
+    (b) =>
+      (b.onclick = async () => {
+        if (pending) return;
+        pending = true;
+        try {
+          const top = screen.querySelector('#tech-list').scrollTop;
+          await transact((s) => research(s, b.dataset.tech));
+          drawTechnology();
+          screen.querySelector('#tech-list').scrollTop = top;
+        } finally {
+          pending = false;
+        }
+      }),
+  );
+  bindShopHelp(screen);
+  refreshEconomyUI();
+  refreshTechUI();
 }

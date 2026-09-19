@@ -1,120 +1,743 @@
 /* Game skin: shared across every standalone screen. */
-:root{--paper:#eee6cf;--ink:#193e33;--muted:#65735a;--green:#195e47;--line:#c3b17e;--gold:#a97620;--white:#fff7df}
-body{background:#eee6cf url("assets/jade-valley.png") center center/cover fixed;font-family:Georgia,"Microsoft JhengHei",serif}
-.app{padding-top:86px}
-.header{background:linear-gradient(180deg,#fff6defa,#e7ddbcf5);border-bottom:3px double #b69b5e;box-shadow:0 3px 14px #49381624}
-.header h1{font-family:Georgia,serif;font-size:25px;font-weight:800;text-shadow:0 1px #fff;letter-spacing:-.035em}
-.head-right{gap:9px}.score{display:flex;align-items:center;background:linear-gradient(#fff8e7,#e7d4a2);padding:6px 10px;border:1px solid #a88944;border-radius:24px;box-shadow:inset 0 0 0 2px #fff4d0,0 2px 0 #b69b60;font-size:17px}
-.coin{flex-shrink:0;width:23px;height:23px;font-size:0;border:2px solid #b98222;background:radial-gradient(circle at 30% 25%,#fff0a8,#ecc352 48%,#c38c22 80%);box-shadow:inset 0 0 0 2px #ffe697,1px 2px 1px #8f64154a;position:relative}
-.coin:after{content:"";width:6px;height:6px;border:1px solid #8e651e;background:#c99431;box-shadow:inset 1px 1px #896523;position:absolute;inset:0;margin:auto}
-.gear{background:linear-gradient(#2e7960,#174c3c);border:1px solid #cfb574;border-radius:9px;padding:0 5px;color:#e9d49a;box-shadow:0 2px 0 #153f30;line-height:32px}
-.footer{background:linear-gradient(#fbf2dbea,#e5d4aafc);border-top:3px double #ad945b;box-shadow:0 -3px 16px #664d2424;padding-top:8px;padding-bottom:12px;gap:5px}
-.footer a{font-size:11px;border:1px solid transparent;border-radius:10px;padding:5px 2px;color:#655b40}
-.footer a.active{background:linear-gradient(#2f7961,#154a39);color:#fff0bb;border-color:#cdb677;box-shadow:inset 0 0 0 2px #ffe9a925,0 2px 0 #103d2c}
-.footer a.active:after{display:none}.footer svg{stroke-width:2;filter:drop-shadow(0 1px 0 #ffffff35)}
-h2{color:#365643;font-size:18px;text-shadow:0 1px #fff8d7}
-.panel{background:linear-gradient(135deg,#fffaeaf2,#f4e8c8ec);border:1px solid #bfa667;border-radius:13px;box-shadow:inset 0 0 0 3px #fffaf06b,0 4px 9px #63482215}
-.panel.rate{border:3px double #bfa260;background:radial-gradient(ellipse at top,#fff4c8aa,transparent 65%),linear-gradient(135deg,#fffaeae8,#ead9afe0);position:relative}
-.big{color:#1b5c44;text-shadow:0 2px 0 #fff2c0,0 4px 12px #536a3822;font-family:Georgia,serif;font-size:55px}
-.factors{border-top:1px solid #c5aa715c;padding-top:14px}.factors small{font-family:system-ui;font-size:9px}
-.row+.row{border-top-color:#cbb7887d}.pill{background:linear-gradient(#fff0bc,#d9b861);border:1px solid #b38c39;border-radius:7px;color:#594017;box-shadow:inset 0 1px #fff6d7}
-.primary,.buy{background:radial-gradient(ellipse at 50% -40%,#69ad85,transparent 70%),linear-gradient(#2a795b,#115039);border:2px solid #d0ad57;box-shadow:inset 0 0 0 2px #f1d58d40,inset 0 2px 2px #b2e0b12b,0 4px 0 #0c3829,0 7px 13px #2637212b;color:#fff4cd;text-shadow:0 2px 1px #103c2c;font-family:Georgia,serif;transition:transform .12s,filter .12s,box-shadow .12s}
-.primary{border-radius:15px;font-size:22px;position:relative;padding:12px 24px}
-.primary:before,.primary:after{content:"◆";position:absolute;top:50%;transform:translateY(-50%);font-size:11px;color:#ddc17e;opacity:.9}.primary:before{left:13px}.primary:after{right:13px}
-.primary:hover:not(:disabled),.buy:hover:not(:disabled){filter:brightness(1.12)}
-.primary:active:not(:disabled),.buy:active:not(:disabled){transform:translateY(3px);box-shadow:inset 0 0 0 2px #f1d58d40,0 1px 0 #0c3829}
-.secondary{background:linear-gradient(#fff8e8e8,#e7d5aee8);border:1px solid #b1975e;box-shadow:inset 0 0 0 2px #fff9de,0 3px 0 #c1a873;border-radius:12px;font-size:17px}
-.primary:disabled,.buy:disabled{opacity:1;background:linear-gradient(#a4aa98,#7e897b);border-color:#bdb896;box-shadow:inset 0 0 0 2px #e9e0bc30,0 3px 0 #626b5e;color:#e2e0d1;text-shadow:none}
-.instruction{background:linear-gradient(110deg,#15553feb,#2f755bdc);border:1px solid #ceb76f;color:#fff1cc;border-radius:10px;box-shadow:0 3px 0 #164232;font:12px/1.5 system-ui;text-align:center}
-.match-head span{background:#fcf1d4dc;border:1px solid #c6ad73;border-radius:7px;padding:6px;text-align:center;color:#74603b;font-weight:700;font-family:system-ui;letter-spacing:.1em}
-.match-head{margin-top:16px}.match-board{gap:12px 16px}
-.card,.match-tile{background:linear-gradient(140deg,#fffbee,#f2e4c0);border:1px solid #b69a5f;box-shadow:inset 0 0 0 3px #fffaf1,inset 0 0 0 4px #d8c18a,0 3px 0 #bba375,0 5px 7px #624c2520;border-radius:9px}
-.match-tile{font-size:22px;font-family:Georgia,serif;min-height:78px}
-.hanzi,.card .hanzi{font-weight:600;color:#193f33;text-shadow:0 1px #fff5dd}.pinyin{font-family:Georgia,serif;color:#6f785f}
-.match-tile.selected{background:linear-gradient(#edf5dc,#c5dab3);border:2px solid #30775a;box-shadow:inset 0 0 0 2px #f9f3c4,0 0 0 2px #d9b959,0 5px 12px #224e3938;transform:translateY(-2px)}
-.match-tile.matched{opacity:1;background:linear-gradient(#b8d5a8,#89b38c);border-color:#527c4a;box-shadow:inset 0 0 0 3px #dfedc480,0 2px 0 #577f4e;color:#20452d}
-.match-tile.matched:after{content:"✓";background:#236446;color:#fff2b6;width:19px;height:19px;border-radius:50%;font:12px/19px system-ui;right:7px;top:7px}
-.match-tile.wrong{background:#f5d2b8;border-color:#ba694d}.status{font:12px/1.4 system-ui;color:#1c593e;font-weight:600;text-shadow:0 1px #fff}
-.tabs button{background:linear-gradient(#fff5dc,#d7c497);border-color:#a99156;font-size:17px;box-shadow:0 2px 0 #aa9364}
-.tabs .active{background:linear-gradient(#33775c,#1b503c);color:#fff0be;border-color:#c9a84e}
-.collection{gap:7px}.collection .card{min-height:90px;padding-top:12px}.collection small{font-family:system-ui;font-weight:700;color:#896221}
-.empty{box-shadow:inset 0 2px 8px #5a4b2220;background:#cdbd9147;border:1px dashed #ae9e70;color:#958359}
-.milestones{background:#fff1ced4;border:1px solid #c5ad72;border-radius:9px;padding:9px 5px;margin:16px 0;font-family:system-ui}.milestones .done{color:#276a45}.milestones b{margin-bottom:3px}
-.prompt{background:#fff3dce8;border:3px double #ba9e5b;border-radius:12px;padding:13px 8px;box-shadow:0 3px 6px #5c47221b}
-.target{background:#194b3be8;padding:8px;border-radius:12px;border:1px solid #bd9f53;box-shadow:inset 0 2px 8px #05291e63}
-.target .card{background:#dbe5c71c;box-shadow:inset 0 2px 4px #0d302523;border-color:#c1c58b75;color:#e0ddac}
-.target small{color:#d9d5a3}.target .hanzi{color:#d8dbb8}
-.target .filled{background:linear-gradient(#fff3d2,#dcca93);box-shadow:inset 0 0 0 2px #fff6dc;border-color:#d5ae4e}.target .filled .hanzi{color:#1c4c36}.target .filled small{color:#766334}
-.choices .card{transition:transform .12s,filter .12s}.choices .card:hover:not(:disabled){transform:translateY(-2px);filter:brightness(1.04)}.choices button:disabled{opacity:.4;box-shadow:inset 0 2px 6px #4c3e262c;background:#c8c2a7}
-.boost{background:linear-gradient(110deg,#fff9e6ef,#f2e2b8e8);border:1px solid #bda773;border-radius:10px;margin:7px 0;padding:9px 10px;box-shadow:inset 0 0 0 2px #fff5dc8c,0 2px 0 #baa47355}
-.boost .mult{color:#896021;font-family:system-ui;font-size:11px}.boost-price{color:#846027;font-weight:700;font-family:system-ui}.buy{padding:6px 9px;min-width:61px;font-size:14px;border-radius:9px}.boost .hanzi{font-size:21px}
-.reward{background-image:radial-gradient(ellipse at 50% 30%,#ffe49270,transparent 60%),url("assets/jade-valley.png");background-position:center;background-size:cover}
-.reward h1{font-size:29px;color:#23523b;text-shadow:0 2px #fff7d8}.reward h1:after{content:"— ◆ —";display:block;color:#b89445;font-size:14px;letter-spacing:8px;margin-top:12px}
-.reward .hero-card{border:3px double #b4954c;box-shadow:inset 0 0 0 4px #fff6d8,0 0 35px #dfb34b55,0 8px 0 #b89b59;transform:rotate(-2deg);background:linear-gradient(145deg,#fffdf0,#ebd39d)}
-.reward .gain{color:#af791f;text-shadow:0 1px #fff4bd,0 3px #82500b20;font-size:42px}.reward .big{color:#2a7654}.reward-cards .card{box-shadow:inset 0 0 0 3px #fff9dd,0 5px 0 #b69c60,0 0 15px #dfbf6440}.reward .primary{margin-bottom:10px}
-body[data-page="restart"] .rate{border-radius:18px;background:radial-gradient(ellipse,#f9eabecc,transparent 72%)}
-body[data-page="restart"] .rate>.hanzi{width:125px;height:125px;display:flex;align-items:center;justify-content:center;margin:auto;border:4px double #d8bc71;border-radius:50%;background:radial-gradient(circle at 35% 25%,#569b75,#144c38 75%);color:#fff0bd;box-shadow:0 0 0 5px #c9b87540,0 8px 20px #1a493d30;font-size:38px!important}
-.settings{background:#fff8e9d9;border:1px solid #c1aa73;border-radius:14px;padding:4px 16px 20px}.settings label{border-bottom-color:#c8b4847d}select{background:linear-gradient(#fffbee,#e9dbb7);border-color:#b9a36c;box-shadow:0 2px 0 #c3ad7c}
-@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
-.status:not(:empty){background:#fff4dce8;border:1px solid #c6b17d;border-radius:8px;margin-top:12px;padding:9px 12px;min-height:0}
-body[data-page="boosts"] .app>.row{background:#fff5e2e8;border:1px solid #c7af75;border-radius:8px;padding:6px 10px;margin-bottom:6px}
-body[data-page="boosts"] .boost{padding-top:8px;padding-bottom:8px}
+:root {
+  --paper: #eee6cf;
+  --ink: #193e33;
+  --muted: #65735a;
+  --green: #195e47;
+  --line: #c3b17e;
+  --gold: #a97620;
+  --white: #fff7df;
+}
+#game-frame {
+  background: #eee6cf url('assets/jade-valley.png') center center/cover fixed;
+  font-family: Georgia, 'Microsoft JhengHei', serif;
+}
+.app {
+  padding-top: 86px;
+}
+.header {
+  background: linear-gradient(180deg, #fff6defa, #e7ddbcf5);
+  border-bottom: 3px double #b69b5e;
+  box-shadow: 0 3px 14px #49381624;
+}
+.header h1 {
+  font-family: Georgia, serif;
+  font-size: 25px;
+  font-weight: 800;
+  text-shadow: 0 1px #fff;
+  letter-spacing: -0.035em;
+}
+.head-right {
+  gap: 9px;
+}
+.score {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#fff8e7, #e7d4a2);
+  padding: 6px 10px;
+  border: 1px solid #a88944;
+  border-radius: 24px;
+  box-shadow:
+    inset 0 0 0 2px #fff4d0,
+    0 2px 0 #b69b60;
+  font-size: 17px;
+}
+.coin {
+  flex-shrink: 0;
+  width: 23px;
+  height: 23px;
+  font-size: 0;
+  border: 2px solid #b98222;
+  background: radial-gradient(circle at 30% 25%, #fff0a8, #ecc352 48%, #c38c22 80%);
+  box-shadow:
+    inset 0 0 0 2px #ffe697,
+    1px 2px 1px #8f64154a;
+  position: relative;
+}
+.coin:after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 1px solid #8e651e;
+  background: #c99431;
+  box-shadow: inset 1px 1px #896523;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+.gear {
+  background: linear-gradient(#2e7960, #174c3c);
+  border: 1px solid #cfb574;
+  border-radius: 9px;
+  padding: 0 5px;
+  color: #e9d49a;
+  box-shadow: 0 2px 0 #153f30;
+  line-height: 32px;
+}
+.footer {
+  background: linear-gradient(#fbf2dbea, #e5d4aafc);
+  border-top: 3px double #ad945b;
+  box-shadow: 0 -3px 16px #664d2424;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  gap: 5px;
+}
+.footer a {
+  font-size: 11px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 5px 2px;
+  color: #655b40;
+}
+.footer a.active {
+  background: linear-gradient(#2f7961, #154a39);
+  color: #fff0bb;
+  border-color: #cdb677;
+  box-shadow:
+    inset 0 0 0 2px #ffe9a925,
+    0 2px 0 #103d2c;
+}
+.footer a.active:after {
+  display: none;
+}
+.footer svg {
+  stroke-width: 2;
+  filter: drop-shadow(0 1px 0 #ffffff35);
+}
+h2 {
+  color: #365643;
+  font-size: 18px;
+  text-shadow: 0 1px #fff8d7;
+}
+.panel {
+  background: linear-gradient(135deg, #fffaeaf2, #f4e8c8ec);
+  border: 1px solid #bfa667;
+  border-radius: 13px;
+  box-shadow:
+    inset 0 0 0 3px #fffaf06b,
+    0 4px 9px #63482215;
+}
+.panel.rate {
+  border: 3px double #bfa260;
+  background:
+    radial-gradient(ellipse at top, #fff4c8aa, transparent 65%),
+    linear-gradient(135deg, #fffaeae8, #ead9afe0);
+  position: relative;
+}
+.big {
+  color: #1b5c44;
+  text-shadow:
+    0 2px 0 #fff2c0,
+    0 4px 12px #536a3822;
+  font-family: Georgia, serif;
+  font-size: 55px;
+}
+.factors {
+  border-top: 1px solid #c5aa715c;
+  padding-top: 14px;
+}
+.factors small {
+  font-family: system-ui;
+  font-size: 9px;
+}
+.row + .row {
+  border-top-color: #cbb7887d;
+}
+.pill {
+  background: linear-gradient(#fff0bc, #d9b861);
+  border: 1px solid #b38c39;
+  border-radius: 7px;
+  color: #594017;
+  box-shadow: inset 0 1px #fff6d7;
+}
+.primary,
+.buy {
+  background:
+    radial-gradient(ellipse at 50% -40%, #69ad85, transparent 70%),
+    linear-gradient(#2a795b, #115039);
+  border: 2px solid #d0ad57;
+  box-shadow:
+    inset 0 0 0 2px #f1d58d40,
+    inset 0 2px 2px #b2e0b12b,
+    0 4px 0 #0c3829,
+    0 7px 13px #2637212b;
+  color: #fff4cd;
+  text-shadow: 0 2px 1px #103c2c;
+  font-family: Georgia, serif;
+  transition:
+    transform 0.12s,
+    filter 0.12s,
+    box-shadow 0.12s;
+}
+.primary {
+  border-radius: 15px;
+  font-size: 22px;
+  position: relative;
+  padding: 12px 24px;
+}
+.primary:before,
+.primary:after {
+  content: '◆';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 11px;
+  color: #ddc17e;
+  opacity: 0.9;
+}
+.primary:before {
+  left: 13px;
+}
+.primary:after {
+  right: 13px;
+}
+.primary:hover:not(:disabled),
+.buy:hover:not(:disabled) {
+  filter: brightness(1.12);
+}
+.primary:active:not(:disabled),
+.buy:active:not(:disabled) {
+  transform: translateY(3px);
+  box-shadow:
+    inset 0 0 0 2px #f1d58d40,
+    0 1px 0 #0c3829;
+}
+.secondary {
+  background: linear-gradient(#fff8e8e8, #e7d5aee8);
+  border: 1px solid #b1975e;
+  box-shadow:
+    inset 0 0 0 2px #fff9de,
+    0 3px 0 #c1a873;
+  border-radius: 12px;
+  font-size: 17px;
+}
+.primary:disabled,
+.buy:disabled {
+  opacity: 1;
+  background: linear-gradient(#a4aa98, #7e897b);
+  border-color: #bdb896;
+  box-shadow:
+    inset 0 0 0 2px #e9e0bc30,
+    0 3px 0 #626b5e;
+  color: #e2e0d1;
+  text-shadow: none;
+}
+.instruction {
+  background: linear-gradient(110deg, #15553feb, #2f755bdc);
+  border: 1px solid #ceb76f;
+  color: #fff1cc;
+  border-radius: 10px;
+  box-shadow: 0 3px 0 #164232;
+  font: 12px/1.5 system-ui;
+  text-align: center;
+}
+.match-head span {
+  background: #fcf1d4dc;
+  border: 1px solid #c6ad73;
+  border-radius: 7px;
+  padding: 6px;
+  text-align: center;
+  color: #74603b;
+  font-weight: 700;
+  font-family: system-ui;
+  letter-spacing: 0.1em;
+}
+.match-head {
+  margin-top: 16px;
+}
+.match-board {
+  gap: 12px 16px;
+}
+.card,
+.match-tile {
+  background: linear-gradient(140deg, #fffbee, #f2e4c0);
+  border: 1px solid #b69a5f;
+  box-shadow:
+    inset 0 0 0 3px #fffaf1,
+    inset 0 0 0 4px #d8c18a,
+    0 3px 0 #bba375,
+    0 5px 7px #624c2520;
+  border-radius: 9px;
+}
+.match-tile {
+  font-size: 22px;
+  font-family: Georgia, serif;
+  min-height: 78px;
+}
+.hanzi,
+.card .hanzi {
+  font-weight: 600;
+  color: #193f33;
+  text-shadow: 0 1px #fff5dd;
+}
+.pinyin {
+  font-family: Georgia, serif;
+  color: #6f785f;
+}
+.match-tile.selected {
+  background: linear-gradient(#edf5dc, #c5dab3);
+  border: 2px solid #30775a;
+  box-shadow:
+    inset 0 0 0 2px #f9f3c4,
+    0 0 0 2px #d9b959,
+    0 5px 12px #224e3938;
+  transform: translateY(-2px);
+}
+.match-tile.matched {
+  opacity: 1;
+  background: linear-gradient(#b8d5a8, #89b38c);
+  border-color: #527c4a;
+  box-shadow:
+    inset 0 0 0 3px #dfedc480,
+    0 2px 0 #577f4e;
+  color: #20452d;
+}
+.match-tile.matched:after {
+  content: '✓';
+  background: #236446;
+  color: #fff2b6;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  font: 12px/19px system-ui;
+  right: 7px;
+  top: 7px;
+}
+.match-tile.wrong {
+  background: #f5d2b8;
+  border-color: #ba694d;
+}
+.status {
+  font: 12px/1.4 system-ui;
+  color: #1c593e;
+  font-weight: 600;
+  text-shadow: 0 1px #fff;
+}
+.tabs button {
+  background: linear-gradient(#fff5dc, #d7c497);
+  border-color: #a99156;
+  font-size: 17px;
+  box-shadow: 0 2px 0 #aa9364;
+}
+.tabs .active {
+  background: linear-gradient(#33775c, #1b503c);
+  color: #fff0be;
+  border-color: #c9a84e;
+}
+.collection {
+  gap: 7px;
+}
+.collection .card {
+  min-height: 90px;
+  padding-top: 12px;
+}
+.collection small {
+  font-family: system-ui;
+  font-weight: 700;
+  color: #896221;
+}
+.empty {
+  box-shadow: inset 0 2px 8px #5a4b2220;
+  background: #cdbd9147;
+  border: 1px dashed #ae9e70;
+  color: #958359;
+}
+.milestones {
+  background: #fff1ced4;
+  border: 1px solid #c5ad72;
+  border-radius: 9px;
+  padding: 9px 5px;
+  margin: 16px 0;
+  font-family: system-ui;
+}
+.milestones .done {
+  color: #276a45;
+}
+.milestones b {
+  margin-bottom: 3px;
+}
+.prompt {
+  background: #fff3dce8;
+  border: 3px double #ba9e5b;
+  border-radius: 12px;
+  padding: 13px 8px;
+  box-shadow: 0 3px 6px #5c47221b;
+}
+.target {
+  background: #194b3be8;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid #bd9f53;
+  box-shadow: inset 0 2px 8px #05291e63;
+}
+.target .card {
+  background: #dbe5c71c;
+  box-shadow: inset 0 2px 4px #0d302523;
+  border-color: #c1c58b75;
+  color: #e0ddac;
+}
+.target small {
+  color: #d9d5a3;
+}
+.target .hanzi {
+  color: #d8dbb8;
+}
+.target .filled {
+  background: linear-gradient(#fff3d2, #dcca93);
+  box-shadow: inset 0 0 0 2px #fff6dc;
+  border-color: #d5ae4e;
+}
+.target .filled .hanzi {
+  color: #1c4c36;
+}
+.target .filled small {
+  color: #766334;
+}
+.choices .card {
+  transition:
+    transform 0.12s,
+    filter 0.12s;
+}
+.choices .card:hover:not(:disabled) {
+  transform: translateY(-2px);
+  filter: brightness(1.04);
+}
+.choices button:disabled {
+  opacity: 0.4;
+  box-shadow: inset 0 2px 6px #4c3e262c;
+  background: #c8c2a7;
+}
+.boost {
+  background: linear-gradient(110deg, #fff9e6ef, #f2e2b8e8);
+  border: 1px solid #bda773;
+  border-radius: 10px;
+  margin: 7px 0;
+  padding: 9px 10px;
+  box-shadow:
+    inset 0 0 0 2px #fff5dc8c,
+    0 2px 0 #baa47355;
+}
+.boost .mult {
+  color: #896021;
+  font-family: system-ui;
+  font-size: 11px;
+}
+.boost-price {
+  color: #846027;
+  font-weight: 700;
+  font-family: system-ui;
+}
+.buy {
+  padding: 6px 9px;
+  min-width: 61px;
+  font-size: 14px;
+  border-radius: 9px;
+}
+.boost .hanzi {
+  font-size: 21px;
+}
+.reward {
+  background-image:
+    radial-gradient(ellipse at 50% 30%, #ffe49270, transparent 60%), url('assets/jade-valley.png');
+  background-position: center;
+  background-size: cover;
+}
+.reward h1 {
+  font-size: 29px;
+  color: #23523b;
+  text-shadow: 0 2px #fff7d8;
+}
+.reward h1:after {
+  content: '— ◆ —';
+  display: block;
+  color: #b89445;
+  font-size: 14px;
+  letter-spacing: 8px;
+  margin-top: 12px;
+}
+.reward .hero-card {
+  border: 3px double #b4954c;
+  box-shadow:
+    inset 0 0 0 4px #fff6d8,
+    0 0 35px #dfb34b55,
+    0 8px 0 #b89b59;
+  transform: rotate(-2deg);
+  background: linear-gradient(145deg, #fffdf0, #ebd39d);
+}
+.reward .gain {
+  color: #af791f;
+  text-shadow:
+    0 1px #fff4bd,
+    0 3px #82500b20;
+  font-size: 42px;
+}
+.reward .big {
+  color: #2a7654;
+}
+.reward-cards .card {
+  box-shadow:
+    inset 0 0 0 3px #fff9dd,
+    0 5px 0 #b69c60,
+    0 0 15px #dfbf6440;
+}
+.reward .primary {
+  margin-bottom: 10px;
+}
+#game-frame[data-page='restart'] .rate {
+  border-radius: 18px;
+  background: radial-gradient(ellipse, #f9eabecc, transparent 72%);
+}
+#game-frame[data-page='restart'] .rate > .hanzi {
+  width: 125px;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: 4px double #d8bc71;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 25%, #569b75, #144c38 75%);
+  color: #fff0bd;
+  box-shadow:
+    0 0 0 5px #c9b87540,
+    0 8px 20px #1a493d30;
+  font-size: 38px !important;
+}
+.settings {
+  background: #fff8e9d9;
+  border: 1px solid #c1aa73;
+  border-radius: 14px;
+  padding: 4px 16px 20px;
+}
+.settings label {
+  border-bottom-color: #c8b4847d;
+}
+select {
+  background: linear-gradient(#fffbee, #e9dbb7);
+  border-color: #b9a36c;
+  box-shadow: 0 2px 0 #c3ad7c;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+.status:not(:empty) {
+  background: #fff4dce8;
+  border: 1px solid #c6b17d;
+  border-radius: 8px;
+  margin-top: 12px;
+  padding: 9px 12px;
+  min-height: 0;
+}
+#game-frame[data-page='boosts'] .app > .row {
+  background: #fff5e2e8;
+  border: 1px solid #c7af75;
+  border-radius: 8px;
+  padding: 6px 10px;
+  margin-bottom: 6px;
+}
+#game-frame[data-page='boosts'] .boost {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 
 /* Fit the full screen content, rather than hiding an overflowing document. */
-body[data-page="home"] .panel{padding:14px;margin:10px 0}
-body[data-page="home"] .panel.rate{padding:16px 12px}
-body[data-page="home"] h2{margin:14px 0 8px}
-body[data-page="home"] .row+.row{padding-top:10px;margin-top:10px}
-body[data-page="home"] .factors{margin-top:12px;padding-top:10px}
-.collection .card{min-height:0;height:clamp(54px,8.35dvh,70px);padding:6px 2px}
-.collection .hanzi{font-size:23px;line-height:1.25}
-.collection .pinyin{line-height:1.3}
-body[data-page="sets"] .panel{margin:10px 0;padding:12px}
-.reward{padding:24px 22px;min-height:100dvh;gap:0}
-.reward h1{margin:4px 0 14px}
-.reward .hero-card{margin:12px auto;padding:24px 15px}
-.reward .hero-card p{margin:6px 0}
-.reward .panel{margin:10px 0;padding:14px}
-.reward .panel h2{margin:12px 0 8px}
-.reward .primary{margin-bottom:5px}
-@media(max-height:760px){
-  .header{height:62px;padding:9px 16px}
-  .header h1{font-size:22px}
-  .footer{padding:5px 8px 7px}
-  .footer a{padding:3px 2px}
-  .footer svg{width:19px;height:19px}
-  .app{padding:72px 16px 72px}
-  .panel{padding:12px;margin:8px 0}
-  h2{margin:12px 0 8px}
-  .big{font-size:43px}
-  .primary,.secondary{padding:9px 20px;margin-top:10px;font-size:18px}
-  .match-tile{min-height:62px}
-  .match-board{gap:9px 14px}
-  .match-head{margin-top:12px}
-  .collection .card{height:clamp(48px,8.1dvh,61px)}
-  .collection .hanzi{font-size:21px}
-  .collection .pinyin{font-size:9px}
-  .collection small{font-size:8px}
-  .milestones{margin:10px 0;padding:6px 4px}
-  .boost{margin:5px 0;padding:6px 8px!important}
-  .boost .hanzi{font-size:18px}
-  .boost .pinyin{font-size:9px}
-  .buy{padding:4px 8px;font-size:12px}
-  body[data-page="order"] .prompt{font-size:18px;padding:8px;margin:8px 0}
-  body[data-page="order"] .target{margin:10px 0;padding:6px}
-  body[data-page="order"] .target .card{min-height:60px;padding:4px 2px}
-  body[data-page="order"] .choices{gap:7px}
-  body[data-page="order"] .choices .card{min-height:48px;padding:2px}
-  body[data-page="order"] .choices .hanzi{font-size:22px}
-  body[data-page="order"] .status:not(:empty){margin-top:8px;padding:6px 9px}
-  body[data-page="restart"] .rate{padding:12px 0}
-  body[data-page="restart"] .rate>.hanzi{height:90px;width:90px;font-size:30px!important}
-  .reward{padding:18px 20px}
-  .reward h1{font-size:25px;margin-bottom:10px}
-  .reward h1:after{margin-top:6px}
-  .reward .hero-card{padding:18px 12px;margin:10px auto}
-  .hero-card .hanzi{font-size:60px}
-  .reward .gain{font-size:34px}
-  .reward-cards{margin:12px 0}
-  .reward-cards .card{padding:20px 6px}
+#game-frame[data-page='home'] .panel {
+  padding: 14px;
+  margin: 10px 0;
+}
+#game-frame[data-page='home'] .panel.rate {
+  padding: 16px 12px;
+}
+#game-frame[data-page='home'] h2 {
+  margin: 14px 0 8px;
+}
+#game-frame[data-page='home'] .row + .row {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+#game-frame[data-page='home'] .factors {
+  margin-top: 12px;
+  padding-top: 10px;
+}
+.collection .card {
+  min-height: 0;
+  height: clamp(54px, 8calc (var(--game-height, 852px) * 0.35), 70px);
+  padding: 6px 2px;
+}
+.collection .hanzi {
+  font-size: 23px;
+  line-height: 1.25;
+}
+.collection .pinyin {
+  line-height: 1.3;
+}
+#game-frame[data-page='sets'] .panel {
+  margin: 10px 0;
+  padding: 12px;
+}
+.reward {
+  padding: 24px 22px;
+  min-height: var(--game-height, 852px);
+  gap: 0;
+}
+.reward h1 {
+  margin: 4px 0 14px;
+}
+.reward .hero-card {
+  margin: 12px auto;
+  padding: 24px 15px;
+}
+.reward .hero-card p {
+  margin: 6px 0;
+}
+.reward .panel {
+  margin: 10px 0;
+  padding: 14px;
+}
+.reward .panel h2 {
+  margin: 12px 0 8px;
+}
+.reward .primary {
+  margin-bottom: 5px;
+}
+@container game (max-height:760px) {
+  .header {
+    height: 62px;
+    padding: 9px 16px;
+  }
+  .header h1 {
+    font-size: 22px;
+  }
+  .footer {
+    padding: 5px 8px 7px;
+  }
+  .footer a {
+    padding: 3px 2px;
+  }
+  .footer svg {
+    width: 19px;
+    height: 19px;
+  }
+  .app {
+    padding: 72px 16px 72px;
+  }
+  .panel {
+    padding: 12px;
+    margin: 8px 0;
+  }
+  h2 {
+    margin: 12px 0 8px;
+  }
+  .big {
+    font-size: 43px;
+  }
+  .primary,
+  .secondary {
+    padding: 9px 20px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .match-tile {
+    min-height: 62px;
+  }
+  .match-board {
+    gap: 9px 14px;
+  }
+  .match-head {
+    margin-top: 12px;
+  }
+  .collection .card {
+    height: clamp(48px, 8calc (var(--game-height, 852px) * 0.01), 61px);
+  }
+  .collection .hanzi {
+    font-size: 21px;
+  }
+  .collection .pinyin {
+    font-size: 9px;
+  }
+  .collection small {
+    font-size: 8px;
+  }
+  .milestones {
+    margin: 10px 0;
+    padding: 6px 4px;
+  }
+  .boost {
+    margin: 5px 0;
+    padding: 6px 8px !important;
+  }
+  .boost .hanzi {
+    font-size: 18px;
+  }
+  .boost .pinyin {
+    font-size: 9px;
+  }
+  .buy {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+  #game-frame[data-page='order'] .prompt {
+    font-size: 18px;
+    padding: 8px;
+    margin: 8px 0;
+  }
+  #game-frame[data-page='order'] .target {
+    margin: 10px 0;
+    padding: 6px;
+  }
+  #game-frame[data-page='order'] .target .card {
+    min-height: 60px;
+    padding: 4px 2px;
+  }
+  #game-frame[data-page='order'] .choices {
+    gap: 7px;
+  }
+  #game-frame[data-page='order'] .choices .card {
+    min-height: 48px;
+    padding: 2px;
+  }
+  #game-frame[data-page='order'] .choices .hanzi {
+    font-size: 22px;
+  }
+  #game-frame[data-page='order'] .status:not(:empty) {
+    margin-top: 8px;
+    padding: 6px 9px;
+  }
+  #game-frame[data-page='restart'] .rate {
+    padding: 12px 0;
+  }
+  #game-frame[data-page='restart'] .rate > .hanzi {
+    height: 90px;
+    width: 90px;
+    font-size: 30px !important;
+  }
+  .reward {
+    padding: 18px 20px;
+  }
+  .reward h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .reward h1:after {
+    margin-top: 6px;
+  }
+  .reward .hero-card {
+    padding: 18px 12px;
+    margin: 10px auto;
+  }
+  .hero-card .hanzi {
+    font-size: 60px;
+  }
+  .reward .gain {
+    font-size: 34px;
+  }
+  .reward-cards {
+    margin: 12px 0;
+  }
+  .reward-cards .card {
+    padding: 20px 6px;
+  }
 }
