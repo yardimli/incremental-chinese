@@ -1,0 +1,159 @@
+{
+  "id": "L16",
+  "level": 16,
+  "type": "pairs",
+  "title": "Food street",
+  "traditional": "美食街",
+  "simplified": "美食街",
+  "pinyin": "měi shí jiē",
+  "pairs": [
+    {
+      "id": "L16-00",
+      "simplified": "饭馆",
+      "traditional": "飯館",
+      "pinyin": "fàn guǎn",
+      "english": "restaurant",
+      "audio": {
+        "female": "audio/female/11ecd0141c074bcf.mp3",
+        "male": "audio/male/11ecd0141c074bcf.mp3"
+      }
+    },
+    {
+      "id": "L16-01",
+      "simplified": "服务员",
+      "traditional": "服務員",
+      "pinyin": "fú wù yuán",
+      "english": "server / attendant",
+      "audio": {
+        "female": "audio/female/e789c2f1630d5d3c.mp3",
+        "male": "audio/male/e789c2f1630d5d3c.mp3"
+      }
+    },
+    {
+      "id": "L16-02",
+      "simplified": "好吃",
+      "traditional": "好喫",
+      "pinyin": "hǎo chī",
+      "english": "delicious",
+      "audio": {
+        "female": "audio/female/9ba93130e3897f01.mp3",
+        "male": "audio/male/9ba93130e3897f01.mp3"
+      }
+    },
+    {
+      "id": "L16-03",
+      "simplified": "鸡蛋",
+      "traditional": "雞蛋",
+      "pinyin": "jī dàn",
+      "english": "egg",
+      "audio": {
+        "female": "audio/female/d0c93bdd1385126c.mp3",
+        "male": "audio/male/d0c93bdd1385126c.mp3"
+      }
+    },
+    {
+      "id": "L16-04",
+      "simplified": "牛奶",
+      "traditional": "牛奶",
+      "pinyin": "niú nǎi",
+      "english": "milk",
+      "audio": {
+        "female": "audio/female/b892a42b9695881d.mp3",
+        "male": "audio/male/b892a42b9695881d.mp3"
+      }
+    },
+    {
+      "id": "L16-05",
+      "simplified": "鱼",
+      "traditional": "魚",
+      "pinyin": "yú",
+      "english": "fish",
+      "audio": {
+        "female": "audio/female/b481cb1bcb3f18ba.mp3",
+        "male": "audio/male/b481cb1bcb3f18ba.mp3"
+      }
+    },
+    {
+      "id": "L16-06",
+      "simplified": "羊肉",
+      "traditional": "羊肉",
+      "pinyin": "yáng ròu",
+      "english": "lamb / mutton",
+      "audio": {
+        "female": "audio/female/e2fd6979c0a125f8.mp3",
+        "male": "audio/male/e2fd6979c0a125f8.mp3"
+      }
+    },
+    {
+      "id": "L16-07",
+      "simplified": "西瓜",
+      "traditional": "西瓜",
+      "pinyin": "xī guā",
+      "english": "watermelon",
+      "audio": {
+        "female": "audio/female/3e3f03caa0435a00.mp3",
+        "male": "audio/male/3e3f03caa0435a00.mp3"
+      }
+    },
+    {
+      "id": "L16-08",
+      "simplified": "咖啡",
+      "traditional": "咖啡",
+      "pinyin": "kā fēi",
+      "english": "coffee",
+      "audio": {
+        "female": "audio/female/720ec669f15b87b1.mp3",
+        "male": "audio/male/720ec669f15b87b1.mp3"
+      }
+    },
+    {
+      "id": "L16-09",
+      "simplified": "送",
+      "traditional": "送",
+      "pinyin": "sòng",
+      "english": "deliver / give a gift",
+      "audio": {
+        "female": "audio/female/2191cda8a545b174.mp3",
+        "male": "audio/male/2191cda8a545b174.mp3"
+      }
+    },
+    {
+      "id": "L16-10",
+      "simplified": "还",
+      "traditional": "還",
+      "pinyin": "hái",
+      "english": "still / also",
+      "audio": {
+        "female": "audio/female/9a9cd19fc4af7ddc.mp3",
+        "male": "audio/male/9a9cd19fc4af7ddc.mp3"
+      }
+    },
+    {
+      "id": "L16-ui-1",
+      "simplified": "美食",
+      "traditional": "美食",
+      "pinyin": "měi shí",
+      "english": "delicious food",
+      "audio": {
+        "female": "audio/female/5fa29a4e55651354.mp3",
+        "male": "audio/male/5fa29a4e55651354.mp3"
+      }
+    },
+    {
+      "id": "L16-ui-2",
+      "simplified": "街",
+      "traditional": "街",
+      "pinyin": "jiē",
+      "english": "street",
+      "audio": {
+        "female": "audio/female/261c23b558433a27.mp3",
+        "male": "audio/male/261c23b558433a27.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/30cf645f60f8af66.mp3",
+    "male": "audio/male/30cf645f60f8af66.mp3"
+  },
+  "english": "Food street"
+}

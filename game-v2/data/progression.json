@@ -1,0 +1,11 @@
+{
+  "baseCoins": 10,
+  "growth": 1.6,
+  "maxLevel": 25,
+  "memoryPairs": 6,
+  "memoryPairWeight": 2,
+  "memoryBoardWeight": 5,
+  "prestigeGain": 0.5,
+  "version": 4,
+  "requiredAccuracy": 80
+}

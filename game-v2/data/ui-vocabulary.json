@@ -1,0 +1,331 @@
+{
+  "L01": [
+    {
+      "id": "L01-ui-1",
+      "simplified": "数字",
+      "traditional": "數字",
+      "pinyin": "shù zì",
+      "english": "numbers"
+    },
+    {
+      "id": "L01-menu-1",
+      "simplified": "再来",
+      "traditional": "再來",
+      "pinyin": "zài lái",
+      "english": "start again"
+    },
+    {
+      "id": "L01-menu-2",
+      "simplified": "完成",
+      "traditional": "完成",
+      "pinyin": "wán chéng",
+      "english": "complete"
+    },
+    {
+      "id": "L01-menu-3",
+      "simplified": "繁体",
+      "traditional": "繁體",
+      "pinyin": "fán tǐ",
+      "english": "traditional characters"
+    },
+    {
+      "id": "L01-menu-4",
+      "simplified": "简体",
+      "traditional": "簡體",
+      "pinyin": "jiǎn tǐ",
+      "english": "simplified characters"
+    },
+    {
+      "id": "L01-menu-5",
+      "simplified": "关闭",
+      "traditional": "關閉",
+      "pinyin": "guān bì",
+      "english": "close"
+    }
+  ],
+  "L02": [
+    {
+      "id": "L02-ui-1",
+      "simplified": "位数",
+      "traditional": "位數",
+      "pinyin": "wèi shù",
+      "english": "digit count"
+    }
+  ],
+  "L03": [
+    {
+      "id": "L03-ui-1",
+      "simplified": "与",
+      "traditional": "與",
+      "pinyin": "yǔ",
+      "english": "and"
+    },
+    {
+      "id": "L03-ui-2",
+      "simplified": "数量",
+      "traditional": "數量",
+      "pinyin": "shù liàng",
+      "english": "quantity"
+    },
+    {
+      "id": "L03-ui-3",
+      "simplified": "组合",
+      "traditional": "組合",
+      "pinyin": "zǔ hé",
+      "english": "combination"
+    },
+    {
+      "id": "L03-ui-4",
+      "simplified": "数",
+      "traditional": "數",
+      "pinyin": "shù",
+      "english": "number"
+    }
+  ],
+  "L06": [
+    {
+      "id": "L06-ui-1",
+      "simplified": "茶馆",
+      "traditional": "茶館",
+      "pinyin": "chá guǎn",
+      "english": "teahouse"
+    },
+    {
+      "id": "L06-ui-2",
+      "simplified": "点单",
+      "traditional": "點單",
+      "pinyin": "diǎn dān",
+      "english": "order food or drinks"
+    }
+  ],
+  "L09": [
+    {
+      "id": "L09-ui-1",
+      "simplified": "日常",
+      "traditional": "日常",
+      "pinyin": "rì cháng",
+      "english": "everyday"
+    },
+    {
+      "id": "L09-ui-2",
+      "simplified": "对话",
+      "traditional": "對話",
+      "pinyin": "duì huà",
+      "english": "conversation"
+    }
+  ],
+  "L10": [
+    {
+      "id": "L10-ui-1",
+      "simplified": "日历",
+      "traditional": "日曆",
+      "pinyin": "rì lì",
+      "english": "calendar"
+    }
+  ],
+  "L11": [
+    {
+      "id": "L11-ui-1",
+      "simplified": "生活",
+      "traditional": "生活",
+      "pinyin": "shēng huó",
+      "english": "daily life"
+    }
+  ],
+  "L12": [
+    {
+      "id": "L12-ui-1",
+      "simplified": "中",
+      "traditional": "中",
+      "pinyin": "zhōng",
+      "english": "in"
+    },
+    {
+      "id": "L12-ui-2",
+      "simplified": "学堂",
+      "traditional": "學堂",
+      "pinyin": "xué táng",
+      "english": "school"
+    }
+  ],
+  "L13": [
+    {
+      "id": "L13-ui-1",
+      "simplified": "迎接",
+      "traditional": "迎接",
+      "pinyin": "yíng jiē",
+      "english": "welcome"
+    },
+    {
+      "id": "L13-ui-2",
+      "simplified": "客人",
+      "traditional": "客人",
+      "pinyin": "kè rén",
+      "english": "guest"
+    },
+    {
+      "id": "L13-ui-3",
+      "simplified": "请坐",
+      "traditional": "請坐",
+      "pinyin": "qǐng zuò",
+      "english": "please sit down"
+    }
+  ],
+  "L14": [
+    {
+      "id": "L14-ui-1",
+      "simplified": "健康",
+      "traditional": "健康",
+      "pinyin": "jiàn kāng",
+      "english": "health"
+    }
+  ],
+  "L15": [
+    {
+      "id": "L15-ui-1",
+      "simplified": "市场",
+      "traditional": "市場",
+      "pinyin": "shì chǎng",
+      "english": "market"
+    },
+    {
+      "id": "L15-ui-2",
+      "simplified": "买卖",
+      "traditional": "買賣",
+      "pinyin": "mǎi mài",
+      "english": "trade"
+    },
+    {
+      "id": "L15-ui-3",
+      "simplified": "短句",
+      "traditional": "短句",
+      "pinyin": "duǎn jù",
+      "english": "short phrase"
+    }
+  ],
+  "L16": [
+    {
+      "id": "L16-ui-1",
+      "simplified": "美食",
+      "traditional": "美食",
+      "pinyin": "měi shí",
+      "english": "delicious food"
+    },
+    {
+      "id": "L16-ui-2",
+      "simplified": "街",
+      "traditional": "街",
+      "pinyin": "jiē",
+      "english": "street"
+    }
+  ],
+  "L18": [
+    {
+      "id": "L18-ui-1",
+      "simplified": "指路",
+      "traditional": "指路",
+      "pinyin": "zhǐ lù",
+      "english": "give directions"
+    },
+    {
+      "id": "L18-ui-2",
+      "simplified": "出行",
+      "traditional": "出行",
+      "pinyin": "chū xíng",
+      "english": "go out"
+    }
+  ],
+  "L19": [
+    {
+      "id": "L19-ui-1",
+      "simplified": "旅行",
+      "traditional": "旅行",
+      "pinyin": "lǚ xíng",
+      "english": "travel"
+    }
+  ],
+  "L20": [
+    {
+      "id": "L20-ui-1",
+      "simplified": "欢乐",
+      "traditional": "歡樂",
+      "pinyin": "huān lè",
+      "english": "joy"
+    },
+    {
+      "id": "L20-ui-2",
+      "simplified": "广场",
+      "traditional": "廣場",
+      "pinyin": "guǎng chǎng",
+      "english": "square"
+    }
+  ],
+  "L21": [
+    {
+      "id": "L21-ui-1",
+      "simplified": "活动",
+      "traditional": "活動",
+      "pinyin": "huó dòng",
+      "english": "activity"
+    }
+  ],
+  "L22": [
+    {
+      "id": "L22-ui-1",
+      "simplified": "消息",
+      "traditional": "消息",
+      "pinyin": "xiāo xī",
+      "english": "message"
+    },
+    {
+      "id": "L22-ui-2",
+      "simplified": "联络",
+      "traditional": "聯絡",
+      "pinyin": "lián luò",
+      "english": "contact"
+    }
+  ],
+  "L24": [
+    {
+      "id": "L24-ui-1",
+      "simplified": "安排",
+      "traditional": "安排",
+      "pinyin": "ān pái",
+      "english": "arrange"
+    },
+    {
+      "id": "L24-ui-2",
+      "simplified": "计划",
+      "traditional": "計劃",
+      "pinyin": "jì huà",
+      "english": "plan"
+    }
+  ],
+  "L07": [
+    {
+      "id": "L07-ui-1",
+      "simplified": "吃饭",
+      "traditional": "喫飯",
+      "pinyin": "chī fàn",
+      "english": "eat a meal"
+    }
+  ],
+  "L17": [
+    {
+      "id": "L17-ui-1",
+      "simplified": "家庭",
+      "traditional": "家庭",
+      "pinyin": "jiā tíng",
+      "english": "family"
+    }
+  ],
+  "L23": [
+    {
+      "id": "L23-ui-1",
+      "simplified": "答",
+      "traditional": "答",
+      "pinyin": "dá",
+      "english": "answer"
+    }
+  ]
+}

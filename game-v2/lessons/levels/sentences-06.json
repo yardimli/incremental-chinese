@@ -1,0 +1,576 @@
+{
+  "id": "S06",
+  "level": 6,
+  "type": "sentences",
+  "traditional": "茶館點單",
+  "simplified": "茶馆点单",
+  "pinyin": "chá guǎn diǎn dān",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "S06-1",
+      "tokens": [
+        "L04-00",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "I drink water.",
+      "audio": {
+        "female": "audio/female/12542269cf686601.mp3",
+        "male": "audio/male/12542269cf686601.mp3"
+      }
+    },
+    {
+      "id": "S06-2",
+      "tokens": [
+        "L04-00",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "I drink tea.",
+      "audio": {
+        "female": "audio/female/cc0f63e9349648af.mp3",
+        "male": "audio/male/cc0f63e9349648af.mp3"
+      }
+    },
+    {
+      "id": "S06-3",
+      "tokens": [
+        "L04-00",
+        "L06-05",
+        "L06-00"
+      ],
+      "english": "I want water.",
+      "audio": {
+        "female": "audio/female/a100c9e3ae7bc2ba.mp3",
+        "male": "audio/male/a100c9e3ae7bc2ba.mp3"
+      }
+    },
+    {
+      "id": "S06-4",
+      "tokens": [
+        "L04-00",
+        "L06-05",
+        "L06-01"
+      ],
+      "english": "I want tea.",
+      "audio": {
+        "female": "audio/female/75fc00a1483a074b.mp3",
+        "male": "audio/male/75fc00a1483a074b.mp3"
+      }
+    },
+    {
+      "id": "S06-5",
+      "tokens": [
+        "L04-00",
+        "L06-06",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "I would like to drink water.",
+      "audio": {
+        "female": "audio/female/fdaa26ac8943d4a4.mp3",
+        "male": "audio/male/fdaa26ac8943d4a4.mp3"
+      }
+    },
+    {
+      "id": "S06-6",
+      "tokens": [
+        "L04-00",
+        "L06-06",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "I would like to drink tea.",
+      "audio": {
+        "female": "audio/female/38a01082bd0ec693.mp3",
+        "male": "audio/male/38a01082bd0ec693.mp3"
+      }
+    },
+    {
+      "id": "S06-7",
+      "tokens": [
+        "L04-01",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "You drink water.",
+      "audio": {
+        "female": "audio/female/36274e37899de2ce.mp3",
+        "male": "audio/male/36274e37899de2ce.mp3"
+      }
+    },
+    {
+      "id": "S06-8",
+      "tokens": [
+        "L04-01",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "You drink tea.",
+      "audio": {
+        "female": "audio/female/6493a07382f7de8d.mp3",
+        "male": "audio/male/6493a07382f7de8d.mp3"
+      }
+    },
+    {
+      "id": "S06-9",
+      "tokens": [
+        "L04-01",
+        "L06-05",
+        "L06-00"
+      ],
+      "english": "You want water.",
+      "audio": {
+        "female": "audio/female/6019197727dc1b55.mp3",
+        "male": "audio/male/6019197727dc1b55.mp3"
+      }
+    },
+    {
+      "id": "S06-10",
+      "tokens": [
+        "L04-01",
+        "L06-05",
+        "L06-01"
+      ],
+      "english": "You want tea.",
+      "audio": {
+        "female": "audio/female/434ac0e0daf3cd39.mp3",
+        "male": "audio/male/434ac0e0daf3cd39.mp3"
+      }
+    },
+    {
+      "id": "S06-11",
+      "tokens": [
+        "L04-01",
+        "L06-06",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "You would like to drink water.",
+      "audio": {
+        "female": "audio/female/884c9766610874a4.mp3",
+        "male": "audio/male/884c9766610874a4.mp3"
+      }
+    },
+    {
+      "id": "S06-12",
+      "tokens": [
+        "L04-01",
+        "L06-06",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "You would like to drink tea.",
+      "audio": {
+        "female": "audio/female/8e54f058972f3b2f.mp3",
+        "male": "audio/male/8e54f058972f3b2f.mp3"
+      }
+    },
+    {
+      "id": "S06-13",
+      "tokens": [
+        "L04-02",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "He drinks water.",
+      "audio": {
+        "female": "audio/female/47e4f6de762fdc1b.mp3",
+        "male": "audio/male/47e4f6de762fdc1b.mp3"
+      }
+    },
+    {
+      "id": "S06-14",
+      "tokens": [
+        "L04-02",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "He drinks tea.",
+      "audio": {
+        "female": "audio/female/67a33a8f1234c288.mp3",
+        "male": "audio/male/67a33a8f1234c288.mp3"
+      }
+    },
+    {
+      "id": "S06-15",
+      "tokens": [
+        "L04-02",
+        "L06-05",
+        "L06-00"
+      ],
+      "english": "He wants water.",
+      "audio": {
+        "female": "audio/female/d57ed98afa56b93d.mp3",
+        "male": "audio/male/d57ed98afa56b93d.mp3"
+      }
+    },
+    {
+      "id": "S06-16",
+      "tokens": [
+        "L04-02",
+        "L06-05",
+        "L06-01"
+      ],
+      "english": "He wants tea.",
+      "audio": {
+        "female": "audio/female/2956c7fb6c131995.mp3",
+        "male": "audio/male/2956c7fb6c131995.mp3"
+      }
+    },
+    {
+      "id": "S06-17",
+      "tokens": [
+        "L04-02",
+        "L06-06",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "He would like to drink water.",
+      "audio": {
+        "female": "audio/female/64ab567b3351b65e.mp3",
+        "male": "audio/male/64ab567b3351b65e.mp3"
+      }
+    },
+    {
+      "id": "S06-18",
+      "tokens": [
+        "L04-02",
+        "L06-06",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "He would like to drink tea.",
+      "audio": {
+        "female": "audio/female/03a6dc2f3c3639c3.mp3",
+        "male": "audio/male/03a6dc2f3c3639c3.mp3"
+      }
+    },
+    {
+      "id": "S06-19",
+      "tokens": [
+        "L04-03",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "She drinks water.",
+      "audio": {
+        "female": "audio/female/477ae4c3a03f1e7e.mp3",
+        "male": "audio/male/477ae4c3a03f1e7e.mp3"
+      }
+    },
+    {
+      "id": "S06-20",
+      "tokens": [
+        "L04-03",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "She drinks tea.",
+      "audio": {
+        "female": "audio/female/9221d65bab0eabf4.mp3",
+        "male": "audio/male/9221d65bab0eabf4.mp3"
+      }
+    },
+    {
+      "id": "S06-21",
+      "tokens": [
+        "L04-03",
+        "L06-05",
+        "L06-00"
+      ],
+      "english": "She wants water.",
+      "audio": {
+        "female": "audio/female/a295e1c6623df3f1.mp3",
+        "male": "audio/male/a295e1c6623df3f1.mp3"
+      }
+    },
+    {
+      "id": "S06-22",
+      "tokens": [
+        "L04-03",
+        "L06-05",
+        "L06-01"
+      ],
+      "english": "She wants tea.",
+      "audio": {
+        "female": "audio/female/b5db08ae279fe6f6.mp3",
+        "male": "audio/male/b5db08ae279fe6f6.mp3"
+      }
+    },
+    {
+      "id": "S06-23",
+      "tokens": [
+        "L04-03",
+        "L06-06",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "She would like to drink water.",
+      "audio": {
+        "female": "audio/female/51ac60e25e4bc542.mp3",
+        "male": "audio/male/51ac60e25e4bc542.mp3"
+      }
+    },
+    {
+      "id": "S06-24",
+      "tokens": [
+        "L04-03",
+        "L06-06",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "She would like to drink tea.",
+      "audio": {
+        "female": "audio/female/a868d672919f6984.mp3",
+        "male": "audio/male/a868d672919f6984.mp3"
+      }
+    },
+    {
+      "id": "S06-25",
+      "tokens": [
+        "L04-04",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "We drink water.",
+      "audio": {
+        "female": "audio/female/69aea114fd24fcae.mp3",
+        "male": "audio/male/69aea114fd24fcae.mp3"
+      }
+    },
+    {
+      "id": "S06-26",
+      "tokens": [
+        "L04-04",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "We drink tea.",
+      "audio": {
+        "female": "audio/female/7df30bc55b219137.mp3",
+        "male": "audio/male/7df30bc55b219137.mp3"
+      }
+    },
+    {
+      "id": "S06-27",
+      "tokens": [
+        "L04-04",
+        "L06-05",
+        "L06-00"
+      ],
+      "english": "We want water.",
+      "audio": {
+        "female": "audio/female/cecd11df1e365c73.mp3",
+        "male": "audio/male/cecd11df1e365c73.mp3"
+      }
+    },
+    {
+      "id": "S06-28",
+      "tokens": [
+        "L04-04",
+        "L06-05",
+        "L06-01"
+      ],
+      "english": "We want tea.",
+      "audio": {
+        "female": "audio/female/c8dfff773cc9c2ed.mp3",
+        "male": "audio/male/c8dfff773cc9c2ed.mp3"
+      }
+    },
+    {
+      "id": "S06-29",
+      "tokens": [
+        "L04-04",
+        "L06-06",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "We would like to drink water.",
+      "audio": {
+        "female": "audio/female/ce2e195a485b40ff.mp3",
+        "male": "audio/male/ce2e195a485b40ff.mp3"
+      }
+    },
+    {
+      "id": "S06-30",
+      "tokens": [
+        "L04-04",
+        "L06-06",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "We would like to drink tea.",
+      "audio": {
+        "female": "audio/female/53c3ecc19c3877c0.mp3",
+        "male": "audio/male/53c3ecc19c3877c0.mp3"
+      }
+    },
+    {
+      "id": "S06-31",
+      "tokens": [
+        "L04-00",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "I drink water.",
+      "audio": {
+        "female": "audio/female/12542269cf686601.mp3",
+        "male": "audio/male/12542269cf686601.mp3"
+      }
+    },
+    {
+      "id": "S06-32",
+      "tokens": [
+        "L05-05",
+        "L04-08",
+        "L06-01"
+      ],
+      "english": "This is tea.",
+      "audio": {
+        "female": "audio/female/e942d607fc1948e4.mp3",
+        "male": "audio/male/e942d607fc1948e4.mp3"
+      }
+    },
+    {
+      "id": "S06-33",
+      "tokens": [
+        "L04-00",
+        "L06-08",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "I do not drink tea.",
+      "audio": {
+        "female": "audio/female/5ba3aaa8d34e7847.mp3",
+        "male": "audio/male/5ba3aaa8d34e7847.mp3"
+      }
+    },
+    {
+      "id": "S06-34",
+      "tokens": [
+        "L04-01",
+        "L06-02",
+        "L06-01",
+        "L04-10"
+      ],
+      "english": "Do you drink tea?",
+      "audio": {
+        "female": "audio/female/e214d0cc9c73de0b.mp3",
+        "male": "audio/male/e214d0cc9c73de0b.mp3"
+      }
+    },
+    {
+      "id": "S06-35",
+      "tokens": [
+        "L04-02",
+        "L04-08",
+        "L04-11"
+      ],
+      "english": "Who is he?",
+      "audio": {
+        "female": "audio/female/52a020293d3f47ed.mp3",
+        "male": "audio/male/52a020293d3f47ed.mp3"
+      }
+    },
+    {
+      "id": "S06-36",
+      "tokens": [
+        "L04-00",
+        "L04-09",
+        "L06-03"
+      ],
+      "english": "My cup.",
+      "audio": {
+        "female": "audio/female/8db2e5265ac98766.mp3",
+        "male": "audio/male/8db2e5265ac98766.mp3"
+      }
+    },
+    {
+      "id": "S06-37",
+      "tokens": [
+        "L04-00",
+        "L05-10",
+        "L05-09",
+        "L03-02"
+      ],
+      "english": "I do not have money.",
+      "audio": {
+        "female": "audio/female/9497c27c838317c4.mp3",
+        "male": "audio/male/9497c27c838317c4.mp3"
+      }
+    },
+    {
+      "id": "S06-38",
+      "tokens": [
+        "L04-02",
+        "L05-08",
+        "L05-00"
+      ],
+      "english": "He is at home.",
+      "audio": {
+        "female": "audio/female/77e20b3a4725cb86.mp3",
+        "male": "audio/male/77e20b3a4725cb86.mp3"
+      }
+    },
+    {
+      "id": "S06-39",
+      "tokens": [
+        "L04-01",
+        "L05-08",
+        "L05-13"
+      ],
+      "english": "Where are you?",
+      "audio": {
+        "female": "audio/female/4a2d10b61e535e45.mp3",
+        "male": "audio/male/4a2d10b61e535e45.mp3"
+      }
+    },
+    {
+      "id": "S06-40",
+      "tokens": [
+        "L02-01",
+        "L06-04",
+        "L04-05"
+      ],
+      "english": "Two people.",
+      "audio": {
+        "female": "audio/female/720058c0ec4529fe.mp3",
+        "male": "audio/male/720058c0ec4529fe.mp3"
+      }
+    },
+    {
+      "id": "S06-41",
+      "tokens": [
+        "L05-05",
+        "L06-04",
+        "L06-03"
+      ],
+      "english": "This cup.",
+      "audio": {
+        "female": "audio/female/7b1059821430cc9b.mp3",
+        "male": "audio/male/7b1059821430cc9b.mp3"
+      }
+    },
+    {
+      "id": "S06-42",
+      "tokens": [
+        "L04-01",
+        "L05-02",
+        "L06-08",
+        "L05-02"
+      ],
+      "english": "Are you coming?",
+      "audio": {
+        "female": "audio/female/b5838baebd0b0d06.mp3",
+        "male": "audio/male/b5838baebd0b0d06.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/0b86b3ef789f488c.mp3",
+    "male": "audio/male/0b86b3ef789f488c.mp3"
+  },
+  "english": "Ordering tea"
+}

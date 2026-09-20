@@ -1,0 +1,170 @@
+{
+  "id": "L05",
+  "level": 5,
+  "type": "pairs",
+  "title": "Welcome home",
+  "traditional": "回家",
+  "simplified": "回家",
+  "pinyin": "huí jiā",
+  "pairs": [
+    {
+      "id": "L05-00",
+      "simplified": "家",
+      "traditional": "家",
+      "pinyin": "jiā",
+      "english": "home / family",
+      "audio": {
+        "female": "audio/female/c8ae97be80f3867c.mp3",
+        "male": "audio/male/c8ae97be80f3867c.mp3"
+      }
+    },
+    {
+      "id": "L05-01",
+      "simplified": "住",
+      "traditional": "住",
+      "pinyin": "zhù",
+      "english": "live / stay",
+      "audio": {
+        "female": "audio/female/cbba0a98abd10ccc.mp3",
+        "male": "audio/male/cbba0a98abd10ccc.mp3"
+      }
+    },
+    {
+      "id": "L05-02",
+      "simplified": "来",
+      "traditional": "來",
+      "pinyin": "lái",
+      "english": "come",
+      "audio": {
+        "female": "audio/female/482a8ea41ef4a2a6.mp3",
+        "male": "audio/male/482a8ea41ef4a2a6.mp3"
+      }
+    },
+    {
+      "id": "L05-03",
+      "simplified": "去",
+      "traditional": "去",
+      "pinyin": "qù",
+      "english": "go",
+      "audio": {
+        "female": "audio/female/99ae21ea6c39ccc1.mp3",
+        "male": "audio/male/99ae21ea6c39ccc1.mp3"
+      }
+    },
+    {
+      "id": "L05-04",
+      "simplified": "回",
+      "traditional": "回",
+      "pinyin": "huí",
+      "english": "return",
+      "audio": {
+        "female": "audio/female/6da3e5c03ac7e66c.mp3",
+        "male": "audio/male/6da3e5c03ac7e66c.mp3"
+      }
+    },
+    {
+      "id": "L05-05",
+      "simplified": "这",
+      "traditional": "這",
+      "pinyin": "zhè",
+      "english": "this / here",
+      "audio": {
+        "female": "audio/female/12322de2bfa83488.mp3",
+        "male": "audio/male/12322de2bfa83488.mp3"
+      }
+    },
+    {
+      "id": "L05-06",
+      "simplified": "那",
+      "traditional": "那",
+      "pinyin": "nà",
+      "english": "that / there",
+      "audio": {
+        "female": "audio/female/5a2362a20207f453.mp3",
+        "male": "audio/male/5a2362a20207f453.mp3"
+      }
+    },
+    {
+      "id": "L05-07",
+      "simplified": "哪",
+      "traditional": "哪",
+      "pinyin": "nǎ",
+      "english": "which / where",
+      "audio": {
+        "female": "audio/female/3f3e286143b37030.mp3",
+        "male": "audio/male/3f3e286143b37030.mp3"
+      }
+    },
+    {
+      "id": "L05-08",
+      "simplified": "在",
+      "traditional": "在",
+      "pinyin": "zài",
+      "english": "at / in",
+      "audio": {
+        "female": "audio/female/12404a0b63817240.mp3",
+        "male": "audio/male/12404a0b63817240.mp3"
+      }
+    },
+    {
+      "id": "L05-09",
+      "simplified": "有",
+      "traditional": "有",
+      "pinyin": "yǒu",
+      "english": "have / there is",
+      "audio": {
+        "female": "audio/female/90ce0f66f09488f2.mp3",
+        "male": "audio/male/90ce0f66f09488f2.mp3"
+      }
+    },
+    {
+      "id": "L05-10",
+      "simplified": "没",
+      "traditional": "沒",
+      "pinyin": "méi",
+      "english": "not / did not (negation of 有 or past actions)",
+      "audio": {
+        "female": "audio/female/0a98526bdb379e40.mp3",
+        "male": "audio/male/0a98526bdb379e40.mp3"
+      }
+    },
+    {
+      "id": "L05-11",
+      "simplified": "这儿",
+      "traditional": "這兒",
+      "pinyin": "zhè ér",
+      "english": "here",
+      "audio": {
+        "female": "audio/female/00d355bd279d7b25.mp3",
+        "male": "audio/male/00d355bd279d7b25.mp3"
+      }
+    },
+    {
+      "id": "L05-12",
+      "simplified": "那儿",
+      "traditional": "那兒",
+      "pinyin": "nà ér",
+      "english": "there",
+      "audio": {
+        "female": "audio/female/e0fe09f132e0b18a.mp3",
+        "male": "audio/male/e0fe09f132e0b18a.mp3"
+      }
+    },
+    {
+      "id": "L05-13",
+      "simplified": "哪儿",
+      "traditional": "哪兒",
+      "pinyin": "nǎ ér",
+      "english": "where",
+      "audio": {
+        "female": "audio/female/4d40f47a7a18a29f.mp3",
+        "male": "audio/male/4d40f47a7a18a29f.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/9a6ce4cf2cab6307.mp3",
+    "male": "audio/male/9a6ce4cf2cab6307.mp3"
+  },
+  "english": "Coming home"
+}

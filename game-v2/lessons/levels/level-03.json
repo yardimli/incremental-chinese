@@ -1,0 +1,186 @@
+{
+  "id": "L03",
+  "level": 3,
+  "type": "pairs",
+  "title": "Bigger earnings",
+  "traditional": "大數與錢",
+  "simplified": "大数与钱",
+  "pinyin": "dà shù yǔ qián",
+  "pairs": [
+    {
+      "id": "L03-00",
+      "simplified": "百",
+      "traditional": "百",
+      "pinyin": "bǎi",
+      "english": "hundred",
+      "number": 100,
+      "audio": {
+        "female": "audio/female/089d8c4c00705fce.mp3",
+        "male": "audio/male/089d8c4c00705fce.mp3"
+      }
+    },
+    {
+      "id": "L03-01",
+      "simplified": "千",
+      "traditional": "千",
+      "pinyin": "qiān",
+      "english": "thousand",
+      "number": 1000,
+      "audio": {
+        "female": "audio/female/23d862decf4f14ab.mp3",
+        "male": "audio/male/23d862decf4f14ab.mp3"
+      }
+    },
+    {
+      "id": "L03-02",
+      "simplified": "钱",
+      "traditional": "錢",
+      "pinyin": "qián",
+      "english": "money",
+      "audio": {
+        "female": "audio/female/2f7253a67200d0fc.mp3",
+        "male": "audio/male/2f7253a67200d0fc.mp3"
+      }
+    },
+    {
+      "id": "L03-03",
+      "simplified": "块",
+      "traditional": "塊",
+      "pinyin": "kuài",
+      "english": "yuan (colloquial)",
+      "audio": {
+        "female": "audio/female/ca883481741ae7f3.mp3",
+        "male": "audio/male/ca883481741ae7f3.mp3"
+      }
+    },
+    {
+      "id": "L03-04",
+      "simplified": "元",
+      "traditional": "元",
+      "pinyin": "yuán",
+      "english": "yuan",
+      "audio": {
+        "female": "audio/female/7f77f23af7b0dcc8.mp3",
+        "male": "audio/male/7f77f23af7b0dcc8.mp3"
+      }
+    },
+    {
+      "id": "L03-05",
+      "simplified": "多少",
+      "traditional": "多少",
+      "pinyin": "duō shǎo",
+      "english": "how much / how many",
+      "audio": {
+        "female": "audio/female/fb8f01cb6d4be28b.mp3",
+        "male": "audio/male/fb8f01cb6d4be28b.mp3"
+      }
+    },
+    {
+      "id": "L03-06",
+      "simplified": "多",
+      "traditional": "多",
+      "pinyin": "duō",
+      "english": "many / much",
+      "audio": {
+        "female": "audio/female/1940119f05716460.mp3",
+        "male": "audio/male/1940119f05716460.mp3"
+      }
+    },
+    {
+      "id": "L03-07",
+      "simplified": "少",
+      "traditional": "少",
+      "pinyin": "shǎo",
+      "english": "few / little",
+      "audio": {
+        "female": "audio/female/62f99c9a0c50d790.mp3",
+        "male": "audio/male/62f99c9a0c50d790.mp3"
+      }
+    },
+    {
+      "id": "L03-08",
+      "simplified": "万",
+      "traditional": "萬",
+      "pinyin": "wàn",
+      "english": "ten thousand",
+      "number": 10000,
+      "audio": {
+        "female": "audio/female/93203d1ae93964e0.mp3",
+        "male": "audio/male/93203d1ae93964e0.mp3"
+      }
+    },
+    {
+      "id": "L03-09",
+      "simplified": "亿",
+      "traditional": "億",
+      "pinyin": "yì",
+      "english": "hundred million",
+      "number": 100000000,
+      "audio": {
+        "female": "audio/female/156c544b02e10e04.mp3",
+        "male": "audio/male/156c544b02e10e04.mp3"
+      }
+    },
+    {
+      "id": "L03-10",
+      "simplified": "兆",
+      "traditional": "兆",
+      "pinyin": "zhào",
+      "english": "trillion",
+      "number": 1000000000000,
+      "audio": {
+        "female": "audio/female/28009e677153022d.mp3",
+        "male": "audio/male/28009e677153022d.mp3"
+      }
+    },
+    {
+      "id": "L03-ui-1",
+      "simplified": "与",
+      "traditional": "與",
+      "pinyin": "yǔ",
+      "english": "and",
+      "audio": {
+        "female": "audio/female/2b30dbf162410d5e.mp3",
+        "male": "audio/male/2b30dbf162410d5e.mp3"
+      }
+    },
+    {
+      "id": "L03-ui-2",
+      "simplified": "数量",
+      "traditional": "數量",
+      "pinyin": "shù liàng",
+      "english": "quantity",
+      "audio": {
+        "female": "audio/female/be547beabfb63b00.mp3",
+        "male": "audio/male/be547beabfb63b00.mp3"
+      }
+    },
+    {
+      "id": "L03-ui-3",
+      "simplified": "组合",
+      "traditional": "組合",
+      "pinyin": "zǔ hé",
+      "english": "combination",
+      "audio": {
+        "female": "audio/female/eec1691e9deb7b40.mp3",
+        "male": "audio/male/eec1691e9deb7b40.mp3"
+      }
+    },
+    {
+      "id": "L03-ui-4",
+      "simplified": "数",
+      "traditional": "數",
+      "pinyin": "shù",
+      "english": "number",
+      "audio": {
+        "female": "audio/female/fa54243fc097e9fa.mp3",
+        "male": "audio/male/fa54243fc097e9fa.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/5db9aad3e6740c51.mp3",
+    "male": "audio/male/5db9aad3e6740c51.mp3"
+  },
+  "english": "Big numbers & money"
+}

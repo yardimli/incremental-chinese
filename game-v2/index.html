@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Chinese · Play</title>
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="game-theme.css" />
+    <link rel="stylesheet" href="gameplay.css" />
+    <link rel="stylesheet" href="sprites.css" />
+    <link rel="stylesheet" href="modes.css" />
+    <link rel="stylesheet" href="app.css" />
+    <script src="viewport.js" defer></script>
+    <script type="module" src="shared.js"></script>
+  </head>
+  <body>
+    <div class="phone" id="game-frame" data-page="home">
+      <header class="header">
+        <div class="header-title">
+          <i class="header-tab-icon sprite sprite-play" aria-hidden="true"></i>
+          <h1><span data-ui="Home"></span></h1>
+        </div>
+        <div class="head-right">
+          <span class="score"
+            ><span class="coin" aria-hidden="true"></span><span data-coins>0</span></span
+          ><button class="gear sound-button" type="button" data-ui-aria-label="All sounds">
+            <span data-sound-icon="all" aria-hidden="true"
+              ><svg width="21" height="21" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M3 9h4l5-4v14l-5-4H3z" />
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  d="M15 8q4 4 0 8m3-11q7 7 0 14"
+                /></svg
+            ></span>
+            <span data-sound-icon="lessons" aria-hidden="true" hidden>文</span>
+            <span data-sound-icon="none" aria-hidden="true" hidden
+              ><svg width="21" height="21" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M3 9h4l5-4v14l-5-4H3z" />
+                <path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  d="m16 9 5 6m0-6-5 6"
+                /></svg
+            ></span></button
+          ><a class="gear" href="settings.html" data-ui-aria-label="Settings">⚙</a>
+        </div>
+      </header>
+      <main class="game-screen app" data-screen="home" hidden></main>
+      <main class="game-screen app" data-screen="match" hidden></main>
+      <main class="game-screen app" data-screen="order" hidden></main>
+      <main class="game-screen app" data-screen="sets" hidden></main>
+      <main class="game-screen app" data-screen="memory" hidden></main>
+      <main class="game-screen app" data-screen="restart" hidden></main>
+      <main class="game-screen app" data-screen="settings" hidden></main>
+      <main class="game-screen app" data-screen="bonus" hidden></main>
+      <main class="game-screen" data-screen="card-reward" hidden></main>
+      <main class="game-screen" data-screen="set-reward" hidden></main>
+      <main class="game-screen" data-screen="sentence-reward" hidden></main>
+      <main class="game-screen app guide-screen" data-screen="guide" hidden>
+        <h1>A journey through Chinese</h1>
+        <p>
+          Match Chinese and English, earn coins and collect your cards. Home resumes your current
+          game; Sets shows your collection. Settings controls script, pinyin, English assistance and
+          sound.
+        </p>
+        <h2>Advancement</h2>
+        <p>
+          Complete the current word or sentence set with at least 80% correct answers to advance.
+          Exactly 80% passes. Below 80%, the same set starts again with a fresh accuracy count.
+          Coins already earned stay yours. Skipped targets do not count as wrong answers.
+        </p>
+        <p>
+          The thin bar above the footer shows your correct-answer ratio. Only answers in the current
+          main set affect it; bonus and memory games earn coins without changing it.
+        </p>
+        <h2>The journey</h2>
+        <p>
+          25 word levels begin with numbers, followed by everyday HSK vocabulary. Eight sentence
+          stages each use ten prompts drawn from a pool of at least thirty. Every word set has at
+          most twenty cards.
+        </p>
+        <p>
+          Battle progresses through one to four choices. Matching is a slower break with five pairs
+          per board. Tap two matching cards or drag one onto its partner. Card rewards arrive during
+          play, followed by a set reward.
+        </p>
+        <h2>Extra games and coins</h2>
+        <p>
+          Memory has twelve cards: six Chinese–English pairs. Bonus puzzles increase their reward as
+          you play. You can stop either game at any time. Coins come from playing and completing
+          sets; there is no passive production or spending system in this version.
+        </p>
+        <h2>Prestige</h2>
+        <p>
+          After collecting a set, prestige starts the journey again. It resets coins and current
+          progress, keeps settings and collection history, and adds 0.5 to the coin multiplier.
+          Sentence selections vary on each journey.
+        </p>
+        <h2>Debug</h2>
+        <p>
+          Space performs a correct move or continues a reward. On localhost, double-click a set to
+          complete it with three times its normal reward. Reset clears only game-v2 progress;
+          game-v1 is separate.
+        </p>
+        <button id="reset-progress">Reset progress</button>
+        <p id="reset-status" role="status"></p>
+      </main>
+      <nav class="footer" data-ui-aria-label="Main navigation">
+        <div class="accuracy-strip">
+          <div
+            class="accuracy-track"
+            role="meter"
+            data-ui-aria-label="Level accuracy"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <i></i>
+          </div>
+        </div>
+        <a href="home.html" data-nav="home"
+          ><i aria-hidden="true" class="sprite sprite-play"></i
+          ><span data-button-label="home"></span></a
+        ><a href="sets.html" data-nav="sets"
+          ><i aria-hidden="true" class="sprite sprite-sets"></i
+          ><span data-button-label="sets"></span
+        ></a>
+      </nav>
+      <div class="pause-overlay" hidden>
+        <section class="pause-panel" role="dialog" aria-modal="true" aria-labelledby="pause-title">
+          <h2 id="pause-title"><span data-ui="Paused"></span></h2>
+          <p data-reason></p>
+          <button class="primary" type="button"><span data-ui="Resume"></span></button>
+        </section>
+      </div>
+    </div>
+    <a class="guide" href="guide.html">Game guide</a
+    ><noscript
+      >本遊戲需要啟用 JavaScript。<br />běn yóu xì xū yào qǐ yòng JavaScript.<br />This game needs
+      JavaScript.</noscript
+    ><template id="tpl-shared-1">
+      <span class="number-group">{{0}}{{1}}</span>
+    </template>
+    <template id="tpl-wrapNumberLabel-2">
+      <wbr />
+    </template>
+    <template id="tpl-wrapNumberLabel-3">
+      <span class="number-label">{{0}}</span>
+    </template>
+    <template id="tpl-textCard-4">
+      <span data-speech="{{0}}" class="hanzi" style="--hanzi-count:{{1}}">{{2}}</span>
+    </template>
+    <template id="tpl-textCard-5">
+      <span data-speech="{{0}}" class="pinyin">{{1}}</span>
+    </template>
+    <template id="tpl-textCard-6"> {{0}}{{1}}{{2}} </template>
+    <template id="tpl-englishTranslation-7">
+      <span class="english-translation">{{0}}</span>
+    </template>
+
+    <template id="tpl-shared-12">
+      <strong class="hanzi">{{0}}</strong>
+    </template>
+    <template id="tpl-shared-13">
+      <span class="pinyin">[{{0}}]</span>
+    </template>
+    <template id="tpl-shared-14">
+      <div class="dictionary-entry {{0}}" data-row="{{1}}">
+        {{2}}{{3}}<span class="translation">: {{4}}</span>
+      </div>
+    </template>
+    <template id="tpl-dictionary-15">
+      <div class="dictionary-columns">{{0}}</div>
+    </template>
+    <template id="tpl-dictionary-16">
+      <div class="dictionary" data-ui-aria-label="Discovered pairs">{{0}}</div>
+    </template>
+    <template id="tpl-shared-17"> {{0}} {{1}} </template>
+    <template id="tpl-drawCardReward-18">
+      <div class="small"><span data-ui="Also collected: {{0}}"></span></div>
+    </template>
+    <template id="tpl-drawCardReward-19">
+      <h1><span data-ui="Card reward"></span></h1>
+      <div class="gain">{{0}}{{1}}</div>
+      <div class="card hero-card">{{2}}</div>
+      {{3}}
+      <section class="panel">
+        {{4}}
+        <h2>{{5}} → {{6}} / {{7}}</h2>
+        <progress value="{{8}}" max="{{9}}"></progress>
+      </section>
+      <p class="muted">{{10}}</p>
+      <button class="primary" id="continue"><span data-ui="Continue"></span></button>
+    </template>
+    <template id="tpl-drawSetReward-20">
+      <h1><span data-ui="Try this set again"></span></h1>
+      <section class="reward-emblem">{{0}}</section>
+      <section class="panel">
+        <div class="big">{{1}}%</div>
+        <p><span data-ui="Correct answers · {{2}} / {{3}}"></span></p>
+        <p><span data-ui="Reach 80% accuracy to complete this set."></span></p>
+      </section>
+      <p class="muted">
+        <span data-ui="Keep your coins and collected cards. Start a fresh attempt."></span>
+      </p>
+      <button id="claim" class="primary"><span data-ui="Play again"></span></button>
+    </template>
+    <template id="tpl-drawSetReward-21">
+      <h1>{{0}}</h1>
+      <section class="reward-emblem">{{1}}</section>
+      <div class="gain">+{{2}} <span class="coin" aria-hidden="true"></span></div>
+      <section class="panel">
+        <div class="big">{{3}}</div>
+        <p><span data-ui="Collected"></span></p>
+        <progress value="1" max="1"></progress>
+      </section>
+      <section class="panel">
+        <p><span data-ui="Ready for your next journey"></span></p>
+      </section>
+      <button id="claim" class="primary"><span data-ui="Claim set award"></span></button>
+    </template>
+    <template id="tpl-shared-22">
+      <button class="selection-button" data-set="{{0}}" data-speech="{{1}}" aria-pressed="{{2}}">
+        {{3}}<small>{{4}}{{5}}</small>
+      </button>
+    </template>
+    <template id="tpl-drawSets-23">
+      <div class="selection-grid set-picker" role="group" data-ui-aria-label="Card sets">{{0}}</div>
+    </template>
+    <template id="tpl-shared-24">
+      <span data-speech="{{0}}" class="sentence-mini">{{1}}</span>{{2}}
+    </template>
+    <template id="tpl-shared-25">
+      <div class="card {{0}}">{{1}}</div>
+    </template>
+    <template id="tpl-drawSets-26">
+      <div class="collection-toolbar">
+        <div class="row collection-heading">{{0}}<b>{{1}} / {{2}}</b></div>
+        <div class="collection-status-row">
+          <span class="small">{{3}}</span
+          ><a class="collection-back" href="sets.html"><span data-ui="← Back"></span></a>
+        </div>
+        <progress value="{{4}}" max="{{5}}"></progress>
+      </div>
+      <div class="collection">{{6}}</div>
+      <a class="secondary" href="memory.html"><span data-ui="Memory cards"></span></a
+      ><a class="secondary" href="bonus.html"><span data-ui="Bonus puzzles"></span></a>
+    </template>
+    <template id="tpl-drawRestart-27">
+      <p class="small"><span data-ui="Collect a set to unlock."></span></p>
+    </template>
+    <template id="tpl-drawRestart-28">
+      <section class="rate">
+        <div class="hanzi">再來</div>
+        <span class="pinyin">zài lái</span>
+        <div class="big">×{{0}} → ×{{1}}{{2}}</div>
+      </section>
+      <div class="reset-grid">
+        <section class="panel">
+          <b><span data-ui="Reset"></span></b>
+          <p><span data-ui="Coins"></span><br /><span data-ui="Cards and sets"></span></p>
+        </section>
+        <section class="panel">
+          <b><span data-ui="Keep"></span></b>
+          <p><span data-ui="Permanent multiplier"></span><br /><span data-ui="Settings"></span></p>
+        </section>
+      </div>
+      <p class="small"><span data-ui="New sentence selection next run."></span></p>
+      <button class="primary" id="restart" data-flag-3=""><span data-ui="Restart"></span></button
+      >{{4}}
+    </template>
+    <template id="tpl-shared-29">
+      <button class="selection-button" data-setting="{{0}}" data-value="{{1}}" aria-pressed="{{2}}">
+        {{3}}
+      </button>
+    </template>
+    <template id="tpl-shared-30">
+      <fieldset class="setting-group">
+        <legend>{{0}}</legend>
+        <div class="selection-grid {{1}}">{{2}}</div>
+      </fieldset>
+    </template>
+    <template id="tpl-drawSettings-31">
+      <section class="settings">
+        <h2><span data-ui="Cards &amp; sound"></span></h2>
+        <p class="small">
+          <span
+            data-ui="English automatically hides when you first reach level 10, including after prestige."
+          ></span>
+        </p>
+        {{0}}
+      </section>
+    </template>
+    <template id="tpl-drawPlayHome-35">
+      <section class="gate-banner">
+        <i class="sprite sprite-play"></i>
+        <h2><span data-ui="Your journey"></span></h2>
+        <p><span data-ui="Your progress is saved. Continue when you are ready."></span></p>
+      </section>
+      <a id="resume-journey" class="primary" href="{{0}}.html"
+        ><span data-ui="Continue journey"></span></a
+      ><a class="secondary" href="memory.html"><span data-ui="Play memory · earn coins"></span></a>
+      <nav class="journey-extras">
+        <a class="secondary" href="bonus.html"><span data-ui="Bonus"></span></a
+        ><a class="secondary" href="restart.html"><span data-ui="Prestige ×{{1}}"></span></a>
+      </nav>
+    </template>
+    <template id="tpl-mountBattle-36">
+      <div class="playfield arena-field battle-field">
+        {{0}}
+        <div class="battle-arena" data-ui-aria-label="Card arena">
+          <div class="battle-paths" aria-hidden="true"></div>
+          <div
+            class="battle-weapons"
+            style="--weapon-count:{{1}}"
+            role="group"
+            data-ui-aria-label="Weapons"
+          ></div>
+          <div class="battle-status" role="status" aria-live="polite"></div>
+        </div>
+      </div>
+    </template>
+    <template id="tpl-battle-arena-37">
+      <span class="weapon-face">{{0}}</span>
+    </template>
+    <template id="tpl-battle-arena-38">
+      <div class="target-face">{{0}}<span class="target-ring" aria-hidden="true"></span></div>
+    </template>
+    <template id="tpl-drawTap-40">
+      <section class="panel rate">
+        <div class="hanzi">完成</div>
+        <p><span data-ui="All journeys completed"></span></p>
+        <div class="big"><span data-ui="+{{0}} /s"></span></div>
+      </section>
+      <a class="primary" href="restart.html"><span data-ui="Restart stronger"></span></a
+      ><a class="secondary" href="bonus.html"><span data-ui="Bonus puzzles"></span></a>
+    </template>
+    <template id="tpl-battle-41">
+      <button class="arena-piece weapon-piece" data-answer="{{0}}" style="--delay:{{1}}{{2}}ms">
+        <span class="arena-face weapon-face">{{3}}</span>
+      </button>
+    </template>
+    <template id="tpl-drawTap-42">
+      <div class="playfield arena-field">
+        {{0}}
+        <div class="card-arena" data-ui-aria-label="Card arena">
+          <div class="arena-piece target-piece" tabindex="0" data-ui-aria-label="Move target">
+            <div class="arena-face target-face">
+              {{1}}<span class="target-ring" aria-hidden="true"></span>
+            </div>
+          </div>
+          {{2}}
+          <div class="arena-effect" aria-hidden="true"></div>
+          <div class="arena-status" role="status" aria-live="polite"></div>
+        </div>
+      </div>
+    </template>
+    <template id="tpl-drawBonus-43">
+      <section class="panel">
+        <p><span data-ui="Discover some pairs in Play first."></span></p>
+      </section>
+      <a class="primary" href="home.html"><span data-ui="Play"></span></a>
+    </template>
+    <template id="tpl-bonus-44">
+      <button class="primary" data-bonus="{{0}}">{{1}}</button>
+    </template>
+    <template id="tpl-drawBonus-45">
+      <p class="practice-note">
+        <span data-ui="You can stop at any time. Coins you earn are yours to keep."></span>
+      </p>
+      <div class="prompt bonus-target">{{0}}</div>
+      <div class="english-choices">{{1}}</div>
+      <div class="status" role="status"></div>
+    </template>
+    <template id="tpl-matching-46">
+      <button class="match-tile {{0}}" data-side="cn" data-id="{{1}}" data-flag-2="">{{3}}</button
+      ><button class="match-tile {{4}}" data-side="en" data-id="{{5}}" data-flag-6="">{{7}}</button>
+    </template>
+    <template id="tpl-drawMatch-47">
+      <div class="instruction">
+        <span data-ui="Tap two cards or drag one onto its pair."></span>
+      </div>
+      <div class="match-head">
+        <span><span data-ui="Chinese"></span></span><span><span data-ui="English"></span></span>
+      </div>
+      <div class="match-board">{{0}}</div>
+      <div class="status" role="status" aria-live="polite"></div>
+    </template>
+    <template id="tpl-order-48">
+      <span class="slot-number">{{0}}{{1}}</span>
+    </template>
+    <template id="tpl-order-49">
+      <button
+        class="card {{0}}"
+        data-slot="{{1}}"
+        draggable="{{2}}"
+        data-ui-aria-label="Answer position {{3}}"
+      >
+        {{5}}
+      </button>
+    </template>
+    <template id="tpl-order-50">
+      <button class="card" data-choice="{{0}}" data-flag-1="">{{2}}</button>
+    </template>
+    <template id="tpl-drawOrder-51">
+      <div class="prompt">{{0}}</div>
+      <div class="target" style="--slots:{{1}}">{{2}}</div>
+      <div class="small">
+        <span data-ui="Tap or drag to place · Tap an answer to remove"></span>
+      </div>
+      <div class="choices">{{3}}</div>
+      <div class="status" role="status" aria-live="polite"></div>
+      <button class="primary" id="check" data-flag-4=""><span data-ui="Check"></span></button>
+    </template>
+    <template id="tpl-memory-52">
+      <button class="secondary" data-memory-set="{{0}}">
+        {{1}}<small><span data-ui="{{2}} cards · +{{3}} / pair"></span></small>
+      </button>
+    </template>
+    <template id="tpl-drawMemory-53">
+      <p><span data-ui="Continue Play to unlock a word set."></span></p>
+    </template>
+    <template id="tpl-drawMemory-54">
+      <section class="memory-intro">
+        <i class="sprite sprite-memory"></i>
+        <h2><span data-ui="Turn. Remember. Match."></span></h2>
+        <p><span data-ui="Chinese + English · six pairs · 3 × 4 cards"></span></p>
+        <p class="practice-note">
+          <span data-ui="You can stop at any time. Coins you earn are yours to keep."></span>
+        </p>
+      </section>
+      <div class="memory-set-list">{{0}}</div>
+      {{1}}<a class="secondary" href="home.html"><span data-ui="Back to Play"></span></a>
+    </template>
+    <template id="tpl-drawMemory-55">
+      <section class="memory-finish">
+        <i class="sprite sprite-memory"></i>
+        <h2><span data-ui="Set remembered!"></span></h2>
+        <div class="big"><span data-ui="{{0}} pairs"></span></div>
+        <p><span data-ui="Coins awarded as you matched."></span></p>
+        <button class="primary" id="memory-again"><span data-ui="Choose another set"></span></button
+        ><a class="secondary" href="home.html"><span data-ui="Continue journey"></span></a>
+      </section>
+    </template>
+    <template id="tpl-memory-56">
+      <span class="memory-english">{{0}}</span>
+    </template>
+    <template id="tpl-memory-57">
+      <button class="memory-card {{0}}" data-flip="{{1}}">
+        <span class="memory-inner"
+          ><span class="memory-back" aria-hidden="true"><i class="sprite sprite-cardback"></i></span
+          ><span class="memory-front">{{2}}</span></span
+        >
+      </button>
+    </template>
+    <template id="tpl-drawMemory-58">
+      <p class="practice-note">
+        <span data-ui="You can stop at any time. Keep your earned coins."></span>
+      </p>
+      <div class="memory-top">
+        <span><span data-ui="Board {{0}} / {{2}}"></span></span><b data-memory-count></b
+        ><button id="memory-back" class="mini-button"><span data-ui="Sets"></span></button>
+      </div>
+      <progress max="{{3}}"></progress>
+      <div class="memory-grid">{{4}}</div>
+      <div class="memory-status" role="status"></div>
+      <div class="memory-actions"></div>
+    </template>
+    <template id="tpl-drawMemory-59">
+      <button class="primary" id="memory-next">{{0}}</button>
+    </template>
+    <template id="tpl-compact-label"
+      ><span class="compact-label"><span>{{0}}</span>{{1}}</span></template
+    >
+    <template id="tpl-production-rate"
+      ><span class="production-rate">{{0}}<span>+{{1}}/{{2}}</span></span></template
+    >
+    <template id="tpl-help-word"
+      ><span class="help-word">{{0}} (<strong lang="zh">{{1}} - {{2}}</strong>)</span></template
+    >
+    <template id="tpl-interface-text">
+      <span class="ui-text"
+        ><span class="ui-chinese" lang="zh">{{0}}</span
+        ><span class="ui-pinyin" lang="zh-Latn">{{1}}</span
+        ><span class="ui-english" lang="en">{{2}}</span></span
+      >
+    </template>
+    <template id="tpl-button-label">
+      <span class="button-label"
+        ><span class="button-chinese" lang="zh">{{0}}</span
+        ><span class="button-pinyin" lang="zh-Latn">{{1}}</span
+        ><span class="button-english" lang="en">{{2}}</span
+        ><span class="button-detail">{{3}}</span></span
+      >
+    </template>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+{
+  "id": "L06",
+  "level": 6,
+  "type": "pairs",
+  "title": "Tea stall",
+  "traditional": "喝茶",
+  "simplified": "喝茶",
+  "pinyin": "hē chá",
+  "pairs": [
+    {
+      "id": "L06-00",
+      "simplified": "水",
+      "traditional": "水",
+      "pinyin": "shuǐ",
+      "english": "water",
+      "audio": {
+        "female": "audio/female/327b54d04f71f212.mp3",
+        "male": "audio/male/327b54d04f71f212.mp3"
+      }
+    },
+    {
+      "id": "L06-01",
+      "simplified": "茶",
+      "traditional": "茶",
+      "pinyin": "chá",
+      "english": "tea",
+      "audio": {
+        "female": "audio/female/7e005ba311f86fa7.mp3",
+        "male": "audio/male/7e005ba311f86fa7.mp3"
+      }
+    },
+    {
+      "id": "L06-02",
+      "simplified": "喝",
+      "traditional": "喝",
+      "pinyin": "hē",
+      "english": "drink",
+      "audio": {
+        "female": "audio/female/193632bffe7bd105.mp3",
+        "male": "audio/male/193632bffe7bd105.mp3"
+      }
+    },
+    {
+      "id": "L06-03",
+      "simplified": "杯子",
+      "traditional": "杯子",
+      "pinyin": "bēi zi",
+      "english": "cup",
+      "audio": {
+        "female": "audio/female/95f9e8e79208082d.mp3",
+        "male": "audio/male/95f9e8e79208082d.mp3"
+      }
+    },
+    {
+      "id": "L06-04",
+      "simplified": "个",
+      "traditional": "個",
+      "pinyin": "gè",
+      "english": "general classifier",
+      "audio": {
+        "female": "audio/female/1fd3686a0aec5234.mp3",
+        "male": "audio/male/1fd3686a0aec5234.mp3"
+      }
+    },
+    {
+      "id": "L06-05",
+      "simplified": "要",
+      "traditional": "要",
+      "pinyin": "yào",
+      "english": "want / need",
+      "audio": {
+        "female": "audio/female/975f35218ed8782e.mp3",
+        "male": "audio/male/975f35218ed8782e.mp3"
+      }
+    },
+    {
+      "id": "L06-06",
+      "simplified": "想",
+      "traditional": "想",
+      "pinyin": "xiǎng",
+      "english": "want / think",
+      "audio": {
+        "female": "audio/female/df0d25193874aa17.mp3",
+        "male": "audio/male/df0d25193874aa17.mp3"
+      }
+    },
+    {
+      "id": "L06-07",
+      "simplified": "好",
+      "traditional": "好",
+      "pinyin": "hǎo",
+      "english": "good",
+      "audio": {
+        "female": "audio/female/f867f34178594f89.mp3",
+        "male": "audio/male/f867f34178594f89.mp3"
+      }
+    },
+    {
+      "id": "L06-08",
+      "simplified": "不",
+      "traditional": "不",
+      "pinyin": "bù",
+      "english": "not",
+      "audio": {
+        "female": "audio/female/b02dfe2160c687c2.mp3",
+        "male": "audio/male/b02dfe2160c687c2.mp3"
+      }
+    },
+    {
+      "id": "L06-09",
+      "simplified": "很",
+      "traditional": "很",
+      "pinyin": "hěn",
+      "english": "very / adjective linking adverb",
+      "audio": {
+        "female": "audio/female/f2b91797ea3a7171.mp3",
+        "male": "audio/male/f2b91797ea3a7171.mp3"
+      }
+    },
+    {
+      "id": "L06-10",
+      "simplified": "请",
+      "traditional": "請",
+      "pinyin": "qǐng",
+      "english": "please / invite",
+      "audio": {
+        "female": "audio/female/08f4b738942a6514.mp3",
+        "male": "audio/male/08f4b738942a6514.mp3"
+      }
+    },
+    {
+      "id": "L06-11",
+      "simplified": "谢谢",
+      "traditional": "謝謝",
+      "pinyin": "xiè xiè",
+      "english": "thank you",
+      "audio": {
+        "female": "audio/female/45216876241c254c.mp3",
+        "male": "audio/male/45216876241c254c.mp3"
+      }
+    },
+    {
+      "id": "L06-ui-1",
+      "simplified": "茶馆",
+      "traditional": "茶館",
+      "pinyin": "chá guǎn",
+      "english": "teahouse",
+      "audio": {
+        "female": "audio/female/13ec44bb48096564.mp3",
+        "male": "audio/male/13ec44bb48096564.mp3"
+      }
+    },
+    {
+      "id": "L06-ui-2",
+      "simplified": "点单",
+      "traditional": "點單",
+      "pinyin": "diǎn dān",
+      "english": "order food or drinks",
+      "audio": {
+        "female": "audio/female/2891bc7044f2f440.mp3",
+        "male": "audio/male/2891bc7044f2f440.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/cb79e0cecd8e9392.mp3",
+    "male": "audio/male/cb79e0cecd8e9392.mp3"
+  },
+  "english": "Tea time"
+}

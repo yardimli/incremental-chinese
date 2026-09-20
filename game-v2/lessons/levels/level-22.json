@@ -1,0 +1,170 @@
+{
+  "id": "L22",
+  "level": 22,
+  "type": "pairs",
+  "title": "Connected town",
+  "traditional": "消息聯絡",
+  "simplified": "消息联络",
+  "pinyin": "xiāo xi lián luò",
+  "pairs": [
+    {
+      "id": "L22-00",
+      "simplified": "电脑",
+      "traditional": "電腦",
+      "pinyin": "diàn nǎo",
+      "english": "computer",
+      "audio": {
+        "female": "audio/female/12c90ce598cb9602.mp3",
+        "male": "audio/male/12c90ce598cb9602.mp3"
+      }
+    },
+    {
+      "id": "L22-01",
+      "simplified": "电视",
+      "traditional": "電視",
+      "pinyin": "diàn shì",
+      "english": "television",
+      "audio": {
+        "female": "audio/female/b9c866317d4e52ed.mp3",
+        "male": "audio/male/b9c866317d4e52ed.mp3"
+      }
+    },
+    {
+      "id": "L22-02",
+      "simplified": "电影",
+      "traditional": "電影",
+      "pinyin": "diàn yǐng",
+      "english": "movie",
+      "audio": {
+        "female": "audio/female/a352d821db4c3300.mp3",
+        "male": "audio/male/a352d821db4c3300.mp3"
+      }
+    },
+    {
+      "id": "L22-03",
+      "simplified": "手机",
+      "traditional": "手機",
+      "pinyin": "shǒu jī",
+      "english": "mobile phone",
+      "audio": {
+        "female": "audio/female/5b3db2d89d9c8f74.mp3",
+        "male": "audio/male/5b3db2d89d9c8f74.mp3"
+      }
+    },
+    {
+      "id": "L22-04",
+      "simplified": "打电话",
+      "traditional": "打電話",
+      "pinyin": "dǎ diàn huà",
+      "english": "make a phone call",
+      "audio": {
+        "female": "audio/female/61782ab4567c68af.mp3",
+        "male": "audio/male/61782ab4567c68af.mp3"
+      }
+    },
+    {
+      "id": "L22-05",
+      "simplified": "喂",
+      "traditional": "喂",
+      "pinyin": "wèi",
+      "english": "hello (on the phone)",
+      "audio": {
+        "female": "audio/female/ea8ea533443d8196.mp3",
+        "male": "audio/male/ea8ea533443d8196.mp3"
+      }
+    },
+    {
+      "id": "L22-06",
+      "simplified": "报纸",
+      "traditional": "報紙",
+      "pinyin": "bào zhǐ",
+      "english": "newspaper",
+      "audio": {
+        "female": "audio/female/2cc8aa520e6bffca.mp3",
+        "male": "audio/male/2cc8aa520e6bffca.mp3"
+      }
+    },
+    {
+      "id": "L22-07",
+      "simplified": "公司",
+      "traditional": "公司",
+      "pinyin": "gōng sī",
+      "english": "company",
+      "audio": {
+        "female": "audio/female/e06ff957ed48e868.mp3",
+        "male": "audio/male/e06ff957ed48e868.mp3"
+      }
+    },
+    {
+      "id": "L22-08",
+      "simplified": "上班",
+      "traditional": "上班",
+      "pinyin": "shàng bān",
+      "english": "go to work / be on duty",
+      "audio": {
+        "female": "audio/female/fbb0f7cc70d4bb48.mp3",
+        "male": "audio/male/fbb0f7cc70d4bb48.mp3"
+      }
+    },
+    {
+      "id": "L22-09",
+      "simplified": "时间",
+      "traditional": "時間",
+      "pinyin": "shí jiān",
+      "english": "time",
+      "audio": {
+        "female": "audio/female/bf6267da6077b6be.mp3",
+        "male": "audio/male/bf6267da6077b6be.mp3"
+      }
+    },
+    {
+      "id": "L22-10",
+      "simplified": "小时",
+      "traditional": "小時",
+      "pinyin": "xiǎo shí",
+      "english": "hour",
+      "audio": {
+        "female": "audio/female/507ac2c9262eb725.mp3",
+        "male": "audio/male/507ac2c9262eb725.mp3"
+      }
+    },
+    {
+      "id": "L22-11",
+      "simplified": "手表",
+      "traditional": "手錶",
+      "pinyin": "shǒu biǎo",
+      "english": "wristwatch",
+      "audio": {
+        "female": "audio/female/0104d075bca53c4f.mp3",
+        "male": "audio/male/0104d075bca53c4f.mp3"
+      }
+    },
+    {
+      "id": "L22-ui-1",
+      "simplified": "消息",
+      "traditional": "消息",
+      "pinyin": "xiāo xī",
+      "english": "message",
+      "audio": {
+        "female": "audio/female/4da199fae933d4fa.mp3",
+        "male": "audio/male/4da199fae933d4fa.mp3"
+      }
+    },
+    {
+      "id": "L22-ui-2",
+      "simplified": "联络",
+      "traditional": "聯絡",
+      "pinyin": "lián luò",
+      "english": "contact",
+      "audio": {
+        "female": "audio/female/fc6fca7b73488224.mp3",
+        "male": "audio/male/fc6fca7b73488224.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/4ef9d43f37216cc4.mp3",
+    "male": "audio/male/4ef9d43f37216cc4.mp3"
+  },
+  "english": "Staying connected"
+}

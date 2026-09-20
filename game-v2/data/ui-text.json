@@ -1,0 +1,587 @@
+{
+  "Play": {
+    "traditional": "遊戲",
+    "simplified": "游戏",
+    "pinyin": "yóu xì"
+  },
+  "Match": {
+    "traditional": "配對",
+    "simplified": "配对",
+    "pinyin": "pèi duì"
+  },
+  "Card order": {
+    "traditional": "排列卡片",
+    "simplified": "排列卡片",
+    "pinyin": "pái liè kǎ piàn"
+  },
+  "Sets": {
+    "traditional": "卡冊",
+    "simplified": "卡册",
+    "pinyin": "kǎ cè"
+  },
+  "Memory": {
+    "traditional": "記憶",
+    "simplified": "记忆",
+    "pinyin": "jì yì"
+  },
+  "Prestige": {
+    "traditional": "重生",
+    "simplified": "重生",
+    "pinyin": "chóng shēng"
+  },
+  "Settings": {
+    "traditional": "設定",
+    "simplified": "设置",
+    "pinyin": "shè dìng"
+  },
+  "Bonus": {
+    "traditional": "額外挑戰",
+    "simplified": "额外挑战",
+    "pinyin": "é wài tiǎo zhàn"
+  },
+  "All sounds": {
+    "traditional": "所有聲音",
+    "simplified": "所有声音",
+    "pinyin": "suǒ yǒu shēng yīn"
+  },
+  "Lesson sounds only": {
+    "traditional": "只播放題目",
+    "simplified": "只播放题目",
+    "pinyin": "zhǐ bō fàng tí mù"
+  },
+  "No sound": {
+    "traditional": "靜音",
+    "simplified": "静音",
+    "pinyin": "jìng yīn"
+  },
+  "Click for {0}": {
+    "traditional": "點擊切換：{0}",
+    "simplified": "点击切换：{0}",
+    "pinyin": "diǎn jī qiē huàn: {0}"
+  },
+  "Card reward": {
+    "traditional": "卡片獎勵",
+    "simplified": "卡片奖励",
+    "pinyin": "kǎ piàn jiǎng lì"
+  },
+  "+{0} card": {
+    "traditional": "+{0} 張卡片",
+    "simplified": "+{0} 张卡片",
+    "pinyin": "+{0} zhāng kǎ piàn"
+  },
+  "+{0} cards": {
+    "traditional": "+{0} 張卡片",
+    "simplified": "+{0} 张卡片",
+    "pinyin": "+{0} zhāng kǎ piàn"
+  },
+  "Also collected: {0}": {
+    "traditional": "也已收集：{0}",
+    "simplified": "也已收集：{0}",
+    "pinyin": "yě yǐ shōu jí: {0}"
+  },
+  "Continue": {
+    "traditional": "繼續",
+    "simplified": "继续",
+    "pinyin": "jì xù"
+  },
+  "All cards collected": {
+    "traditional": "卡片已全部收集",
+    "simplified": "卡片已全部收集",
+    "pinyin": "kǎ piàn yǐ quán bù shōu jí"
+  },
+  "Your set is growing": {
+    "traditional": "卡冊逐漸完整",
+    "simplified": "卡册逐渐完整",
+    "pinyin": "kǎ cè zhú jiàn wán zhěng"
+  },
+  "Try this set again": {
+    "traditional": "再挑戰一次",
+    "simplified": "再挑战一次",
+    "pinyin": "zài tiǎo zhàn yí cì"
+  },
+  "Correct answers · {0} / {1}": {
+    "traditional": "答對 · {0} / {1}",
+    "simplified": "答对 · {0} / {1}",
+    "pinyin": "dá duì · {0} / {1}"
+  },
+  "Keep your coins and collected cards. Start a fresh attempt.": {
+    "traditional": "保留金幣和卡片，再試一次。",
+    "simplified": "保留金币和卡片，再试一次。",
+    "pinyin": "bǎo liú jīn bì hé kǎ piàn, zài shì yí cì."
+  },
+  "Play again": {
+    "traditional": "再玩一次",
+    "simplified": "再玩一次",
+    "pinyin": "zài wán yí cì"
+  },
+  "Set complete": {
+    "traditional": "卡冊完成",
+    "simplified": "卡册完成",
+    "pinyin": "kǎ cè wán chéng"
+  },
+  "Sentence set complete": {
+    "traditional": "句子組完成",
+    "simplified": "句子组完成",
+    "pinyin": "jù zi zǔ wán chéng"
+  },
+  "Collected": {
+    "traditional": "已收集",
+    "simplified": "已收集",
+    "pinyin": "yǐ shōu jí"
+  },
+  "Claim set award": {
+    "traditional": "領取獎勵",
+    "simplified": "领取奖励",
+    "pinyin": "lǐng qǔ jiǎng lì"
+  },
+  "← Back": {
+    "traditional": "← 返回",
+    "simplified": "← 返回",
+    "pinyin": "fǎn huí"
+  },
+  "Memory cards": {
+    "traditional": "記憶卡片",
+    "simplified": "记忆卡片",
+    "pinyin": "jì yì kǎ piàn"
+  },
+  "Bonus puzzles": {
+    "traditional": "額外挑戰",
+    "simplified": "额外挑战",
+    "pinyin": "é wài tiǎo zhàn"
+  },
+  "Collected before · rebuild this journey": {
+    "traditional": "曾經收集 · 本輪重新收集",
+    "simplified": "曾经收集 · 本轮重新收集",
+    "pinyin": "céng jīng shōu jí · běn lún chóng xīn shōu jí"
+  },
+  "Collected this journey": {
+    "traditional": "本輪已收集",
+    "simplified": "本轮已收集",
+    "pinyin": "běn lún yǐ shōu jí"
+  },
+  "Collect a set to unlock.": {
+    "traditional": "完成一本卡冊即可解鎖。",
+    "simplified": "完成一本卡册即可解锁。",
+    "pinyin": "wán chéng yì běn kǎ cè jí kě jiě suǒ."
+  },
+  "Reset": {
+    "traditional": "重置",
+    "simplified": "重置",
+    "pinyin": "chóng zhì"
+  },
+  "Keep": {
+    "traditional": "保留",
+    "simplified": "保留",
+    "pinyin": "bǎo liú"
+  },
+  "Cards and sets": {
+    "traditional": "卡片和卡冊",
+    "simplified": "卡片和卡册",
+    "pinyin": "kǎ piàn hé kǎ cè"
+  },
+  "Permanent multiplier": {
+    "traditional": "永久倍率",
+    "simplified": "永久倍率",
+    "pinyin": "yǒng jiǔ bèi lǜ"
+  },
+  "New sentence selection next run.": {
+    "traditional": "下一輪將出現不同句子。",
+    "simplified": "下一轮将出现不同句子。",
+    "pinyin": "xià yì lún jiāng chū xiàn bù tóng jù zi."
+  },
+  "Restart": {
+    "traditional": "重新開始",
+    "simplified": "重新开始",
+    "pinyin": "chóng xīn kāi shǐ"
+  },
+  "Cards & sound": {
+    "traditional": "卡片與聲音",
+    "simplified": "卡片与声音",
+    "pinyin": "kǎ piàn yǔ shēng yīn"
+  },
+  "English automatically hides when you first reach level 10, including after prestige.": {
+    "traditional": "首次到達第十級後，英文自動隱藏，重生後也不再顯示。",
+    "simplified": "首次到达第十级后，英文自动隐藏，重生后也不再显示。",
+    "pinyin": "shǒu cì dào dá dì shí jí hòu, yīng wén zì dòng yǐn cáng, chóng shēng hòu yě bú zài xiǎn shì."
+  },
+  "Always show": {
+    "traditional": "始終顯示",
+    "simplified": "始终显示",
+    "pinyin": "shǐ zhōng xiǎn shì"
+  },
+  "Until level 10": {
+    "traditional": "十級前顯示",
+    "simplified": "十级前显示",
+    "pinyin": "shí jí qián xiǎn shì"
+  },
+  "Never show": {
+    "traditional": "不顯示",
+    "simplified": "不显示",
+    "pinyin": "bù xiǎn shì"
+  },
+  "Script": {
+    "traditional": "字體",
+    "simplified": "字体",
+    "pinyin": "zì tǐ"
+  },
+  "Display": {
+    "traditional": "顯示方式",
+    "simplified": "显示方式",
+    "pinyin": "xiǎn shì fāng shì"
+  },
+  "Characters + pinyin": {
+    "traditional": "漢字與拼音",
+    "simplified": "汉字与拼音",
+    "pinyin": "hàn zì yǔ pīn yīn"
+  },
+  "Characters only": {
+    "traditional": "只顯示漢字",
+    "simplified": "只显示汉字",
+    "pinyin": "zhǐ xiǎn shì hàn zì"
+  },
+  "Pinyin only": {
+    "traditional": "只顯示拼音",
+    "simplified": "只显示拼音",
+    "pinyin": "zhǐ xiǎn shì pīn yīn"
+  },
+  "Voice": {
+    "traditional": "聲音",
+    "simplified": "声音",
+    "pinyin": "shēng yīn"
+  },
+  "Female": {
+    "traditional": "女聲",
+    "simplified": "女声",
+    "pinyin": "nǚ shēng"
+  },
+  "Male": {
+    "traditional": "男聲",
+    "simplified": "男声",
+    "pinyin": "nán shēng"
+  },
+  "Sound": {
+    "traditional": "音效設定",
+    "simplified": "音效设置",
+    "pinyin": "yīn xiào shè dìng"
+  },
+  "Play memory · earn coins": {
+    "traditional": "玩記憶遊戲 · 賺金幣",
+    "simplified": "玩记忆游戏 · 赚金币",
+    "pinyin": "wán jì yì yóu xì · zhuàn jīn bì"
+  },
+  "Prestige ×{0}": {
+    "traditional": "重生 ×{0}",
+    "simplified": "重生 ×{0}",
+    "pinyin": "chóng shēng ×{0}"
+  },
+  "Your journey": {
+    "traditional": "你的旅程",
+    "simplified": "你的旅程",
+    "pinyin": "nǐ de lǚ chéng"
+  },
+  "Your progress is saved. Continue when you are ready.": {
+    "traditional": "進度已儲存，準備好後即可繼續。",
+    "simplified": "进度已保存，准备好后即可继续。",
+    "pinyin": "jìn dù yǐ chǔ cún, zhǔn bèi hǎo hòu jí kě jì xù."
+  },
+  "Continue journey": {
+    "traditional": "繼續旅程",
+    "simplified": "继续旅程",
+    "pinyin": "jì xù lǚ chéng"
+  },
+  "Paused": {
+    "traditional": "已暫停",
+    "simplified": "已暂停",
+    "pinyin": "yǐ zàn tíng"
+  },
+  "Resume": {
+    "traditional": "繼續遊戲",
+    "simplified": "继续游戏",
+    "pinyin": "jì xù yóu xì"
+  },
+  "Take a break": {
+    "traditional": "休息一下",
+    "simplified": "休息一下",
+    "pinyin": "xiū xi yí xià"
+  },
+  "All journeys completed": {
+    "traditional": "所有旅程已完成",
+    "simplified": "所有旅程已完成",
+    "pinyin": "suǒ yǒu lǚ chéng yǐ wán chéng"
+  },
+  "Restart stronger": {
+    "traditional": "重生變得更強",
+    "simplified": "重生变得更强",
+    "pinyin": "chóng shēng biàn de gèng qiáng"
+  },
+  "Discover some pairs in Play first.": {
+    "traditional": "先在遊戲中發現一些詞語。",
+    "simplified": "先在游戏中发现一些词语。",
+    "pinyin": "xiān zài yóu xì zhōng fā xiàn yì xiē cí yǔ."
+  },
+  "You can stop at any time. Coins you earn are yours to keep.": {
+    "traditional": "隨時可以停止，已賺取的金幣會保留。",
+    "simplified": "随时可以停止，已赚取的金币会保留。",
+    "pinyin": "suí shí kě yǐ tíng zhǐ, yǐ zhuàn qǔ de jīn bì huì bǎo liú."
+  },
+  "You can stop at any time. Keep your earned coins.": {
+    "traditional": "隨時可以停止，保留已賺的金幣。",
+    "simplified": "随时可以停止，保留已赚的金币。",
+    "pinyin": "suí shí kě yǐ tíng zhǐ, bǎo liú yǐ zhuàn de jīn bì."
+  },
+  "Tap two cards or drag one onto its pair.": {
+    "traditional": "點選兩張卡片，或拖到配對卡片上。",
+    "simplified": "点选两张卡片，或拖到配对卡片上。",
+    "pinyin": "diǎn xuǎn liǎng zhāng kǎ piàn, huò tuō dào pèi duì kǎ piàn shàng."
+  },
+  "Chinese": {
+    "traditional": "中文",
+    "simplified": "中文",
+    "pinyin": "zhōng wén"
+  },
+  "English": {
+    "traditional": "英文",
+    "simplified": "英文",
+    "pinyin": "yīng wén"
+  },
+  "Tap or drag to place · Tap an answer to remove": {
+    "traditional": "點選或拖曳放入 · 點選答案移除",
+    "simplified": "点选或拖曳放入 · 点选答案移除",
+    "pinyin": "diǎn xuǎn huò tuō yè fàng rù · diǎn xuǎn dá àn yí chú"
+  },
+  "Check": {
+    "traditional": "確認",
+    "simplified": "确认",
+    "pinyin": "què rèn"
+  },
+  "{0} cards · +{1} / pair": {
+    "traditional": "{0} 張卡片 · 每對 +{1}",
+    "simplified": "{0} 张卡片 · 每对 +{1}",
+    "pinyin": "{0} zhāng kǎ piàn · měi duì +{1}"
+  },
+  "Continue Play to unlock a word set.": {
+    "traditional": "繼續遊戲以解鎖詞語卡冊。",
+    "simplified": "继续游戏以解锁词语卡册。",
+    "pinyin": "jì xù yóu xì yǐ jiě suǒ cí yǔ kǎ cè."
+  },
+  "Turn. Remember. Match.": {
+    "traditional": "翻開、記住、配對。",
+    "simplified": "翻开、记住、配对。",
+    "pinyin": "fān kāi, jì zhù, pèi duì."
+  },
+  "Chinese + English · six pairs · 3 × 4 cards": {
+    "traditional": "中英配對 · 六對 · 3 × 4 張卡片",
+    "simplified": "中英配对 · 六对 · 3 × 4 张卡片",
+    "pinyin": "zhōng yīng pèi duì · liù duì · 3 × 4 zhāng kǎ piàn"
+  },
+  "Back to Play": {
+    "traditional": "返回遊戲",
+    "simplified": "返回游戏",
+    "pinyin": "fǎn huí yóu xì"
+  },
+  "Set remembered!": {
+    "traditional": "記住這組了！",
+    "simplified": "记住这组了！",
+    "pinyin": "jì zhù zhè zǔ le!"
+  },
+  "{0} pairs": {
+    "traditional": "{0} 對",
+    "simplified": "{0} 对",
+    "pinyin": "{0} duì"
+  },
+  "Coins awarded as you matched.": {
+    "traditional": "配對時已發放金幣。",
+    "simplified": "配对时已发放金币。",
+    "pinyin": "pèi duì shí yǐ fā fàng jīn bì."
+  },
+  "Choose another set": {
+    "traditional": "選擇另一組",
+    "simplified": "选择另一组",
+    "pinyin": "xuǎn zé lìng yì zǔ"
+  },
+  "Board {0} / {1}": {
+    "traditional": "第 {0} / {1} 盤",
+    "simplified": "第 {0} / {1} 盘",
+    "pinyin": "dì {0} / {1} pán"
+  },
+  "Board cleared!": {
+    "traditional": "本盤完成！",
+    "simplified": "本盘完成！",
+    "pinyin": "běn pán wán chéng!"
+  },
+  "Remember those places.": {
+    "traditional": "記住這些位置。",
+    "simplified": "记住这些位置。",
+    "pinyin": "jì zhù zhè xiē wèi zhì."
+  },
+  "Find the Chinese–English pairs.": {
+    "traditional": "找出中英配對。",
+    "simplified": "找出中英配对。",
+    "pinyin": "zhǎo chū zhōng yīng pèi duì."
+  },
+  "Finish set": {
+    "traditional": "完成本組",
+    "simplified": "完成本组",
+    "pinyin": "wán chéng běn zǔ"
+  },
+  "Next board": {
+    "traditional": "下一盤",
+    "simplified": "下一盘",
+    "pinyin": "xià yì pán"
+  },
+  "+{0} coins": {
+    "traditional": "+{0} 金幣",
+    "simplified": "+{0} 金币",
+    "pinyin": "+{0} jīn bì"
+  },
+  "Miss": {
+    "traditional": "未命中",
+    "simplified": "未命中",
+    "pinyin": "wèi mìng zhòng"
+  },
+  "Try another pair.": {
+    "traditional": "試試另一對。",
+    "simplified": "试试另一对。",
+    "pinyin": "shì shi lìng yí duì."
+  },
+  "Try a different order.": {
+    "traditional": "試試不同順序。",
+    "simplified": "试试不同顺序。",
+    "pinyin": "shì shi bù tóng shùn xù."
+  },
+  "Try again": {
+    "traditional": "再試一次",
+    "simplified": "再试一次",
+    "pinyin": "zài shì yí cì"
+  },
+  "pairs": {
+    "traditional": "配對",
+    "simplified": "配对",
+    "pinyin": "pèi duì"
+  },
+  "sentences": {
+    "traditional": "句子",
+    "simplified": "句子",
+    "pinyin": "jù zi"
+  },
+  "Complete": {
+    "traditional": "完成",
+    "simplified": "完成",
+    "pinyin": "wán chéng"
+  },
+  "Set complete · +{0} coins": {
+    "traditional": "卡冊完成 · +{0} 金幣",
+    "simplified": "卡册完成 · +{0} 金币",
+    "pinyin": "kǎ cè wán chéng · +{0} jīn bì"
+  },
+  "Set already completed": {
+    "traditional": "卡冊已完成",
+    "simplified": "卡册已完成",
+    "pinyin": "kǎ cè yǐ wán chéng"
+  },
+  "Debug: double-click to complete this set for 3× its set reward": {
+    "traditional": "除錯：按兩下完成本組，獲得三倍獎勵",
+    "simplified": "调试：按两下完成本组，获得三倍奖励",
+    "pinyin": "chú cuò: àn liǎng xià wán chéng běn zǔ, huò dé sān bèi jiǎng lì"
+  },
+  "Main navigation": {
+    "traditional": "主選單",
+    "simplified": "主选单",
+    "pinyin": "zhǔ xuǎn dān"
+  },
+  "Level accuracy": {
+    "traditional": "本級正確率",
+    "simplified": "本级正确率",
+    "pinyin": "běn jí zhèng què lǜ"
+  },
+  "{0}% correct": {
+    "traditional": "正確率 {0}%",
+    "simplified": "正确率 {0}%",
+    "pinyin": "zhèng què lǜ {0}%"
+  },
+  "No answers yet": {
+    "traditional": "尚未作答",
+    "simplified": "尚未作答",
+    "pinyin": "shàng wèi zuò dá"
+  },
+  "Discovered pairs": {
+    "traditional": "已發現的配對",
+    "simplified": "已发现的配对",
+    "pinyin": "yǐ fā xiàn de pèi duì"
+  },
+  "Card sets": {
+    "traditional": "卡冊",
+    "simplified": "卡册",
+    "pinyin": "kǎ cè"
+  },
+  "Card arena": {
+    "traditional": "卡片競技場",
+    "simplified": "卡片竞技场",
+    "pinyin": "kǎ piàn jìng jì chǎng"
+  },
+  "Weapons": {
+    "traditional": "武器",
+    "simplified": "武器",
+    "pinyin": "wǔ qì"
+  },
+  "Move target": {
+    "traditional": "移動目標",
+    "simplified": "移动目标",
+    "pinyin": "yí dòng mù biāo"
+  },
+  "Answer position {0}": {
+    "traditional": "答案位置 {0}",
+    "simplified": "答案位置 {0}",
+    "pinyin": "dá àn wèi zhì {0}"
+  },
+  "Hidden card {0}": {
+    "traditional": "隱藏卡片 {0}",
+    "simplified": "隐藏卡片 {0}",
+    "pinyin": "yǐn cáng kǎ piàn {0}"
+  },
+  "This game needs JavaScript.": {
+    "traditional": "本遊戲需要啟用 JavaScript。",
+    "simplified": "本游戏需要启用 JavaScript。",
+    "pinyin": "běn yóu xì xū yào qǐ yòng JavaScript."
+  },
+  "Traditional": {
+    "traditional": "繁體",
+    "simplified": "繁体",
+    "pinyin": "fán tǐ"
+  },
+  "Simplified": {
+    "traditional": "簡體",
+    "simplified": "简体",
+    "pinyin": "jiǎn tǐ"
+  },
+  "Reach 80% accuracy to complete this set.": {
+    "traditional": "答對一半即可完成本組。",
+    "simplified": "答对一半即可完成本组。",
+    "pinyin": "dá duì yí bàn jí kě wán chéng běn zǔ."
+  },
+  "Home": {
+    "traditional": "主頁",
+    "simplified": "主页",
+    "pinyin": "zhǔ yè"
+  },
+  "Coins": {
+    "traditional": "金幣",
+    "simplified": "金币",
+    "pinyin": "jīn bì"
+  },
+  "Ready for your next journey": {
+    "traditional": "繼續旅程",
+    "simplified": "继续旅程",
+    "pinyin": "jì xù lǚ chéng"
+  },
+  "Journey complete": {
+    "traditional": "旅程完成",
+    "simplified": "旅程完成",
+    "pinyin": "lǚ chéng wán chéng"
+  },
+  "English translations · Tabs, buttons, Sets & rewards": {
+    "traditional": "英文翻譯 · 選單、按鈕、卡冊與獎勵",
+    "simplified": "英文翻译 · 选单、按钮、卡册与奖励",
+    "pinyin": "yīng wén fān yì · xuǎn dān, àn niǔ, kǎ cè yǔ jiǎng lì"
+  }
+}

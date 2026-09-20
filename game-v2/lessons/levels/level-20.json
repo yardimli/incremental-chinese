@@ -1,0 +1,203 @@
+{
+  "id": "L20",
+  "level": 20,
+  "type": "pairs",
+  "title": "Lively square",
+  "traditional": "歡樂廣場",
+  "simplified": "欢乐广场",
+  "pinyin": "huān lè guǎng chǎng",
+  "pairs": [
+    {
+      "id": "L20-00",
+      "simplified": "高兴",
+      "traditional": "高興",
+      "pinyin": "gāo xìng",
+      "english": "happy / pleased",
+      "audio": {
+        "female": "audio/female/a62c0c88bbb8d068.mp3",
+        "male": "audio/male/a62c0c88bbb8d068.mp3"
+      }
+    },
+    {
+      "id": "L20-01",
+      "simplified": "快乐",
+      "traditional": "快樂",
+      "pinyin": "kuài lè",
+      "english": "happy / joyful",
+      "audio": {
+        "female": "audio/female/7f2c739e6bd1d653.mp3",
+        "male": "audio/male/7f2c739e6bd1d653.mp3"
+      }
+    },
+    {
+      "id": "L20-02",
+      "simplified": "笑",
+      "traditional": "笑",
+      "pinyin": "xiào",
+      "english": "smile / laugh",
+      "audio": {
+        "female": "audio/female/1d8fb5e34e43a755.mp3",
+        "male": "audio/male/1d8fb5e34e43a755.mp3"
+      }
+    },
+    {
+      "id": "L20-03",
+      "simplified": "漂亮",
+      "traditional": "漂亮",
+      "pinyin": "piào liàng",
+      "english": "beautiful",
+      "audio": {
+        "female": "audio/female/7f932e007e2c5e55.mp3",
+        "male": "audio/male/7f932e007e2c5e55.mp3"
+      }
+    },
+    {
+      "id": "L20-04",
+      "simplified": "颜色",
+      "traditional": "顏色",
+      "pinyin": "yán sè",
+      "english": "color",
+      "audio": {
+        "female": "audio/female/394ed4a8db2886cd.mp3",
+        "male": "audio/male/394ed4a8db2886cd.mp3"
+      }
+    },
+    {
+      "id": "L20-05",
+      "simplified": "红",
+      "traditional": "紅",
+      "pinyin": "hóng",
+      "english": "red",
+      "audio": {
+        "female": "audio/female/7fc93a318670f4ed.mp3",
+        "male": "audio/male/7fc93a318670f4ed.mp3"
+      }
+    },
+    {
+      "id": "L20-06",
+      "simplified": "白",
+      "traditional": "白",
+      "pinyin": "bái",
+      "english": "white",
+      "audio": {
+        "female": "audio/female/3366645622a78090.mp3",
+        "male": "audio/male/3366645622a78090.mp3"
+      }
+    },
+    {
+      "id": "L20-07",
+      "simplified": "黑",
+      "traditional": "黑",
+      "pinyin": "hēi",
+      "english": "black",
+      "audio": {
+        "female": "audio/female/59650f41f74bb476.mp3",
+        "male": "audio/male/59650f41f74bb476.mp3"
+      }
+    },
+    {
+      "id": "L20-08",
+      "simplified": "唱歌",
+      "traditional": "唱歌",
+      "pinyin": "chàng gē",
+      "english": "sing",
+      "audio": {
+        "female": "audio/female/86d347aaa30d1b43.mp3",
+        "male": "audio/male/86d347aaa30d1b43.mp3"
+      }
+    },
+    {
+      "id": "L20-09",
+      "simplified": "跳舞",
+      "traditional": "跳舞",
+      "pinyin": "tiào wǔ",
+      "english": "dance",
+      "audio": {
+        "female": "audio/female/d345d9a2fbf60ae0.mp3",
+        "male": "audio/male/d345d9a2fbf60ae0.mp3"
+      }
+    },
+    {
+      "id": "L20-10",
+      "simplified": "玩",
+      "traditional": "玩",
+      "pinyin": "wán",
+      "english": "play",
+      "audio": {
+        "female": "audio/female/7d6739abb05e1090.mp3",
+        "male": "audio/male/7d6739abb05e1090.mp3"
+      }
+    },
+    {
+      "id": "L20-11",
+      "simplified": "生日",
+      "traditional": "生日",
+      "pinyin": "shēng rì",
+      "english": "birthday",
+      "audio": {
+        "female": "audio/female/8f5ecd9fc26937ef.mp3",
+        "male": "audio/male/8f5ecd9fc26937ef.mp3"
+      }
+    },
+    {
+      "id": "L20-12",
+      "simplified": "太",
+      "traditional": "太",
+      "pinyin": "tài",
+      "english": "too / extremely",
+      "audio": {
+        "female": "audio/female/e7ace7adf264b714.mp3",
+        "male": "audio/male/e7ace7adf264b714.mp3"
+      }
+    },
+    {
+      "id": "L20-13",
+      "simplified": "非常",
+      "traditional": "非常",
+      "pinyin": "fēi cháng",
+      "english": "very / extremely",
+      "audio": {
+        "female": "audio/female/2ccec3b4199d4dcb.mp3",
+        "male": "audio/male/2ccec3b4199d4dcb.mp3"
+      }
+    },
+    {
+      "id": "L20-14",
+      "simplified": "真",
+      "traditional": "真",
+      "pinyin": "zhēn",
+      "english": "really",
+      "audio": {
+        "female": "audio/female/827d018e1bf8a869.mp3",
+        "male": "audio/male/827d018e1bf8a869.mp3"
+      }
+    },
+    {
+      "id": "L20-ui-1",
+      "simplified": "欢乐",
+      "traditional": "歡樂",
+      "pinyin": "huān lè",
+      "english": "joy",
+      "audio": {
+        "female": "audio/female/2774b19f878dad25.mp3",
+        "male": "audio/male/2774b19f878dad25.mp3"
+      }
+    },
+    {
+      "id": "L20-ui-2",
+      "simplified": "广场",
+      "traditional": "廣場",
+      "pinyin": "guǎng chǎng",
+      "english": "square",
+      "audio": {
+        "female": "audio/female/7ce2cc78373f60e3.mp3",
+        "male": "audio/male/7ce2cc78373f60e3.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/b643ec571198be62.mp3",
+    "male": "audio/male/b643ec571198be62.mp3"
+  },
+  "english": "Celebrations"
+}

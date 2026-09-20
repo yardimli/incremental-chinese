@@ -1,5 +1,10 @@
 # Chinese Village
 
+## Game versions
+
+- **[game-v2](game-v2/README.md)**: puzzle-focused version with Home and Sets, coin rewards, and an 80% accuracy requirement to advance. No village, research or resource economy. [Play v2 locally](http://127.0.0.1:8765/game-v2/index.html).
+- **game-v1**: the original village-building version described below. Both versions keep separate browser saves.
+
 A phone-sized incremental game where Chinese–English puzzles earn coins to grow a village. Start with numbers, build a vocabulary through short battles, matching, memory cards and sentence ordering, then invest your earnings in buildings and research.
 
 Buildings produce resources and improve puzzle rewards. New journeys require buildings owned, completed research and resource stockpiles. Prestige resets the village and lesson progress for a stronger earnings multiplier and another round of familiar vocabulary.
@@ -34,7 +39,8 @@ Top-level folders:
 
 | Folder | Purpose |
 | --- | --- |
-| `game-v1/` | The current playable game. Start here for gameplay and UI changes. |
+| `game-v2/` | The latest puzzle-focused version: coins, collections and accuracy-based advancement. |
+| `game-v1/` | The preserved village-building version. |
 | `docs/` | Design and reference material. `hsk-mapping/` contains vocabulary/grammar mappings, economy proposals and their generation scripts; `screenshots/` holds the JPG images used above. Earlier proposals may differ from the current game. |
 | `output/` | Earlier design iterations: `game-concepts/` and `game-concepts-v2/` contain initial concepts; `concept-v3/` and `concept-v4/` contain later prototypes. These are references, not the current game entry point. |
 | `.tools/` | Local development helpers and dependencies: speech generation environment, content libraries, UI-refactoring scripts, temporary backups and caches. These are not needed to run the game and may not all be tracked in Git. |

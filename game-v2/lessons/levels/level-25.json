@@ -1,0 +1,60 @@
+{
+  "id": "L25",
+  "level": 25,
+  "type": "pairs",
+  "title": "Requests and reasons",
+  "traditional": "因為所以",
+  "simplified": "因为所以",
+  "pinyin": "yīn wèi suǒ yǐ",
+  "pairs": [
+    {
+      "id": "L25-00",
+      "simplified": "因为",
+      "traditional": "因爲",
+      "pinyin": "yīn wèi",
+      "english": "because",
+      "audio": {
+        "female": "audio/female/49638001f896f261.mp3",
+        "male": "audio/male/49638001f896f261.mp3"
+      }
+    },
+    {
+      "id": "L25-01",
+      "simplified": "所以",
+      "traditional": "所以",
+      "pinyin": "suǒ yǐ",
+      "english": "therefore",
+      "audio": {
+        "female": "audio/female/a2f7e42081a8eb13.mp3",
+        "male": "audio/male/a2f7e42081a8eb13.mp3"
+      }
+    },
+    {
+      "id": "L25-02",
+      "simplified": "但是",
+      "traditional": "但是",
+      "pinyin": "dàn shì",
+      "english": "but",
+      "audio": {
+        "female": "audio/female/8cb1f721c82e7933.mp3",
+        "male": "audio/male/8cb1f721c82e7933.mp3"
+      }
+    },
+    {
+      "id": "L25-03",
+      "simplified": "为什么",
+      "traditional": "爲什麼",
+      "pinyin": "wèi shén me",
+      "english": "why",
+      "audio": {
+        "female": "audio/female/cb2a2421048ce958.mp3",
+        "male": "audio/male/cb2a2421048ce958.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/298570ba99da741f.mp3",
+    "male": "audio/male/298570ba99da741f.mp3"
+  },
+  "english": "Reasons & results"
+}

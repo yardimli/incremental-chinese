@@ -1,0 +1,203 @@
+{
+  "id": "L09",
+  "level": 9,
+  "type": "pairs",
+  "title": "Furnishing homes",
+  "traditional": "家裡家外",
+  "simplified": "家里家外",
+  "pinyin": "jiā lǐ jiā wài",
+  "pairs": [
+    {
+      "id": "L09-00",
+      "simplified": "桌子",
+      "traditional": "桌子",
+      "pinyin": "zhuō zi",
+      "english": "table",
+      "audio": {
+        "female": "audio/female/306de547695f668d.mp3",
+        "male": "audio/male/306de547695f668d.mp3"
+      }
+    },
+    {
+      "id": "L09-01",
+      "simplified": "椅子",
+      "traditional": "椅子",
+      "pinyin": "yǐ zi",
+      "english": "chair",
+      "audio": {
+        "female": "audio/female/e57f49ca9c8120c9.mp3",
+        "male": "audio/male/e57f49ca9c8120c9.mp3"
+      }
+    },
+    {
+      "id": "L09-02",
+      "simplified": "衣服",
+      "traditional": "衣服",
+      "pinyin": "yī fú",
+      "english": "clothes",
+      "audio": {
+        "female": "audio/female/3a28422f1f71d7f5.mp3",
+        "male": "audio/male/3a28422f1f71d7f5.mp3"
+      }
+    },
+    {
+      "id": "L09-03",
+      "simplified": "本",
+      "traditional": "本",
+      "pinyin": "běn",
+      "english": "classifier for books",
+      "audio": {
+        "female": "audio/female/83831c3f910cf940.mp3",
+        "male": "audio/male/83831c3f910cf940.mp3"
+      }
+    },
+    {
+      "id": "L09-04",
+      "simplified": "书",
+      "traditional": "書",
+      "pinyin": "shū",
+      "english": "book",
+      "audio": {
+        "female": "audio/female/d48e61f572566a32.mp3",
+        "male": "audio/male/d48e61f572566a32.mp3"
+      }
+    },
+    {
+      "id": "L09-05",
+      "simplified": "上",
+      "traditional": "上",
+      "pinyin": "shàng",
+      "english": "on / above",
+      "audio": {
+        "female": "audio/female/db5ba671d244ee82.mp3",
+        "male": "audio/male/db5ba671d244ee82.mp3"
+      }
+    },
+    {
+      "id": "L09-06",
+      "simplified": "下",
+      "traditional": "下",
+      "pinyin": "xià",
+      "english": "under / below",
+      "audio": {
+        "female": "audio/female/13c12b064b635e06.mp3",
+        "male": "audio/male/13c12b064b635e06.mp3"
+      }
+    },
+    {
+      "id": "L09-07",
+      "simplified": "里",
+      "traditional": "裏",
+      "pinyin": "lǐ",
+      "english": "inside",
+      "audio": {
+        "female": "audio/female/56392f513e1c8de2.mp3",
+        "male": "audio/male/56392f513e1c8de2.mp3"
+      }
+    },
+    {
+      "id": "L09-08",
+      "simplified": "前面",
+      "traditional": "前面",
+      "pinyin": "qián miàn",
+      "english": "in front",
+      "audio": {
+        "female": "audio/female/ad0a0abeab6bedf6.mp3",
+        "male": "audio/male/ad0a0abeab6bedf6.mp3"
+      }
+    },
+    {
+      "id": "L09-09",
+      "simplified": "后面",
+      "traditional": "後面",
+      "pinyin": "hòu miàn",
+      "english": "behind",
+      "audio": {
+        "female": "audio/female/bc4d7747296551a2.mp3",
+        "male": "audio/male/bc4d7747296551a2.mp3"
+      }
+    },
+    {
+      "id": "L09-10",
+      "simplified": "坐",
+      "traditional": "坐",
+      "pinyin": "zuò",
+      "english": "sit",
+      "audio": {
+        "female": "audio/female/4247f1a43b8230cb.mp3",
+        "male": "audio/male/4247f1a43b8230cb.mp3"
+      }
+    },
+    {
+      "id": "L09-11",
+      "simplified": "开",
+      "traditional": "開",
+      "pinyin": "kāi",
+      "english": "open / operate",
+      "audio": {
+        "female": "audio/female/320d1ab4f80f5960.mp3",
+        "male": "audio/male/320d1ab4f80f5960.mp3"
+      }
+    },
+    {
+      "id": "L09-12",
+      "simplified": "门",
+      "traditional": "門",
+      "pinyin": "mén",
+      "english": "door",
+      "audio": {
+        "female": "audio/female/7a4c7a7d8dc84f18.mp3",
+        "male": "audio/male/7a4c7a7d8dc84f18.mp3"
+      }
+    },
+    {
+      "id": "L09-13",
+      "simplified": "穿",
+      "traditional": "穿",
+      "pinyin": "chuān",
+      "english": "wear",
+      "audio": {
+        "female": "audio/female/9fdbcf44709512bd.mp3",
+        "male": "audio/male/9fdbcf44709512bd.mp3"
+      }
+    },
+    {
+      "id": "L09-14",
+      "simplified": "张",
+      "traditional": "張",
+      "pinyin": "zhāng",
+      "english": "classifier for flat objects",
+      "audio": {
+        "female": "audio/female/976ce12569d90913.mp3",
+        "male": "audio/male/976ce12569d90913.mp3"
+      }
+    },
+    {
+      "id": "L09-ui-1",
+      "simplified": "日常",
+      "traditional": "日常",
+      "pinyin": "rì cháng",
+      "english": "everyday",
+      "audio": {
+        "female": "audio/female/f648d6712cf804d1.mp3",
+        "male": "audio/male/f648d6712cf804d1.mp3"
+      }
+    },
+    {
+      "id": "L09-ui-2",
+      "simplified": "对话",
+      "traditional": "對話",
+      "pinyin": "duì huà",
+      "english": "conversation",
+      "audio": {
+        "female": "audio/female/932be7091ff444bc.mp3",
+        "male": "audio/male/932be7091ff444bc.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/424f749ad11b98cf.mp3",
+    "male": "audio/male/424f749ad11b98cf.mp3"
+  },
+  "english": "Around the home"
+}

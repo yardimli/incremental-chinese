@@ -1,0 +1,170 @@
+{
+  "id": "L11",
+  "level": 11,
+  "type": "pairs",
+  "title": "Daily life",
+  "traditional": "一天生活",
+  "simplified": "一天生活",
+  "pinyin": "yì tiān shēng huó",
+  "pairs": [
+    {
+      "id": "L11-00",
+      "simplified": "上午",
+      "traditional": "上午",
+      "pinyin": "shàng wǔ",
+      "english": "morning",
+      "audio": {
+        "female": "audio/female/298336ec2c0e2e37.mp3",
+        "male": "audio/male/298336ec2c0e2e37.mp3"
+      }
+    },
+    {
+      "id": "L11-01",
+      "simplified": "中午",
+      "traditional": "中午",
+      "pinyin": "zhōng wǔ",
+      "english": "noon",
+      "audio": {
+        "female": "audio/female/5422a304a0bf193e.mp3",
+        "male": "audio/male/5422a304a0bf193e.mp3"
+      }
+    },
+    {
+      "id": "L11-02",
+      "simplified": "下午",
+      "traditional": "下午",
+      "pinyin": "xià wǔ",
+      "english": "afternoon",
+      "audio": {
+        "female": "audio/female/af81dcf37aa86091.mp3",
+        "male": "audio/male/af81dcf37aa86091.mp3"
+      }
+    },
+    {
+      "id": "L11-03",
+      "simplified": "晚上",
+      "traditional": "晚上",
+      "pinyin": "wǎn shàng",
+      "english": "evening",
+      "audio": {
+        "female": "audio/female/a9b1124b34615118.mp3",
+        "male": "audio/male/a9b1124b34615118.mp3"
+      }
+    },
+    {
+      "id": "L11-04",
+      "simplified": "早上",
+      "traditional": "早上",
+      "pinyin": "zǎo shàng",
+      "english": "early morning",
+      "audio": {
+        "female": "audio/female/c6fe2eb2c986c383.mp3",
+        "male": "audio/male/c6fe2eb2c986c383.mp3"
+      }
+    },
+    {
+      "id": "L11-05",
+      "simplified": "工作",
+      "traditional": "工作",
+      "pinyin": "gōng zuò",
+      "english": "work",
+      "audio": {
+        "female": "audio/female/bc62d1b6b936c78d.mp3",
+        "male": "audio/male/bc62d1b6b936c78d.mp3"
+      }
+    },
+    {
+      "id": "L11-06",
+      "simplified": "做",
+      "traditional": "做",
+      "pinyin": "zuò",
+      "english": "do / make",
+      "audio": {
+        "female": "audio/female/94f5404441e8c480.mp3",
+        "male": "audio/male/94f5404441e8c480.mp3"
+      }
+    },
+    {
+      "id": "L11-07",
+      "simplified": "睡觉",
+      "traditional": "睡覺",
+      "pinyin": "shuì jiào",
+      "english": "sleep",
+      "audio": {
+        "female": "audio/female/05abd0032e0fdbee.mp3",
+        "male": "audio/male/05abd0032e0fdbee.mp3"
+      }
+    },
+    {
+      "id": "L11-08",
+      "simplified": "起床",
+      "traditional": "起牀",
+      "pinyin": "qǐ chuáng",
+      "english": "get up",
+      "audio": {
+        "female": "audio/female/dfa14f211b859924.mp3",
+        "male": "audio/male/dfa14f211b859924.mp3"
+      }
+    },
+    {
+      "id": "L11-09",
+      "simplified": "休息",
+      "traditional": "休息",
+      "pinyin": "xiū xī",
+      "english": "rest",
+      "audio": {
+        "female": "audio/female/fff33732fc978a09.mp3",
+        "male": "audio/male/fff33732fc978a09.mp3"
+      }
+    },
+    {
+      "id": "L11-10",
+      "simplified": "忙",
+      "traditional": "忙",
+      "pinyin": "máng",
+      "english": "busy",
+      "audio": {
+        "female": "audio/female/963e4f4abf641ba9.mp3",
+        "male": "audio/male/963e4f4abf641ba9.mp3"
+      }
+    },
+    {
+      "id": "L11-11",
+      "simplified": "累",
+      "traditional": "累",
+      "pinyin": "lèi",
+      "english": "tired",
+      "audio": {
+        "female": "audio/female/a8b43ae9fdc84d1a.mp3",
+        "male": "audio/male/a8b43ae9fdc84d1a.mp3"
+      }
+    },
+    {
+      "id": "L11-12",
+      "simplified": "了",
+      "traditional": "了",
+      "pinyin": "le",
+      "english": "completion / changed-state particle",
+      "audio": {
+        "female": "audio/female/b2dd27e84f07f49b.mp3",
+        "male": "audio/male/b2dd27e84f07f49b.mp3"
+      }
+    },
+    {
+      "id": "L11-ui-1",
+      "simplified": "生活",
+      "traditional": "生活",
+      "pinyin": "shēng huó",
+      "english": "daily life",
+      "audio": {
+        "female": "audio/female/15d208d1b4c98aae.mp3",
+        "male": "audio/male/15d208d1b4c98aae.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/005b892d542bf854.mp3",
+    "male": "audio/male/005b892d542bf854.mp3"
+  },
+  "english": "A day in life"
+}

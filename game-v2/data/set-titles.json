@@ -1,0 +1,200 @@
+{
+  "L01": {
+    "traditional": "數字",
+    "simplified": "数字",
+    "pinyin": "shù zì",
+    "english": "First numbers"
+  },
+  "L02": {
+    "traditional": "兩位數",
+    "simplified": "两位数",
+    "pinyin": "liǎng wèi shù",
+    "english": "Double digits"
+  },
+  "L03": {
+    "traditional": "大數與錢",
+    "simplified": "大数与钱",
+    "pinyin": "dà shù yǔ qián",
+    "english": "Big numbers & money"
+  },
+  "S03": {
+    "traditional": "數量組合",
+    "simplified": "数量组合",
+    "pinyin": "shù liàng zǔ hé",
+    "english": "Number combinations"
+  },
+  "L04": {
+    "traditional": "你我他",
+    "simplified": "你我他",
+    "pinyin": "nǐ wǒ tā",
+    "english": "You, me & others"
+  },
+  "L05": {
+    "traditional": "回家",
+    "simplified": "回家",
+    "pinyin": "huí jiā",
+    "english": "Coming home"
+  },
+  "L06": {
+    "traditional": "喝茶",
+    "simplified": "喝茶",
+    "pinyin": "hē chá",
+    "english": "Tea time"
+  },
+  "S06": {
+    "traditional": "茶館點單",
+    "simplified": "茶馆点单",
+    "pinyin": "chá guǎn diǎn dān",
+    "english": "Ordering tea"
+  },
+  "L07": {
+    "traditional": "吃飯買菜",
+    "simplified": "吃饭买菜",
+    "pinyin": "chī fàn mǎi cài",
+    "english": "Meals & groceries"
+  },
+  "L08": {
+    "traditional": "家人朋友",
+    "simplified": "家人朋友",
+    "pinyin": "jiā rén péng yǒu",
+    "english": "Family & friends"
+  },
+  "L09": {
+    "traditional": "家裡家外",
+    "simplified": "家里家外",
+    "pinyin": "jiā lǐ jiā wài",
+    "english": "Around the home"
+  },
+  "S09": {
+    "traditional": "日常對話",
+    "simplified": "日常对话",
+    "pinyin": "rì cháng duì huà",
+    "english": "Everyday conversations"
+  },
+  "L10": {
+    "traditional": "日曆時間",
+    "simplified": "日历时间",
+    "pinyin": "rì lì shí jiān",
+    "english": "Dates & time"
+  },
+  "L11": {
+    "traditional": "一天生活",
+    "simplified": "一天生活",
+    "pinyin": "yì tiān shēng huó",
+    "english": "A day in life"
+  },
+  "L12": {
+    "traditional": "學堂",
+    "simplified": "学堂",
+    "pinyin": "xué táng",
+    "english": "School"
+  },
+  "S12": {
+    "traditional": "學堂對話",
+    "simplified": "学堂对话",
+    "pinyin": "xué táng duì huà",
+    "english": "School conversations"
+  },
+  "L13": {
+    "traditional": "迎接客人",
+    "simplified": "迎接客人",
+    "pinyin": "yíng jiē kè rén",
+    "english": "Welcoming guests"
+  },
+  "L14": {
+    "traditional": "天氣健康",
+    "simplified": "天气健康",
+    "pinyin": "tiān qì jiàn kāng",
+    "english": "Weather & wellbeing"
+  },
+  "L15": {
+    "traditional": "市場買賣",
+    "simplified": "市场买卖",
+    "pinyin": "shì chǎng mǎi mài",
+    "english": "Market trading"
+  },
+  "S15": {
+    "traditional": "生活短句",
+    "simplified": "生活短句",
+    "pinyin": "shēng huó duǎn jù",
+    "english": "Daily-life phrases"
+  },
+  "L16": {
+    "traditional": "美食街",
+    "simplified": "美食街",
+    "pinyin": "měi shí jiē",
+    "english": "Food street"
+  },
+  "L17": {
+    "traditional": "大家庭",
+    "simplified": "大家庭",
+    "pinyin": "dà jiā tíng",
+    "english": "The extended family"
+  },
+  "L18": {
+    "traditional": "問路指路",
+    "simplified": "问路指路",
+    "pinyin": "wèn lù zhǐ lù",
+    "english": "Finding the way"
+  },
+  "S18": {
+    "traditional": "出行對話",
+    "simplified": "出行对话",
+    "pinyin": "chū xíng duì huà",
+    "english": "Out-and-about talk"
+  },
+  "L19": {
+    "traditional": "出門旅行",
+    "simplified": "出门旅行",
+    "pinyin": "chū mén lǚ xíng",
+    "english": "Trips & travel"
+  },
+  "L20": {
+    "traditional": "歡樂廣場",
+    "simplified": "欢乐广场",
+    "pinyin": "huān lè guǎng chǎng",
+    "english": "Celebrations"
+  },
+  "L21": {
+    "traditional": "運動時間",
+    "simplified": "运动时间",
+    "pinyin": "yùn dòng shí jiān",
+    "english": "Sports & play"
+  },
+  "S21": {
+    "traditional": "活動對話",
+    "simplified": "活动对话",
+    "pinyin": "huó dòng duì huà",
+    "english": "Talking about activities"
+  },
+  "L22": {
+    "traditional": "消息聯絡",
+    "simplified": "消息联络",
+    "pinyin": "xiāo xi lián luò",
+    "english": "Staying connected"
+  },
+  "L23": {
+    "traditional": "問與答",
+    "simplified": "问与答",
+    "pinyin": "wèn yǔ dá",
+    "english": "Questions & answers"
+  },
+  "L24": {
+    "traditional": "安排計畫",
+    "simplified": "安排计划",
+    "pinyin": "ān pái jì huà",
+    "english": "Plans & preparations"
+  },
+  "S24": {
+    "traditional": "說說計畫",
+    "simplified": "说说计划",
+    "pinyin": "shuō shuo jì huà",
+    "english": "Talking about plans"
+  },
+  "L25": {
+    "traditional": "因為所以",
+    "simplified": "因为所以",
+    "pinyin": "yīn wèi suǒ yǐ",
+    "english": "Reasons & results"
+  }
+}

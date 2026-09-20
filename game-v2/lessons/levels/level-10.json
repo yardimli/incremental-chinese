@@ -1,0 +1,192 @@
+{
+  "id": "L10",
+  "level": 10,
+  "type": "pairs",
+  "title": "Dates & time",
+  "traditional": "日曆時間",
+  "simplified": "日历时间",
+  "pinyin": "rì lì shí jiān",
+  "pairs": [
+    {
+      "id": "L10-00",
+      "simplified": "今天",
+      "traditional": "今天",
+      "pinyin": "jīn tiān",
+      "english": "today",
+      "audio": {
+        "female": "audio/female/d5f5a7a010731feb.mp3",
+        "male": "audio/male/d5f5a7a010731feb.mp3"
+      }
+    },
+    {
+      "id": "L10-01",
+      "simplified": "明天",
+      "traditional": "明天",
+      "pinyin": "míng tiān",
+      "english": "tomorrow",
+      "audio": {
+        "female": "audio/female/b1d841b978fb524c.mp3",
+        "male": "audio/male/b1d841b978fb524c.mp3"
+      }
+    },
+    {
+      "id": "L10-02",
+      "simplified": "昨天",
+      "traditional": "昨天",
+      "pinyin": "zuó tiān",
+      "english": "yesterday",
+      "audio": {
+        "female": "audio/female/0c184871f658375a.mp3",
+        "male": "audio/male/0c184871f658375a.mp3"
+      }
+    },
+    {
+      "id": "L10-03",
+      "simplified": "现在",
+      "traditional": "現在",
+      "pinyin": "xiàn zài",
+      "english": "now",
+      "audio": {
+        "female": "audio/female/83aeddd37528580b.mp3",
+        "male": "audio/male/83aeddd37528580b.mp3"
+      }
+    },
+    {
+      "id": "L10-04",
+      "simplified": "时候",
+      "traditional": "時候",
+      "pinyin": "shí hòu",
+      "english": "time / moment",
+      "audio": {
+        "female": "audio/female/b271b9e3447af9a6.mp3",
+        "male": "audio/male/b271b9e3447af9a6.mp3"
+      }
+    },
+    {
+      "id": "L10-05",
+      "simplified": "年",
+      "traditional": "年",
+      "pinyin": "nián",
+      "english": "year",
+      "audio": {
+        "female": "audio/female/62ef900a8f5d5bff.mp3",
+        "male": "audio/male/62ef900a8f5d5bff.mp3"
+      }
+    },
+    {
+      "id": "L10-06",
+      "simplified": "月",
+      "traditional": "月",
+      "pinyin": "yuè",
+      "english": "month",
+      "audio": {
+        "female": "audio/female/1625179badc027f0.mp3",
+        "male": "audio/male/1625179badc027f0.mp3"
+      }
+    },
+    {
+      "id": "L10-07",
+      "simplified": "日",
+      "traditional": "日",
+      "pinyin": "rì",
+      "english": "day / date",
+      "audio": {
+        "female": "audio/female/85217f7aff778414.mp3",
+        "male": "audio/male/85217f7aff778414.mp3"
+      }
+    },
+    {
+      "id": "L10-08",
+      "simplified": "号",
+      "traditional": "號",
+      "pinyin": "hào",
+      "english": "date number / number",
+      "audio": {
+        "female": "audio/female/f0202b21373e1b38.mp3",
+        "male": "audio/male/f0202b21373e1b38.mp3"
+      }
+    },
+    {
+      "id": "L10-09",
+      "simplified": "星期",
+      "traditional": "星期",
+      "pinyin": "xīng qī",
+      "english": "week",
+      "audio": {
+        "female": "audio/female/c398134d7d1f58e7.mp3",
+        "male": "audio/male/c398134d7d1f58e7.mp3"
+      }
+    },
+    {
+      "id": "L10-10",
+      "simplified": "点",
+      "traditional": "點",
+      "pinyin": "diǎn",
+      "english": "o'clock / point",
+      "audio": {
+        "female": "audio/female/120c48da0b4def2b.mp3",
+        "male": "audio/male/120c48da0b4def2b.mp3"
+      }
+    },
+    {
+      "id": "L10-11",
+      "simplified": "分钟",
+      "traditional": "分鐘",
+      "pinyin": "fēn zhōng",
+      "english": "minute",
+      "audio": {
+        "female": "audio/female/c26fddc501677478.mp3",
+        "male": "audio/male/c26fddc501677478.mp3"
+      }
+    },
+    {
+      "id": "L10-12",
+      "simplified": "几",
+      "traditional": "幾",
+      "pinyin": "jǐ",
+      "english": "how many / a few",
+      "audio": {
+        "female": "audio/female/da6ba07dbde24d38.mp3",
+        "male": "audio/male/da6ba07dbde24d38.mp3"
+      }
+    },
+    {
+      "id": "L10-13",
+      "simplified": "去年",
+      "traditional": "去年",
+      "pinyin": "qù nián",
+      "english": "last year",
+      "audio": {
+        "female": "audio/female/c5c593d385bf5696.mp3",
+        "male": "audio/male/c5c593d385bf5696.mp3"
+      }
+    },
+    {
+      "id": "L10-14",
+      "simplified": "天",
+      "traditional": "天",
+      "pinyin": "tiān",
+      "english": "day",
+      "audio": {
+        "female": "audio/female/49da61ceeea2f271.mp3",
+        "male": "audio/male/49da61ceeea2f271.mp3"
+      }
+    },
+    {
+      "id": "L10-ui-1",
+      "simplified": "日历",
+      "traditional": "日曆",
+      "pinyin": "rì lì",
+      "english": "calendar",
+      "audio": {
+        "female": "audio/female/6180b5e1ceec8c62.mp3",
+        "male": "audio/male/6180b5e1ceec8c62.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/35d7ad5d4d4d36ba.mp3",
+    "male": "audio/male/35d7ad5d4d4d36ba.mp3"
+  },
+  "english": "Dates & time"
+}

@@ -1,0 +1,159 @@
+{
+  "id": "L21",
+  "level": 21,
+  "type": "pairs",
+  "title": "Recreation",
+  "traditional": "運動時間",
+  "simplified": "运动时间",
+  "pinyin": "yùn dòng shí jiān",
+  "pairs": [
+    {
+      "id": "L21-00",
+      "simplified": "运动",
+      "traditional": "運動",
+      "pinyin": "yùn dòng",
+      "english": "exercise / sports",
+      "audio": {
+        "female": "audio/female/7d782cdc5f118932.mp3",
+        "male": "audio/male/7d782cdc5f118932.mp3"
+      }
+    },
+    {
+      "id": "L21-01",
+      "simplified": "跑步",
+      "traditional": "跑步",
+      "pinyin": "pǎo bù",
+      "english": "run / jog",
+      "audio": {
+        "female": "audio/female/591052c733499bad.mp3",
+        "male": "audio/male/591052c733499bad.mp3"
+      }
+    },
+    {
+      "id": "L21-02",
+      "simplified": "游泳",
+      "traditional": "游泳",
+      "pinyin": "yóu yǒng",
+      "english": "swim",
+      "audio": {
+        "female": "audio/female/f864303afb4e4a85.mp3",
+        "male": "audio/male/f864303afb4e4a85.mp3"
+      }
+    },
+    {
+      "id": "L21-03",
+      "simplified": "打篮球",
+      "traditional": "打籃球",
+      "pinyin": "dǎ lán qiú",
+      "english": "play basketball",
+      "audio": {
+        "female": "audio/female/882ecc404a900404.mp3",
+        "male": "audio/male/882ecc404a900404.mp3"
+      }
+    },
+    {
+      "id": "L21-04",
+      "simplified": "踢足球",
+      "traditional": "踢足球",
+      "pinyin": "tī zú qiú",
+      "english": "play football / soccer",
+      "audio": {
+        "female": "audio/female/5386f36a02953218.mp3",
+        "male": "audio/male/5386f36a02953218.mp3"
+      }
+    },
+    {
+      "id": "L21-05",
+      "simplified": "快",
+      "traditional": "快",
+      "pinyin": "kuài",
+      "english": "fast",
+      "audio": {
+        "female": "audio/female/2846d63055754517.mp3",
+        "male": "audio/male/2846d63055754517.mp3"
+      }
+    },
+    {
+      "id": "L21-06",
+      "simplified": "慢",
+      "traditional": "慢",
+      "pinyin": "màn",
+      "english": "slow",
+      "audio": {
+        "female": "audio/female/42269e2627f4916c.mp3",
+        "male": "audio/male/42269e2627f4916c.mp3"
+      }
+    },
+    {
+      "id": "L21-07",
+      "simplified": "眼睛",
+      "traditional": "眼睛",
+      "pinyin": "yǎn jīng",
+      "english": "eyes",
+      "audio": {
+        "female": "audio/female/9069cc8f2c62b4b4.mp3",
+        "male": "audio/male/9069cc8f2c62b4b4.mp3"
+      }
+    },
+    {
+      "id": "L21-08",
+      "simplified": "洗",
+      "traditional": "洗",
+      "pinyin": "xǐ",
+      "english": "wash",
+      "audio": {
+        "female": "audio/female/b2d7b4bbf6bcf133.mp3",
+        "male": "audio/male/b2d7b4bbf6bcf133.mp3"
+      }
+    },
+    {
+      "id": "L21-09",
+      "simplified": "猫",
+      "traditional": "貓",
+      "pinyin": "māo",
+      "english": "cat",
+      "audio": {
+        "female": "audio/female/2c00cf9c8df4e2a1.mp3",
+        "male": "audio/male/2c00cf9c8df4e2a1.mp3"
+      }
+    },
+    {
+      "id": "L21-10",
+      "simplified": "狗",
+      "traditional": "狗",
+      "pinyin": "gǒu",
+      "english": "dog",
+      "audio": {
+        "female": "audio/female/cecd675a4c3cb00d.mp3",
+        "male": "audio/male/cecd675a4c3cb00d.mp3"
+      }
+    },
+    {
+      "id": "L21-11",
+      "simplified": "跑",
+      "traditional": "跑",
+      "pinyin": "pǎo",
+      "english": "run",
+      "audio": {
+        "female": "audio/female/d674691cdfbcd9ba.mp3",
+        "male": "audio/male/d674691cdfbcd9ba.mp3"
+      }
+    },
+    {
+      "id": "L21-ui-1",
+      "simplified": "活动",
+      "traditional": "活動",
+      "pinyin": "huó dòng",
+      "english": "activity",
+      "audio": {
+        "female": "audio/female/e1ba21d79b75b58e.mp3",
+        "male": "audio/male/e1ba21d79b75b58e.mp3"
+      }
+    }
+  ],
+  "audio": {
+    "female": "audio/female/67297511a29c8bcd.mp3",
+    "male": "audio/male/67297511a29c8bcd.mp3"
+  },
+  "english": "Sports & play"
+}
