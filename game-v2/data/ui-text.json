@@ -619,11 +619,6 @@
     "simplified": "错误",
     "pinyin": "cuò wù"
   },
-  "Tap the card to reveal English": {
-    "traditional": "點卡片顯示英文",
-    "simplified": "点卡片显示英文",
-    "pinyin": "diǎn kǎ piàn xiǎn shì yīng wén"
-  },
   "+25%": {
     "traditional": "+25%",
     "simplified": "+25%",
@@ -638,5 +633,10 @@
     "traditional": "+75%",
     "simplified": "+75%",
     "pinyin": "dà 75%"
+  },
+  "Tap anywhere to reveal English": {
+    "traditional": "點擊任意處顯示英文",
+    "simplified": "点击任意处显示英文",
+    "pinyin": "diǎn jī rèn yì chù xiǎn shì yīng wén"
   }
 }

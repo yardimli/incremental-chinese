@@ -15,12 +15,16 @@ export function drawSelfTest() {
       run.deck.length,
     ]),
   );
-  screen.querySelector('[data-reveal]').onclick = async () => {
-    if (state.selfTest.revealed) return;
+  let revealing = false;
+  screen.onclick = async (event) => {
+    if (event.target.closest('[data-grade], a')) return;
+    if (state.stage !== 'self-test' || state.selfTest.revealed || revealing) return;
+    revealing = true;
     await transact((s) => {
-      s.selfTest.revealed = true;
+      if (s.stage === 'self-test' && s.selfTest.deck[s.selfTest.index] === card.id)
+        s.selfTest.revealed = true;
     });
-    drawSelfTest();
+    if (state.stage === 'self-test') drawSelfTest();
   };
   screen.querySelectorAll('[data-grade]').forEach((button) => {
     button.onclick = async () => {

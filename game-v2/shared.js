@@ -345,12 +345,13 @@ async function navigate(destination, { historyMode = 'push', animate = true } = 
     settings: () => ({
       ...state.settings,
       muted:
+        page === 'order' ||
         soundMode() === 'none' ||
         (soundMode() === 'lessons' && !lessonScreen()) ||
         gameClock.paused,
     }),
     root: screen,
-    autoplay: !idleHome && !['sets', 'memory'].includes(page),
+    autoplay: !idleHome && !['sets', 'memory', 'self-test', 'order'].includes(page),
     canReplay: (node) => {
       const tile = node.closest('[data-set]');
       return !(page === 'sets' && tile && canOpenSet(Number(tile.dataset.set)));
