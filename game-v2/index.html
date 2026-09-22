@@ -55,6 +55,7 @@
       </header>
       <main class="game-screen app" data-screen="home" hidden></main>
       <main class="game-screen app" data-screen="match" hidden></main>
+      <main class="game-screen app self-test-screen" data-screen="self-test" hidden></main>
       <main class="game-screen app" data-screen="order" hidden></main>
       <main class="game-screen app" data-screen="sets" hidden></main>
       <main class="game-screen app" data-screen="memory" hidden></main>
@@ -73,14 +74,26 @@
         </p>
         <h2>Advancement</h2>
         <p>
-          Complete the current word or sentence set with at least 80% correct answers to advance.
-          Exactly 80% passes. Below 80%, the same set starts again with a fresh accuracy count.
-          Coins already earned stay yours. Skipped targets do not count as wrong answers.
+          Open any set from Sets, then choose its game. Score at least 80% to earn a completion
+          checkmark for that mode. Exactly 80% passes. Below 80%, the same set starts again with a
+          fresh accuracy count. Coins already earned stay yours. Skipped targets do not count as
+          wrong answers.
         </p>
         <p>
           The thin bar above the footer shows your correct-answer ratio. Only answers in the current
           main set affect it; bonus and memory games earn coins without changing it.
         </p>
+        <h2>Self test</h2>
+        <p>
+          Tap a Chinese card to reveal English, then choose Correct or False. Correct answers earn
+          coins and card rewards. False moves on without coins. Your answers count toward accuracy.
+          Each run includes words and ten sentence prompts.
+        </p>
+        <p>
+          Every set offers Battle, Match, Sentence quiz, Self test, Memory and Bonus. Memory earns
+          its checkmark after all boards; Bonus earns it after ten correct answers in that set.
+        </p>
+        <p>Settings has four saved text sizes: Default, +25%, +50% and +75%.</p>
         <h2>The journey</h2>
         <p>
           25 word levels begin with numbers, followed by everyday HSK vocabulary. Eight sentence
@@ -248,10 +261,26 @@
           ><a class="collection-back" href="sets.html"><span data-ui="← Back"></span></a>
         </div>
         <progress value="{{4}}" max="{{5}}"></progress>
+        <div class="set-games" aria-label="Games for this set"></div>
       </div>
       <div class="collection">{{6}}</div>
-      <a class="secondary" href="memory.html"><span data-ui="Memory cards"></span></a
-      ><a class="secondary" href="bonus.html"><span data-ui="Bonus puzzles"></span></a>
+    </template>
+    <template id="tpl-set-game">
+      <button class="secondary" data-set-game="{{0}}">
+        {{1}}<span class="game-check">{{2}}</span>
+      </button>
+    </template>
+    <template id="tpl-self-test">
+      <p class="small self-count">{{3}} / {{4}}</p>
+      <p class="small"><span data-ui="Tap the card to reveal English"></span></p>
+      <button class="card self-question" data-reveal>{{0}}</button>
+      <section class="self-answer" data-flag-2="">
+        <div class="card self-english">{{1}}</div>
+        <div class="self-grades">
+          <button class="primary" data-grade="true"><span data-ui="Correct"></span></button>
+          <button class="secondary" data-grade="false"><span data-ui="False"></span></button>
+        </div>
+      </section>
     </template>
     <template id="tpl-drawRestart-27">
       <p class="small"><span data-ui="Collect a set to unlock."></span></p>

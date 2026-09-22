@@ -155,5 +155,398 @@
     "female": "audio/female/2bea7631cd08ebc7.mp3",
     "male": "audio/male/2bea7631cd08ebc7.mp3"
   },
-  "english": "Trips & travel"
+  "english": "Trips & travel",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L19-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L09-10",
+        "L19-02"
+      ],
+      "english": "I take an airplane.",
+      "audio": {
+        "female": "audio/female/56f2ad7b54ccc649.mp3",
+        "male": "audio/male/56f2ad7b54ccc649.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L09-10",
+        "L19-01"
+      ],
+      "english": "I take a bus.",
+      "audio": {
+        "female": "audio/female/23ac967b9941173b.mp3",
+        "male": "audio/male/23ac967b9941173b.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L05-03",
+        "L19-09"
+      ],
+      "english": "I go to Beijing.",
+      "audio": {
+        "female": "audio/female/ac92a4f74530a1dd.mp3",
+        "male": "audio/male/ac92a4f74530a1dd.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L07-05",
+        "L19-05"
+      ],
+      "english": "I buy a ticket.",
+      "audio": {
+        "female": "audio/female/fb56ab5aee3b50b0.mp3",
+        "male": "audio/male/fb56ab5aee3b50b0.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L18-04",
+        "L19-04"
+      ],
+      "english": "I arrive at the airport.",
+      "audio": {
+        "female": "audio/female/2eac86a78a222d90.mp3",
+        "male": "audio/male/2eac86a78a222d90.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L06-06",
+        "L19-06"
+      ],
+      "english": "I want to travel.",
+      "audio": {
+        "female": "audio/female/f1e5559d329bfed9.mp3",
+        "male": "audio/male/f1e5559d329bfed9.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L09-10",
+        "L19-02"
+      ],
+      "english": "You take an airplane.",
+      "audio": {
+        "female": "audio/female/fa7d97a6588cd0c7.mp3",
+        "male": "audio/male/fa7d97a6588cd0c7.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L09-10",
+        "L19-01"
+      ],
+      "english": "You take a bus.",
+      "audio": {
+        "female": "audio/female/65505a6d222a97a2.mp3",
+        "male": "audio/male/65505a6d222a97a2.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L05-03",
+        "L19-09"
+      ],
+      "english": "You go to Beijing.",
+      "audio": {
+        "female": "audio/female/eee018885f5a9bd9.mp3",
+        "male": "audio/male/eee018885f5a9bd9.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L07-05",
+        "L19-05"
+      ],
+      "english": "You buy a ticket.",
+      "audio": {
+        "female": "audio/female/4a27c85a33fc9d0d.mp3",
+        "male": "audio/male/4a27c85a33fc9d0d.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L18-04",
+        "L19-04"
+      ],
+      "english": "You arrive at the airport.",
+      "audio": {
+        "female": "audio/female/7eca6cc355b1b39e.mp3",
+        "male": "audio/male/7eca6cc355b1b39e.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L06-06",
+        "L19-06"
+      ],
+      "english": "You want to travel.",
+      "audio": {
+        "female": "audio/female/f26275cc45c7d136.mp3",
+        "male": "audio/male/f26275cc45c7d136.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L09-10",
+        "L19-02"
+      ],
+      "english": "He takes an airplane.",
+      "audio": {
+        "female": "audio/female/49099b76bd5ed9e3.mp3",
+        "male": "audio/male/49099b76bd5ed9e3.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L09-10",
+        "L19-01"
+      ],
+      "english": "He takes a bus.",
+      "audio": {
+        "female": "audio/female/625bfbd6fe79a53a.mp3",
+        "male": "audio/male/625bfbd6fe79a53a.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L05-03",
+        "L19-09"
+      ],
+      "english": "He goes to Beijing.",
+      "audio": {
+        "female": "audio/female/e85a96809f55cda4.mp3",
+        "male": "audio/male/e85a96809f55cda4.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L07-05",
+        "L19-05"
+      ],
+      "english": "He buys a ticket.",
+      "audio": {
+        "female": "audio/female/2091ae81d27a76fb.mp3",
+        "male": "audio/male/2091ae81d27a76fb.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L18-04",
+        "L19-04"
+      ],
+      "english": "He arrives at the airport.",
+      "audio": {
+        "female": "audio/female/e88c277a2f776441.mp3",
+        "male": "audio/male/e88c277a2f776441.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L06-06",
+        "L19-06"
+      ],
+      "english": "He wants to travel.",
+      "audio": {
+        "female": "audio/female/2ed1c80fe6b4fdb0.mp3",
+        "male": "audio/male/2ed1c80fe6b4fdb0.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L09-10",
+        "L19-02"
+      ],
+      "english": "She takes an airplane.",
+      "audio": {
+        "female": "audio/female/2df2dac0f97c0bc2.mp3",
+        "male": "audio/male/2df2dac0f97c0bc2.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L09-10",
+        "L19-01"
+      ],
+      "english": "She takes a bus.",
+      "audio": {
+        "female": "audio/female/3bb173196cc9cdd0.mp3",
+        "male": "audio/male/3bb173196cc9cdd0.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L05-03",
+        "L19-09"
+      ],
+      "english": "She goes to Beijing.",
+      "audio": {
+        "female": "audio/female/a9f3a5ee3cc636c3.mp3",
+        "male": "audio/male/a9f3a5ee3cc636c3.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L07-05",
+        "L19-05"
+      ],
+      "english": "She buys a ticket.",
+      "audio": {
+        "female": "audio/female/2f2b31fca43e152e.mp3",
+        "male": "audio/male/2f2b31fca43e152e.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L18-04",
+        "L19-04"
+      ],
+      "english": "She arrives at the airport.",
+      "audio": {
+        "female": "audio/female/790ea3b8dd929d66.mp3",
+        "male": "audio/male/790ea3b8dd929d66.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L06-06",
+        "L19-06"
+      ],
+      "english": "She wants to travel.",
+      "audio": {
+        "female": "audio/female/e0901bdb64e4bb3d.mp3",
+        "male": "audio/male/e0901bdb64e4bb3d.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L09-10",
+        "L19-02"
+      ],
+      "english": "We take an airplane.",
+      "audio": {
+        "female": "audio/female/7c03cc2c1e75a358.mp3",
+        "male": "audio/male/7c03cc2c1e75a358.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L09-10",
+        "L19-01"
+      ],
+      "english": "We take a bus.",
+      "audio": {
+        "female": "audio/female/c30f76261e5a4bcc.mp3",
+        "male": "audio/male/c30f76261e5a4bcc.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L05-03",
+        "L19-09"
+      ],
+      "english": "We go to Beijing.",
+      "audio": {
+        "female": "audio/female/85f79c1859da7f85.mp3",
+        "male": "audio/male/85f79c1859da7f85.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L07-05",
+        "L19-05"
+      ],
+      "english": "We buy a ticket.",
+      "audio": {
+        "female": "audio/female/b652d8661c4a4f60.mp3",
+        "male": "audio/male/b652d8661c4a4f60.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L18-04",
+        "L19-04"
+      ],
+      "english": "We arrive at the airport.",
+      "audio": {
+        "female": "audio/female/57170c553a5b0ce3.mp3",
+        "male": "audio/male/57170c553a5b0ce3.mp3"
+      }
+    },
+    {
+      "id": "L19-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L06-06",
+        "L19-06"
+      ],
+      "english": "We want to travel.",
+      "audio": {
+        "female": "audio/female/fe9e7e68006876fb.mp3",
+        "male": "audio/male/fe9e7e68006876fb.mp3"
+      }
+    }
+  ]
 }

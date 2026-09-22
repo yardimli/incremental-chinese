@@ -166,5 +166,398 @@
     "female": "audio/female/9a6ce4cf2cab6307.mp3",
     "male": "audio/male/9a6ce4cf2cab6307.mp3"
   },
-  "english": "Coming home"
+  "english": "Coming home",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L05-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L05-08",
+        "L05-00"
+      ],
+      "english": "I am at home.",
+      "audio": {
+        "female": "audio/female/586d4ff4cd1563eb.mp3",
+        "male": "audio/male/586d4ff4cd1563eb.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L05-09",
+        "L05-00"
+      ],
+      "english": "I have a home.",
+      "audio": {
+        "female": "audio/female/0c44345e757da9ca.mp3",
+        "male": "audio/male/0c44345e757da9ca.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L05-04",
+        "L05-00"
+      ],
+      "english": "I return home.",
+      "audio": {
+        "female": "audio/female/ab86aac170d2a2f5.mp3",
+        "male": "audio/male/ab86aac170d2a2f5.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L05-02",
+        "L05-11"
+      ],
+      "english": "I come here.",
+      "audio": {
+        "female": "audio/female/fa31f1887138d506.mp3",
+        "male": "audio/male/fa31f1887138d506.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L05-03",
+        "L05-12"
+      ],
+      "english": "I go there.",
+      "audio": {
+        "female": "audio/female/1ecc77e117e3ce3f.mp3",
+        "male": "audio/male/1ecc77e117e3ce3f.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L05-01",
+        "L05-11"
+      ],
+      "english": "I live here.",
+      "audio": {
+        "female": "audio/female/be406e0eb849fa13.mp3",
+        "male": "audio/male/be406e0eb849fa13.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L05-08",
+        "L05-00"
+      ],
+      "english": "You are at home.",
+      "audio": {
+        "female": "audio/female/6eeda59c9cd76aa4.mp3",
+        "male": "audio/male/6eeda59c9cd76aa4.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L05-09",
+        "L05-00"
+      ],
+      "english": "You have a home.",
+      "audio": {
+        "female": "audio/female/3c28f69bd3883e50.mp3",
+        "male": "audio/male/3c28f69bd3883e50.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L05-04",
+        "L05-00"
+      ],
+      "english": "You return home.",
+      "audio": {
+        "female": "audio/female/0da0f4fef7c0eaaa.mp3",
+        "male": "audio/male/0da0f4fef7c0eaaa.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L05-02",
+        "L05-11"
+      ],
+      "english": "You come here.",
+      "audio": {
+        "female": "audio/female/22a9d7aba8af1294.mp3",
+        "male": "audio/male/22a9d7aba8af1294.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L05-03",
+        "L05-12"
+      ],
+      "english": "You go there.",
+      "audio": {
+        "female": "audio/female/5dccf9adb66e6574.mp3",
+        "male": "audio/male/5dccf9adb66e6574.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L05-01",
+        "L05-11"
+      ],
+      "english": "You live here.",
+      "audio": {
+        "female": "audio/female/3c0297bf32f437b2.mp3",
+        "male": "audio/male/3c0297bf32f437b2.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L05-08",
+        "L05-00"
+      ],
+      "english": "He is at home.",
+      "audio": {
+        "female": "audio/female/77e20b3a4725cb86.mp3",
+        "male": "audio/male/77e20b3a4725cb86.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L05-09",
+        "L05-00"
+      ],
+      "english": "He has a home.",
+      "audio": {
+        "female": "audio/female/81595a4769604b0a.mp3",
+        "male": "audio/male/81595a4769604b0a.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L05-04",
+        "L05-00"
+      ],
+      "english": "He returns home.",
+      "audio": {
+        "female": "audio/female/bf6dbddf3f1207de.mp3",
+        "male": "audio/male/bf6dbddf3f1207de.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L05-02",
+        "L05-11"
+      ],
+      "english": "He comes here.",
+      "audio": {
+        "female": "audio/female/6cae46a3d1b53eb8.mp3",
+        "male": "audio/male/6cae46a3d1b53eb8.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L05-03",
+        "L05-12"
+      ],
+      "english": "He goes there.",
+      "audio": {
+        "female": "audio/female/455468e6aaee13e6.mp3",
+        "male": "audio/male/455468e6aaee13e6.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L05-01",
+        "L05-11"
+      ],
+      "english": "He lives here.",
+      "audio": {
+        "female": "audio/female/c2844a813c63dea5.mp3",
+        "male": "audio/male/c2844a813c63dea5.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L05-08",
+        "L05-00"
+      ],
+      "english": "She is at home.",
+      "audio": {
+        "female": "audio/female/7eb44568d697854d.mp3",
+        "male": "audio/male/7eb44568d697854d.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L05-09",
+        "L05-00"
+      ],
+      "english": "She has a home.",
+      "audio": {
+        "female": "audio/female/1b5a6c630e545be5.mp3",
+        "male": "audio/male/1b5a6c630e545be5.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L05-04",
+        "L05-00"
+      ],
+      "english": "She returns home.",
+      "audio": {
+        "female": "audio/female/ccdf93793f0202b3.mp3",
+        "male": "audio/male/ccdf93793f0202b3.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L05-02",
+        "L05-11"
+      ],
+      "english": "She comes here.",
+      "audio": {
+        "female": "audio/female/0da7565adeea0f45.mp3",
+        "male": "audio/male/0da7565adeea0f45.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L05-03",
+        "L05-12"
+      ],
+      "english": "She goes there.",
+      "audio": {
+        "female": "audio/female/02ffba5492f495f6.mp3",
+        "male": "audio/male/02ffba5492f495f6.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L05-01",
+        "L05-11"
+      ],
+      "english": "She lives here.",
+      "audio": {
+        "female": "audio/female/0d36413051e17e21.mp3",
+        "male": "audio/male/0d36413051e17e21.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L05-08",
+        "L05-00"
+      ],
+      "english": "We are at home.",
+      "audio": {
+        "female": "audio/female/9c7a3189ba29448e.mp3",
+        "male": "audio/male/9c7a3189ba29448e.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L05-09",
+        "L05-00"
+      ],
+      "english": "We have a home.",
+      "audio": {
+        "female": "audio/female/9f75f529c935f09a.mp3",
+        "male": "audio/male/9f75f529c935f09a.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L05-04",
+        "L05-00"
+      ],
+      "english": "We return home.",
+      "audio": {
+        "female": "audio/female/cfba553fc2baf03f.mp3",
+        "male": "audio/male/cfba553fc2baf03f.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L05-02",
+        "L05-11"
+      ],
+      "english": "We come here.",
+      "audio": {
+        "female": "audio/female/36e016c4deafeacb.mp3",
+        "male": "audio/male/36e016c4deafeacb.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L05-03",
+        "L05-12"
+      ],
+      "english": "We go there.",
+      "audio": {
+        "female": "audio/female/2cfec4fb32dca7c6.mp3",
+        "male": "audio/male/2cfec4fb32dca7c6.mp3"
+      }
+    },
+    {
+      "id": "L05-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L05-01",
+        "L05-11"
+      ],
+      "english": "We live here.",
+      "audio": {
+        "female": "audio/female/db7f36e980c35d9e.mp3",
+        "male": "audio/male/db7f36e980c35d9e.mp3"
+      }
+    }
+  ]
 }

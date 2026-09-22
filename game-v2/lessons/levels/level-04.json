@@ -155,5 +155,382 @@
     "female": "audio/female/ae65bfc53dd91453.mp3",
     "male": "audio/male/ae65bfc53dd91453.mp3"
   },
-  "english": "You, me & others"
+  "english": "You, me & others",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L04-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L04-08",
+        "L04-11"
+      ],
+      "english": "Who am I?",
+      "audio": {
+        "female": "audio/female/dfd6237b4bf892b1.mp3",
+        "male": "audio/male/dfd6237b4bf892b1.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L04-09",
+        "L04-06"
+      ],
+      "english": "My name",
+      "audio": {
+        "female": "audio/female/6fd335aaf4953698.mp3",
+        "male": "audio/male/6fd335aaf4953698.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-3",
+      "tokens": [
+        "L04-01",
+        "L04-08",
+        "L04-11"
+      ],
+      "english": "Who are you?",
+      "audio": {
+        "female": "audio/female/a6e4b44fd159c9a9.mp3",
+        "male": "audio/male/a6e4b44fd159c9a9.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-4",
+      "tokens": [
+        "L04-01",
+        "L04-09",
+        "L04-06"
+      ],
+      "english": "Your name",
+      "audio": {
+        "female": "audio/female/bf144f7d9f12566f.mp3",
+        "male": "audio/male/bf144f7d9f12566f.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-5",
+      "tokens": [
+        "L04-02",
+        "L04-08",
+        "L04-11"
+      ],
+      "english": "Who is he?",
+      "audio": {
+        "female": "audio/female/52a020293d3f47ed.mp3",
+        "male": "audio/male/52a020293d3f47ed.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-6",
+      "tokens": [
+        "L04-02",
+        "L04-09",
+        "L04-06"
+      ],
+      "english": "His name",
+      "audio": {
+        "female": "audio/female/9e74a63b33c1898f.mp3",
+        "male": "audio/male/9e74a63b33c1898f.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-7",
+      "tokens": [
+        "L04-03",
+        "L04-08",
+        "L04-11"
+      ],
+      "english": "Who is she?",
+      "audio": {
+        "female": "audio/female/c4553fef2ae38e9c.mp3",
+        "male": "audio/male/c4553fef2ae38e9c.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-8",
+      "tokens": [
+        "L04-03",
+        "L04-09",
+        "L04-06"
+      ],
+      "english": "Her name",
+      "audio": {
+        "female": "audio/female/264163286fd3af1e.mp3",
+        "male": "audio/male/264163286fd3af1e.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-9",
+      "tokens": [
+        "L04-04",
+        "L04-08",
+        "L04-11"
+      ],
+      "english": "Who are we?",
+      "audio": {
+        "female": "audio/female/bf3c09a245979beb.mp3",
+        "male": "audio/male/bf3c09a245979beb.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-10",
+      "tokens": [
+        "L04-04",
+        "L04-09",
+        "L04-06"
+      ],
+      "english": "Our name",
+      "audio": {
+        "female": "audio/female/bef61f50567913f2.mp3",
+        "male": "audio/male/bef61f50567913f2.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-11",
+      "tokens": [
+        "L01-01",
+        "L04-05"
+      ],
+      "english": "one person",
+      "audio": {
+        "female": "audio/female/45b3f27e3a97e2c1.mp3",
+        "male": "audio/male/45b3f27e3a97e2c1.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-12",
+      "tokens": [
+        "L01-02",
+        "L04-05"
+      ],
+      "english": "two people",
+      "audio": {
+        "female": "audio/female/8981f8b72b351ea3.mp3",
+        "male": "audio/male/8981f8b72b351ea3.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-13",
+      "tokens": [
+        "L01-03",
+        "L04-05"
+      ],
+      "english": "three people",
+      "audio": {
+        "female": "audio/female/85a55ed48d6f4932.mp3",
+        "male": "audio/male/85a55ed48d6f4932.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-14",
+      "tokens": [
+        "L01-04",
+        "L04-05"
+      ],
+      "english": "four people",
+      "audio": {
+        "female": "audio/female/37dcc74579d877aa.mp3",
+        "male": "audio/male/37dcc74579d877aa.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-15",
+      "tokens": [
+        "L01-05",
+        "L04-05"
+      ],
+      "english": "five people",
+      "audio": {
+        "female": "audio/female/d584a00dbd219264.mp3",
+        "male": "audio/male/d584a00dbd219264.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-16",
+      "tokens": [
+        "L01-06",
+        "L04-05"
+      ],
+      "english": "six people",
+      "audio": {
+        "female": "audio/female/f02321cfd1bbc988.mp3",
+        "male": "audio/male/f02321cfd1bbc988.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-17",
+      "tokens": [
+        "L01-07",
+        "L04-05"
+      ],
+      "english": "seven people",
+      "audio": {
+        "female": "audio/female/98f8a493c7982dca.mp3",
+        "male": "audio/male/98f8a493c7982dca.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-18",
+      "tokens": [
+        "L01-08",
+        "L04-05"
+      ],
+      "english": "eight people",
+      "audio": {
+        "female": "audio/female/39d8ea1e75c3cf3d.mp3",
+        "male": "audio/male/39d8ea1e75c3cf3d.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-19",
+      "tokens": [
+        "L01-09",
+        "L04-05"
+      ],
+      "english": "nine people",
+      "audio": {
+        "female": "audio/female/b56d53dff0c85f3f.mp3",
+        "male": "audio/male/b56d53dff0c85f3f.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-20",
+      "tokens": [
+        "L02-00",
+        "L04-05"
+      ],
+      "english": "ten people",
+      "audio": {
+        "female": "audio/female/386eb2b750207a26.mp3",
+        "male": "audio/male/386eb2b750207a26.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-21",
+      "tokens": [
+        "L02-02",
+        "L04-05"
+      ],
+      "english": "eleven people",
+      "audio": {
+        "female": "audio/female/f8c17a059530f395.mp3",
+        "male": "audio/male/f8c17a059530f395.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-22",
+      "tokens": [
+        "L02-03",
+        "L04-05"
+      ],
+      "english": "twelve people",
+      "audio": {
+        "female": "audio/female/d4b70cbfc93ee482.mp3",
+        "male": "audio/male/d4b70cbfc93ee482.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-23",
+      "tokens": [
+        "L02-04",
+        "L04-05"
+      ],
+      "english": "fifteen people",
+      "audio": {
+        "female": "audio/female/2d19b522d8d4c768.mp3",
+        "male": "audio/male/2d19b522d8d4c768.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-24",
+      "tokens": [
+        "L02-05",
+        "L04-05"
+      ],
+      "english": "twenty people",
+      "audio": {
+        "female": "audio/female/1eddc4beed2c89b3.mp3",
+        "male": "audio/male/1eddc4beed2c89b3.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-25",
+      "tokens": [
+        "L02-06",
+        "L04-05"
+      ],
+      "english": "twenty-one people",
+      "audio": {
+        "female": "audio/female/ce93d2f69c9c6b5d.mp3",
+        "male": "audio/male/ce93d2f69c9c6b5d.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-26",
+      "tokens": [
+        "L02-07",
+        "L04-05"
+      ],
+      "english": "thirty people",
+      "audio": {
+        "female": "audio/female/e3f3351d129a8278.mp3",
+        "male": "audio/male/e3f3351d129a8278.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-27",
+      "tokens": [
+        "L02-08",
+        "L04-05"
+      ],
+      "english": "fifty people",
+      "audio": {
+        "female": "audio/female/d2df30d053faadc6.mp3",
+        "male": "audio/male/d2df30d053faadc6.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-28",
+      "tokens": [
+        "L02-09",
+        "L04-05"
+      ],
+      "english": "ninety-nine people",
+      "audio": {
+        "female": "audio/female/35e0c91d7bbde131.mp3",
+        "male": "audio/male/35e0c91d7bbde131.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-29",
+      "tokens": [
+        "L04-01",
+        "L04-08",
+        "L04-02",
+        "L04-10"
+      ],
+      "english": "Are you him?",
+      "audio": {
+        "female": "audio/female/5b8f9cd888215db2.mp3",
+        "male": "audio/male/5b8f9cd888215db2.mp3"
+      }
+    },
+    {
+      "id": "L04-sentence-30",
+      "tokens": [
+        "L04-03",
+        "L04-08",
+        "L04-01",
+        "L04-10"
+      ],
+      "english": "Is she you?",
+      "audio": {
+        "female": "audio/female/8ef9163bf20b742b.mp3",
+        "male": "audio/male/8ef9163bf20b742b.mp3"
+      }
+    }
+  ]
 }

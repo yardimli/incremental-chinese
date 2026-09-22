@@ -583,5 +583,60 @@
     "traditional": "英文翻譯 · 選單、按鈕、卡冊與獎勵",
     "simplified": "英文翻译 · 选单、按钮、卡册与奖励",
     "pinyin": "yīng wén fān yì · xuǎn dān, àn niǔ, kǎ cè yǔ jiǎng lì"
+  },
+  "Self test": {
+    "traditional": "自我測試",
+    "simplified": "自我测试",
+    "pinyin": "zì wǒ cè shì"
+  },
+  "Sentence quiz": {
+    "traditional": "句子挑戰",
+    "simplified": "句子挑战",
+    "pinyin": "jù zi tiǎo zhàn"
+  },
+  "Battle": {
+    "traditional": "挑戰",
+    "simplified": "挑战",
+    "pinyin": "tiǎo zhàn"
+  },
+  "Text size": {
+    "traditional": "文字大小",
+    "simplified": "文字大小",
+    "pinyin": "wén zì dà xiǎo"
+  },
+  "Default": {
+    "traditional": "預設",
+    "simplified": "默认",
+    "pinyin": "yù shè"
+  },
+  "Correct": {
+    "traditional": "正確",
+    "simplified": "正确",
+    "pinyin": "zhèng què"
+  },
+  "False": {
+    "traditional": "錯誤",
+    "simplified": "错误",
+    "pinyin": "cuò wù"
+  },
+  "Tap the card to reveal English": {
+    "traditional": "點卡片顯示英文",
+    "simplified": "点卡片显示英文",
+    "pinyin": "diǎn kǎ piàn xiǎn shì yīng wén"
+  },
+  "+25%": {
+    "traditional": "+25%",
+    "simplified": "+25%",
+    "pinyin": "dà 25%"
+  },
+  "+50%": {
+    "traditional": "+50%",
+    "simplified": "+50%",
+    "pinyin": "dà 50%"
+  },
+  "+75%": {
+    "traditional": "+75%",
+    "simplified": "+75%",
+    "pinyin": "dà 75%"
   }
 }

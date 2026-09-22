@@ -1,3 +1,6 @@
+import { prepareLessonCards } from './lesson-cards.mjs';
+import { drawSelfTest } from './modes/self-test.js';
+import { startMemory } from './modes/memory-state.mjs';
 import { configureInterfaceText, ui, uiText, uiPattern } from './ui/interface-text.js';
 import { view, render, appendView, joinParts } from './ui/templates.js';
 import { configureHelpText, helpText, closeHelpLabel } from './ui/help-text.js';
@@ -59,13 +62,11 @@ lessons = await Promise.all(
     }),
   ),
 );
+prepareLessonCards(lessons);
 E.validateLessons(lessons);
 configureHelpText(lessons, () => state.settings);
 const tokens = Object.fromEntries(
-  lessons
-    .filter((x) => x.type === 'pairs')
-    .flatMap((x) => x.pairs)
-    .map((x) => [x.id, x]),
+  lessons.flatMap((x) => [...(x.pairs || []), ...(x.sentences || [])]).map((x) => [x.id, x]),
 );
 const read = () => {
   try {
@@ -75,6 +76,7 @@ const read = () => {
         voice: 'female',
         muted: false,
         englishTranslations: 'until10',
+        textSize: '1',
         ...s.settings,
       };
       s.settings.soundMode ||= s.settings.muted ? 'none' : 'all';
@@ -157,23 +159,26 @@ function englishTranslation(w) {
     : '';
 }
 const route = (s) =>
-  s.stage === 'match'
-    ? 'match'
-    : s.stage === 'cardReward'
-      ? 'card-reward'
-      : s.stage === 'setReward'
-        ? lessons[s.setIndex].type === 'sentences'
-          ? 'sentence-reward'
-          : 'set-reward'
-        : s.stage === 'order'
-          ? 'order'
-          : 'home';
+  ['self-test', 'memory', 'bonus'].includes(s.stage)
+    ? s.stage
+    : s.stage === 'match'
+      ? 'match'
+      : s.stage === 'cardReward'
+        ? 'card-reward'
+        : s.stage === 'setReward'
+          ? lessons[s.setIndex].type === 'sentences'
+            ? 'sentence-reward'
+            : 'set-reward'
+          : s.stage === 'order'
+            ? 'order'
+            : 'home';
 const icons = {
   Play: 'M8 4l12 8-12 8z',
   Sets: 'M4 4h12v16H4z M19 7h2v13',
 };
 const labels = {
   home: 'Home',
+  'self-test': 'Self test',
   match: 'Match',
   order: 'Card order',
   sets: 'Sets',
@@ -183,8 +188,21 @@ const labels = {
   bonus: 'Bonus',
   guide: 'Game guide',
 };
-const gamePages = ['home', 'match', 'order', 'card-reward', 'set-reward', 'sentence-reward'];
+const gamePages = [
+  'self-test',
+  'home',
+  'match',
+  'order',
+  'card-reward',
+  'set-reward',
+  'sentence-reward',
+];
 function mountShell() {
+  const scale = ['1', '1.25', '1.5', '1.75'].includes(String(state.settings.textSize))
+    ? state.settings.textSize
+    : '1';
+  frame.style.setProperty('--text-scale', scale);
+  frame.dataset.textSize = scale;
   refreshButtonLabels(frame.querySelector('.footer'), state);
   const reward = page.includes('reward');
   frame.dataset.page = page;
@@ -204,7 +222,7 @@ function mountShell() {
     .forEach((n) => render(n, uiPattern(n.dataset.ui, [])));
   refreshSoundButton();
   frame.querySelector('.accuracy-strip').hidden =
-    idleHome || !['home', 'match', 'order'].includes(page);
+    idleHome || !['self-test', 'home', 'match', 'order'].includes(page);
   frame.querySelectorAll('[data-nav]').forEach((link) => {
     const selected =
       link.dataset.nav === page ||
@@ -247,7 +265,7 @@ async function setSoundMode(mode) {
 function lessonScreen() {
   return (
     !idleHome &&
-    (['match', 'order', 'bonus', 'memory'].includes(page) ||
+    (['self-test', 'match', 'order', 'bonus', 'memory'].includes(page) ||
       (page === 'home' && state.stage === 'tap'))
   );
 }
@@ -374,6 +392,7 @@ function draw() {
     if (state.stage === 'finished') drawPlayHome();
     else drawTap();
   }
+  if (page === 'self-test') drawSelfTest();
   if (page === 'match') drawMatch();
   if (page === 'card-reward') drawCardReward();
   if (page === 'set-reward' || page === 'sentence-reward') drawSetReward();
@@ -490,7 +509,9 @@ function drawSetReward() {
     if (busy) return;
     busy = true;
     await transact((s) => E.claimSet(s, lessons));
-    go();
+    if (state.selectedGame && state.stage === 'finished')
+      navigate('sets.html?set=' + lessons[state.setIndex].id);
+    else go();
   };
 }
 let collectionIndex = state.setIndex,
@@ -498,7 +519,7 @@ let collectionIndex = state.setIndex,
   collectionOpenTimer;
 function canOpenSet(index) {
   const set = lessons[index];
-  return !!set && (index <= state.setIndex || !!state.history?.[set.id]);
+  return !!set;
 }
 function readCollectionRoute() {
   const id = new URLSearchParams(location.search).get('set'),
@@ -509,7 +530,11 @@ function readCollectionRoute() {
 function drawSets() {
   clearTimeout(collectionOpenTimer);
   const set = lessons[collectionIndex],
-    owned = state.cards[set.id] || [];
+    owned = (state.cards[set.id] || []).filter((id) =>
+      (set.type === 'sentences' ? set.sentences : [...set.pairs, ...set.sentences]).some(
+        (w) => w.id === id,
+      ),
+    );
   if (!canOpenSet(collectionIndex)) collectionDetail = false;
   screen.classList.toggle('sets-detail', collectionDetail);
   if (!collectionDetail) {
@@ -590,7 +615,7 @@ function drawSets() {
       ? deck.length
         ? deck.map((id) => set.sentences.find((q) => q.id === id))
         : set.sentences.slice(0, set.countPerRun)
-      : set.pairs;
+      : [...set.pairs, ...set.sentences];
   const historical = !!state.history?.[set.id];
   render(
     screen,
@@ -628,6 +653,31 @@ function drawSets() {
       ),
     ]),
   );
+  render(
+    screen.querySelector('.set-games'),
+    joinParts(
+      [
+        ['battle', 'Battle'],
+        ['match', 'Match'],
+        ['order', 'Sentence quiz'],
+        ['self-test', 'Self test'],
+        ['memory', 'Memory'],
+        ['bonus', 'Bonus'],
+      ].map(([mode, label]) =>
+        view('tpl-set-game', [mode, ui(label), state.gameCompleted?.[set.id]?.[mode] ? '✓' : '']),
+      ),
+    ),
+  );
+  screen.querySelectorAll('[data-set-game]').forEach((button) => {
+    button.onclick = async () => {
+      const mode = button.dataset.setGame;
+      await transact((s) => {
+        E.startSetGame(s, lessons, collectionIndex, mode);
+        if (mode === 'memory') startMemory(s, set, 6, Object.values(tokens));
+      });
+      await navigate(route(state) + '.html');
+    };
+  });
   screen.querySelector('.collection-back').onclick = (event) => {
     event.preventDefault();
     navigate('sets.html');
@@ -655,6 +705,16 @@ function drawRestart() {
 }
 function drawSettings() {
   const groups = [
+    [
+      'textSize',
+      'Text size',
+      [
+        ['1', 'Default'],
+        ['1.25', '+25%'],
+        ['1.5', '+50%'],
+        ['1.75', '+75%'],
+      ],
+    ],
     [
       'englishTranslations',
       'English translations · Tabs, buttons, Sets & rewards',
@@ -717,7 +777,9 @@ function drawSettings() {
                   String(key === 'soundMode' ? soundMode() : state.settings[key]) === value,
                   key === 'script'
                     ? ui(value === 'traditional' ? 'Traditional' : 'Simplified')
-                    : ui(label),
+                    : key === 'textSize' && value !== '1'
+                      ? label
+                      : ui(label),
                 ]),
               ),
               '',
@@ -829,8 +891,8 @@ document.querySelector('.sound-button')?.addEventListener('click', async () => {
 inactivityControl = mountInactivity({
   interactive: () =>
     !idleHome &&
-    ((['home', 'match', 'order'].includes(page) &&
-      ['tap', 'match', 'order'].includes(state.stage)) ||
+    ((['self-test', 'home', 'match', 'order'].includes(page) &&
+      ['self-test', 'tap', 'match', 'order'].includes(state.stage)) ||
       page === 'bonus' ||
       (page === 'memory' && state.memory && !state.memory.complete)),
   isPaused: () => gameClock.paused,

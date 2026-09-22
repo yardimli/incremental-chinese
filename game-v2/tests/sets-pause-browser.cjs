@@ -31,7 +31,14 @@ const assert = require('node:assert/strict');
     await page.locator('#screen .set-picker').waitFor();
     await page.locator('#screen [data-set="1"]').click();
     await page.waitForTimeout(500);
-    assert.equal(await page.locator('#screen .collection').count(), 0, 'Empty set must not open');
+    await page.locator('#screen .collection-back').waitFor();
+    assert.equal(
+      await page.locator('#screen [data-set-game]').count(),
+      6,
+      'Future sets can launch every mode',
+    );
+    await page.locator('#screen .collection-back').click();
+    await page.locator('#screen .set-picker').waitFor();
     await page.evaluate(async () => {
       const app = await import('./shared.js');
       await app.transact((s) => {
@@ -39,7 +46,7 @@ const assert = require('node:assert/strict');
         s.settings.englishTranslations = 'always';
       });
     });
-    for (const index of [0, 1, 4, 14, 34]) {
+    for (const index of [0, 1, 4, 14, 32]) {
       await page.locator('#screen [data-set="' + index + '"]').click();
       await page.locator('#screen .collection-back').waitFor();
       assert.equal(await page.locator('#screen .set-picker').count(), 0);
@@ -52,7 +59,7 @@ const assert = require('node:assert/strict');
       await page.locator('#screen .set-picker').waitFor();
     }
     assert.deepEqual(errors, []);
-    console.log('Startup, current and past sets, closed future sets and sticky Back passed.');
+    console.log('Startup, current and past sets, open future sets and sticky Back passed.');
   } finally {
     await browser.close();
   }

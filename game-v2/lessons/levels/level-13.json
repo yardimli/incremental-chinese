@@ -188,5 +188,408 @@
     "female": "audio/female/789a9105617792b0.mp3",
     "male": "audio/male/789a9105617792b0.mp3"
   },
-  "english": "Welcoming guests"
+  "english": "Welcoming guests",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L13-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L13-11",
+        "L13-02"
+      ],
+      "english": "I welcome you.",
+      "audio": {
+        "female": "audio/female/5b562962b98c07f4.mp3",
+        "male": "audio/male/5b562962b98c07f4.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L13-ui-1",
+        "L13-ui-2"
+      ],
+      "english": "I welcome guests.",
+      "audio": {
+        "female": "audio/female/aa15a4c2382b4f35.mp3",
+        "male": "audio/male/aa15a4c2382b4f35.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L06-11",
+        "L13-02"
+      ],
+      "english": "I thank you.",
+      "audio": {
+        "female": "audio/female/3c9536f558a76fc1.mp3",
+        "male": "audio/male/3c9536f558a76fc1.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L06-10",
+        "L13-02",
+        "L09-10"
+      ],
+      "english": "I invite you to sit.",
+      "audio": {
+        "female": "audio/female/9f5ab90b874cb82b.mp3",
+        "male": "audio/male/9f5ab90b874cb82b.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L04-08",
+        "L13-ui-2"
+      ],
+      "english": "I am a guest.",
+      "audio": {
+        "female": "audio/female/9762682aa55daccb.mp3",
+        "male": "audio/male/9762682aa55daccb.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L06-10",
+        "L13-ui-2",
+        "L09-10"
+      ],
+      "english": "I invite guests to sit.",
+      "audio": {
+        "female": "audio/female/ce8b66a6ac7ec50f.mp3",
+        "male": "audio/male/ce8b66a6ac7ec50f.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L13-11",
+        "L13-02"
+      ],
+      "english": "You welcome you.",
+      "audio": {
+        "female": "audio/female/abe409985cefe053.mp3",
+        "male": "audio/male/abe409985cefe053.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L13-ui-1",
+        "L13-ui-2"
+      ],
+      "english": "You welcome guests.",
+      "audio": {
+        "female": "audio/female/5e31e95d86116f30.mp3",
+        "male": "audio/male/5e31e95d86116f30.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L06-11",
+        "L13-02"
+      ],
+      "english": "You thank you.",
+      "audio": {
+        "female": "audio/female/db6c5c6de1ac6f07.mp3",
+        "male": "audio/male/db6c5c6de1ac6f07.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L06-10",
+        "L13-02",
+        "L09-10"
+      ],
+      "english": "You invite you to sit.",
+      "audio": {
+        "female": "audio/female/d7fbb498b74165b6.mp3",
+        "male": "audio/male/d7fbb498b74165b6.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L04-08",
+        "L13-ui-2"
+      ],
+      "english": "You are guests.",
+      "audio": {
+        "female": "audio/female/a9fac18e4d591064.mp3",
+        "male": "audio/male/a9fac18e4d591064.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L06-10",
+        "L13-ui-2",
+        "L09-10"
+      ],
+      "english": "You invite guests to sit.",
+      "audio": {
+        "female": "audio/female/5ffac1cb0f8d914a.mp3",
+        "male": "audio/male/5ffac1cb0f8d914a.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L13-11",
+        "L13-02"
+      ],
+      "english": "He welcomes you.",
+      "audio": {
+        "female": "audio/female/fd0ef454b99f245a.mp3",
+        "male": "audio/male/fd0ef454b99f245a.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L13-ui-1",
+        "L13-ui-2"
+      ],
+      "english": "He welcomes guests.",
+      "audio": {
+        "female": "audio/female/903031c8388d3db1.mp3",
+        "male": "audio/male/903031c8388d3db1.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L06-11",
+        "L13-02"
+      ],
+      "english": "He thanks you.",
+      "audio": {
+        "female": "audio/female/ca61af555864c4e2.mp3",
+        "male": "audio/male/ca61af555864c4e2.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L06-10",
+        "L13-02",
+        "L09-10"
+      ],
+      "english": "He invites you to sit.",
+      "audio": {
+        "female": "audio/female/6da755588c10730a.mp3",
+        "male": "audio/male/6da755588c10730a.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L04-08",
+        "L13-ui-2"
+      ],
+      "english": "He is a guest.",
+      "audio": {
+        "female": "audio/female/90c8a7a6f4716b7e.mp3",
+        "male": "audio/male/90c8a7a6f4716b7e.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L06-10",
+        "L13-ui-2",
+        "L09-10"
+      ],
+      "english": "He invites guests to sit.",
+      "audio": {
+        "female": "audio/female/0df69859976f090c.mp3",
+        "male": "audio/male/0df69859976f090c.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L13-11",
+        "L13-02"
+      ],
+      "english": "She welcomes you.",
+      "audio": {
+        "female": "audio/female/dd71f49e901e9b7f.mp3",
+        "male": "audio/male/dd71f49e901e9b7f.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L13-ui-1",
+        "L13-ui-2"
+      ],
+      "english": "She welcomes guests.",
+      "audio": {
+        "female": "audio/female/d4e30558119e02d7.mp3",
+        "male": "audio/male/d4e30558119e02d7.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L06-11",
+        "L13-02"
+      ],
+      "english": "She thanks you.",
+      "audio": {
+        "female": "audio/female/f54efdcfdedf61d6.mp3",
+        "male": "audio/male/f54efdcfdedf61d6.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L06-10",
+        "L13-02",
+        "L09-10"
+      ],
+      "english": "She invites you to sit.",
+      "audio": {
+        "female": "audio/female/ff15dc7e699884b7.mp3",
+        "male": "audio/male/ff15dc7e699884b7.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L04-08",
+        "L13-ui-2"
+      ],
+      "english": "She is a guest.",
+      "audio": {
+        "female": "audio/female/05cb07ab1fefe2f7.mp3",
+        "male": "audio/male/05cb07ab1fefe2f7.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L06-10",
+        "L13-ui-2",
+        "L09-10"
+      ],
+      "english": "She invites guests to sit.",
+      "audio": {
+        "female": "audio/female/fc6c6d6dab11a651.mp3",
+        "male": "audio/male/fc6c6d6dab11a651.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L13-11",
+        "L13-02"
+      ],
+      "english": "We welcome you.",
+      "audio": {
+        "female": "audio/female/5e4ffaa916cce1fe.mp3",
+        "male": "audio/male/5e4ffaa916cce1fe.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L13-ui-1",
+        "L13-ui-2"
+      ],
+      "english": "We welcome guests.",
+      "audio": {
+        "female": "audio/female/5c2dc85e3e4730b3.mp3",
+        "male": "audio/male/5c2dc85e3e4730b3.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L06-11",
+        "L13-02"
+      ],
+      "english": "We thank you.",
+      "audio": {
+        "female": "audio/female/ff4804374150db4c.mp3",
+        "male": "audio/male/ff4804374150db4c.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L06-10",
+        "L13-02",
+        "L09-10"
+      ],
+      "english": "We invite you to sit.",
+      "audio": {
+        "female": "audio/female/61f80611e39e7b87.mp3",
+        "male": "audio/male/61f80611e39e7b87.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L04-08",
+        "L13-ui-2"
+      ],
+      "english": "We are guests.",
+      "audio": {
+        "female": "audio/female/41b946c1c1105700.mp3",
+        "male": "audio/male/41b946c1c1105700.mp3"
+      }
+    },
+    {
+      "id": "L13-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L06-10",
+        "L13-ui-2",
+        "L09-10"
+      ],
+      "english": "We invite guests to sit.",
+      "audio": {
+        "female": "audio/female/1231283d707863d4.mp3",
+        "male": "audio/male/1231283d707863d4.mp3"
+      }
+    }
+  ]
 }

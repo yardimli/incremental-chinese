@@ -155,5 +155,398 @@
     "female": "audio/female/48cb307b364cf041.mp3",
     "male": "audio/male/48cb307b364cf041.mp3"
   },
-  "english": "Meals & groceries"
+  "english": "Meals & groceries",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L07-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L07-00",
+        "L07-01"
+      ],
+      "english": "I eat rice.",
+      "audio": {
+        "female": "audio/female/bb7a71b1fb94ea27.mp3",
+        "male": "audio/male/bb7a71b1fb94ea27.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L07-00",
+        "L07-04"
+      ],
+      "english": "I eat apples.",
+      "audio": {
+        "female": "audio/female/a117366d6db5fe4e.mp3",
+        "male": "audio/male/a117366d6db5fe4e.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L07-05",
+        "L07-02"
+      ],
+      "english": "I buy vegetables.",
+      "audio": {
+        "female": "audio/female/02030b3eef4e1cac.mp3",
+        "male": "audio/male/02030b3eef4e1cac.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L07-05",
+        "L07-03"
+      ],
+      "english": "I buy fruit.",
+      "audio": {
+        "female": "audio/female/ccb9f40a11c1ed62.mp3",
+        "male": "audio/male/ccb9f40a11c1ed62.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L06-05",
+        "L07-ui-1"
+      ],
+      "english": "I want to eat.",
+      "audio": {
+        "female": "audio/female/a83040f400e73aa6.mp3",
+        "male": "audio/male/a83040f400e73aa6.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L05-03",
+        "L07-06"
+      ],
+      "english": "I go to the shop.",
+      "audio": {
+        "female": "audio/female/2af600b9c79885fb.mp3",
+        "male": "audio/male/2af600b9c79885fb.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L07-00",
+        "L07-01"
+      ],
+      "english": "You eat rice.",
+      "audio": {
+        "female": "audio/female/ff519e29fb6334bb.mp3",
+        "male": "audio/male/ff519e29fb6334bb.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L07-00",
+        "L07-04"
+      ],
+      "english": "You eat apples.",
+      "audio": {
+        "female": "audio/female/7059c159511078c6.mp3",
+        "male": "audio/male/7059c159511078c6.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L07-05",
+        "L07-02"
+      ],
+      "english": "You buy vegetables.",
+      "audio": {
+        "female": "audio/female/a51ab16152a208ae.mp3",
+        "male": "audio/male/a51ab16152a208ae.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L07-05",
+        "L07-03"
+      ],
+      "english": "You buy fruit.",
+      "audio": {
+        "female": "audio/female/8bc6670d3cf21f25.mp3",
+        "male": "audio/male/8bc6670d3cf21f25.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L06-05",
+        "L07-ui-1"
+      ],
+      "english": "You want to eat.",
+      "audio": {
+        "female": "audio/female/652584f9f6b5aab8.mp3",
+        "male": "audio/male/652584f9f6b5aab8.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L05-03",
+        "L07-06"
+      ],
+      "english": "You go to the shop.",
+      "audio": {
+        "female": "audio/female/b50a3c57087872ad.mp3",
+        "male": "audio/male/b50a3c57087872ad.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L07-00",
+        "L07-01"
+      ],
+      "english": "He eats rice.",
+      "audio": {
+        "female": "audio/female/0f37187962a7f43c.mp3",
+        "male": "audio/male/0f37187962a7f43c.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L07-00",
+        "L07-04"
+      ],
+      "english": "He eats apples.",
+      "audio": {
+        "female": "audio/female/ea46749db848efce.mp3",
+        "male": "audio/male/ea46749db848efce.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L07-05",
+        "L07-02"
+      ],
+      "english": "He buys vegetables.",
+      "audio": {
+        "female": "audio/female/68e6f37076abb805.mp3",
+        "male": "audio/male/68e6f37076abb805.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L07-05",
+        "L07-03"
+      ],
+      "english": "He buys fruit.",
+      "audio": {
+        "female": "audio/female/3dfeb8449100a2a2.mp3",
+        "male": "audio/male/3dfeb8449100a2a2.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L06-05",
+        "L07-ui-1"
+      ],
+      "english": "He wants to eat.",
+      "audio": {
+        "female": "audio/female/4a011d5a7341d06b.mp3",
+        "male": "audio/male/4a011d5a7341d06b.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L05-03",
+        "L07-06"
+      ],
+      "english": "He goes to the shop.",
+      "audio": {
+        "female": "audio/female/f9963e0c50d6f852.mp3",
+        "male": "audio/male/f9963e0c50d6f852.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L07-00",
+        "L07-01"
+      ],
+      "english": "She eats rice.",
+      "audio": {
+        "female": "audio/female/61929fb3d46f5ce3.mp3",
+        "male": "audio/male/61929fb3d46f5ce3.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L07-00",
+        "L07-04"
+      ],
+      "english": "She eats apples.",
+      "audio": {
+        "female": "audio/female/00aecc579bce088b.mp3",
+        "male": "audio/male/00aecc579bce088b.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L07-05",
+        "L07-02"
+      ],
+      "english": "She buys vegetables.",
+      "audio": {
+        "female": "audio/female/62de28d10e1e4d50.mp3",
+        "male": "audio/male/62de28d10e1e4d50.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L07-05",
+        "L07-03"
+      ],
+      "english": "She buys fruit.",
+      "audio": {
+        "female": "audio/female/dcbc31ade85c7aef.mp3",
+        "male": "audio/male/dcbc31ade85c7aef.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L06-05",
+        "L07-ui-1"
+      ],
+      "english": "She wants to eat.",
+      "audio": {
+        "female": "audio/female/8b40c452f28d9cc1.mp3",
+        "male": "audio/male/8b40c452f28d9cc1.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L05-03",
+        "L07-06"
+      ],
+      "english": "She goes to the shop.",
+      "audio": {
+        "female": "audio/female/fc68db114638d7ed.mp3",
+        "male": "audio/male/fc68db114638d7ed.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L07-00",
+        "L07-01"
+      ],
+      "english": "We eat rice.",
+      "audio": {
+        "female": "audio/female/c07247e77a74bcb8.mp3",
+        "male": "audio/male/c07247e77a74bcb8.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L07-00",
+        "L07-04"
+      ],
+      "english": "We eat apples.",
+      "audio": {
+        "female": "audio/female/6d8abe1c29fd15f3.mp3",
+        "male": "audio/male/6d8abe1c29fd15f3.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L07-05",
+        "L07-02"
+      ],
+      "english": "We buy vegetables.",
+      "audio": {
+        "female": "audio/female/7d7902b2d95b812a.mp3",
+        "male": "audio/male/7d7902b2d95b812a.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L07-05",
+        "L07-03"
+      ],
+      "english": "We buy fruit.",
+      "audio": {
+        "female": "audio/female/2f149d2e13184422.mp3",
+        "male": "audio/male/2f149d2e13184422.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L06-05",
+        "L07-ui-1"
+      ],
+      "english": "We want to eat.",
+      "audio": {
+        "female": "audio/female/690744a6c86938f3.mp3",
+        "male": "audio/male/690744a6c86938f3.mp3"
+      }
+    },
+    {
+      "id": "L07-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L05-03",
+        "L07-06"
+      ],
+      "english": "We go to the shop.",
+      "audio": {
+        "female": "audio/female/8e081d264ab6a334.mp3",
+        "male": "audio/male/8e081d264ab6a334.mp3"
+      }
+    }
+  ]
 }

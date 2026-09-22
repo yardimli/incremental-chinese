@@ -14,6 +14,7 @@ export function createSpeech({ catalog, settings, root, autoplay = true, canRepl
     pointerStart = null,
     dragged = false;
   const abort = new AbortController();
+  const announcedCards = new WeakSet();
   function highlight(item) {
     const card = item?.element?.();
     if (card === highlighted) return;
@@ -41,6 +42,9 @@ export function createSpeech({ catalog, settings, root, autoplay = true, canRepl
       return next();
     }
     const version = ++generation;
+    item.started = true;
+    const announcedCard = item.element();
+    if (announcedCard) announcedCards.add(announcedCard);
     playing = true;
     currentAutomatic = item.automatic;
     audio.src = new URL(path, new URL('./', import.meta.url)).href;
@@ -69,8 +73,11 @@ export function createSpeech({ catalog, settings, root, autoplay = true, canRepl
     next();
   };
   audio.onerror = () => {
+    playing = false;
+    if (!activeItem) queue.shift();
     activeItem = null;
     highlight(null);
+    next();
   };
   function speak(
     text,
@@ -143,7 +150,10 @@ export function createSpeech({ catalog, settings, root, autoplay = true, canRepl
     // A focus change or blocked autoplay can leave a target queued but not playing.
     // Releasing a weapon must not unlock that old announcement either.
     queue = queue.filter(
-      (item) => !item.automatic || !item.element()?.matches?.('.target-piece,.battle-target'),
+      (item) =>
+        !item.automatic ||
+        (!item.started && !announcedCards.has(item.element())) ||
+        !item.element()?.matches?.('.target-piece,.battle-target'),
     );
   }
   function resume() {

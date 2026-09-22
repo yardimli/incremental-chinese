@@ -68,6 +68,126 @@
       "female": "audio/female/c7fdddf79eaa8c4f.mp3",
       "male": "audio/male/c7fdddf79eaa8c4f.mp3"
     },
+    "一一": {
+      "female": "audio/female/53546e47edf665b7.mp3",
+      "male": "audio/male/53546e47edf665b7.mp3"
+    },
+    "一二": {
+      "female": "audio/female/f6ea676b13bda19c.mp3",
+      "male": "audio/male/f6ea676b13bda19c.mp3"
+    },
+    "一三": {
+      "female": "audio/female/438b1855915518da.mp3",
+      "male": "audio/male/438b1855915518da.mp3"
+    },
+    "一四": {
+      "female": "audio/female/76edf155edf3bf3a.mp3",
+      "male": "audio/male/76edf155edf3bf3a.mp3"
+    },
+    "一五": {
+      "female": "audio/female/5ee860d85fc461ae.mp3",
+      "male": "audio/male/5ee860d85fc461ae.mp3"
+    },
+    "二一": {
+      "female": "audio/female/808c5204f908d145.mp3",
+      "male": "audio/male/808c5204f908d145.mp3"
+    },
+    "二二": {
+      "female": "audio/female/80abb18e6de810e7.mp3",
+      "male": "audio/male/80abb18e6de810e7.mp3"
+    },
+    "二三": {
+      "female": "audio/female/ce68b94c4f457376.mp3",
+      "male": "audio/male/ce68b94c4f457376.mp3"
+    },
+    "二四": {
+      "female": "audio/female/45b4d632af79f257.mp3",
+      "male": "audio/male/45b4d632af79f257.mp3"
+    },
+    "二五": {
+      "female": "audio/female/6616ed5117d1f66c.mp3",
+      "male": "audio/male/6616ed5117d1f66c.mp3"
+    },
+    "三一": {
+      "female": "audio/female/965e86a53e8a8799.mp3",
+      "male": "audio/male/965e86a53e8a8799.mp3"
+    },
+    "三二": {
+      "female": "audio/female/203abb8aa8bde424.mp3",
+      "male": "audio/male/203abb8aa8bde424.mp3"
+    },
+    "三三": {
+      "female": "audio/female/da6951a5f9ce3fd6.mp3",
+      "male": "audio/male/da6951a5f9ce3fd6.mp3"
+    },
+    "三四": {
+      "female": "audio/female/cf25192593fd04b8.mp3",
+      "male": "audio/male/cf25192593fd04b8.mp3"
+    },
+    "三五": {
+      "female": "audio/female/e1a6128865bd1277.mp3",
+      "male": "audio/male/e1a6128865bd1277.mp3"
+    },
+    "四一": {
+      "female": "audio/female/631f53cbc01e9844.mp3",
+      "male": "audio/male/631f53cbc01e9844.mp3"
+    },
+    "四二": {
+      "female": "audio/female/8237b05aac0dab17.mp3",
+      "male": "audio/male/8237b05aac0dab17.mp3"
+    },
+    "四三": {
+      "female": "audio/female/d803ade52a057c04.mp3",
+      "male": "audio/male/d803ade52a057c04.mp3"
+    },
+    "四四": {
+      "female": "audio/female/68b90d50e4e8dbf7.mp3",
+      "male": "audio/male/68b90d50e4e8dbf7.mp3"
+    },
+    "四五": {
+      "female": "audio/female/cf18970aa39e0fda.mp3",
+      "male": "audio/male/cf18970aa39e0fda.mp3"
+    },
+    "五一": {
+      "female": "audio/female/3e6411eaae4b6a49.mp3",
+      "male": "audio/male/3e6411eaae4b6a49.mp3"
+    },
+    "五二": {
+      "female": "audio/female/3ae530900fe3a4dc.mp3",
+      "male": "audio/male/3ae530900fe3a4dc.mp3"
+    },
+    "五三": {
+      "female": "audio/female/7c5959fb45b38831.mp3",
+      "male": "audio/male/7c5959fb45b38831.mp3"
+    },
+    "五四": {
+      "female": "audio/female/c0f2d66ab2e34828.mp3",
+      "male": "audio/male/c0f2d66ab2e34828.mp3"
+    },
+    "五五": {
+      "female": "audio/female/8a8162c062af0f6d.mp3",
+      "male": "audio/male/8a8162c062af0f6d.mp3"
+    },
+    "六一": {
+      "female": "audio/female/9b8eec6377828103.mp3",
+      "male": "audio/male/9b8eec6377828103.mp3"
+    },
+    "六二": {
+      "female": "audio/female/156487bed8f54dbc.mp3",
+      "male": "audio/male/156487bed8f54dbc.mp3"
+    },
+    "六三": {
+      "female": "audio/female/6fec87ba7cf35918.mp3",
+      "male": "audio/male/6fec87ba7cf35918.mp3"
+    },
+    "六四": {
+      "female": "audio/female/e16cae5e69d94a65.mp3",
+      "male": "audio/male/e16cae5e69d94a65.mp3"
+    },
+    "六五": {
+      "female": "audio/female/cbd9a84ded65120f.mp3",
+      "male": "audio/male/cbd9a84ded65120f.mp3"
+    },
     "兩位數": {
       "female": "audio/female/fe4fc62f68f792e2.mp3",
       "male": "audio/male/fe4fc62f68f792e2.mp3"
@@ -115,6 +235,134 @@
     "位數": {
       "female": "audio/female/72b95600a4be0621.mp3",
       "male": "audio/male/72b95600a4be0621.mp3"
+    },
+    "十三": {
+      "female": "audio/female/a91b9ac3ed0dfdc4.mp3",
+      "male": "audio/male/a91b9ac3ed0dfdc4.mp3"
+    },
+    "十四": {
+      "female": "audio/female/29473899eff56892.mp3",
+      "male": "audio/male/29473899eff56892.mp3"
+    },
+    "十六": {
+      "female": "audio/female/adff0166a2f6a97a.mp3",
+      "male": "audio/male/adff0166a2f6a97a.mp3"
+    },
+    "十七": {
+      "female": "audio/female/9e27d43472e7138f.mp3",
+      "male": "audio/male/9e27d43472e7138f.mp3"
+    },
+    "十八": {
+      "female": "audio/female/078c45851449bef0.mp3",
+      "male": "audio/male/078c45851449bef0.mp3"
+    },
+    "十九": {
+      "female": "audio/female/9340996fc6c404c0.mp3",
+      "male": "audio/male/9340996fc6c404c0.mp3"
+    },
+    "二十二": {
+      "female": "audio/female/8f4058e1381ee09c.mp3",
+      "male": "audio/male/8f4058e1381ee09c.mp3"
+    },
+    "二十三": {
+      "female": "audio/female/dcfb24deab3318af.mp3",
+      "male": "audio/male/dcfb24deab3318af.mp3"
+    },
+    "二十四": {
+      "female": "audio/female/c0661086447e6de6.mp3",
+      "male": "audio/male/c0661086447e6de6.mp3"
+    },
+    "二十五": {
+      "female": "audio/female/3b3d13876cb9398f.mp3",
+      "male": "audio/male/3b3d13876cb9398f.mp3"
+    },
+    "二十六": {
+      "female": "audio/female/edc30d933f2ede73.mp3",
+      "male": "audio/male/edc30d933f2ede73.mp3"
+    },
+    "二十七": {
+      "female": "audio/female/903ca45a58ef77dc.mp3",
+      "male": "audio/male/903ca45a58ef77dc.mp3"
+    },
+    "二十八": {
+      "female": "audio/female/3769279ebc02dc98.mp3",
+      "male": "audio/male/3769279ebc02dc98.mp3"
+    },
+    "二十九": {
+      "female": "audio/female/7f23a496e1eb859e.mp3",
+      "male": "audio/male/7f23a496e1eb859e.mp3"
+    },
+    "三十一": {
+      "female": "audio/female/df93f417c1deeee2.mp3",
+      "male": "audio/male/df93f417c1deeee2.mp3"
+    },
+    "三十二": {
+      "female": "audio/female/4c0141fefded8916.mp3",
+      "male": "audio/male/4c0141fefded8916.mp3"
+    },
+    "三十三": {
+      "female": "audio/female/e1447d0e02b86af7.mp3",
+      "male": "audio/male/e1447d0e02b86af7.mp3"
+    },
+    "三十四": {
+      "female": "audio/female/c36def1b57825b05.mp3",
+      "male": "audio/male/c36def1b57825b05.mp3"
+    },
+    "三十五": {
+      "female": "audio/female/adc7d6d8c5ca19cd.mp3",
+      "male": "audio/male/adc7d6d8c5ca19cd.mp3"
+    },
+    "三十六": {
+      "female": "audio/female/0a16b41faa0a2e6a.mp3",
+      "male": "audio/male/0a16b41faa0a2e6a.mp3"
+    },
+    "三十七": {
+      "female": "audio/female/4f231e479a9a3aac.mp3",
+      "male": "audio/male/4f231e479a9a3aac.mp3"
+    },
+    "三十八": {
+      "female": "audio/female/8d829c653d8fec9c.mp3",
+      "male": "audio/male/8d829c653d8fec9c.mp3"
+    },
+    "三十九": {
+      "female": "audio/female/7b0b97a622fca679.mp3",
+      "male": "audio/male/7b0b97a622fca679.mp3"
+    },
+    "五十一": {
+      "female": "audio/female/d13be28d0684dfc7.mp3",
+      "male": "audio/male/d13be28d0684dfc7.mp3"
+    },
+    "五十二": {
+      "female": "audio/female/f52f034b549f2b0b.mp3",
+      "male": "audio/male/f52f034b549f2b0b.mp3"
+    },
+    "五十三": {
+      "female": "audio/female/bd2ee3aa6e1e6bf2.mp3",
+      "male": "audio/male/bd2ee3aa6e1e6bf2.mp3"
+    },
+    "五十四": {
+      "female": "audio/female/7314d5d4ebb7ceb8.mp3",
+      "male": "audio/male/7314d5d4ebb7ceb8.mp3"
+    },
+    "五十五": {
+      "female": "audio/female/80b0807cebcde125.mp3",
+      "male": "audio/male/80b0807cebcde125.mp3"
+    },
+    "五十六": {
+      "female": "audio/female/839f93a7749b55ca.mp3",
+      "male": "audio/male/839f93a7749b55ca.mp3"
+    },
+    "五十七": {
+      "female": "audio/female/caa7793d9dac1c76.mp3",
+      "male": "audio/male/caa7793d9dac1c76.mp3"
+    },
+    "五十八": {
+      "female": "audio/female/c6a9903cb5d79f90.mp3",
+      "male": "audio/male/c6a9903cb5d79f90.mp3"
+    },
+    "五十九": {
+      "female": "audio/female/602763d4f49536b4.mp3",
+      "male": "audio/male/602763d4f49536b4.mp3"
     },
     "大數與錢": {
       "female": "audio/female/5db9aad3e6740c51.mp3",
@@ -180,10 +428,6 @@
       "female": "audio/female/fa54243fc097e9fa.mp3",
       "male": "audio/male/fa54243fc097e9fa.mp3"
     },
-    "數量組合": {
-      "female": "audio/female/1caa983cc1412a8d.mp3",
-      "male": "audio/male/1caa983cc1412a8d.mp3"
-    },
     "一百": {
       "female": "audio/female/38d302ad2b36640f.mp3",
       "male": "audio/male/38d302ad2b36640f.mp3"
@@ -196,13 +440,9 @@
       "female": "audio/female/f273afbfc4ed5dfd.mp3",
       "male": "audio/male/f273afbfc4ed5dfd.mp3"
     },
-    "一元": {
-      "female": "audio/female/d5a7c87a6a21c37c.mp3",
-      "male": "audio/male/d5a7c87a6a21c37c.mp3"
-    },
-    "一塊": {
-      "female": "audio/female/516dcf0bf8d41c7f.mp3",
-      "male": "audio/male/516dcf0bf8d41c7f.mp3"
+    "一億": {
+      "female": "audio/female/2fe61aa767b723c2.mp3",
+      "male": "audio/male/2fe61aa767b723c2.mp3"
     },
     "二百": {
       "female": "audio/female/bb7fc3a46dd821d2.mp3",
@@ -216,13 +456,9 @@
       "female": "audio/female/62a8a6202cc0d59c.mp3",
       "male": "audio/male/62a8a6202cc0d59c.mp3"
     },
-    "二元": {
-      "female": "audio/female/6075ffa891608896.mp3",
-      "male": "audio/male/6075ffa891608896.mp3"
-    },
-    "二塊": {
-      "female": "audio/female/2a0de9c53dff5cfc.mp3",
-      "male": "audio/male/2a0de9c53dff5cfc.mp3"
+    "二億": {
+      "female": "audio/female/0aa28e88610d85b7.mp3",
+      "male": "audio/male/0aa28e88610d85b7.mp3"
     },
     "三百": {
       "female": "audio/female/e6a5e7b74720e53d.mp3",
@@ -236,13 +472,9 @@
       "female": "audio/female/7e9aff5fe1510ee5.mp3",
       "male": "audio/male/7e9aff5fe1510ee5.mp3"
     },
-    "三元": {
-      "female": "audio/female/90e2c7cc6cabf8dd.mp3",
-      "male": "audio/male/90e2c7cc6cabf8dd.mp3"
-    },
-    "三塊": {
-      "female": "audio/female/519527b8969dabb4.mp3",
-      "male": "audio/male/519527b8969dabb4.mp3"
+    "三億": {
+      "female": "audio/female/141d15e8b9593051.mp3",
+      "male": "audio/male/141d15e8b9593051.mp3"
     },
     "四百": {
       "female": "audio/female/fa425555f74a0545.mp3",
@@ -256,13 +488,9 @@
       "female": "audio/female/0815e8b6c40e6362.mp3",
       "male": "audio/male/0815e8b6c40e6362.mp3"
     },
-    "四元": {
-      "female": "audio/female/27cd4c29d1aefba8.mp3",
-      "male": "audio/male/27cd4c29d1aefba8.mp3"
-    },
-    "四塊": {
-      "female": "audio/female/c85fc5ffc3f9b3e6.mp3",
-      "male": "audio/male/c85fc5ffc3f9b3e6.mp3"
+    "四億": {
+      "female": "audio/female/3547e0e09ce4b2a1.mp3",
+      "male": "audio/male/3547e0e09ce4b2a1.mp3"
     },
     "五百": {
       "female": "audio/female/a04846d365f8fe2d.mp3",
@@ -276,13 +504,9 @@
       "female": "audio/female/791d29f834f87129.mp3",
       "male": "audio/male/791d29f834f87129.mp3"
     },
-    "五元": {
-      "female": "audio/female/7ea2dfc6099df99d.mp3",
-      "male": "audio/male/7ea2dfc6099df99d.mp3"
-    },
-    "五塊": {
-      "female": "audio/female/cd103554e27d7854.mp3",
-      "male": "audio/male/cd103554e27d7854.mp3"
+    "五億": {
+      "female": "audio/female/ec08ee2e60d314de.mp3",
+      "male": "audio/male/ec08ee2e60d314de.mp3"
     },
     "六百": {
       "female": "audio/female/21b6e693707378df.mp3",
@@ -295,6 +519,102 @@
     "六萬": {
       "female": "audio/female/03282304635534ef.mp3",
       "male": "audio/male/03282304635534ef.mp3"
+    },
+    "六億": {
+      "female": "audio/female/6cd4202cddc819ff.mp3",
+      "male": "audio/male/6cd4202cddc819ff.mp3"
+    },
+    "七百": {
+      "female": "audio/female/e2ef42d1aeddee08.mp3",
+      "male": "audio/male/e2ef42d1aeddee08.mp3"
+    },
+    "七千": {
+      "female": "audio/female/b6e547839247d5b4.mp3",
+      "male": "audio/male/b6e547839247d5b4.mp3"
+    },
+    "七萬": {
+      "female": "audio/female/ff07d9a24412d220.mp3",
+      "male": "audio/male/ff07d9a24412d220.mp3"
+    },
+    "七億": {
+      "female": "audio/female/237d1faf79df8e2f.mp3",
+      "male": "audio/male/237d1faf79df8e2f.mp3"
+    },
+    "八百": {
+      "female": "audio/female/1074b72c019586b2.mp3",
+      "male": "audio/male/1074b72c019586b2.mp3"
+    },
+    "八千": {
+      "female": "audio/female/5090f810ed5804ac.mp3",
+      "male": "audio/male/5090f810ed5804ac.mp3"
+    },
+    "八萬": {
+      "female": "audio/female/a349aa253dc1ce21.mp3",
+      "male": "audio/male/a349aa253dc1ce21.mp3"
+    },
+    "八億": {
+      "female": "audio/female/db33e5ea1d361886.mp3",
+      "male": "audio/male/db33e5ea1d361886.mp3"
+    },
+    "九百": {
+      "female": "audio/female/2264e60a0c2a4f5d.mp3",
+      "male": "audio/male/2264e60a0c2a4f5d.mp3"
+    },
+    "九千": {
+      "female": "audio/female/b54e309fccd5c87b.mp3",
+      "male": "audio/male/b54e309fccd5c87b.mp3"
+    },
+    "九萬": {
+      "female": "audio/female/c0029f726f3e2e65.mp3",
+      "male": "audio/male/c0029f726f3e2e65.mp3"
+    },
+    "九億": {
+      "female": "audio/female/0b2bfadfa284aa4b.mp3",
+      "male": "audio/male/0b2bfadfa284aa4b.mp3"
+    },
+    "數量組合": {
+      "female": "audio/female/1caa983cc1412a8d.mp3",
+      "male": "audio/male/1caa983cc1412a8d.mp3"
+    },
+    "一元": {
+      "female": "audio/female/d5a7c87a6a21c37c.mp3",
+      "male": "audio/male/d5a7c87a6a21c37c.mp3"
+    },
+    "一塊": {
+      "female": "audio/female/516dcf0bf8d41c7f.mp3",
+      "male": "audio/male/516dcf0bf8d41c7f.mp3"
+    },
+    "二元": {
+      "female": "audio/female/6075ffa891608896.mp3",
+      "male": "audio/male/6075ffa891608896.mp3"
+    },
+    "二塊": {
+      "female": "audio/female/2a0de9c53dff5cfc.mp3",
+      "male": "audio/male/2a0de9c53dff5cfc.mp3"
+    },
+    "三元": {
+      "female": "audio/female/90e2c7cc6cabf8dd.mp3",
+      "male": "audio/male/90e2c7cc6cabf8dd.mp3"
+    },
+    "三塊": {
+      "female": "audio/female/519527b8969dabb4.mp3",
+      "male": "audio/male/519527b8969dabb4.mp3"
+    },
+    "四元": {
+      "female": "audio/female/27cd4c29d1aefba8.mp3",
+      "male": "audio/male/27cd4c29d1aefba8.mp3"
+    },
+    "四塊": {
+      "female": "audio/female/c85fc5ffc3f9b3e6.mp3",
+      "male": "audio/male/c85fc5ffc3f9b3e6.mp3"
+    },
+    "五元": {
+      "female": "audio/female/7ea2dfc6099df99d.mp3",
+      "male": "audio/male/7ea2dfc6099df99d.mp3"
+    },
+    "五塊": {
+      "female": "audio/female/cd103554e27d7854.mp3",
+      "male": "audio/male/cd103554e27d7854.mp3"
     },
     "六元": {
       "female": "audio/female/547be9472cd5e90f.mp3",
@@ -360,6 +680,126 @@
       "female": "audio/female/978d056de9ca8731.mp3",
       "male": "audio/male/978d056de9ca8731.mp3"
     },
+    "我是誰": {
+      "female": "audio/female/dfd6237b4bf892b1.mp3",
+      "male": "audio/male/dfd6237b4bf892b1.mp3"
+    },
+    "我的名字": {
+      "female": "audio/female/6fd335aaf4953698.mp3",
+      "male": "audio/male/6fd335aaf4953698.mp3"
+    },
+    "你是誰": {
+      "female": "audio/female/a6e4b44fd159c9a9.mp3",
+      "male": "audio/male/a6e4b44fd159c9a9.mp3"
+    },
+    "你的名字": {
+      "female": "audio/female/bf144f7d9f12566f.mp3",
+      "male": "audio/male/bf144f7d9f12566f.mp3"
+    },
+    "他是誰": {
+      "female": "audio/female/52a020293d3f47ed.mp3",
+      "male": "audio/male/52a020293d3f47ed.mp3"
+    },
+    "他的名字": {
+      "female": "audio/female/9e74a63b33c1898f.mp3",
+      "male": "audio/male/9e74a63b33c1898f.mp3"
+    },
+    "她是誰": {
+      "female": "audio/female/c4553fef2ae38e9c.mp3",
+      "male": "audio/male/c4553fef2ae38e9c.mp3"
+    },
+    "她的名字": {
+      "female": "audio/female/264163286fd3af1e.mp3",
+      "male": "audio/male/264163286fd3af1e.mp3"
+    },
+    "我們是誰": {
+      "female": "audio/female/bf3c09a245979beb.mp3",
+      "male": "audio/male/bf3c09a245979beb.mp3"
+    },
+    "我們的名字": {
+      "female": "audio/female/bef61f50567913f2.mp3",
+      "male": "audio/male/bef61f50567913f2.mp3"
+    },
+    "一人": {
+      "female": "audio/female/45b3f27e3a97e2c1.mp3",
+      "male": "audio/male/45b3f27e3a97e2c1.mp3"
+    },
+    "二人": {
+      "female": "audio/female/8981f8b72b351ea3.mp3",
+      "male": "audio/male/8981f8b72b351ea3.mp3"
+    },
+    "三人": {
+      "female": "audio/female/85a55ed48d6f4932.mp3",
+      "male": "audio/male/85a55ed48d6f4932.mp3"
+    },
+    "四人": {
+      "female": "audio/female/37dcc74579d877aa.mp3",
+      "male": "audio/male/37dcc74579d877aa.mp3"
+    },
+    "五人": {
+      "female": "audio/female/d584a00dbd219264.mp3",
+      "male": "audio/male/d584a00dbd219264.mp3"
+    },
+    "六人": {
+      "female": "audio/female/f02321cfd1bbc988.mp3",
+      "male": "audio/male/f02321cfd1bbc988.mp3"
+    },
+    "七人": {
+      "female": "audio/female/98f8a493c7982dca.mp3",
+      "male": "audio/male/98f8a493c7982dca.mp3"
+    },
+    "八人": {
+      "female": "audio/female/39d8ea1e75c3cf3d.mp3",
+      "male": "audio/male/39d8ea1e75c3cf3d.mp3"
+    },
+    "九人": {
+      "female": "audio/female/b56d53dff0c85f3f.mp3",
+      "male": "audio/male/b56d53dff0c85f3f.mp3"
+    },
+    "十人": {
+      "female": "audio/female/386eb2b750207a26.mp3",
+      "male": "audio/male/386eb2b750207a26.mp3"
+    },
+    "十一人": {
+      "female": "audio/female/f8c17a059530f395.mp3",
+      "male": "audio/male/f8c17a059530f395.mp3"
+    },
+    "十二人": {
+      "female": "audio/female/d4b70cbfc93ee482.mp3",
+      "male": "audio/male/d4b70cbfc93ee482.mp3"
+    },
+    "十五人": {
+      "female": "audio/female/2d19b522d8d4c768.mp3",
+      "male": "audio/male/2d19b522d8d4c768.mp3"
+    },
+    "二十人": {
+      "female": "audio/female/1eddc4beed2c89b3.mp3",
+      "male": "audio/male/1eddc4beed2c89b3.mp3"
+    },
+    "二十一人": {
+      "female": "audio/female/ce93d2f69c9c6b5d.mp3",
+      "male": "audio/male/ce93d2f69c9c6b5d.mp3"
+    },
+    "三十人": {
+      "female": "audio/female/e3f3351d129a8278.mp3",
+      "male": "audio/male/e3f3351d129a8278.mp3"
+    },
+    "五十人": {
+      "female": "audio/female/d2df30d053faadc6.mp3",
+      "male": "audio/male/d2df30d053faadc6.mp3"
+    },
+    "九十九人": {
+      "female": "audio/female/35e0c91d7bbde131.mp3",
+      "male": "audio/male/35e0c91d7bbde131.mp3"
+    },
+    "你是他嗎": {
+      "female": "audio/female/5b8f9cd888215db2.mp3",
+      "male": "audio/male/5b8f9cd888215db2.mp3"
+    },
+    "她是你嗎": {
+      "female": "audio/female/8ef9163bf20b742b.mp3",
+      "male": "audio/male/8ef9163bf20b742b.mp3"
+    },
     "回家": {
       "female": "audio/female/9a6ce4cf2cab6307.mp3",
       "male": "audio/male/9a6ce4cf2cab6307.mp3"
@@ -419,6 +859,126 @@
     "哪兒": {
       "female": "audio/female/4d40f47a7a18a29f.mp3",
       "male": "audio/male/4d40f47a7a18a29f.mp3"
+    },
+    "我在家": {
+      "female": "audio/female/586d4ff4cd1563eb.mp3",
+      "male": "audio/male/586d4ff4cd1563eb.mp3"
+    },
+    "我有家": {
+      "female": "audio/female/0c44345e757da9ca.mp3",
+      "male": "audio/male/0c44345e757da9ca.mp3"
+    },
+    "我回家": {
+      "female": "audio/female/ab86aac170d2a2f5.mp3",
+      "male": "audio/male/ab86aac170d2a2f5.mp3"
+    },
+    "我來這兒": {
+      "female": "audio/female/fa31f1887138d506.mp3",
+      "male": "audio/male/fa31f1887138d506.mp3"
+    },
+    "我去那兒": {
+      "female": "audio/female/1ecc77e117e3ce3f.mp3",
+      "male": "audio/male/1ecc77e117e3ce3f.mp3"
+    },
+    "我住這兒": {
+      "female": "audio/female/be406e0eb849fa13.mp3",
+      "male": "audio/male/be406e0eb849fa13.mp3"
+    },
+    "你在家": {
+      "female": "audio/female/6eeda59c9cd76aa4.mp3",
+      "male": "audio/male/6eeda59c9cd76aa4.mp3"
+    },
+    "你有家": {
+      "female": "audio/female/3c28f69bd3883e50.mp3",
+      "male": "audio/male/3c28f69bd3883e50.mp3"
+    },
+    "你回家": {
+      "female": "audio/female/0da0f4fef7c0eaaa.mp3",
+      "male": "audio/male/0da0f4fef7c0eaaa.mp3"
+    },
+    "你來這兒": {
+      "female": "audio/female/22a9d7aba8af1294.mp3",
+      "male": "audio/male/22a9d7aba8af1294.mp3"
+    },
+    "你去那兒": {
+      "female": "audio/female/5dccf9adb66e6574.mp3",
+      "male": "audio/male/5dccf9adb66e6574.mp3"
+    },
+    "你住這兒": {
+      "female": "audio/female/3c0297bf32f437b2.mp3",
+      "male": "audio/male/3c0297bf32f437b2.mp3"
+    },
+    "他在家": {
+      "female": "audio/female/77e20b3a4725cb86.mp3",
+      "male": "audio/male/77e20b3a4725cb86.mp3"
+    },
+    "他有家": {
+      "female": "audio/female/81595a4769604b0a.mp3",
+      "male": "audio/male/81595a4769604b0a.mp3"
+    },
+    "他回家": {
+      "female": "audio/female/bf6dbddf3f1207de.mp3",
+      "male": "audio/male/bf6dbddf3f1207de.mp3"
+    },
+    "他來這兒": {
+      "female": "audio/female/6cae46a3d1b53eb8.mp3",
+      "male": "audio/male/6cae46a3d1b53eb8.mp3"
+    },
+    "他去那兒": {
+      "female": "audio/female/455468e6aaee13e6.mp3",
+      "male": "audio/male/455468e6aaee13e6.mp3"
+    },
+    "他住這兒": {
+      "female": "audio/female/c2844a813c63dea5.mp3",
+      "male": "audio/male/c2844a813c63dea5.mp3"
+    },
+    "她在家": {
+      "female": "audio/female/7eb44568d697854d.mp3",
+      "male": "audio/male/7eb44568d697854d.mp3"
+    },
+    "她有家": {
+      "female": "audio/female/1b5a6c630e545be5.mp3",
+      "male": "audio/male/1b5a6c630e545be5.mp3"
+    },
+    "她回家": {
+      "female": "audio/female/ccdf93793f0202b3.mp3",
+      "male": "audio/male/ccdf93793f0202b3.mp3"
+    },
+    "她來這兒": {
+      "female": "audio/female/0da7565adeea0f45.mp3",
+      "male": "audio/male/0da7565adeea0f45.mp3"
+    },
+    "她去那兒": {
+      "female": "audio/female/02ffba5492f495f6.mp3",
+      "male": "audio/male/02ffba5492f495f6.mp3"
+    },
+    "她住這兒": {
+      "female": "audio/female/0d36413051e17e21.mp3",
+      "male": "audio/male/0d36413051e17e21.mp3"
+    },
+    "我們在家": {
+      "female": "audio/female/9c7a3189ba29448e.mp3",
+      "male": "audio/male/9c7a3189ba29448e.mp3"
+    },
+    "我們有家": {
+      "female": "audio/female/9f75f529c935f09a.mp3",
+      "male": "audio/male/9f75f529c935f09a.mp3"
+    },
+    "我們回家": {
+      "female": "audio/female/cfba553fc2baf03f.mp3",
+      "male": "audio/male/cfba553fc2baf03f.mp3"
+    },
+    "我們來這兒": {
+      "female": "audio/female/36e016c4deafeacb.mp3",
+      "male": "audio/male/36e016c4deafeacb.mp3"
+    },
+    "我們去那兒": {
+      "female": "audio/female/2cfec4fb32dca7c6.mp3",
+      "male": "audio/male/2cfec4fb32dca7c6.mp3"
+    },
+    "我們住這兒": {
+      "female": "audio/female/db7f36e980c35d9e.mp3",
+      "male": "audio/male/db7f36e980c35d9e.mp3"
     },
     "喝茶": {
       "female": "audio/female/cb79e0cecd8e9392.mp3",
@@ -480,10 +1040,6 @@
       "female": "audio/female/2891bc7044f2f440.mp3",
       "male": "audio/male/2891bc7044f2f440.mp3"
     },
-    "茶館點單": {
-      "female": "audio/female/0b86b3ef789f488c.mp3",
-      "male": "audio/male/0b86b3ef789f488c.mp3"
-    },
     "我喝水": {
       "female": "audio/female/12542269cf686601.mp3",
       "male": "audio/male/12542269cf686601.mp3"
@@ -504,9 +1060,9 @@
       "female": "audio/female/fdaa26ac8943d4a4.mp3",
       "male": "audio/male/fdaa26ac8943d4a4.mp3"
     },
-    "我想喝茶": {
-      "female": "audio/female/38a01082bd0ec693.mp3",
-      "male": "audio/male/38a01082bd0ec693.mp3"
+    "我不喝茶": {
+      "female": "audio/female/5ba3aaa8d34e7847.mp3",
+      "male": "audio/male/5ba3aaa8d34e7847.mp3"
     },
     "你喝水": {
       "female": "audio/female/36274e37899de2ce.mp3",
@@ -528,9 +1084,9 @@
       "female": "audio/female/884c9766610874a4.mp3",
       "male": "audio/male/884c9766610874a4.mp3"
     },
-    "你想喝茶": {
-      "female": "audio/female/8e54f058972f3b2f.mp3",
-      "male": "audio/male/8e54f058972f3b2f.mp3"
+    "你不喝茶": {
+      "female": "audio/female/39df5637fb099a29.mp3",
+      "male": "audio/male/39df5637fb099a29.mp3"
     },
     "他喝水": {
       "female": "audio/female/47e4f6de762fdc1b.mp3",
@@ -552,9 +1108,9 @@
       "female": "audio/female/64ab567b3351b65e.mp3",
       "male": "audio/male/64ab567b3351b65e.mp3"
     },
-    "他想喝茶": {
-      "female": "audio/female/03a6dc2f3c3639c3.mp3",
-      "male": "audio/male/03a6dc2f3c3639c3.mp3"
+    "他不喝茶": {
+      "female": "audio/female/cdae84214f3c77da.mp3",
+      "male": "audio/male/cdae84214f3c77da.mp3"
     },
     "她喝水": {
       "female": "audio/female/477ae4c3a03f1e7e.mp3",
@@ -576,9 +1132,9 @@
       "female": "audio/female/51ac60e25e4bc542.mp3",
       "male": "audio/male/51ac60e25e4bc542.mp3"
     },
-    "她想喝茶": {
-      "female": "audio/female/a868d672919f6984.mp3",
-      "male": "audio/male/a868d672919f6984.mp3"
+    "她不喝茶": {
+      "female": "audio/female/2846e62760a2ee17.mp3",
+      "male": "audio/male/2846e62760a2ee17.mp3"
     },
     "我們喝水": {
       "female": "audio/female/69aea114fd24fcae.mp3",
@@ -600,6 +1156,30 @@
       "female": "audio/female/ce2e195a485b40ff.mp3",
       "male": "audio/male/ce2e195a485b40ff.mp3"
     },
+    "我們不喝茶": {
+      "female": "audio/female/55889b41296b56fb.mp3",
+      "male": "audio/male/55889b41296b56fb.mp3"
+    },
+    "茶館點單": {
+      "female": "audio/female/0b86b3ef789f488c.mp3",
+      "male": "audio/male/0b86b3ef789f488c.mp3"
+    },
+    "我想喝茶": {
+      "female": "audio/female/38a01082bd0ec693.mp3",
+      "male": "audio/male/38a01082bd0ec693.mp3"
+    },
+    "你想喝茶": {
+      "female": "audio/female/8e54f058972f3b2f.mp3",
+      "male": "audio/male/8e54f058972f3b2f.mp3"
+    },
+    "他想喝茶": {
+      "female": "audio/female/03a6dc2f3c3639c3.mp3",
+      "male": "audio/male/03a6dc2f3c3639c3.mp3"
+    },
+    "她想喝茶": {
+      "female": "audio/female/a868d672919f6984.mp3",
+      "male": "audio/male/a868d672919f6984.mp3"
+    },
     "我們想喝茶": {
       "female": "audio/female/53c3ecc19c3877c0.mp3",
       "male": "audio/male/53c3ecc19c3877c0.mp3"
@@ -608,17 +1188,9 @@
       "female": "audio/female/e942d607fc1948e4.mp3",
       "male": "audio/male/e942d607fc1948e4.mp3"
     },
-    "我不喝茶": {
-      "female": "audio/female/5ba3aaa8d34e7847.mp3",
-      "male": "audio/male/5ba3aaa8d34e7847.mp3"
-    },
     "你喝茶嗎": {
       "female": "audio/female/e214d0cc9c73de0b.mp3",
       "male": "audio/male/e214d0cc9c73de0b.mp3"
-    },
-    "他是誰": {
-      "female": "audio/female/52a020293d3f47ed.mp3",
-      "male": "audio/male/52a020293d3f47ed.mp3"
     },
     "我的杯子": {
       "female": "audio/female/8db2e5265ac98766.mp3",
@@ -627,10 +1199,6 @@
     "我沒有錢": {
       "female": "audio/female/9497c27c838317c4.mp3",
       "male": "audio/male/9497c27c838317c4.mp3"
-    },
-    "他在家": {
-      "female": "audio/female/77e20b3a4725cb86.mp3",
-      "male": "audio/male/77e20b3a4725cb86.mp3"
     },
     "你在哪兒": {
       "female": "audio/female/4a2d10b61e535e45.mp3",
@@ -704,6 +1272,126 @@
       "female": "audio/female/376ef2ce3d11e8d7.mp3",
       "male": "audio/male/376ef2ce3d11e8d7.mp3"
     },
+    "我喫米飯": {
+      "female": "audio/female/bb7a71b1fb94ea27.mp3",
+      "male": "audio/male/bb7a71b1fb94ea27.mp3"
+    },
+    "我喫蘋果": {
+      "female": "audio/female/a117366d6db5fe4e.mp3",
+      "male": "audio/male/a117366d6db5fe4e.mp3"
+    },
+    "我買菜": {
+      "female": "audio/female/02030b3eef4e1cac.mp3",
+      "male": "audio/male/02030b3eef4e1cac.mp3"
+    },
+    "我買水果": {
+      "female": "audio/female/ccb9f40a11c1ed62.mp3",
+      "male": "audio/male/ccb9f40a11c1ed62.mp3"
+    },
+    "我要喫飯": {
+      "female": "audio/female/a83040f400e73aa6.mp3",
+      "male": "audio/male/a83040f400e73aa6.mp3"
+    },
+    "我去商店": {
+      "female": "audio/female/2af600b9c79885fb.mp3",
+      "male": "audio/male/2af600b9c79885fb.mp3"
+    },
+    "你喫米飯": {
+      "female": "audio/female/ff519e29fb6334bb.mp3",
+      "male": "audio/male/ff519e29fb6334bb.mp3"
+    },
+    "你喫蘋果": {
+      "female": "audio/female/7059c159511078c6.mp3",
+      "male": "audio/male/7059c159511078c6.mp3"
+    },
+    "你買菜": {
+      "female": "audio/female/a51ab16152a208ae.mp3",
+      "male": "audio/male/a51ab16152a208ae.mp3"
+    },
+    "你買水果": {
+      "female": "audio/female/8bc6670d3cf21f25.mp3",
+      "male": "audio/male/8bc6670d3cf21f25.mp3"
+    },
+    "你要喫飯": {
+      "female": "audio/female/652584f9f6b5aab8.mp3",
+      "male": "audio/male/652584f9f6b5aab8.mp3"
+    },
+    "你去商店": {
+      "female": "audio/female/b50a3c57087872ad.mp3",
+      "male": "audio/male/b50a3c57087872ad.mp3"
+    },
+    "他喫米飯": {
+      "female": "audio/female/0f37187962a7f43c.mp3",
+      "male": "audio/male/0f37187962a7f43c.mp3"
+    },
+    "他喫蘋果": {
+      "female": "audio/female/ea46749db848efce.mp3",
+      "male": "audio/male/ea46749db848efce.mp3"
+    },
+    "他買菜": {
+      "female": "audio/female/68e6f37076abb805.mp3",
+      "male": "audio/male/68e6f37076abb805.mp3"
+    },
+    "他買水果": {
+      "female": "audio/female/3dfeb8449100a2a2.mp3",
+      "male": "audio/male/3dfeb8449100a2a2.mp3"
+    },
+    "他要喫飯": {
+      "female": "audio/female/4a011d5a7341d06b.mp3",
+      "male": "audio/male/4a011d5a7341d06b.mp3"
+    },
+    "他去商店": {
+      "female": "audio/female/f9963e0c50d6f852.mp3",
+      "male": "audio/male/f9963e0c50d6f852.mp3"
+    },
+    "她喫米飯": {
+      "female": "audio/female/61929fb3d46f5ce3.mp3",
+      "male": "audio/male/61929fb3d46f5ce3.mp3"
+    },
+    "她喫蘋果": {
+      "female": "audio/female/00aecc579bce088b.mp3",
+      "male": "audio/male/00aecc579bce088b.mp3"
+    },
+    "她買菜": {
+      "female": "audio/female/62de28d10e1e4d50.mp3",
+      "male": "audio/male/62de28d10e1e4d50.mp3"
+    },
+    "她買水果": {
+      "female": "audio/female/dcbc31ade85c7aef.mp3",
+      "male": "audio/male/dcbc31ade85c7aef.mp3"
+    },
+    "她要喫飯": {
+      "female": "audio/female/8b40c452f28d9cc1.mp3",
+      "male": "audio/male/8b40c452f28d9cc1.mp3"
+    },
+    "她去商店": {
+      "female": "audio/female/fc68db114638d7ed.mp3",
+      "male": "audio/male/fc68db114638d7ed.mp3"
+    },
+    "我們喫米飯": {
+      "female": "audio/female/c07247e77a74bcb8.mp3",
+      "male": "audio/male/c07247e77a74bcb8.mp3"
+    },
+    "我們喫蘋果": {
+      "female": "audio/female/6d8abe1c29fd15f3.mp3",
+      "male": "audio/male/6d8abe1c29fd15f3.mp3"
+    },
+    "我們買菜": {
+      "female": "audio/female/7d7902b2d95b812a.mp3",
+      "male": "audio/male/7d7902b2d95b812a.mp3"
+    },
+    "我們買水果": {
+      "female": "audio/female/2f149d2e13184422.mp3",
+      "male": "audio/male/2f149d2e13184422.mp3"
+    },
+    "我們要喫飯": {
+      "female": "audio/female/690744a6c86938f3.mp3",
+      "male": "audio/male/690744a6c86938f3.mp3"
+    },
+    "我們去商店": {
+      "female": "audio/female/8e081d264ab6a334.mp3",
+      "male": "audio/male/8e081d264ab6a334.mp3"
+    },
     "家人朋友": {
       "female": "audio/female/5ad94ba6d022cfca.mp3",
       "male": "audio/male/5ad94ba6d022cfca.mp3"
@@ -759,6 +1447,126 @@
     "歲": {
       "female": "audio/female/8501b987d4bd8e7d.mp3",
       "male": "audio/male/8501b987d4bd8e7d.mp3"
+    },
+    "我愛媽媽": {
+      "female": "audio/female/ace5ffccd4aa71f2.mp3",
+      "male": "audio/male/ace5ffccd4aa71f2.mp3"
+    },
+    "我愛爸爸": {
+      "female": "audio/female/2a438088b0feb260.mp3",
+      "male": "audio/male/2a438088b0feb260.mp3"
+    },
+    "我喜歡蘋果": {
+      "female": "audio/female/c68e62aaca36fa04.mp3",
+      "male": "audio/male/c68e62aaca36fa04.mp3"
+    },
+    "我認識他": {
+      "female": "audio/female/5ca46f34832d7596.mp3",
+      "male": "audio/male/5ca46f34832d7596.mp3"
+    },
+    "我有朋友": {
+      "female": "audio/female/0fbff80c42903de1.mp3",
+      "male": "audio/male/0fbff80c42903de1.mp3"
+    },
+    "我也喝茶": {
+      "female": "audio/female/b9b01d300e545b19.mp3",
+      "male": "audio/male/b9b01d300e545b19.mp3"
+    },
+    "你愛媽媽": {
+      "female": "audio/female/266bea9ad5e8980a.mp3",
+      "male": "audio/male/266bea9ad5e8980a.mp3"
+    },
+    "你愛爸爸": {
+      "female": "audio/female/fa07ef2a9f6b7df5.mp3",
+      "male": "audio/male/fa07ef2a9f6b7df5.mp3"
+    },
+    "你喜歡蘋果": {
+      "female": "audio/female/4e62b73f104332af.mp3",
+      "male": "audio/male/4e62b73f104332af.mp3"
+    },
+    "你認識他": {
+      "female": "audio/female/020dee39fff7b828.mp3",
+      "male": "audio/male/020dee39fff7b828.mp3"
+    },
+    "你有朋友": {
+      "female": "audio/female/c0055fd8aca98a78.mp3",
+      "male": "audio/male/c0055fd8aca98a78.mp3"
+    },
+    "你也喝茶": {
+      "female": "audio/female/85b256ff90037b87.mp3",
+      "male": "audio/male/85b256ff90037b87.mp3"
+    },
+    "他愛媽媽": {
+      "female": "audio/female/b7abefc651eb807c.mp3",
+      "male": "audio/male/b7abefc651eb807c.mp3"
+    },
+    "他愛爸爸": {
+      "female": "audio/female/5886512d1a80e69c.mp3",
+      "male": "audio/male/5886512d1a80e69c.mp3"
+    },
+    "他喜歡蘋果": {
+      "female": "audio/female/cd12b51f3cec609f.mp3",
+      "male": "audio/male/cd12b51f3cec609f.mp3"
+    },
+    "他認識他": {
+      "female": "audio/female/cae1b1fb98e15a3a.mp3",
+      "male": "audio/male/cae1b1fb98e15a3a.mp3"
+    },
+    "他有朋友": {
+      "female": "audio/female/0b9b08bdabd15ea8.mp3",
+      "male": "audio/male/0b9b08bdabd15ea8.mp3"
+    },
+    "他也喝茶": {
+      "female": "audio/female/2f774ffb925ba6fb.mp3",
+      "male": "audio/male/2f774ffb925ba6fb.mp3"
+    },
+    "她愛媽媽": {
+      "female": "audio/female/802ac97a57118b86.mp3",
+      "male": "audio/male/802ac97a57118b86.mp3"
+    },
+    "她愛爸爸": {
+      "female": "audio/female/00b2d8faf673896b.mp3",
+      "male": "audio/male/00b2d8faf673896b.mp3"
+    },
+    "她喜歡蘋果": {
+      "female": "audio/female/947b6c3573aa5c81.mp3",
+      "male": "audio/male/947b6c3573aa5c81.mp3"
+    },
+    "她認識他": {
+      "female": "audio/female/49d932e5cfc78482.mp3",
+      "male": "audio/male/49d932e5cfc78482.mp3"
+    },
+    "她有朋友": {
+      "female": "audio/female/689c054a5fe1bc4f.mp3",
+      "male": "audio/male/689c054a5fe1bc4f.mp3"
+    },
+    "她也喝茶": {
+      "female": "audio/female/67bba6e9c86a4145.mp3",
+      "male": "audio/male/67bba6e9c86a4145.mp3"
+    },
+    "我們愛媽媽": {
+      "female": "audio/female/ab5204c2a40c1a61.mp3",
+      "male": "audio/male/ab5204c2a40c1a61.mp3"
+    },
+    "我們愛爸爸": {
+      "female": "audio/female/d25701b4af89d6e7.mp3",
+      "male": "audio/male/d25701b4af89d6e7.mp3"
+    },
+    "我們喜歡蘋果": {
+      "female": "audio/female/24f20cb344c52e47.mp3",
+      "male": "audio/male/24f20cb344c52e47.mp3"
+    },
+    "我們認識他": {
+      "female": "audio/female/8eabf6e2cb6e6ac9.mp3",
+      "male": "audio/male/8eabf6e2cb6e6ac9.mp3"
+    },
+    "我們有朋友": {
+      "female": "audio/female/e158b95c8eb71fe3.mp3",
+      "male": "audio/male/e158b95c8eb71fe3.mp3"
+    },
+    "我們也喝茶": {
+      "female": "audio/female/c1c246810bd120f1.mp3",
+      "male": "audio/male/c1c246810bd120f1.mp3"
     },
     "家裡家外": {
       "female": "audio/female/424f749ad11b98cf.mp3",
@@ -832,6 +1640,126 @@
       "female": "audio/female/932be7091ff444bc.mp3",
       "male": "audio/male/932be7091ff444bc.mp3"
     },
+    "我有書": {
+      "female": "audio/female/b35139f01fbb244b.mp3",
+      "male": "audio/male/b35139f01fbb244b.mp3"
+    },
+    "我買衣服": {
+      "female": "audio/female/c9683b60793ccf66.mp3",
+      "male": "audio/male/c9683b60793ccf66.mp3"
+    },
+    "我開門": {
+      "female": "audio/female/10842a1696d3ce34.mp3",
+      "male": "audio/male/10842a1696d3ce34.mp3"
+    },
+    "我坐這兒": {
+      "female": "audio/female/2bcc080222503d6f.mp3",
+      "male": "audio/male/2bcc080222503d6f.mp3"
+    },
+    "我穿衣服": {
+      "female": "audio/female/9eccde2937509daf.mp3",
+      "male": "audio/male/9eccde2937509daf.mp3"
+    },
+    "我要椅子": {
+      "female": "audio/female/749b4626cf785add.mp3",
+      "male": "audio/male/749b4626cf785add.mp3"
+    },
+    "你有書": {
+      "female": "audio/female/6287a492e30907a5.mp3",
+      "male": "audio/male/6287a492e30907a5.mp3"
+    },
+    "你買衣服": {
+      "female": "audio/female/9bcb6248e775630b.mp3",
+      "male": "audio/male/9bcb6248e775630b.mp3"
+    },
+    "你開門": {
+      "female": "audio/female/d13d375ce2637a0e.mp3",
+      "male": "audio/male/d13d375ce2637a0e.mp3"
+    },
+    "你坐這兒": {
+      "female": "audio/female/4c124e068abfc190.mp3",
+      "male": "audio/male/4c124e068abfc190.mp3"
+    },
+    "你穿衣服": {
+      "female": "audio/female/c5532f0194d9339d.mp3",
+      "male": "audio/male/c5532f0194d9339d.mp3"
+    },
+    "你要椅子": {
+      "female": "audio/female/3f861661b7478870.mp3",
+      "male": "audio/male/3f861661b7478870.mp3"
+    },
+    "他有書": {
+      "female": "audio/female/8b5e9629d1b4e9bd.mp3",
+      "male": "audio/male/8b5e9629d1b4e9bd.mp3"
+    },
+    "他買衣服": {
+      "female": "audio/female/efffd035be56b524.mp3",
+      "male": "audio/male/efffd035be56b524.mp3"
+    },
+    "他開門": {
+      "female": "audio/female/ae37090996da65df.mp3",
+      "male": "audio/male/ae37090996da65df.mp3"
+    },
+    "他坐這兒": {
+      "female": "audio/female/4333f08aefc1fb71.mp3",
+      "male": "audio/male/4333f08aefc1fb71.mp3"
+    },
+    "他穿衣服": {
+      "female": "audio/female/09f9f1f093fc55e4.mp3",
+      "male": "audio/male/09f9f1f093fc55e4.mp3"
+    },
+    "他要椅子": {
+      "female": "audio/female/868242f15e8994c0.mp3",
+      "male": "audio/male/868242f15e8994c0.mp3"
+    },
+    "她有書": {
+      "female": "audio/female/3807717adb151dc7.mp3",
+      "male": "audio/male/3807717adb151dc7.mp3"
+    },
+    "她買衣服": {
+      "female": "audio/female/fff9611edbb4e33b.mp3",
+      "male": "audio/male/fff9611edbb4e33b.mp3"
+    },
+    "她開門": {
+      "female": "audio/female/a252b16e1cc0dc6f.mp3",
+      "male": "audio/male/a252b16e1cc0dc6f.mp3"
+    },
+    "她坐這兒": {
+      "female": "audio/female/1141309cee4651ee.mp3",
+      "male": "audio/male/1141309cee4651ee.mp3"
+    },
+    "她穿衣服": {
+      "female": "audio/female/517137d0f001b343.mp3",
+      "male": "audio/male/517137d0f001b343.mp3"
+    },
+    "她要椅子": {
+      "female": "audio/female/e7275eb525be0246.mp3",
+      "male": "audio/male/e7275eb525be0246.mp3"
+    },
+    "我們有書": {
+      "female": "audio/female/ebd207d5fd4e9f38.mp3",
+      "male": "audio/male/ebd207d5fd4e9f38.mp3"
+    },
+    "我們買衣服": {
+      "female": "audio/female/6ef36570e6983c54.mp3",
+      "male": "audio/male/6ef36570e6983c54.mp3"
+    },
+    "我們開門": {
+      "female": "audio/female/1492d6d866dbd5ba.mp3",
+      "male": "audio/male/1492d6d866dbd5ba.mp3"
+    },
+    "我們坐這兒": {
+      "female": "audio/female/c95afc51ccd3bb04.mp3",
+      "male": "audio/male/c95afc51ccd3bb04.mp3"
+    },
+    "我們穿衣服": {
+      "female": "audio/female/bb63b3a47ff0a676.mp3",
+      "male": "audio/male/bb63b3a47ff0a676.mp3"
+    },
+    "我們要椅子": {
+      "female": "audio/female/dcf45a97acb4ff17.mp3",
+      "male": "audio/male/dcf45a97acb4ff17.mp3"
+    },
     "日常對話": {
       "female": "audio/female/e8b770d8e7ec45f9.mp3",
       "male": "audio/male/e8b770d8e7ec45f9.mp3"
@@ -867,10 +1795,6 @@
     "我們都喝茶": {
       "female": "audio/female/3e5f048d0ac532d2.mp3",
       "male": "audio/male/3e5f048d0ac532d2.mp3"
-    },
-    "我也喝茶": {
-      "female": "audio/female/b9b01d300e545b19.mp3",
-      "male": "audio/male/b9b01d300e545b19.mp3"
     },
     "我想買茶": {
       "female": "audio/female/dd6316ec38b590b1.mp3",
@@ -956,6 +1880,126 @@
       "female": "audio/female/6180b5e1ceec8c62.mp3",
       "male": "audio/male/6180b5e1ceec8c62.mp3"
     },
+    "我今天回家": {
+      "female": "audio/female/38ef826026f30573.mp3",
+      "male": "audio/male/38ef826026f30573.mp3"
+    },
+    "我明天去商店": {
+      "female": "audio/female/b7b89b0caf258a4b.mp3",
+      "male": "audio/male/b7b89b0caf258a4b.mp3"
+    },
+    "我現在在家": {
+      "female": "audio/female/2de09d98fb696b0f.mp3",
+      "male": "audio/male/2de09d98fb696b0f.mp3"
+    },
+    "我今天買菜": {
+      "female": "audio/female/a5e52b2bd64096c5.mp3",
+      "male": "audio/male/a5e52b2bd64096c5.mp3"
+    },
+    "我明天來這兒": {
+      "female": "audio/female/957c6eddade96244.mp3",
+      "male": "audio/male/957c6eddade96244.mp3"
+    },
+    "我現在喝水": {
+      "female": "audio/female/8f406f109d31ee8a.mp3",
+      "male": "audio/male/8f406f109d31ee8a.mp3"
+    },
+    "你今天回家": {
+      "female": "audio/female/90a554e45e628bfc.mp3",
+      "male": "audio/male/90a554e45e628bfc.mp3"
+    },
+    "你明天去商店": {
+      "female": "audio/female/6003dbb82d7c4a7a.mp3",
+      "male": "audio/male/6003dbb82d7c4a7a.mp3"
+    },
+    "你現在在家": {
+      "female": "audio/female/929f6dd63d92b918.mp3",
+      "male": "audio/male/929f6dd63d92b918.mp3"
+    },
+    "你今天買菜": {
+      "female": "audio/female/0a88ec65f1286811.mp3",
+      "male": "audio/male/0a88ec65f1286811.mp3"
+    },
+    "你明天來這兒": {
+      "female": "audio/female/fee749b9458a4210.mp3",
+      "male": "audio/male/fee749b9458a4210.mp3"
+    },
+    "你現在喝水": {
+      "female": "audio/female/a4183b736032ee01.mp3",
+      "male": "audio/male/a4183b736032ee01.mp3"
+    },
+    "他今天回家": {
+      "female": "audio/female/3409a40451f1169c.mp3",
+      "male": "audio/male/3409a40451f1169c.mp3"
+    },
+    "他明天去商店": {
+      "female": "audio/female/d75be97cd51de82a.mp3",
+      "male": "audio/male/d75be97cd51de82a.mp3"
+    },
+    "他現在在家": {
+      "female": "audio/female/c8e6908adcc19ab5.mp3",
+      "male": "audio/male/c8e6908adcc19ab5.mp3"
+    },
+    "他今天買菜": {
+      "female": "audio/female/261a36aa206a4fd3.mp3",
+      "male": "audio/male/261a36aa206a4fd3.mp3"
+    },
+    "他明天來這兒": {
+      "female": "audio/female/4a520a34824bd5cb.mp3",
+      "male": "audio/male/4a520a34824bd5cb.mp3"
+    },
+    "他現在喝水": {
+      "female": "audio/female/b8a843398c5093de.mp3",
+      "male": "audio/male/b8a843398c5093de.mp3"
+    },
+    "她今天回家": {
+      "female": "audio/female/dae96f458eaaefd7.mp3",
+      "male": "audio/male/dae96f458eaaefd7.mp3"
+    },
+    "她明天去商店": {
+      "female": "audio/female/8eec3f21cb208f7b.mp3",
+      "male": "audio/male/8eec3f21cb208f7b.mp3"
+    },
+    "她現在在家": {
+      "female": "audio/female/a6ffd6d4715babb4.mp3",
+      "male": "audio/male/a6ffd6d4715babb4.mp3"
+    },
+    "她今天買菜": {
+      "female": "audio/female/2ad5999001e60b1f.mp3",
+      "male": "audio/male/2ad5999001e60b1f.mp3"
+    },
+    "她明天來這兒": {
+      "female": "audio/female/5296423b3f843991.mp3",
+      "male": "audio/male/5296423b3f843991.mp3"
+    },
+    "她現在喝水": {
+      "female": "audio/female/7fbe6150f992cb92.mp3",
+      "male": "audio/male/7fbe6150f992cb92.mp3"
+    },
+    "我們今天回家": {
+      "female": "audio/female/daeb92f04e49f5d3.mp3",
+      "male": "audio/male/daeb92f04e49f5d3.mp3"
+    },
+    "我們明天去商店": {
+      "female": "audio/female/9ab5094dfd8bb8e2.mp3",
+      "male": "audio/male/9ab5094dfd8bb8e2.mp3"
+    },
+    "我們現在在家": {
+      "female": "audio/female/0605e21de101d819.mp3",
+      "male": "audio/male/0605e21de101d819.mp3"
+    },
+    "我們今天買菜": {
+      "female": "audio/female/8212011210c013b6.mp3",
+      "male": "audio/male/8212011210c013b6.mp3"
+    },
+    "我們明天來這兒": {
+      "female": "audio/female/d9a70c155c6da45a.mp3",
+      "male": "audio/male/d9a70c155c6da45a.mp3"
+    },
+    "我們現在喝水": {
+      "female": "audio/female/99f2f8b1bb8e2de3.mp3",
+      "male": "audio/male/99f2f8b1bb8e2de3.mp3"
+    },
     "一天生活": {
       "female": "audio/female/005b892d542bf854.mp3",
       "male": "audio/male/005b892d542bf854.mp3"
@@ -1015,6 +2059,130 @@
     "生活": {
       "female": "audio/female/15d208d1b4c98aae.mp3",
       "male": "audio/male/15d208d1b4c98aae.mp3"
+    },
+    "我上午工作": {
+      "female": "audio/female/4e6d144f9855c6d2.mp3",
+      "male": "audio/male/4e6d144f9855c6d2.mp3"
+    },
+    "我中午喫飯": {
+      "female": "audio/female/a5ee03c472166db8.mp3",
+      "male": "audio/male/a5ee03c472166db8.mp3"
+    },
+    "我下午休息": {
+      "female": "audio/female/968226d35f52979f.mp3",
+      "male": "audio/male/968226d35f52979f.mp3"
+    },
+    "我晚上睡覺": {
+      "female": "audio/female/4957d622861595df.mp3",
+      "male": "audio/male/4957d622861595df.mp3"
+    },
+    "我早上起牀": {
+      "female": "audio/female/8efe277a2ca35090.mp3",
+      "male": "audio/male/8efe277a2ca35090.mp3"
+    },
+    "我很累": {
+      "female": "audio/female/0db794a7b46eb37f.mp3",
+      "male": "audio/male/0db794a7b46eb37f.mp3"
+    },
+    "你上午工作": {
+      "female": "audio/female/2b68384131255a3e.mp3",
+      "male": "audio/male/2b68384131255a3e.mp3"
+    },
+    "你中午喫飯": {
+      "female": "audio/female/5c8e2f0bf67446fe.mp3",
+      "male": "audio/male/5c8e2f0bf67446fe.mp3"
+    },
+    "你下午休息": {
+      "female": "audio/female/de6b7da78b2eb179.mp3",
+      "male": "audio/male/de6b7da78b2eb179.mp3"
+    },
+    "你晚上睡覺": {
+      "female": "audio/female/8aa5f802aeb25b6c.mp3",
+      "male": "audio/male/8aa5f802aeb25b6c.mp3"
+    },
+    "你早上起牀": {
+      "female": "audio/female/d50b1b98fd18e1ac.mp3",
+      "male": "audio/male/d50b1b98fd18e1ac.mp3"
+    },
+    "你很累": {
+      "female": "audio/female/ae430b74dfec4947.mp3",
+      "male": "audio/male/ae430b74dfec4947.mp3"
+    },
+    "他上午工作": {
+      "female": "audio/female/5aca99033e008d29.mp3",
+      "male": "audio/male/5aca99033e008d29.mp3"
+    },
+    "他中午喫飯": {
+      "female": "audio/female/9eecd480860458b0.mp3",
+      "male": "audio/male/9eecd480860458b0.mp3"
+    },
+    "他下午休息": {
+      "female": "audio/female/155fc2fd33a076c1.mp3",
+      "male": "audio/male/155fc2fd33a076c1.mp3"
+    },
+    "他晚上睡覺": {
+      "female": "audio/female/29f4386b2990f1c6.mp3",
+      "male": "audio/male/29f4386b2990f1c6.mp3"
+    },
+    "他早上起牀": {
+      "female": "audio/female/4158d15771182df6.mp3",
+      "male": "audio/male/4158d15771182df6.mp3"
+    },
+    "他很累": {
+      "female": "audio/female/0af5556e288859cb.mp3",
+      "male": "audio/male/0af5556e288859cb.mp3"
+    },
+    "她上午工作": {
+      "female": "audio/female/a2e710add7565d84.mp3",
+      "male": "audio/male/a2e710add7565d84.mp3"
+    },
+    "她中午喫飯": {
+      "female": "audio/female/e98ca7055a1b1938.mp3",
+      "male": "audio/male/e98ca7055a1b1938.mp3"
+    },
+    "她下午休息": {
+      "female": "audio/female/4b1f74a70b484e00.mp3",
+      "male": "audio/male/4b1f74a70b484e00.mp3"
+    },
+    "她晚上睡覺": {
+      "female": "audio/female/24960f79913fe505.mp3",
+      "male": "audio/male/24960f79913fe505.mp3"
+    },
+    "她早上起牀": {
+      "female": "audio/female/77d9b9eb43c0175d.mp3",
+      "male": "audio/male/77d9b9eb43c0175d.mp3"
+    },
+    "她很累": {
+      "female": "audio/female/3ccfd47dc62a9183.mp3",
+      "male": "audio/male/3ccfd47dc62a9183.mp3"
+    },
+    "我們上午工作": {
+      "female": "audio/female/2e0d30665c262469.mp3",
+      "male": "audio/male/2e0d30665c262469.mp3"
+    },
+    "我們中午喫飯": {
+      "female": "audio/female/bdbef05692cb98b5.mp3",
+      "male": "audio/male/bdbef05692cb98b5.mp3"
+    },
+    "我們下午休息": {
+      "female": "audio/female/486f2130416736ec.mp3",
+      "male": "audio/male/486f2130416736ec.mp3"
+    },
+    "我們晚上睡覺": {
+      "female": "audio/female/71c701dc6252ee33.mp3",
+      "male": "audio/male/71c701dc6252ee33.mp3"
+    },
+    "我們早上起牀": {
+      "female": "audio/female/4e5a122b11fff52f.mp3",
+      "male": "audio/male/4e5a122b11fff52f.mp3"
+    },
+    "我們很累": {
+      "female": "audio/female/fdb4cc0e5067e15a.mp3",
+      "male": "audio/male/fdb4cc0e5067e15a.mp3"
+    },
+    "學堂": {
+      "female": "audio/female/3d3d488e5d54de31.mp3",
+      "male": "audio/male/3d3d488e5d54de31.mp3"
     },
     "學校": {
       "female": "audio/female/f27ae2e02ee32a48.mp3",
@@ -1084,9 +2252,125 @@
       "female": "audio/female/a567bdaa11367f26.mp3",
       "male": "audio/male/a567bdaa11367f26.mp3"
     },
-    "學堂": {
-      "female": "audio/female/3d3d488e5d54de31.mp3",
-      "male": "audio/male/3d3d488e5d54de31.mp3"
+    "我學習漢語": {
+      "female": "audio/female/4f4b70227aabd42f.mp3",
+      "male": "audio/male/4f4b70227aabd42f.mp3"
+    },
+    "我會寫字": {
+      "female": "audio/female/9b3f59442106854b.mp3",
+      "male": "audio/male/9b3f59442106854b.mp3"
+    },
+    "我讀書": {
+      "female": "audio/female/6135124353c98871.mp3",
+      "male": "audio/male/6135124353c98871.mp3"
+    },
+    "我去學校": {
+      "female": "audio/female/d62dc8097a8e7ede.mp3",
+      "male": "audio/male/d62dc8097a8e7ede.mp3"
+    },
+    "我是學生": {
+      "female": "audio/female/5bd790ea9de216c3.mp3",
+      "male": "audio/male/5bd790ea9de216c3.mp3"
+    },
+    "我聽老師說話": {
+      "female": "audio/female/933fe67c1b1d8c5d.mp3",
+      "male": "audio/male/933fe67c1b1d8c5d.mp3"
+    },
+    "你學習漢語": {
+      "female": "audio/female/10c9c2c784c69f31.mp3",
+      "male": "audio/male/10c9c2c784c69f31.mp3"
+    },
+    "你會寫字": {
+      "female": "audio/female/ff4c606249dee8a4.mp3",
+      "male": "audio/male/ff4c606249dee8a4.mp3"
+    },
+    "你讀書": {
+      "female": "audio/female/2fcdbb6e08d973f9.mp3",
+      "male": "audio/male/2fcdbb6e08d973f9.mp3"
+    },
+    "你去學校": {
+      "female": "audio/female/7293430218b0ddd8.mp3",
+      "male": "audio/male/7293430218b0ddd8.mp3"
+    },
+    "你是學生": {
+      "female": "audio/female/4acd7623f2b3097e.mp3",
+      "male": "audio/male/4acd7623f2b3097e.mp3"
+    },
+    "你聽老師說話": {
+      "female": "audio/female/c2e0ae87c8b79f0b.mp3",
+      "male": "audio/male/c2e0ae87c8b79f0b.mp3"
+    },
+    "他學習漢語": {
+      "female": "audio/female/5c761a086ac19c83.mp3",
+      "male": "audio/male/5c761a086ac19c83.mp3"
+    },
+    "他會寫字": {
+      "female": "audio/female/4c44596fa47ae2bc.mp3",
+      "male": "audio/male/4c44596fa47ae2bc.mp3"
+    },
+    "他讀書": {
+      "female": "audio/female/134c07da589bbfce.mp3",
+      "male": "audio/male/134c07da589bbfce.mp3"
+    },
+    "他去學校": {
+      "female": "audio/female/58d23d672fe77752.mp3",
+      "male": "audio/male/58d23d672fe77752.mp3"
+    },
+    "他是學生": {
+      "female": "audio/female/af72c950803dadec.mp3",
+      "male": "audio/male/af72c950803dadec.mp3"
+    },
+    "他聽老師說話": {
+      "female": "audio/female/392ae88e03fe0566.mp3",
+      "male": "audio/male/392ae88e03fe0566.mp3"
+    },
+    "她學習漢語": {
+      "female": "audio/female/ccf2088f49996849.mp3",
+      "male": "audio/male/ccf2088f49996849.mp3"
+    },
+    "她會寫字": {
+      "female": "audio/female/a57bbf2b4b6948d6.mp3",
+      "male": "audio/male/a57bbf2b4b6948d6.mp3"
+    },
+    "她讀書": {
+      "female": "audio/female/bf7b16d34c72fed9.mp3",
+      "male": "audio/male/bf7b16d34c72fed9.mp3"
+    },
+    "她去學校": {
+      "female": "audio/female/675641f61a109be2.mp3",
+      "male": "audio/male/675641f61a109be2.mp3"
+    },
+    "她是學生": {
+      "female": "audio/female/5237147e99c58e6d.mp3",
+      "male": "audio/male/5237147e99c58e6d.mp3"
+    },
+    "她聽老師說話": {
+      "female": "audio/female/35a555a3353d1b08.mp3",
+      "male": "audio/male/35a555a3353d1b08.mp3"
+    },
+    "我們學習漢語": {
+      "female": "audio/female/03f0e9c44be7f371.mp3",
+      "male": "audio/male/03f0e9c44be7f371.mp3"
+    },
+    "我們會寫字": {
+      "female": "audio/female/eb20cec49c290444.mp3",
+      "male": "audio/male/eb20cec49c290444.mp3"
+    },
+    "我們讀書": {
+      "female": "audio/female/dceb646ca80bd75b.mp3",
+      "male": "audio/male/dceb646ca80bd75b.mp3"
+    },
+    "我們去學校": {
+      "female": "audio/female/bda6db1fbebeb046.mp3",
+      "male": "audio/male/bda6db1fbebeb046.mp3"
+    },
+    "我們是學生": {
+      "female": "audio/female/c34986fa260ba096.mp3",
+      "male": "audio/male/c34986fa260ba096.mp3"
+    },
+    "我們聽老師說話": {
+      "female": "audio/female/ec3b79d1401ce42a.mp3",
+      "male": "audio/male/ec3b79d1401ce42a.mp3"
     },
     "學堂對話": {
       "female": "audio/female/47a1eb7bd598df7c.mp3",
@@ -1107,10 +2391,6 @@
     "三點": {
       "female": "audio/female/3481971162954aac.mp3",
       "male": "audio/male/3481971162954aac.mp3"
-    },
-    "我會寫字": {
-      "female": "audio/female/9b3f59442106854b.mp3",
-      "male": "audio/male/9b3f59442106854b.mp3"
     },
     "我能來": {
       "female": "audio/female/1d6d03b40a36053c.mp3",
@@ -1192,6 +2472,126 @@
       "female": "audio/female/8dd49b2272ea8020.mp3",
       "male": "audio/male/8dd49b2272ea8020.mp3"
     },
+    "我歡迎您": {
+      "female": "audio/female/5b562962b98c07f4.mp3",
+      "male": "audio/male/5b562962b98c07f4.mp3"
+    },
+    "我迎接客人": {
+      "female": "audio/female/aa15a4c2382b4f35.mp3",
+      "male": "audio/male/aa15a4c2382b4f35.mp3"
+    },
+    "我謝謝您": {
+      "female": "audio/female/3c9536f558a76fc1.mp3",
+      "male": "audio/male/3c9536f558a76fc1.mp3"
+    },
+    "我請您坐": {
+      "female": "audio/female/9f5ab90b874cb82b.mp3",
+      "male": "audio/male/9f5ab90b874cb82b.mp3"
+    },
+    "我是客人": {
+      "female": "audio/female/9762682aa55daccb.mp3",
+      "male": "audio/male/9762682aa55daccb.mp3"
+    },
+    "我請客人坐": {
+      "female": "audio/female/ce8b66a6ac7ec50f.mp3",
+      "male": "audio/male/ce8b66a6ac7ec50f.mp3"
+    },
+    "你歡迎您": {
+      "female": "audio/female/abe409985cefe053.mp3",
+      "male": "audio/male/abe409985cefe053.mp3"
+    },
+    "你迎接客人": {
+      "female": "audio/female/5e31e95d86116f30.mp3",
+      "male": "audio/male/5e31e95d86116f30.mp3"
+    },
+    "你謝謝您": {
+      "female": "audio/female/db6c5c6de1ac6f07.mp3",
+      "male": "audio/male/db6c5c6de1ac6f07.mp3"
+    },
+    "你請您坐": {
+      "female": "audio/female/d7fbb498b74165b6.mp3",
+      "male": "audio/male/d7fbb498b74165b6.mp3"
+    },
+    "你是客人": {
+      "female": "audio/female/a9fac18e4d591064.mp3",
+      "male": "audio/male/a9fac18e4d591064.mp3"
+    },
+    "你請客人坐": {
+      "female": "audio/female/5ffac1cb0f8d914a.mp3",
+      "male": "audio/male/5ffac1cb0f8d914a.mp3"
+    },
+    "他歡迎您": {
+      "female": "audio/female/fd0ef454b99f245a.mp3",
+      "male": "audio/male/fd0ef454b99f245a.mp3"
+    },
+    "他迎接客人": {
+      "female": "audio/female/903031c8388d3db1.mp3",
+      "male": "audio/male/903031c8388d3db1.mp3"
+    },
+    "他謝謝您": {
+      "female": "audio/female/ca61af555864c4e2.mp3",
+      "male": "audio/male/ca61af555864c4e2.mp3"
+    },
+    "他請您坐": {
+      "female": "audio/female/6da755588c10730a.mp3",
+      "male": "audio/male/6da755588c10730a.mp3"
+    },
+    "他是客人": {
+      "female": "audio/female/90c8a7a6f4716b7e.mp3",
+      "male": "audio/male/90c8a7a6f4716b7e.mp3"
+    },
+    "他請客人坐": {
+      "female": "audio/female/0df69859976f090c.mp3",
+      "male": "audio/male/0df69859976f090c.mp3"
+    },
+    "她歡迎您": {
+      "female": "audio/female/dd71f49e901e9b7f.mp3",
+      "male": "audio/male/dd71f49e901e9b7f.mp3"
+    },
+    "她迎接客人": {
+      "female": "audio/female/d4e30558119e02d7.mp3",
+      "male": "audio/male/d4e30558119e02d7.mp3"
+    },
+    "她謝謝您": {
+      "female": "audio/female/f54efdcfdedf61d6.mp3",
+      "male": "audio/male/f54efdcfdedf61d6.mp3"
+    },
+    "她請您坐": {
+      "female": "audio/female/ff15dc7e699884b7.mp3",
+      "male": "audio/male/ff15dc7e699884b7.mp3"
+    },
+    "她是客人": {
+      "female": "audio/female/05cb07ab1fefe2f7.mp3",
+      "male": "audio/male/05cb07ab1fefe2f7.mp3"
+    },
+    "她請客人坐": {
+      "female": "audio/female/fc6c6d6dab11a651.mp3",
+      "male": "audio/male/fc6c6d6dab11a651.mp3"
+    },
+    "我們歡迎您": {
+      "female": "audio/female/5e4ffaa916cce1fe.mp3",
+      "male": "audio/male/5e4ffaa916cce1fe.mp3"
+    },
+    "我們迎接客人": {
+      "female": "audio/female/5c2dc85e3e4730b3.mp3",
+      "male": "audio/male/5c2dc85e3e4730b3.mp3"
+    },
+    "我們謝謝您": {
+      "female": "audio/female/ff4804374150db4c.mp3",
+      "male": "audio/male/ff4804374150db4c.mp3"
+    },
+    "我們請您坐": {
+      "female": "audio/female/61f80611e39e7b87.mp3",
+      "male": "audio/male/61f80611e39e7b87.mp3"
+    },
+    "我們是客人": {
+      "female": "audio/female/41b946c1c1105700.mp3",
+      "male": "audio/male/41b946c1c1105700.mp3"
+    },
+    "我們請客人坐": {
+      "female": "audio/female/1231283d707863d4.mp3",
+      "male": "audio/male/1231283d707863d4.mp3"
+    },
     "天氣健康": {
       "female": "audio/female/9a19a5df22c17d8b.mp3",
       "male": "audio/male/9a19a5df22c17d8b.mp3"
@@ -1247,6 +2647,126 @@
     "健康": {
       "female": "audio/female/aa18b6dcd893d426.mp3",
       "male": "audio/male/aa18b6dcd893d426.mp3"
+    },
+    "我去醫院": {
+      "female": "audio/female/1cac9013a46557a0.mp3",
+      "male": "audio/male/1cac9013a46557a0.mp3"
+    },
+    "我是醫生": {
+      "female": "audio/female/f603189f5ce34f73.mp3",
+      "male": "audio/male/f603189f5ce34f73.mp3"
+    },
+    "我生病了": {
+      "female": "audio/female/f70d271fdcc358e7.mp3",
+      "male": "audio/male/f70d271fdcc358e7.mp3"
+    },
+    "我買藥": {
+      "female": "audio/female/2369970073452d16.mp3",
+      "male": "audio/male/2369970073452d16.mp3"
+    },
+    "我身體很好": {
+      "female": "audio/female/f4087035cfacf281.mp3",
+      "male": "audio/male/f4087035cfacf281.mp3"
+    },
+    "我很冷": {
+      "female": "audio/female/8c2c1781fb6666f8.mp3",
+      "male": "audio/male/8c2c1781fb6666f8.mp3"
+    },
+    "你去醫院": {
+      "female": "audio/female/1bddb300b854eac7.mp3",
+      "male": "audio/male/1bddb300b854eac7.mp3"
+    },
+    "你是醫生": {
+      "female": "audio/female/0a3856210f9b9e2a.mp3",
+      "male": "audio/male/0a3856210f9b9e2a.mp3"
+    },
+    "你生病了": {
+      "female": "audio/female/f0aec8bfc39b8344.mp3",
+      "male": "audio/male/f0aec8bfc39b8344.mp3"
+    },
+    "你買藥": {
+      "female": "audio/female/0a44d8e49df41f41.mp3",
+      "male": "audio/male/0a44d8e49df41f41.mp3"
+    },
+    "你身體很好": {
+      "female": "audio/female/6684b0e9a92f3ff3.mp3",
+      "male": "audio/male/6684b0e9a92f3ff3.mp3"
+    },
+    "你很冷": {
+      "female": "audio/female/a8a9a4a6e2dd9d51.mp3",
+      "male": "audio/male/a8a9a4a6e2dd9d51.mp3"
+    },
+    "他去醫院": {
+      "female": "audio/female/b3e3707260177ef1.mp3",
+      "male": "audio/male/b3e3707260177ef1.mp3"
+    },
+    "他是醫生": {
+      "female": "audio/female/cb862aa527632b05.mp3",
+      "male": "audio/male/cb862aa527632b05.mp3"
+    },
+    "他生病了": {
+      "female": "audio/female/8498afce30646e9f.mp3",
+      "male": "audio/male/8498afce30646e9f.mp3"
+    },
+    "他買藥": {
+      "female": "audio/female/15e8ac886d22b40e.mp3",
+      "male": "audio/male/15e8ac886d22b40e.mp3"
+    },
+    "他身體很好": {
+      "female": "audio/female/79b7d8b95027b98d.mp3",
+      "male": "audio/male/79b7d8b95027b98d.mp3"
+    },
+    "他很冷": {
+      "female": "audio/female/9485a011fa3d65c9.mp3",
+      "male": "audio/male/9485a011fa3d65c9.mp3"
+    },
+    "她去醫院": {
+      "female": "audio/female/24b2adbb6efbd90c.mp3",
+      "male": "audio/male/24b2adbb6efbd90c.mp3"
+    },
+    "她是醫生": {
+      "female": "audio/female/401ea5b9af6de8b4.mp3",
+      "male": "audio/male/401ea5b9af6de8b4.mp3"
+    },
+    "她生病了": {
+      "female": "audio/female/af1ff40d1eda8433.mp3",
+      "male": "audio/male/af1ff40d1eda8433.mp3"
+    },
+    "她買藥": {
+      "female": "audio/female/6a8c2b7f2feb0314.mp3",
+      "male": "audio/male/6a8c2b7f2feb0314.mp3"
+    },
+    "她身體很好": {
+      "female": "audio/female/21995abc8b9b1f37.mp3",
+      "male": "audio/male/21995abc8b9b1f37.mp3"
+    },
+    "她很冷": {
+      "female": "audio/female/77156112bdb2ef4c.mp3",
+      "male": "audio/male/77156112bdb2ef4c.mp3"
+    },
+    "我們去醫院": {
+      "female": "audio/female/b4a192c7a06f669d.mp3",
+      "male": "audio/male/b4a192c7a06f669d.mp3"
+    },
+    "我們是醫生": {
+      "female": "audio/female/8a8627469765fe8f.mp3",
+      "male": "audio/male/8a8627469765fe8f.mp3"
+    },
+    "我們生病了": {
+      "female": "audio/female/b16cb01e9d2bccfa.mp3",
+      "male": "audio/male/b16cb01e9d2bccfa.mp3"
+    },
+    "我們買藥": {
+      "female": "audio/female/faa479aafd08c2b7.mp3",
+      "male": "audio/male/faa479aafd08c2b7.mp3"
+    },
+    "我們身體很好": {
+      "female": "audio/female/2acd3339a03f6c97.mp3",
+      "male": "audio/male/2acd3339a03f6c97.mp3"
+    },
+    "我們很冷": {
+      "female": "audio/female/0faf33f5d0e9b8e5.mp3",
+      "male": "audio/male/0faf33f5d0e9b8e5.mp3"
     },
     "市場買賣": {
       "female": "audio/female/c09cb335da0b0983.mp3",
@@ -1323,6 +2843,126 @@
     "短句": {
       "female": "audio/female/e32cd77ca89142b1.mp3",
       "male": "audio/male/e32cd77ca89142b1.mp3"
+    },
+    "我賣水果": {
+      "female": "audio/female/b8022305b95ea549.mp3",
+      "male": "audio/male/b8022305b95ea549.mp3"
+    },
+    "我買新衣服": {
+      "female": "audio/female/d563ab3459c85412.mp3",
+      "male": "audio/male/d563ab3459c85412.mp3"
+    },
+    "我去市場": {
+      "female": "audio/female/5088cf45f6fc5b5f.mp3",
+      "male": "audio/male/5088cf45f6fc5b5f.mp3"
+    },
+    "我找朋友": {
+      "female": "audio/female/b45929619c19a54e.mp3",
+      "male": "audio/male/b45929619c19a54e.mp3"
+    },
+    "我給他水": {
+      "female": "audio/female/c2aeacb1cc1ef7d9.mp3",
+      "male": "audio/male/c2aeacb1cc1ef7d9.mp3"
+    },
+    "我買便宜東西": {
+      "female": "audio/female/23246795f3c75e69.mp3",
+      "male": "audio/male/23246795f3c75e69.mp3"
+    },
+    "你賣水果": {
+      "female": "audio/female/c99d8e73b61914de.mp3",
+      "male": "audio/male/c99d8e73b61914de.mp3"
+    },
+    "你買新衣服": {
+      "female": "audio/female/99fe87e16ff34567.mp3",
+      "male": "audio/male/99fe87e16ff34567.mp3"
+    },
+    "你去市場": {
+      "female": "audio/female/2f1bbce94388aa71.mp3",
+      "male": "audio/male/2f1bbce94388aa71.mp3"
+    },
+    "你找朋友": {
+      "female": "audio/female/91ff3b8206e9f78b.mp3",
+      "male": "audio/male/91ff3b8206e9f78b.mp3"
+    },
+    "你給他水": {
+      "female": "audio/female/7838f69059219cf9.mp3",
+      "male": "audio/male/7838f69059219cf9.mp3"
+    },
+    "你買便宜東西": {
+      "female": "audio/female/a00c031e627d0dcc.mp3",
+      "male": "audio/male/a00c031e627d0dcc.mp3"
+    },
+    "他賣水果": {
+      "female": "audio/female/111c87931b687dcf.mp3",
+      "male": "audio/male/111c87931b687dcf.mp3"
+    },
+    "他買新衣服": {
+      "female": "audio/female/294d515f9816dbee.mp3",
+      "male": "audio/male/294d515f9816dbee.mp3"
+    },
+    "他去市場": {
+      "female": "audio/female/d1dea84360f97e53.mp3",
+      "male": "audio/male/d1dea84360f97e53.mp3"
+    },
+    "他找朋友": {
+      "female": "audio/female/cbfe6b81c9bb5068.mp3",
+      "male": "audio/male/cbfe6b81c9bb5068.mp3"
+    },
+    "他給他水": {
+      "female": "audio/female/dd9a745c584331fd.mp3",
+      "male": "audio/male/dd9a745c584331fd.mp3"
+    },
+    "他買便宜東西": {
+      "female": "audio/female/b274a070ccc3aa7a.mp3",
+      "male": "audio/male/b274a070ccc3aa7a.mp3"
+    },
+    "她賣水果": {
+      "female": "audio/female/a9c5a2e1e4d4fc6d.mp3",
+      "male": "audio/male/a9c5a2e1e4d4fc6d.mp3"
+    },
+    "她買新衣服": {
+      "female": "audio/female/1a0e47ecb246a13c.mp3",
+      "male": "audio/male/1a0e47ecb246a13c.mp3"
+    },
+    "她去市場": {
+      "female": "audio/female/46f9da359e2ec625.mp3",
+      "male": "audio/male/46f9da359e2ec625.mp3"
+    },
+    "她找朋友": {
+      "female": "audio/female/defa9b5a56688590.mp3",
+      "male": "audio/male/defa9b5a56688590.mp3"
+    },
+    "她給他水": {
+      "female": "audio/female/a564117f3e916712.mp3",
+      "male": "audio/male/a564117f3e916712.mp3"
+    },
+    "她買便宜東西": {
+      "female": "audio/female/5a6dcff5b8c4a488.mp3",
+      "male": "audio/male/5a6dcff5b8c4a488.mp3"
+    },
+    "我們賣水果": {
+      "female": "audio/female/eb5975f179a1cc88.mp3",
+      "male": "audio/male/eb5975f179a1cc88.mp3"
+    },
+    "我們買新衣服": {
+      "female": "audio/female/f80071267f0aea3d.mp3",
+      "male": "audio/male/f80071267f0aea3d.mp3"
+    },
+    "我們去市場": {
+      "female": "audio/female/7170ba21ce30355a.mp3",
+      "male": "audio/male/7170ba21ce30355a.mp3"
+    },
+    "我們找朋友": {
+      "female": "audio/female/d4308c03708dfcd5.mp3",
+      "male": "audio/male/d4308c03708dfcd5.mp3"
+    },
+    "我們給他水": {
+      "female": "audio/female/6304281c9aad17ff.mp3",
+      "male": "audio/male/6304281c9aad17ff.mp3"
+    },
+    "我們買便宜東西": {
+      "female": "audio/female/3febd1f7b80a6a56.mp3",
+      "male": "audio/male/3febd1f7b80a6a56.mp3"
     },
     "生活短句": {
       "female": "audio/female/3fb790fe0273b759.mp3",
@@ -1436,6 +3076,126 @@
       "female": "audio/female/261c23b558433a27.mp3",
       "male": "audio/male/261c23b558433a27.mp3"
     },
+    "我喝牛奶": {
+      "female": "audio/female/b0d1cf81aba602ca.mp3",
+      "male": "audio/male/b0d1cf81aba602ca.mp3"
+    },
+    "我喝咖啡": {
+      "female": "audio/female/2e9d54b2f234dbec.mp3",
+      "male": "audio/male/2e9d54b2f234dbec.mp3"
+    },
+    "我喫雞蛋": {
+      "female": "audio/female/f0168b40f78e0bf1.mp3",
+      "male": "audio/male/f0168b40f78e0bf1.mp3"
+    },
+    "我喫羊肉": {
+      "female": "audio/female/17b2821ae1d77325.mp3",
+      "male": "audio/male/17b2821ae1d77325.mp3"
+    },
+    "我買西瓜": {
+      "female": "audio/female/d289b1aaed58d1e2.mp3",
+      "male": "audio/male/d289b1aaed58d1e2.mp3"
+    },
+    "我去飯館": {
+      "female": "audio/female/3573097c915f219c.mp3",
+      "male": "audio/male/3573097c915f219c.mp3"
+    },
+    "你喝牛奶": {
+      "female": "audio/female/027db0c2c60812ac.mp3",
+      "male": "audio/male/027db0c2c60812ac.mp3"
+    },
+    "你喝咖啡": {
+      "female": "audio/female/e7582bffb5a43029.mp3",
+      "male": "audio/male/e7582bffb5a43029.mp3"
+    },
+    "你喫雞蛋": {
+      "female": "audio/female/94e3e372364ba01d.mp3",
+      "male": "audio/male/94e3e372364ba01d.mp3"
+    },
+    "你喫羊肉": {
+      "female": "audio/female/d2e9af4d1a46ef15.mp3",
+      "male": "audio/male/d2e9af4d1a46ef15.mp3"
+    },
+    "你買西瓜": {
+      "female": "audio/female/b41fad9c8ba9cb34.mp3",
+      "male": "audio/male/b41fad9c8ba9cb34.mp3"
+    },
+    "你去飯館": {
+      "female": "audio/female/582ee6766cc64b2c.mp3",
+      "male": "audio/male/582ee6766cc64b2c.mp3"
+    },
+    "他喝牛奶": {
+      "female": "audio/female/6ec1cc8d012ef0cb.mp3",
+      "male": "audio/male/6ec1cc8d012ef0cb.mp3"
+    },
+    "他喝咖啡": {
+      "female": "audio/female/f7b135de1341f73a.mp3",
+      "male": "audio/male/f7b135de1341f73a.mp3"
+    },
+    "他喫雞蛋": {
+      "female": "audio/female/c86277ab5e7277f6.mp3",
+      "male": "audio/male/c86277ab5e7277f6.mp3"
+    },
+    "他喫羊肉": {
+      "female": "audio/female/ad20dbaed6683007.mp3",
+      "male": "audio/male/ad20dbaed6683007.mp3"
+    },
+    "他買西瓜": {
+      "female": "audio/female/35885cf8dcfacbc9.mp3",
+      "male": "audio/male/35885cf8dcfacbc9.mp3"
+    },
+    "他去飯館": {
+      "female": "audio/female/9bed601565d84e46.mp3",
+      "male": "audio/male/9bed601565d84e46.mp3"
+    },
+    "她喝牛奶": {
+      "female": "audio/female/15fd88f150b2ad10.mp3",
+      "male": "audio/male/15fd88f150b2ad10.mp3"
+    },
+    "她喝咖啡": {
+      "female": "audio/female/5ec003a706c743e6.mp3",
+      "male": "audio/male/5ec003a706c743e6.mp3"
+    },
+    "她喫雞蛋": {
+      "female": "audio/female/872183ec66f1ed62.mp3",
+      "male": "audio/male/872183ec66f1ed62.mp3"
+    },
+    "她喫羊肉": {
+      "female": "audio/female/18d626da8b606698.mp3",
+      "male": "audio/male/18d626da8b606698.mp3"
+    },
+    "她買西瓜": {
+      "female": "audio/female/5237600e8793e307.mp3",
+      "male": "audio/male/5237600e8793e307.mp3"
+    },
+    "她去飯館": {
+      "female": "audio/female/af87af5934043285.mp3",
+      "male": "audio/male/af87af5934043285.mp3"
+    },
+    "我們喝牛奶": {
+      "female": "audio/female/69b7b6a5e16144fd.mp3",
+      "male": "audio/male/69b7b6a5e16144fd.mp3"
+    },
+    "我們喝咖啡": {
+      "female": "audio/female/c219f17e933178cd.mp3",
+      "male": "audio/male/c219f17e933178cd.mp3"
+    },
+    "我們喫雞蛋": {
+      "female": "audio/female/2a3d5f5c4a13bce3.mp3",
+      "male": "audio/male/2a3d5f5c4a13bce3.mp3"
+    },
+    "我們喫羊肉": {
+      "female": "audio/female/5aa35ec930cced4b.mp3",
+      "male": "audio/male/5aa35ec930cced4b.mp3"
+    },
+    "我們買西瓜": {
+      "female": "audio/female/800489379f80bd1e.mp3",
+      "male": "audio/male/800489379f80bd1e.mp3"
+    },
+    "我們去飯館": {
+      "female": "audio/female/c929cc6dfc9e2688.mp3",
+      "male": "audio/male/c929cc6dfc9e2688.mp3"
+    },
     "大家庭": {
       "female": "audio/female/b0b573f0c68b8e2b.mp3",
       "male": "audio/male/b0b573f0c68b8e2b.mp3"
@@ -1491,6 +3251,126 @@
     "家庭": {
       "female": "audio/female/a70a77c75b1dc74f.mp3",
       "male": "audio/male/a70a77c75b1dc74f.mp3"
+    },
+    "我幫助哥哥": {
+      "female": "audio/female/c30348a8e6a0c5a0.mp3",
+      "male": "audio/male/c30348a8e6a0c5a0.mp3"
+    },
+    "我幫助姐姐": {
+      "female": "audio/female/484ba61bb4a9ec4c.mp3",
+      "male": "audio/male/484ba61bb4a9ec4c.mp3"
+    },
+    "我愛孩子": {
+      "female": "audio/female/30e4660da1395398.mp3",
+      "male": "audio/male/30e4660da1395398.mp3"
+    },
+    "我有妹妹": {
+      "female": "audio/female/59e74a11aee1a742.mp3",
+      "male": "audio/male/59e74a11aee1a742.mp3"
+    },
+    "我有弟弟": {
+      "female": "audio/female/498a2032a4318c9f.mp3",
+      "male": "audio/male/498a2032a4318c9f.mp3"
+    },
+    "我認識大家": {
+      "female": "audio/female/f9a1ad05fd486f01.mp3",
+      "male": "audio/male/f9a1ad05fd486f01.mp3"
+    },
+    "你幫助哥哥": {
+      "female": "audio/female/f41a872691b3ee73.mp3",
+      "male": "audio/male/f41a872691b3ee73.mp3"
+    },
+    "你幫助姐姐": {
+      "female": "audio/female/6197f363f68be452.mp3",
+      "male": "audio/male/6197f363f68be452.mp3"
+    },
+    "你愛孩子": {
+      "female": "audio/female/d151f69bddfb254f.mp3",
+      "male": "audio/male/d151f69bddfb254f.mp3"
+    },
+    "你有妹妹": {
+      "female": "audio/female/1cbc647455926141.mp3",
+      "male": "audio/male/1cbc647455926141.mp3"
+    },
+    "你有弟弟": {
+      "female": "audio/female/bcb7bb2e35dbc173.mp3",
+      "male": "audio/male/bcb7bb2e35dbc173.mp3"
+    },
+    "你認識大家": {
+      "female": "audio/female/aa712c10926f9ade.mp3",
+      "male": "audio/male/aa712c10926f9ade.mp3"
+    },
+    "他幫助哥哥": {
+      "female": "audio/female/c54d13046a4142a0.mp3",
+      "male": "audio/male/c54d13046a4142a0.mp3"
+    },
+    "他幫助姐姐": {
+      "female": "audio/female/de6c8756311cdd0f.mp3",
+      "male": "audio/male/de6c8756311cdd0f.mp3"
+    },
+    "他愛孩子": {
+      "female": "audio/female/e947194d7fd838b9.mp3",
+      "male": "audio/male/e947194d7fd838b9.mp3"
+    },
+    "他有妹妹": {
+      "female": "audio/female/4a8a4497ed3272e5.mp3",
+      "male": "audio/male/4a8a4497ed3272e5.mp3"
+    },
+    "他有弟弟": {
+      "female": "audio/female/1049f4e83af80b49.mp3",
+      "male": "audio/male/1049f4e83af80b49.mp3"
+    },
+    "他認識大家": {
+      "female": "audio/female/6a5314404d1582b7.mp3",
+      "male": "audio/male/6a5314404d1582b7.mp3"
+    },
+    "她幫助哥哥": {
+      "female": "audio/female/8078e4b96c1c584c.mp3",
+      "male": "audio/male/8078e4b96c1c584c.mp3"
+    },
+    "她幫助姐姐": {
+      "female": "audio/female/08e4ebbc855f0e95.mp3",
+      "male": "audio/male/08e4ebbc855f0e95.mp3"
+    },
+    "她愛孩子": {
+      "female": "audio/female/994da028cb93a4c7.mp3",
+      "male": "audio/male/994da028cb93a4c7.mp3"
+    },
+    "她有妹妹": {
+      "female": "audio/female/9a3dc908b9770d3c.mp3",
+      "male": "audio/male/9a3dc908b9770d3c.mp3"
+    },
+    "她有弟弟": {
+      "female": "audio/female/b524fe3e7d380743.mp3",
+      "male": "audio/male/b524fe3e7d380743.mp3"
+    },
+    "她認識大家": {
+      "female": "audio/female/35099a09649406d9.mp3",
+      "male": "audio/male/35099a09649406d9.mp3"
+    },
+    "我們幫助哥哥": {
+      "female": "audio/female/bdb41dc56e1a3feb.mp3",
+      "male": "audio/male/bdb41dc56e1a3feb.mp3"
+    },
+    "我們幫助姐姐": {
+      "female": "audio/female/b508c426bd3466b4.mp3",
+      "male": "audio/male/b508c426bd3466b4.mp3"
+    },
+    "我們愛孩子": {
+      "female": "audio/female/814ea6c21161527c.mp3",
+      "male": "audio/male/814ea6c21161527c.mp3"
+    },
+    "我們有妹妹": {
+      "female": "audio/female/fae29cd473d4b359.mp3",
+      "male": "audio/male/fae29cd473d4b359.mp3"
+    },
+    "我們有弟弟": {
+      "female": "audio/female/f08480c24086aa1b.mp3",
+      "male": "audio/male/f08480c24086aa1b.mp3"
+    },
+    "我們認識大家": {
+      "female": "audio/female/1b4b9137615f3996.mp3",
+      "male": "audio/male/1b4b9137615f3996.mp3"
     },
     "問路指路": {
       "female": "audio/female/7a1e85acf616ae7a.mp3",
@@ -1559,6 +3439,126 @@
     "出行": {
       "female": "audio/female/927fd4fbfce64728.mp3",
       "male": "audio/male/927fd4fbfce64728.mp3"
+    },
+    "我走這兒": {
+      "female": "audio/female/1b1945d77c86b43f.mp3",
+      "male": "audio/male/1b1945d77c86b43f.mp3"
+    },
+    "我到學校": {
+      "female": "audio/female/546e31156273ac51.mp3",
+      "male": "audio/male/546e31156273ac51.mp3"
+    },
+    "我從家來": {
+      "female": "audio/female/0fff7c36ddd0a443.mp3",
+      "male": "audio/male/0fff7c36ddd0a443.mp3"
+    },
+    "我向左邊走": {
+      "female": "audio/female/fb901ff146fadb6a.mp3",
+      "male": "audio/male/fb901ff146fadb6a.mp3"
+    },
+    "我向右邊走": {
+      "female": "audio/female/da93ad6622d51ce0.mp3",
+      "male": "audio/male/da93ad6622d51ce0.mp3"
+    },
+    "我在門外": {
+      "female": "audio/female/9ce3f9fcdcaef72a.mp3",
+      "male": "audio/male/9ce3f9fcdcaef72a.mp3"
+    },
+    "你走這兒": {
+      "female": "audio/female/0bfb0fe3a09e37c5.mp3",
+      "male": "audio/male/0bfb0fe3a09e37c5.mp3"
+    },
+    "你到學校": {
+      "female": "audio/female/08b3b5c9172395aa.mp3",
+      "male": "audio/male/08b3b5c9172395aa.mp3"
+    },
+    "你從家來": {
+      "female": "audio/female/872c6fb97b1e8c82.mp3",
+      "male": "audio/male/872c6fb97b1e8c82.mp3"
+    },
+    "你向左邊走": {
+      "female": "audio/female/afd094acea947086.mp3",
+      "male": "audio/male/afd094acea947086.mp3"
+    },
+    "你向右邊走": {
+      "female": "audio/female/93442d73dee7fc4b.mp3",
+      "male": "audio/male/93442d73dee7fc4b.mp3"
+    },
+    "你在門外": {
+      "female": "audio/female/1843b2c6e5ef0b43.mp3",
+      "male": "audio/male/1843b2c6e5ef0b43.mp3"
+    },
+    "他走這兒": {
+      "female": "audio/female/78682a4e1436462e.mp3",
+      "male": "audio/male/78682a4e1436462e.mp3"
+    },
+    "他到學校": {
+      "female": "audio/female/c27193ba5fa7c5c8.mp3",
+      "male": "audio/male/c27193ba5fa7c5c8.mp3"
+    },
+    "他從家來": {
+      "female": "audio/female/4d07c1e9bb2a1082.mp3",
+      "male": "audio/male/4d07c1e9bb2a1082.mp3"
+    },
+    "他向左邊走": {
+      "female": "audio/female/62a3900d49874966.mp3",
+      "male": "audio/male/62a3900d49874966.mp3"
+    },
+    "他向右邊走": {
+      "female": "audio/female/f2256df052563338.mp3",
+      "male": "audio/male/f2256df052563338.mp3"
+    },
+    "他在門外": {
+      "female": "audio/female/4d10f1cd1c9dd09c.mp3",
+      "male": "audio/male/4d10f1cd1c9dd09c.mp3"
+    },
+    "她走這兒": {
+      "female": "audio/female/a41eb2b7f13d8974.mp3",
+      "male": "audio/male/a41eb2b7f13d8974.mp3"
+    },
+    "她到學校": {
+      "female": "audio/female/d332516c7fd591e3.mp3",
+      "male": "audio/male/d332516c7fd591e3.mp3"
+    },
+    "她從家來": {
+      "female": "audio/female/61d65ceeeb740d98.mp3",
+      "male": "audio/male/61d65ceeeb740d98.mp3"
+    },
+    "她向左邊走": {
+      "female": "audio/female/7addadcffcdbda3e.mp3",
+      "male": "audio/male/7addadcffcdbda3e.mp3"
+    },
+    "她向右邊走": {
+      "female": "audio/female/9812a6827893b0fe.mp3",
+      "male": "audio/male/9812a6827893b0fe.mp3"
+    },
+    "她在門外": {
+      "female": "audio/female/bb5b3a76018ad9a1.mp3",
+      "male": "audio/male/bb5b3a76018ad9a1.mp3"
+    },
+    "我們走這兒": {
+      "female": "audio/female/9493f3f243c41203.mp3",
+      "male": "audio/male/9493f3f243c41203.mp3"
+    },
+    "我們到學校": {
+      "female": "audio/female/2f894e9805d648d6.mp3",
+      "male": "audio/male/2f894e9805d648d6.mp3"
+    },
+    "我們從家來": {
+      "female": "audio/female/a96b902414e5f261.mp3",
+      "male": "audio/male/a96b902414e5f261.mp3"
+    },
+    "我們向左邊走": {
+      "female": "audio/female/ec32f6c310c625b9.mp3",
+      "male": "audio/male/ec32f6c310c625b9.mp3"
+    },
+    "我們向右邊走": {
+      "female": "audio/female/3d3d003b5e06e311.mp3",
+      "male": "audio/male/3d3d003b5e06e311.mp3"
+    },
+    "我們在門外": {
+      "female": "audio/female/f5521d657589a032.mp3",
+      "male": "audio/male/f5521d657589a032.mp3"
     },
     "出行對話": {
       "female": "audio/female/c8ba74a4d3b99650.mp3",
@@ -1640,6 +3640,126 @@
       "female": "audio/female/e751bca25e1fc515.mp3",
       "male": "audio/male/e751bca25e1fc515.mp3"
     },
+    "我坐飛機": {
+      "female": "audio/female/56f2ad7b54ccc649.mp3",
+      "male": "audio/male/56f2ad7b54ccc649.mp3"
+    },
+    "我坐公共汽車": {
+      "female": "audio/female/23ac967b9941173b.mp3",
+      "male": "audio/male/23ac967b9941173b.mp3"
+    },
+    "我去北京": {
+      "female": "audio/female/ac92a4f74530a1dd.mp3",
+      "male": "audio/male/ac92a4f74530a1dd.mp3"
+    },
+    "我買票": {
+      "female": "audio/female/fb56ab5aee3b50b0.mp3",
+      "male": "audio/male/fb56ab5aee3b50b0.mp3"
+    },
+    "我到機場": {
+      "female": "audio/female/2eac86a78a222d90.mp3",
+      "male": "audio/male/2eac86a78a222d90.mp3"
+    },
+    "我想旅遊": {
+      "female": "audio/female/f1e5559d329bfed9.mp3",
+      "male": "audio/male/f1e5559d329bfed9.mp3"
+    },
+    "你坐飛機": {
+      "female": "audio/female/fa7d97a6588cd0c7.mp3",
+      "male": "audio/male/fa7d97a6588cd0c7.mp3"
+    },
+    "你坐公共汽車": {
+      "female": "audio/female/65505a6d222a97a2.mp3",
+      "male": "audio/male/65505a6d222a97a2.mp3"
+    },
+    "你去北京": {
+      "female": "audio/female/eee018885f5a9bd9.mp3",
+      "male": "audio/male/eee018885f5a9bd9.mp3"
+    },
+    "你買票": {
+      "female": "audio/female/4a27c85a33fc9d0d.mp3",
+      "male": "audio/male/4a27c85a33fc9d0d.mp3"
+    },
+    "你到機場": {
+      "female": "audio/female/7eca6cc355b1b39e.mp3",
+      "male": "audio/male/7eca6cc355b1b39e.mp3"
+    },
+    "你想旅遊": {
+      "female": "audio/female/f26275cc45c7d136.mp3",
+      "male": "audio/male/f26275cc45c7d136.mp3"
+    },
+    "他坐飛機": {
+      "female": "audio/female/49099b76bd5ed9e3.mp3",
+      "male": "audio/male/49099b76bd5ed9e3.mp3"
+    },
+    "他坐公共汽車": {
+      "female": "audio/female/625bfbd6fe79a53a.mp3",
+      "male": "audio/male/625bfbd6fe79a53a.mp3"
+    },
+    "他去北京": {
+      "female": "audio/female/e85a96809f55cda4.mp3",
+      "male": "audio/male/e85a96809f55cda4.mp3"
+    },
+    "他買票": {
+      "female": "audio/female/2091ae81d27a76fb.mp3",
+      "male": "audio/male/2091ae81d27a76fb.mp3"
+    },
+    "他到機場": {
+      "female": "audio/female/e88c277a2f776441.mp3",
+      "male": "audio/male/e88c277a2f776441.mp3"
+    },
+    "他想旅遊": {
+      "female": "audio/female/2ed1c80fe6b4fdb0.mp3",
+      "male": "audio/male/2ed1c80fe6b4fdb0.mp3"
+    },
+    "她坐飛機": {
+      "female": "audio/female/2df2dac0f97c0bc2.mp3",
+      "male": "audio/male/2df2dac0f97c0bc2.mp3"
+    },
+    "她坐公共汽車": {
+      "female": "audio/female/3bb173196cc9cdd0.mp3",
+      "male": "audio/male/3bb173196cc9cdd0.mp3"
+    },
+    "她去北京": {
+      "female": "audio/female/a9f3a5ee3cc636c3.mp3",
+      "male": "audio/male/a9f3a5ee3cc636c3.mp3"
+    },
+    "她買票": {
+      "female": "audio/female/2f2b31fca43e152e.mp3",
+      "male": "audio/male/2f2b31fca43e152e.mp3"
+    },
+    "她到機場": {
+      "female": "audio/female/790ea3b8dd929d66.mp3",
+      "male": "audio/male/790ea3b8dd929d66.mp3"
+    },
+    "她想旅遊": {
+      "female": "audio/female/e0901bdb64e4bb3d.mp3",
+      "male": "audio/male/e0901bdb64e4bb3d.mp3"
+    },
+    "我們坐飛機": {
+      "female": "audio/female/7c03cc2c1e75a358.mp3",
+      "male": "audio/male/7c03cc2c1e75a358.mp3"
+    },
+    "我們坐公共汽車": {
+      "female": "audio/female/c30f76261e5a4bcc.mp3",
+      "male": "audio/male/c30f76261e5a4bcc.mp3"
+    },
+    "我們去北京": {
+      "female": "audio/female/85f79c1859da7f85.mp3",
+      "male": "audio/male/85f79c1859da7f85.mp3"
+    },
+    "我們買票": {
+      "female": "audio/female/b652d8661c4a4f60.mp3",
+      "male": "audio/male/b652d8661c4a4f60.mp3"
+    },
+    "我們到機場": {
+      "female": "audio/female/57170c553a5b0ce3.mp3",
+      "male": "audio/male/57170c553a5b0ce3.mp3"
+    },
+    "我們想旅遊": {
+      "female": "audio/female/fe9e7e68006876fb.mp3",
+      "male": "audio/male/fe9e7e68006876fb.mp3"
+    },
     "歡樂廣場": {
       "female": "audio/female/b643ec571198be62.mp3",
       "male": "audio/male/b643ec571198be62.mp3"
@@ -1712,6 +3832,126 @@
       "female": "audio/female/7ce2cc78373f60e3.mp3",
       "male": "audio/male/7ce2cc78373f60e3.mp3"
     },
+    "我很高興": {
+      "female": "audio/female/e89291c0b14180dc.mp3",
+      "male": "audio/male/e89291c0b14180dc.mp3"
+    },
+    "我會唱歌": {
+      "female": "audio/female/88c733898e8e0179.mp3",
+      "male": "audio/male/88c733898e8e0179.mp3"
+    },
+    "我會跳舞": {
+      "female": "audio/female/d0bb605db31dc29f.mp3",
+      "male": "audio/male/d0bb605db31dc29f.mp3"
+    },
+    "我喜歡紅衣服": {
+      "female": "audio/female/3afdd9f9382d3e2f.mp3",
+      "male": "audio/male/3afdd9f9382d3e2f.mp3"
+    },
+    "我非常快樂": {
+      "female": "audio/female/e0c9fa51e4da6e31.mp3",
+      "male": "audio/male/e0c9fa51e4da6e31.mp3"
+    },
+    "我去廣場": {
+      "female": "audio/female/b885ebf338ed91dc.mp3",
+      "male": "audio/male/b885ebf338ed91dc.mp3"
+    },
+    "你很高興": {
+      "female": "audio/female/fdde83da26128f28.mp3",
+      "male": "audio/male/fdde83da26128f28.mp3"
+    },
+    "你會唱歌": {
+      "female": "audio/female/21ce17cb8e4f6945.mp3",
+      "male": "audio/male/21ce17cb8e4f6945.mp3"
+    },
+    "你會跳舞": {
+      "female": "audio/female/b90ec4116599e6b8.mp3",
+      "male": "audio/male/b90ec4116599e6b8.mp3"
+    },
+    "你喜歡紅衣服": {
+      "female": "audio/female/2af4a4176a34179a.mp3",
+      "male": "audio/male/2af4a4176a34179a.mp3"
+    },
+    "你非常快樂": {
+      "female": "audio/female/e98ca0898df0f35a.mp3",
+      "male": "audio/male/e98ca0898df0f35a.mp3"
+    },
+    "你去廣場": {
+      "female": "audio/female/5934aa185c20d98f.mp3",
+      "male": "audio/male/5934aa185c20d98f.mp3"
+    },
+    "他很高興": {
+      "female": "audio/female/24472bdb56fe4ad0.mp3",
+      "male": "audio/male/24472bdb56fe4ad0.mp3"
+    },
+    "他會唱歌": {
+      "female": "audio/female/ff089748259200fd.mp3",
+      "male": "audio/male/ff089748259200fd.mp3"
+    },
+    "他會跳舞": {
+      "female": "audio/female/24c0878bd2bc75c0.mp3",
+      "male": "audio/male/24c0878bd2bc75c0.mp3"
+    },
+    "他喜歡紅衣服": {
+      "female": "audio/female/0c61dd64f5228e34.mp3",
+      "male": "audio/male/0c61dd64f5228e34.mp3"
+    },
+    "他非常快樂": {
+      "female": "audio/female/24d1a46d8b6d8b25.mp3",
+      "male": "audio/male/24d1a46d8b6d8b25.mp3"
+    },
+    "他去廣場": {
+      "female": "audio/female/fadd79b03aebb652.mp3",
+      "male": "audio/male/fadd79b03aebb652.mp3"
+    },
+    "她很高興": {
+      "female": "audio/female/45fd314ed7789d7d.mp3",
+      "male": "audio/male/45fd314ed7789d7d.mp3"
+    },
+    "她會唱歌": {
+      "female": "audio/female/0587b08ff3808034.mp3",
+      "male": "audio/male/0587b08ff3808034.mp3"
+    },
+    "她會跳舞": {
+      "female": "audio/female/212a64b02ccc7390.mp3",
+      "male": "audio/male/212a64b02ccc7390.mp3"
+    },
+    "她喜歡紅衣服": {
+      "female": "audio/female/f8669a4d0173127f.mp3",
+      "male": "audio/male/f8669a4d0173127f.mp3"
+    },
+    "她非常快樂": {
+      "female": "audio/female/0ceeb05255576f7a.mp3",
+      "male": "audio/male/0ceeb05255576f7a.mp3"
+    },
+    "她去廣場": {
+      "female": "audio/female/fa9c64b54d12d674.mp3",
+      "male": "audio/male/fa9c64b54d12d674.mp3"
+    },
+    "我們很高興": {
+      "female": "audio/female/78e6b66052f5632d.mp3",
+      "male": "audio/male/78e6b66052f5632d.mp3"
+    },
+    "我們會唱歌": {
+      "female": "audio/female/da1568276d1d9962.mp3",
+      "male": "audio/male/da1568276d1d9962.mp3"
+    },
+    "我們會跳舞": {
+      "female": "audio/female/66aabe8ca17d1263.mp3",
+      "male": "audio/male/66aabe8ca17d1263.mp3"
+    },
+    "我們喜歡紅衣服": {
+      "female": "audio/female/eaa6baae309fc75a.mp3",
+      "male": "audio/male/eaa6baae309fc75a.mp3"
+    },
+    "我們非常快樂": {
+      "female": "audio/female/bbc17385aead9b05.mp3",
+      "male": "audio/male/bbc17385aead9b05.mp3"
+    },
+    "我們去廣場": {
+      "female": "audio/female/32089991195374a2.mp3",
+      "male": "audio/male/32089991195374a2.mp3"
+    },
     "運動時間": {
       "female": "audio/female/67297511a29c8bcd.mp3",
       "male": "audio/male/67297511a29c8bcd.mp3"
@@ -1767,6 +4007,126 @@
     "活動": {
       "female": "audio/female/e1ba21d79b75b58e.mp3",
       "male": "audio/male/e1ba21d79b75b58e.mp3"
+    },
+    "我喜歡運動": {
+      "female": "audio/female/f4be59b90148fe2a.mp3",
+      "male": "audio/male/f4be59b90148fe2a.mp3"
+    },
+    "我會游泳": {
+      "female": "audio/female/924bc4065f232d7e.mp3",
+      "male": "audio/male/924bc4065f232d7e.mp3"
+    },
+    "我打籃球": {
+      "female": "audio/female/996252281e023bf8.mp3",
+      "male": "audio/male/996252281e023bf8.mp3"
+    },
+    "我踢足球": {
+      "female": "audio/female/f52f235c7bbcf0f4.mp3",
+      "male": "audio/male/f52f235c7bbcf0f4.mp3"
+    },
+    "我跑步": {
+      "female": "audio/female/7104cee8f6463717.mp3",
+      "male": "audio/male/7104cee8f6463717.mp3"
+    },
+    "我喜歡貓": {
+      "female": "audio/female/b6c540c72fe52201.mp3",
+      "male": "audio/male/b6c540c72fe52201.mp3"
+    },
+    "你喜歡運動": {
+      "female": "audio/female/7b6edf38b9408062.mp3",
+      "male": "audio/male/7b6edf38b9408062.mp3"
+    },
+    "你會游泳": {
+      "female": "audio/female/53693ba254f91353.mp3",
+      "male": "audio/male/53693ba254f91353.mp3"
+    },
+    "你打籃球": {
+      "female": "audio/female/cdd94b1cb3414600.mp3",
+      "male": "audio/male/cdd94b1cb3414600.mp3"
+    },
+    "你踢足球": {
+      "female": "audio/female/a1e5b90cb89e4345.mp3",
+      "male": "audio/male/a1e5b90cb89e4345.mp3"
+    },
+    "你跑步": {
+      "female": "audio/female/96a5405e8722323f.mp3",
+      "male": "audio/male/96a5405e8722323f.mp3"
+    },
+    "你喜歡貓": {
+      "female": "audio/female/a998c909e4be097e.mp3",
+      "male": "audio/male/a998c909e4be097e.mp3"
+    },
+    "他喜歡運動": {
+      "female": "audio/female/f9d73e989f9097f3.mp3",
+      "male": "audio/male/f9d73e989f9097f3.mp3"
+    },
+    "他會游泳": {
+      "female": "audio/female/12fcb8e828cb739d.mp3",
+      "male": "audio/male/12fcb8e828cb739d.mp3"
+    },
+    "他打籃球": {
+      "female": "audio/female/41ea6132273d44b3.mp3",
+      "male": "audio/male/41ea6132273d44b3.mp3"
+    },
+    "他踢足球": {
+      "female": "audio/female/14f26747cd87b796.mp3",
+      "male": "audio/male/14f26747cd87b796.mp3"
+    },
+    "他跑步": {
+      "female": "audio/female/8b53d555f8c3f7f5.mp3",
+      "male": "audio/male/8b53d555f8c3f7f5.mp3"
+    },
+    "他喜歡貓": {
+      "female": "audio/female/92990fb0b9d042b0.mp3",
+      "male": "audio/male/92990fb0b9d042b0.mp3"
+    },
+    "她喜歡運動": {
+      "female": "audio/female/60b5f68b6c5fe64a.mp3",
+      "male": "audio/male/60b5f68b6c5fe64a.mp3"
+    },
+    "她會游泳": {
+      "female": "audio/female/6cc5bec31c387fa2.mp3",
+      "male": "audio/male/6cc5bec31c387fa2.mp3"
+    },
+    "她打籃球": {
+      "female": "audio/female/bfaf8dabbee003bd.mp3",
+      "male": "audio/male/bfaf8dabbee003bd.mp3"
+    },
+    "她踢足球": {
+      "female": "audio/female/e42420e0ca87bc0b.mp3",
+      "male": "audio/male/e42420e0ca87bc0b.mp3"
+    },
+    "她跑步": {
+      "female": "audio/female/fb79484b61eb4850.mp3",
+      "male": "audio/male/fb79484b61eb4850.mp3"
+    },
+    "她喜歡貓": {
+      "female": "audio/female/acc9191f6d93918b.mp3",
+      "male": "audio/male/acc9191f6d93918b.mp3"
+    },
+    "我們喜歡運動": {
+      "female": "audio/female/30ee66ba6e85f0c9.mp3",
+      "male": "audio/male/30ee66ba6e85f0c9.mp3"
+    },
+    "我們會游泳": {
+      "female": "audio/female/dc7ae3df33667441.mp3",
+      "male": "audio/male/dc7ae3df33667441.mp3"
+    },
+    "我們打籃球": {
+      "female": "audio/female/748acacb2cc8af4e.mp3",
+      "male": "audio/male/748acacb2cc8af4e.mp3"
+    },
+    "我們踢足球": {
+      "female": "audio/female/72fca2128e345236.mp3",
+      "male": "audio/male/72fca2128e345236.mp3"
+    },
+    "我們跑步": {
+      "female": "audio/female/bf50d1c82a8eae4d.mp3",
+      "male": "audio/male/bf50d1c82a8eae4d.mp3"
+    },
+    "我們喜歡貓": {
+      "female": "audio/female/4b71de2e3346ff4f.mp3",
+      "male": "audio/male/4b71de2e3346ff4f.mp3"
     },
     "活動對話": {
       "female": "audio/female/0cbad54da6cb21ce.mp3",
@@ -1839,6 +4199,126 @@
     "聯絡": {
       "female": "audio/female/fc6fca7b73488224.mp3",
       "male": "audio/male/fc6fca7b73488224.mp3"
+    },
+    "我看電視": {
+      "female": "audio/female/12485e5e43c6eb07.mp3",
+      "male": "audio/male/12485e5e43c6eb07.mp3"
+    },
+    "我看電影": {
+      "female": "audio/female/411f7b359f309a5b.mp3",
+      "male": "audio/male/411f7b359f309a5b.mp3"
+    },
+    "我買手機": {
+      "female": "audio/female/711d5fbe9d92e652.mp3",
+      "male": "audio/male/711d5fbe9d92e652.mp3"
+    },
+    "我打電話": {
+      "female": "audio/female/5eeda711f89ebbd2.mp3",
+      "male": "audio/male/5eeda711f89ebbd2.mp3"
+    },
+    "我去公司": {
+      "female": "audio/female/9869d5e541609018.mp3",
+      "male": "audio/male/9869d5e541609018.mp3"
+    },
+    "我看報紙": {
+      "female": "audio/female/15c78d5b53484337.mp3",
+      "male": "audio/male/15c78d5b53484337.mp3"
+    },
+    "你看電視": {
+      "female": "audio/female/4025498d10cb8cbb.mp3",
+      "male": "audio/male/4025498d10cb8cbb.mp3"
+    },
+    "你看電影": {
+      "female": "audio/female/b53c3b6fc180f4ee.mp3",
+      "male": "audio/male/b53c3b6fc180f4ee.mp3"
+    },
+    "你買手機": {
+      "female": "audio/female/cdfa05df534dc1de.mp3",
+      "male": "audio/male/cdfa05df534dc1de.mp3"
+    },
+    "你打電話": {
+      "female": "audio/female/2c20adea76ece478.mp3",
+      "male": "audio/male/2c20adea76ece478.mp3"
+    },
+    "你去公司": {
+      "female": "audio/female/f45afbee285bcc00.mp3",
+      "male": "audio/male/f45afbee285bcc00.mp3"
+    },
+    "你看報紙": {
+      "female": "audio/female/a331eaa7f937e97e.mp3",
+      "male": "audio/male/a331eaa7f937e97e.mp3"
+    },
+    "他看電視": {
+      "female": "audio/female/a770d55525d133d0.mp3",
+      "male": "audio/male/a770d55525d133d0.mp3"
+    },
+    "他看電影": {
+      "female": "audio/female/d91c590df28b44d5.mp3",
+      "male": "audio/male/d91c590df28b44d5.mp3"
+    },
+    "他買手機": {
+      "female": "audio/female/73b6a94ad7dd50dc.mp3",
+      "male": "audio/male/73b6a94ad7dd50dc.mp3"
+    },
+    "他打電話": {
+      "female": "audio/female/9123f251416359a6.mp3",
+      "male": "audio/male/9123f251416359a6.mp3"
+    },
+    "他去公司": {
+      "female": "audio/female/40fd327814e37326.mp3",
+      "male": "audio/male/40fd327814e37326.mp3"
+    },
+    "他看報紙": {
+      "female": "audio/female/8b7b917e3eb369db.mp3",
+      "male": "audio/male/8b7b917e3eb369db.mp3"
+    },
+    "她看電視": {
+      "female": "audio/female/d0117edc6c6fcea6.mp3",
+      "male": "audio/male/d0117edc6c6fcea6.mp3"
+    },
+    "她看電影": {
+      "female": "audio/female/bb9164c3609f99cf.mp3",
+      "male": "audio/male/bb9164c3609f99cf.mp3"
+    },
+    "她買手機": {
+      "female": "audio/female/e8dc721cc0bd5fa8.mp3",
+      "male": "audio/male/e8dc721cc0bd5fa8.mp3"
+    },
+    "她打電話": {
+      "female": "audio/female/bf3d8e925c30eda7.mp3",
+      "male": "audio/male/bf3d8e925c30eda7.mp3"
+    },
+    "她去公司": {
+      "female": "audio/female/7d8ef8e8d95fba29.mp3",
+      "male": "audio/male/7d8ef8e8d95fba29.mp3"
+    },
+    "她看報紙": {
+      "female": "audio/female/70566c423759a265.mp3",
+      "male": "audio/male/70566c423759a265.mp3"
+    },
+    "我們看電視": {
+      "female": "audio/female/6d940dc305f135e0.mp3",
+      "male": "audio/male/6d940dc305f135e0.mp3"
+    },
+    "我們看電影": {
+      "female": "audio/female/e7c5bfafcc14b098.mp3",
+      "male": "audio/male/e7c5bfafcc14b098.mp3"
+    },
+    "我們買手機": {
+      "female": "audio/female/63be0076475baf4c.mp3",
+      "male": "audio/male/63be0076475baf4c.mp3"
+    },
+    "我們打電話": {
+      "female": "audio/female/8edda1bb1cb7d216.mp3",
+      "male": "audio/male/8edda1bb1cb7d216.mp3"
+    },
+    "我們去公司": {
+      "female": "audio/female/dbc37a552de7ede3.mp3",
+      "male": "audio/male/dbc37a552de7ede3.mp3"
+    },
+    "我們看報紙": {
+      "female": "audio/female/39f99e1353b19a7f.mp3",
+      "male": "audio/male/39f99e1353b19a7f.mp3"
     },
     "問與答": {
       "female": "audio/female/e3ed7225fcb47865.mp3",
@@ -1916,6 +4396,126 @@
       "female": "audio/female/10ec8c161aac40d5.mp3",
       "male": "audio/male/10ec8c161aac40d5.mp3"
     },
+    "我回答問題": {
+      "female": "audio/female/d7a24d2631638d4a.mp3",
+      "male": "audio/male/d7a24d2631638d4a.mp3"
+    },
+    "我懂漢語": {
+      "female": "audio/female/3a0b88979aa24dc5.mp3",
+      "male": "audio/male/3a0b88979aa24dc5.mp3"
+    },
+    "我知道名字": {
+      "female": "audio/female/2e79f61ce410d0bd.mp3",
+      "male": "audio/male/2e79f61ce410d0bd.mp3"
+    },
+    "我去教室": {
+      "female": "audio/female/cdc3f7724c427012.mp3",
+      "male": "audio/male/cdc3f7724c427012.mp3"
+    },
+    "我有考試": {
+      "female": "audio/female/fba5cdfee5902324.mp3",
+      "male": "audio/male/fba5cdfee5902324.mp3"
+    },
+    "我問老師": {
+      "female": "audio/female/7f35fa5c47974782.mp3",
+      "male": "audio/male/7f35fa5c47974782.mp3"
+    },
+    "你回答問題": {
+      "female": "audio/female/1eeb5c21605567b8.mp3",
+      "male": "audio/male/1eeb5c21605567b8.mp3"
+    },
+    "你懂漢語": {
+      "female": "audio/female/dd152a42880e9390.mp3",
+      "male": "audio/male/dd152a42880e9390.mp3"
+    },
+    "你知道名字": {
+      "female": "audio/female/15ac8b8aceb0cb0c.mp3",
+      "male": "audio/male/15ac8b8aceb0cb0c.mp3"
+    },
+    "你去教室": {
+      "female": "audio/female/81c15974708eadbf.mp3",
+      "male": "audio/male/81c15974708eadbf.mp3"
+    },
+    "你有考試": {
+      "female": "audio/female/2bd8243ae57a4348.mp3",
+      "male": "audio/male/2bd8243ae57a4348.mp3"
+    },
+    "你問老師": {
+      "female": "audio/female/bffdf51f2bf33e25.mp3",
+      "male": "audio/male/bffdf51f2bf33e25.mp3"
+    },
+    "他回答問題": {
+      "female": "audio/female/cb52f732ef79c0db.mp3",
+      "male": "audio/male/cb52f732ef79c0db.mp3"
+    },
+    "他懂漢語": {
+      "female": "audio/female/25b48a209c9655a7.mp3",
+      "male": "audio/male/25b48a209c9655a7.mp3"
+    },
+    "他知道名字": {
+      "female": "audio/female/ea7f13eab155d0d9.mp3",
+      "male": "audio/male/ea7f13eab155d0d9.mp3"
+    },
+    "他去教室": {
+      "female": "audio/female/59ce3404a39af78e.mp3",
+      "male": "audio/male/59ce3404a39af78e.mp3"
+    },
+    "他有考試": {
+      "female": "audio/female/c4552c113c74686f.mp3",
+      "male": "audio/male/c4552c113c74686f.mp3"
+    },
+    "他問老師": {
+      "female": "audio/female/fc976c4142cf246a.mp3",
+      "male": "audio/male/fc976c4142cf246a.mp3"
+    },
+    "她回答問題": {
+      "female": "audio/female/8e01793da73e9cfa.mp3",
+      "male": "audio/male/8e01793da73e9cfa.mp3"
+    },
+    "她懂漢語": {
+      "female": "audio/female/857f951f607eb096.mp3",
+      "male": "audio/male/857f951f607eb096.mp3"
+    },
+    "她知道名字": {
+      "female": "audio/female/f2470b9c41834504.mp3",
+      "male": "audio/male/f2470b9c41834504.mp3"
+    },
+    "她去教室": {
+      "female": "audio/female/720e173b4b79fafe.mp3",
+      "male": "audio/male/720e173b4b79fafe.mp3"
+    },
+    "她有考試": {
+      "female": "audio/female/2095a55c55102c14.mp3",
+      "male": "audio/male/2095a55c55102c14.mp3"
+    },
+    "她問老師": {
+      "female": "audio/female/cbed67a0daab3455.mp3",
+      "male": "audio/male/cbed67a0daab3455.mp3"
+    },
+    "我們回答問題": {
+      "female": "audio/female/59e2fbb748a10468.mp3",
+      "male": "audio/male/59e2fbb748a10468.mp3"
+    },
+    "我們懂漢語": {
+      "female": "audio/female/9d7aca678a1fe7b8.mp3",
+      "male": "audio/male/9d7aca678a1fe7b8.mp3"
+    },
+    "我們知道名字": {
+      "female": "audio/female/09ede612b9aeea7a.mp3",
+      "male": "audio/male/09ede612b9aeea7a.mp3"
+    },
+    "我們去教室": {
+      "female": "audio/female/88193384e8c545cd.mp3",
+      "male": "audio/male/88193384e8c545cd.mp3"
+    },
+    "我們有考試": {
+      "female": "audio/female/f20f00f07c07124b.mp3",
+      "male": "audio/male/f20f00f07c07124b.mp3"
+    },
+    "我們問老師": {
+      "female": "audio/female/ac0cad980346f2eb.mp3",
+      "male": "audio/male/ac0cad980346f2eb.mp3"
+    },
     "安排計畫": {
       "female": "audio/female/53b783f59fb3a2dc.mp3",
       "male": "audio/male/53b783f59fb3a2dc.mp3"
@@ -1988,13 +4588,129 @@
       "female": "audio/female/8f8effa91b7a2dd9.mp3",
       "male": "audio/male/8f8effa91b7a2dd9.mp3"
     },
-    "說說計畫": {
-      "female": "audio/female/a53317f115c6268e.mp3",
-      "male": "audio/male/a53317f115c6268e.mp3"
+    "我準備回家": {
+      "female": "audio/female/35d5c686624af749.mp3",
+      "male": "audio/male/35d5c686624af749.mp3"
+    },
+    "我已經喫飯了": {
+      "female": "audio/female/c9654ee072ca691b.mp3",
+      "male": "audio/male/c9654ee072ca691b.mp3"
+    },
+    "我正在工作": {
+      "female": "audio/female/da0ffc267ef07467.mp3",
+      "male": "audio/male/da0ffc267ef07467.mp3"
+    },
+    "我可以休息": {
+      "female": "audio/female/3b166e5a5eb35d0d.mp3",
+      "male": "audio/male/3b166e5a5eb35d0d.mp3"
+    },
+    "我開始學習": {
+      "female": "audio/female/d3eccd2ec8fbe365.mp3",
+      "male": "audio/male/d3eccd2ec8fbe365.mp3"
+    },
+    "我希望去中國": {
+      "female": "audio/female/e4ca9ddae7cdc2e5.mp3",
+      "male": "audio/male/e4ca9ddae7cdc2e5.mp3"
+    },
+    "你準備回家": {
+      "female": "audio/female/d5aed04f5c6f7dbb.mp3",
+      "male": "audio/male/d5aed04f5c6f7dbb.mp3"
+    },
+    "你已經喫飯了": {
+      "female": "audio/female/dae245c77eb4ad96.mp3",
+      "male": "audio/male/dae245c77eb4ad96.mp3"
+    },
+    "你正在工作": {
+      "female": "audio/female/5f83b7a476299776.mp3",
+      "male": "audio/male/5f83b7a476299776.mp3"
+    },
+    "你可以休息": {
+      "female": "audio/female/ce344aeaafec3eaa.mp3",
+      "male": "audio/male/ce344aeaafec3eaa.mp3"
+    },
+    "你開始學習": {
+      "female": "audio/female/d7ef82840d455f4c.mp3",
+      "male": "audio/male/d7ef82840d455f4c.mp3"
+    },
+    "你希望去中國": {
+      "female": "audio/female/e91a7a297363c8a8.mp3",
+      "male": "audio/male/e91a7a297363c8a8.mp3"
+    },
+    "他準備回家": {
+      "female": "audio/female/61c0f15a8caaef9d.mp3",
+      "male": "audio/male/61c0f15a8caaef9d.mp3"
+    },
+    "他已經喫飯了": {
+      "female": "audio/female/e3841607a60ef609.mp3",
+      "male": "audio/male/e3841607a60ef609.mp3"
     },
     "他正在工作": {
       "female": "audio/female/bbbe87d358b18cd4.mp3",
       "male": "audio/male/bbbe87d358b18cd4.mp3"
+    },
+    "他可以休息": {
+      "female": "audio/female/06aea27a6a08c965.mp3",
+      "male": "audio/male/06aea27a6a08c965.mp3"
+    },
+    "他開始學習": {
+      "female": "audio/female/512824ac689da325.mp3",
+      "male": "audio/male/512824ac689da325.mp3"
+    },
+    "他希望去中國": {
+      "female": "audio/female/e16a645941f00254.mp3",
+      "male": "audio/male/e16a645941f00254.mp3"
+    },
+    "她準備回家": {
+      "female": "audio/female/831616ac97e79406.mp3",
+      "male": "audio/male/831616ac97e79406.mp3"
+    },
+    "她已經喫飯了": {
+      "female": "audio/female/0363eca34babe8d9.mp3",
+      "male": "audio/male/0363eca34babe8d9.mp3"
+    },
+    "她正在工作": {
+      "female": "audio/female/3a81d147a4f3699d.mp3",
+      "male": "audio/male/3a81d147a4f3699d.mp3"
+    },
+    "她可以休息": {
+      "female": "audio/female/7300577a714a9d86.mp3",
+      "male": "audio/male/7300577a714a9d86.mp3"
+    },
+    "她開始學習": {
+      "female": "audio/female/fc7723f1d4fc787d.mp3",
+      "male": "audio/male/fc7723f1d4fc787d.mp3"
+    },
+    "她希望去中國": {
+      "female": "audio/female/603eee43860736d8.mp3",
+      "male": "audio/male/603eee43860736d8.mp3"
+    },
+    "我們準備回家": {
+      "female": "audio/female/3bcec5686cb5fc87.mp3",
+      "male": "audio/male/3bcec5686cb5fc87.mp3"
+    },
+    "我們已經喫飯了": {
+      "female": "audio/female/60fdb2c2abbdc5e9.mp3",
+      "male": "audio/male/60fdb2c2abbdc5e9.mp3"
+    },
+    "我們正在工作": {
+      "female": "audio/female/dac39868c48c5c20.mp3",
+      "male": "audio/male/dac39868c48c5c20.mp3"
+    },
+    "我們可以休息": {
+      "female": "audio/female/b1d70a7ae600bf61.mp3",
+      "male": "audio/male/b1d70a7ae600bf61.mp3"
+    },
+    "我們開始學習": {
+      "female": "audio/female/b092e08409cece76.mp3",
+      "male": "audio/male/b092e08409cece76.mp3"
+    },
+    "我們希望去中國": {
+      "female": "audio/female/a0f4821ad4e58095.mp3",
+      "male": "audio/male/a0f4821ad4e58095.mp3"
+    },
+    "說說計畫": {
+      "female": "audio/female/a53317f115c6268e.mp3",
+      "male": "audio/male/a53317f115c6268e.mp3"
     },
     "門開着": {
       "female": "audio/female/897c04c589be7b02.mp3",
@@ -2063,6 +4779,146 @@
     "爲什麼": {
       "female": "audio/female/cb2a2421048ce958.mp3",
       "male": "audio/male/cb2a2421048ce958.mp3"
+    },
+    "因爲我很冷": {
+      "female": "audio/female/2f253a5cf80a4b39.mp3",
+      "male": "audio/male/2f253a5cf80a4b39.mp3"
+    },
+    "所以我休息": {
+      "female": "audio/female/53801c5af106622b.mp3",
+      "male": "audio/male/53801c5af106622b.mp3"
+    },
+    "因爲我很累": {
+      "female": "audio/female/5181679abb104755.mp3",
+      "male": "audio/male/5181679abb104755.mp3"
+    },
+    "因爲我很忙": {
+      "female": "audio/female/e7d5a16329812a18.mp3",
+      "male": "audio/male/e7d5a16329812a18.mp3"
+    },
+    "所以我工作": {
+      "female": "audio/female/b08625c65dd55bb3.mp3",
+      "male": "audio/male/b08625c65dd55bb3.mp3"
+    },
+    "因爲你很冷": {
+      "female": "audio/female/573ce78ebd25f808.mp3",
+      "male": "audio/male/573ce78ebd25f808.mp3"
+    },
+    "所以你休息": {
+      "female": "audio/female/7272e785292056e6.mp3",
+      "male": "audio/male/7272e785292056e6.mp3"
+    },
+    "因爲你很累": {
+      "female": "audio/female/f4501e064977e7f5.mp3",
+      "male": "audio/male/f4501e064977e7f5.mp3"
+    },
+    "因爲你很忙": {
+      "female": "audio/female/280e747b21f21b25.mp3",
+      "male": "audio/male/280e747b21f21b25.mp3"
+    },
+    "所以你工作": {
+      "female": "audio/female/bd2c74def79d7d14.mp3",
+      "male": "audio/male/bd2c74def79d7d14.mp3"
+    },
+    "因爲他很冷": {
+      "female": "audio/female/b516b6f44b75f54d.mp3",
+      "male": "audio/male/b516b6f44b75f54d.mp3"
+    },
+    "所以他休息": {
+      "female": "audio/female/d66d10125e54499e.mp3",
+      "male": "audio/male/d66d10125e54499e.mp3"
+    },
+    "因爲他很累": {
+      "female": "audio/female/bfa330c5c8bfc77e.mp3",
+      "male": "audio/male/bfa330c5c8bfc77e.mp3"
+    },
+    "因爲他很忙": {
+      "female": "audio/female/6d78f886af945301.mp3",
+      "male": "audio/male/6d78f886af945301.mp3"
+    },
+    "所以他工作": {
+      "female": "audio/female/b46ad2bbbfb89c36.mp3",
+      "male": "audio/male/b46ad2bbbfb89c36.mp3"
+    },
+    "因爲她很冷": {
+      "female": "audio/female/90c0a7437fbbafd4.mp3",
+      "male": "audio/male/90c0a7437fbbafd4.mp3"
+    },
+    "所以她休息": {
+      "female": "audio/female/c929b09adb1ad8b2.mp3",
+      "male": "audio/male/c929b09adb1ad8b2.mp3"
+    },
+    "因爲她很累": {
+      "female": "audio/female/3bd948081c4c6f64.mp3",
+      "male": "audio/male/3bd948081c4c6f64.mp3"
+    },
+    "因爲她很忙": {
+      "female": "audio/female/c521acee9544cb84.mp3",
+      "male": "audio/male/c521acee9544cb84.mp3"
+    },
+    "所以她工作": {
+      "female": "audio/female/e1743dad1e8139e6.mp3",
+      "male": "audio/male/e1743dad1e8139e6.mp3"
+    },
+    "因爲我們很冷": {
+      "female": "audio/female/4bda412989eaa144.mp3",
+      "male": "audio/male/4bda412989eaa144.mp3"
+    },
+    "所以我們休息": {
+      "female": "audio/female/b27813492d8aa363.mp3",
+      "male": "audio/male/b27813492d8aa363.mp3"
+    },
+    "因爲我們很累": {
+      "female": "audio/female/6a91ca5e69a601bc.mp3",
+      "male": "audio/male/6a91ca5e69a601bc.mp3"
+    },
+    "因爲我們很忙": {
+      "female": "audio/female/f29bac72ab0de9db.mp3",
+      "male": "audio/male/f29bac72ab0de9db.mp3"
+    },
+    "所以我們工作": {
+      "female": "audio/female/8b37a69495c24668.mp3",
+      "male": "audio/male/8b37a69495c24668.mp3"
+    },
+    "但是我不去": {
+      "female": "audio/female/996fe8cca29799fe.mp3",
+      "male": "audio/male/996fe8cca29799fe.mp3"
+    },
+    "我爲什麼不來": {
+      "female": "audio/female/6ec84f6dccd37537.mp3",
+      "male": "audio/male/6ec84f6dccd37537.mp3"
+    },
+    "但是你不去": {
+      "female": "audio/female/3e80eab19e839ee8.mp3",
+      "male": "audio/male/3e80eab19e839ee8.mp3"
+    },
+    "你爲什麼不來": {
+      "female": "audio/female/25a4defeb2968ced.mp3",
+      "male": "audio/male/25a4defeb2968ced.mp3"
+    },
+    "但是他不去": {
+      "female": "audio/female/879841ac59aa19f1.mp3",
+      "male": "audio/male/879841ac59aa19f1.mp3"
+    },
+    "他爲什麼不來": {
+      "female": "audio/female/c986cced84e18618.mp3",
+      "male": "audio/male/c986cced84e18618.mp3"
+    },
+    "但是她不去": {
+      "female": "audio/female/c634388a1deded76.mp3",
+      "male": "audio/male/c634388a1deded76.mp3"
+    },
+    "她爲什麼不來": {
+      "female": "audio/female/739ce0bf104efe75.mp3",
+      "male": "audio/male/739ce0bf104efe75.mp3"
+    },
+    "但是我們不去": {
+      "female": "audio/female/b4eecc99dce7d210.mp3",
+      "male": "audio/male/b4eecc99dce7d210.mp3"
+    },
+    "我們爲什麼不來": {
+      "female": "audio/female/3c677e26e1f74e25.mp3",
+      "male": "audio/male/3c677e26e1f74e25.mp3"
     },
     "加倍": {
       "female": "audio/female/18a43a8777980bb4.mp3",

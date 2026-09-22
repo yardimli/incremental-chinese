@@ -199,5 +199,403 @@
     "female": "audio/female/b643ec571198be62.mp3",
     "male": "audio/male/b643ec571198be62.mp3"
   },
-  "english": "Celebrations"
+  "english": "Celebrations",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L20-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L06-09",
+        "L20-00"
+      ],
+      "english": "I am happy.",
+      "audio": {
+        "female": "audio/female/e89291c0b14180dc.mp3",
+        "male": "audio/male/e89291c0b14180dc.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L12-11",
+        "L20-08"
+      ],
+      "english": "I can sing.",
+      "audio": {
+        "female": "audio/female/88c733898e8e0179.mp3",
+        "male": "audio/male/88c733898e8e0179.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L12-11",
+        "L20-09"
+      ],
+      "english": "I can dance.",
+      "audio": {
+        "female": "audio/female/d0bb605db31dc29f.mp3",
+        "male": "audio/male/d0bb605db31dc29f.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L08-06",
+        "L20-05",
+        "L09-02"
+      ],
+      "english": "I like red clothes.",
+      "audio": {
+        "female": "audio/female/3afdd9f9382d3e2f.mp3",
+        "male": "audio/male/3afdd9f9382d3e2f.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L20-13",
+        "L20-01"
+      ],
+      "english": "I am very happy.",
+      "audio": {
+        "female": "audio/female/e0c9fa51e4da6e31.mp3",
+        "male": "audio/male/e0c9fa51e4da6e31.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L05-03",
+        "L20-ui-2"
+      ],
+      "english": "I go to the square.",
+      "audio": {
+        "female": "audio/female/b885ebf338ed91dc.mp3",
+        "male": "audio/male/b885ebf338ed91dc.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L06-09",
+        "L20-00"
+      ],
+      "english": "You are happy.",
+      "audio": {
+        "female": "audio/female/fdde83da26128f28.mp3",
+        "male": "audio/male/fdde83da26128f28.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L12-11",
+        "L20-08"
+      ],
+      "english": "You can sing.",
+      "audio": {
+        "female": "audio/female/21ce17cb8e4f6945.mp3",
+        "male": "audio/male/21ce17cb8e4f6945.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L12-11",
+        "L20-09"
+      ],
+      "english": "You can dance.",
+      "audio": {
+        "female": "audio/female/b90ec4116599e6b8.mp3",
+        "male": "audio/male/b90ec4116599e6b8.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L08-06",
+        "L20-05",
+        "L09-02"
+      ],
+      "english": "You like red clothes.",
+      "audio": {
+        "female": "audio/female/2af4a4176a34179a.mp3",
+        "male": "audio/male/2af4a4176a34179a.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L20-13",
+        "L20-01"
+      ],
+      "english": "You are very happy.",
+      "audio": {
+        "female": "audio/female/e98ca0898df0f35a.mp3",
+        "male": "audio/male/e98ca0898df0f35a.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L05-03",
+        "L20-ui-2"
+      ],
+      "english": "You go to the square.",
+      "audio": {
+        "female": "audio/female/5934aa185c20d98f.mp3",
+        "male": "audio/male/5934aa185c20d98f.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L06-09",
+        "L20-00"
+      ],
+      "english": "He is happy.",
+      "audio": {
+        "female": "audio/female/24472bdb56fe4ad0.mp3",
+        "male": "audio/male/24472bdb56fe4ad0.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L12-11",
+        "L20-08"
+      ],
+      "english": "He can sing.",
+      "audio": {
+        "female": "audio/female/ff089748259200fd.mp3",
+        "male": "audio/male/ff089748259200fd.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L12-11",
+        "L20-09"
+      ],
+      "english": "He can dance.",
+      "audio": {
+        "female": "audio/female/24c0878bd2bc75c0.mp3",
+        "male": "audio/male/24c0878bd2bc75c0.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L08-06",
+        "L20-05",
+        "L09-02"
+      ],
+      "english": "He likes red clothes.",
+      "audio": {
+        "female": "audio/female/0c61dd64f5228e34.mp3",
+        "male": "audio/male/0c61dd64f5228e34.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L20-13",
+        "L20-01"
+      ],
+      "english": "He is very happy.",
+      "audio": {
+        "female": "audio/female/24d1a46d8b6d8b25.mp3",
+        "male": "audio/male/24d1a46d8b6d8b25.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L05-03",
+        "L20-ui-2"
+      ],
+      "english": "He goes to the square.",
+      "audio": {
+        "female": "audio/female/fadd79b03aebb652.mp3",
+        "male": "audio/male/fadd79b03aebb652.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L06-09",
+        "L20-00"
+      ],
+      "english": "She is happy.",
+      "audio": {
+        "female": "audio/female/45fd314ed7789d7d.mp3",
+        "male": "audio/male/45fd314ed7789d7d.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L12-11",
+        "L20-08"
+      ],
+      "english": "She can sing.",
+      "audio": {
+        "female": "audio/female/0587b08ff3808034.mp3",
+        "male": "audio/male/0587b08ff3808034.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L12-11",
+        "L20-09"
+      ],
+      "english": "She can dance.",
+      "audio": {
+        "female": "audio/female/212a64b02ccc7390.mp3",
+        "male": "audio/male/212a64b02ccc7390.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L08-06",
+        "L20-05",
+        "L09-02"
+      ],
+      "english": "She likes red clothes.",
+      "audio": {
+        "female": "audio/female/f8669a4d0173127f.mp3",
+        "male": "audio/male/f8669a4d0173127f.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L20-13",
+        "L20-01"
+      ],
+      "english": "She is very happy.",
+      "audio": {
+        "female": "audio/female/0ceeb05255576f7a.mp3",
+        "male": "audio/male/0ceeb05255576f7a.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L05-03",
+        "L20-ui-2"
+      ],
+      "english": "She goes to the square.",
+      "audio": {
+        "female": "audio/female/fa9c64b54d12d674.mp3",
+        "male": "audio/male/fa9c64b54d12d674.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L06-09",
+        "L20-00"
+      ],
+      "english": "We are happy.",
+      "audio": {
+        "female": "audio/female/78e6b66052f5632d.mp3",
+        "male": "audio/male/78e6b66052f5632d.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L12-11",
+        "L20-08"
+      ],
+      "english": "We can sing.",
+      "audio": {
+        "female": "audio/female/da1568276d1d9962.mp3",
+        "male": "audio/male/da1568276d1d9962.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L12-11",
+        "L20-09"
+      ],
+      "english": "We can dance.",
+      "audio": {
+        "female": "audio/female/66aabe8ca17d1263.mp3",
+        "male": "audio/male/66aabe8ca17d1263.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L08-06",
+        "L20-05",
+        "L09-02"
+      ],
+      "english": "We like red clothes.",
+      "audio": {
+        "female": "audio/female/eaa6baae309fc75a.mp3",
+        "male": "audio/male/eaa6baae309fc75a.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L20-13",
+        "L20-01"
+      ],
+      "english": "We are very happy.",
+      "audio": {
+        "female": "audio/female/bbc17385aead9b05.mp3",
+        "male": "audio/male/bbc17385aead9b05.mp3"
+      }
+    },
+    {
+      "id": "L20-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L05-03",
+        "L20-ui-2"
+      ],
+      "english": "We go to the square.",
+      "audio": {
+        "female": "audio/female/32089991195374a2.mp3",
+        "male": "audio/male/32089991195374a2.mp3"
+      }
+    }
+  ]
 }

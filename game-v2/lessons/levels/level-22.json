@@ -166,5 +166,393 @@
     "female": "audio/female/4ef9d43f37216cc4.mp3",
     "male": "audio/male/4ef9d43f37216cc4.mp3"
   },
-  "english": "Staying connected"
+  "english": "Staying connected",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L22-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L12-13",
+        "L22-01"
+      ],
+      "english": "I watch television.",
+      "audio": {
+        "female": "audio/female/12485e5e43c6eb07.mp3",
+        "male": "audio/male/12485e5e43c6eb07.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L12-13",
+        "L22-02"
+      ],
+      "english": "I watch movies.",
+      "audio": {
+        "female": "audio/female/411f7b359f309a5b.mp3",
+        "male": "audio/male/411f7b359f309a5b.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L07-05",
+        "L22-03"
+      ],
+      "english": "I buy a mobile phone.",
+      "audio": {
+        "female": "audio/female/711d5fbe9d92e652.mp3",
+        "male": "audio/male/711d5fbe9d92e652.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L22-04"
+      ],
+      "english": "I make a phone call.",
+      "audio": {
+        "female": "audio/female/5eeda711f89ebbd2.mp3",
+        "male": "audio/male/5eeda711f89ebbd2.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L05-03",
+        "L22-07"
+      ],
+      "english": "I go to the company.",
+      "audio": {
+        "female": "audio/female/9869d5e541609018.mp3",
+        "male": "audio/male/9869d5e541609018.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L12-13",
+        "L22-06"
+      ],
+      "english": "I read newspapers.",
+      "audio": {
+        "female": "audio/female/15c78d5b53484337.mp3",
+        "male": "audio/male/15c78d5b53484337.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L12-13",
+        "L22-01"
+      ],
+      "english": "You watch television.",
+      "audio": {
+        "female": "audio/female/4025498d10cb8cbb.mp3",
+        "male": "audio/male/4025498d10cb8cbb.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L12-13",
+        "L22-02"
+      ],
+      "english": "You watch movies.",
+      "audio": {
+        "female": "audio/female/b53c3b6fc180f4ee.mp3",
+        "male": "audio/male/b53c3b6fc180f4ee.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L07-05",
+        "L22-03"
+      ],
+      "english": "You buy a mobile phone.",
+      "audio": {
+        "female": "audio/female/cdfa05df534dc1de.mp3",
+        "male": "audio/male/cdfa05df534dc1de.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L22-04"
+      ],
+      "english": "You make a phone call.",
+      "audio": {
+        "female": "audio/female/2c20adea76ece478.mp3",
+        "male": "audio/male/2c20adea76ece478.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L05-03",
+        "L22-07"
+      ],
+      "english": "You go to the company.",
+      "audio": {
+        "female": "audio/female/f45afbee285bcc00.mp3",
+        "male": "audio/male/f45afbee285bcc00.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L12-13",
+        "L22-06"
+      ],
+      "english": "You read newspapers.",
+      "audio": {
+        "female": "audio/female/a331eaa7f937e97e.mp3",
+        "male": "audio/male/a331eaa7f937e97e.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L12-13",
+        "L22-01"
+      ],
+      "english": "He watches television.",
+      "audio": {
+        "female": "audio/female/a770d55525d133d0.mp3",
+        "male": "audio/male/a770d55525d133d0.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L12-13",
+        "L22-02"
+      ],
+      "english": "He watches movies.",
+      "audio": {
+        "female": "audio/female/d91c590df28b44d5.mp3",
+        "male": "audio/male/d91c590df28b44d5.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L07-05",
+        "L22-03"
+      ],
+      "english": "He buys a mobile phone.",
+      "audio": {
+        "female": "audio/female/73b6a94ad7dd50dc.mp3",
+        "male": "audio/male/73b6a94ad7dd50dc.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L22-04"
+      ],
+      "english": "He makes a phone call.",
+      "audio": {
+        "female": "audio/female/9123f251416359a6.mp3",
+        "male": "audio/male/9123f251416359a6.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L05-03",
+        "L22-07"
+      ],
+      "english": "He goes to the company.",
+      "audio": {
+        "female": "audio/female/40fd327814e37326.mp3",
+        "male": "audio/male/40fd327814e37326.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L12-13",
+        "L22-06"
+      ],
+      "english": "He reads newspapers.",
+      "audio": {
+        "female": "audio/female/8b7b917e3eb369db.mp3",
+        "male": "audio/male/8b7b917e3eb369db.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L12-13",
+        "L22-01"
+      ],
+      "english": "She watches television.",
+      "audio": {
+        "female": "audio/female/d0117edc6c6fcea6.mp3",
+        "male": "audio/male/d0117edc6c6fcea6.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L12-13",
+        "L22-02"
+      ],
+      "english": "She watches movies.",
+      "audio": {
+        "female": "audio/female/bb9164c3609f99cf.mp3",
+        "male": "audio/male/bb9164c3609f99cf.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L07-05",
+        "L22-03"
+      ],
+      "english": "She buys a mobile phone.",
+      "audio": {
+        "female": "audio/female/e8dc721cc0bd5fa8.mp3",
+        "male": "audio/male/e8dc721cc0bd5fa8.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L22-04"
+      ],
+      "english": "She makes a phone call.",
+      "audio": {
+        "female": "audio/female/bf3d8e925c30eda7.mp3",
+        "male": "audio/male/bf3d8e925c30eda7.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L05-03",
+        "L22-07"
+      ],
+      "english": "She goes to the company.",
+      "audio": {
+        "female": "audio/female/7d8ef8e8d95fba29.mp3",
+        "male": "audio/male/7d8ef8e8d95fba29.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L12-13",
+        "L22-06"
+      ],
+      "english": "She reads newspapers.",
+      "audio": {
+        "female": "audio/female/70566c423759a265.mp3",
+        "male": "audio/male/70566c423759a265.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L12-13",
+        "L22-01"
+      ],
+      "english": "We watch television.",
+      "audio": {
+        "female": "audio/female/6d940dc305f135e0.mp3",
+        "male": "audio/male/6d940dc305f135e0.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L12-13",
+        "L22-02"
+      ],
+      "english": "We watch movies.",
+      "audio": {
+        "female": "audio/female/e7c5bfafcc14b098.mp3",
+        "male": "audio/male/e7c5bfafcc14b098.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L07-05",
+        "L22-03"
+      ],
+      "english": "We buy a mobile phone.",
+      "audio": {
+        "female": "audio/female/63be0076475baf4c.mp3",
+        "male": "audio/male/63be0076475baf4c.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L22-04"
+      ],
+      "english": "We make a phone call.",
+      "audio": {
+        "female": "audio/female/8edda1bb1cb7d216.mp3",
+        "male": "audio/male/8edda1bb1cb7d216.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L05-03",
+        "L22-07"
+      ],
+      "english": "We go to the company.",
+      "audio": {
+        "female": "audio/female/dbc37a552de7ede3.mp3",
+        "male": "audio/male/dbc37a552de7ede3.mp3"
+      }
+    },
+    {
+      "id": "L22-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L12-13",
+        "L22-06"
+      ],
+      "english": "We read newspapers.",
+      "audio": {
+        "female": "audio/female/39f99e1353b19a7f.mp3",
+        "male": "audio/male/39f99e1353b19a7f.mp3"
+      }
+    }
+  ]
 }

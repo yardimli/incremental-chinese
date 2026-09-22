@@ -210,5 +210,398 @@
     "female": "audio/female/e3ed7225fcb47865.mp3",
     "male": "audio/male/e3ed7225fcb47865.mp3"
   },
-  "english": "Questions & answers"
+  "english": "Questions & answers",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L23-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L23-06",
+        "L23-04"
+      ],
+      "english": "I answer questions.",
+      "audio": {
+        "female": "audio/female/d7a24d2631638d4a.mp3",
+        "male": "audio/male/d7a24d2631638d4a.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L23-07",
+        "L12-05"
+      ],
+      "english": "I understand Chinese.",
+      "audio": {
+        "female": "audio/female/3a0b88979aa24dc5.mp3",
+        "male": "audio/male/3a0b88979aa24dc5.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L23-08",
+        "L04-06"
+      ],
+      "english": "I know the name.",
+      "audio": {
+        "female": "audio/female/2e79f61ce410d0bd.mp3",
+        "male": "audio/male/2e79f61ce410d0bd.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L05-03",
+        "L23-00"
+      ],
+      "english": "I go to the classroom.",
+      "audio": {
+        "female": "audio/female/cdc3f7724c427012.mp3",
+        "male": "audio/male/cdc3f7724c427012.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L05-09",
+        "L23-02"
+      ],
+      "english": "I have an exam.",
+      "audio": {
+        "female": "audio/female/fba5cdfee5902324.mp3",
+        "male": "audio/male/fba5cdfee5902324.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L23-05",
+        "L12-01"
+      ],
+      "english": "I ask the teacher.",
+      "audio": {
+        "female": "audio/female/7f35fa5c47974782.mp3",
+        "male": "audio/male/7f35fa5c47974782.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L23-06",
+        "L23-04"
+      ],
+      "english": "You answer questions.",
+      "audio": {
+        "female": "audio/female/1eeb5c21605567b8.mp3",
+        "male": "audio/male/1eeb5c21605567b8.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L23-07",
+        "L12-05"
+      ],
+      "english": "You understand Chinese.",
+      "audio": {
+        "female": "audio/female/dd152a42880e9390.mp3",
+        "male": "audio/male/dd152a42880e9390.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L23-08",
+        "L04-06"
+      ],
+      "english": "You know the name.",
+      "audio": {
+        "female": "audio/female/15ac8b8aceb0cb0c.mp3",
+        "male": "audio/male/15ac8b8aceb0cb0c.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L05-03",
+        "L23-00"
+      ],
+      "english": "You go to the classroom.",
+      "audio": {
+        "female": "audio/female/81c15974708eadbf.mp3",
+        "male": "audio/male/81c15974708eadbf.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L05-09",
+        "L23-02"
+      ],
+      "english": "You have an exam.",
+      "audio": {
+        "female": "audio/female/2bd8243ae57a4348.mp3",
+        "male": "audio/male/2bd8243ae57a4348.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L23-05",
+        "L12-01"
+      ],
+      "english": "You ask the teacher.",
+      "audio": {
+        "female": "audio/female/bffdf51f2bf33e25.mp3",
+        "male": "audio/male/bffdf51f2bf33e25.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L23-06",
+        "L23-04"
+      ],
+      "english": "He answers questions.",
+      "audio": {
+        "female": "audio/female/cb52f732ef79c0db.mp3",
+        "male": "audio/male/cb52f732ef79c0db.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L23-07",
+        "L12-05"
+      ],
+      "english": "He understands Chinese.",
+      "audio": {
+        "female": "audio/female/25b48a209c9655a7.mp3",
+        "male": "audio/male/25b48a209c9655a7.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L23-08",
+        "L04-06"
+      ],
+      "english": "He knows the name.",
+      "audio": {
+        "female": "audio/female/ea7f13eab155d0d9.mp3",
+        "male": "audio/male/ea7f13eab155d0d9.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L05-03",
+        "L23-00"
+      ],
+      "english": "He goes to the classroom.",
+      "audio": {
+        "female": "audio/female/59ce3404a39af78e.mp3",
+        "male": "audio/male/59ce3404a39af78e.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L05-09",
+        "L23-02"
+      ],
+      "english": "He has an exam.",
+      "audio": {
+        "female": "audio/female/c4552c113c74686f.mp3",
+        "male": "audio/male/c4552c113c74686f.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L23-05",
+        "L12-01"
+      ],
+      "english": "He asks the teacher.",
+      "audio": {
+        "female": "audio/female/fc976c4142cf246a.mp3",
+        "male": "audio/male/fc976c4142cf246a.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L23-06",
+        "L23-04"
+      ],
+      "english": "She answers questions.",
+      "audio": {
+        "female": "audio/female/8e01793da73e9cfa.mp3",
+        "male": "audio/male/8e01793da73e9cfa.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L23-07",
+        "L12-05"
+      ],
+      "english": "She understands Chinese.",
+      "audio": {
+        "female": "audio/female/857f951f607eb096.mp3",
+        "male": "audio/male/857f951f607eb096.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L23-08",
+        "L04-06"
+      ],
+      "english": "She knows the name.",
+      "audio": {
+        "female": "audio/female/f2470b9c41834504.mp3",
+        "male": "audio/male/f2470b9c41834504.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L05-03",
+        "L23-00"
+      ],
+      "english": "She goes to the classroom.",
+      "audio": {
+        "female": "audio/female/720e173b4b79fafe.mp3",
+        "male": "audio/male/720e173b4b79fafe.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L05-09",
+        "L23-02"
+      ],
+      "english": "She has an exam.",
+      "audio": {
+        "female": "audio/female/2095a55c55102c14.mp3",
+        "male": "audio/male/2095a55c55102c14.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L23-05",
+        "L12-01"
+      ],
+      "english": "She asks the teacher.",
+      "audio": {
+        "female": "audio/female/cbed67a0daab3455.mp3",
+        "male": "audio/male/cbed67a0daab3455.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L23-06",
+        "L23-04"
+      ],
+      "english": "We answer questions.",
+      "audio": {
+        "female": "audio/female/59e2fbb748a10468.mp3",
+        "male": "audio/male/59e2fbb748a10468.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L23-07",
+        "L12-05"
+      ],
+      "english": "We understand Chinese.",
+      "audio": {
+        "female": "audio/female/9d7aca678a1fe7b8.mp3",
+        "male": "audio/male/9d7aca678a1fe7b8.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L23-08",
+        "L04-06"
+      ],
+      "english": "We know the name.",
+      "audio": {
+        "female": "audio/female/09ede612b9aeea7a.mp3",
+        "male": "audio/male/09ede612b9aeea7a.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L05-03",
+        "L23-00"
+      ],
+      "english": "We go to the classroom.",
+      "audio": {
+        "female": "audio/female/88193384e8c545cd.mp3",
+        "male": "audio/male/88193384e8c545cd.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L05-09",
+        "L23-02"
+      ],
+      "english": "We have an exam.",
+      "audio": {
+        "female": "audio/female/f20f00f07c07124b.mp3",
+        "male": "audio/male/f20f00f07c07124b.mp3"
+      }
+    },
+    {
+      "id": "L23-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L23-05",
+        "L12-01"
+      ],
+      "english": "We ask the teacher.",
+      "audio": {
+        "female": "audio/female/ac0cad980346f2eb.mp3",
+        "male": "audio/male/ac0cad980346f2eb.mp3"
+      }
+    }
+  ]
 }

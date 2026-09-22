@@ -188,5 +188,418 @@
     "female": "audio/female/7a1e85acf616ae7a.mp3",
     "male": "audio/male/7a1e85acf616ae7a.mp3"
   },
-  "english": "Finding the way"
+  "english": "Finding the way",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L18-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L18-01",
+        "L05-11"
+      ],
+      "english": "I go this way.",
+      "audio": {
+        "female": "audio/female/1b1945d77c86b43f.mp3",
+        "male": "audio/male/1b1945d77c86b43f.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L18-04",
+        "L12-00"
+      ],
+      "english": "I arrive at school.",
+      "audio": {
+        "female": "audio/female/546e31156273ac51.mp3",
+        "male": "audio/male/546e31156273ac51.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L18-05",
+        "L05-00",
+        "L05-02"
+      ],
+      "english": "I come from home.",
+      "audio": {
+        "female": "audio/female/0fff7c36ddd0a443.mp3",
+        "male": "audio/male/0fff7c36ddd0a443.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L18-06",
+        "L18-10",
+        "L18-01"
+      ],
+      "english": "I walk to the left.",
+      "audio": {
+        "female": "audio/female/fb901ff146fadb6a.mp3",
+        "male": "audio/male/fb901ff146fadb6a.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L18-06",
+        "L18-11",
+        "L18-01"
+      ],
+      "english": "I walk to the right.",
+      "audio": {
+        "female": "audio/female/da93ad6622d51ce0.mp3",
+        "male": "audio/male/da93ad6622d51ce0.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L05-08",
+        "L09-12",
+        "L18-13"
+      ],
+      "english": "I am outside the door.",
+      "audio": {
+        "female": "audio/female/9ce3f9fcdcaef72a.mp3",
+        "male": "audio/male/9ce3f9fcdcaef72a.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L18-01",
+        "L05-11"
+      ],
+      "english": "You go this way.",
+      "audio": {
+        "female": "audio/female/0bfb0fe3a09e37c5.mp3",
+        "male": "audio/male/0bfb0fe3a09e37c5.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L18-04",
+        "L12-00"
+      ],
+      "english": "You arrive at school.",
+      "audio": {
+        "female": "audio/female/08b3b5c9172395aa.mp3",
+        "male": "audio/male/08b3b5c9172395aa.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L18-05",
+        "L05-00",
+        "L05-02"
+      ],
+      "english": "You come from home.",
+      "audio": {
+        "female": "audio/female/872c6fb97b1e8c82.mp3",
+        "male": "audio/male/872c6fb97b1e8c82.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L18-06",
+        "L18-10",
+        "L18-01"
+      ],
+      "english": "You walk to the left.",
+      "audio": {
+        "female": "audio/female/afd094acea947086.mp3",
+        "male": "audio/male/afd094acea947086.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L18-06",
+        "L18-11",
+        "L18-01"
+      ],
+      "english": "You walk to the right.",
+      "audio": {
+        "female": "audio/female/93442d73dee7fc4b.mp3",
+        "male": "audio/male/93442d73dee7fc4b.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L05-08",
+        "L09-12",
+        "L18-13"
+      ],
+      "english": "You are outside the door.",
+      "audio": {
+        "female": "audio/female/1843b2c6e5ef0b43.mp3",
+        "male": "audio/male/1843b2c6e5ef0b43.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L18-01",
+        "L05-11"
+      ],
+      "english": "He goes this way.",
+      "audio": {
+        "female": "audio/female/78682a4e1436462e.mp3",
+        "male": "audio/male/78682a4e1436462e.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L18-04",
+        "L12-00"
+      ],
+      "english": "He arrives at school.",
+      "audio": {
+        "female": "audio/female/c27193ba5fa7c5c8.mp3",
+        "male": "audio/male/c27193ba5fa7c5c8.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L18-05",
+        "L05-00",
+        "L05-02"
+      ],
+      "english": "He comes from home.",
+      "audio": {
+        "female": "audio/female/4d07c1e9bb2a1082.mp3",
+        "male": "audio/male/4d07c1e9bb2a1082.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L18-06",
+        "L18-10",
+        "L18-01"
+      ],
+      "english": "He walks to the left.",
+      "audio": {
+        "female": "audio/female/62a3900d49874966.mp3",
+        "male": "audio/male/62a3900d49874966.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L18-06",
+        "L18-11",
+        "L18-01"
+      ],
+      "english": "He walks to the right.",
+      "audio": {
+        "female": "audio/female/f2256df052563338.mp3",
+        "male": "audio/male/f2256df052563338.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L05-08",
+        "L09-12",
+        "L18-13"
+      ],
+      "english": "He is outside the door.",
+      "audio": {
+        "female": "audio/female/4d10f1cd1c9dd09c.mp3",
+        "male": "audio/male/4d10f1cd1c9dd09c.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L18-01",
+        "L05-11"
+      ],
+      "english": "She goes this way.",
+      "audio": {
+        "female": "audio/female/a41eb2b7f13d8974.mp3",
+        "male": "audio/male/a41eb2b7f13d8974.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L18-04",
+        "L12-00"
+      ],
+      "english": "She arrives at school.",
+      "audio": {
+        "female": "audio/female/d332516c7fd591e3.mp3",
+        "male": "audio/male/d332516c7fd591e3.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L18-05",
+        "L05-00",
+        "L05-02"
+      ],
+      "english": "She comes from home.",
+      "audio": {
+        "female": "audio/female/61d65ceeeb740d98.mp3",
+        "male": "audio/male/61d65ceeeb740d98.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L18-06",
+        "L18-10",
+        "L18-01"
+      ],
+      "english": "She walks to the left.",
+      "audio": {
+        "female": "audio/female/7addadcffcdbda3e.mp3",
+        "male": "audio/male/7addadcffcdbda3e.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L18-06",
+        "L18-11",
+        "L18-01"
+      ],
+      "english": "She walks to the right.",
+      "audio": {
+        "female": "audio/female/9812a6827893b0fe.mp3",
+        "male": "audio/male/9812a6827893b0fe.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L05-08",
+        "L09-12",
+        "L18-13"
+      ],
+      "english": "She is outside the door.",
+      "audio": {
+        "female": "audio/female/bb5b3a76018ad9a1.mp3",
+        "male": "audio/male/bb5b3a76018ad9a1.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L18-01",
+        "L05-11"
+      ],
+      "english": "We go this way.",
+      "audio": {
+        "female": "audio/female/9493f3f243c41203.mp3",
+        "male": "audio/male/9493f3f243c41203.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L18-04",
+        "L12-00"
+      ],
+      "english": "We arrive at school.",
+      "audio": {
+        "female": "audio/female/2f894e9805d648d6.mp3",
+        "male": "audio/male/2f894e9805d648d6.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L18-05",
+        "L05-00",
+        "L05-02"
+      ],
+      "english": "We come from home.",
+      "audio": {
+        "female": "audio/female/a96b902414e5f261.mp3",
+        "male": "audio/male/a96b902414e5f261.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L18-06",
+        "L18-10",
+        "L18-01"
+      ],
+      "english": "We walk to the left.",
+      "audio": {
+        "female": "audio/female/ec32f6c310c625b9.mp3",
+        "male": "audio/male/ec32f6c310c625b9.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L18-06",
+        "L18-11",
+        "L18-01"
+      ],
+      "english": "We walk to the right.",
+      "audio": {
+        "female": "audio/female/3d3d003b5e06e311.mp3",
+        "male": "audio/male/3d3d003b5e06e311.mp3"
+      }
+    },
+    {
+      "id": "L18-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L05-08",
+        "L09-12",
+        "L18-13"
+      ],
+      "english": "We are outside the door.",
+      "audio": {
+        "female": "audio/female/f5521d657589a032.mp3",
+        "male": "audio/male/f5521d657589a032.mp3"
+      }
+    }
+  ]
 }

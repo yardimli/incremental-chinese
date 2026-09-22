@@ -155,5 +155,398 @@
     "female": "audio/female/b0b573f0c68b8e2b.mp3",
     "male": "audio/male/b0b573f0c68b8e2b.mp3"
   },
-  "english": "The extended family"
+  "english": "The extended family",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L17-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L17-11",
+        "L17-00"
+      ],
+      "english": "I help an older brother.",
+      "audio": {
+        "female": "audio/female/c30348a8e6a0c5a0.mp3",
+        "male": "audio/male/c30348a8e6a0c5a0.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L17-11",
+        "L17-01"
+      ],
+      "english": "I help an older sister.",
+      "audio": {
+        "female": "audio/female/484ba61bb4a9ec4c.mp3",
+        "male": "audio/male/484ba61bb4a9ec4c.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L08-05",
+        "L17-04"
+      ],
+      "english": "I love children.",
+      "audio": {
+        "female": "audio/female/30e4660da1395398.mp3",
+        "male": "audio/male/30e4660da1395398.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L05-09",
+        "L17-03"
+      ],
+      "english": "I have a younger sister.",
+      "audio": {
+        "female": "audio/female/59e74a11aee1a742.mp3",
+        "male": "audio/male/59e74a11aee1a742.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L05-09",
+        "L17-02"
+      ],
+      "english": "I have a younger brother.",
+      "audio": {
+        "female": "audio/female/498a2032a4318c9f.mp3",
+        "male": "audio/male/498a2032a4318c9f.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L08-07",
+        "L17-09"
+      ],
+      "english": "I know everyone.",
+      "audio": {
+        "female": "audio/female/f9a1ad05fd486f01.mp3",
+        "male": "audio/male/f9a1ad05fd486f01.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L17-11",
+        "L17-00"
+      ],
+      "english": "You help an older brother.",
+      "audio": {
+        "female": "audio/female/f41a872691b3ee73.mp3",
+        "male": "audio/male/f41a872691b3ee73.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L17-11",
+        "L17-01"
+      ],
+      "english": "You help an older sister.",
+      "audio": {
+        "female": "audio/female/6197f363f68be452.mp3",
+        "male": "audio/male/6197f363f68be452.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L08-05",
+        "L17-04"
+      ],
+      "english": "You love children.",
+      "audio": {
+        "female": "audio/female/d151f69bddfb254f.mp3",
+        "male": "audio/male/d151f69bddfb254f.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L05-09",
+        "L17-03"
+      ],
+      "english": "You have a younger sister.",
+      "audio": {
+        "female": "audio/female/1cbc647455926141.mp3",
+        "male": "audio/male/1cbc647455926141.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L05-09",
+        "L17-02"
+      ],
+      "english": "You have a younger brother.",
+      "audio": {
+        "female": "audio/female/bcb7bb2e35dbc173.mp3",
+        "male": "audio/male/bcb7bb2e35dbc173.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L08-07",
+        "L17-09"
+      ],
+      "english": "You know everyone.",
+      "audio": {
+        "female": "audio/female/aa712c10926f9ade.mp3",
+        "male": "audio/male/aa712c10926f9ade.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L17-11",
+        "L17-00"
+      ],
+      "english": "He helps an older brother.",
+      "audio": {
+        "female": "audio/female/c54d13046a4142a0.mp3",
+        "male": "audio/male/c54d13046a4142a0.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L17-11",
+        "L17-01"
+      ],
+      "english": "He helps an older sister.",
+      "audio": {
+        "female": "audio/female/de6c8756311cdd0f.mp3",
+        "male": "audio/male/de6c8756311cdd0f.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L08-05",
+        "L17-04"
+      ],
+      "english": "He loves children.",
+      "audio": {
+        "female": "audio/female/e947194d7fd838b9.mp3",
+        "male": "audio/male/e947194d7fd838b9.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L05-09",
+        "L17-03"
+      ],
+      "english": "He has a younger sister.",
+      "audio": {
+        "female": "audio/female/4a8a4497ed3272e5.mp3",
+        "male": "audio/male/4a8a4497ed3272e5.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L05-09",
+        "L17-02"
+      ],
+      "english": "He has a younger brother.",
+      "audio": {
+        "female": "audio/female/1049f4e83af80b49.mp3",
+        "male": "audio/male/1049f4e83af80b49.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L08-07",
+        "L17-09"
+      ],
+      "english": "He knows everyone.",
+      "audio": {
+        "female": "audio/female/6a5314404d1582b7.mp3",
+        "male": "audio/male/6a5314404d1582b7.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L17-11",
+        "L17-00"
+      ],
+      "english": "She helps an older brother.",
+      "audio": {
+        "female": "audio/female/8078e4b96c1c584c.mp3",
+        "male": "audio/male/8078e4b96c1c584c.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L17-11",
+        "L17-01"
+      ],
+      "english": "She helps an older sister.",
+      "audio": {
+        "female": "audio/female/08e4ebbc855f0e95.mp3",
+        "male": "audio/male/08e4ebbc855f0e95.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L08-05",
+        "L17-04"
+      ],
+      "english": "She loves children.",
+      "audio": {
+        "female": "audio/female/994da028cb93a4c7.mp3",
+        "male": "audio/male/994da028cb93a4c7.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L05-09",
+        "L17-03"
+      ],
+      "english": "She has a younger sister.",
+      "audio": {
+        "female": "audio/female/9a3dc908b9770d3c.mp3",
+        "male": "audio/male/9a3dc908b9770d3c.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L05-09",
+        "L17-02"
+      ],
+      "english": "She has a younger brother.",
+      "audio": {
+        "female": "audio/female/b524fe3e7d380743.mp3",
+        "male": "audio/male/b524fe3e7d380743.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L08-07",
+        "L17-09"
+      ],
+      "english": "She knows everyone.",
+      "audio": {
+        "female": "audio/female/35099a09649406d9.mp3",
+        "male": "audio/male/35099a09649406d9.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L17-11",
+        "L17-00"
+      ],
+      "english": "We help an older brother.",
+      "audio": {
+        "female": "audio/female/bdb41dc56e1a3feb.mp3",
+        "male": "audio/male/bdb41dc56e1a3feb.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L17-11",
+        "L17-01"
+      ],
+      "english": "We help an older sister.",
+      "audio": {
+        "female": "audio/female/b508c426bd3466b4.mp3",
+        "male": "audio/male/b508c426bd3466b4.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L08-05",
+        "L17-04"
+      ],
+      "english": "We love children.",
+      "audio": {
+        "female": "audio/female/814ea6c21161527c.mp3",
+        "male": "audio/male/814ea6c21161527c.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L05-09",
+        "L17-03"
+      ],
+      "english": "We have a younger sister.",
+      "audio": {
+        "female": "audio/female/fae29cd473d4b359.mp3",
+        "male": "audio/male/fae29cd473d4b359.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L05-09",
+        "L17-02"
+      ],
+      "english": "We have a younger brother.",
+      "audio": {
+        "female": "audio/female/f08480c24086aa1b.mp3",
+        "male": "audio/male/f08480c24086aa1b.mp3"
+      }
+    },
+    {
+      "id": "L17-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L08-07",
+        "L17-09"
+      ],
+      "english": "We know everyone.",
+      "audio": {
+        "female": "audio/female/1b4b9137615f3996.mp3",
+        "male": "audio/male/1b4b9137615f3996.mp3"
+      }
+    }
+  ]
 }

@@ -94,12 +94,13 @@ const assert = require('node:assert/strict');
     await page.waitForFunction(() => document.querySelector('#screen')?.dataset.screen === 'match');
     await seed('order');
     await nav('order');
-    await page.keyboard.press('Space');
-    await page.waitForTimeout(750);
-    await page.keyboard.press('Space');
-    await page.waitForFunction(
-      () => JSON.parse(localStorage.getItem('chinese-game-v2')).sentenceIndex === 2,
-    );
+    for (let i = 0; i < 2; i++) {
+      await page.keyboard.press('Space');
+      await page.locator('#screen #continue').waitFor();
+      await page.locator('#screen #continue').click();
+      await page.locator('#screen [data-choice]').first().waitFor();
+    }
+    assert.equal((await saved()).sentenceIndex, 2);
     await seed('battle');
     await nav('home');
     await game().locator('.battle-target').first().waitFor();

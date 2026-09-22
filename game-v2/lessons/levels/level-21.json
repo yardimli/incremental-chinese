@@ -155,5 +155,383 @@
     "female": "audio/female/67297511a29c8bcd.mp3",
     "male": "audio/male/67297511a29c8bcd.mp3"
   },
-  "english": "Sports & play"
+  "english": "Sports & play",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L21-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L08-06",
+        "L21-00"
+      ],
+      "english": "I like sports.",
+      "audio": {
+        "female": "audio/female/f4be59b90148fe2a.mp3",
+        "male": "audio/male/f4be59b90148fe2a.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L12-11",
+        "L21-02"
+      ],
+      "english": "I can swim.",
+      "audio": {
+        "female": "audio/female/924bc4065f232d7e.mp3",
+        "male": "audio/male/924bc4065f232d7e.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L21-03"
+      ],
+      "english": "I play basketball.",
+      "audio": {
+        "female": "audio/female/996252281e023bf8.mp3",
+        "male": "audio/male/996252281e023bf8.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L21-04"
+      ],
+      "english": "I play football.",
+      "audio": {
+        "female": "audio/female/f52f235c7bbcf0f4.mp3",
+        "male": "audio/male/f52f235c7bbcf0f4.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L21-01"
+      ],
+      "english": "I jog.",
+      "audio": {
+        "female": "audio/female/7104cee8f6463717.mp3",
+        "male": "audio/male/7104cee8f6463717.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L08-06",
+        "L21-09"
+      ],
+      "english": "I like cats.",
+      "audio": {
+        "female": "audio/female/b6c540c72fe52201.mp3",
+        "male": "audio/male/b6c540c72fe52201.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L08-06",
+        "L21-00"
+      ],
+      "english": "You like sports.",
+      "audio": {
+        "female": "audio/female/7b6edf38b9408062.mp3",
+        "male": "audio/male/7b6edf38b9408062.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L12-11",
+        "L21-02"
+      ],
+      "english": "You can swim.",
+      "audio": {
+        "female": "audio/female/53693ba254f91353.mp3",
+        "male": "audio/male/53693ba254f91353.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L21-03"
+      ],
+      "english": "You play basketball.",
+      "audio": {
+        "female": "audio/female/cdd94b1cb3414600.mp3",
+        "male": "audio/male/cdd94b1cb3414600.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L21-04"
+      ],
+      "english": "You play football.",
+      "audio": {
+        "female": "audio/female/a1e5b90cb89e4345.mp3",
+        "male": "audio/male/a1e5b90cb89e4345.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L21-01"
+      ],
+      "english": "You jog.",
+      "audio": {
+        "female": "audio/female/96a5405e8722323f.mp3",
+        "male": "audio/male/96a5405e8722323f.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L08-06",
+        "L21-09"
+      ],
+      "english": "You like cats.",
+      "audio": {
+        "female": "audio/female/a998c909e4be097e.mp3",
+        "male": "audio/male/a998c909e4be097e.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L08-06",
+        "L21-00"
+      ],
+      "english": "He likes sports.",
+      "audio": {
+        "female": "audio/female/f9d73e989f9097f3.mp3",
+        "male": "audio/male/f9d73e989f9097f3.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L12-11",
+        "L21-02"
+      ],
+      "english": "He can swim.",
+      "audio": {
+        "female": "audio/female/12fcb8e828cb739d.mp3",
+        "male": "audio/male/12fcb8e828cb739d.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L21-03"
+      ],
+      "english": "He plays basketball.",
+      "audio": {
+        "female": "audio/female/41ea6132273d44b3.mp3",
+        "male": "audio/male/41ea6132273d44b3.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L21-04"
+      ],
+      "english": "He plays football.",
+      "audio": {
+        "female": "audio/female/14f26747cd87b796.mp3",
+        "male": "audio/male/14f26747cd87b796.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L21-01"
+      ],
+      "english": "He jogs.",
+      "audio": {
+        "female": "audio/female/8b53d555f8c3f7f5.mp3",
+        "male": "audio/male/8b53d555f8c3f7f5.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L08-06",
+        "L21-09"
+      ],
+      "english": "He likes cats.",
+      "audio": {
+        "female": "audio/female/92990fb0b9d042b0.mp3",
+        "male": "audio/male/92990fb0b9d042b0.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L08-06",
+        "L21-00"
+      ],
+      "english": "She likes sports.",
+      "audio": {
+        "female": "audio/female/60b5f68b6c5fe64a.mp3",
+        "male": "audio/male/60b5f68b6c5fe64a.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L12-11",
+        "L21-02"
+      ],
+      "english": "She can swim.",
+      "audio": {
+        "female": "audio/female/6cc5bec31c387fa2.mp3",
+        "male": "audio/male/6cc5bec31c387fa2.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L21-03"
+      ],
+      "english": "She plays basketball.",
+      "audio": {
+        "female": "audio/female/bfaf8dabbee003bd.mp3",
+        "male": "audio/male/bfaf8dabbee003bd.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L21-04"
+      ],
+      "english": "She plays football.",
+      "audio": {
+        "female": "audio/female/e42420e0ca87bc0b.mp3",
+        "male": "audio/male/e42420e0ca87bc0b.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L21-01"
+      ],
+      "english": "She jogs.",
+      "audio": {
+        "female": "audio/female/fb79484b61eb4850.mp3",
+        "male": "audio/male/fb79484b61eb4850.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L08-06",
+        "L21-09"
+      ],
+      "english": "She likes cats.",
+      "audio": {
+        "female": "audio/female/acc9191f6d93918b.mp3",
+        "male": "audio/male/acc9191f6d93918b.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L08-06",
+        "L21-00"
+      ],
+      "english": "We like sports.",
+      "audio": {
+        "female": "audio/female/30ee66ba6e85f0c9.mp3",
+        "male": "audio/male/30ee66ba6e85f0c9.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L12-11",
+        "L21-02"
+      ],
+      "english": "We can swim.",
+      "audio": {
+        "female": "audio/female/dc7ae3df33667441.mp3",
+        "male": "audio/male/dc7ae3df33667441.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L21-03"
+      ],
+      "english": "We play basketball.",
+      "audio": {
+        "female": "audio/female/748acacb2cc8af4e.mp3",
+        "male": "audio/male/748acacb2cc8af4e.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L21-04"
+      ],
+      "english": "We play football.",
+      "audio": {
+        "female": "audio/female/72fca2128e345236.mp3",
+        "male": "audio/male/72fca2128e345236.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L21-01"
+      ],
+      "english": "We jog.",
+      "audio": {
+        "female": "audio/female/bf50d1c82a8eae4d.mp3",
+        "male": "audio/male/bf50d1c82a8eae4d.mp3"
+      }
+    },
+    {
+      "id": "L21-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L08-06",
+        "L21-09"
+      ],
+      "english": "We like cats.",
+      "audio": {
+        "female": "audio/female/4b71de2e3346ff4f.mp3",
+        "male": "audio/male/4b71de2e3346ff4f.mp3"
+      }
+    }
+  ]
 }

@@ -38,12 +38,12 @@ export function drawOrder() {
     busy = false;
   }
   const pool = lessons
-    .slice(0, state.setIndex)
+    .slice(0, state.setIndex + 1)
     .filter((s) => s.type === 'pairs')
     .flatMap((s) => s.pairs.map((w) => w.id))
     .filter((id) => !q.tokens.includes(id));
   const rng = {
-    rng: state.prestige * 8123 + Number(q.id.split('-')[1]) * 71,
+    rng: state.prestige * 8123 + q.id.length * 71,
   };
   const bank = E.shuffle(rng, [
     ...q.tokens,
@@ -165,6 +165,8 @@ export function drawOrder() {
   };
 }
 export function dispose() {
+  lastQuestion = null;
+  placed = [];
   pairActivity?.abort();
   battle?.dispose();
   arenaActivity?.abort();

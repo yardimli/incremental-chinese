@@ -32,7 +32,7 @@ html,
   padding: 7px 8px;
   color: #19483a;
   box-shadow: 0 2px 0 #a18242;
-  font-size: 11px;
+  font-size: calc(11px * var(--text-scale, 1));
 }
 .compact-tabs button {
   flex: 1;
@@ -55,7 +55,7 @@ html,
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
-  font: 10px system-ui;
+  font: calc(10px * var(--text-scale, 1)) system-ui;
 }
 .price > span {
   white-space: nowrap;
@@ -88,7 +88,7 @@ html,
   --sprite-index: 8;
 }
 .production {
-  font-size: 9px;
+  font-size: calc(9px * var(--text-scale, 1));
 }
 .production .sprite {
   background-position-x: calc(var(--sprite-index, 0) * -16px);
@@ -97,7 +97,7 @@ html,
   background: #e7d5ad;
   border: 1px solid #a78d59;
   border-radius: 7px;
-  font-size: 10px;
+  font-size: calc(10px * var(--text-scale, 1));
   color: #704531;
   padding: 4px;
 }
@@ -126,17 +126,17 @@ html,
 }
 .memory-intro h2,
 .memory-finish h2 {
-  font: 27px Georgia;
+  font: calc(27px * var(--text-scale, 1)) Georgia;
   margin: 14px 0;
 }
 .memory-intro p {
-  font-size: 12px;
+  font-size: calc(12px * var(--text-scale, 1));
 }
 .memory-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: calc(12px * var(--text-scale, 1));
 }
 .memory-grid {
   display: grid;
@@ -176,15 +176,19 @@ html,
 }
 .memory-card .hanzi {
   display: block;
-  font-size: clamp(15px, calc(66px / var(--hanzi-count, 1)), 30px) !important;
+  font-size: clamp(
+    calc(15px * var(--text-scale, 1)),
+    calc(calc(66px * var(--text-scale, 1)) / var(--hanzi-count, 1)),
+    calc(30px * var(--text-scale, 1))
+  ) !important;
   white-space: nowrap;
 }
 .memory-card .pinyin {
-  font-size: 11px;
+  font-size: calc(11px * var(--text-scale, 1));
   line-height: 1.3;
 }
 .memory-english {
-  font-size: 14px;
+  font-size: calc(14px * var(--text-scale, 1));
   overflow-wrap: anywhere;
   line-height: 1.2;
   display: block;
@@ -192,7 +196,7 @@ html,
 .memory-status {
   min-height: 20px;
   text-align: center;
-  font-size: 12px;
+  font-size: calc(12px * var(--text-scale, 1));
 }
 .memory-set-list .secondary {
   margin-top: 6px;
@@ -201,13 +205,13 @@ html,
 }
 .memory-set-list .secondary small {
   display: block;
-  font: 11px system-ui;
+  font: calc(11px * var(--text-scale, 1)) system-ui;
 }
 .memory-set-list .hanzi {
-  font-size: 22px;
+  font-size: calc(22px * var(--text-scale, 1));
 }
 .memory-finish .big {
-  font-size: 38px;
+  font-size: calc(38px * var(--text-scale, 1));
 }
 .memory-finish {
   margin: auto 0;
@@ -248,16 +252,16 @@ html,
   padding: 34px 15px 14px;
 }
 .gate-banner h2 {
-  font: 29px Georgia;
+  font: calc(29px * var(--text-scale, 1)) Georgia;
 }
 .gate-banner p {
-  font-size: 13px;
+  font-size: calc(13px * var(--text-scale, 1));
 }
 .gate-checks {
   background: #fff2d7e8;
   padding: 16px;
   border-radius: 12px;
-  font-size: 13px;
+  font-size: calc(13px * var(--text-scale, 1));
 }
 .footer .sprite {
   height: 28px;
@@ -320,14 +324,14 @@ html,
 }
 .set-picker small {
   display: block;
-  font: 10px system-ui;
+  font: calc(10px * var(--text-scale, 1)) system-ui;
 }
 .previously-collected {
   opacity: 0.55;
   border-style: dashed;
 }
 .collection-heading .hanzi {
-  font-size: 22px;
+  font-size: calc(22px * var(--text-scale, 1));
 }
 .memory-grid {
   grid-template-columns: repeat(var(--memory-columns, 3), minmax(0, 1fr));
@@ -343,13 +347,17 @@ html,
   margin-top: 4px;
 }
 .collection .hanzi {
-  font-size: clamp(10px, calc(53px / var(--hanzi-count, 1)), 23px) !important;
+  font-size: clamp(
+    calc(10px * var(--text-scale, 1)),
+    calc(calc(53px * var(--text-scale, 1)) / var(--hanzi-count, 1)),
+    calc(23px * var(--text-scale, 1))
+  ) !important;
   white-space: nowrap;
 }
 .english-translation {
   display: block;
   font:
-    11px/1.25 system-ui,
+    calc(11px * var(--text-scale, 1))/1.25 system-ui,
     sans-serif;
   color: #59634c;
   font-weight: 400;
@@ -357,10 +365,10 @@ html,
   overflow-wrap: anywhere;
 }
 .set-picker .english-translation {
-  font-size: 10px;
+  font-size: calc(10px * var(--text-scale, 1));
 }
 .collection .english-translation {
-  font-size: 10px;
+  font-size: calc(10px * var(--text-scale, 1));
   line-height: 1.2;
   margin-top: 3px;
 }
@@ -488,7 +496,7 @@ html,
   --hanzi-max: 60px;
 }
 .reward .hero-card .english-translation {
-  font-size: 13px;
+  font-size: calc(13px * var(--text-scale, 1));
   line-height: 1.35;
   flex: none;
 }
@@ -502,7 +510,7 @@ html,
 }
 .reward-emblem .english-translation {
   color: #fff0c3;
-  font-size: 12px;
+  font-size: calc(12px * var(--text-scale, 1));
   line-height: 1.25;
 }
 .header .head-right {
@@ -525,7 +533,7 @@ html,
   padding: 0;
 }
 .sound-button {
-  font-size: 19px;
+  font-size: calc(19px * var(--text-scale, 1));
   font-weight: 800;
 }
 .accuracy-strip {
@@ -575,7 +583,7 @@ html,
   padding: 8px 12px;
   margin-top: 10px;
   min-height: 40px;
-  font-size: 16px;
+  font-size: calc(16px * var(--text-scale, 1));
 }
 .journey-extras {
   display: grid;
@@ -587,12 +595,12 @@ html,
   padding: 8px 12px;
   margin: 0;
   min-height: 40px;
-  font-size: 16px;
+  font-size: calc(16px * var(--text-scale, 1));
 }
 .practice-note {
   text-align: center;
   font:
-    12px/1.4 system-ui,
+    calc(12px * var(--text-scale, 1))/1.4 system-ui,
     sans-serif;
   color: #365c48;
   margin: 4px 0 10px;
@@ -603,7 +611,7 @@ html,
   font-weight: 700;
 }
 .trade-status {
-  font-size: 12px;
+  font-size: calc(12px * var(--text-scale, 1));
   color: #235b42;
   margin: 6px 0;
 }
@@ -634,7 +642,7 @@ html,
   gap: 10px;
 }
 .collection-status-row .small {
-  font-size: 11px;
+  font-size: calc(11px * var(--text-scale, 1));
 }
 .collection-back {
   flex: none;
@@ -643,5 +651,5 @@ html,
   border-radius: 7px;
   background: #f8e7b9;
   color: #234d3b;
-  font-size: 12px;
+  font-size: calc(12px * var(--text-scale, 1));
 }

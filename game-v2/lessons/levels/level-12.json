@@ -210,5 +210,408 @@
     "female": "audio/female/3d3d488e5d54de31.mp3",
     "male": "audio/male/3d3d488e5d54de31.mp3"
   },
-  "english": "School"
+  "english": "School",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L12-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L12-04",
+        "L12-05"
+      ],
+      "english": "I study Chinese.",
+      "audio": {
+        "female": "audio/female/4f4b70227aabd42f.mp3",
+        "male": "audio/male/4f4b70227aabd42f.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L12-11",
+        "L12-08",
+        "L12-06"
+      ],
+      "english": "I can write characters.",
+      "audio": {
+        "female": "audio/female/9b3f59442106854b.mp3",
+        "male": "audio/male/9b3f59442106854b.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L12-07",
+        "L09-04"
+      ],
+      "english": "I read books.",
+      "audio": {
+        "female": "audio/female/6135124353c98871.mp3",
+        "male": "audio/male/6135124353c98871.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L05-03",
+        "L12-00"
+      ],
+      "english": "I go to school.",
+      "audio": {
+        "female": "audio/female/d62dc8097a8e7ede.mp3",
+        "male": "audio/male/d62dc8097a8e7ede.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L04-08",
+        "L12-02"
+      ],
+      "english": "I am a student.",
+      "audio": {
+        "female": "audio/female/5bd790ea9de216c3.mp3",
+        "male": "audio/male/5bd790ea9de216c3.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L12-09",
+        "L12-01",
+        "L12-10"
+      ],
+      "english": "I listen to the teacher speak.",
+      "audio": {
+        "female": "audio/female/933fe67c1b1d8c5d.mp3",
+        "male": "audio/male/933fe67c1b1d8c5d.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L12-04",
+        "L12-05"
+      ],
+      "english": "You study Chinese.",
+      "audio": {
+        "female": "audio/female/10c9c2c784c69f31.mp3",
+        "male": "audio/male/10c9c2c784c69f31.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L12-11",
+        "L12-08",
+        "L12-06"
+      ],
+      "english": "You can write characters.",
+      "audio": {
+        "female": "audio/female/ff4c606249dee8a4.mp3",
+        "male": "audio/male/ff4c606249dee8a4.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L12-07",
+        "L09-04"
+      ],
+      "english": "You read books.",
+      "audio": {
+        "female": "audio/female/2fcdbb6e08d973f9.mp3",
+        "male": "audio/male/2fcdbb6e08d973f9.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L05-03",
+        "L12-00"
+      ],
+      "english": "You go to school.",
+      "audio": {
+        "female": "audio/female/7293430218b0ddd8.mp3",
+        "male": "audio/male/7293430218b0ddd8.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L04-08",
+        "L12-02"
+      ],
+      "english": "You are students.",
+      "audio": {
+        "female": "audio/female/4acd7623f2b3097e.mp3",
+        "male": "audio/male/4acd7623f2b3097e.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L12-09",
+        "L12-01",
+        "L12-10"
+      ],
+      "english": "You listen to the teacher speak.",
+      "audio": {
+        "female": "audio/female/c2e0ae87c8b79f0b.mp3",
+        "male": "audio/male/c2e0ae87c8b79f0b.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L12-04",
+        "L12-05"
+      ],
+      "english": "He studies Chinese.",
+      "audio": {
+        "female": "audio/female/5c761a086ac19c83.mp3",
+        "male": "audio/male/5c761a086ac19c83.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L12-11",
+        "L12-08",
+        "L12-06"
+      ],
+      "english": "He can write characters.",
+      "audio": {
+        "female": "audio/female/4c44596fa47ae2bc.mp3",
+        "male": "audio/male/4c44596fa47ae2bc.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L12-07",
+        "L09-04"
+      ],
+      "english": "He reads books.",
+      "audio": {
+        "female": "audio/female/134c07da589bbfce.mp3",
+        "male": "audio/male/134c07da589bbfce.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L05-03",
+        "L12-00"
+      ],
+      "english": "He goes to school.",
+      "audio": {
+        "female": "audio/female/58d23d672fe77752.mp3",
+        "male": "audio/male/58d23d672fe77752.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L04-08",
+        "L12-02"
+      ],
+      "english": "He is a student.",
+      "audio": {
+        "female": "audio/female/af72c950803dadec.mp3",
+        "male": "audio/male/af72c950803dadec.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L12-09",
+        "L12-01",
+        "L12-10"
+      ],
+      "english": "He listens to the teacher speak.",
+      "audio": {
+        "female": "audio/female/392ae88e03fe0566.mp3",
+        "male": "audio/male/392ae88e03fe0566.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L12-04",
+        "L12-05"
+      ],
+      "english": "She studies Chinese.",
+      "audio": {
+        "female": "audio/female/ccf2088f49996849.mp3",
+        "male": "audio/male/ccf2088f49996849.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L12-11",
+        "L12-08",
+        "L12-06"
+      ],
+      "english": "She can write characters.",
+      "audio": {
+        "female": "audio/female/a57bbf2b4b6948d6.mp3",
+        "male": "audio/male/a57bbf2b4b6948d6.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L12-07",
+        "L09-04"
+      ],
+      "english": "She reads books.",
+      "audio": {
+        "female": "audio/female/bf7b16d34c72fed9.mp3",
+        "male": "audio/male/bf7b16d34c72fed9.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L05-03",
+        "L12-00"
+      ],
+      "english": "She goes to school.",
+      "audio": {
+        "female": "audio/female/675641f61a109be2.mp3",
+        "male": "audio/male/675641f61a109be2.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L04-08",
+        "L12-02"
+      ],
+      "english": "She is a student.",
+      "audio": {
+        "female": "audio/female/5237147e99c58e6d.mp3",
+        "male": "audio/male/5237147e99c58e6d.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L12-09",
+        "L12-01",
+        "L12-10"
+      ],
+      "english": "She listens to the teacher speak.",
+      "audio": {
+        "female": "audio/female/35a555a3353d1b08.mp3",
+        "male": "audio/male/35a555a3353d1b08.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L12-04",
+        "L12-05"
+      ],
+      "english": "We study Chinese.",
+      "audio": {
+        "female": "audio/female/03f0e9c44be7f371.mp3",
+        "male": "audio/male/03f0e9c44be7f371.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L12-11",
+        "L12-08",
+        "L12-06"
+      ],
+      "english": "We can write characters.",
+      "audio": {
+        "female": "audio/female/eb20cec49c290444.mp3",
+        "male": "audio/male/eb20cec49c290444.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L12-07",
+        "L09-04"
+      ],
+      "english": "We read books.",
+      "audio": {
+        "female": "audio/female/dceb646ca80bd75b.mp3",
+        "male": "audio/male/dceb646ca80bd75b.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L05-03",
+        "L12-00"
+      ],
+      "english": "We go to school.",
+      "audio": {
+        "female": "audio/female/bda6db1fbebeb046.mp3",
+        "male": "audio/male/bda6db1fbebeb046.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L04-08",
+        "L12-02"
+      ],
+      "english": "We are students.",
+      "audio": {
+        "female": "audio/female/c34986fa260ba096.mp3",
+        "male": "audio/male/c34986fa260ba096.mp3"
+      }
+    },
+    {
+      "id": "L12-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L12-09",
+        "L12-01",
+        "L12-10"
+      ],
+      "english": "We listen to the teacher speak.",
+      "audio": {
+        "female": "audio/female/ec3b79d1401ce42a.mp3",
+        "male": "audio/male/ec3b79d1401ce42a.mp3"
+      }
+    }
+  ]
 }

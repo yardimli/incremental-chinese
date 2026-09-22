@@ -210,5 +210,413 @@
     "female": "audio/female/c09cb335da0b0983.mp3",
     "male": "audio/male/c09cb335da0b0983.mp3"
   },
-  "english": "Market trading"
+  "english": "Market trading",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L15-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L15-00",
+        "L07-03"
+      ],
+      "english": "I sell fruit.",
+      "audio": {
+        "female": "audio/female/b8022305b95ea549.mp3",
+        "male": "audio/male/b8022305b95ea549.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L07-05",
+        "L15-08",
+        "L09-02"
+      ],
+      "english": "I buy new clothes.",
+      "audio": {
+        "female": "audio/female/d563ab3459c85412.mp3",
+        "male": "audio/male/d563ab3459c85412.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L05-03",
+        "L15-ui-1"
+      ],
+      "english": "I go to the market.",
+      "audio": {
+        "female": "audio/female/5088cf45f6fc5b5f.mp3",
+        "male": "audio/male/5088cf45f6fc5b5f.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L15-04",
+        "L08-04"
+      ],
+      "english": "I look for friends.",
+      "audio": {
+        "female": "audio/female/b45929619c19a54e.mp3",
+        "male": "audio/male/b45929619c19a54e.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L15-03",
+        "L04-02",
+        "L06-00"
+      ],
+      "english": "I give him water.",
+      "audio": {
+        "female": "audio/female/c2aeacb1cc1ef7d9.mp3",
+        "male": "audio/male/c2aeacb1cc1ef7d9.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L07-05",
+        "L15-02",
+        "L07-07"
+      ],
+      "english": "I buy inexpensive things.",
+      "audio": {
+        "female": "audio/female/23246795f3c75e69.mp3",
+        "male": "audio/male/23246795f3c75e69.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L15-00",
+        "L07-03"
+      ],
+      "english": "You sell fruit.",
+      "audio": {
+        "female": "audio/female/c99d8e73b61914de.mp3",
+        "male": "audio/male/c99d8e73b61914de.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L07-05",
+        "L15-08",
+        "L09-02"
+      ],
+      "english": "You buy new clothes.",
+      "audio": {
+        "female": "audio/female/99fe87e16ff34567.mp3",
+        "male": "audio/male/99fe87e16ff34567.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L05-03",
+        "L15-ui-1"
+      ],
+      "english": "You go to the market.",
+      "audio": {
+        "female": "audio/female/2f1bbce94388aa71.mp3",
+        "male": "audio/male/2f1bbce94388aa71.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L15-04",
+        "L08-04"
+      ],
+      "english": "You look for friends.",
+      "audio": {
+        "female": "audio/female/91ff3b8206e9f78b.mp3",
+        "male": "audio/male/91ff3b8206e9f78b.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L15-03",
+        "L04-02",
+        "L06-00"
+      ],
+      "english": "You give him water.",
+      "audio": {
+        "female": "audio/female/7838f69059219cf9.mp3",
+        "male": "audio/male/7838f69059219cf9.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L07-05",
+        "L15-02",
+        "L07-07"
+      ],
+      "english": "You buy inexpensive things.",
+      "audio": {
+        "female": "audio/female/a00c031e627d0dcc.mp3",
+        "male": "audio/male/a00c031e627d0dcc.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L15-00",
+        "L07-03"
+      ],
+      "english": "He sells fruit.",
+      "audio": {
+        "female": "audio/female/111c87931b687dcf.mp3",
+        "male": "audio/male/111c87931b687dcf.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L07-05",
+        "L15-08",
+        "L09-02"
+      ],
+      "english": "He buys new clothes.",
+      "audio": {
+        "female": "audio/female/294d515f9816dbee.mp3",
+        "male": "audio/male/294d515f9816dbee.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L05-03",
+        "L15-ui-1"
+      ],
+      "english": "He goes to the market.",
+      "audio": {
+        "female": "audio/female/d1dea84360f97e53.mp3",
+        "male": "audio/male/d1dea84360f97e53.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L15-04",
+        "L08-04"
+      ],
+      "english": "He looks for friends.",
+      "audio": {
+        "female": "audio/female/cbfe6b81c9bb5068.mp3",
+        "male": "audio/male/cbfe6b81c9bb5068.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L15-03",
+        "L04-02",
+        "L06-00"
+      ],
+      "english": "He gives him water.",
+      "audio": {
+        "female": "audio/female/dd9a745c584331fd.mp3",
+        "male": "audio/male/dd9a745c584331fd.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L07-05",
+        "L15-02",
+        "L07-07"
+      ],
+      "english": "He buys inexpensive things.",
+      "audio": {
+        "female": "audio/female/b274a070ccc3aa7a.mp3",
+        "male": "audio/male/b274a070ccc3aa7a.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L15-00",
+        "L07-03"
+      ],
+      "english": "She sells fruit.",
+      "audio": {
+        "female": "audio/female/a9c5a2e1e4d4fc6d.mp3",
+        "male": "audio/male/a9c5a2e1e4d4fc6d.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L07-05",
+        "L15-08",
+        "L09-02"
+      ],
+      "english": "She buys new clothes.",
+      "audio": {
+        "female": "audio/female/1a0e47ecb246a13c.mp3",
+        "male": "audio/male/1a0e47ecb246a13c.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L05-03",
+        "L15-ui-1"
+      ],
+      "english": "She goes to the market.",
+      "audio": {
+        "female": "audio/female/46f9da359e2ec625.mp3",
+        "male": "audio/male/46f9da359e2ec625.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L15-04",
+        "L08-04"
+      ],
+      "english": "She looks for friends.",
+      "audio": {
+        "female": "audio/female/defa9b5a56688590.mp3",
+        "male": "audio/male/defa9b5a56688590.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L15-03",
+        "L04-02",
+        "L06-00"
+      ],
+      "english": "She gives him water.",
+      "audio": {
+        "female": "audio/female/a564117f3e916712.mp3",
+        "male": "audio/male/a564117f3e916712.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L07-05",
+        "L15-02",
+        "L07-07"
+      ],
+      "english": "She buys inexpensive things.",
+      "audio": {
+        "female": "audio/female/5a6dcff5b8c4a488.mp3",
+        "male": "audio/male/5a6dcff5b8c4a488.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L15-00",
+        "L07-03"
+      ],
+      "english": "We sell fruit.",
+      "audio": {
+        "female": "audio/female/eb5975f179a1cc88.mp3",
+        "male": "audio/male/eb5975f179a1cc88.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L07-05",
+        "L15-08",
+        "L09-02"
+      ],
+      "english": "We buy new clothes.",
+      "audio": {
+        "female": "audio/female/f80071267f0aea3d.mp3",
+        "male": "audio/male/f80071267f0aea3d.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L05-03",
+        "L15-ui-1"
+      ],
+      "english": "We go to the market.",
+      "audio": {
+        "female": "audio/female/7170ba21ce30355a.mp3",
+        "male": "audio/male/7170ba21ce30355a.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L15-04",
+        "L08-04"
+      ],
+      "english": "We look for friends.",
+      "audio": {
+        "female": "audio/female/d4308c03708dfcd5.mp3",
+        "male": "audio/male/d4308c03708dfcd5.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L15-03",
+        "L04-02",
+        "L06-00"
+      ],
+      "english": "We give him water.",
+      "audio": {
+        "female": "audio/female/6304281c9aad17ff.mp3",
+        "male": "audio/male/6304281c9aad17ff.mp3"
+      }
+    },
+    {
+      "id": "L15-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L07-05",
+        "L15-02",
+        "L07-07"
+      ],
+      "english": "We buy inexpensive things.",
+      "audio": {
+        "female": "audio/female/3febd1f7b80a6a56.mp3",
+        "male": "audio/male/3febd1f7b80a6a56.mp3"
+      }
+    }
+  ]
 }

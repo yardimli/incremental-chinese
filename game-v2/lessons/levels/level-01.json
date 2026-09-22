@@ -198,5 +198,368 @@
     "female": "audio/female/365bd33d1106abd2.mp3",
     "male": "audio/male/365bd33d1106abd2.mp3"
   },
-  "english": "First numbers"
+  "english": "First numbers",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L01-sentence-1",
+      "tokens": [
+        "L01-01",
+        "L01-01"
+      ],
+      "english": "one, one",
+      "audio": {
+        "female": "audio/female/53546e47edf665b7.mp3",
+        "male": "audio/male/53546e47edf665b7.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-2",
+      "tokens": [
+        "L01-01",
+        "L01-02"
+      ],
+      "english": "one, two",
+      "audio": {
+        "female": "audio/female/f6ea676b13bda19c.mp3",
+        "male": "audio/male/f6ea676b13bda19c.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-3",
+      "tokens": [
+        "L01-01",
+        "L01-03"
+      ],
+      "english": "one, three",
+      "audio": {
+        "female": "audio/female/438b1855915518da.mp3",
+        "male": "audio/male/438b1855915518da.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-4",
+      "tokens": [
+        "L01-01",
+        "L01-04"
+      ],
+      "english": "one, four",
+      "audio": {
+        "female": "audio/female/76edf155edf3bf3a.mp3",
+        "male": "audio/male/76edf155edf3bf3a.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-5",
+      "tokens": [
+        "L01-01",
+        "L01-05"
+      ],
+      "english": "one, five",
+      "audio": {
+        "female": "audio/female/5ee860d85fc461ae.mp3",
+        "male": "audio/male/5ee860d85fc461ae.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-6",
+      "tokens": [
+        "L01-02",
+        "L01-01"
+      ],
+      "english": "two, one",
+      "audio": {
+        "female": "audio/female/808c5204f908d145.mp3",
+        "male": "audio/male/808c5204f908d145.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-7",
+      "tokens": [
+        "L01-02",
+        "L01-02"
+      ],
+      "english": "two, two",
+      "audio": {
+        "female": "audio/female/80abb18e6de810e7.mp3",
+        "male": "audio/male/80abb18e6de810e7.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-8",
+      "tokens": [
+        "L01-02",
+        "L01-03"
+      ],
+      "english": "two, three",
+      "audio": {
+        "female": "audio/female/ce68b94c4f457376.mp3",
+        "male": "audio/male/ce68b94c4f457376.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-9",
+      "tokens": [
+        "L01-02",
+        "L01-04"
+      ],
+      "english": "two, four",
+      "audio": {
+        "female": "audio/female/45b4d632af79f257.mp3",
+        "male": "audio/male/45b4d632af79f257.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-10",
+      "tokens": [
+        "L01-02",
+        "L01-05"
+      ],
+      "english": "two, five",
+      "audio": {
+        "female": "audio/female/6616ed5117d1f66c.mp3",
+        "male": "audio/male/6616ed5117d1f66c.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-11",
+      "tokens": [
+        "L01-03",
+        "L01-01"
+      ],
+      "english": "three, one",
+      "audio": {
+        "female": "audio/female/965e86a53e8a8799.mp3",
+        "male": "audio/male/965e86a53e8a8799.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-12",
+      "tokens": [
+        "L01-03",
+        "L01-02"
+      ],
+      "english": "three, two",
+      "audio": {
+        "female": "audio/female/203abb8aa8bde424.mp3",
+        "male": "audio/male/203abb8aa8bde424.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-13",
+      "tokens": [
+        "L01-03",
+        "L01-03"
+      ],
+      "english": "three, three",
+      "audio": {
+        "female": "audio/female/da6951a5f9ce3fd6.mp3",
+        "male": "audio/male/da6951a5f9ce3fd6.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-14",
+      "tokens": [
+        "L01-03",
+        "L01-04"
+      ],
+      "english": "three, four",
+      "audio": {
+        "female": "audio/female/cf25192593fd04b8.mp3",
+        "male": "audio/male/cf25192593fd04b8.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-15",
+      "tokens": [
+        "L01-03",
+        "L01-05"
+      ],
+      "english": "three, five",
+      "audio": {
+        "female": "audio/female/e1a6128865bd1277.mp3",
+        "male": "audio/male/e1a6128865bd1277.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-16",
+      "tokens": [
+        "L01-04",
+        "L01-01"
+      ],
+      "english": "four, one",
+      "audio": {
+        "female": "audio/female/631f53cbc01e9844.mp3",
+        "male": "audio/male/631f53cbc01e9844.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-17",
+      "tokens": [
+        "L01-04",
+        "L01-02"
+      ],
+      "english": "four, two",
+      "audio": {
+        "female": "audio/female/8237b05aac0dab17.mp3",
+        "male": "audio/male/8237b05aac0dab17.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-18",
+      "tokens": [
+        "L01-04",
+        "L01-03"
+      ],
+      "english": "four, three",
+      "audio": {
+        "female": "audio/female/d803ade52a057c04.mp3",
+        "male": "audio/male/d803ade52a057c04.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-19",
+      "tokens": [
+        "L01-04",
+        "L01-04"
+      ],
+      "english": "four, four",
+      "audio": {
+        "female": "audio/female/68b90d50e4e8dbf7.mp3",
+        "male": "audio/male/68b90d50e4e8dbf7.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-20",
+      "tokens": [
+        "L01-04",
+        "L01-05"
+      ],
+      "english": "four, five",
+      "audio": {
+        "female": "audio/female/cf18970aa39e0fda.mp3",
+        "male": "audio/male/cf18970aa39e0fda.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-21",
+      "tokens": [
+        "L01-05",
+        "L01-01"
+      ],
+      "english": "five, one",
+      "audio": {
+        "female": "audio/female/3e6411eaae4b6a49.mp3",
+        "male": "audio/male/3e6411eaae4b6a49.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-22",
+      "tokens": [
+        "L01-05",
+        "L01-02"
+      ],
+      "english": "five, two",
+      "audio": {
+        "female": "audio/female/3ae530900fe3a4dc.mp3",
+        "male": "audio/male/3ae530900fe3a4dc.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-23",
+      "tokens": [
+        "L01-05",
+        "L01-03"
+      ],
+      "english": "five, three",
+      "audio": {
+        "female": "audio/female/7c5959fb45b38831.mp3",
+        "male": "audio/male/7c5959fb45b38831.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-24",
+      "tokens": [
+        "L01-05",
+        "L01-04"
+      ],
+      "english": "five, four",
+      "audio": {
+        "female": "audio/female/c0f2d66ab2e34828.mp3",
+        "male": "audio/male/c0f2d66ab2e34828.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-25",
+      "tokens": [
+        "L01-05",
+        "L01-05"
+      ],
+      "english": "five, five",
+      "audio": {
+        "female": "audio/female/8a8162c062af0f6d.mp3",
+        "male": "audio/male/8a8162c062af0f6d.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-26",
+      "tokens": [
+        "L01-06",
+        "L01-01"
+      ],
+      "english": "six, one",
+      "audio": {
+        "female": "audio/female/9b8eec6377828103.mp3",
+        "male": "audio/male/9b8eec6377828103.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-27",
+      "tokens": [
+        "L01-06",
+        "L01-02"
+      ],
+      "english": "six, two",
+      "audio": {
+        "female": "audio/female/156487bed8f54dbc.mp3",
+        "male": "audio/male/156487bed8f54dbc.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-28",
+      "tokens": [
+        "L01-06",
+        "L01-03"
+      ],
+      "english": "six, three",
+      "audio": {
+        "female": "audio/female/6fec87ba7cf35918.mp3",
+        "male": "audio/male/6fec87ba7cf35918.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-29",
+      "tokens": [
+        "L01-06",
+        "L01-04"
+      ],
+      "english": "six, four",
+      "audio": {
+        "female": "audio/female/e16cae5e69d94a65.mp3",
+        "male": "audio/male/e16cae5e69d94a65.mp3"
+      }
+    },
+    {
+      "id": "L01-sentence-30",
+      "tokens": [
+        "L01-06",
+        "L01-05"
+      ],
+      "english": "six, five",
+      "audio": {
+        "female": "audio/female/cbd9a84ded65120f.mp3",
+        "male": "audio/male/cbd9a84ded65120f.mp3"
+      }
+    }
+  ]
 }

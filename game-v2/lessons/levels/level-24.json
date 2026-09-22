@@ -199,5 +199,413 @@
     "female": "audio/female/53b783f59fb3a2dc.mp3",
     "male": "audio/male/53b783f59fb3a2dc.mp3"
   },
-  "english": "Plans & preparations"
+  "english": "Plans & preparations",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L24-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L24-01",
+        "L05-04",
+        "L05-00"
+      ],
+      "english": "I prepare to go home.",
+      "audio": {
+        "female": "audio/female/35d5c686624af749.mp3",
+        "male": "audio/male/35d5c686624af749.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L24-03",
+        "L07-ui-1",
+        "L11-12"
+      ],
+      "english": "I have already eaten.",
+      "audio": {
+        "female": "audio/female/c9654ee072ca691b.mp3",
+        "male": "audio/male/c9654ee072ca691b.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L24-04",
+        "L11-05"
+      ],
+      "english": "I am working.",
+      "audio": {
+        "female": "audio/female/da0ffc267ef07467.mp3",
+        "male": "audio/male/da0ffc267ef07467.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L24-09",
+        "L11-09"
+      ],
+      "english": "I can rest.",
+      "audio": {
+        "female": "audio/female/3b166e5a5eb35d0d.mp3",
+        "male": "audio/male/3b166e5a5eb35d0d.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L24-00",
+        "L12-04"
+      ],
+      "english": "I begin studying.",
+      "audio": {
+        "female": "audio/female/d3eccd2ec8fbe365.mp3",
+        "male": "audio/male/d3eccd2ec8fbe365.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L24-13",
+        "L05-03",
+        "L19-08"
+      ],
+      "english": "I hope to go to China.",
+      "audio": {
+        "female": "audio/female/e4ca9ddae7cdc2e5.mp3",
+        "male": "audio/male/e4ca9ddae7cdc2e5.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L24-01",
+        "L05-04",
+        "L05-00"
+      ],
+      "english": "You prepare to go home.",
+      "audio": {
+        "female": "audio/female/d5aed04f5c6f7dbb.mp3",
+        "male": "audio/male/d5aed04f5c6f7dbb.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L24-03",
+        "L07-ui-1",
+        "L11-12"
+      ],
+      "english": "You have already eaten.",
+      "audio": {
+        "female": "audio/female/dae245c77eb4ad96.mp3",
+        "male": "audio/male/dae245c77eb4ad96.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L24-04",
+        "L11-05"
+      ],
+      "english": "You are working.",
+      "audio": {
+        "female": "audio/female/5f83b7a476299776.mp3",
+        "male": "audio/male/5f83b7a476299776.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L24-09",
+        "L11-09"
+      ],
+      "english": "You can rest.",
+      "audio": {
+        "female": "audio/female/ce344aeaafec3eaa.mp3",
+        "male": "audio/male/ce344aeaafec3eaa.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L24-00",
+        "L12-04"
+      ],
+      "english": "You begin studying.",
+      "audio": {
+        "female": "audio/female/d7ef82840d455f4c.mp3",
+        "male": "audio/male/d7ef82840d455f4c.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L24-13",
+        "L05-03",
+        "L19-08"
+      ],
+      "english": "You hope to go to China.",
+      "audio": {
+        "female": "audio/female/e91a7a297363c8a8.mp3",
+        "male": "audio/male/e91a7a297363c8a8.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L24-01",
+        "L05-04",
+        "L05-00"
+      ],
+      "english": "He prepares to go home.",
+      "audio": {
+        "female": "audio/female/61c0f15a8caaef9d.mp3",
+        "male": "audio/male/61c0f15a8caaef9d.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L24-03",
+        "L07-ui-1",
+        "L11-12"
+      ],
+      "english": "He has already eaten.",
+      "audio": {
+        "female": "audio/female/e3841607a60ef609.mp3",
+        "male": "audio/male/e3841607a60ef609.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L24-04",
+        "L11-05"
+      ],
+      "english": "He is working.",
+      "audio": {
+        "female": "audio/female/bbbe87d358b18cd4.mp3",
+        "male": "audio/male/bbbe87d358b18cd4.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L24-09",
+        "L11-09"
+      ],
+      "english": "He can rest.",
+      "audio": {
+        "female": "audio/female/06aea27a6a08c965.mp3",
+        "male": "audio/male/06aea27a6a08c965.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L24-00",
+        "L12-04"
+      ],
+      "english": "He begins studying.",
+      "audio": {
+        "female": "audio/female/512824ac689da325.mp3",
+        "male": "audio/male/512824ac689da325.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L24-13",
+        "L05-03",
+        "L19-08"
+      ],
+      "english": "He hopes to go to China.",
+      "audio": {
+        "female": "audio/female/e16a645941f00254.mp3",
+        "male": "audio/male/e16a645941f00254.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L24-01",
+        "L05-04",
+        "L05-00"
+      ],
+      "english": "She prepares to go home.",
+      "audio": {
+        "female": "audio/female/831616ac97e79406.mp3",
+        "male": "audio/male/831616ac97e79406.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L24-03",
+        "L07-ui-1",
+        "L11-12"
+      ],
+      "english": "She has already eaten.",
+      "audio": {
+        "female": "audio/female/0363eca34babe8d9.mp3",
+        "male": "audio/male/0363eca34babe8d9.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L24-04",
+        "L11-05"
+      ],
+      "english": "She is working.",
+      "audio": {
+        "female": "audio/female/3a81d147a4f3699d.mp3",
+        "male": "audio/male/3a81d147a4f3699d.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L24-09",
+        "L11-09"
+      ],
+      "english": "She can rest.",
+      "audio": {
+        "female": "audio/female/7300577a714a9d86.mp3",
+        "male": "audio/male/7300577a714a9d86.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L24-00",
+        "L12-04"
+      ],
+      "english": "She begins studying.",
+      "audio": {
+        "female": "audio/female/fc7723f1d4fc787d.mp3",
+        "male": "audio/male/fc7723f1d4fc787d.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L24-13",
+        "L05-03",
+        "L19-08"
+      ],
+      "english": "She hopes to go to China.",
+      "audio": {
+        "female": "audio/female/603eee43860736d8.mp3",
+        "male": "audio/male/603eee43860736d8.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L24-01",
+        "L05-04",
+        "L05-00"
+      ],
+      "english": "We prepare to go home.",
+      "audio": {
+        "female": "audio/female/3bcec5686cb5fc87.mp3",
+        "male": "audio/male/3bcec5686cb5fc87.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L24-03",
+        "L07-ui-1",
+        "L11-12"
+      ],
+      "english": "We have already eaten.",
+      "audio": {
+        "female": "audio/female/60fdb2c2abbdc5e9.mp3",
+        "male": "audio/male/60fdb2c2abbdc5e9.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L24-04",
+        "L11-05"
+      ],
+      "english": "We are working.",
+      "audio": {
+        "female": "audio/female/dac39868c48c5c20.mp3",
+        "male": "audio/male/dac39868c48c5c20.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L24-09",
+        "L11-09"
+      ],
+      "english": "We can rest.",
+      "audio": {
+        "female": "audio/female/b1d70a7ae600bf61.mp3",
+        "male": "audio/male/b1d70a7ae600bf61.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L24-00",
+        "L12-04"
+      ],
+      "english": "We begin studying.",
+      "audio": {
+        "female": "audio/female/b092e08409cece76.mp3",
+        "male": "audio/male/b092e08409cece76.mp3"
+      }
+    },
+    {
+      "id": "L24-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L24-13",
+        "L05-03",
+        "L19-08"
+      ],
+      "english": "We hope to go to China.",
+      "audio": {
+        "female": "audio/female/a0f4821ad4e58095.mp3",
+        "male": "audio/male/a0f4821ad4e58095.mp3"
+      }
+    }
+  ]
 }

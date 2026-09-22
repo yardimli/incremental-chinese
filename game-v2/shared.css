@@ -15,7 +15,7 @@
   background: var(--paper);
   color: var(--ink);
   font:
-    15px/1.4 system-ui,
+    calc(15px * var(--text-scale, 1))/1.4 system-ui,
     sans-serif;
 }
 button,
@@ -64,7 +64,7 @@ a:focus-visible {
   z-index: 10;
 }
 .header h1 {
-  font-size: 22px;
+  font-size: calc(22px * var(--text-scale, 1));
   margin: 0;
   letter-spacing: -0.04em;
 }
@@ -88,10 +88,10 @@ a:focus-visible {
   justify-content: center;
   margin-right: 5px;
   color: #78521a;
-  font-size: 12px;
+  font-size: calc(12px * var(--text-scale, 1));
 }
 .gear {
-  font-size: 23px;
+  font-size: calc(23px * var(--text-scale, 1));
 }
 .footer {
   position: fixed;
@@ -110,7 +110,7 @@ a:focus-visible {
   flex-direction: column;
   align-items: center;
   gap: 3px;
-  font-size: 11px;
+  font-size: calc(11px * var(--text-scale, 1));
   color: var(--muted);
 }
 .footer svg {
@@ -136,7 +136,7 @@ a:focus-visible {
   margin: 12px 0;
 }
 h2 {
-  font-size: 17px;
+  font-size: calc(17px * var(--text-scale, 1));
   margin: 20px 0 12px;
 }
 p {
@@ -147,10 +147,10 @@ p {
   color: var(--muted);
 }
 .small {
-  font-size: 12px;
+  font-size: calc(12px * var(--text-scale, 1));
 }
 .big {
-  font-size: 48px;
+  font-size: calc(48px * var(--text-scale, 1));
   letter-spacing: -0.055em;
   font-weight: 750;
   line-height: 1.1;
@@ -160,21 +160,21 @@ p {
   padding: 24px 0;
 }
 .rate small {
-  font-size: 18px;
+  font-size: calc(18px * var(--text-scale, 1));
   letter-spacing: 0;
 }
 .factors {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  font-size: 13px;
+  font-size: calc(13px * var(--text-scale, 1));
 }
 .factors span {
   text-align: center;
 }
 .factors small {
   display: block;
-  font-size: 9px;
+  font-size: calc(9px * var(--text-scale, 1));
   color: var(--muted);
 }
 .row {
@@ -189,11 +189,11 @@ p {
   margin-top: 14px;
 }
 .hanzi {
-  font-size: 25px;
+  font-size: calc(25px * var(--text-scale, 1));
   font-family: 'Microsoft JhengHei', 'Noto Sans CJK TC', serif;
 }
 .pinyin {
-  font-size: 12px;
+  font-size: calc(12px * var(--text-scale, 1));
   color: var(--muted);
   display: block;
 }
@@ -201,7 +201,7 @@ p {
   padding: 5px 10px;
   border-radius: 99px;
   background: #e4ecdf;
-  font-size: 12px;
+  font-size: calc(12px * var(--text-scale, 1));
   font-weight: 700;
 }
 .primary,
@@ -229,7 +229,7 @@ p {
   grid-template-columns: 1fr 1fr;
   gap: 18px;
   margin: 20px 0 9px;
-  font-size: 11px;
+  font-size: calc(11px * var(--text-scale, 1));
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--muted);
@@ -262,7 +262,7 @@ p {
   position: absolute;
   right: 8px;
   top: 5px;
-  font-size: 13px;
+  font-size: calc(13px * var(--text-scale, 1));
 }
 .match-tile.wrong {
   border-color: #b86546;
@@ -272,11 +272,11 @@ p {
   background: #e8eddf;
   padding: 12px 14px;
   border-radius: 10px;
-  font-size: 13px;
+  font-size: calc(13px * var(--text-scale, 1));
 }
 .status {
   min-height: 38px;
-  font-size: 13px;
+  font-size: calc(13px * var(--text-scale, 1));
   color: var(--green);
   padding: 12px 0;
 }
@@ -289,7 +289,7 @@ p {
   color: var(--ink);
 }
 .card .hanzi {
-  font-size: 30px;
+  font-size: calc(30px * var(--text-scale, 1));
 }
 .collection {
   display: grid;
@@ -301,13 +301,13 @@ p {
   min-height: 92px;
 }
 .collection .hanzi {
-  font-size: 24px;
+  font-size: calc(24px * var(--text-scale, 1));
 }
 .collection .pinyin {
-  font-size: 10px;
+  font-size: calc(10px * var(--text-scale, 1));
 }
 .collection small {
-  font-size: 9px;
+  font-size: calc(9px * var(--text-scale, 1));
   color: var(--gold);
 }
 .empty {
@@ -336,7 +336,7 @@ p {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
-  font-size: 10px;
+  font-size: calc(10px * var(--text-scale, 1));
   text-align: center;
   color: var(--muted);
 }
@@ -362,11 +362,11 @@ p {
   background: #e7eedf;
 }
 .target small {
-  font-size: 10px;
+  font-size: calc(10px * var(--text-scale, 1));
   color: var(--muted);
 }
 .target .hanzi {
-  font-size: 23px;
+  font-size: calc(23px * var(--text-scale, 1));
 }
 .choices {
   display: grid;
@@ -378,14 +378,14 @@ p {
   padding: 7px;
 }
 .choices .hanzi {
-  font-size: 25px;
+  font-size: calc(25px * var(--text-scale, 1));
 }
 .choices button:disabled {
   opacity: 0.25;
 }
 .prompt {
   text-align: center;
-  font-size: 23px;
+  font-size: calc(23px * var(--text-scale, 1));
   font-weight: 650;
   margin: 22px 0;
 }
@@ -398,13 +398,13 @@ p {
   border-bottom: 1px solid var(--line);
 }
 .boost .hanzi {
-  font-size: 20px;
+  font-size: calc(20px * var(--text-scale, 1));
 }
 .boost .pinyin {
-  font-size: 10px;
+  font-size: calc(10px * var(--text-scale, 1));
 }
 .boost .mult {
-  font-size: 12px;
+  font-size: calc(12px * var(--text-scale, 1));
   font-weight: 650;
 }
 .buy {
@@ -413,7 +413,7 @@ p {
   background: var(--green);
   color: white;
   padding: 8px 12px;
-  font-size: 12px;
+  font-size: calc(12px * var(--text-scale, 1));
   min-width: 67px;
 }
 .buy:disabled {
@@ -421,7 +421,7 @@ p {
   color: #fff;
 }
 .boost-price {
-  font-size: 10px;
+  font-size: calc(10px * var(--text-scale, 1));
   text-align: right;
   margin-bottom: 4px;
 }
@@ -435,7 +435,7 @@ p {
   margin: auto;
 }
 .reward h1 {
-  font-size: 25px;
+  font-size: calc(25px * var(--text-scale, 1));
   margin: 10px 0 24px;
 }
 .reward .hero-card {
@@ -444,10 +444,10 @@ p {
   padding: 35px 15px;
 }
 .hero-card .hanzi {
-  font-size: 76px;
+  font-size: calc(76px * var(--text-scale, 1));
 }
 .hero-card .pinyin {
-  font-size: 18px;
+  font-size: calc(18px * var(--text-scale, 1));
 }
 .reward .primary {
   margin-top: auto;
@@ -463,10 +463,10 @@ p {
   padding: 28px 8px;
 }
 .reward-cards .hanzi {
-  font-size: 43px;
+  font-size: calc(43px * var(--text-scale, 1));
 }
 .gain {
-  font-size: 34px;
+  font-size: calc(34px * var(--text-scale, 1));
   font-weight: 750;
   color: var(--gold);
 }
@@ -490,7 +490,7 @@ select {
   gap: 10px;
 }
 .reset-grid .panel {
-  font-size: 12px;
+  font-size: calc(12px * var(--text-scale, 1));
 }
 progress {
   accent-color: var(--green);
@@ -503,7 +503,7 @@ progress {
 
 #game-frame[data-page='order'] .prompt {
   margin: 12px 0;
-  font-size: 21px;
+  font-size: calc(21px * var(--text-scale, 1));
 }
 #game-frame[data-page='order'] .target {
   margin: 14px 0;
@@ -528,7 +528,7 @@ progress {
 
 #game-frame[data-page='order'] .prompt {
   margin: 12px 0;
-  font-size: 21px;
+  font-size: calc(21px * var(--text-scale, 1));
 }
 #game-frame[data-page='order'] .target {
   margin: 14px 0;

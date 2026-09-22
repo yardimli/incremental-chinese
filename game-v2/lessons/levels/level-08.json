@@ -155,5 +155,403 @@
     "female": "audio/female/5ad94ba6d022cfca.mp3",
     "male": "audio/male/5ad94ba6d022cfca.mp3"
   },
-  "english": "Family & friends"
+  "english": "Family & friends",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L08-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L08-05",
+        "L08-01"
+      ],
+      "english": "I love Mom.",
+      "audio": {
+        "female": "audio/female/ace5ffccd4aa71f2.mp3",
+        "male": "audio/male/ace5ffccd4aa71f2.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L08-05",
+        "L08-00"
+      ],
+      "english": "I love Dad.",
+      "audio": {
+        "female": "audio/female/2a438088b0feb260.mp3",
+        "male": "audio/male/2a438088b0feb260.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L08-06",
+        "L07-04"
+      ],
+      "english": "I like apples.",
+      "audio": {
+        "female": "audio/female/c68e62aaca36fa04.mp3",
+        "male": "audio/male/c68e62aaca36fa04.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L08-07",
+        "L04-02"
+      ],
+      "english": "I know him.",
+      "audio": {
+        "female": "audio/female/5ca46f34832d7596.mp3",
+        "male": "audio/male/5ca46f34832d7596.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L05-09",
+        "L08-04"
+      ],
+      "english": "I have friends.",
+      "audio": {
+        "female": "audio/female/0fbff80c42903de1.mp3",
+        "male": "audio/male/0fbff80c42903de1.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L08-10",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "I also drink tea.",
+      "audio": {
+        "female": "audio/female/b9b01d300e545b19.mp3",
+        "male": "audio/male/b9b01d300e545b19.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L08-05",
+        "L08-01"
+      ],
+      "english": "You love Mom.",
+      "audio": {
+        "female": "audio/female/266bea9ad5e8980a.mp3",
+        "male": "audio/male/266bea9ad5e8980a.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L08-05",
+        "L08-00"
+      ],
+      "english": "You love Dad.",
+      "audio": {
+        "female": "audio/female/fa07ef2a9f6b7df5.mp3",
+        "male": "audio/male/fa07ef2a9f6b7df5.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L08-06",
+        "L07-04"
+      ],
+      "english": "You like apples.",
+      "audio": {
+        "female": "audio/female/4e62b73f104332af.mp3",
+        "male": "audio/male/4e62b73f104332af.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L08-07",
+        "L04-02"
+      ],
+      "english": "You know him.",
+      "audio": {
+        "female": "audio/female/020dee39fff7b828.mp3",
+        "male": "audio/male/020dee39fff7b828.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L05-09",
+        "L08-04"
+      ],
+      "english": "You have friends.",
+      "audio": {
+        "female": "audio/female/c0055fd8aca98a78.mp3",
+        "male": "audio/male/c0055fd8aca98a78.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L08-10",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "You also drink tea.",
+      "audio": {
+        "female": "audio/female/85b256ff90037b87.mp3",
+        "male": "audio/male/85b256ff90037b87.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L08-05",
+        "L08-01"
+      ],
+      "english": "He loves Mom.",
+      "audio": {
+        "female": "audio/female/b7abefc651eb807c.mp3",
+        "male": "audio/male/b7abefc651eb807c.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L08-05",
+        "L08-00"
+      ],
+      "english": "He loves Dad.",
+      "audio": {
+        "female": "audio/female/5886512d1a80e69c.mp3",
+        "male": "audio/male/5886512d1a80e69c.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L08-06",
+        "L07-04"
+      ],
+      "english": "He likes apples.",
+      "audio": {
+        "female": "audio/female/cd12b51f3cec609f.mp3",
+        "male": "audio/male/cd12b51f3cec609f.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L08-07",
+        "L04-02"
+      ],
+      "english": "He knows him.",
+      "audio": {
+        "female": "audio/female/cae1b1fb98e15a3a.mp3",
+        "male": "audio/male/cae1b1fb98e15a3a.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L05-09",
+        "L08-04"
+      ],
+      "english": "He has friends.",
+      "audio": {
+        "female": "audio/female/0b9b08bdabd15ea8.mp3",
+        "male": "audio/male/0b9b08bdabd15ea8.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L08-10",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "He also drinks tea.",
+      "audio": {
+        "female": "audio/female/2f774ffb925ba6fb.mp3",
+        "male": "audio/male/2f774ffb925ba6fb.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L08-05",
+        "L08-01"
+      ],
+      "english": "She loves Mom.",
+      "audio": {
+        "female": "audio/female/802ac97a57118b86.mp3",
+        "male": "audio/male/802ac97a57118b86.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L08-05",
+        "L08-00"
+      ],
+      "english": "She loves Dad.",
+      "audio": {
+        "female": "audio/female/00b2d8faf673896b.mp3",
+        "male": "audio/male/00b2d8faf673896b.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L08-06",
+        "L07-04"
+      ],
+      "english": "She likes apples.",
+      "audio": {
+        "female": "audio/female/947b6c3573aa5c81.mp3",
+        "male": "audio/male/947b6c3573aa5c81.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L08-07",
+        "L04-02"
+      ],
+      "english": "She knows him.",
+      "audio": {
+        "female": "audio/female/49d932e5cfc78482.mp3",
+        "male": "audio/male/49d932e5cfc78482.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L05-09",
+        "L08-04"
+      ],
+      "english": "She has friends.",
+      "audio": {
+        "female": "audio/female/689c054a5fe1bc4f.mp3",
+        "male": "audio/male/689c054a5fe1bc4f.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L08-10",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "She also drinks tea.",
+      "audio": {
+        "female": "audio/female/67bba6e9c86a4145.mp3",
+        "male": "audio/male/67bba6e9c86a4145.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L08-05",
+        "L08-01"
+      ],
+      "english": "We love Mom.",
+      "audio": {
+        "female": "audio/female/ab5204c2a40c1a61.mp3",
+        "male": "audio/male/ab5204c2a40c1a61.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L08-05",
+        "L08-00"
+      ],
+      "english": "We love Dad.",
+      "audio": {
+        "female": "audio/female/d25701b4af89d6e7.mp3",
+        "male": "audio/male/d25701b4af89d6e7.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L08-06",
+        "L07-04"
+      ],
+      "english": "We like apples.",
+      "audio": {
+        "female": "audio/female/24f20cb344c52e47.mp3",
+        "male": "audio/male/24f20cb344c52e47.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L08-07",
+        "L04-02"
+      ],
+      "english": "We know him.",
+      "audio": {
+        "female": "audio/female/8eabf6e2cb6e6ac9.mp3",
+        "male": "audio/male/8eabf6e2cb6e6ac9.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L05-09",
+        "L08-04"
+      ],
+      "english": "We have friends.",
+      "audio": {
+        "female": "audio/female/e158b95c8eb71fe3.mp3",
+        "male": "audio/male/e158b95c8eb71fe3.mp3"
+      }
+    },
+    {
+      "id": "L08-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L08-10",
+        "L06-02",
+        "L06-01"
+      ],
+      "english": "We also drink tea.",
+      "audio": {
+        "female": "audio/female/c1c246810bd120f1.mp3",
+        "male": "audio/male/c1c246810bd120f1.mp3"
+      }
+    }
+  ]
 }

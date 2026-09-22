@@ -188,5 +188,428 @@
     "female": "audio/female/35d7ad5d4d4d36ba.mp3",
     "male": "audio/male/35d7ad5d4d4d36ba.mp3"
   },
-  "english": "Dates & time"
+  "english": "Dates & time",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L10-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L10-00",
+        "L05-04",
+        "L05-00"
+      ],
+      "english": "I return home today.",
+      "audio": {
+        "female": "audio/female/38ef826026f30573.mp3",
+        "male": "audio/male/38ef826026f30573.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L10-01",
+        "L05-03",
+        "L07-06"
+      ],
+      "english": "I go to the shop tomorrow.",
+      "audio": {
+        "female": "audio/female/b7b89b0caf258a4b.mp3",
+        "male": "audio/male/b7b89b0caf258a4b.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L10-03",
+        "L05-08",
+        "L05-00"
+      ],
+      "english": "I am at home now.",
+      "audio": {
+        "female": "audio/female/2de09d98fb696b0f.mp3",
+        "male": "audio/male/2de09d98fb696b0f.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L10-00",
+        "L07-05",
+        "L07-02"
+      ],
+      "english": "I buy vegetables today.",
+      "audio": {
+        "female": "audio/female/a5e52b2bd64096c5.mp3",
+        "male": "audio/male/a5e52b2bd64096c5.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L10-01",
+        "L05-02",
+        "L05-11"
+      ],
+      "english": "I come here tomorrow.",
+      "audio": {
+        "female": "audio/female/957c6eddade96244.mp3",
+        "male": "audio/male/957c6eddade96244.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L10-03",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "I drink water now.",
+      "audio": {
+        "female": "audio/female/8f406f109d31ee8a.mp3",
+        "male": "audio/male/8f406f109d31ee8a.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L10-00",
+        "L05-04",
+        "L05-00"
+      ],
+      "english": "You return home today.",
+      "audio": {
+        "female": "audio/female/90a554e45e628bfc.mp3",
+        "male": "audio/male/90a554e45e628bfc.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L10-01",
+        "L05-03",
+        "L07-06"
+      ],
+      "english": "You go to the shop tomorrow.",
+      "audio": {
+        "female": "audio/female/6003dbb82d7c4a7a.mp3",
+        "male": "audio/male/6003dbb82d7c4a7a.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L10-03",
+        "L05-08",
+        "L05-00"
+      ],
+      "english": "You are at home now.",
+      "audio": {
+        "female": "audio/female/929f6dd63d92b918.mp3",
+        "male": "audio/male/929f6dd63d92b918.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L10-00",
+        "L07-05",
+        "L07-02"
+      ],
+      "english": "You buy vegetables today.",
+      "audio": {
+        "female": "audio/female/0a88ec65f1286811.mp3",
+        "male": "audio/male/0a88ec65f1286811.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L10-01",
+        "L05-02",
+        "L05-11"
+      ],
+      "english": "You come here tomorrow.",
+      "audio": {
+        "female": "audio/female/fee749b9458a4210.mp3",
+        "male": "audio/male/fee749b9458a4210.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L10-03",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "You drink water now.",
+      "audio": {
+        "female": "audio/female/a4183b736032ee01.mp3",
+        "male": "audio/male/a4183b736032ee01.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L10-00",
+        "L05-04",
+        "L05-00"
+      ],
+      "english": "He returns home today.",
+      "audio": {
+        "female": "audio/female/3409a40451f1169c.mp3",
+        "male": "audio/male/3409a40451f1169c.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L10-01",
+        "L05-03",
+        "L07-06"
+      ],
+      "english": "He goes to the shop tomorrow.",
+      "audio": {
+        "female": "audio/female/d75be97cd51de82a.mp3",
+        "male": "audio/male/d75be97cd51de82a.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L10-03",
+        "L05-08",
+        "L05-00"
+      ],
+      "english": "He is at home now.",
+      "audio": {
+        "female": "audio/female/c8e6908adcc19ab5.mp3",
+        "male": "audio/male/c8e6908adcc19ab5.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L10-00",
+        "L07-05",
+        "L07-02"
+      ],
+      "english": "He buys vegetables today.",
+      "audio": {
+        "female": "audio/female/261a36aa206a4fd3.mp3",
+        "male": "audio/male/261a36aa206a4fd3.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L10-01",
+        "L05-02",
+        "L05-11"
+      ],
+      "english": "He comes here tomorrow.",
+      "audio": {
+        "female": "audio/female/4a520a34824bd5cb.mp3",
+        "male": "audio/male/4a520a34824bd5cb.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L10-03",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "He drinks water now.",
+      "audio": {
+        "female": "audio/female/b8a843398c5093de.mp3",
+        "male": "audio/male/b8a843398c5093de.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L10-00",
+        "L05-04",
+        "L05-00"
+      ],
+      "english": "She returns home today.",
+      "audio": {
+        "female": "audio/female/dae96f458eaaefd7.mp3",
+        "male": "audio/male/dae96f458eaaefd7.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L10-01",
+        "L05-03",
+        "L07-06"
+      ],
+      "english": "She goes to the shop tomorrow.",
+      "audio": {
+        "female": "audio/female/8eec3f21cb208f7b.mp3",
+        "male": "audio/male/8eec3f21cb208f7b.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L10-03",
+        "L05-08",
+        "L05-00"
+      ],
+      "english": "She is at home now.",
+      "audio": {
+        "female": "audio/female/a6ffd6d4715babb4.mp3",
+        "male": "audio/male/a6ffd6d4715babb4.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L10-00",
+        "L07-05",
+        "L07-02"
+      ],
+      "english": "She buys vegetables today.",
+      "audio": {
+        "female": "audio/female/2ad5999001e60b1f.mp3",
+        "male": "audio/male/2ad5999001e60b1f.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L10-01",
+        "L05-02",
+        "L05-11"
+      ],
+      "english": "She comes here tomorrow.",
+      "audio": {
+        "female": "audio/female/5296423b3f843991.mp3",
+        "male": "audio/male/5296423b3f843991.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L10-03",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "She drinks water now.",
+      "audio": {
+        "female": "audio/female/7fbe6150f992cb92.mp3",
+        "male": "audio/male/7fbe6150f992cb92.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L10-00",
+        "L05-04",
+        "L05-00"
+      ],
+      "english": "We return home today.",
+      "audio": {
+        "female": "audio/female/daeb92f04e49f5d3.mp3",
+        "male": "audio/male/daeb92f04e49f5d3.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L10-01",
+        "L05-03",
+        "L07-06"
+      ],
+      "english": "We go to the shop tomorrow.",
+      "audio": {
+        "female": "audio/female/9ab5094dfd8bb8e2.mp3",
+        "male": "audio/male/9ab5094dfd8bb8e2.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L10-03",
+        "L05-08",
+        "L05-00"
+      ],
+      "english": "We are at home now.",
+      "audio": {
+        "female": "audio/female/0605e21de101d819.mp3",
+        "male": "audio/male/0605e21de101d819.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L10-00",
+        "L07-05",
+        "L07-02"
+      ],
+      "english": "We buy vegetables today.",
+      "audio": {
+        "female": "audio/female/8212011210c013b6.mp3",
+        "male": "audio/male/8212011210c013b6.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L10-01",
+        "L05-02",
+        "L05-11"
+      ],
+      "english": "We come here tomorrow.",
+      "audio": {
+        "female": "audio/female/d9a70c155c6da45a.mp3",
+        "male": "audio/male/d9a70c155c6da45a.mp3"
+      }
+    },
+    {
+      "id": "L10-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L10-03",
+        "L06-02",
+        "L06-00"
+      ],
+      "english": "We drink water now.",
+      "audio": {
+        "female": "audio/female/99f2f8b1bb8e2de3.mp3",
+        "male": "audio/male/99f2f8b1bb8e2de3.mp3"
+      }
+    }
+  ]
 }

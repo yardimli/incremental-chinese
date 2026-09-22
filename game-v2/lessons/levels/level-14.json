@@ -155,5 +155,403 @@
     "female": "audio/female/9a19a5df22c17d8b.mp3",
     "male": "audio/male/9a19a5df22c17d8b.mp3"
   },
-  "english": "Weather & wellbeing"
+  "english": "Weather & wellbeing",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L14-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L05-03",
+        "L14-10"
+      ],
+      "english": "I go to the hospital.",
+      "audio": {
+        "female": "audio/female/1cac9013a46557a0.mp3",
+        "male": "audio/male/1cac9013a46557a0.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L04-08",
+        "L14-09"
+      ],
+      "english": "I am a doctor.",
+      "audio": {
+        "female": "audio/female/f603189f5ce34f73.mp3",
+        "male": "audio/male/f603189f5ce34f73.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L14-08",
+        "L11-12"
+      ],
+      "english": "I have become ill.",
+      "audio": {
+        "female": "audio/female/f70d271fdcc358e7.mp3",
+        "male": "audio/male/f70d271fdcc358e7.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L07-05",
+        "L14-11"
+      ],
+      "english": "I buy medicine.",
+      "audio": {
+        "female": "audio/female/2369970073452d16.mp3",
+        "male": "audio/male/2369970073452d16.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L14-07",
+        "L06-09",
+        "L06-07"
+      ],
+      "english": "I am in good health.",
+      "audio": {
+        "female": "audio/female/f4087035cfacf281.mp3",
+        "male": "audio/male/f4087035cfacf281.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L06-09",
+        "L14-01"
+      ],
+      "english": "I am cold.",
+      "audio": {
+        "female": "audio/female/8c2c1781fb6666f8.mp3",
+        "male": "audio/male/8c2c1781fb6666f8.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L05-03",
+        "L14-10"
+      ],
+      "english": "You go to the hospital.",
+      "audio": {
+        "female": "audio/female/1bddb300b854eac7.mp3",
+        "male": "audio/male/1bddb300b854eac7.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L04-08",
+        "L14-09"
+      ],
+      "english": "You are doctors.",
+      "audio": {
+        "female": "audio/female/0a3856210f9b9e2a.mp3",
+        "male": "audio/male/0a3856210f9b9e2a.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L14-08",
+        "L11-12"
+      ],
+      "english": "You have become ill.",
+      "audio": {
+        "female": "audio/female/f0aec8bfc39b8344.mp3",
+        "male": "audio/male/f0aec8bfc39b8344.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L07-05",
+        "L14-11"
+      ],
+      "english": "You buy medicine.",
+      "audio": {
+        "female": "audio/female/0a44d8e49df41f41.mp3",
+        "male": "audio/male/0a44d8e49df41f41.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L14-07",
+        "L06-09",
+        "L06-07"
+      ],
+      "english": "You are in good health.",
+      "audio": {
+        "female": "audio/female/6684b0e9a92f3ff3.mp3",
+        "male": "audio/male/6684b0e9a92f3ff3.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L06-09",
+        "L14-01"
+      ],
+      "english": "You are cold.",
+      "audio": {
+        "female": "audio/female/a8a9a4a6e2dd9d51.mp3",
+        "male": "audio/male/a8a9a4a6e2dd9d51.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L05-03",
+        "L14-10"
+      ],
+      "english": "He goes to the hospital.",
+      "audio": {
+        "female": "audio/female/b3e3707260177ef1.mp3",
+        "male": "audio/male/b3e3707260177ef1.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L04-08",
+        "L14-09"
+      ],
+      "english": "He is a doctor.",
+      "audio": {
+        "female": "audio/female/cb862aa527632b05.mp3",
+        "male": "audio/male/cb862aa527632b05.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L14-08",
+        "L11-12"
+      ],
+      "english": "He has become ill.",
+      "audio": {
+        "female": "audio/female/8498afce30646e9f.mp3",
+        "male": "audio/male/8498afce30646e9f.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L07-05",
+        "L14-11"
+      ],
+      "english": "He buys medicine.",
+      "audio": {
+        "female": "audio/female/15e8ac886d22b40e.mp3",
+        "male": "audio/male/15e8ac886d22b40e.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L14-07",
+        "L06-09",
+        "L06-07"
+      ],
+      "english": "He is in good health.",
+      "audio": {
+        "female": "audio/female/79b7d8b95027b98d.mp3",
+        "male": "audio/male/79b7d8b95027b98d.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L06-09",
+        "L14-01"
+      ],
+      "english": "He is cold.",
+      "audio": {
+        "female": "audio/female/9485a011fa3d65c9.mp3",
+        "male": "audio/male/9485a011fa3d65c9.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L05-03",
+        "L14-10"
+      ],
+      "english": "She goes to the hospital.",
+      "audio": {
+        "female": "audio/female/24b2adbb6efbd90c.mp3",
+        "male": "audio/male/24b2adbb6efbd90c.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L04-08",
+        "L14-09"
+      ],
+      "english": "She is a doctor.",
+      "audio": {
+        "female": "audio/female/401ea5b9af6de8b4.mp3",
+        "male": "audio/male/401ea5b9af6de8b4.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L14-08",
+        "L11-12"
+      ],
+      "english": "She has become ill.",
+      "audio": {
+        "female": "audio/female/af1ff40d1eda8433.mp3",
+        "male": "audio/male/af1ff40d1eda8433.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L07-05",
+        "L14-11"
+      ],
+      "english": "She buys medicine.",
+      "audio": {
+        "female": "audio/female/6a8c2b7f2feb0314.mp3",
+        "male": "audio/male/6a8c2b7f2feb0314.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L14-07",
+        "L06-09",
+        "L06-07"
+      ],
+      "english": "She is in good health.",
+      "audio": {
+        "female": "audio/female/21995abc8b9b1f37.mp3",
+        "male": "audio/male/21995abc8b9b1f37.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L06-09",
+        "L14-01"
+      ],
+      "english": "She is cold.",
+      "audio": {
+        "female": "audio/female/77156112bdb2ef4c.mp3",
+        "male": "audio/male/77156112bdb2ef4c.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L05-03",
+        "L14-10"
+      ],
+      "english": "We go to the hospital.",
+      "audio": {
+        "female": "audio/female/b4a192c7a06f669d.mp3",
+        "male": "audio/male/b4a192c7a06f669d.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L04-08",
+        "L14-09"
+      ],
+      "english": "We are doctors.",
+      "audio": {
+        "female": "audio/female/8a8627469765fe8f.mp3",
+        "male": "audio/male/8a8627469765fe8f.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L14-08",
+        "L11-12"
+      ],
+      "english": "We have become ill.",
+      "audio": {
+        "female": "audio/female/b16cb01e9d2bccfa.mp3",
+        "male": "audio/male/b16cb01e9d2bccfa.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L07-05",
+        "L14-11"
+      ],
+      "english": "We buy medicine.",
+      "audio": {
+        "female": "audio/female/faa479aafd08c2b7.mp3",
+        "male": "audio/male/faa479aafd08c2b7.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L14-07",
+        "L06-09",
+        "L06-07"
+      ],
+      "english": "We are in good health.",
+      "audio": {
+        "female": "audio/female/2acd3339a03f6c97.mp3",
+        "male": "audio/male/2acd3339a03f6c97.mp3"
+      }
+    },
+    {
+      "id": "L14-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L06-09",
+        "L14-01"
+      ],
+      "english": "We are cold.",
+      "audio": {
+        "female": "audio/female/0faf33f5d0e9b8e5.mp3",
+        "male": "audio/male/0faf33f5d0e9b8e5.mp3"
+      }
+    }
+  ]
 }

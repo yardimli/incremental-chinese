@@ -1,13 +1,7 @@
 import { shuffle } from '../engine.mjs';
 // A saved board pays each pair once, including across navigation/reload.
 export function memorySets(s, lessons) {
-  return lessons.filter(
-    (set) =>
-      set.type === 'pairs' &&
-      (s.completed.includes(set.id) ||
-        s.cards[set.id]?.length ||
-        set.id === lessons[s.setIndex]?.id),
-  );
+  return lessons.filter((set) => set.pairs?.length);
 }
 export function startMemory(s, set, size = 6, pool = set.pairs) {
   const candidates = [...new Set([...set.pairs, ...pool].map((w) => w.id))];
@@ -66,6 +60,9 @@ export function nextBoard(s) {
   }
   if (m.offset >= m.order.length) {
     m.complete = true;
+    s.gameCompleted ??= {};
+    s.gameCompleted[m.setId] ??= {};
+    s.gameCompleted[m.setId].memory = true;
     return true;
   }
   const ids = m.order.slice(m.offset, m.offset + m.size);

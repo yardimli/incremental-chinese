@@ -155,5 +155,398 @@
     "female": "audio/female/30cf645f60f8af66.mp3",
     "male": "audio/male/30cf645f60f8af66.mp3"
   },
-  "english": "Food street"
+  "english": "Food street",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L16-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L06-02",
+        "L16-04"
+      ],
+      "english": "I drink milk.",
+      "audio": {
+        "female": "audio/female/b0d1cf81aba602ca.mp3",
+        "male": "audio/male/b0d1cf81aba602ca.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L06-02",
+        "L16-08"
+      ],
+      "english": "I drink coffee.",
+      "audio": {
+        "female": "audio/female/2e9d54b2f234dbec.mp3",
+        "male": "audio/male/2e9d54b2f234dbec.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L07-00",
+        "L16-03"
+      ],
+      "english": "I eat eggs.",
+      "audio": {
+        "female": "audio/female/f0168b40f78e0bf1.mp3",
+        "male": "audio/male/f0168b40f78e0bf1.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L07-00",
+        "L16-06"
+      ],
+      "english": "I eat lamb.",
+      "audio": {
+        "female": "audio/female/17b2821ae1d77325.mp3",
+        "male": "audio/male/17b2821ae1d77325.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L07-05",
+        "L16-07"
+      ],
+      "english": "I buy watermelon.",
+      "audio": {
+        "female": "audio/female/d289b1aaed58d1e2.mp3",
+        "male": "audio/male/d289b1aaed58d1e2.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L05-03",
+        "L16-00"
+      ],
+      "english": "I go to a restaurant.",
+      "audio": {
+        "female": "audio/female/3573097c915f219c.mp3",
+        "male": "audio/male/3573097c915f219c.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L06-02",
+        "L16-04"
+      ],
+      "english": "You drink milk.",
+      "audio": {
+        "female": "audio/female/027db0c2c60812ac.mp3",
+        "male": "audio/male/027db0c2c60812ac.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L06-02",
+        "L16-08"
+      ],
+      "english": "You drink coffee.",
+      "audio": {
+        "female": "audio/female/e7582bffb5a43029.mp3",
+        "male": "audio/male/e7582bffb5a43029.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L07-00",
+        "L16-03"
+      ],
+      "english": "You eat eggs.",
+      "audio": {
+        "female": "audio/female/94e3e372364ba01d.mp3",
+        "male": "audio/male/94e3e372364ba01d.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L07-00",
+        "L16-06"
+      ],
+      "english": "You eat lamb.",
+      "audio": {
+        "female": "audio/female/d2e9af4d1a46ef15.mp3",
+        "male": "audio/male/d2e9af4d1a46ef15.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L07-05",
+        "L16-07"
+      ],
+      "english": "You buy watermelon.",
+      "audio": {
+        "female": "audio/female/b41fad9c8ba9cb34.mp3",
+        "male": "audio/male/b41fad9c8ba9cb34.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L05-03",
+        "L16-00"
+      ],
+      "english": "You go to a restaurant.",
+      "audio": {
+        "female": "audio/female/582ee6766cc64b2c.mp3",
+        "male": "audio/male/582ee6766cc64b2c.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L06-02",
+        "L16-04"
+      ],
+      "english": "He drinks milk.",
+      "audio": {
+        "female": "audio/female/6ec1cc8d012ef0cb.mp3",
+        "male": "audio/male/6ec1cc8d012ef0cb.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L06-02",
+        "L16-08"
+      ],
+      "english": "He drinks coffee.",
+      "audio": {
+        "female": "audio/female/f7b135de1341f73a.mp3",
+        "male": "audio/male/f7b135de1341f73a.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L07-00",
+        "L16-03"
+      ],
+      "english": "He eats eggs.",
+      "audio": {
+        "female": "audio/female/c86277ab5e7277f6.mp3",
+        "male": "audio/male/c86277ab5e7277f6.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L07-00",
+        "L16-06"
+      ],
+      "english": "He eats lamb.",
+      "audio": {
+        "female": "audio/female/ad20dbaed6683007.mp3",
+        "male": "audio/male/ad20dbaed6683007.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L07-05",
+        "L16-07"
+      ],
+      "english": "He buys watermelon.",
+      "audio": {
+        "female": "audio/female/35885cf8dcfacbc9.mp3",
+        "male": "audio/male/35885cf8dcfacbc9.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L05-03",
+        "L16-00"
+      ],
+      "english": "He goes to a restaurant.",
+      "audio": {
+        "female": "audio/female/9bed601565d84e46.mp3",
+        "male": "audio/male/9bed601565d84e46.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L06-02",
+        "L16-04"
+      ],
+      "english": "She drinks milk.",
+      "audio": {
+        "female": "audio/female/15fd88f150b2ad10.mp3",
+        "male": "audio/male/15fd88f150b2ad10.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L06-02",
+        "L16-08"
+      ],
+      "english": "She drinks coffee.",
+      "audio": {
+        "female": "audio/female/5ec003a706c743e6.mp3",
+        "male": "audio/male/5ec003a706c743e6.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L07-00",
+        "L16-03"
+      ],
+      "english": "She eats eggs.",
+      "audio": {
+        "female": "audio/female/872183ec66f1ed62.mp3",
+        "male": "audio/male/872183ec66f1ed62.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L07-00",
+        "L16-06"
+      ],
+      "english": "She eats lamb.",
+      "audio": {
+        "female": "audio/female/18d626da8b606698.mp3",
+        "male": "audio/male/18d626da8b606698.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L07-05",
+        "L16-07"
+      ],
+      "english": "She buys watermelon.",
+      "audio": {
+        "female": "audio/female/5237600e8793e307.mp3",
+        "male": "audio/male/5237600e8793e307.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L05-03",
+        "L16-00"
+      ],
+      "english": "She goes to a restaurant.",
+      "audio": {
+        "female": "audio/female/af87af5934043285.mp3",
+        "male": "audio/male/af87af5934043285.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L06-02",
+        "L16-04"
+      ],
+      "english": "We drink milk.",
+      "audio": {
+        "female": "audio/female/69b7b6a5e16144fd.mp3",
+        "male": "audio/male/69b7b6a5e16144fd.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L06-02",
+        "L16-08"
+      ],
+      "english": "We drink coffee.",
+      "audio": {
+        "female": "audio/female/c219f17e933178cd.mp3",
+        "male": "audio/male/c219f17e933178cd.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L07-00",
+        "L16-03"
+      ],
+      "english": "We eat eggs.",
+      "audio": {
+        "female": "audio/female/2a3d5f5c4a13bce3.mp3",
+        "male": "audio/male/2a3d5f5c4a13bce3.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L07-00",
+        "L16-06"
+      ],
+      "english": "We eat lamb.",
+      "audio": {
+        "female": "audio/female/5aa35ec930cced4b.mp3",
+        "male": "audio/male/5aa35ec930cced4b.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L07-05",
+        "L16-07"
+      ],
+      "english": "We buy watermelon.",
+      "audio": {
+        "female": "audio/female/800489379f80bd1e.mp3",
+        "male": "audio/male/800489379f80bd1e.mp3"
+      }
+    },
+    {
+      "id": "L16-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L05-03",
+        "L16-00"
+      ],
+      "english": "We go to a restaurant.",
+      "audio": {
+        "female": "audio/female/c929cc6dfc9e2688.mp3",
+        "male": "audio/male/c929cc6dfc9e2688.mp3"
+      }
+    }
+  ]
 }

@@ -199,5 +199,398 @@
     "female": "audio/female/424f749ad11b98cf.mp3",
     "male": "audio/male/424f749ad11b98cf.mp3"
   },
-  "english": "Around the home"
+  "english": "Around the home",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L09-sentence-1",
+      "tokens": [
+        "L04-00",
+        "L05-09",
+        "L09-04"
+      ],
+      "english": "I have books.",
+      "audio": {
+        "female": "audio/female/b35139f01fbb244b.mp3",
+        "male": "audio/male/b35139f01fbb244b.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-2",
+      "tokens": [
+        "L04-00",
+        "L07-05",
+        "L09-02"
+      ],
+      "english": "I buy clothes.",
+      "audio": {
+        "female": "audio/female/c9683b60793ccf66.mp3",
+        "male": "audio/male/c9683b60793ccf66.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-3",
+      "tokens": [
+        "L04-00",
+        "L09-11",
+        "L09-12"
+      ],
+      "english": "I open the door.",
+      "audio": {
+        "female": "audio/female/10842a1696d3ce34.mp3",
+        "male": "audio/male/10842a1696d3ce34.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-4",
+      "tokens": [
+        "L04-00",
+        "L09-10",
+        "L05-11"
+      ],
+      "english": "I sit here.",
+      "audio": {
+        "female": "audio/female/2bcc080222503d6f.mp3",
+        "male": "audio/male/2bcc080222503d6f.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-5",
+      "tokens": [
+        "L04-00",
+        "L09-13",
+        "L09-02"
+      ],
+      "english": "I wear clothes.",
+      "audio": {
+        "female": "audio/female/9eccde2937509daf.mp3",
+        "male": "audio/male/9eccde2937509daf.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-6",
+      "tokens": [
+        "L04-00",
+        "L06-05",
+        "L09-01"
+      ],
+      "english": "I want a chair.",
+      "audio": {
+        "female": "audio/female/749b4626cf785add.mp3",
+        "male": "audio/male/749b4626cf785add.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-7",
+      "tokens": [
+        "L04-01",
+        "L05-09",
+        "L09-04"
+      ],
+      "english": "You have books.",
+      "audio": {
+        "female": "audio/female/6287a492e30907a5.mp3",
+        "male": "audio/male/6287a492e30907a5.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-8",
+      "tokens": [
+        "L04-01",
+        "L07-05",
+        "L09-02"
+      ],
+      "english": "You buy clothes.",
+      "audio": {
+        "female": "audio/female/9bcb6248e775630b.mp3",
+        "male": "audio/male/9bcb6248e775630b.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-9",
+      "tokens": [
+        "L04-01",
+        "L09-11",
+        "L09-12"
+      ],
+      "english": "You open the door.",
+      "audio": {
+        "female": "audio/female/d13d375ce2637a0e.mp3",
+        "male": "audio/male/d13d375ce2637a0e.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-10",
+      "tokens": [
+        "L04-01",
+        "L09-10",
+        "L05-11"
+      ],
+      "english": "You sit here.",
+      "audio": {
+        "female": "audio/female/4c124e068abfc190.mp3",
+        "male": "audio/male/4c124e068abfc190.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-11",
+      "tokens": [
+        "L04-01",
+        "L09-13",
+        "L09-02"
+      ],
+      "english": "You wear clothes.",
+      "audio": {
+        "female": "audio/female/c5532f0194d9339d.mp3",
+        "male": "audio/male/c5532f0194d9339d.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-12",
+      "tokens": [
+        "L04-01",
+        "L06-05",
+        "L09-01"
+      ],
+      "english": "You want a chair.",
+      "audio": {
+        "female": "audio/female/3f861661b7478870.mp3",
+        "male": "audio/male/3f861661b7478870.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-13",
+      "tokens": [
+        "L04-02",
+        "L05-09",
+        "L09-04"
+      ],
+      "english": "He has books.",
+      "audio": {
+        "female": "audio/female/8b5e9629d1b4e9bd.mp3",
+        "male": "audio/male/8b5e9629d1b4e9bd.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-14",
+      "tokens": [
+        "L04-02",
+        "L07-05",
+        "L09-02"
+      ],
+      "english": "He buys clothes.",
+      "audio": {
+        "female": "audio/female/efffd035be56b524.mp3",
+        "male": "audio/male/efffd035be56b524.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-15",
+      "tokens": [
+        "L04-02",
+        "L09-11",
+        "L09-12"
+      ],
+      "english": "He opens the door.",
+      "audio": {
+        "female": "audio/female/ae37090996da65df.mp3",
+        "male": "audio/male/ae37090996da65df.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-16",
+      "tokens": [
+        "L04-02",
+        "L09-10",
+        "L05-11"
+      ],
+      "english": "He sits here.",
+      "audio": {
+        "female": "audio/female/4333f08aefc1fb71.mp3",
+        "male": "audio/male/4333f08aefc1fb71.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-17",
+      "tokens": [
+        "L04-02",
+        "L09-13",
+        "L09-02"
+      ],
+      "english": "He wears clothes.",
+      "audio": {
+        "female": "audio/female/09f9f1f093fc55e4.mp3",
+        "male": "audio/male/09f9f1f093fc55e4.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-18",
+      "tokens": [
+        "L04-02",
+        "L06-05",
+        "L09-01"
+      ],
+      "english": "He wants a chair.",
+      "audio": {
+        "female": "audio/female/868242f15e8994c0.mp3",
+        "male": "audio/male/868242f15e8994c0.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-19",
+      "tokens": [
+        "L04-03",
+        "L05-09",
+        "L09-04"
+      ],
+      "english": "She has books.",
+      "audio": {
+        "female": "audio/female/3807717adb151dc7.mp3",
+        "male": "audio/male/3807717adb151dc7.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-20",
+      "tokens": [
+        "L04-03",
+        "L07-05",
+        "L09-02"
+      ],
+      "english": "She buys clothes.",
+      "audio": {
+        "female": "audio/female/fff9611edbb4e33b.mp3",
+        "male": "audio/male/fff9611edbb4e33b.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-21",
+      "tokens": [
+        "L04-03",
+        "L09-11",
+        "L09-12"
+      ],
+      "english": "She opens the door.",
+      "audio": {
+        "female": "audio/female/a252b16e1cc0dc6f.mp3",
+        "male": "audio/male/a252b16e1cc0dc6f.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-22",
+      "tokens": [
+        "L04-03",
+        "L09-10",
+        "L05-11"
+      ],
+      "english": "She sits here.",
+      "audio": {
+        "female": "audio/female/1141309cee4651ee.mp3",
+        "male": "audio/male/1141309cee4651ee.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-23",
+      "tokens": [
+        "L04-03",
+        "L09-13",
+        "L09-02"
+      ],
+      "english": "She wears clothes.",
+      "audio": {
+        "female": "audio/female/517137d0f001b343.mp3",
+        "male": "audio/male/517137d0f001b343.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-24",
+      "tokens": [
+        "L04-03",
+        "L06-05",
+        "L09-01"
+      ],
+      "english": "She wants a chair.",
+      "audio": {
+        "female": "audio/female/e7275eb525be0246.mp3",
+        "male": "audio/male/e7275eb525be0246.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-25",
+      "tokens": [
+        "L04-04",
+        "L05-09",
+        "L09-04"
+      ],
+      "english": "We have books.",
+      "audio": {
+        "female": "audio/female/ebd207d5fd4e9f38.mp3",
+        "male": "audio/male/ebd207d5fd4e9f38.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-26",
+      "tokens": [
+        "L04-04",
+        "L07-05",
+        "L09-02"
+      ],
+      "english": "We buy clothes.",
+      "audio": {
+        "female": "audio/female/6ef36570e6983c54.mp3",
+        "male": "audio/male/6ef36570e6983c54.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-27",
+      "tokens": [
+        "L04-04",
+        "L09-11",
+        "L09-12"
+      ],
+      "english": "We open the door.",
+      "audio": {
+        "female": "audio/female/1492d6d866dbd5ba.mp3",
+        "male": "audio/male/1492d6d866dbd5ba.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-28",
+      "tokens": [
+        "L04-04",
+        "L09-10",
+        "L05-11"
+      ],
+      "english": "We sit here.",
+      "audio": {
+        "female": "audio/female/c95afc51ccd3bb04.mp3",
+        "male": "audio/male/c95afc51ccd3bb04.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-29",
+      "tokens": [
+        "L04-04",
+        "L09-13",
+        "L09-02"
+      ],
+      "english": "We wear clothes.",
+      "audio": {
+        "female": "audio/female/bb63b3a47ff0a676.mp3",
+        "male": "audio/male/bb63b3a47ff0a676.mp3"
+      }
+    },
+    {
+      "id": "L09-sentence-30",
+      "tokens": [
+        "L04-04",
+        "L06-05",
+        "L09-01"
+      ],
+      "english": "We want a chair.",
+      "audio": {
+        "female": "audio/female/dcf45a97acb4ff17.mp3",
+        "male": "audio/male/dcf45a97acb4ff17.mp3"
+      }
+    }
+  ]
 }

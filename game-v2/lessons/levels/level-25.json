@@ -56,5 +56,488 @@
     "female": "audio/female/298570ba99da741f.mp3",
     "male": "audio/male/298570ba99da741f.mp3"
   },
-  "english": "Reasons & results"
+  "english": "Reasons & results",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L25-sentence-1",
+      "tokens": [
+        "L25-00",
+        "L04-00",
+        "L06-09",
+        "L14-01"
+      ],
+      "english": "Because I am cold.",
+      "audio": {
+        "female": "audio/female/2f253a5cf80a4b39.mp3",
+        "male": "audio/male/2f253a5cf80a4b39.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-2",
+      "tokens": [
+        "L25-01",
+        "L04-00",
+        "L11-09"
+      ],
+      "english": "So I rest.",
+      "audio": {
+        "female": "audio/female/53801c5af106622b.mp3",
+        "male": "audio/male/53801c5af106622b.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-3",
+      "tokens": [
+        "L25-00",
+        "L04-00",
+        "L06-09",
+        "L11-11"
+      ],
+      "english": "Because I am tired.",
+      "audio": {
+        "female": "audio/female/5181679abb104755.mp3",
+        "male": "audio/male/5181679abb104755.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-4",
+      "tokens": [
+        "L25-00",
+        "L04-00",
+        "L06-09",
+        "L11-10"
+      ],
+      "english": "Because I am busy.",
+      "audio": {
+        "female": "audio/female/e7d5a16329812a18.mp3",
+        "male": "audio/male/e7d5a16329812a18.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-5",
+      "tokens": [
+        "L25-01",
+        "L04-00",
+        "L11-05"
+      ],
+      "english": "So I work.",
+      "audio": {
+        "female": "audio/female/b08625c65dd55bb3.mp3",
+        "male": "audio/male/b08625c65dd55bb3.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-6",
+      "tokens": [
+        "L25-00",
+        "L04-01",
+        "L06-09",
+        "L14-01"
+      ],
+      "english": "Because you are cold.",
+      "audio": {
+        "female": "audio/female/573ce78ebd25f808.mp3",
+        "male": "audio/male/573ce78ebd25f808.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-7",
+      "tokens": [
+        "L25-01",
+        "L04-01",
+        "L11-09"
+      ],
+      "english": "So you rest.",
+      "audio": {
+        "female": "audio/female/7272e785292056e6.mp3",
+        "male": "audio/male/7272e785292056e6.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-8",
+      "tokens": [
+        "L25-00",
+        "L04-01",
+        "L06-09",
+        "L11-11"
+      ],
+      "english": "Because you are tired.",
+      "audio": {
+        "female": "audio/female/f4501e064977e7f5.mp3",
+        "male": "audio/male/f4501e064977e7f5.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-9",
+      "tokens": [
+        "L25-00",
+        "L04-01",
+        "L06-09",
+        "L11-10"
+      ],
+      "english": "Because you are busy.",
+      "audio": {
+        "female": "audio/female/280e747b21f21b25.mp3",
+        "male": "audio/male/280e747b21f21b25.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-10",
+      "tokens": [
+        "L25-01",
+        "L04-01",
+        "L11-05"
+      ],
+      "english": "So you work.",
+      "audio": {
+        "female": "audio/female/bd2c74def79d7d14.mp3",
+        "male": "audio/male/bd2c74def79d7d14.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-11",
+      "tokens": [
+        "L25-00",
+        "L04-02",
+        "L06-09",
+        "L14-01"
+      ],
+      "english": "Because he is cold.",
+      "audio": {
+        "female": "audio/female/b516b6f44b75f54d.mp3",
+        "male": "audio/male/b516b6f44b75f54d.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-12",
+      "tokens": [
+        "L25-01",
+        "L04-02",
+        "L11-09"
+      ],
+      "english": "So he rests.",
+      "audio": {
+        "female": "audio/female/d66d10125e54499e.mp3",
+        "male": "audio/male/d66d10125e54499e.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-13",
+      "tokens": [
+        "L25-00",
+        "L04-02",
+        "L06-09",
+        "L11-11"
+      ],
+      "english": "Because he is tired.",
+      "audio": {
+        "female": "audio/female/bfa330c5c8bfc77e.mp3",
+        "male": "audio/male/bfa330c5c8bfc77e.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-14",
+      "tokens": [
+        "L25-00",
+        "L04-02",
+        "L06-09",
+        "L11-10"
+      ],
+      "english": "Because he is busy.",
+      "audio": {
+        "female": "audio/female/6d78f886af945301.mp3",
+        "male": "audio/male/6d78f886af945301.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-15",
+      "tokens": [
+        "L25-01",
+        "L04-02",
+        "L11-05"
+      ],
+      "english": "So he works.",
+      "audio": {
+        "female": "audio/female/b46ad2bbbfb89c36.mp3",
+        "male": "audio/male/b46ad2bbbfb89c36.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-16",
+      "tokens": [
+        "L25-00",
+        "L04-03",
+        "L06-09",
+        "L14-01"
+      ],
+      "english": "Because she is cold.",
+      "audio": {
+        "female": "audio/female/90c0a7437fbbafd4.mp3",
+        "male": "audio/male/90c0a7437fbbafd4.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-17",
+      "tokens": [
+        "L25-01",
+        "L04-03",
+        "L11-09"
+      ],
+      "english": "So she rests.",
+      "audio": {
+        "female": "audio/female/c929b09adb1ad8b2.mp3",
+        "male": "audio/male/c929b09adb1ad8b2.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-18",
+      "tokens": [
+        "L25-00",
+        "L04-03",
+        "L06-09",
+        "L11-11"
+      ],
+      "english": "Because she is tired.",
+      "audio": {
+        "female": "audio/female/3bd948081c4c6f64.mp3",
+        "male": "audio/male/3bd948081c4c6f64.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-19",
+      "tokens": [
+        "L25-00",
+        "L04-03",
+        "L06-09",
+        "L11-10"
+      ],
+      "english": "Because she is busy.",
+      "audio": {
+        "female": "audio/female/c521acee9544cb84.mp3",
+        "male": "audio/male/c521acee9544cb84.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-20",
+      "tokens": [
+        "L25-01",
+        "L04-03",
+        "L11-05"
+      ],
+      "english": "So she works.",
+      "audio": {
+        "female": "audio/female/e1743dad1e8139e6.mp3",
+        "male": "audio/male/e1743dad1e8139e6.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-21",
+      "tokens": [
+        "L25-00",
+        "L04-04",
+        "L06-09",
+        "L14-01"
+      ],
+      "english": "Because we are cold.",
+      "audio": {
+        "female": "audio/female/4bda412989eaa144.mp3",
+        "male": "audio/male/4bda412989eaa144.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-22",
+      "tokens": [
+        "L25-01",
+        "L04-04",
+        "L11-09"
+      ],
+      "english": "So we rest.",
+      "audio": {
+        "female": "audio/female/b27813492d8aa363.mp3",
+        "male": "audio/male/b27813492d8aa363.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-23",
+      "tokens": [
+        "L25-00",
+        "L04-04",
+        "L06-09",
+        "L11-11"
+      ],
+      "english": "Because we are tired.",
+      "audio": {
+        "female": "audio/female/6a91ca5e69a601bc.mp3",
+        "male": "audio/male/6a91ca5e69a601bc.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-24",
+      "tokens": [
+        "L25-00",
+        "L04-04",
+        "L06-09",
+        "L11-10"
+      ],
+      "english": "Because we are busy.",
+      "audio": {
+        "female": "audio/female/f29bac72ab0de9db.mp3",
+        "male": "audio/male/f29bac72ab0de9db.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-25",
+      "tokens": [
+        "L25-01",
+        "L04-04",
+        "L11-05"
+      ],
+      "english": "So we work.",
+      "audio": {
+        "female": "audio/female/8b37a69495c24668.mp3",
+        "male": "audio/male/8b37a69495c24668.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-26",
+      "tokens": [
+        "L25-02",
+        "L04-00",
+        "L06-08",
+        "L05-03"
+      ],
+      "english": "But I do not go.",
+      "audio": {
+        "female": "audio/female/996fe8cca29799fe.mp3",
+        "male": "audio/male/996fe8cca29799fe.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-27",
+      "tokens": [
+        "L04-00",
+        "L25-03",
+        "L06-08",
+        "L05-02"
+      ],
+      "english": "Why do I not come?",
+      "audio": {
+        "female": "audio/female/6ec84f6dccd37537.mp3",
+        "male": "audio/male/6ec84f6dccd37537.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-28",
+      "tokens": [
+        "L25-02",
+        "L04-01",
+        "L06-08",
+        "L05-03"
+      ],
+      "english": "But you do not go.",
+      "audio": {
+        "female": "audio/female/3e80eab19e839ee8.mp3",
+        "male": "audio/male/3e80eab19e839ee8.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-29",
+      "tokens": [
+        "L04-01",
+        "L25-03",
+        "L06-08",
+        "L05-02"
+      ],
+      "english": "Why do you not come?",
+      "audio": {
+        "female": "audio/female/25a4defeb2968ced.mp3",
+        "male": "audio/male/25a4defeb2968ced.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-30",
+      "tokens": [
+        "L25-02",
+        "L04-02",
+        "L06-08",
+        "L05-03"
+      ],
+      "english": "But he does not go.",
+      "audio": {
+        "female": "audio/female/879841ac59aa19f1.mp3",
+        "male": "audio/male/879841ac59aa19f1.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-31",
+      "tokens": [
+        "L04-02",
+        "L25-03",
+        "L06-08",
+        "L05-02"
+      ],
+      "english": "Why does he not come?",
+      "audio": {
+        "female": "audio/female/c986cced84e18618.mp3",
+        "male": "audio/male/c986cced84e18618.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-32",
+      "tokens": [
+        "L25-02",
+        "L04-03",
+        "L06-08",
+        "L05-03"
+      ],
+      "english": "But she does not go.",
+      "audio": {
+        "female": "audio/female/c634388a1deded76.mp3",
+        "male": "audio/male/c634388a1deded76.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-33",
+      "tokens": [
+        "L04-03",
+        "L25-03",
+        "L06-08",
+        "L05-02"
+      ],
+      "english": "Why does she not come?",
+      "audio": {
+        "female": "audio/female/739ce0bf104efe75.mp3",
+        "male": "audio/male/739ce0bf104efe75.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-34",
+      "tokens": [
+        "L25-02",
+        "L04-04",
+        "L06-08",
+        "L05-03"
+      ],
+      "english": "But we do not go.",
+      "audio": {
+        "female": "audio/female/b4eecc99dce7d210.mp3",
+        "male": "audio/male/b4eecc99dce7d210.mp3"
+      }
+    },
+    {
+      "id": "L25-sentence-35",
+      "tokens": [
+        "L04-04",
+        "L25-03",
+        "L06-08",
+        "L05-02"
+      ],
+      "english": "Why do we not come?",
+      "audio": {
+        "female": "audio/female/3c677e26e1f74e25.mp3",
+        "male": "audio/male/3c677e26e1f74e25.mp3"
+      }
+    }
+  ]
 }

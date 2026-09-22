@@ -81,7 +81,7 @@ a .ui-text {
 }
 .header h1 {
   min-width: 0;
-  font-size: 22px;
+  font-size: calc(22px * var(--text-scale, 1));
   line-height: 1.05;
   margin: 0;
 }
@@ -110,12 +110,12 @@ a .ui-text {
 .header h1 .ui-pinyin {
   grid-column: 2;
   grid-row: 1;
-  font-size: 10px;
+  font-size: calc(10px * var(--text-scale, 1));
 }
 .header h1 .ui-english {
   grid-column: 2;
   grid-row: 2;
-  font-size: 11px;
+  font-size: calc(11px * var(--text-scale, 1));
 }
 .header h1 .ui-text:has(.ui-chinese:empty) {
   grid-template-columns: minmax(0, 1fr);
@@ -147,18 +147,18 @@ a .ui-text {
 .match-head .ui-chinese {
   grid-column: 1;
   grid-row: 1 / 3;
-  font-size: 23px;
+  font-size: calc(23px * var(--text-scale, 1));
   white-space: nowrap;
 }
 .match-head .ui-pinyin {
   grid-column: 2;
   grid-row: 1;
-  font-size: 10px;
+  font-size: calc(10px * var(--text-scale, 1));
 }
 .match-head .ui-english {
   grid-column: 2;
   grid-row: 2;
-  font-size: 11px;
+  font-size: calc(11px * var(--text-scale, 1));
 }
 .match-head .ui-text:has(.ui-chinese:empty) {
   grid-template-columns: minmax(0, 1fr);
@@ -209,14 +209,14 @@ a .ui-text {
   font-size: 0.8em;
 }
 .gain .ui-pinyin {
-  font-size: 14px;
+  font-size: calc(14px * var(--text-scale, 1));
 }
 .gain .ui-english {
-  font-size: 18px;
+  font-size: calc(18px * var(--text-scale, 1));
 }
 .reward h1 .ui-pinyin,
 .reward h1 .ui-english {
-  font-size: 12px;
+  font-size: calc(12px * var(--text-scale, 1));
 }
 .reward h1 {
   margin-top: 8px;
@@ -251,28 +251,28 @@ a .ui-text {
   grid-auto-rows: minmax(48px, 1fr);
 }
 .practice-note .ui-text {
-  font-size: 10px;
+  font-size: calc(10px * var(--text-scale, 1));
 }
 .button-label > span:empty {
   display: none;
 }
 .button-chinese {
-  font-size: 15px;
+  font-size: calc(15px * var(--text-scale, 1));
   font-weight: 700;
   white-space: nowrap;
 }
 .button-pinyin {
   font:
-    10px/1.2 system-ui,
+    calc(10px * var(--text-scale, 1))/1.2 system-ui,
     sans-serif;
 }
 .button-english {
-  font-size: 10px;
+  font-size: calc(10px * var(--text-scale, 1));
   font-weight: 500;
 }
 .button-detail {
   font:
-    700 11px/1.2 system-ui,
+    700 calc(11px * var(--text-scale, 1))/1.2 system-ui,
     sans-serif;
 }
 .footer {
@@ -309,11 +309,11 @@ a .ui-text {
   gap: 0;
 }
 .footer .button-chinese {
-  font-size: 20px;
+  font-size: calc(20px * var(--text-scale, 1));
 }
 .footer .button-pinyin,
 .footer .button-english {
-  font-size: 12px;
+  font-size: calc(12px * var(--text-scale, 1));
 }
 .guide {
   position: fixed;
@@ -324,7 +324,7 @@ a .ui-text {
   border: 1px solid #b9a268;
   border-radius: 9px;
   color: #284d38;
-  font: 14px Georgia;
+  font: calc(14px * var(--text-scale, 1)) Georgia;
 }
 #game-frame.reward {
   animation: none;
@@ -357,14 +357,206 @@ a .ui-text {
 }
 .guide-screen h1 {
   font:
-    28px Georgia,
+    calc(28px * var(--text-scale, 1)) Georgia,
     serif;
 }
 .guide-screen p {
-  font-size: 13px;
+  font-size: calc(13px * var(--text-scale, 1));
   line-height: 1.6;
 }
 
 .footer {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.set-games {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  max-height: 32vh;
+  overflow: auto;
+  scrollbar-width: none;
+}
+.set-games .secondary {
+  position: relative;
+  margin: 0 !important;
+  padding: 6px !important;
+  min-width: 0;
+}
+.game-check {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  color: #26724f;
+  font-weight: bold;
+}
+.self-test-screen {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto !important;
+}
+.self-test-screen[hidden] {
+  display: none;
+}
+.self-question {
+  flex: none;
+  min-height: 150px;
+  max-width: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.self-question .hanzi {
+  font-size: calc(36px * var(--text-scale, 1));
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.self-answer {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex: 1;
+}
+.self-answer[hidden] {
+  display: none;
+}
+.self-english {
+  padding: 20px;
+  font-size: calc(22px * var(--text-scale, 1));
+}
+.self-grades {
+  margin-top: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.self-grades button {
+  min-width: 0;
+  margin: 0;
+}
+#game-frame:not([data-text-size='1']) .set-picker {
+  grid-auto-rows: auto;
+}
+#game-frame:not([data-text-size='1']) .selection-button {
+  min-height: 110px;
+  height: auto;
+}
+#game-frame:not([data-text-size='1']) .collection {
+  grid-auto-rows: auto;
+}
+#game-frame:not([data-text-size='1']) .collection .card {
+  min-height: 110px;
+  height: auto;
+}
+#game-frame:not([data-text-size='1']) .header {
+  padding-left: 7px;
+  padding-right: 7px;
+  gap: 5px;
+}
+#game-frame:not([data-text-size='1']) .header-tab-icon {
+  display: none;
+}
+
+#game-frame {
+  --shell-top: calc(54px * var(--text-scale, 1));
+  --shell-bottom: calc(86px * var(--text-scale, 1));
+}
+.header {
+  height: var(--shell-top);
+}
+.footer {
+  height: var(--shell-bottom);
+}
+.game-screen.app {
+  padding-top: calc(var(--shell-top) + 8px);
+  padding-bottom: calc(var(--shell-bottom) + 8px);
+}
+#game-frame[data-page='sets'] .app {
+  padding-bottom: calc(var(--shell-bottom) + 8px);
+}
+.playfield {
+  height: calc(var(--game-height, 852px) - var(--shell-top) - var(--shell-bottom) - 16px);
+}
+.header-title {
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.header h1 {
+  flex-shrink: 0;
+}
+#game-frame:not([data-text-size='1']) .set-picker {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+#game-frame:not([data-text-size='1']) .set-games {
+  grid-template-columns: 1fr;
+  max-height: 27vh;
+}
+#game-frame:not([data-text-size='1']) .match-board {
+  overflow-y: auto;
+  min-height: 0;
+}
+#game-frame:not([data-text-size='1']) .self-question {
+  min-height: 160px;
+}
+.self-test-screen .self-grades {
+  position: sticky;
+  bottom: 0;
+  background: #f6edcc;
+  padding: 5px 0;
+}
+
+#game-frame:not(.reward) .app {
+  padding-top: calc(var(--shell-top) + 8px);
+  padding-bottom: calc(var(--shell-bottom) + 8px);
+}
+.header-title {
+  flex: 1;
+}
+.head-right {
+  flex: none;
+}
+.header .score {
+  max-width: 130px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  white-space: nowrap;
+}
+.collection-heading {
+  flex-wrap: wrap;
+  gap: 4px 8px;
+}
+.collection-heading .hanzi,
+.collection-heading b {
+  white-space: nowrap;
+}
+.collection-heading .pinyin {
+  white-space: normal;
+}
+.set-games .secondary {
+  padding-right: 20px !important;
+}
+
+.self-grades button {
+  font-size: calc(22px * var(--text-scale, 1));
+  padding: 10px;
+}
+.self-grades .ui-pinyin {
+  white-space: nowrap;
+}
+#game-frame:not([data-text-size='1']) .memory-grid {
+  overflow-y: auto;
+  min-height: 0;
+  grid-auto-rows: calc(110px * var(--text-scale, 1));
+}
+#game-frame:not([data-text-size='1']) .memory-card {
+  height: calc(110px * var(--text-scale, 1));
+}
+#game-frame:not([data-text-size='1']) .match-tile {
+  height: auto;
+  min-height: calc(65px * var(--text-scale, 1));
+}
+
+.battle-weapons {
+  height: calc(60px * var(--text-scale, 1));
 }

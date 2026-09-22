@@ -182,5 +182,440 @@
     "female": "audio/female/5db9aad3e6740c51.mp3",
     "male": "audio/male/5db9aad3e6740c51.mp3"
   },
-  "english": "Big numbers & money"
+  "english": "Big numbers & money",
+  "countPerRun": 10,
+  "sentences": [
+    {
+      "id": "L03-sentence-1",
+      "tokens": [
+        "L01-01",
+        "L03-00"
+      ],
+      "english": "100",
+      "audio": {
+        "female": "audio/female/38d302ad2b36640f.mp3",
+        "male": "audio/male/38d302ad2b36640f.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-2",
+      "tokens": [
+        "L01-01",
+        "L03-01"
+      ],
+      "english": "1,000",
+      "audio": {
+        "female": "audio/female/2987ed96e3306eec.mp3",
+        "male": "audio/male/2987ed96e3306eec.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-3",
+      "tokens": [
+        "L01-01",
+        "L03-08"
+      ],
+      "english": "10,000",
+      "audio": {
+        "female": "audio/female/f273afbfc4ed5dfd.mp3",
+        "male": "audio/male/f273afbfc4ed5dfd.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-4",
+      "tokens": [
+        "L01-01",
+        "L03-09"
+      ],
+      "english": "100,000,000",
+      "audio": {
+        "female": "audio/female/2fe61aa767b723c2.mp3",
+        "male": "audio/male/2fe61aa767b723c2.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-5",
+      "tokens": [
+        "L01-02",
+        "L03-00"
+      ],
+      "english": "200",
+      "audio": {
+        "female": "audio/female/bb7fc3a46dd821d2.mp3",
+        "male": "audio/male/bb7fc3a46dd821d2.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-6",
+      "tokens": [
+        "L01-02",
+        "L03-01"
+      ],
+      "english": "2,000",
+      "audio": {
+        "female": "audio/female/97c523f569ece408.mp3",
+        "male": "audio/male/97c523f569ece408.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-7",
+      "tokens": [
+        "L01-02",
+        "L03-08"
+      ],
+      "english": "20,000",
+      "audio": {
+        "female": "audio/female/62a8a6202cc0d59c.mp3",
+        "male": "audio/male/62a8a6202cc0d59c.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-8",
+      "tokens": [
+        "L01-02",
+        "L03-09"
+      ],
+      "english": "200,000,000",
+      "audio": {
+        "female": "audio/female/0aa28e88610d85b7.mp3",
+        "male": "audio/male/0aa28e88610d85b7.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-9",
+      "tokens": [
+        "L01-03",
+        "L03-00"
+      ],
+      "english": "300",
+      "audio": {
+        "female": "audio/female/e6a5e7b74720e53d.mp3",
+        "male": "audio/male/e6a5e7b74720e53d.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-10",
+      "tokens": [
+        "L01-03",
+        "L03-01"
+      ],
+      "english": "3,000",
+      "audio": {
+        "female": "audio/female/5d171a1f5c04c452.mp3",
+        "male": "audio/male/5d171a1f5c04c452.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-11",
+      "tokens": [
+        "L01-03",
+        "L03-08"
+      ],
+      "english": "30,000",
+      "audio": {
+        "female": "audio/female/7e9aff5fe1510ee5.mp3",
+        "male": "audio/male/7e9aff5fe1510ee5.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-12",
+      "tokens": [
+        "L01-03",
+        "L03-09"
+      ],
+      "english": "300,000,000",
+      "audio": {
+        "female": "audio/female/141d15e8b9593051.mp3",
+        "male": "audio/male/141d15e8b9593051.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-13",
+      "tokens": [
+        "L01-04",
+        "L03-00"
+      ],
+      "english": "400",
+      "audio": {
+        "female": "audio/female/fa425555f74a0545.mp3",
+        "male": "audio/male/fa425555f74a0545.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-14",
+      "tokens": [
+        "L01-04",
+        "L03-01"
+      ],
+      "english": "4,000",
+      "audio": {
+        "female": "audio/female/e4bfc806808e23dd.mp3",
+        "male": "audio/male/e4bfc806808e23dd.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-15",
+      "tokens": [
+        "L01-04",
+        "L03-08"
+      ],
+      "english": "40,000",
+      "audio": {
+        "female": "audio/female/0815e8b6c40e6362.mp3",
+        "male": "audio/male/0815e8b6c40e6362.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-16",
+      "tokens": [
+        "L01-04",
+        "L03-09"
+      ],
+      "english": "400,000,000",
+      "audio": {
+        "female": "audio/female/3547e0e09ce4b2a1.mp3",
+        "male": "audio/male/3547e0e09ce4b2a1.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-17",
+      "tokens": [
+        "L01-05",
+        "L03-00"
+      ],
+      "english": "500",
+      "audio": {
+        "female": "audio/female/a04846d365f8fe2d.mp3",
+        "male": "audio/male/a04846d365f8fe2d.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-18",
+      "tokens": [
+        "L01-05",
+        "L03-01"
+      ],
+      "english": "5,000",
+      "audio": {
+        "female": "audio/female/948552446dc4bb80.mp3",
+        "male": "audio/male/948552446dc4bb80.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-19",
+      "tokens": [
+        "L01-05",
+        "L03-08"
+      ],
+      "english": "50,000",
+      "audio": {
+        "female": "audio/female/791d29f834f87129.mp3",
+        "male": "audio/male/791d29f834f87129.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-20",
+      "tokens": [
+        "L01-05",
+        "L03-09"
+      ],
+      "english": "500,000,000",
+      "audio": {
+        "female": "audio/female/ec08ee2e60d314de.mp3",
+        "male": "audio/male/ec08ee2e60d314de.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-21",
+      "tokens": [
+        "L01-06",
+        "L03-00"
+      ],
+      "english": "600",
+      "audio": {
+        "female": "audio/female/21b6e693707378df.mp3",
+        "male": "audio/male/21b6e693707378df.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-22",
+      "tokens": [
+        "L01-06",
+        "L03-01"
+      ],
+      "english": "6,000",
+      "audio": {
+        "female": "audio/female/fc56dd0db9c120f6.mp3",
+        "male": "audio/male/fc56dd0db9c120f6.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-23",
+      "tokens": [
+        "L01-06",
+        "L03-08"
+      ],
+      "english": "60,000",
+      "audio": {
+        "female": "audio/female/03282304635534ef.mp3",
+        "male": "audio/male/03282304635534ef.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-24",
+      "tokens": [
+        "L01-06",
+        "L03-09"
+      ],
+      "english": "600,000,000",
+      "audio": {
+        "female": "audio/female/6cd4202cddc819ff.mp3",
+        "male": "audio/male/6cd4202cddc819ff.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-25",
+      "tokens": [
+        "L01-07",
+        "L03-00"
+      ],
+      "english": "700",
+      "audio": {
+        "female": "audio/female/e2ef42d1aeddee08.mp3",
+        "male": "audio/male/e2ef42d1aeddee08.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-26",
+      "tokens": [
+        "L01-07",
+        "L03-01"
+      ],
+      "english": "7,000",
+      "audio": {
+        "female": "audio/female/b6e547839247d5b4.mp3",
+        "male": "audio/male/b6e547839247d5b4.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-27",
+      "tokens": [
+        "L01-07",
+        "L03-08"
+      ],
+      "english": "70,000",
+      "audio": {
+        "female": "audio/female/ff07d9a24412d220.mp3",
+        "male": "audio/male/ff07d9a24412d220.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-28",
+      "tokens": [
+        "L01-07",
+        "L03-09"
+      ],
+      "english": "700,000,000",
+      "audio": {
+        "female": "audio/female/237d1faf79df8e2f.mp3",
+        "male": "audio/male/237d1faf79df8e2f.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-29",
+      "tokens": [
+        "L01-08",
+        "L03-00"
+      ],
+      "english": "800",
+      "audio": {
+        "female": "audio/female/1074b72c019586b2.mp3",
+        "male": "audio/male/1074b72c019586b2.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-30",
+      "tokens": [
+        "L01-08",
+        "L03-01"
+      ],
+      "english": "8,000",
+      "audio": {
+        "female": "audio/female/5090f810ed5804ac.mp3",
+        "male": "audio/male/5090f810ed5804ac.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-31",
+      "tokens": [
+        "L01-08",
+        "L03-08"
+      ],
+      "english": "80,000",
+      "audio": {
+        "female": "audio/female/a349aa253dc1ce21.mp3",
+        "male": "audio/male/a349aa253dc1ce21.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-32",
+      "tokens": [
+        "L01-08",
+        "L03-09"
+      ],
+      "english": "800,000,000",
+      "audio": {
+        "female": "audio/female/db33e5ea1d361886.mp3",
+        "male": "audio/male/db33e5ea1d361886.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-33",
+      "tokens": [
+        "L01-09",
+        "L03-00"
+      ],
+      "english": "900",
+      "audio": {
+        "female": "audio/female/2264e60a0c2a4f5d.mp3",
+        "male": "audio/male/2264e60a0c2a4f5d.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-34",
+      "tokens": [
+        "L01-09",
+        "L03-01"
+      ],
+      "english": "9,000",
+      "audio": {
+        "female": "audio/female/b54e309fccd5c87b.mp3",
+        "male": "audio/male/b54e309fccd5c87b.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-35",
+      "tokens": [
+        "L01-09",
+        "L03-08"
+      ],
+      "english": "90,000",
+      "audio": {
+        "female": "audio/female/c0029f726f3e2e65.mp3",
+        "male": "audio/male/c0029f726f3e2e65.mp3"
+      }
+    },
+    {
+      "id": "L03-sentence-36",
+      "tokens": [
+        "L01-09",
+        "L03-09"
+      ],
+      "english": "900,000,000",
+      "audio": {
+        "female": "audio/female/0b2bfadfa284aa4b.mp3",
+        "male": "audio/male/0b2bfadfa284aa4b.mp3"
+      }
+    }
+  ]
 }

@@ -22,7 +22,7 @@
 }
 .header h1 {
   font-family: Georgia, serif;
-  font-size: 25px;
+  font-size: calc(25px * var(--text-scale, 1));
   font-weight: 800;
   text-shadow: 0 1px #fff;
   letter-spacing: -0.035em;
@@ -40,7 +40,7 @@
   box-shadow:
     inset 0 0 0 2px #fff4d0,
     0 2px 0 #b69b60;
-  font-size: 17px;
+  font-size: calc(17px * var(--text-scale, 1));
 }
 .coin {
   flex-shrink: 0;
@@ -83,7 +83,7 @@
   gap: 5px;
 }
 .footer a {
-  font-size: 11px;
+  font-size: calc(11px * var(--text-scale, 1));
   border: 1px solid transparent;
   border-radius: 10px;
   padding: 5px 2px;
@@ -106,7 +106,7 @@
 }
 h2 {
   color: #365643;
-  font-size: 18px;
+  font-size: calc(18px * var(--text-scale, 1));
   text-shadow: 0 1px #fff8d7;
 }
 .panel {
@@ -130,7 +130,7 @@ h2 {
     0 2px 0 #fff2c0,
     0 4px 12px #536a3822;
   font-family: Georgia, serif;
-  font-size: 55px;
+  font-size: calc(55px * var(--text-scale, 1));
 }
 .factors {
   border-top: 1px solid #c5aa715c;
@@ -138,7 +138,7 @@ h2 {
 }
 .factors small {
   font-family: system-ui;
-  font-size: 9px;
+  font-size: calc(9px * var(--text-scale, 1));
 }
 .row + .row {
   border-top-color: #cbb7887d;
@@ -171,7 +171,7 @@ h2 {
 }
 .primary {
   border-radius: 15px;
-  font-size: 22px;
+  font-size: calc(22px * var(--text-scale, 1));
   position: relative;
   padding: 12px 24px;
 }
@@ -181,7 +181,7 @@ h2 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 11px;
+  font-size: calc(11px * var(--text-scale, 1));
   color: #ddc17e;
   opacity: 0.9;
 }
@@ -209,7 +209,7 @@ h2 {
     inset 0 0 0 2px #fff9de,
     0 3px 0 #c1a873;
   border-radius: 12px;
-  font-size: 17px;
+  font-size: calc(17px * var(--text-scale, 1));
 }
 .primary:disabled,
 .buy:disabled {
@@ -228,7 +228,7 @@ h2 {
   color: #fff1cc;
   border-radius: 10px;
   box-shadow: 0 3px 0 #164232;
-  font: 12px/1.5 system-ui;
+  font: calc(12px * var(--text-scale, 1))/1.5 system-ui;
   text-align: center;
 }
 .match-head > span {
@@ -260,7 +260,7 @@ h2 {
   border-radius: 9px;
 }
 .match-tile {
-  font-size: 22px;
+  font-size: calc(22px * var(--text-scale, 1));
   font-family: Georgia, serif;
   min-height: 78px;
 }
@@ -299,7 +299,7 @@ h2 {
   width: 19px;
   height: 19px;
   border-radius: 50%;
-  font: 12px/19px system-ui;
+  font: calc(12px * var(--text-scale, 1))/calc(19px * var(--text-scale, 1)) system-ui;
   right: 7px;
   top: 7px;
 }
@@ -308,7 +308,7 @@ h2 {
   border-color: #ba694d;
 }
 .status {
-  font: 12px/1.4 system-ui;
+  font: calc(12px * var(--text-scale, 1))/1.4 system-ui;
   color: #1c593e;
   font-weight: 600;
   text-shadow: 0 1px #fff;
@@ -316,7 +316,7 @@ h2 {
 .tabs button {
   background: linear-gradient(#fff5dc, #d7c497);
   border-color: #a99156;
-  font-size: 17px;
+  font-size: calc(17px * var(--text-scale, 1));
   box-shadow: 0 2px 0 #aa9364;
 }
 .tabs .active {
@@ -420,7 +420,7 @@ h2 {
 .boost .mult {
   color: #896021;
   font-family: system-ui;
-  font-size: 11px;
+  font-size: calc(11px * var(--text-scale, 1));
 }
 .boost-price {
   color: #846027;
@@ -430,11 +430,11 @@ h2 {
 .buy {
   padding: 6px 9px;
   min-width: 61px;
-  font-size: 14px;
+  font-size: calc(14px * var(--text-scale, 1));
   border-radius: 9px;
 }
 .boost .hanzi {
-  font-size: 21px;
+  font-size: calc(21px * var(--text-scale, 1));
 }
 .reward {
   background-image:
@@ -443,7 +443,7 @@ h2 {
   background-size: cover;
 }
 .reward h1 {
-  font-size: 29px;
+  font-size: calc(29px * var(--text-scale, 1));
   color: #23523b;
   text-shadow: 0 2px #fff7d8;
 }
@@ -451,7 +451,7 @@ h2 {
   content: '— ◆ —';
   display: block;
   color: #b89445;
-  font-size: 14px;
+  font-size: calc(14px * var(--text-scale, 1));
   letter-spacing: 8px;
   margin-top: 12px;
 }
@@ -469,7 +469,7 @@ h2 {
   text-shadow:
     0 1px #fff4bd,
     0 3px #82500b20;
-  font-size: 42px;
+  font-size: calc(42px * var(--text-scale, 1));
 }
 .reward .big {
   color: #2a7654;
@@ -501,7 +501,7 @@ h2 {
   box-shadow:
     0 0 0 5px #c9b87540,
     0 8px 20px #1a493d30;
-  font-size: 38px !important;
+  font-size: calc(38px * var(--text-scale, 1)) !important;
 }
 .settings {
   background: #fff8e9d9;
@@ -568,7 +568,7 @@ select {
   padding: 6px 2px;
 }
 .collection .hanzi {
-  font-size: 23px;
+  font-size: calc(23px * var(--text-scale, 1));
   line-height: 1.25;
 }
 .collection .pinyin {
@@ -609,7 +609,7 @@ select {
     padding: 9px 16px;
   }
   .header h1 {
-    font-size: 22px;
+    font-size: calc(22px * var(--text-scale, 1));
   }
   .footer {
     padding: 5px 8px 7px;
@@ -632,13 +632,13 @@ select {
     margin: 12px 0 8px;
   }
   .big {
-    font-size: 43px;
+    font-size: calc(43px * var(--text-scale, 1));
   }
   .primary,
   .secondary {
     padding: 9px 20px;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: calc(18px * var(--text-scale, 1));
   }
   .match-tile {
     min-height: 62px;
@@ -653,13 +653,13 @@ select {
     height: clamp(48px, 8calc (var(--game-height, 852px) * 0.01), 61px);
   }
   .collection .hanzi {
-    font-size: 21px;
+    font-size: calc(21px * var(--text-scale, 1));
   }
   .collection .pinyin {
-    font-size: 9px;
+    font-size: calc(9px * var(--text-scale, 1));
   }
   .collection small {
-    font-size: 8px;
+    font-size: calc(8px * var(--text-scale, 1));
   }
   .milestones {
     margin: 10px 0;
@@ -670,17 +670,17 @@ select {
     padding: 6px 8px !important;
   }
   .boost .hanzi {
-    font-size: 18px;
+    font-size: calc(18px * var(--text-scale, 1));
   }
   .boost .pinyin {
-    font-size: 9px;
+    font-size: calc(9px * var(--text-scale, 1));
   }
   .buy {
     padding: 4px 8px;
-    font-size: 12px;
+    font-size: calc(12px * var(--text-scale, 1));
   }
   #game-frame[data-page='order'] .prompt {
-    font-size: 18px;
+    font-size: calc(18px * var(--text-scale, 1));
     padding: 8px;
     margin: 8px 0;
   }
@@ -700,7 +700,7 @@ select {
     padding: 2px;
   }
   #game-frame[data-page='order'] .choices .hanzi {
-    font-size: 22px;
+    font-size: calc(22px * var(--text-scale, 1));
   }
   #game-frame[data-page='order'] .status:not(:empty) {
     margin-top: 8px;
@@ -712,13 +712,13 @@ select {
   #game-frame[data-page='restart'] .rate > .hanzi {
     height: 90px;
     width: 90px;
-    font-size: 30px !important;
+    font-size: calc(30px * var(--text-scale, 1)) !important;
   }
   .reward {
     padding: 18px 20px;
   }
   .reward h1 {
-    font-size: 25px;
+    font-size: calc(25px * var(--text-scale, 1));
     margin-bottom: 10px;
   }
   .reward h1:after {
@@ -729,10 +729,10 @@ select {
     margin: 10px auto;
   }
   .hero-card .hanzi {
-    font-size: 60px;
+    font-size: calc(60px * var(--text-scale, 1));
   }
   .reward .gain {
-    font-size: 34px;
+    font-size: calc(34px * var(--text-scale, 1));
   }
   .reward-cards {
     margin: 12px 0;

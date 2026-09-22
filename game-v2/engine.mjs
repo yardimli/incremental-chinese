@@ -25,16 +25,17 @@ export function validateLessons(lessons) {
         if (!pair[key]) throw Error('Missing ' + key);
     }
   }
-  for (const set of lessons.filter((x) => x.type === 'sentences')) {
+  for (const set of lessons.filter((x) => x.sentences)) {
     if (set.sentences.length < set.countPerRun * 3) throw Error('Sentence pool too small');
     for (const q of set.sentences)
       if (q.tokens.some((id) => !ids.has(id))) throw Error('Unknown token');
   }
 }
 function prepareSentence(s, set) {
+  const unique = [...new Map(set.sentences.map((q) => [q.tokens.join('|'), q])).values()];
   s.sentencePool = shuffle(
     s,
-    set.sentences.map((x) => x.id),
+    unique.map((x) => x.id),
   );
   const prior = s.previousSentences?.[set.id] || [];
   s.sentenceDeck = [
@@ -60,6 +61,7 @@ export function freshState(lessons, now = Date.now(), seed = 42) {
       voice: 'female',
       muted: false,
       englishTranslations: 'until10',
+      textSize: '1',
     },
     setIndex: 0,
     stage: 'tap',
@@ -84,6 +86,16 @@ export function freshState(lessons, now = Date.now(), seed = 42) {
 }
 export function reconcileLessons(s, lessons) {
   s.highestLevel = reachedLevel(s);
+  if (!s.gameCompleted) {
+    s.gameCompleted = Object.fromEntries(
+      s.completed.map((id) => [
+        id,
+        lessons.find((set) => set.id === id)?.type === 'sentences'
+          ? { order: true }
+          : { battle: true, match: true },
+      ]),
+    );
+  }
 }
 export function levelAccuracy(s) {
   const a = s.accuracy?.[s.setIndex] || { correct: 0, total: 0, attempt: 1 };
@@ -100,6 +112,12 @@ function recordAnswer(s, correct) {
   if (correct) a.correct++;
 }
 function repeatLevel(s, lessons) {
+  if (s.selectedGame) {
+    const attempt = levelAccuracy(s).attempt + 1;
+    startSetGame(s, lessons, s.setIndex, s.selectedGame);
+    s.accuracy[s.setIndex].attempt = attempt;
+    return;
+  }
   const previous = levelAccuracy(s);
   s.accuracy ??= {};
   s.accuracy[s.setIndex] = {
@@ -180,7 +198,9 @@ export function newPrompt(s, lessons, resolvedId) {
       s.current = null;
       eligible = pairs;
     } else {
-      s.stage = 'match';
+      if (!s.selectedGame && levelAccuracy(s).passed)
+        markGameComplete(s, lessons[s.setIndex].id, 'battle');
+      s.stage = s.selectedGame === 'battle' ? 'setReward' : 'match';
       s.matchOrder = shuffle(
         s,
         pairs.map((x) => x.id),
@@ -254,13 +274,13 @@ export function answerTap(s, lessons, choice, expectedId) {
     (s.difficulty - 1) * set.pairs.length * 2 + Object.values(s.correct).reduce((a, b) => a + b, 0);
   if (correct || s.difficulty === 1) newPrompt(s, lessons, id);
   const quota = Math.round(set.pairs.length * 0.4),
-    owned = s.cards[set.id] || [];
+    owned = (s.cards[set.id] || []).filter((id) => set.pairs.some((w) => w.id === id));
   const earned = Math.floor((progress / (set.pairs.length * 8)) * quota);
   if (correct && owned.length < earned) {
     const next = set.pairs.find((w) => s.seen.includes(w.id) && !owned.includes(w.id));
     if (next) {
       const resume = s.stage;
-      s.cards[set.id] = [...owned, next.id];
+      s.cards[set.id] = [...(s.cards[set.id] || []), next.id];
       s.pendingReward = {
         type: 'cards',
         setId: set.id,
@@ -304,12 +324,12 @@ export function matchPair(s, lessons, left, right) {
   const boardDone = matchBoard(s).every((id) => s.matchFound.includes(id));
   if (boardDone) points += award(s, 'M', 5);
   const allDone = s.matchFound.length === set.pairs.length;
-  const owned = s.cards[set.id] || [];
+  const owned = (s.cards[set.id] || []).filter((id) => set.pairs.some((w) => w.id === id));
   const waiting = s.matchFound
     .filter((id) => !owned.includes(id))
     .slice(0, allDone ? Infinity : Math.max(0, set.pairs.length - owned.length - 1));
   if (waiting.length && (waiting.length >= 2 || boardDone)) {
-    s.cards[set.id] = [...owned, ...waiting];
+    s.cards[set.id] = [...(s.cards[set.id] || []), ...waiting];
     s.pendingReward = {
       type: 'cards',
       setId: set.id,
@@ -334,22 +354,27 @@ export function continueCardReward(s) {
 export function claimSet(s, lessons) {
   if (s.stage !== 'setReward') return false;
   const set = lessons[s.setIndex];
-  if (s.completed.includes(set.id)) return false;
   if (!levelAccuracy(s).passed) {
     repeatLevel(s, lessons);
     return true;
   }
   s.level = set.level || 1;
+  markGameComplete(s, set.id, s.selectedGame || (set.type === 'sentences' ? 'order' : 'match'));
   collectSetReward(s, set, s.sentenceDeck);
+  if (s.selectedGame) {
+    s.stage = 'finished';
+    return true;
+  }
   s.stage = 'gate';
   advance(s, lessons);
   return true;
 }
 function collectSetReward(s, set, deck) {
-  s.completed.push(set.id);
+  if (!s.completed.includes(set.id)) s.completed.push(set.id);
   s.history[set.id] = true;
   let points = award(s, 'set', 10, set.level || 1);
-  if (set.type === 'sentences') s.previousSentences[set.id] = [...deck];
+  if (set.type === 'sentences' || ['order', 'self-test'].includes(s.selectedGame))
+    s.previousSentences[set.id] = [...deck];
   return points;
 }
 export const isLocalDebugHost = (hostname) =>
@@ -407,16 +432,113 @@ export function answerSentence(s, lessons, tokens, expectedId) {
   const points = award(s, 'S', 4);
   s.sentenceSolved.push(q.id);
   const setId = lessons[s.setIndex].id;
+  const before = s.cards[setId]?.length || 0;
   s.cards[setId] = [...new Set([...(s.cards[setId] || []), ...s.sentenceSolved])];
   s.sentenceIndex++;
   if (s.sentenceIndex === lessons[s.setIndex].countPerRun) s.stage = 'setReward';
+  if (s.cards[setId].length > before) {
+    const resume = s.stage;
+    s.pendingReward = {
+      type: 'cards',
+      setId,
+      ids: [q.id],
+      before,
+      after: before + 1,
+      total: (lessons[s.setIndex].pairs?.length || 0) + lessons[s.setIndex].countPerRun,
+      allDone: false,
+      resume,
+    };
+    s.stage = 'cardReward';
+  }
   return { correct: true, points };
+}
+
+export function markGameComplete(s, id, mode) {
+  s.gameCompleted ??= {};
+  s.gameCompleted[id] ??= {};
+  s.gameCompleted[id][mode] = true;
+}
+
+export function startSetGame(s, lessons, index, mode) {
+  const set = lessons[index];
+  if (!set || !['battle', 'match', 'order', 'self-test', 'memory', 'bonus'].includes(mode))
+    return false;
+  const fresh = freshState(lessons, Date.now(), s.rng);
+  for (const key of [
+    'seen',
+    'correct',
+    'difficulty',
+    'current',
+    'weapons',
+    'arrivals',
+    'matchOrder',
+    'matchFound',
+    'pageIndex',
+    'pendingReward',
+    'sentenceIndex',
+    'sentenceSolved',
+    'sentenceDeck',
+    'sentencePool',
+  ])
+    s[key] = fresh[key] ?? [];
+  s.setIndex = index;
+  s.level = set.level;
+  s.selectedGame = mode;
+  s.accuracy ??= {};
+  s.accuracy[index] = { correct: 0, total: 0, attempt: 1 };
+  s.stage = mode === 'battle' ? 'tap' : mode;
+  if (mode === 'battle') newPrompt(s, lessons);
+  if (mode === 'match')
+    s.matchOrder = shuffle(
+      s,
+      set.pairs.map((w) => w.id),
+    );
+  if (mode === 'order' || mode === 'self-test') prepareSentence(s, set);
+  if (mode === 'self-test')
+    s.selfTest = {
+      deck: shuffle(s, [
+        ...(set.type === 'pairs' ? set.pairs.map((w) => w.id) : []),
+        ...s.sentenceDeck,
+      ]),
+      index: 0,
+      revealed: false,
+    };
+  return true;
+}
+
+export function gradeSelfTest(s, lessons, correct, expectedId) {
+  const run = s.selfTest;
+  if (s.stage !== 'self-test' || !run?.revealed || run.deck[run.index] !== expectedId) return null;
+  recordAnswer(s, correct);
+  const points = correct ? award(s, 'W', 1) : 0;
+  run.index++;
+  run.revealed = false;
+  s.stage = run.index === run.deck.length ? 'setReward' : 'self-test';
+  const set = lessons[s.setIndex],
+    owned = s.cards[set.id] || [];
+  if (correct && !owned.includes(expectedId)) {
+    const resume = s.stage;
+    s.cards[set.id] = [...owned, expectedId];
+    s.pendingReward = {
+      type: 'cards',
+      setId: set.id,
+      ids: [expectedId],
+      before: owned.length,
+      after: owned.length + 1,
+      total: Math.max(owned.length + 1, run.deck.length),
+      allDone: false,
+      resume,
+    };
+    s.stage = 'cardReward';
+  }
+  return { correct, points };
 }
 export function prestigeReset(s, lessons, now = Date.now()) {
   if (!s.completed.length) return false;
   const settings = { ...s.settings },
     prestige = s.prestige + 1,
     history = { ...s.history },
+    gameCompleted = structuredClone(s.gameCompleted || {}),
     previousSentences = { ...s.previousSentences },
     highestLevel = reachedLevel(s);
   const fresh = freshState(lessons, now, s.rng);
@@ -425,6 +547,7 @@ export function prestigeReset(s, lessons, now = Date.now()) {
     settings,
     prestige,
     history,
+    gameCompleted,
     previousSentences,
     highestLevel,
     resetToken: String(now),

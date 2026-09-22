@@ -33,14 +33,7 @@ let correctAnswers = 0;
 export function drawBonus() {
   pairActivity?.abort();
   pairActivity = new AbortController();
-  const unlocked = lessons
-    .slice(0, state.setIndex + 1)
-    .filter((x) => x.type === 'pairs')
-    .flatMap((x) => x.pairs)
-    .filter(
-      (w) =>
-        state.seen.includes(w.id) || Object.values(state.cards).some((ids) => ids.includes(w.id)),
-    );
+  const unlocked = lessons[state.setIndex].pairs;
   if (!unlocked.length) {
     render(screen, view('tpl-drawBonus-43', []));
     return;
@@ -86,7 +79,13 @@ export function drawBonus() {
         }
         busy = true;
         const points = bonusReward(correctAnswers + 1);
-        await transact((s) => recordActive(s, points));
+        await transact((s) => {
+          recordActive(s, points);
+          s.bonusWins ??= {};
+          const id = lessons[s.setIndex].id;
+          s.bonusWins[id] = (s.bonusWins[id] || 0) + 1;
+          if (s.bonusWins[id] >= 10) E.markGameComplete(s, id, 'bonus');
+        });
         correctAnswers++;
         render($('.status'), '+' + points);
         feedbackTimer = setTimeout(() => {
@@ -116,6 +115,8 @@ export function drawBonus() {
     });
 }
 export function dispose() {
+  bonusQ = null;
+  busy = false;
   correctAnswers = 0;
   bonusQ = null;
   busy = false;
