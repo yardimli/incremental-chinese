@@ -347,6 +347,11 @@ export function matchPair(s, lessons, left, right) {
 }
 export function continueCardReward(s) {
   if (s.stage !== 'cardReward') return false;
+  const next = (s.pendingReward.revealIndex || 0) + 1;
+  if (next < s.pendingReward.ids.length) {
+    s.pendingReward.revealIndex = next;
+    return true;
+  }
   s.stage = s.pendingReward.resume || (s.pendingReward.allDone ? 'setReward' : 'match');
   s.pendingReward = null;
   return true;

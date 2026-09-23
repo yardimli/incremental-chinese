@@ -90,7 +90,10 @@ const assert = require('node:assert/strict');
     await page.keyboard.press('Space');
     await page.locator('[data-screen="card-reward"]:not([hidden]) #continue').waitFor();
     assert.ok(await page.locator('.header').isHidden());
-    await game().locator('#continue').click();
+    while ((await saved()).stage === 'cardReward') {
+      await game().locator('#continue').click();
+      await page.waitForTimeout(180);
+    }
     await page.waitForFunction(() => document.querySelector('#screen')?.dataset.screen === 'match');
     await seed('order');
     await nav('order');

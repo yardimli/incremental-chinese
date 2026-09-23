@@ -43,7 +43,7 @@ const assert = require('node:assert/strict');
         found + 1,
       );
       await page.waitForTimeout(800);
-      if (await page.locator('#screen #continue').isVisible()) {
+      while (await page.locator('#screen #continue').isVisible()) {
         const stage = await page.evaluate(
           () => JSON.parse(localStorage.getItem('chinese-game-v2')).stage,
         );

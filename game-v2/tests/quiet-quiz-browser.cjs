@@ -43,9 +43,67 @@ const assert = require('node:assert/strict');
       0,
       'Sentence choices remain silent on tap',
     );
+    await page.goto(base + '?set=L01#sets');
+    await page.locator('[data-set-game="match"]').click();
+    await page.locator('#screen .match-tile').first().waitFor();
+    await page.waitForTimeout(200);
+    assert.equal(await page.evaluate(() => spoken.length), 0, 'Matching arrives silently');
+    assert.equal(await page.locator('#screen > .instruction').count(), 0);
+    assert.match(await page.locator('#screen .status.match-help').innerText(), /Tap two cards/);
+    const id = await page.locator('#screen [data-side="cn"]').first().getAttribute('data-id');
+    await page.locator('#screen [data-side="cn"]').first().click();
+    assert.equal(await page.locator('#screen .match-help').count(), 0);
+    await page.waitForFunction(() => spoken.length === 1);
+    await page.locator(`#screen [data-side="en"]:not([data-id="${id}"])`).first().click();
+    await page.waitForTimeout(800);
+    assert.match(await page.locator('#screen .status').innerText(), /Try another pair/);
+    assert.equal(
+      await page.locator('#screen .match-help').count(),
+      0,
+      'Help stays dismissed after redraw',
+    );
+    assert.equal(
+      await page.evaluate(() => spoken.length),
+      1,
+      'Matching redraw does not start narration',
+    );
+    await page.evaluate(async () => {
+      const app = await import('./shared.js');
+      await app.transact((s) => {
+        s.stage = 'cardReward';
+        s.pendingReward = {
+          ids: [app.lessons[0].pairs[0].id],
+          before: 0,
+          after: 1,
+          total: 16,
+          allDone: false,
+          resume: 'match',
+        };
+      });
+      window.spoken = [];
+      app.go();
+    });
+    await page.locator('#screen #continue').waitFor();
+    await page.waitForTimeout(200);
+    assert.equal(await page.evaluate(() => spoken.length), 0, 'Card reward arrives silently');
+    await page.locator('#screen .hero-card').click();
+    await page.waitForFunction(() => spoken.length === 1);
+    for (const mode of ['lessons', 'none']) {
+      await page.evaluate(async (mode) => {
+        const app = await import('./shared.js');
+        app.speech.stop();
+        await app.transact((s) => {
+          s.settings.soundMode = mode;
+          s.settings.muted = mode === 'none';
+        });
+        window.spoken = [];
+      }, mode);
+      await page.locator('#screen .hero-card').click();
+      assert.equal(await page.evaluate(() => spoken.length), mode === 'lessons' ? 1 : 0);
+    }
     assert.deepEqual(errors, []);
     console.log(
-      'Silent sentence quizzes, silent self-test arrival/background reveal, and explicit card speech passed.',
+      'Quiz/self-test/matching/reward speech rules and matching help-to-feedback transition passed.',
     );
   } finally {
     await browser.close();

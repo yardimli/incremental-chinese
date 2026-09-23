@@ -28,12 +28,27 @@ let busy = false,
   battle,
   pairActivity,
   bonusQ = null;
+let boardKey,
+  interacted = false,
+  feedback = '';
 export function drawMatch() {
   busy = false;
   selected = null;
   pairActivity?.abort();
   pairActivity = new AbortController();
   const ids = E.matchBoard(state);
+  const key = JSON.stringify([
+    state.setIndex,
+    state.pageIndex,
+    state.matchOrder,
+    state.resetToken,
+    E.levelAccuracy(state).attempt,
+  ]);
+  if (key !== boardKey) {
+    boardKey = key;
+    interacted = false;
+    feedback = '';
+  }
   setDebugAction(() => {
     const id = ids.find((id) => !state.matchFound.includes(id));
     if (!id) return;
@@ -68,9 +83,36 @@ export function drawMatch() {
       ),
     ]),
   );
+  function drawFeedback() {
+    const status = $('.status');
+    status.classList.toggle('match-help', !interacted);
+    render(
+      status,
+      !interacted
+        ? ui('Tap two cards or drag one onto its pair.')
+        : feedback && !feedback.startsWith('+')
+          ? ui(feedback)
+          : feedback,
+    );
+  }
+  function beginAction() {
+    if (interacted) return;
+    interacted = true;
+    drawFeedback();
+  }
+  drawFeedback();
+  $('.match-board').addEventListener(
+    'pointerdown',
+    (event) => {
+      const card = event.target.closest('.match-tile');
+      if (card && !card.disabled && !busy) beginAction();
+    },
+    { signal: pairActivity.signal },
+  );
   $('.match-board').onclick = async (e) => {
     const b = e.target.closest('button');
     if (!b || b.disabled || busy) return;
+    beginAction();
     if (!selected || selected.dataset.side === b.dataset.side) {
       selected?.classList.remove('selected');
       selected = b;
@@ -83,6 +125,7 @@ export function drawMatch() {
   };
   async function submitPair(a, b) {
     if (busy || a.disabled || b.disabled) return;
+    beginAction();
     busy = true;
     selected?.classList.remove('selected');
     selected = null;
@@ -96,7 +139,8 @@ export function drawMatch() {
         n.classList.remove('selected');
         n.classList.add('wrong');
       });
-      render($('.status'), ui('Try another pair.'));
+      feedback = 'Try another pair.';
+      drawFeedback();
       feedbackTimer = setTimeout(() => {
         busy = false;
         drawMatch();
@@ -108,7 +152,8 @@ export function drawMatch() {
         // busy blocks input during feedback. Let the template own disabled so
         // recycled buttons are enabled correctly when the next board appears.
       });
-      render($('.status'), '+' + result.points);
+      feedback = '+' + result.points;
+      drawFeedback();
       feedbackTimer = setTimeout(go, 550);
     }
   }

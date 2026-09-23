@@ -560,3 +560,13 @@ a .ui-text {
 .battle-weapons {
   height: calc(60px * var(--text-scale, 1));
 }
+
+.status.match-help:not(:empty) {
+  background: linear-gradient(110deg, #15553feb, #2f755bdc);
+  border: 1px solid #ceb76f;
+  color: #fff1cc;
+  border-radius: 10px;
+  box-shadow: 0 3px 0 #164232;
+  text-align: center;
+  text-shadow: none;
+}

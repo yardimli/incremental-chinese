@@ -347,12 +347,14 @@ async function navigate(destination, { historyMode = 'push', animate = true } = 
       muted:
         page === 'order' ||
         soundMode() === 'none' ||
-        (soundMode() === 'lessons' && !lessonScreen()) ||
+        (soundMode() === 'lessons' && !lessonScreen() && page !== 'card-reward') ||
         gameClock.paused,
     }),
     root: screen,
-    autoplay: !idleHome && !['sets', 'memory', 'self-test', 'order'].includes(page),
+    autoplay:
+      !idleHome && !['sets', 'memory', 'self-test', 'order', 'match', 'card-reward'].includes(page),
     canReplay: (node) => {
+      if (page === 'card-reward') return !!node.closest('.hero-card');
       const tile = node.closest('[data-set]');
       return !(page === 'sets' && tile && canOpenSet(Number(tile.dataset.set)));
     },
@@ -439,33 +441,12 @@ function dictionary(flash) {
 function drawCardReward() {
   const r = state.pendingReward,
     set = lessons[state.setIndex],
-    w = word(r.ids[r.ids.length - 1]);
+    index = r.revealIndex || 0,
+    w = word(r.ids[index]),
+    before = r.before + index;
   render(
     screen,
-    view('tpl-drawCardReward-19', [
-      ui(r.ids.length === 1 ? '+{0} card' : '+{0} cards', r.ids.length),
-      '',
-      textCard(w),
-      r.ids.length > 1
-        ? view('tpl-drawCardReward-18', [
-            joinParts(
-              r.ids
-                .slice(0, -1)
-                .map((id) =>
-                  view('tpl-shared-17', [hanzi(word(id)), englishTranslation(word(id))]),
-                ),
-              ' · ',
-            ),
-          ])
-        : '',
-      textCard(set),
-      r.before,
-      r.after,
-      r.total,
-      r.after,
-      r.total,
-      ui(r.allDone ? 'All cards collected' : 'Your set is growing'),
-    ]),
+    view('tpl-drawCardReward-19', [textCard(w), textCard(set), before, before + 1, r.total]),
   );
   $('#continue').onclick = async () => {
     if (busy) return;
