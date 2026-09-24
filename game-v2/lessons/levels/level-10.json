@@ -16,7 +16,10 @@
       "audio": {
         "female": "audio/female/d5f5a7a010731feb.mp3",
         "male": "audio/male/d5f5a7a010731feb.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L10-00",
+      "meaningIndex": 0
     },
     {
       "id": "L10-01",
@@ -27,7 +30,10 @@
       "audio": {
         "female": "audio/female/b1d841b978fb524c.mp3",
         "male": "audio/male/b1d841b978fb524c.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L10-01",
+      "meaningIndex": 0
     },
     {
       "id": "L10-02",
@@ -38,7 +44,10 @@
       "audio": {
         "female": "audio/female/0c184871f658375a.mp3",
         "male": "audio/male/0c184871f658375a.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L10-02",
+      "meaningIndex": 0
     },
     {
       "id": "L10-03",
@@ -49,18 +58,38 @@
       "audio": {
         "female": "audio/female/83aeddd37528580b.mp3",
         "male": "audio/male/83aeddd37528580b.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L10-03",
+      "meaningIndex": 0
     },
     {
       "id": "L10-04",
       "simplified": "时候",
       "traditional": "時候",
       "pinyin": "shí hòu",
-      "english": "time / moment",
+      "english": "time",
       "audio": {
         "female": "audio/female/b271b9e3447af9a6.mp3",
         "male": "audio/male/b271b9e3447af9a6.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L10-04",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L10-04-m2",
+      "simplified": "时候",
+      "traditional": "時候",
+      "pinyin": "shí hòu",
+      "english": "moment",
+      "audio": {
+        "female": "audio/female/b271b9e3447af9a6.mp3",
+        "male": "audio/male/b271b9e3447af9a6.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L10-04",
+      "meaningIndex": 1
     },
     {
       "id": "L10-05",
@@ -71,7 +100,10 @@
       "audio": {
         "female": "audio/female/62ef900a8f5d5bff.mp3",
         "male": "audio/male/62ef900a8f5d5bff.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L10-05",
+      "meaningIndex": 0
     },
     {
       "id": "L10-06",
@@ -82,29 +114,66 @@
       "audio": {
         "female": "audio/female/1625179badc027f0.mp3",
         "male": "audio/male/1625179badc027f0.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L10-06",
+      "meaningIndex": 0
     },
     {
       "id": "L10-07",
       "simplified": "日",
       "traditional": "日",
       "pinyin": "rì",
-      "english": "day / date",
+      "english": "day",
       "audio": {
         "female": "audio/female/85217f7aff778414.mp3",
         "male": "audio/male/85217f7aff778414.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L10-07",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L10-07-m2",
+      "simplified": "日",
+      "traditional": "日",
+      "pinyin": "rì",
+      "english": "date",
+      "audio": {
+        "female": "audio/female/85217f7aff778414.mp3",
+        "male": "audio/male/85217f7aff778414.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L10-07",
+      "meaningIndex": 1
     },
     {
       "id": "L10-08",
       "simplified": "号",
       "traditional": "號",
       "pinyin": "hào",
-      "english": "date number / number",
+      "english": "date number",
       "audio": {
         "female": "audio/female/f0202b21373e1b38.mp3",
         "male": "audio/male/f0202b21373e1b38.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L10-08",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L10-08-m2",
+      "simplified": "号",
+      "traditional": "號",
+      "pinyin": "hào",
+      "english": "number",
+      "audio": {
+        "female": "audio/female/f0202b21373e1b38.mp3",
+        "male": "audio/male/f0202b21373e1b38.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L10-08",
+      "meaningIndex": 1
     },
     {
       "id": "L10-09",
@@ -115,18 +184,38 @@
       "audio": {
         "female": "audio/female/c398134d7d1f58e7.mp3",
         "male": "audio/male/c398134d7d1f58e7.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L10-09",
+      "meaningIndex": 0
     },
     {
       "id": "L10-10",
       "simplified": "点",
       "traditional": "點",
       "pinyin": "diǎn",
-      "english": "o'clock / point",
+      "english": "o'clock",
       "audio": {
         "female": "audio/female/120c48da0b4def2b.mp3",
         "male": "audio/male/120c48da0b4def2b.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L10-10",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L10-10-m2",
+      "simplified": "点",
+      "traditional": "點",
+      "pinyin": "diǎn",
+      "english": "point",
+      "audio": {
+        "female": "audio/female/120c48da0b4def2b.mp3",
+        "male": "audio/male/120c48da0b4def2b.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L10-10",
+      "meaningIndex": 1
     },
     {
       "id": "L10-11",
@@ -137,18 +226,38 @@
       "audio": {
         "female": "audio/female/c26fddc501677478.mp3",
         "male": "audio/male/c26fddc501677478.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L10-11",
+      "meaningIndex": 0
     },
     {
       "id": "L10-12",
       "simplified": "几",
       "traditional": "幾",
       "pinyin": "jǐ",
-      "english": "how many / a few",
+      "english": "how many",
       "audio": {
         "female": "audio/female/da6ba07dbde24d38.mp3",
         "male": "audio/male/da6ba07dbde24d38.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L10-12",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L10-12-m2",
+      "simplified": "几",
+      "traditional": "幾",
+      "pinyin": "jǐ",
+      "english": "a few",
+      "audio": {
+        "female": "audio/female/da6ba07dbde24d38.mp3",
+        "male": "audio/male/da6ba07dbde24d38.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L10-12",
+      "meaningIndex": 1
     },
     {
       "id": "L10-13",
@@ -159,7 +268,10 @@
       "audio": {
         "female": "audio/female/c5c593d385bf5696.mp3",
         "male": "audio/male/c5c593d385bf5696.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L10-13",
+      "meaningIndex": 0
     },
     {
       "id": "L10-14",
@@ -170,7 +282,10 @@
       "audio": {
         "female": "audio/female/49da61ceeea2f271.mp3",
         "male": "audio/male/49da61ceeea2f271.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L10-14",
+      "meaningIndex": 0
     },
     {
       "id": "L10-ui-1",
@@ -181,7 +296,10 @@
       "audio": {
         "female": "audio/female/6180b5e1ceec8c62.mp3",
         "male": "audio/male/6180b5e1ceec8c62.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L10-ui-1",
+      "meaningIndex": 0
     }
   ],
   "audio": {

@@ -12,33 +12,84 @@
       "simplified": "高兴",
       "traditional": "高興",
       "pinyin": "gāo xìng",
-      "english": "happy / pleased",
+      "english": "happy",
       "audio": {
         "female": "audio/female/a62c0c88bbb8d068.mp3",
         "male": "audio/male/a62c0c88bbb8d068.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L20-00",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L20-00-m2",
+      "simplified": "高兴",
+      "traditional": "高興",
+      "pinyin": "gāo xìng",
+      "english": "pleased",
+      "audio": {
+        "female": "audio/female/a62c0c88bbb8d068.mp3",
+        "male": "audio/male/a62c0c88bbb8d068.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L20-00",
+      "meaningIndex": 1
     },
     {
       "id": "L20-01",
       "simplified": "快乐",
       "traditional": "快樂",
       "pinyin": "kuài lè",
-      "english": "happy / joyful",
+      "english": "happy",
       "audio": {
         "female": "audio/female/7f2c739e6bd1d653.mp3",
         "male": "audio/male/7f2c739e6bd1d653.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L20-01",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L20-01-m2",
+      "simplified": "快乐",
+      "traditional": "快樂",
+      "pinyin": "kuài lè",
+      "english": "joyful",
+      "audio": {
+        "female": "audio/female/7f2c739e6bd1d653.mp3",
+        "male": "audio/male/7f2c739e6bd1d653.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L20-01",
+      "meaningIndex": 1
     },
     {
       "id": "L20-02",
       "simplified": "笑",
       "traditional": "笑",
       "pinyin": "xiào",
-      "english": "smile / laugh",
+      "english": "smile",
       "audio": {
         "female": "audio/female/1d8fb5e34e43a755.mp3",
         "male": "audio/male/1d8fb5e34e43a755.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L20-02",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L20-02-m2",
+      "simplified": "笑",
+      "traditional": "笑",
+      "pinyin": "xiào",
+      "english": "laugh",
+      "audio": {
+        "female": "audio/female/1d8fb5e34e43a755.mp3",
+        "male": "audio/male/1d8fb5e34e43a755.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L20-02",
+      "meaningIndex": 1
     },
     {
       "id": "L20-03",
@@ -49,7 +100,10 @@
       "audio": {
         "female": "audio/female/7f932e007e2c5e55.mp3",
         "male": "audio/male/7f932e007e2c5e55.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L20-03",
+      "meaningIndex": 0
     },
     {
       "id": "L20-04",
@@ -60,7 +114,10 @@
       "audio": {
         "female": "audio/female/394ed4a8db2886cd.mp3",
         "male": "audio/male/394ed4a8db2886cd.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L20-04",
+      "meaningIndex": 0
     },
     {
       "id": "L20-05",
@@ -71,7 +128,10 @@
       "audio": {
         "female": "audio/female/7fc93a318670f4ed.mp3",
         "male": "audio/male/7fc93a318670f4ed.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L20-05",
+      "meaningIndex": 0
     },
     {
       "id": "L20-06",
@@ -82,7 +142,10 @@
       "audio": {
         "female": "audio/female/3366645622a78090.mp3",
         "male": "audio/male/3366645622a78090.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L20-06",
+      "meaningIndex": 0
     },
     {
       "id": "L20-07",
@@ -93,7 +156,10 @@
       "audio": {
         "female": "audio/female/59650f41f74bb476.mp3",
         "male": "audio/male/59650f41f74bb476.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L20-07",
+      "meaningIndex": 0
     },
     {
       "id": "L20-08",
@@ -104,7 +170,10 @@
       "audio": {
         "female": "audio/female/86d347aaa30d1b43.mp3",
         "male": "audio/male/86d347aaa30d1b43.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L20-08",
+      "meaningIndex": 0
     },
     {
       "id": "L20-09",
@@ -115,7 +184,10 @@
       "audio": {
         "female": "audio/female/d345d9a2fbf60ae0.mp3",
         "male": "audio/male/d345d9a2fbf60ae0.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L20-09",
+      "meaningIndex": 0
     },
     {
       "id": "L20-10",
@@ -126,7 +198,10 @@
       "audio": {
         "female": "audio/female/7d6739abb05e1090.mp3",
         "male": "audio/male/7d6739abb05e1090.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L20-10",
+      "meaningIndex": 0
     },
     {
       "id": "L20-11",
@@ -137,29 +212,66 @@
       "audio": {
         "female": "audio/female/8f5ecd9fc26937ef.mp3",
         "male": "audio/male/8f5ecd9fc26937ef.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L20-11",
+      "meaningIndex": 0
     },
     {
       "id": "L20-12",
       "simplified": "太",
       "traditional": "太",
       "pinyin": "tài",
-      "english": "too / extremely",
+      "english": "too",
       "audio": {
         "female": "audio/female/e7ace7adf264b714.mp3",
         "male": "audio/male/e7ace7adf264b714.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L20-12",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L20-12-m2",
+      "simplified": "太",
+      "traditional": "太",
+      "pinyin": "tài",
+      "english": "extremely",
+      "audio": {
+        "female": "audio/female/e7ace7adf264b714.mp3",
+        "male": "audio/male/e7ace7adf264b714.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L20-12",
+      "meaningIndex": 1
     },
     {
       "id": "L20-13",
       "simplified": "非常",
       "traditional": "非常",
       "pinyin": "fēi cháng",
-      "english": "very / extremely",
+      "english": "very",
       "audio": {
         "female": "audio/female/2ccec3b4199d4dcb.mp3",
         "male": "audio/male/2ccec3b4199d4dcb.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L20-13",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L20-13-m2",
+      "simplified": "非常",
+      "traditional": "非常",
+      "pinyin": "fēi cháng",
+      "english": "extremely",
+      "audio": {
+        "female": "audio/female/2ccec3b4199d4dcb.mp3",
+        "male": "audio/male/2ccec3b4199d4dcb.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L20-13",
+      "meaningIndex": 1
     },
     {
       "id": "L20-14",
@@ -170,7 +282,10 @@
       "audio": {
         "female": "audio/female/827d018e1bf8a869.mp3",
         "male": "audio/male/827d018e1bf8a869.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L20-14",
+      "meaningIndex": 0
     },
     {
       "id": "L20-ui-1",
@@ -181,7 +296,10 @@
       "audio": {
         "female": "audio/female/2774b19f878dad25.mp3",
         "male": "audio/male/2774b19f878dad25.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L20-ui-1",
+      "meaningIndex": 0
     },
     {
       "id": "L20-ui-2",
@@ -192,7 +310,10 @@
       "audio": {
         "female": "audio/female/7ce2cc78373f60e3.mp3",
         "male": "audio/male/7ce2cc78373f60e3.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L20-ui-2",
+      "meaningIndex": 0
     }
   ],
   "audio": {

@@ -26,7 +26,6 @@ const assert = require('node:assert/strict');
       );
       await page.locator('#screen [data-reveal]').click();
       await page.locator('#screen [data-grade="true"]').click();
-      await page.locator('#screen #continue').click();
       await page.locator('#screen [data-reveal]').waitFor();
       assert.equal(
         await page.evaluate(
@@ -75,7 +74,7 @@ const assert = require('node:assert/strict');
     assert.equal(await page.locator('#screen .practice-note,#screen .memory-status').count(), 0);
     const layout = await page.evaluate(() => {
       const grid = document.querySelector('#screen .memory-grid'),
-        top = document.querySelector('#screen .memory-top'),
+        top = document.querySelector('#screen progress'),
         screen = document.querySelector('#screen');
       return {
         gridBottom: grid.getBoundingClientRect().bottom,
@@ -88,30 +87,6 @@ const assert = require('node:assert/strict');
     assert.ok(layout.top >= layout.gridBottom);
     assert.equal(layout.footer, '54px');
     console.log('Mobile memory layout:', layout);
-    await page.goto(base + '#settings');
-    await page.locator('[data-setting="textSize"][data-value="1.75"]').click();
-    await page.goto(base + '?set=L01#sets');
-    await page.locator('[data-set-game="self-test"]').click();
-    await page.locator('#screen [data-reveal]').click();
-    await page.locator('#screen [data-grade="true"]').click();
-    await page.locator('#screen #continue').waitFor();
-    const reward = await page.evaluate(() => {
-      const s = document.querySelector('#screen');
-      s.scrollTop = s.scrollHeight;
-      const b = s.querySelector('#continue').getBoundingClientRect(),
-        r = s.getBoundingClientRect();
-      return {
-        overflow: getComputedStyle(s).overflowY,
-        buttonBottom: b.bottom,
-        bottom: r.bottom,
-        scroll: s.scrollHeight,
-        height: s.clientHeight,
-      };
-    });
-    assert.equal(reward.overflow, 'auto');
-    assert.ok(reward.buttonBottom <= reward.bottom + 1);
-    await page.locator('#screen #continue').click();
-    console.log('Reward reachability:', reward);
     assert.deepEqual(errors, []);
     console.log('Mobile navigation and reward checks passed.');
   } finally {

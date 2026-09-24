@@ -1,3 +1,4 @@
+import { primaryPairs } from '../vocabulary.mjs';
 import { ui } from '../ui/interface-text.js';
 import { view, render, joinParts } from '../ui/templates.js';
 import {
@@ -33,7 +34,7 @@ let correctAnswers = 0;
 export function drawBonus() {
   pairActivity?.abort();
   pairActivity = new AbortController();
-  const unlocked = lessons[state.setIndex].pairs;
+  const unlocked = primaryPairs(lessons[state.setIndex].pairs);
   if (!unlocked.length) {
     render(screen, view('tpl-drawBonus-43', []));
     return;
@@ -68,6 +69,10 @@ export function drawBonus() {
       ),
     ]),
   );
+  screen.querySelectorAll('[data-bonus]').forEach((button) => {
+    button.hidden = false;
+    button.disabled = false;
+  });
   screen.querySelectorAll('[data-bonus]').forEach(
     (b) =>
       (b.onclick = async () => {
@@ -86,13 +91,17 @@ export function drawBonus() {
           s.bonusWins[id] = (s.bonusWins[id] || 0) + 1;
           if (s.bonusWins[id] >= 10) E.markGameComplete(s, id, 'bonus');
         });
+        screen.querySelectorAll('[data-bonus]').forEach((answer) => {
+          answer.hidden = answer !== b;
+          answer.disabled = answer !== b;
+        });
         correctAnswers++;
         render($('.status'), '+' + points);
         feedbackTimer = setTimeout(() => {
           busy = false;
           bonusQ = null;
           drawBonus();
-        }, 700);
+        }, 2000);
       }),
   );
   setDebugAction(() => screen.querySelector('[data-bonus="' + bonusQ.id + '"]').click());

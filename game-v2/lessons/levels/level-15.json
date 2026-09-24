@@ -16,7 +16,10 @@
       "audio": {
         "female": "audio/female/70cb5bdfa310c409.mp3",
         "male": "audio/male/70cb5bdfa310c409.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L15-00",
+      "meaningIndex": 0
     },
     {
       "id": "L15-01",
@@ -27,7 +30,10 @@
       "audio": {
         "female": "audio/female/4bcf9c9df8c017d2.mp3",
         "male": "audio/male/4bcf9c9df8c017d2.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L15-01",
+      "meaningIndex": 0
     },
     {
       "id": "L15-02",
@@ -38,40 +44,94 @@
       "audio": {
         "female": "audio/female/303a288691f82c62.mp3",
         "male": "audio/male/303a288691f82c62.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L15-02",
+      "meaningIndex": 0
     },
     {
       "id": "L15-03",
       "simplified": "给",
       "traditional": "給",
       "pinyin": "gěi",
-      "english": "give / to / for",
+      "english": "give",
       "audio": {
         "female": "audio/female/7a209f8a3ee05fe9.mp3",
         "male": "audio/male/7a209f8a3ee05fe9.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L15-03",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L15-03-m2",
+      "simplified": "给",
+      "traditional": "給",
+      "pinyin": "gěi",
+      "english": "to",
+      "audio": {
+        "female": "audio/female/7a209f8a3ee05fe9.mp3",
+        "male": "audio/male/7a209f8a3ee05fe9.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L15-03",
+      "meaningIndex": 1
+    },
+    {
+      "id": "L15-03-m3",
+      "simplified": "给",
+      "traditional": "給",
+      "pinyin": "gěi",
+      "english": "for",
+      "audio": {
+        "female": "audio/female/7a209f8a3ee05fe9.mp3",
+        "male": "audio/male/7a209f8a3ee05fe9.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L15-03",
+      "meaningIndex": 2
     },
     {
       "id": "L15-04",
       "simplified": "找",
       "traditional": "找",
       "pinyin": "zhǎo",
-      "english": "look for / give change",
+      "english": "look for",
       "audio": {
         "female": "audio/female/c277be8a4b92ee42.mp3",
         "male": "audio/male/c277be8a4b92ee42.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L15-04",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L15-04-m2",
+      "simplified": "找",
+      "traditional": "找",
+      "pinyin": "zhǎo",
+      "english": "give change",
+      "audio": {
+        "female": "audio/female/c277be8a4b92ee42.mp3",
+        "male": "audio/male/c277be8a4b92ee42.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L15-04",
+      "meaningIndex": 1
     },
     {
       "id": "L15-05",
       "simplified": "件",
       "traditional": "件",
       "pinyin": "jiàn",
-      "english": "classifier for clothing / items",
+      "english": "clothing classifier",
       "audio": {
         "female": "audio/female/7c00255577088ec9.mp3",
         "male": "audio/male/7c00255577088ec9.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L15-05",
+      "meaningIndex": 0
     },
     {
       "id": "L15-06",
@@ -82,18 +142,38 @@
       "audio": {
         "female": "audio/female/d8b82d5765fa2fb4.mp3",
         "male": "audio/male/d8b82d5765fa2fb4.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L15-06",
+      "meaningIndex": 0
     },
     {
       "id": "L15-07",
       "simplified": "次",
       "traditional": "次",
       "pinyin": "cì",
-      "english": "occurrence / time",
+      "english": "occurrence",
       "audio": {
         "female": "audio/female/172fb7e67b9b09dd.mp3",
         "male": "audio/male/172fb7e67b9b09dd.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L15-07",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L15-07-m2",
+      "simplified": "次",
+      "traditional": "次",
+      "pinyin": "cì",
+      "english": "time",
+      "audio": {
+        "female": "audio/female/172fb7e67b9b09dd.mp3",
+        "male": "audio/male/172fb7e67b9b09dd.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L15-07",
+      "meaningIndex": 1
     },
     {
       "id": "L15-08",
@@ -104,7 +184,10 @@
       "audio": {
         "female": "audio/female/3cc493bc5b3b9b51.mp3",
         "male": "audio/male/3cc493bc5b3b9b51.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L15-08",
+      "meaningIndex": 0
     },
     {
       "id": "L15-09",
@@ -115,18 +198,38 @@
       "audio": {
         "female": "audio/female/63ba256fdb4a9064.mp3",
         "male": "audio/male/63ba256fdb4a9064.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L15-09",
+      "meaningIndex": 0
     },
     {
       "id": "L15-10",
       "simplified": "高",
       "traditional": "高",
       "pinyin": "gāo",
-      "english": "tall / high",
+      "english": "tall",
       "audio": {
         "female": "audio/female/b1c27820fec23edb.mp3",
         "male": "audio/male/b1c27820fec23edb.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L15-10",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L15-10-m2",
+      "simplified": "高",
+      "traditional": "高",
+      "pinyin": "gāo",
+      "english": "high",
+      "audio": {
+        "female": "audio/female/b1c27820fec23edb.mp3",
+        "male": "audio/male/b1c27820fec23edb.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L15-10",
+      "meaningIndex": 1
     },
     {
       "id": "L15-11",
@@ -137,7 +240,10 @@
       "audio": {
         "female": "audio/female/150617a89b449d77.mp3",
         "male": "audio/male/150617a89b449d77.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L15-11",
+      "meaningIndex": 0
     },
     {
       "id": "L15-12",
@@ -148,7 +254,10 @@
       "audio": {
         "female": "audio/female/ab158a8483c3b86e.mp3",
         "male": "audio/male/ab158a8483c3b86e.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L15-12",
+      "meaningIndex": 0
     },
     {
       "id": "L15-13",
@@ -159,7 +268,10 @@
       "audio": {
         "female": "audio/female/437683aa83332684.mp3",
         "male": "audio/male/437683aa83332684.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L15-13",
+      "meaningIndex": 0
     },
     {
       "id": "L15-14",
@@ -170,7 +282,10 @@
       "audio": {
         "female": "audio/female/af50a0fe2a50a3d1.mp3",
         "male": "audio/male/af50a0fe2a50a3d1.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L15-14",
+      "meaningIndex": 0
     },
     {
       "id": "L15-ui-1",
@@ -181,7 +296,10 @@
       "audio": {
         "female": "audio/female/1265551c4b76fca6.mp3",
         "male": "audio/male/1265551c4b76fca6.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L15-ui-1",
+      "meaningIndex": 0
     },
     {
       "id": "L15-ui-2",
@@ -192,7 +310,10 @@
       "audio": {
         "female": "audio/female/8a1d4794df6cbade.mp3",
         "male": "audio/male/8a1d4794df6cbade.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L15-ui-2",
+      "meaningIndex": 0
     },
     {
       "id": "L15-ui-3",
@@ -203,7 +324,10 @@
       "audio": {
         "female": "audio/female/e32cd77ca89142b1.mp3",
         "male": "audio/male/e32cd77ca89142b1.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L15-ui-3",
+      "meaningIndex": 0
     }
   ],
   "audio": {

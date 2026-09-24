@@ -16,7 +16,10 @@
       "audio": {
         "female": "audio/female/f27ae2e02ee32a48.mp3",
         "male": "audio/male/f27ae2e02ee32a48.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L12-00",
+      "meaningIndex": 0
     },
     {
       "id": "L12-01",
@@ -27,7 +30,10 @@
       "audio": {
         "female": "audio/female/6ae9456659ce9da2.mp3",
         "male": "audio/male/6ae9456659ce9da2.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L12-01",
+      "meaningIndex": 0
     },
     {
       "id": "L12-02",
@@ -38,7 +44,10 @@
       "audio": {
         "female": "audio/female/28cf29f12f07926f.mp3",
         "male": "audio/male/28cf29f12f07926f.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L12-02",
+      "meaningIndex": 0
     },
     {
       "id": "L12-03",
@@ -49,18 +58,38 @@
       "audio": {
         "female": "audio/female/9ebe9a3db101dc06.mp3",
         "male": "audio/male/9ebe9a3db101dc06.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L12-03",
+      "meaningIndex": 0
     },
     {
       "id": "L12-04",
       "simplified": "学习",
       "traditional": "學習",
       "pinyin": "xué xí",
-      "english": "study / learn",
+      "english": "study",
       "audio": {
         "female": "audio/female/dcb9874582c02356.mp3",
         "male": "audio/male/dcb9874582c02356.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L12-04",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L12-04-m2",
+      "simplified": "学习",
+      "traditional": "學習",
+      "pinyin": "xué xí",
+      "english": "learn",
+      "audio": {
+        "female": "audio/female/dcb9874582c02356.mp3",
+        "male": "audio/male/dcb9874582c02356.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L12-04",
+      "meaningIndex": 1
     },
     {
       "id": "L12-05",
@@ -71,7 +100,10 @@
       "audio": {
         "female": "audio/female/3037989b40f6130a.mp3",
         "male": "audio/male/3037989b40f6130a.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L12-05",
+      "meaningIndex": 0
     },
     {
       "id": "L12-06",
@@ -82,7 +114,10 @@
       "audio": {
         "female": "audio/female/c55038b272b109b8.mp3",
         "male": "audio/male/c55038b272b109b8.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L12-06",
+      "meaningIndex": 0
     },
     {
       "id": "L12-07",
@@ -93,7 +128,10 @@
       "audio": {
         "female": "audio/female/7baeb1c10762d887.mp3",
         "male": "audio/male/7baeb1c10762d887.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L12-07",
+      "meaningIndex": 0
     },
     {
       "id": "L12-08",
@@ -104,7 +142,10 @@
       "audio": {
         "female": "audio/female/d2f3acf2747cfb89.mp3",
         "male": "audio/male/d2f3acf2747cfb89.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L12-08",
+      "meaningIndex": 0
     },
     {
       "id": "L12-09",
@@ -115,29 +156,66 @@
       "audio": {
         "female": "audio/female/888072c49aa9ae90.mp3",
         "male": "audio/male/888072c49aa9ae90.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L12-09",
+      "meaningIndex": 0
     },
     {
       "id": "L12-10",
       "simplified": "说话",
       "traditional": "說話",
       "pinyin": "shuō huà",
-      "english": "speak / talk",
+      "english": "speak",
       "audio": {
         "female": "audio/female/bac1c7f1038e244d.mp3",
         "male": "audio/male/bac1c7f1038e244d.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L12-10",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L12-10-m2",
+      "simplified": "说话",
+      "traditional": "說話",
+      "pinyin": "shuō huà",
+      "english": "talk",
+      "audio": {
+        "female": "audio/female/bac1c7f1038e244d.mp3",
+        "male": "audio/male/bac1c7f1038e244d.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L12-10",
+      "meaningIndex": 1
     },
     {
       "id": "L12-11",
       "simplified": "会",
       "traditional": "會",
       "pinyin": "huì",
-      "english": "know how to / can",
+      "english": "know how to",
       "audio": {
         "female": "audio/female/26a10362b1e311e3.mp3",
         "male": "audio/male/26a10362b1e311e3.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L12-11",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L12-11-m2",
+      "simplified": "会",
+      "traditional": "會",
+      "pinyin": "huì",
+      "english": "can",
+      "audio": {
+        "female": "audio/female/26a10362b1e311e3.mp3",
+        "male": "audio/male/26a10362b1e311e3.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L12-11",
+      "meaningIndex": 1
     },
     {
       "id": "L12-12",
@@ -148,18 +226,52 @@
       "audio": {
         "female": "audio/female/413c06bcef7c934d.mp3",
         "male": "audio/male/413c06bcef7c934d.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L12-12",
+      "meaningIndex": 0
     },
     {
       "id": "L12-13",
       "simplified": "看",
       "traditional": "看",
       "pinyin": "kàn",
-      "english": "look / watch / read",
+      "english": "look",
       "audio": {
         "female": "audio/female/61f43315f98a4b16.mp3",
         "male": "audio/male/61f43315f98a4b16.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L12-13",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L12-13-m2",
+      "simplified": "看",
+      "traditional": "看",
+      "pinyin": "kàn",
+      "english": "watch",
+      "audio": {
+        "female": "audio/female/61f43315f98a4b16.mp3",
+        "male": "audio/male/61f43315f98a4b16.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L12-13",
+      "meaningIndex": 1
+    },
+    {
+      "id": "L12-13-m3",
+      "simplified": "看",
+      "traditional": "看",
+      "pinyin": "kàn",
+      "english": "read",
+      "audio": {
+        "female": "audio/female/61f43315f98a4b16.mp3",
+        "male": "audio/male/61f43315f98a4b16.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L12-13",
+      "meaningIndex": 2
     },
     {
       "id": "L12-14",
@@ -170,7 +282,10 @@
       "audio": {
         "female": "audio/female/9b26b0b0ad755e96.mp3",
         "male": "audio/male/9b26b0b0ad755e96.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L12-14",
+      "meaningIndex": 0
     },
     {
       "id": "L12-15",
@@ -181,7 +296,10 @@
       "audio": {
         "female": "audio/female/2805e1ef3f016225.mp3",
         "male": "audio/male/2805e1ef3f016225.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L12-15",
+      "meaningIndex": 0
     },
     {
       "id": "L12-ui-1",
@@ -192,7 +310,10 @@
       "audio": {
         "female": "audio/female/a567bdaa11367f26.mp3",
         "male": "audio/male/a567bdaa11367f26.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L12-ui-1",
+      "meaningIndex": 0
     },
     {
       "id": "L12-ui-2",
@@ -203,7 +324,10 @@
       "audio": {
         "female": "audio/female/3d3d488e5d54de31.mp3",
         "male": "audio/male/3d3d488e5d54de31.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L12-ui-2",
+      "meaningIndex": 0
     }
   ],
   "audio": {

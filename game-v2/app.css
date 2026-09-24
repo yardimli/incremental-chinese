@@ -628,3 +628,181 @@ a .ui-text {
 #game-frame[data-page='memory'] progress {
   flex-shrink: 0;
 }
+/* Explicit bounded scrolling also works in mobile WebKit's flex layout. */
+#game-frame[data-page='self-test'] #screen {
+  height: var(--game-height, 852px);
+  min-height: 0;
+  max-height: var(--game-height, 852px);
+  display: block;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+}
+.self-test-screen .self-answer {
+  flex: none;
+}
+.self-test-screen .self-grades {
+  position: static;
+  margin-top: 14px;
+}
+#game-frame[data-page='bonus'] .english-choices {
+  grid-template-columns: minmax(0, 1fr);
+}
+#game-frame[data-page='meanings'] #screen {
+  height: var(--game-height, 852px);
+  min-height: 0;
+  overflow-y: auto;
+}
+.meanings-board {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+  gap: 12px;
+  align-items: start;
+}
+.meanings-target {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 18px 8px;
+}
+.meanings-target .hanzi {
+  font-size: calc(32px * var(--text-scale, 1));
+}
+.meanings-options {
+  display: grid;
+  gap: 10px;
+}
+.meanings-options button {
+  width: 100%;
+  margin: 0;
+  padding: 14px 8px;
+}
+.meanings-options .matched {
+  background: #b9d6a8;
+  opacity: 1;
+}
+.meanings-options .incorrect {
+  opacity: 0.45;
+}
+/* Card rewards rise from below the footer without blocking play. */
+.card-reward-toast {
+  position: absolute;
+  z-index: 100;
+  left: 6px;
+  right: 6px;
+  bottom: calc(var(--shell-bottom, 54px) + 10px);
+  height: 80px;
+  max-height: 80px;
+  transform-origin: center;
+  filter: drop-shadow(0 4px 5px #193d3855);
+}
+.toast-dismiss {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 60px minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr) 4px;
+  gap: 3px 7px;
+  width: 100%;
+  height: 80px;
+  max-height: 80px;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  border: 2px solid #b69a50;
+  border-radius: 11px;
+  color: #173e32;
+  background: linear-gradient(110deg, #fff9e5, #f4e2b2);
+  box-shadow: inset 0 0 0 1px #fff9df;
+  text-align: left;
+  cursor: pointer;
+}
+.toast-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  padding: 2px;
+  border: 1px solid #c6a85e;
+  border-radius: 6px;
+  background: #fff4d2;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: clamp(9px, calc(52px / var(--toast-word-length)), 32px);
+  font-weight: bold;
+}
+.toast-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  gap: 1px;
+}
+.toast-copy > span,
+.toast-english {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.toast-pinyin {
+  font:
+    13px/1.15 system-ui,
+    sans-serif;
+}
+.toast-english {
+  font:
+    bold 15px/1.15 Georgia,
+    serif;
+}
+.toast-copy > :empty {
+  display: none;
+}
+.toast-set {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  font:
+    12px/1.15 system-ui,
+    sans-serif;
+}
+.toast-set > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.toast-set b {
+  flex-shrink: 0;
+}
+.toast-progress {
+  grid-column: 1 / -1;
+  width: 100%;
+  height: 4px;
+  margin: 0;
+}
+.toast-enter {
+  animation: card-toast-rise 320ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+.toast-exit {
+  animation: card-toast-pop 220ms ease-in both;
+  pointer-events: none;
+}
+@keyframes card-toast-rise {
+  from {
+    transform: translateY(calc(100% + var(--shell-bottom, 54px) + 60px));
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes card-toast-pop {
+  to {
+    transform: translateY(-14px) scale(1.06);
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .toast-enter,
+  .toast-exit {
+    animation-duration: 1ms;
+  }
+}

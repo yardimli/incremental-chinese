@@ -36,8 +36,6 @@ const assert = require('node:assert/strict');
     );
     await page.locator('[data-reveal]').click();
     await page.locator('[data-grade="true"]').click();
-    await page.locator('#screen #continue').waitFor();
-    await page.locator('#screen #continue').click();
     await page.locator('[data-reveal]').waitFor();
     assert.ok(await page.locator('.self-answer').isHidden());
     await page.reload();

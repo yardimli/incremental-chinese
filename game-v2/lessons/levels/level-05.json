@@ -12,22 +12,56 @@
       "simplified": "家",
       "traditional": "家",
       "pinyin": "jiā",
-      "english": "home / family",
+      "english": "home",
       "audio": {
         "female": "audio/female/c8ae97be80f3867c.mp3",
         "male": "audio/male/c8ae97be80f3867c.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-00",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L05-00-m2",
+      "simplified": "家",
+      "traditional": "家",
+      "pinyin": "jiā",
+      "english": "family",
+      "audio": {
+        "female": "audio/female/c8ae97be80f3867c.mp3",
+        "male": "audio/male/c8ae97be80f3867c.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-00",
+      "meaningIndex": 1
     },
     {
       "id": "L05-01",
       "simplified": "住",
       "traditional": "住",
       "pinyin": "zhù",
-      "english": "live / stay",
+      "english": "live",
       "audio": {
         "female": "audio/female/cbba0a98abd10ccc.mp3",
         "male": "audio/male/cbba0a98abd10ccc.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-01",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L05-01-m2",
+      "simplified": "住",
+      "traditional": "住",
+      "pinyin": "zhù",
+      "english": "stay",
+      "audio": {
+        "female": "audio/female/cbba0a98abd10ccc.mp3",
+        "male": "audio/male/cbba0a98abd10ccc.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-01",
+      "meaningIndex": 1
     },
     {
       "id": "L05-02",
@@ -38,7 +72,10 @@
       "audio": {
         "female": "audio/female/482a8ea41ef4a2a6.mp3",
         "male": "audio/male/482a8ea41ef4a2a6.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L05-02",
+      "meaningIndex": 0
     },
     {
       "id": "L05-03",
@@ -49,7 +86,10 @@
       "audio": {
         "female": "audio/female/99ae21ea6c39ccc1.mp3",
         "male": "audio/male/99ae21ea6c39ccc1.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L05-03",
+      "meaningIndex": 0
     },
     {
       "id": "L05-04",
@@ -60,73 +100,178 @@
       "audio": {
         "female": "audio/female/6da3e5c03ac7e66c.mp3",
         "male": "audio/male/6da3e5c03ac7e66c.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L05-04",
+      "meaningIndex": 0
     },
     {
       "id": "L05-05",
       "simplified": "这",
       "traditional": "這",
       "pinyin": "zhè",
-      "english": "this / here",
+      "english": "this",
       "audio": {
         "female": "audio/female/12322de2bfa83488.mp3",
         "male": "audio/male/12322de2bfa83488.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-05",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L05-05-m2",
+      "simplified": "这",
+      "traditional": "這",
+      "pinyin": "zhè",
+      "english": "here",
+      "audio": {
+        "female": "audio/female/12322de2bfa83488.mp3",
+        "male": "audio/male/12322de2bfa83488.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-05",
+      "meaningIndex": 1
     },
     {
       "id": "L05-06",
       "simplified": "那",
       "traditional": "那",
       "pinyin": "nà",
-      "english": "that / there",
+      "english": "that",
       "audio": {
         "female": "audio/female/5a2362a20207f453.mp3",
         "male": "audio/male/5a2362a20207f453.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-06",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L05-06-m2",
+      "simplified": "那",
+      "traditional": "那",
+      "pinyin": "nà",
+      "english": "there",
+      "audio": {
+        "female": "audio/female/5a2362a20207f453.mp3",
+        "male": "audio/male/5a2362a20207f453.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-06",
+      "meaningIndex": 1
     },
     {
       "id": "L05-07",
       "simplified": "哪",
       "traditional": "哪",
       "pinyin": "nǎ",
-      "english": "which / where",
+      "english": "which",
       "audio": {
         "female": "audio/female/3f3e286143b37030.mp3",
         "male": "audio/male/3f3e286143b37030.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-07",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L05-07-m2",
+      "simplified": "哪",
+      "traditional": "哪",
+      "pinyin": "nǎ",
+      "english": "where",
+      "audio": {
+        "female": "audio/female/3f3e286143b37030.mp3",
+        "male": "audio/male/3f3e286143b37030.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-07",
+      "meaningIndex": 1
     },
     {
       "id": "L05-08",
       "simplified": "在",
       "traditional": "在",
       "pinyin": "zài",
-      "english": "at / in",
+      "english": "at",
       "audio": {
         "female": "audio/female/12404a0b63817240.mp3",
         "male": "audio/male/12404a0b63817240.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-08",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L05-08-m2",
+      "simplified": "在",
+      "traditional": "在",
+      "pinyin": "zài",
+      "english": "in",
+      "audio": {
+        "female": "audio/female/12404a0b63817240.mp3",
+        "male": "audio/male/12404a0b63817240.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-08",
+      "meaningIndex": 1
     },
     {
       "id": "L05-09",
       "simplified": "有",
       "traditional": "有",
       "pinyin": "yǒu",
-      "english": "have / there is",
+      "english": "have",
       "audio": {
         "female": "audio/female/90ce0f66f09488f2.mp3",
         "male": "audio/male/90ce0f66f09488f2.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-09",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L05-09-m2",
+      "simplified": "有",
+      "traditional": "有",
+      "pinyin": "yǒu",
+      "english": "there is",
+      "audio": {
+        "female": "audio/female/90ce0f66f09488f2.mp3",
+        "male": "audio/male/90ce0f66f09488f2.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-09",
+      "meaningIndex": 1
     },
     {
       "id": "L05-10",
       "simplified": "没",
       "traditional": "沒",
       "pinyin": "méi",
-      "english": "not / did not (negation of 有 or past actions)",
+      "english": "not",
       "audio": {
         "female": "audio/female/0a98526bdb379e40.mp3",
         "male": "audio/male/0a98526bdb379e40.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-10",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L05-10-m2",
+      "simplified": "没",
+      "traditional": "沒",
+      "pinyin": "méi",
+      "english": "did not",
+      "audio": {
+        "female": "audio/female/0a98526bdb379e40.mp3",
+        "male": "audio/male/0a98526bdb379e40.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L05-10",
+      "meaningIndex": 1
     },
     {
       "id": "L05-11",
@@ -137,7 +282,10 @@
       "audio": {
         "female": "audio/female/00d355bd279d7b25.mp3",
         "male": "audio/male/00d355bd279d7b25.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L05-11",
+      "meaningIndex": 0
     },
     {
       "id": "L05-12",
@@ -148,7 +296,10 @@
       "audio": {
         "female": "audio/female/e0fe09f132e0b18a.mp3",
         "male": "audio/male/e0fe09f132e0b18a.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L05-12",
+      "meaningIndex": 0
     },
     {
       "id": "L05-13",
@@ -159,7 +310,10 @@
       "audio": {
         "female": "audio/female/4d40f47a7a18a29f.mp3",
         "male": "audio/male/4d40f47a7a18a29f.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L05-13",
+      "meaningIndex": 0
     }
   ],
   "audio": {

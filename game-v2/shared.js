@@ -1,3 +1,7 @@
+import { queueCardRewards } from './reward-toasts.mjs';
+import { createRewardToasts } from './reward-toasts.js';
+import { meaningGroups } from './vocabulary.mjs';
+import { drawMeanings } from './modes/meanings.js';
 import { prepareLessonCards } from './lesson-cards.mjs';
 import { drawSelfTest } from './modes/self-test.js';
 import { startMemory } from './modes/memory-state.mjs';
@@ -21,7 +25,7 @@ const { setTimeout, clearTimeout } = gameClock;
 import { createSpeech } from './speech.js';
 import * as E from './engine.mjs';
 import { createScoreCounter } from './score-counter.mjs';
-let screen, speech, inactivityControl;
+let screen, speech, inactivityControl, rewardToasts;
 const frame = document.querySelector('#game-frame');
 const $ = (selector) => screen?.querySelector(selector) || frame.querySelector(selector);
 const esc = (value) => String(value ?? '');
@@ -99,6 +103,7 @@ function transact(fn = () => null) {
       state = read();
       const earned = E.accrue(state);
       const result = fn(state);
+      queueCardRewards(state, lessons);
       state.revision++;
       localStorage.setItem(E.SAVE_KEY, JSON.stringify(state));
       refreshNumbers();
@@ -159,7 +164,7 @@ function englishTranslation(w) {
     : '';
 }
 const route = (s) =>
-  ['self-test', 'memory', 'bonus'].includes(s.stage)
+  ['self-test', 'memory', 'bonus', 'meanings'].includes(s.stage)
     ? s.stage
     : s.stage === 'match'
       ? 'match'
@@ -179,6 +184,7 @@ const icons = {
 const labels = {
   home: 'Home',
   'self-test': 'Self test',
+  meanings: 'Multiple meanings',
   match: 'Match',
   order: 'Card order',
   sets: 'Sets',
@@ -189,6 +195,7 @@ const labels = {
   guide: 'Game guide',
 };
 const gamePages = [
+  'meanings',
   'self-test',
   'home',
   'match',
@@ -225,12 +232,12 @@ function mountShell() {
     .forEach((n) => render(n, uiPattern(n.dataset.ui, [])));
   refreshSoundButton();
   frame.querySelector('.accuracy-strip').hidden =
-    idleHome || !['self-test', 'home', 'match', 'order'].includes(page);
+    idleHome || !['meanings', 'self-test', 'home', 'match', 'order'].includes(page);
   frame.querySelectorAll('[data-nav]').forEach((link) => {
     const selected =
       link.dataset.nav === page ||
       (link.dataset.nav === 'home' &&
-        ['match', 'order', 'bonus', 'memory', 'restart'].includes(page));
+        ['self-test', 'meanings', 'match', 'order', 'bonus', 'memory', 'restart'].includes(page));
     link.classList.toggle('active', selected);
     if (selected) link.setAttribute('aria-current', 'page');
     else link.removeAttribute('aria-current');
@@ -268,12 +275,13 @@ async function setSoundMode(mode) {
 function lessonScreen() {
   return (
     !idleHome &&
-    (['self-test', 'match', 'order', 'bonus', 'memory'].includes(page) ||
+    (['meanings', 'self-test', 'match', 'order', 'bonus', 'memory'].includes(page) ||
       (page === 'home' && state.stage === 'tap'))
   );
 }
 function refreshNumbers() {
   if (!state) return;
+  rewardToasts?.sync();
   const accuracy = E.levelAccuracy(state),
     meter = document.querySelector('.accuracy-track');
   if (meter) {
@@ -293,6 +301,14 @@ function refreshNumbers() {
   });
 }
 const speechCatalog = await fetch('./audio/catalog.json').then((r) => r.json());
+rewardToasts = createRewardToasts({
+  element: frame.querySelector('#card-reward-toast'),
+  getState: () => state,
+  lessons,
+  word,
+  transact,
+});
+rewardToasts.sync();
 let navigationVersion = 0;
 function stopMode() {
   disposedrawTap();
@@ -339,6 +355,7 @@ async function navigate(destination, { historyMode = 'push', animate = true } = 
   screen = frame.querySelector('[data-screen="' + page + '"]');
   screen.id = 'screen';
   screen.hidden = false;
+  if (page === 'self-test') screen.scrollTop = 0;
   const search = url.search;
   if (historyMode !== 'none')
     history[historyMode === 'replace' ? 'replaceState' : 'pushState'](
@@ -353,15 +370,16 @@ async function navigate(destination, { historyMode = 'push', animate = true } = 
     settings: () => ({
       ...state.settings,
       muted:
-        page === 'order' ||
         soundMode() === 'none' ||
         (soundMode() === 'lessons' && !lessonScreen() && page !== 'card-reward') ||
         gameClock.paused,
     }),
     root: screen,
     autoplay:
-      !idleHome && !['sets', 'memory', 'self-test', 'order', 'match', 'card-reward'].includes(page),
+      !idleHome &&
+      !['meanings', 'sets', 'memory', 'self-test', 'order', 'match', 'card-reward'].includes(page),
     canReplay: (node) => {
+      if (page === 'order') return !!node.closest('[data-choice]:not(:disabled)');
       if (page === 'card-reward') return !!node.closest('.hero-card');
       const tile = node.closest('[data-set]');
       return !(page === 'sets' && tile && canOpenSet(Number(tile.dataset.set)));
@@ -404,8 +422,8 @@ function draw() {
     else drawTap();
   }
   if (page === 'self-test') drawSelfTest();
+  if (page === 'meanings') drawMeanings();
   if (page === 'match') drawMatch();
-  if (page === 'card-reward') drawCardReward();
   if (page === 'set-reward' || page === 'sentence-reward') drawSetReward();
   if (page === 'order') drawOrder();
   if (page === 'sets') drawSets();
@@ -445,23 +463,6 @@ function dictionary(flash) {
         ])
       : '',
   ]);
-}
-function drawCardReward() {
-  const r = state.pendingReward,
-    set = lessons[state.setIndex],
-    index = r.revealIndex || 0,
-    w = word(r.ids[index]),
-    before = r.before + index;
-  render(
-    screen,
-    view('tpl-drawCardReward-19', [textCard(w), textCard(set), before, before + 1, r.total]),
-  );
-  $('#continue').onclick = async () => {
-    if (busy) return;
-    busy = true;
-    await transact(E.continueCardReward);
-    go();
-  };
 }
 function drawSetReward() {
   const set = lessons[state.setIndex],
@@ -653,6 +654,7 @@ function drawSets() {
         ['self-test', 'Self test'],
         ['memory', 'Memory'],
         ['bonus', 'Bonus'],
+        ...(meaningGroups(set).length ? [['meanings', 'Multiple meanings']] : []),
       ].map(([mode, label]) =>
         view('tpl-set-game', [mode, ui(label), state.gameCompleted?.[set.id]?.[mode] ? '✓' : '']),
       ),
@@ -880,8 +882,8 @@ document.querySelector('.sound-button')?.addEventListener('click', async () => {
 inactivityControl = mountInactivity({
   interactive: () =>
     !idleHome &&
-    ((['self-test', 'home', 'match', 'order'].includes(page) &&
-      ['self-test', 'tap', 'match', 'order'].includes(state.stage)) ||
+    ((['meanings', 'self-test', 'home', 'match', 'order'].includes(page) &&
+      ['meanings', 'self-test', 'tap', 'match', 'order'].includes(state.stage)) ||
       page === 'bonus' ||
       (page === 'memory' && state.memory && !state.memory.complete)),
   isPaused: () => gameClock.paused,
@@ -932,6 +934,7 @@ window.addEventListener('pagehide', () => {
   clearTimeout(arenaTimer);
   arenaActivity?.abort();
   scoreCounter.stop();
+  rewardToasts.dispose();
   try {
     sessionStorage.setItem(
       'game-v2-score-display',

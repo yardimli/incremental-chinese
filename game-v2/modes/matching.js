@@ -54,7 +54,9 @@ export function drawMatch() {
     if (!id) return;
     selected = null;
     screen.querySelector('[data-side="cn"][data-id="' + id + '"]').click();
-    screen.querySelector('[data-side="en"][data-id="' + id + '"]').click();
+    [...screen.querySelectorAll('[data-side="en"]:not(:disabled)')]
+      .find((card) => word(card.dataset.id).english === word(id).english)
+      ?.click();
   });
   // Stable order survives rewards and reloads, without modifying the save.
   const order = E.shuffle(
@@ -73,9 +75,9 @@ export function drawMatch() {
             id,
             state.matchFound.includes(id) ? 'disabled' : '',
             textCard(word(id)),
-            state.matchFound.includes(order[i]) ? 'matched' : '',
+            (state.matchRightFound || state.matchFound).includes(order[i]) ? 'matched' : '',
             order[i],
-            state.matchFound.includes(order[i]) ? 'disabled' : '',
+            (state.matchRightFound || state.matchFound).includes(order[i]) ? 'disabled' : '',
             wrapNumberLabel(englishCardLabel(word(order[i]))),
           ]),
         ),
@@ -129,7 +131,14 @@ export function drawMatch() {
     busy = true;
     selected?.classList.remove('selected');
     selected = null;
-    const { result } = await transact((s) => E.matchPair(s, lessons, a.dataset.id, b.dataset.id));
+    const { result } = await transact((s) =>
+      E.matchPair(
+        s,
+        lessons,
+        a.dataset.side === 'cn' ? a.dataset.id : b.dataset.id,
+        a.dataset.side === 'en' ? a.dataset.id : b.dataset.id,
+      ),
+    );
     if (!result) {
       go();
       return;

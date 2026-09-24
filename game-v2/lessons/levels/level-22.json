@@ -16,7 +16,10 @@
       "audio": {
         "female": "audio/female/12c90ce598cb9602.mp3",
         "male": "audio/male/12c90ce598cb9602.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L22-00",
+      "meaningIndex": 0
     },
     {
       "id": "L22-01",
@@ -27,7 +30,10 @@
       "audio": {
         "female": "audio/female/b9c866317d4e52ed.mp3",
         "male": "audio/male/b9c866317d4e52ed.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L22-01",
+      "meaningIndex": 0
     },
     {
       "id": "L22-02",
@@ -38,7 +44,10 @@
       "audio": {
         "female": "audio/female/a352d821db4c3300.mp3",
         "male": "audio/male/a352d821db4c3300.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L22-02",
+      "meaningIndex": 0
     },
     {
       "id": "L22-03",
@@ -49,7 +58,10 @@
       "audio": {
         "female": "audio/female/5b3db2d89d9c8f74.mp3",
         "male": "audio/male/5b3db2d89d9c8f74.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L22-03",
+      "meaningIndex": 0
     },
     {
       "id": "L22-04",
@@ -60,7 +72,10 @@
       "audio": {
         "female": "audio/female/61782ab4567c68af.mp3",
         "male": "audio/male/61782ab4567c68af.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L22-04",
+      "meaningIndex": 0
     },
     {
       "id": "L22-05",
@@ -71,7 +86,10 @@
       "audio": {
         "female": "audio/female/ea8ea533443d8196.mp3",
         "male": "audio/male/ea8ea533443d8196.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L22-05",
+      "meaningIndex": 0
     },
     {
       "id": "L22-06",
@@ -82,7 +100,10 @@
       "audio": {
         "female": "audio/female/2cc8aa520e6bffca.mp3",
         "male": "audio/male/2cc8aa520e6bffca.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L22-06",
+      "meaningIndex": 0
     },
     {
       "id": "L22-07",
@@ -93,18 +114,38 @@
       "audio": {
         "female": "audio/female/e06ff957ed48e868.mp3",
         "male": "audio/male/e06ff957ed48e868.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L22-07",
+      "meaningIndex": 0
     },
     {
       "id": "L22-08",
       "simplified": "上班",
       "traditional": "上班",
       "pinyin": "shàng bān",
-      "english": "go to work / be on duty",
+      "english": "go to work",
       "audio": {
         "female": "audio/female/fbb0f7cc70d4bb48.mp3",
         "male": "audio/male/fbb0f7cc70d4bb48.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L22-08",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L22-08-m2",
+      "simplified": "上班",
+      "traditional": "上班",
+      "pinyin": "shàng bān",
+      "english": "be on duty",
+      "audio": {
+        "female": "audio/female/fbb0f7cc70d4bb48.mp3",
+        "male": "audio/male/fbb0f7cc70d4bb48.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L22-08",
+      "meaningIndex": 1
     },
     {
       "id": "L22-09",
@@ -115,7 +156,10 @@
       "audio": {
         "female": "audio/female/bf6267da6077b6be.mp3",
         "male": "audio/male/bf6267da6077b6be.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L22-09",
+      "meaningIndex": 0
     },
     {
       "id": "L22-10",
@@ -126,7 +170,10 @@
       "audio": {
         "female": "audio/female/507ac2c9262eb725.mp3",
         "male": "audio/male/507ac2c9262eb725.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L22-10",
+      "meaningIndex": 0
     },
     {
       "id": "L22-11",
@@ -137,7 +184,10 @@
       "audio": {
         "female": "audio/female/0104d075bca53c4f.mp3",
         "male": "audio/male/0104d075bca53c4f.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L22-11",
+      "meaningIndex": 0
     },
     {
       "id": "L22-ui-1",
@@ -148,7 +198,10 @@
       "audio": {
         "female": "audio/female/4da199fae933d4fa.mp3",
         "male": "audio/male/4da199fae933d4fa.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L22-ui-1",
+      "meaningIndex": 0
     },
     {
       "id": "L22-ui-2",
@@ -159,7 +212,10 @@
       "audio": {
         "female": "audio/female/fc6fca7b73488224.mp3",
         "male": "audio/male/fc6fca7b73488224.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L22-ui-2",
+      "meaningIndex": 0
     }
   ],
   "audio": {

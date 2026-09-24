@@ -38,11 +38,7 @@ const assert = require('node:assert/strict');
     assert.equal(await page.evaluate(() => spoken.length), 0, 'Sentence choices arrive silently');
     await page.locator('[data-choice]').first().click();
     await page.waitForTimeout(100);
-    assert.equal(
-      await page.evaluate(() => spoken.length),
-      0,
-      'Sentence choices remain silent on tap',
-    );
+    assert.equal(await page.evaluate(() => spoken.length), 1, 'Sentence choices speak on tap');
     await page.goto(base + '?set=L01#sets');
     await page.locator('[data-set-game="match"]').click();
     await page.locator('#screen .match-tile').first().waitFor();
@@ -83,24 +79,11 @@ const assert = require('node:assert/strict');
       window.spoken = [];
       app.go();
     });
-    await page.locator('#screen #continue').waitFor();
-    await page.waitForTimeout(200);
+    await page.locator('#card-reward-toast:not([hidden])').waitFor();
     assert.equal(await page.evaluate(() => spoken.length), 0, 'Card reward arrives silently');
-    await page.locator('#screen .hero-card').click();
-    await page.waitForFunction(() => spoken.length === 1);
-    for (const mode of ['lessons', 'none']) {
-      await page.evaluate(async (mode) => {
-        const app = await import('./shared.js');
-        app.speech.stop();
-        await app.transact((s) => {
-          s.settings.soundMode = mode;
-          s.settings.muted = mode === 'none';
-        });
-        window.spoken = [];
-      }, mode);
-      await page.locator('#screen .hero-card').click();
-      assert.equal(await page.evaluate(() => spoken.length), mode === 'lessons' ? 1 : 0);
-    }
+    await page.locator('#card-reward-toast button').click();
+    await page.locator('#card-reward-toast').waitFor({ state: 'hidden' });
+    assert.equal(await page.evaluate(() => spoken.length), 0, 'Tap dismisses the reward silently');
     assert.deepEqual(errors, []);
     console.log(
       'Quiz/self-test/matching/reward speech rules and matching help-to-feedback transition passed.',

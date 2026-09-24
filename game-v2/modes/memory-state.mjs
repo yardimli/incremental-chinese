@@ -1,14 +1,15 @@
+import { primaryPairs } from '../vocabulary.mjs';
 import { shuffle } from '../engine.mjs';
 // A saved board pays each pair once, including across navigation/reload.
 export function memorySets(s, lessons) {
   return lessons.filter((set) => set.pairs?.length);
 }
 export function startMemory(s, set, size = 6, pool = set.pairs) {
-  const candidates = [...new Set([...set.pairs, ...pool].map((w) => w.id))];
+  const candidates = [...new Set(primaryPairs([...set.pairs, ...pool]).map((w) => w.id))];
   if (candidates.length < 6) return false;
   const order = shuffle(
     s,
-    set.pairs.map((w) => w.id),
+    primaryPairs(set.pairs).map((w) => w.id),
   );
   s.memory = {
     setId: set.id,
@@ -31,7 +32,7 @@ export function startMemory(s, set, size = 6, pool = set.pairs) {
 export function ensureFullBoard(s, pool = []) {
   const m = s.memory;
   if (!m || m.complete) return;
-  m.pool = [...new Set([...(m.pool || m.order), ...pool.map((w) => w.id)])];
+  m.pool = [...new Set([...(m.pool || m.order), ...primaryPairs(pool).map((w) => w.id)])];
   if (m.deck.length >= 12) return;
   if (m.deck.length && m.found.length === m.deck.length / 2) m.bonusPaid = true;
   m.size = 6;
@@ -80,7 +81,7 @@ export function nextBoard(s) {
   m.deck = shuffle(s, m.deck);
   return true;
 }
-export function flip(s, index) {
+export function flip(s, index, word = () => null) {
   const m = s.memory,
     c = m?.deck[index];
   if (!c || m.complete || m.open.length >= 2 || m.open.includes(index) || m.found.includes(c.id))
@@ -89,7 +90,17 @@ export function flip(s, index) {
   if (m.open.length < 2) return { pair: false };
   const a = m.deck[m.open[0]],
     b = m.deck[m.open[1]],
-    correct = a.id === b.id && a.side !== b.side;
+    correct =
+      a.side !== b.side &&
+      (a.id === b.id || (word(a.id)?.english && word(a.id).english === word(b.id)?.english));
+  if (correct && a.id !== b.id) {
+    // Identical English faces are interchangeable; keep the remaining pair valid.
+    const cn = a.side === 'cn' ? a : b,
+      en = a.side === 'en' ? a : b;
+    const other = m.deck.find((card) => card.side === 'en' && card.id === cn.id);
+    other.id = en.id;
+    en.id = cn.id;
+  }
   if (correct) {
     m.found.push(c.id);
     m.open = [];

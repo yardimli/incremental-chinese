@@ -16,7 +16,10 @@
       "audio": {
         "female": "audio/female/d45ce71dd359d0e7.mp3",
         "male": "audio/male/d45ce71dd359d0e7.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L08-00",
+      "meaningIndex": 0
     },
     {
       "id": "L08-01",
@@ -27,7 +30,10 @@
       "audio": {
         "female": "audio/female/531af8532fc1a11b.mp3",
         "male": "audio/male/531af8532fc1a11b.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L08-01",
+      "meaningIndex": 0
     },
     {
       "id": "L08-02",
@@ -38,7 +44,10 @@
       "audio": {
         "female": "audio/female/ce9f5c3644d35e1c.mp3",
         "male": "audio/male/ce9f5c3644d35e1c.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L08-02",
+      "meaningIndex": 0
     },
     {
       "id": "L08-03",
@@ -49,7 +58,10 @@
       "audio": {
         "female": "audio/female/77086e3cdfe541bf.mp3",
         "male": "audio/male/77086e3cdfe541bf.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L08-03",
+      "meaningIndex": 0
     },
     {
       "id": "L08-04",
@@ -60,7 +72,10 @@
       "audio": {
         "female": "audio/female/677aad1a0ee44cd6.mp3",
         "male": "audio/male/677aad1a0ee44cd6.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L08-04",
+      "meaningIndex": 0
     },
     {
       "id": "L08-05",
@@ -71,7 +86,10 @@
       "audio": {
         "female": "audio/female/9a6c458a3a56f292.mp3",
         "male": "audio/male/9a6c458a3a56f292.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L08-05",
+      "meaningIndex": 0
     },
     {
       "id": "L08-06",
@@ -82,40 +100,94 @@
       "audio": {
         "female": "audio/female/707f15beb6728796.mp3",
         "male": "audio/male/707f15beb6728796.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L08-06",
+      "meaningIndex": 0
     },
     {
       "id": "L08-07",
       "simplified": "认识",
       "traditional": "認識",
       "pinyin": "rèn shí",
-      "english": "know someone / recognize",
+      "english": "know someone",
       "audio": {
         "female": "audio/female/3a4ffbcaf543f212.mp3",
         "male": "audio/male/3a4ffbcaf543f212.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L08-07",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L08-07-m2",
+      "simplified": "认识",
+      "traditional": "認識",
+      "pinyin": "rèn shí",
+      "english": "recognize",
+      "audio": {
+        "female": "audio/female/3a4ffbcaf543f212.mp3",
+        "male": "audio/male/3a4ffbcaf543f212.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L08-07",
+      "meaningIndex": 1
     },
     {
       "id": "L08-08",
       "simplified": "和",
       "traditional": "和",
       "pinyin": "hé",
-      "english": "and / with",
+      "english": "and",
       "audio": {
         "female": "audio/female/3d7114281f5b59d9.mp3",
         "male": "audio/male/3d7114281f5b59d9.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L08-08",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L08-08-m2",
+      "simplified": "和",
+      "traditional": "和",
+      "pinyin": "hé",
+      "english": "with",
+      "audio": {
+        "female": "audio/female/3d7114281f5b59d9.mp3",
+        "male": "audio/male/3d7114281f5b59d9.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L08-08",
+      "meaningIndex": 1
     },
     {
       "id": "L08-09",
       "simplified": "都",
       "traditional": "都",
       "pinyin": "dōu",
-      "english": "all / both",
+      "english": "all",
       "audio": {
         "female": "audio/female/7eabb36ba1ab565b.mp3",
         "male": "audio/male/7eabb36ba1ab565b.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L08-09",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L08-09-m2",
+      "simplified": "都",
+      "traditional": "都",
+      "pinyin": "dōu",
+      "english": "both",
+      "audio": {
+        "female": "audio/female/7eabb36ba1ab565b.mp3",
+        "male": "audio/male/7eabb36ba1ab565b.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L08-09",
+      "meaningIndex": 1
     },
     {
       "id": "L08-10",
@@ -126,7 +198,10 @@
       "audio": {
         "female": "audio/female/658605835bfc7ff8.mp3",
         "male": "audio/male/658605835bfc7ff8.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L08-10",
+      "meaningIndex": 0
     },
     {
       "id": "L08-11",
@@ -137,7 +212,10 @@
       "audio": {
         "female": "audio/female/7e9260e925f14bef.mp3",
         "male": "audio/male/7e9260e925f14bef.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L08-11",
+      "meaningIndex": 0
     },
     {
       "id": "L08-12",
@@ -148,7 +226,10 @@
       "audio": {
         "female": "audio/female/8501b987d4bd8e7d.mp3",
         "male": "audio/male/8501b987d4bd8e7d.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L08-12",
+      "meaningIndex": 0
     }
   ],
   "audio": {

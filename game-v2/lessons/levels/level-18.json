@@ -16,18 +16,38 @@
       "audio": {
         "female": "audio/female/09c7804e4ff80d4f.mp3",
         "male": "audio/male/09c7804e4ff80d4f.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L18-00",
+      "meaningIndex": 0
     },
     {
       "id": "L18-01",
       "simplified": "走",
       "traditional": "走",
       "pinyin": "zǒu",
-      "english": "walk / go",
+      "english": "walk",
       "audio": {
         "female": "audio/female/f66de6c4cd41cdff.mp3",
         "male": "audio/male/f66de6c4cd41cdff.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L18-01",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L18-01-m2",
+      "simplified": "走",
+      "traditional": "走",
+      "pinyin": "zǒu",
+      "english": "go",
+      "audio": {
+        "female": "audio/female/f66de6c4cd41cdff.mp3",
+        "male": "audio/male/f66de6c4cd41cdff.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L18-01",
+      "meaningIndex": 1
     },
     {
       "id": "L18-02",
@@ -38,7 +58,10 @@
       "audio": {
         "female": "audio/female/fbda90cd370b15d7.mp3",
         "male": "audio/male/fbda90cd370b15d7.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L18-02",
+      "meaningIndex": 0
     },
     {
       "id": "L18-03",
@@ -49,18 +72,38 @@
       "audio": {
         "female": "audio/female/4d5f7e15c8a569bf.mp3",
         "male": "audio/male/4d5f7e15c8a569bf.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L18-03",
+      "meaningIndex": 0
     },
     {
       "id": "L18-04",
       "simplified": "到",
       "traditional": "到",
       "pinyin": "dào",
-      "english": "arrive / to",
+      "english": "arrive",
       "audio": {
         "female": "audio/female/b56f36b529dbcd62.mp3",
         "male": "audio/male/b56f36b529dbcd62.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L18-04",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L18-04-m2",
+      "simplified": "到",
+      "traditional": "到",
+      "pinyin": "dào",
+      "english": "to",
+      "audio": {
+        "female": "audio/female/b56f36b529dbcd62.mp3",
+        "male": "audio/male/b56f36b529dbcd62.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L18-04",
+      "meaningIndex": 1
     },
     {
       "id": "L18-05",
@@ -71,7 +114,10 @@
       "audio": {
         "female": "audio/female/9721965216078310.mp3",
         "male": "audio/male/9721965216078310.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L18-05",
+      "meaningIndex": 0
     },
     {
       "id": "L18-06",
@@ -82,7 +128,10 @@
       "audio": {
         "female": "audio/female/a2f77db0e9b9ab53.mp3",
         "male": "audio/male/a2f77db0e9b9ab53.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L18-06",
+      "meaningIndex": 0
     },
     {
       "id": "L18-07",
@@ -93,7 +142,10 @@
       "audio": {
         "female": "audio/female/baf5e9173d89d278.mp3",
         "male": "audio/male/baf5e9173d89d278.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L18-07",
+      "meaningIndex": 0
     },
     {
       "id": "L18-08",
@@ -104,7 +156,10 @@
       "audio": {
         "female": "audio/female/03aeb7c768b4cb8e.mp3",
         "male": "audio/male/03aeb7c768b4cb8e.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L18-08",
+      "meaningIndex": 0
     },
     {
       "id": "L18-09",
@@ -115,7 +170,10 @@
       "audio": {
         "female": "audio/female/f6e33dd2abdadc5f.mp3",
         "male": "audio/male/f6e33dd2abdadc5f.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L18-09",
+      "meaningIndex": 0
     },
     {
       "id": "L18-10",
@@ -126,7 +184,10 @@
       "audio": {
         "female": "audio/female/139b201a99604c76.mp3",
         "male": "audio/male/139b201a99604c76.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L18-10",
+      "meaningIndex": 0
     },
     {
       "id": "L18-11",
@@ -137,7 +198,10 @@
       "audio": {
         "female": "audio/female/9f32670985841cfb.mp3",
         "male": "audio/male/9f32670985841cfb.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L18-11",
+      "meaningIndex": 0
     },
     {
       "id": "L18-12",
@@ -148,7 +212,10 @@
       "audio": {
         "female": "audio/female/1dfcda820b82d111.mp3",
         "male": "audio/male/1dfcda820b82d111.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L18-12",
+      "meaningIndex": 0
     },
     {
       "id": "L18-13",
@@ -159,7 +226,10 @@
       "audio": {
         "female": "audio/female/0e826095b60ccf03.mp3",
         "male": "audio/male/0e826095b60ccf03.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L18-13",
+      "meaningIndex": 0
     },
     {
       "id": "L18-ui-1",
@@ -170,7 +240,10 @@
       "audio": {
         "female": "audio/female/114d8a3633e967e5.mp3",
         "male": "audio/male/114d8a3633e967e5.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L18-ui-1",
+      "meaningIndex": 0
     },
     {
       "id": "L18-ui-2",
@@ -181,7 +254,10 @@
       "audio": {
         "female": "audio/female/927fd4fbfce64728.mp3",
         "male": "audio/male/927fd4fbfce64728.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L18-ui-2",
+      "meaningIndex": 0
     }
   ],
   "audio": {

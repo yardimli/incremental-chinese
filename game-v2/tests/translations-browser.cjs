@@ -63,16 +63,11 @@ const assert = require('node:assert/strict');
         localStorage.setItem(key, JSON.stringify(s));
       });
       await page.goto(root + 'card-reward.html');
-      await page.locator('.hero-card').waitFor();
+      await page.locator('#card-reward-toast:not([hidden])').waitFor();
       assert.equal(
-        (await page.locator('.hero-card .english-translation').count()) > 0,
+        (await page.locator('.toast-english').innerText()).length > 0,
         expected,
         mode + ' ' + level + ' card reward',
-      );
-      assert.equal(
-        (await page.locator('.small .english-translation').count()) > 0,
-        expected,
-        mode + ' ' + level + ' additional reward',
       );
       assert.ok(await page.evaluate(() => document.documentElement.scrollHeight <= 852));
       for (const reward of ['set-reward', 'sentence-reward']) {

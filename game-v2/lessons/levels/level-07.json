@@ -16,7 +16,10 @@
       "audio": {
         "female": "audio/female/2c377a9b555f98ba.mp3",
         "male": "audio/male/2c377a9b555f98ba.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L07-00",
+      "meaningIndex": 0
     },
     {
       "id": "L07-01",
@@ -27,18 +30,38 @@
       "audio": {
         "female": "audio/female/0693d3de88ebf943.mp3",
         "male": "audio/male/0693d3de88ebf943.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L07-01",
+      "meaningIndex": 0
     },
     {
       "id": "L07-02",
       "simplified": "菜",
       "traditional": "菜",
       "pinyin": "cài",
-      "english": "vegetables / dish",
+      "english": "vegetables",
       "audio": {
         "female": "audio/female/45f0c2d97be1214d.mp3",
         "male": "audio/male/45f0c2d97be1214d.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L07-02",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L07-02-m2",
+      "simplified": "菜",
+      "traditional": "菜",
+      "pinyin": "cài",
+      "english": "dish",
+      "audio": {
+        "female": "audio/female/45f0c2d97be1214d.mp3",
+        "male": "audio/male/45f0c2d97be1214d.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L07-02",
+      "meaningIndex": 1
     },
     {
       "id": "L07-03",
@@ -49,7 +72,10 @@
       "audio": {
         "female": "audio/female/27c180751ad60f8c.mp3",
         "male": "audio/male/27c180751ad60f8c.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L07-03",
+      "meaningIndex": 0
     },
     {
       "id": "L07-04",
@@ -60,7 +86,10 @@
       "audio": {
         "female": "audio/female/8c78f3244b82795f.mp3",
         "male": "audio/male/8c78f3244b82795f.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L07-04",
+      "meaningIndex": 0
     },
     {
       "id": "L07-05",
@@ -71,7 +100,10 @@
       "audio": {
         "female": "audio/female/9a56a4f7b1211a27.mp3",
         "male": "audio/male/9a56a4f7b1211a27.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L07-05",
+      "meaningIndex": 0
     },
     {
       "id": "L07-06",
@@ -82,7 +114,10 @@
       "audio": {
         "female": "audio/female/61f96c6aac6a0745.mp3",
         "male": "audio/male/61f96c6aac6a0745.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L07-06",
+      "meaningIndex": 0
     },
     {
       "id": "L07-07",
@@ -93,7 +128,10 @@
       "audio": {
         "female": "audio/female/b98b610169f871fa.mp3",
         "male": "audio/male/b98b610169f871fa.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L07-07",
+      "meaningIndex": 0
     },
     {
       "id": "L07-08",
@@ -104,7 +142,10 @@
       "audio": {
         "female": "audio/female/7d4ca7f48effd602.mp3",
         "male": "audio/male/7d4ca7f48effd602.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L07-08",
+      "meaningIndex": 0
     },
     {
       "id": "L07-09",
@@ -115,7 +156,10 @@
       "audio": {
         "female": "audio/female/6a7339bb759788f3.mp3",
         "male": "audio/male/6a7339bb759788f3.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L07-09",
+      "meaningIndex": 0
     },
     {
       "id": "L07-10",
@@ -126,7 +170,10 @@
       "audio": {
         "female": "audio/female/af76fed85c5499d9.mp3",
         "male": "audio/male/af76fed85c5499d9.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L07-10",
+      "meaningIndex": 0
     },
     {
       "id": "L07-11",
@@ -137,7 +184,10 @@
       "audio": {
         "female": "audio/female/5c109595de741492.mp3",
         "male": "audio/male/5c109595de741492.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L07-11",
+      "meaningIndex": 0
     },
     {
       "id": "L07-ui-1",
@@ -148,7 +198,10 @@
       "audio": {
         "female": "audio/female/376ef2ce3d11e8d7.mp3",
         "male": "audio/male/376ef2ce3d11e8d7.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L07-ui-1",
+      "meaningIndex": 0
     }
   ],
   "audio": {

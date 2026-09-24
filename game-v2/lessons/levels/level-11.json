@@ -16,7 +16,10 @@
       "audio": {
         "female": "audio/female/298336ec2c0e2e37.mp3",
         "male": "audio/male/298336ec2c0e2e37.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L11-00",
+      "meaningIndex": 0
     },
     {
       "id": "L11-01",
@@ -27,7 +30,10 @@
       "audio": {
         "female": "audio/female/5422a304a0bf193e.mp3",
         "male": "audio/male/5422a304a0bf193e.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L11-01",
+      "meaningIndex": 0
     },
     {
       "id": "L11-02",
@@ -38,7 +44,10 @@
       "audio": {
         "female": "audio/female/af81dcf37aa86091.mp3",
         "male": "audio/male/af81dcf37aa86091.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L11-02",
+      "meaningIndex": 0
     },
     {
       "id": "L11-03",
@@ -49,7 +58,10 @@
       "audio": {
         "female": "audio/female/a9b1124b34615118.mp3",
         "male": "audio/male/a9b1124b34615118.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L11-03",
+      "meaningIndex": 0
     },
     {
       "id": "L11-04",
@@ -60,7 +72,10 @@
       "audio": {
         "female": "audio/female/c6fe2eb2c986c383.mp3",
         "male": "audio/male/c6fe2eb2c986c383.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L11-04",
+      "meaningIndex": 0
     },
     {
       "id": "L11-05",
@@ -71,18 +86,38 @@
       "audio": {
         "female": "audio/female/bc62d1b6b936c78d.mp3",
         "male": "audio/male/bc62d1b6b936c78d.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L11-05",
+      "meaningIndex": 0
     },
     {
       "id": "L11-06",
       "simplified": "做",
       "traditional": "做",
       "pinyin": "zuò",
-      "english": "do / make",
+      "english": "do",
       "audio": {
         "female": "audio/female/94f5404441e8c480.mp3",
         "male": "audio/male/94f5404441e8c480.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L11-06",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L11-06-m2",
+      "simplified": "做",
+      "traditional": "做",
+      "pinyin": "zuò",
+      "english": "make",
+      "audio": {
+        "female": "audio/female/94f5404441e8c480.mp3",
+        "male": "audio/male/94f5404441e8c480.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L11-06",
+      "meaningIndex": 1
     },
     {
       "id": "L11-07",
@@ -93,7 +128,10 @@
       "audio": {
         "female": "audio/female/05abd0032e0fdbee.mp3",
         "male": "audio/male/05abd0032e0fdbee.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L11-07",
+      "meaningIndex": 0
     },
     {
       "id": "L11-08",
@@ -104,7 +142,10 @@
       "audio": {
         "female": "audio/female/dfa14f211b859924.mp3",
         "male": "audio/male/dfa14f211b859924.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L11-08",
+      "meaningIndex": 0
     },
     {
       "id": "L11-09",
@@ -115,7 +156,10 @@
       "audio": {
         "female": "audio/female/fff33732fc978a09.mp3",
         "male": "audio/male/fff33732fc978a09.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L11-09",
+      "meaningIndex": 0
     },
     {
       "id": "L11-10",
@@ -126,7 +170,10 @@
       "audio": {
         "female": "audio/female/963e4f4abf641ba9.mp3",
         "male": "audio/male/963e4f4abf641ba9.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L11-10",
+      "meaningIndex": 0
     },
     {
       "id": "L11-11",
@@ -137,18 +184,38 @@
       "audio": {
         "female": "audio/female/a8b43ae9fdc84d1a.mp3",
         "male": "audio/male/a8b43ae9fdc84d1a.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L11-11",
+      "meaningIndex": 0
     },
     {
       "id": "L11-12",
       "simplified": "了",
       "traditional": "了",
       "pinyin": "le",
-      "english": "completion / changed-state particle",
+      "english": "completed action",
       "audio": {
         "female": "audio/female/b2dd27e84f07f49b.mp3",
         "male": "audio/male/b2dd27e84f07f49b.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L11-12",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L11-12-m2",
+      "simplified": "了",
+      "traditional": "了",
+      "pinyin": "le",
+      "english": "change of state",
+      "audio": {
+        "female": "audio/female/b2dd27e84f07f49b.mp3",
+        "male": "audio/male/b2dd27e84f07f49b.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L11-12",
+      "meaningIndex": 1
     },
     {
       "id": "L11-ui-1",
@@ -159,7 +226,10 @@
       "audio": {
         "female": "audio/female/15d208d1b4c98aae.mp3",
         "male": "audio/male/15d208d1b4c98aae.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L11-ui-1",
+      "meaningIndex": 0
     }
   ],
   "audio": {

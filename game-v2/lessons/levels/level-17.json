@@ -16,7 +16,10 @@
       "audio": {
         "female": "audio/female/6cf70b7c4fa3c4b4.mp3",
         "male": "audio/male/6cf70b7c4fa3c4b4.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L17-00",
+      "meaningIndex": 0
     },
     {
       "id": "L17-01",
@@ -27,7 +30,10 @@
       "audio": {
         "female": "audio/female/d25622289ef32c86.mp3",
         "male": "audio/male/d25622289ef32c86.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L17-01",
+      "meaningIndex": 0
     },
     {
       "id": "L17-02",
@@ -38,7 +44,10 @@
       "audio": {
         "female": "audio/female/cf0af76ceb03b3ad.mp3",
         "male": "audio/male/cf0af76ceb03b3ad.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L17-02",
+      "meaningIndex": 0
     },
     {
       "id": "L17-03",
@@ -49,7 +58,10 @@
       "audio": {
         "female": "audio/female/dd663fa55681eed7.mp3",
         "male": "audio/male/dd663fa55681eed7.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L17-03",
+      "meaningIndex": 0
     },
     {
       "id": "L17-04",
@@ -60,7 +72,10 @@
       "audio": {
         "female": "audio/female/5f887419f463425a.mp3",
         "male": "audio/male/5f887419f463425a.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L17-04",
+      "meaningIndex": 0
     },
     {
       "id": "L17-05",
@@ -71,7 +86,10 @@
       "audio": {
         "female": "audio/female/142646ce3064eee6.mp3",
         "male": "audio/male/142646ce3064eee6.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L17-05",
+      "meaningIndex": 0
     },
     {
       "id": "L17-06",
@@ -82,7 +100,10 @@
       "audio": {
         "female": "audio/female/55c4fadb327e49a5.mp3",
         "male": "audio/male/55c4fadb327e49a5.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L17-06",
+      "meaningIndex": 0
     },
     {
       "id": "L17-07",
@@ -93,7 +114,10 @@
       "audio": {
         "female": "audio/female/a68402d40477a82d.mp3",
         "male": "audio/male/a68402d40477a82d.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L17-07",
+      "meaningIndex": 0
     },
     {
       "id": "L17-08",
@@ -104,7 +128,10 @@
       "audio": {
         "female": "audio/female/7148666b21d61397.mp3",
         "male": "audio/male/7148666b21d61397.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L17-08",
+      "meaningIndex": 0
     },
     {
       "id": "L17-09",
@@ -115,7 +142,10 @@
       "audio": {
         "female": "audio/female/16b54b7ab3b5e984.mp3",
         "male": "audio/male/16b54b7ab3b5e984.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L17-09",
+      "meaningIndex": 0
     },
     {
       "id": "L17-10",
@@ -126,7 +156,10 @@
       "audio": {
         "female": "audio/female/220ac6c5a3602b71.mp3",
         "male": "audio/male/220ac6c5a3602b71.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L17-10",
+      "meaningIndex": 0
     },
     {
       "id": "L17-11",
@@ -137,7 +170,10 @@
       "audio": {
         "female": "audio/female/894288923689df77.mp3",
         "male": "audio/male/894288923689df77.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L17-11",
+      "meaningIndex": 0
     },
     {
       "id": "L17-ui-1",
@@ -148,7 +184,10 @@
       "audio": {
         "female": "audio/female/a70a77c75b1dc74f.mp3",
         "male": "audio/male/a70a77c75b1dc74f.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L17-ui-1",
+      "meaningIndex": 0
     }
   ],
   "audio": {

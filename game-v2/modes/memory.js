@@ -106,8 +106,6 @@ export function drawMemory() {
       ]),
     );
   }
-  screen.querySelector('[data-memory-count]').textContent =
-    m.found.length + ' / ' + m.deck.length / 2;
   screen.querySelector('progress').value =
     m.offset +
     m.found.filter((id) => m.order.slice(m.offset, m.offset + m.size).includes(id)).length;
@@ -134,10 +132,6 @@ export function drawMemory() {
         ])
       : '',
   );
-  screen.querySelector('#memory-back').onclick = async () => {
-    await transact((s) => delete s.memory);
-    drawMemory();
-  };
   screen
     .querySelectorAll('[data-flip]')
     .forEach((b) => (b.onclick = () => turn(Number(b.dataset.flip))));
@@ -173,7 +167,7 @@ async function turn(index) {
   if (busy || gameClock.paused) return;
   busy = true;
   const { result } = await transact((s) => {
-    const r = M.flip(s, index);
+    const r = M.flip(s, index, word);
     if (r?.correct) {
       r.points = E.award(s, 'M', rules().memoryPairWeight, s.memory.level);
       if (r.boardBonus) r.points += E.award(s, 'M', rules().memoryBoardWeight, s.memory.level);

@@ -638,5 +638,15 @@
     "traditional": "點擊任意處顯示英文",
     "simplified": "点击任意处显示英文",
     "pinyin": "diǎn jī rèn yì chù xiǎn shì yīng wén"
+  },
+  "Multiple meanings": {
+    "traditional": "一詞多義",
+    "simplified": "一词多义",
+    "pinyin": "yī cí duō yì"
+  },
+  "Select every correct meaning.": {
+    "traditional": "選出所有正確意思。",
+    "simplified": "选出所有正确意思。",
+    "pinyin": "xuǎn chū suǒ yǒu zhèng què yì si"
   }
 }

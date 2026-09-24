@@ -12,22 +12,56 @@
       "simplified": "先生",
       "traditional": "先生",
       "pinyin": "xiān shēng",
-      "english": "Mr. / gentleman",
+      "english": "Mr.",
       "audio": {
         "female": "audio/female/cd98e43da31bb1b9.mp3",
         "male": "audio/male/cd98e43da31bb1b9.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L13-00",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L13-00-m2",
+      "simplified": "先生",
+      "traditional": "先生",
+      "pinyin": "xiān shēng",
+      "english": "gentleman",
+      "audio": {
+        "female": "audio/female/cd98e43da31bb1b9.mp3",
+        "male": "audio/male/cd98e43da31bb1b9.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L13-00",
+      "meaningIndex": 1
     },
     {
       "id": "L13-01",
       "simplified": "小姐",
       "traditional": "小姐",
       "pinyin": "xiǎo jiě",
-      "english": "Miss / young lady",
+      "english": "Miss",
       "audio": {
         "female": "audio/female/84a5f7a062dd9a13.mp3",
         "male": "audio/male/84a5f7a062dd9a13.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L13-01",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L13-01-m2",
+      "simplified": "小姐",
+      "traditional": "小姐",
+      "pinyin": "xiǎo jiě",
+      "english": "young lady",
+      "audio": {
+        "female": "audio/female/84a5f7a062dd9a13.mp3",
+        "male": "audio/male/84a5f7a062dd9a13.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L13-01",
+      "meaningIndex": 1
     },
     {
       "id": "L13-02",
@@ -38,7 +72,10 @@
       "audio": {
         "female": "audio/female/9bbfbbc76f7ac5e0.mp3",
         "male": "audio/male/9bbfbbc76f7ac5e0.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L13-02",
+      "meaningIndex": 0
     },
     {
       "id": "L13-03",
@@ -49,7 +86,10 @@
       "audio": {
         "female": "audio/female/8fabc377c2de87b3.mp3",
         "male": "audio/male/8fabc377c2de87b3.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L13-03",
+      "meaningIndex": 0
     },
     {
       "id": "L13-04",
@@ -60,7 +100,10 @@
       "audio": {
         "female": "audio/female/5ebbc126b7b5a164.mp3",
         "male": "audio/male/5ebbc126b7b5a164.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L13-04",
+      "meaningIndex": 0
     },
     {
       "id": "L13-05",
@@ -71,7 +114,10 @@
       "audio": {
         "female": "audio/female/9faa900f0466ffcb.mp3",
         "male": "audio/male/9faa900f0466ffcb.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L13-05",
+      "meaningIndex": 0
     },
     {
       "id": "L13-06",
@@ -82,7 +128,10 @@
       "audio": {
         "female": "audio/female/8796cf495b8dddfc.mp3",
         "male": "audio/male/8796cf495b8dddfc.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L13-06",
+      "meaningIndex": 0
     },
     {
       "id": "L13-07",
@@ -93,18 +142,38 @@
       "audio": {
         "female": "audio/female/b37cf1352dc6c3e9.mp3",
         "male": "audio/male/b37cf1352dc6c3e9.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L13-07",
+      "meaningIndex": 0
     },
     {
       "id": "L13-08",
       "simplified": "怎么样",
       "traditional": "怎麼樣",
       "pinyin": "zěn me yàng",
-      "english": "how is it / how about",
+      "english": "how is it",
       "audio": {
         "female": "audio/female/6308550454b660b3.mp3",
         "male": "audio/male/6308550454b660b3.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L13-08",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L13-08-m2",
+      "simplified": "怎么样",
+      "traditional": "怎麼樣",
+      "pinyin": "zěn me yàng",
+      "english": "how about",
+      "audio": {
+        "female": "audio/female/6308550454b660b3.mp3",
+        "male": "audio/male/6308550454b660b3.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L13-08",
+      "meaningIndex": 1
     },
     {
       "id": "L13-09",
@@ -115,7 +184,10 @@
       "audio": {
         "female": "audio/female/a50e706ee5df6c6a.mp3",
         "male": "audio/male/a50e706ee5df6c6a.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L13-09",
+      "meaningIndex": 0
     },
     {
       "id": "L13-10",
@@ -126,7 +198,10 @@
       "audio": {
         "female": "audio/female/02811cec0b734158.mp3",
         "male": "audio/male/02811cec0b734158.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L13-10",
+      "meaningIndex": 0
     },
     {
       "id": "L13-11",
@@ -137,7 +212,10 @@
       "audio": {
         "female": "audio/female/19df0afcfa52a1e2.mp3",
         "male": "audio/male/19df0afcfa52a1e2.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L13-11",
+      "meaningIndex": 0
     },
     {
       "id": "L13-12",
@@ -148,7 +226,10 @@
       "audio": {
         "female": "audio/female/bad8b6c7ae2ee84b.mp3",
         "male": "audio/male/bad8b6c7ae2ee84b.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L13-12",
+      "meaningIndex": 0
     },
     {
       "id": "L13-ui-1",
@@ -159,7 +240,10 @@
       "audio": {
         "female": "audio/female/b27e1a9998e335c7.mp3",
         "male": "audio/male/b27e1a9998e335c7.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L13-ui-1",
+      "meaningIndex": 0
     },
     {
       "id": "L13-ui-2",
@@ -170,7 +254,10 @@
       "audio": {
         "female": "audio/female/8dd49b2272ea8020.mp3",
         "male": "audio/male/8dd49b2272ea8020.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L13-ui-2",
+      "meaningIndex": 0
     },
     {
       "id": "L13-ui-3",
@@ -181,7 +268,10 @@
       "audio": {
         "female": "audio/female/49da7c9e4c59e9fe.mp3",
         "male": "audio/male/49da7c9e4c59e9fe.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L13-ui-3",
+      "meaningIndex": 0
     }
   ],
   "audio": {

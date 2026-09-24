@@ -16,7 +16,10 @@
       "audio": {
         "female": "audio/female/5fc70a8e64bb2de3.mp3",
         "male": "audio/male/5fc70a8e64bb2de3.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L19-00",
+      "meaningIndex": 0
     },
     {
       "id": "L19-01",
@@ -27,7 +30,10 @@
       "audio": {
         "female": "audio/female/e5b01266d76025a5.mp3",
         "male": "audio/male/e5b01266d76025a5.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L19-01",
+      "meaningIndex": 0
     },
     {
       "id": "L19-02",
@@ -38,7 +44,10 @@
       "audio": {
         "female": "audio/female/4ebe5e27bfb6de86.mp3",
         "male": "audio/male/4ebe5e27bfb6de86.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L19-02",
+      "meaningIndex": 0
     },
     {
       "id": "L19-03",
@@ -49,7 +58,10 @@
       "audio": {
         "female": "audio/female/c72d9e0ebd51aadd.mp3",
         "male": "audio/male/c72d9e0ebd51aadd.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L19-03",
+      "meaningIndex": 0
     },
     {
       "id": "L19-04",
@@ -60,7 +72,10 @@
       "audio": {
         "female": "audio/female/c334c23d022d8a7c.mp3",
         "male": "audio/male/c334c23d022d8a7c.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L19-04",
+      "meaningIndex": 0
     },
     {
       "id": "L19-05",
@@ -71,18 +86,38 @@
       "audio": {
         "female": "audio/female/f7f6ebe84bfee267.mp3",
         "male": "audio/male/f7f6ebe84bfee267.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L19-05",
+      "meaningIndex": 0
     },
     {
       "id": "L19-06",
       "simplified": "旅游",
       "traditional": "旅遊",
       "pinyin": "lǚ yóu",
-      "english": "travel / tourism",
+      "english": "travel",
       "audio": {
         "female": "audio/female/890f69c8af027d15.mp3",
         "male": "audio/male/890f69c8af027d15.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L19-06",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L19-06-m2",
+      "simplified": "旅游",
+      "traditional": "旅遊",
+      "pinyin": "lǚ yóu",
+      "english": "tourism",
+      "audio": {
+        "female": "audio/female/890f69c8af027d15.mp3",
+        "male": "audio/male/890f69c8af027d15.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L19-06",
+      "meaningIndex": 1
     },
     {
       "id": "L19-07",
@@ -93,7 +128,10 @@
       "audio": {
         "female": "audio/female/f271bde809776da4.mp3",
         "male": "audio/male/f271bde809776da4.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L19-07",
+      "meaningIndex": 0
     },
     {
       "id": "L19-08",
@@ -104,7 +142,10 @@
       "audio": {
         "female": "audio/female/75e69392284016e9.mp3",
         "male": "audio/male/75e69392284016e9.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L19-08",
+      "meaningIndex": 0
     },
     {
       "id": "L19-09",
@@ -115,7 +156,10 @@
       "audio": {
         "female": "audio/female/68c77e155132565e.mp3",
         "male": "audio/male/68c77e155132565e.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L19-09",
+      "meaningIndex": 0
     },
     {
       "id": "L19-10",
@@ -126,7 +170,10 @@
       "audio": {
         "female": "audio/female/15b7f7a95c1ccdcb.mp3",
         "male": "audio/male/15b7f7a95c1ccdcb.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L19-10",
+      "meaningIndex": 0
     },
     {
       "id": "L19-11",
@@ -137,7 +184,10 @@
       "audio": {
         "female": "audio/female/adca152b6df32de4.mp3",
         "male": "audio/male/adca152b6df32de4.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L19-11",
+      "meaningIndex": 0
     },
     {
       "id": "L19-ui-1",
@@ -148,7 +198,10 @@
       "audio": {
         "female": "audio/female/e751bca25e1fc515.mp3",
         "male": "audio/male/e751bca25e1fc515.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L19-ui-1",
+      "meaningIndex": 0
     }
   ],
   "audio": {

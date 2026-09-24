@@ -57,12 +57,12 @@
       <main class="game-screen app" data-screen="match" hidden></main>
       <main class="game-screen app self-test-screen" data-screen="self-test" hidden></main>
       <main class="game-screen app" data-screen="order" hidden></main>
+      <main class="game-screen app" data-screen="meanings" hidden></main>
       <main class="game-screen app" data-screen="sets" hidden></main>
       <main class="game-screen app" data-screen="memory" hidden></main>
       <main class="game-screen app" data-screen="restart" hidden></main>
       <main class="game-screen app" data-screen="settings" hidden></main>
       <main class="game-screen app" data-screen="bonus" hidden></main>
-      <main class="game-screen" data-screen="card-reward" hidden></main>
       <main class="game-screen" data-screen="set-reward" hidden></main>
       <main class="game-screen" data-screen="sentence-reward" hidden></main>
       <main class="game-screen app guide-screen" data-screen="guide" hidden>
@@ -146,6 +146,13 @@
           ><span data-button-label="sets"></span
         ></a>
       </nav>
+      <div
+        id="card-reward-toast"
+        class="card-reward-toast"
+        role="status"
+        aria-live="polite"
+        hidden
+      ></div>
       <div class="pause-overlay" hidden>
         <section class="pause-panel" role="dialog" aria-modal="true" aria-labelledby="pause-title">
           <h2 id="pause-title"><span data-ui="Paused"></span></h2>
@@ -195,15 +202,16 @@
     <template id="tpl-dictionary-16">
       <div class="dictionary" data-ui-aria-label="Discovered pairs">{{0}}</div>
     </template>
-    <template id="tpl-drawCardReward-19">
-      <h1><span data-ui="Card reward"></span></h1>
-      <div class="card hero-card">{{0}}</div>
-      <section class="panel">
-        {{1}}
-        <h2>{{2}} → {{3}} / {{4}}</h2>
-        <progress value="{{3}}" max="{{4}}"></progress>
-      </section>
-      <button class="primary" id="continue"><span data-ui="Continue"></span></button>
+    <template id="tpl-card-toast">
+      <button class="toast-dismiss" type="button" aria-label="{{6}}" title="Dismiss reward">
+        <span class="toast-card">{{0}}</span>
+        <span class="toast-copy">
+          <span class="toast-pinyin">{{1}}</span>
+          <strong class="toast-english">{{2}}</strong>
+          <span class="toast-set"><span>{{3}}</span><b>{{4}} / {{5}}</b></span>
+        </span>
+        <progress class="toast-progress" value="{{4}}" max="{{5}}"></progress>
+      </button>
     </template>
     <template id="tpl-drawSetReward-20">
       <h1><span data-ui="Try this set again"></span></h1>
@@ -258,6 +266,18 @@
       <button class="secondary" data-set-game="{{0}}">
         {{1}}<span class="game-check">{{2}}</span>
       </button>
+    </template>
+    <template id="tpl-meanings">
+      <p class="small"><span data-ui="Select every correct meaning."></span></p>
+      <div class="meanings-board">
+        <button class="card meanings-target">{{0}}</button>
+        <div class="meanings-options">{{1}}</div>
+      </div>
+      <progress value="{{2}}" max="{{3}}"></progress>
+      <div class="status" role="status"></div>
+    </template>
+    <template id="tpl-meaning-option">
+      <button class="secondary {{2}}" data-meaning="{{0}}" data-flag-3="">{{1}}</button>
     </template>
     <template id="tpl-self-test">
       <p class="small self-count">{{3}} / {{4}}</p>
@@ -457,10 +477,6 @@
     </template>
     <template id="tpl-drawMemory-58">
       <div class="memory-grid">{{4}}</div>
-      <div class="memory-top">
-        <span><span data-ui="Board {{0}} / {{2}}"></span></span><b data-memory-count></b>
-        <button id="memory-back" class="mini-button"><span data-ui="Sets"></span></button>
-      </div>
       <progress max="{{3}}"></progress>
       <div class="memory-actions"></div>
     </template>

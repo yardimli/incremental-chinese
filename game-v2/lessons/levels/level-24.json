@@ -16,7 +16,10 @@
       "audio": {
         "female": "audio/female/cc147e162c82bbc7.mp3",
         "male": "audio/male/cc147e162c82bbc7.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L24-00",
+      "meaningIndex": 0
     },
     {
       "id": "L24-01",
@@ -27,7 +30,10 @@
       "audio": {
         "female": "audio/female/04f46f8ed7b7ddf8.mp3",
         "male": "audio/male/04f46f8ed7b7ddf8.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L24-01",
+      "meaningIndex": 0
     },
     {
       "id": "L24-02",
@@ -38,7 +44,10 @@
       "audio": {
         "female": "audio/female/28e0bba69ee9141a.mp3",
         "male": "audio/male/28e0bba69ee9141a.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L24-02",
+      "meaningIndex": 0
     },
     {
       "id": "L24-03",
@@ -49,7 +58,10 @@
       "audio": {
         "female": "audio/female/0cb08cfc203e018a.mp3",
         "male": "audio/male/0cb08cfc203e018a.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L24-03",
+      "meaningIndex": 0
     },
     {
       "id": "L24-04",
@@ -60,7 +72,10 @@
       "audio": {
         "female": "audio/female/e6b02a08e69a342d.mp3",
         "male": "audio/male/e6b02a08e69a342d.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L24-04",
+      "meaningIndex": 0
     },
     {
       "id": "L24-05",
@@ -71,7 +86,10 @@
       "audio": {
         "female": "audio/female/9e5bf0d2d993accb.mp3",
         "male": "audio/male/9e5bf0d2d993accb.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L24-05",
+      "meaningIndex": 0
     },
     {
       "id": "L24-06",
@@ -82,7 +100,10 @@
       "audio": {
         "female": "audio/female/6cb8e149007e4b27.mp3",
         "male": "audio/male/6cb8e149007e4b27.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L24-06",
+      "meaningIndex": 0
     },
     {
       "id": "L24-07",
@@ -93,51 +114,122 @@
       "audio": {
         "female": "audio/female/8aa07f1595bd98d4.mp3",
         "male": "audio/male/8aa07f1595bd98d4.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L24-07",
+      "meaningIndex": 0
     },
     {
       "id": "L24-08",
       "simplified": "就",
       "traditional": "就",
       "pinyin": "jiù",
-      "english": "then / just",
+      "english": "then",
       "audio": {
         "female": "audio/female/2f9d9872e5f920d0.mp3",
         "male": "audio/male/2f9d9872e5f920d0.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L24-08",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L24-08-m2",
+      "simplified": "就",
+      "traditional": "就",
+      "pinyin": "jiù",
+      "english": "just",
+      "audio": {
+        "female": "audio/female/2f9d9872e5f920d0.mp3",
+        "male": "audio/male/2f9d9872e5f920d0.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L24-08",
+      "meaningIndex": 1
     },
     {
       "id": "L24-09",
       "simplified": "可以",
       "traditional": "可以",
       "pinyin": "kě yǐ",
-      "english": "can / may",
+      "english": "can",
       "audio": {
         "female": "audio/female/0ef5c86fab94f13a.mp3",
         "male": "audio/male/0ef5c86fab94f13a.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L24-09",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L24-09-m2",
+      "simplified": "可以",
+      "traditional": "可以",
+      "pinyin": "kě yǐ",
+      "english": "may",
+      "audio": {
+        "female": "audio/female/0ef5c86fab94f13a.mp3",
+        "male": "audio/male/0ef5c86fab94f13a.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L24-09",
+      "meaningIndex": 1
     },
     {
       "id": "L24-10",
       "simplified": "可能",
       "traditional": "可能",
       "pinyin": "kě néng",
-      "english": "possible / might",
+      "english": "possible",
       "audio": {
         "female": "audio/female/b3d10853b7c11416.mp3",
         "male": "audio/male/b3d10853b7c11416.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L24-10",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L24-10-m2",
+      "simplified": "可能",
+      "traditional": "可能",
+      "pinyin": "kě néng",
+      "english": "might",
+      "audio": {
+        "female": "audio/female/b3d10853b7c11416.mp3",
+        "male": "audio/male/b3d10853b7c11416.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L24-10",
+      "meaningIndex": 1
     },
     {
       "id": "L24-11",
       "simplified": "让",
       "traditional": "讓",
       "pinyin": "ràng",
-      "english": "let / allow",
+      "english": "let",
       "audio": {
         "female": "audio/female/1fde47e2efda1237.mp3",
         "male": "audio/male/1fde47e2efda1237.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L24-11",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L24-11-m2",
+      "simplified": "让",
+      "traditional": "讓",
+      "pinyin": "ràng",
+      "english": "allow",
+      "audio": {
+        "female": "audio/female/1fde47e2efda1237.mp3",
+        "male": "audio/male/1fde47e2efda1237.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L24-11",
+      "meaningIndex": 1
     },
     {
       "id": "L24-12",
@@ -148,7 +240,10 @@
       "audio": {
         "female": "audio/female/dcca20b3b8cada7e.mp3",
         "male": "audio/male/dcca20b3b8cada7e.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L24-12",
+      "meaningIndex": 0
     },
     {
       "id": "L24-13",
@@ -159,7 +254,10 @@
       "audio": {
         "female": "audio/female/352df4d7086fcdb1.mp3",
         "male": "audio/male/352df4d7086fcdb1.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L24-13",
+      "meaningIndex": 0
     },
     {
       "id": "L24-14",
@@ -170,7 +268,10 @@
       "audio": {
         "female": "audio/female/385a845b6094b687.mp3",
         "male": "audio/male/385a845b6094b687.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L24-14",
+      "meaningIndex": 0
     },
     {
       "id": "L24-ui-1",
@@ -181,7 +282,10 @@
       "audio": {
         "female": "audio/female/7ad924a1c328e13c.mp3",
         "male": "audio/male/7ad924a1c328e13c.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L24-ui-1",
+      "meaningIndex": 0
     },
     {
       "id": "L24-ui-2",
@@ -192,7 +296,10 @@
       "audio": {
         "female": "audio/female/8f8effa91b7a2dd9.mp3",
         "male": "audio/male/8f8effa91b7a2dd9.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L24-ui-2",
+      "meaningIndex": 0
     }
   ],
   "audio": {

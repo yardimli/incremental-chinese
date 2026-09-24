@@ -1,8 +1,15 @@
 import { view, render } from '../ui/templates.js';
 import { state, lessons, screen, textCard, word, transact, go, setDebugAction } from '../shared.js';
 import * as E from '../engine.mjs';
+let shownCard;
 
-export function drawSelfTest() {
+export async function drawSelfTest() {
+  // Older/mobile saves can retain a stage without its corresponding deck.
+  if (!state.selfTest?.deck?.length || !word(state.selfTest.deck[state.selfTest.index])) {
+    await transact((s) => E.startSetGame(s, lessons, s.setIndex, 'self-test'));
+    go();
+    return;
+  }
   const run = state.selfTest;
   const card = word(run.deck[run.index]);
   render(
@@ -15,6 +22,10 @@ export function drawSelfTest() {
       run.deck.length,
     ]),
   );
+  if (shownCard !== card.id) {
+    screen.scrollTop = 0;
+    shownCard = card.id;
+  }
   let revealing = false;
   screen.onclick = async (event) => {
     if (event.target.closest('[data-grade], a')) return;

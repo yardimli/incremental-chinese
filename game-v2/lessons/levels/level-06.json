@@ -16,7 +16,10 @@
       "audio": {
         "female": "audio/female/327b54d04f71f212.mp3",
         "male": "audio/male/327b54d04f71f212.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L06-00",
+      "meaningIndex": 0
     },
     {
       "id": "L06-01",
@@ -27,7 +30,10 @@
       "audio": {
         "female": "audio/female/7e005ba311f86fa7.mp3",
         "male": "audio/male/7e005ba311f86fa7.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L06-01",
+      "meaningIndex": 0
     },
     {
       "id": "L06-02",
@@ -38,7 +44,10 @@
       "audio": {
         "female": "audio/female/193632bffe7bd105.mp3",
         "male": "audio/male/193632bffe7bd105.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L06-02",
+      "meaningIndex": 0
     },
     {
       "id": "L06-03",
@@ -49,7 +58,10 @@
       "audio": {
         "female": "audio/female/95f9e8e79208082d.mp3",
         "male": "audio/male/95f9e8e79208082d.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L06-03",
+      "meaningIndex": 0
     },
     {
       "id": "L06-04",
@@ -60,29 +72,66 @@
       "audio": {
         "female": "audio/female/1fd3686a0aec5234.mp3",
         "male": "audio/male/1fd3686a0aec5234.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L06-04",
+      "meaningIndex": 0
     },
     {
       "id": "L06-05",
       "simplified": "要",
       "traditional": "要",
       "pinyin": "yào",
-      "english": "want / need",
+      "english": "want",
       "audio": {
         "female": "audio/female/975f35218ed8782e.mp3",
         "male": "audio/male/975f35218ed8782e.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L06-05",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L06-05-m2",
+      "simplified": "要",
+      "traditional": "要",
+      "pinyin": "yào",
+      "english": "need",
+      "audio": {
+        "female": "audio/female/975f35218ed8782e.mp3",
+        "male": "audio/male/975f35218ed8782e.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L06-05",
+      "meaningIndex": 1
     },
     {
       "id": "L06-06",
       "simplified": "想",
       "traditional": "想",
       "pinyin": "xiǎng",
-      "english": "want / think",
+      "english": "want",
       "audio": {
         "female": "audio/female/df0d25193874aa17.mp3",
         "male": "audio/male/df0d25193874aa17.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L06-06",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L06-06-m2",
+      "simplified": "想",
+      "traditional": "想",
+      "pinyin": "xiǎng",
+      "english": "think",
+      "audio": {
+        "female": "audio/female/df0d25193874aa17.mp3",
+        "male": "audio/male/df0d25193874aa17.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L06-06",
+      "meaningIndex": 1
     },
     {
       "id": "L06-07",
@@ -93,7 +142,10 @@
       "audio": {
         "female": "audio/female/f867f34178594f89.mp3",
         "male": "audio/male/f867f34178594f89.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L06-07",
+      "meaningIndex": 0
     },
     {
       "id": "L06-08",
@@ -104,29 +156,52 @@
       "audio": {
         "female": "audio/female/b02dfe2160c687c2.mp3",
         "male": "audio/male/b02dfe2160c687c2.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L06-08",
+      "meaningIndex": 0
     },
     {
       "id": "L06-09",
       "simplified": "很",
       "traditional": "很",
       "pinyin": "hěn",
-      "english": "very / adjective linking adverb",
+      "english": "very",
       "audio": {
         "female": "audio/female/f2b91797ea3a7171.mp3",
         "male": "audio/male/f2b91797ea3a7171.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L06-09",
+      "meaningIndex": 0
     },
     {
       "id": "L06-10",
       "simplified": "请",
       "traditional": "請",
       "pinyin": "qǐng",
-      "english": "please / invite",
+      "english": "please",
       "audio": {
         "female": "audio/female/08f4b738942a6514.mp3",
         "male": "audio/male/08f4b738942a6514.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L06-10",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L06-10-m2",
+      "simplified": "请",
+      "traditional": "請",
+      "pinyin": "qǐng",
+      "english": "invite",
+      "audio": {
+        "female": "audio/female/08f4b738942a6514.mp3",
+        "male": "audio/male/08f4b738942a6514.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L06-10",
+      "meaningIndex": 1
     },
     {
       "id": "L06-11",
@@ -137,7 +212,10 @@
       "audio": {
         "female": "audio/female/45216876241c254c.mp3",
         "male": "audio/male/45216876241c254c.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L06-11",
+      "meaningIndex": 0
     },
     {
       "id": "L06-ui-1",
@@ -148,7 +226,10 @@
       "audio": {
         "female": "audio/female/13ec44bb48096564.mp3",
         "male": "audio/male/13ec44bb48096564.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L06-ui-1",
+      "meaningIndex": 0
     },
     {
       "id": "L06-ui-2",
@@ -159,7 +240,10 @@
       "audio": {
         "female": "audio/female/2891bc7044f2f440.mp3",
         "male": "audio/male/2891bc7044f2f440.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L06-ui-2",
+      "meaningIndex": 0
     }
   ],
   "audio": {

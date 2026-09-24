@@ -88,19 +88,18 @@ const assert = require('node:assert/strict');
     await page.keyboard.press('Space');
     await page.waitForTimeout(700);
     await page.keyboard.press('Space');
-    await page.locator('[data-screen="card-reward"]:not([hidden]) #continue').waitFor();
-    assert.ok(await page.locator('.header').isHidden());
-    while ((await saved()).stage === 'cardReward') {
-      await game().locator('#continue').click();
-      await page.waitForTimeout(180);
-    }
+    await page.locator('#card-reward-toast:not([hidden])').waitFor();
+    assert.ok(await page.locator('.header').isVisible());
     await page.waitForFunction(() => document.querySelector('#screen')?.dataset.screen === 'match');
     await seed('order');
     await nav('order');
     for (let i = 0; i < 2; i++) {
       await page.keyboard.press('Space');
-      await page.locator('#screen #continue').waitFor();
-      await page.locator('#screen #continue').click();
+      await page.waitForFunction(
+        (index) => JSON.parse(localStorage.getItem('chinese-game-v2')).sentenceIndex === index,
+        i + 1,
+      );
+      await page.waitForTimeout(700);
       await page.locator('#screen [data-choice]').first().waitFor();
     }
     assert.equal((await saved()).sentenceIndex, 2);

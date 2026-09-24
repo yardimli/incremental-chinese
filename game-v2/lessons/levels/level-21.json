@@ -12,22 +12,56 @@
       "simplified": "运动",
       "traditional": "運動",
       "pinyin": "yùn dòng",
-      "english": "exercise / sports",
+      "english": "exercise",
       "audio": {
         "female": "audio/female/7d782cdc5f118932.mp3",
         "male": "audio/male/7d782cdc5f118932.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L21-00",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L21-00-m2",
+      "simplified": "运动",
+      "traditional": "運動",
+      "pinyin": "yùn dòng",
+      "english": "sports",
+      "audio": {
+        "female": "audio/female/7d782cdc5f118932.mp3",
+        "male": "audio/male/7d782cdc5f118932.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L21-00",
+      "meaningIndex": 1
     },
     {
       "id": "L21-01",
       "simplified": "跑步",
       "traditional": "跑步",
       "pinyin": "pǎo bù",
-      "english": "run / jog",
+      "english": "run",
       "audio": {
         "female": "audio/female/591052c733499bad.mp3",
         "male": "audio/male/591052c733499bad.mp3"
-      }
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L21-01",
+      "meaningIndex": 0
+    },
+    {
+      "id": "L21-01-m2",
+      "simplified": "跑步",
+      "traditional": "跑步",
+      "pinyin": "pǎo bù",
+      "english": "jog",
+      "audio": {
+        "female": "audio/female/591052c733499bad.mp3",
+        "male": "audio/male/591052c733499bad.mp3"
+      },
+      "hasMultipleMeanings": true,
+      "meaningGroup": "L21-01",
+      "meaningIndex": 1
     },
     {
       "id": "L21-02",
@@ -38,7 +72,10 @@
       "audio": {
         "female": "audio/female/f864303afb4e4a85.mp3",
         "male": "audio/male/f864303afb4e4a85.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L21-02",
+      "meaningIndex": 0
     },
     {
       "id": "L21-03",
@@ -49,18 +86,24 @@
       "audio": {
         "female": "audio/female/882ecc404a900404.mp3",
         "male": "audio/male/882ecc404a900404.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L21-03",
+      "meaningIndex": 0
     },
     {
       "id": "L21-04",
       "simplified": "踢足球",
       "traditional": "踢足球",
       "pinyin": "tī zú qiú",
-      "english": "play football / soccer",
+      "english": "play football",
       "audio": {
         "female": "audio/female/5386f36a02953218.mp3",
         "male": "audio/male/5386f36a02953218.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L21-04",
+      "meaningIndex": 0
     },
     {
       "id": "L21-05",
@@ -71,7 +114,10 @@
       "audio": {
         "female": "audio/female/2846d63055754517.mp3",
         "male": "audio/male/2846d63055754517.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L21-05",
+      "meaningIndex": 0
     },
     {
       "id": "L21-06",
@@ -82,7 +128,10 @@
       "audio": {
         "female": "audio/female/42269e2627f4916c.mp3",
         "male": "audio/male/42269e2627f4916c.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L21-06",
+      "meaningIndex": 0
     },
     {
       "id": "L21-07",
@@ -93,7 +142,10 @@
       "audio": {
         "female": "audio/female/9069cc8f2c62b4b4.mp3",
         "male": "audio/male/9069cc8f2c62b4b4.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L21-07",
+      "meaningIndex": 0
     },
     {
       "id": "L21-08",
@@ -104,7 +156,10 @@
       "audio": {
         "female": "audio/female/b2d7b4bbf6bcf133.mp3",
         "male": "audio/male/b2d7b4bbf6bcf133.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L21-08",
+      "meaningIndex": 0
     },
     {
       "id": "L21-09",
@@ -115,7 +170,10 @@
       "audio": {
         "female": "audio/female/2c00cf9c8df4e2a1.mp3",
         "male": "audio/male/2c00cf9c8df4e2a1.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L21-09",
+      "meaningIndex": 0
     },
     {
       "id": "L21-10",
@@ -126,7 +184,10 @@
       "audio": {
         "female": "audio/female/cecd675a4c3cb00d.mp3",
         "male": "audio/male/cecd675a4c3cb00d.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L21-10",
+      "meaningIndex": 0
     },
     {
       "id": "L21-11",
@@ -137,7 +198,10 @@
       "audio": {
         "female": "audio/female/d674691cdfbcd9ba.mp3",
         "male": "audio/male/d674691cdfbcd9ba.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L21-11",
+      "meaningIndex": 0
     },
     {
       "id": "L21-ui-1",
@@ -148,7 +212,10 @@
       "audio": {
         "female": "audio/female/e1ba21d79b75b58e.mp3",
         "male": "audio/male/e1ba21d79b75b58e.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L21-ui-1",
+      "meaningIndex": 0
     }
   ],
   "audio": {

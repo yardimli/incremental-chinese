@@ -1,3 +1,4 @@
+import { primaryPairs, meaningKey, meaningGroups, startMeaningRun } from './vocabulary.mjs';
 import * as C from './systems/economy.mjs';
 import { reachedLevel } from './systems/translations.mjs';
 // Pure state transitions. Every award is committed before its reveal is shown.
@@ -17,7 +18,8 @@ export function shuffle(s, items) {
 export function validateLessons(lessons) {
   const ids = new Set();
   for (const set of lessons.filter((x) => x.type === 'pairs')) {
-    if (!set.pairs.length || set.pairs.length > 20) throw Error('Expected 1–20 cards: ' + set.id);
+    if (!set.pairs.length || primaryPairs(set.pairs).length > 20)
+      throw Error('Expected 1–20 cards: ' + set.id);
     for (const pair of set.pairs) {
       if (ids.has(pair.id)) throw Error('Duplicate card');
       ids.add(pair.id);
@@ -105,7 +107,7 @@ export function levelAccuracy(s) {
     passed: a.total > 0 && a.correct * 100 >= a.total * C.rules().requiredAccuracy,
   };
 }
-function recordAnswer(s, correct) {
+export function recordAnswer(s, correct) {
   s.accuracy ??= {};
   const a = (s.accuracy[s.setIndex] ??= { correct: 0, total: 0, attempt: 1 });
   a.total++;
@@ -134,6 +136,7 @@ function repeatLevel(s, lessons) {
   s.arrivals = 0;
   s.matchOrder = [];
   s.matchFound = [];
+  s.matchRightFound = [];
   s.pageIndex = 0;
   s.pendingReward = null;
   const set = lessons[s.setIndex];
@@ -174,6 +177,7 @@ export function advance(s, lessons) {
   s.arrivals = 0;
   s.matchOrder = [];
   s.matchFound = [];
+  s.matchRightFound = [];
   s.pageIndex = 0;
   s.highestLevel = reachedLevel(s);
   if (s.completed.includes(next.id)) {
@@ -189,23 +193,34 @@ export function advance(s, lessons) {
 export function newPrompt(s, lessons, resolvedId) {
   if (s.stage !== 'tap') return;
   const pairs = lessons[s.setIndex].pairs;
-  let eligible = pairs.filter((x) => (s.correct[x.id] || 0) < 2);
+  let eligible = pairs.filter(
+    (x) =>
+      (s.correct[x.id] || 0) < 2 &&
+      pairs
+        .filter(
+          (other) =>
+            meaningKey(other) === meaningKey(x) &&
+            (other.meaningIndex || 0) < (x.meaningIndex || 0),
+        )
+        .every((other) => (s.correct[other.id] || 0) >= 2),
+  );
   if (!eligible.length) {
     if (s.difficulty < 4) {
       s.difficulty++;
       s.correct = {};
       s.weapons = [];
       s.current = null;
-      eligible = pairs;
+      eligible = primaryPairs(pairs);
     } else {
       if (!s.selectedGame && levelAccuracy(s).passed)
         markGameComplete(s, lessons[s.setIndex].id, 'battle');
       s.stage = s.selectedGame === 'battle' ? 'setReward' : 'match';
       s.matchOrder = shuffle(
         s,
-        pairs.map((x) => x.id),
+        primaryPairs(pairs).map((x) => x.id),
       );
       s.matchFound = [];
+      s.matchRightFound = [];
       s.pageIndex = 0;
       s.current = null;
       return;
@@ -213,22 +228,25 @@ export function newPrompt(s, lessons, resolvedId) {
   }
   if (s.difficulty >= 2) {
     const previous = s.current;
-    const weapons = (s.weapons || []).filter((id) => pairs.some((w) => w.id === id));
-    const candidates = shuffle(
-      s,
-      eligible.filter((w) => !weapons.includes(w.id)),
-    ).map((w) => w.id);
-    for (let i = 0; i < weapons.length; i++)
-      if ((s.correct[weapons[i]] || 0) >= 2 && candidates.length) weapons[i] = candidates.pop();
-    while (weapons.length < s.difficulty && candidates.length) weapons.push(candidates.pop());
-    // Late in a pass, completed weapons remain as inactive equipment.
-    for (const w of shuffle(s, pairs))
-      if (weapons.length < s.difficulty && !weapons.includes(w.id)) weapons.push(w.id);
+    const byId = Object.fromEntries(pairs.map((w) => [w.id, w]));
+    const weapons = [];
+    const compatible = (w) =>
+      !weapons.some(
+        (id) => meaningKey(byId[id]) === meaningKey(w) || byId[id].english === w.english,
+      );
+    for (const id of s.weapons || []) {
+      const w = byId[id];
+      if (w && eligible.some((candidate) => candidate.id === id) && compatible(w)) weapons.push(id);
+    }
+    for (const w of [...shuffle(s, eligible), ...shuffle(s, pairs)])
+      if (weapons.length < s.difficulty && compatible(w)) weapons.push(w.id);
     s.weapons = weapons;
     const remaining = (previous?.targets || []).filter(
-      (id) => id !== resolvedId && weapons.includes(id) && (s.correct[id] || 0) < 2,
+      (id) => id !== resolvedId && weapons.includes(id) && eligible.some((w) => w.id === id),
     );
-    const available = weapons.filter((id) => (s.correct[id] || 0) < 2 && !remaining.includes(id));
+    const available = weapons.filter(
+      (id) => eligible.some((w) => w.id === id) && !remaining.includes(id),
+    );
     const fresh = available.filter((id) => id !== previous?.id);
     if (!remaining.length) {
       const pool = fresh.length ? fresh : available;
@@ -236,7 +254,9 @@ export function newPrompt(s, lessons, resolvedId) {
     }
     s.arrivals = (s.arrivals || 0) + 1;
     if (s.difficulty === 4 && s.arrivals % 3 === 0 && remaining.length < 2) {
-      const extra = weapons.filter((id) => (s.correct[id] || 0) < 2 && !remaining.includes(id));
+      const extra = weapons.filter(
+        (id) => eligible.some((w) => w.id === id) && !remaining.includes(id),
+      );
       if (extra.length) remaining.push(extra[Math.floor(random(s) * extra.length)]);
     }
     s.current = { id: remaining[0], targets: remaining, options: [...weapons] };
@@ -313,17 +333,23 @@ export function matchPair(s, lessons, left, right) {
     !matchBoard(s).includes(left) ||
     !matchBoard(s).includes(right) ||
     s.matchFound.includes(left) ||
-    s.matchFound.includes(right)
+    (s.matchRightFound || s.matchFound).includes(right)
   )
     return null;
-  recordAnswer(s, left === right);
-  if (left !== right) return { correct: false, points: 0 };
+  const words = lessons[s.setIndex].pairs;
+  const correct =
+    left === right ||
+    words.find((w) => w.id === left)?.english === words.find((w) => w.id === right)?.english;
+  recordAnswer(s, correct);
+  if (!correct) return { correct: false, points: 0 };
+  s.matchRightFound ||= [...s.matchFound];
   s.matchFound.push(left);
+  s.matchRightFound.push(right);
   let points = award(s, 'M', 2);
   const set = lessons[s.setIndex];
   const boardDone = matchBoard(s).every((id) => s.matchFound.includes(id));
   if (boardDone) points += award(s, 'M', 5);
-  const allDone = s.matchFound.length === set.pairs.length;
+  const allDone = s.matchOrder.every((id) => s.matchFound.includes(id));
   const owned = (s.cards[set.id] || []).filter((id) => set.pairs.some((w) => w.id === id));
   const waiting = s.matchFound
     .filter((id) => !owned.includes(id))
@@ -466,8 +492,12 @@ export function markGameComplete(s, id, mode) {
 
 export function startSetGame(s, lessons, index, mode) {
   const set = lessons[index];
-  if (!set || !['battle', 'match', 'order', 'self-test', 'memory', 'bonus'].includes(mode))
+  if (
+    !set ||
+    !['battle', 'match', 'order', 'self-test', 'memory', 'bonus', 'meanings'].includes(mode)
+  )
     return false;
+  if (mode === 'meanings' && !meaningGroups(set).length) return false;
   const fresh = freshState(lessons, Date.now(), s.rng);
   for (const key of [
     'seen',
@@ -478,6 +508,7 @@ export function startSetGame(s, lessons, index, mode) {
     'arrivals',
     'matchOrder',
     'matchFound',
+    'matchRightFound',
     'pageIndex',
     'pendingReward',
     'sentenceIndex',
@@ -492,17 +523,18 @@ export function startSetGame(s, lessons, index, mode) {
   s.accuracy ??= {};
   s.accuracy[index] = { correct: 0, total: 0, attempt: 1 };
   s.stage = mode === 'battle' ? 'tap' : mode;
+  if (mode === 'meanings') startMeaningRun(s, set, shuffle);
   if (mode === 'battle') newPrompt(s, lessons);
   if (mode === 'match')
     s.matchOrder = shuffle(
       s,
-      set.pairs.map((w) => w.id),
+      primaryPairs(set.pairs).map((w) => w.id),
     );
   if (mode === 'order' || mode === 'self-test') prepareSentence(s, set);
   if (mode === 'self-test')
     s.selfTest = {
       deck: shuffle(s, [
-        ...(set.type === 'pairs' ? set.pairs.map((w) => w.id) : []),
+        ...(set.type === 'pairs' ? primaryPairs(set.pairs).map((w) => w.id) : []),
         ...s.sentenceDeck,
       ]),
       index: 0,

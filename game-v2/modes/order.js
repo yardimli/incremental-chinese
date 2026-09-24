@@ -1,3 +1,4 @@
+import { primaryPairs } from '../vocabulary.mjs';
 import { ui } from '../ui/interface-text.js';
 import { view, render, joinParts } from '../ui/templates.js';
 import {
@@ -40,7 +41,7 @@ export function drawOrder() {
   const pool = lessons
     .slice(0, state.setIndex + 1)
     .filter((s) => s.type === 'pairs')
-    .flatMap((s) => s.pairs.map((w) => w.id))
+    .flatMap((s) => primaryPairs(s.pairs).map((w) => w.id))
     .filter((id) => !q.tokens.includes(id));
   const rng = {
     rng: state.prestige * 8123 + q.id.length * 71,

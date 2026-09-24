@@ -17,7 +17,10 @@
       "audio": {
         "female": "audio/female/fc7edd399a5c4b93.mp3",
         "male": "audio/male/fc7edd399a5c4b93.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L02-00",
+      "meaningIndex": 0
     },
     {
       "id": "L02-01",
@@ -28,7 +31,10 @@
       "audio": {
         "female": "audio/female/ac63f6865782d914.mp3",
         "male": "audio/male/ac63f6865782d914.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L02-01",
+      "meaningIndex": 0
     },
     {
       "id": "L02-02",
@@ -40,7 +46,10 @@
       "audio": {
         "female": "audio/female/41cbc3e287cbeb55.mp3",
         "male": "audio/male/41cbc3e287cbeb55.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L02-02",
+      "meaningIndex": 0
     },
     {
       "id": "L02-03",
@@ -52,7 +61,10 @@
       "audio": {
         "female": "audio/female/80b044f1afc988e1.mp3",
         "male": "audio/male/80b044f1afc988e1.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L02-03",
+      "meaningIndex": 0
     },
     {
       "id": "L02-04",
@@ -64,7 +76,10 @@
       "audio": {
         "female": "audio/female/2f740e1769682233.mp3",
         "male": "audio/male/2f740e1769682233.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L02-04",
+      "meaningIndex": 0
     },
     {
       "id": "L02-05",
@@ -76,7 +91,10 @@
       "audio": {
         "female": "audio/female/e5ec573b3977ce9d.mp3",
         "male": "audio/male/e5ec573b3977ce9d.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L02-05",
+      "meaningIndex": 0
     },
     {
       "id": "L02-06",
@@ -88,7 +106,10 @@
       "audio": {
         "female": "audio/female/ab2a21a25bae1123.mp3",
         "male": "audio/male/ab2a21a25bae1123.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L02-06",
+      "meaningIndex": 0
     },
     {
       "id": "L02-07",
@@ -100,7 +121,10 @@
       "audio": {
         "female": "audio/female/a70676fba2a260e8.mp3",
         "male": "audio/male/a70676fba2a260e8.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L02-07",
+      "meaningIndex": 0
     },
     {
       "id": "L02-08",
@@ -112,7 +136,10 @@
       "audio": {
         "female": "audio/female/7c848f5005f0ee86.mp3",
         "male": "audio/male/7c848f5005f0ee86.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L02-08",
+      "meaningIndex": 0
     },
     {
       "id": "L02-09",
@@ -124,7 +151,10 @@
       "audio": {
         "female": "audio/female/185f23bea0a1fac2.mp3",
         "male": "audio/male/185f23bea0a1fac2.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L02-09",
+      "meaningIndex": 0
     },
     {
       "id": "L02-ui-1",
@@ -135,7 +165,10 @@
       "audio": {
         "female": "audio/female/72b95600a4be0621.mp3",
         "male": "audio/male/72b95600a4be0621.mp3"
-      }
+      },
+      "hasMultipleMeanings": false,
+      "meaningGroup": "L02-ui-1",
+      "meaningIndex": 0
     }
   ],
   "audio": {
