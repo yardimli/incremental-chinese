@@ -249,10 +249,6 @@
     <template id="tpl-drawSets-26">
       <div class="collection-toolbar">
         <div class="row collection-heading">{{0}}<b>{{1}} / {{2}}</b></div>
-        <div class="collection-status-row">
-          <span class="small">{{3}}</span
-          ><a class="collection-back" href="sets.html"><span data-ui="← Back"></span></a>
-        </div>
         <progress value="{{4}}" max="{{5}}"></progress>
         <div class="set-games" aria-label="Games for this set"></div>
       </div>
@@ -319,20 +315,6 @@
         </p>
         {{0}}
       </section>
-    </template>
-    <template id="tpl-drawPlayHome-35">
-      <section class="gate-banner">
-        <i class="sprite sprite-play"></i>
-        <h2><span data-ui="Your journey"></span></h2>
-        <p><span data-ui="Your progress is saved. Continue when you are ready."></span></p>
-      </section>
-      <a id="resume-journey" class="primary" href="{{0}}.html"
-        ><span data-ui="Continue journey"></span></a
-      ><a class="secondary" href="memory.html"><span data-ui="Play memory · earn coins"></span></a>
-      <nav class="journey-extras">
-        <a class="secondary" href="bonus.html"><span data-ui="Bonus"></span></a
-        ><a class="secondary" href="restart.html"><span data-ui="Prestige ×{{1}}"></span></a>
-      </nav>
     </template>
     <template id="tpl-mountBattle-36">
       <div class="playfield arena-field battle-field">
@@ -431,9 +413,6 @@
     <template id="tpl-drawOrder-51">
       <div class="prompt">{{0}}</div>
       <div class="target" style="--slots:{{1}}">{{2}}</div>
-      <div class="small">
-        <span data-ui="Tap or drag to place · Tap an answer to remove"></span>
-      </div>
       <div class="choices">{{3}}</div>
       <div class="status" role="status" aria-live="polite"></div>
       <button class="primary" id="check" data-flag-4=""><span data-ui="Check"></span></button>
@@ -451,9 +430,6 @@
         <i class="sprite sprite-memory"></i>
         <h2><span data-ui="Turn. Remember. Match."></span></h2>
         <p><span data-ui="Chinese + English · six pairs · 3 × 4 cards"></span></p>
-        <p class="practice-note">
-          <span data-ui="You can stop at any time. Coins you earn are yours to keep."></span>
-        </p>
       </section>
       <div class="memory-set-list">{{0}}</div>
       {{1}}<a class="secondary" href="home.html"><span data-ui="Back to Play"></span></a>
@@ -480,16 +456,12 @@
       </button>
     </template>
     <template id="tpl-drawMemory-58">
-      <p class="practice-note">
-        <span data-ui="You can stop at any time. Keep your earned coins."></span>
-      </p>
+      <div class="memory-grid">{{4}}</div>
       <div class="memory-top">
-        <span><span data-ui="Board {{0}} / {{2}}"></span></span><b data-memory-count></b
-        ><button id="memory-back" class="mini-button"><span data-ui="Sets"></span></button>
+        <span><span data-ui="Board {{0}} / {{2}}"></span></span><b data-memory-count></b>
+        <button id="memory-back" class="mini-button"><span data-ui="Sets"></span></button>
       </div>
       <progress max="{{3}}"></progress>
-      <div class="memory-grid">{{4}}</div>
-      <div class="memory-status" role="status"></div>
       <div class="memory-actions"></div>
     </template>
     <template id="tpl-drawMemory-59">

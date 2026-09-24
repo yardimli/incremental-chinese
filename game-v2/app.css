@@ -570,3 +570,61 @@ a .ui-text {
   text-align: center;
   text-shadow: none;
 }
+/* Compact navigation and viewport-safe game surfaces. */
+#game-frame {
+  --shell-bottom: 54px;
+}
+.footer {
+  height: 54px;
+  padding: 3px 8px;
+}
+.footer .button-pinyin,
+.footer .button-english,
+.footer .sprite {
+  display: none;
+}
+.footer a {
+  padding: 2px;
+  min-height: 0;
+}
+.footer .button-chinese {
+  font-size: calc(24px * var(--text-scale, 1));
+  line-height: 1;
+}
+#game-frame.reward #screen {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+  padding-bottom: max(12px, env(safe-area-inset-bottom));
+}
+#game-frame.reward #screen > * {
+  flex-shrink: 0;
+}
+#game-frame[data-page='memory'] #screen {
+  height: calc(var(--game-height, 852px) - var(--shell-top) - var(--shell-bottom) - 16px);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overscroll-behavior: contain;
+}
+#game-frame[data-page='memory'] .memory-grid {
+  --memory-row-height: clamp(
+    calc(77px * var(--text-scale, 1)),
+    calc((var(--game-height, 852px) - var(--shell-top) - var(--shell-bottom) - 150px) / 4),
+    calc(110px * var(--text-scale, 1))
+  );
+  grid-auto-rows: var(--memory-row-height);
+  flex: none;
+  overflow: visible;
+}
+#game-frame[data-page='memory'] .memory-card {
+  height: var(--memory-row-height);
+  min-height: 0;
+}
+#game-frame[data-page='memory'] .memory-top,
+#game-frame[data-page='memory'] .memory-actions,
+#game-frame[data-page='memory'] progress {
+  flex-shrink: 0;
+}

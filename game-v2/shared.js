@@ -203,7 +203,10 @@ function mountShell() {
     : '1';
   frame.style.setProperty('--text-scale', scale);
   frame.dataset.textSize = scale;
-  refreshButtonLabels(frame.querySelector('.footer'), state);
+  refreshButtonLabels(frame.querySelector('.footer'), {
+    ...state,
+    settings: { ...state.settings, display: 'characters' },
+  });
   const reward = page.includes('reward');
   frame.dataset.page = page;
   frame.classList.toggle('reward', reward);
@@ -306,7 +309,12 @@ async function navigate(destination, { historyMode = 'push', animate = true } = 
   let next = url.hash.slice(1) || url.pathname.split('/').pop().replace('.html', '');
   if (next === 'index' || !next) next = 'home';
   if (['boosts', 'village', 'tech'].includes(next)) next = 'home';
-  const nextIdle = next === 'home' && url.searchParams.has('idle');
+  if (next === 'home' && (url.searchParams.has('idle') || state.stage === 'finished')) {
+    next = 'sets';
+    url.searchParams.delete('idle');
+    url.searchParams.set('set', lessons[state.setIndex].id);
+  }
+  const nextIdle = false;
   if (gamePages.includes(next) && !nextIdle) next = route(state);
   if (!frame.querySelector('[data-screen="' + next + '"]')) return;
   const version = ++navigationVersion;
@@ -660,10 +668,6 @@ function drawSets() {
       await navigate(route(state) + '.html');
     };
   });
-  screen.querySelector('.collection-back').onclick = (event) => {
-    event.preventDefault();
-    navigate('sets.html');
-  };
 }
 function drawRestart() {
   render(
@@ -847,7 +851,9 @@ document.addEventListener('click', (event) => {
   const name = url.pathname.split('/').pop().replace('.html', '');
   if (url.origin !== location.origin || (!labels[name] && !gamePages.includes(name))) return;
   event.preventDefault();
-  navigate(link.getAttribute('href'));
+  if (name === 'sets' && link.closest('.footer')) {
+    navigate(page === 'sets' ? 'sets.html' : 'sets.html?set=' + lessons[state.setIndex].id);
+  } else navigate(link.getAttribute('href'));
 });
 window.addEventListener('popstate', () =>
   navigate(location.href, {
@@ -863,6 +869,7 @@ const pauseControl = mountPause({
   onPause: () => {
     speech?.stop();
     scoreCounter.stop();
+    navigate('sets.html?set=' + lessons[state.setIndex].id, { historyMode: 'replace' });
   },
   onResume: () => transact(),
 });
@@ -884,7 +891,7 @@ inactivityControl = mountInactivity({
     disposedrawMatch();
     disposedrawOrder();
     disposedrawBonus();
-    navigate('home.html?idle=1', {
+    navigate('sets.html?set=' + lessons[state.setIndex].id, {
       historyMode: 'replace',
     });
   },
@@ -959,12 +966,7 @@ function setDebugAction(fn) {
   debugAction = fn;
 }
 function drawPlayHome() {
-  screen.classList.add('journey-home');
-  render(screen, view('tpl-drawPlayHome-35', [route(state), E.permanent(state)]));
-  screen.querySelector('#resume-journey').hidden = state.stage === 'finished';
-  if (state.stage === 'finished') {
-    render(screen.querySelector('.gate-banner h2'), ui('Journey complete'));
-  }
+  navigate('sets.html?set=' + lessons[state.setIndex].id, { historyMode: 'replace' });
 }
 function bindGuide() {
   const button = screen.querySelector('#reset-progress');

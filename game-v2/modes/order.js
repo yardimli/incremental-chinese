@@ -34,7 +34,7 @@ export function drawOrder() {
   const q = E.sentencePrompt(state, lessons);
   if (lastQuestion !== q.id) {
     lastQuestion = q.id;
-    placed = [];
+    placed = Array(q.tokens.length).fill(undefined);
     busy = false;
   }
   const pool = lessons
@@ -75,20 +75,20 @@ export function drawOrder() {
         ),
         '',
       ),
-      placed.length === q.tokens.length ? '' : 'disabled',
+      placed.every((value) => value !== undefined) ? '' : 'disabled',
     ]),
   );
   $('.choices').onclick = (e) => {
     const b = e.target.closest('[data-choice]');
-    if (b && !busy && placed.length < q.tokens.length) {
-      placed.push(Number(b.dataset.choice));
+    if (b && !busy && placed.includes(undefined)) {
+      placed[placed.indexOf(undefined)] = Number(b.dataset.choice);
       drawOrder();
     }
   };
   $('.target').onclick = (e) => {
     const b = e.target.closest('[data-slot]');
     if (b && !busy) {
-      placed.splice(Number(b.dataset.slot), 1);
+      placed[Number(b.dataset.slot)] = undefined;
       drawOrder();
     }
   };
@@ -101,8 +101,8 @@ export function drawOrder() {
     e.preventDefault();
     const b = e.target.closest('[data-slot]');
     if (b && dragIndex !== null && !busy) {
-      const [v] = placed.splice(dragIndex, 1);
-      placed.splice(Math.min(Number(b.dataset.slot), placed.length), 0, v);
+      const destination = Number(b.dataset.slot);
+      [placed[dragIndex], placed[destination]] = [placed[destination], placed[dragIndex]];
       dragIndex = null;
       drawOrder();
     }
@@ -110,14 +110,10 @@ export function drawOrder() {
   screen.querySelectorAll('[data-choice]').forEach((card) =>
     bindPairDrag(card, {
       signal: pairActivity.signal,
-      enabled: () => !busy && placed.length < q.tokens.length,
+      enabled: () => !busy && placed.includes(undefined),
       getTargets: () => [...screen.querySelectorAll('[data-slot]')],
       onDrop: (slot) => {
-        placed.splice(
-          Math.min(Number(slot.dataset.slot), placed.length),
-          0,
-          Number(card.dataset.choice),
-        );
+        placed[Number(slot.dataset.slot)] = Number(card.dataset.choice);
         drawOrder();
       },
     }),
@@ -128,8 +124,9 @@ export function drawOrder() {
       enabled: () => !busy,
       getTargets: () => [...screen.querySelectorAll('[data-slot]')],
       onDrop: (slot) => {
-        const [value] = placed.splice(Number(card.dataset.slot), 1);
-        placed.splice(Math.min(Number(slot.dataset.slot), placed.length), 0, value);
+        const source = Number(card.dataset.slot),
+          destination = Number(slot.dataset.slot);
+        [placed[source], placed[destination]] = [placed[destination], placed[source]];
         drawOrder();
       },
     }),
@@ -145,7 +142,7 @@ export function drawOrder() {
     $('#check').click();
   });
   $('#check').onclick = async () => {
-    if (busy) return;
+    if (busy || placed.includes(undefined)) return;
     busy = true;
     const { result } = await transact((s) =>
       E.answerSentence(

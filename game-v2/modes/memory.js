@@ -127,16 +127,6 @@ export function drawMemory() {
     b.querySelector('.memory-front').setAttribute('aria-hidden', String(!face));
   });
   render(
-    screen.querySelector('.memory-status'),
-    ui(
-      done
-        ? 'Board cleared!'
-        : m.open.length === 2
-          ? 'Remember those places.'
-          : 'Find the Chinese–English pairs.',
-    ),
-  );
-  render(
     screen.querySelector('.memory-actions'),
     done
       ? view('tpl-drawMemory-59', [
@@ -200,8 +190,6 @@ async function turn(index) {
       element,
     });
   }
-  if (result?.correct)
-    render(screen.querySelector('.memory-status'), ui('+{0} coins', result.points));
 }
 export function dispose() {
   gameClock.clearTimeout(timer);
